@@ -11,8 +11,15 @@ from .store import Store
 ROOT=Path(os.environ.get('COURSE_ROOT',Path(__file__).resolve().parents[1])).resolve()
 INSTRUCTIONS=(ROOT/'teaching/system_prompt.md').read_text(encoding='utf-8')
 HOST=os.environ.get('MCP_HOST','127.0.0.1')
-allowed_hosts=[x.strip() for x in os.environ.get('MCP_ALLOWED_HOSTS','127.0.0.1:*,localhost:*').split(',') if x.strip()]
-allowed_origins=[x.strip() for x in os.environ.get('MCP_ALLOWED_ORIGINS','http://127.0.0.1:*,http://localhost:*').split(',') if x.strip()]
+allowed_hosts=[x.strip() for x in os.environ.get('MCP_ALLOWED_HOSTS','127.0.0.1:*,localhost:*,mcp.owda.io').split(',') if x.strip()]
+allowed_origins=[x.strip() for x in os.environ.get('MCP_ALLOWED_ORIGINS','http://127.0.0.1:*,http://localhost:*,https://mcp.owda.io').split(',') if x.strip()]
+# Vercel assigns a stable hostname to each deployment. Allow that exact host so
+# preview deployments can be checked without opening the host allowlist broadly.
+vercel_host=os.environ.get('VERCEL_URL')
+if vercel_host:
+    if vercel_host not in allowed_hosts: allowed_hosts.append(vercel_host)
+    vercel_origin='https://'+vercel_host
+    if vercel_origin not in allowed_origins: allowed_origins.append(vercel_origin)
 mcp=FastMCP('DCOM_MCP',instructions=INSTRUCTIONS,host=HOST,port=int(os.environ.get('MCP_PORT','8000')),
     stateless_http=True,json_response=True,transport_security=TransportSecuritySettings(enable_dns_rebinding_protection=True,allowed_hosts=allowed_hosts,allowed_origins=allowed_origins))
 store=Store(ROOT)

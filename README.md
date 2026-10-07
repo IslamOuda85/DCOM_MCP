@@ -50,9 +50,17 @@ Install [the teaching instructions](teaching/system_prompt.md) in the host's tut
 
 The default local endpoint is `http://127.0.0.1:8000/mcp`. For a remote deployment, terminate TLS at your host, set `MCP_HOST=0.0.0.0`, `MCP_ALLOWED_HOSTS` to the deployment hostname (and port if needed), and `MCP_ALLOWED_ORIGINS` to the exact allowed web origin. DNS rebinding protection remains enabled. A Dockerfile is included; publishing this GitHub repository does not deploy a running endpoint.
 
-ChatGPT supports custom MCP servers through an HTTPS server URL or a Secure MCP Tunnel. In ChatGPT Plugins, add a custom MCP server, configure its connection and authentication, then install the resulting plugin. Account/workspace availability is controlled by ChatGPT. See [OpenAI's connection guide](https://developers.openai.com/api/docs/guides/custom-mcp-server). No hosted endpoint has been provisioned for this repository yet.
+ChatGPT supports custom MCP servers through an HTTPS server URL or a Secure MCP Tunnel. In ChatGPT Plugins, add a custom MCP server, configure its connection and authentication, then install the resulting plugin. Account/workspace availability is controlled by ChatGPT. See [OpenAI's connection guide](https://developers.openai.com/api/docs/guides/custom-mcp-server).
 
 This server exposes public course context and no write tools. It has no built-in user accounts or OAuth. If a host requires authentication, configure it at a compatible gateway; never label an unauthenticated deployment as protected.
+
+### Vercel deployment
+
+The repository includes a Python ASGI entry point in [index.py](index.py) for Vercel's Python Functions runtime. It serves the stateless Streamable HTTP MCP endpoint at `/mcp` and a readiness endpoint at `/healthz`. The Vercel function bundle explicitly includes the course release, assets, and teaching instructions. Vercel's Python runtime is currently in Beta; the function bundle must remain within Vercel's published size and duration limits.
+
+Deploy this repository as a **new, separate Vercel project**. Do not connect it to the existing website project or assign it the apex domain `owda.io`. After deploying and checking the Vercel-provided URL, add only `mcp.owda.io` to the new project's Domains settings. At Hostinger, create only the DNS record Vercel specifies for that subdomain; leave the apex and existing website records unchanged. The MCP URL will be `https://mcp.owda.io/mcp`.
+
+Vercel supplies the deployment hostname through `VERCEL_URL`; the server allows that exact hostname for previews, along with the production host `mcp.owda.io`. The allowed-host and allowed-origin protections remain enabled. The root `owda.io` website and its Vercel project are not part of this deployment.
 
 ### Cloudflare deployment
 

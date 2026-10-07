@@ -1,0 +1,13 @@
+.git
+.github
+.pytest_cache
+.wrangler
+node_modules
+cloudflare
+tests
+tools
+Dockerfile
+.dockerignore
+package.json
+package-lock.json
+wrangler.jsonc
