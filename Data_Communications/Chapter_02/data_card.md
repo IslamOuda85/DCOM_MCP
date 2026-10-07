@@ -84,8 +84,8 @@ standards_and_protocols:
 formulas_present: false
 content_stats:
   sections: 19
-  words: 8571
-  approx_tokens: 11142
+  words: 8602
+  approx_tokens: 11183
 asset_stats:
   illustration: 12
   table_image: 0
@@ -135,6 +135,12 @@ retrieval_sections:
 - id: ch02-2-1-1-second-scenario
   title: Second Scenario
   level: 4
+- id: ch02-2-1-1-second-scenario-message-flow
+  title: Layered Message Flow
+  level: 5
+- id: ch02-2-1-1-second-scenario-benefits
+  title: Benefits and Tradeoffs of Protocol Layering
+  level: 5
 - id: ch02-2-1-2
   title: 2.1.2 Principles of Protocol Layering
   level: 3
@@ -226,7 +232,7 @@ review:
   figures: 12
   questions: 30
   source_order_checked: true
-  reviewed_at: '2026-10-07T03:00:38+00:00'
+  reviewed_at: '2026-10-07T04:13:53+00:00'
   method: native PDF reconstruction, rendered figure review, question label and source-page
     comparison
 ---

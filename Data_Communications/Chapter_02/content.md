@@ -132,6 +132,9 @@ robots) that can perform the task at each layer.
 > - use_when: Teach ch02-2-1-1-second-scenario, explain Figure 2.2, or solve a linked practice question.
 > - confidence: high
 
+##### Layered Message Flow
+> id: ch02-2-1-1-second-scenario-message-flow | src: book pp.33–34 | kind: mechanism
+
 Let us assume that Maria sends the first letter to Ann. Maria talks to the machine at
 the third layer as though the machine is Ann and is listening to her. The third layer
 machine listens to what Maria says and creates the plaintext (a letter in English), which
@@ -143,6 +146,9 @@ At Ann’s side, the first layer machine picks up the letter from Ann’s mail b
 machine decrypts the message, creates the plaintext, and passes the plaintext to the
 third-layer machine. The third layer machine takes the plaintext and reads it as though
 Maria is speaking.
+##### Benefits and Tradeoffs of Protocol Layering
+> id: ch02-2-1-1-second-scenario-benefits | src: book p.34 | kind: concept
+
 Protocol layering enables us to divide a complex task into several smaller and simpler tasks. For example, in Figure 2.2, we could have used only one machine to do the
 job of all three machines. However, if Maria and Ann decide that the encryption/
 decryption done by the machine is not enough to protect their secrecy, they would have

@@ -1,0 +1,32 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "dcom-mcp",
+  "main": "cloudflare/src/index.ts",
+  "compatibility_date": "2026-10-07",
+  "compatibility_flags": ["nodejs_compat"],
+  "containers": [
+    {
+      "class_name": "DcomMcpContainer",
+      "image": "./Dockerfile",
+      "max_instances": 1,
+      "instance_type": "basic"
+    }
+  ],
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "DCOM_MCP",
+        "class_name": "DcomMcpContainer"
+      }
+    ]
+  },
+  "exports": {
+    "DcomMcpContainer": {
+      "type": "durable-object",
+      "storage": "sqlite"
+    }
+  },
+  "observability": {
+    "enabled": true
+  }
+}

@@ -2,7 +2,7 @@
 
 A read-only MCP server for a specific Data Communications course. It retrieves textbook sections, chapter data cards, original figures, and practice questions linked to the section being studied.
 
-**Current release:** Chapters 1, 2, 4–10, 12, and 13 are reviewed and available. Chapter 3 is being rebuilt from zero as the final queued chapter and is not yet served as verified content. Chapter 11 is outside this course's configured scope. See [release status](course/release.json) and [review records](course/reviews).
+**Current release:** All 12 configured course chapters—1–10, 12, and 13—are source reviewed and available. The release contains 687 indexed sections, 291 described assets, and 382 section-linked practice questions. Chapter 11 is outside this course's configured scope. See [release status](course/release.json) and [review records](course/reviews).
 
 ## Course grounding
 
@@ -54,6 +54,19 @@ ChatGPT supports custom MCP servers through an HTTPS server URL or a Secure MCP 
 
 This server exposes public course context and no write tools. It has no built-in user accounts or OAuth. If a host requires authentication, configure it at a compatible gateway; never label an unauthenticated deployment as protected.
 
+### Cloudflare deployment
+
+The repository includes a Cloudflare Workers + Containers wrapper in [wrangler.jsonc](wrangler.jsonc) and [cloudflare/src/index.ts](cloudflare/src/index.ts). It builds the existing Python Docker image and exposes its streamable HTTP MCP endpoint through a Worker. Deploy from the repository root with Docker running:
+
+```powershell
+npm install
+npx wrangler login
+npx wrangler deploy --config wrangler.jsonc
+npx wrangler containers list
+```
+
+The resulting Worker URL is the MCP server URL with `/mcp` appended. `/healthz` is a simple readiness check. The first container request can take several minutes while Cloudflare provisions the instance. See the [Cloudflare Containers deployment guide](https://developers.cloudflare.com/containers/get-started/) for account and plan prerequisites.
+
 ## Retrieval workflow
 
 1. `get_course_metadata` and `list_chapters`: check available material.
@@ -82,4 +95,4 @@ python -m pytest -q
 
 Validation checks source-review receipts, question/section/figure links, one canonical asset definition, metadata counts, image hashes and dimensions, encoding, and release fingerprints. Automated checks do not prove complete textbook fidelity by themselves; source review is recorded separately before a chapter is promoted.
 
-The Chapter 1 source notes document the printed `DLS` typo in Q1-15 and the protocol-layering question Q1-16 that belongs to Chapter 2 section 2.1.2. Q1-16 remains source-faithful and explicitly reports when its dependency is not yet released.
+The Chapter 1 source notes document the printed `DLS` typo in Q1-15 and the protocol-layering question Q1-16 that belongs to Chapter 2 section 2.1.2. Q1-16 remains source-faithful and links explicitly to that Chapter 2 section.

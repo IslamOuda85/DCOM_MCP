@@ -1,0 +1,6021 @@
+{
+  "chapter": 3,
+  "spec_version": "1.1-controller",
+  "generated_at": "2026-10-07T12:09:35+00:00",
+  "assets": [
+    {
+      "id": "ch03_ill_001",
+      "file": "ch03_ill_001.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.1",
+      "section_id": "ch03-3-1",
+      "alt": "Figure 3.1: Communication at the physical layer",
+      "sources": [
+        "book Figure 3.1; p.54"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 1261,
+      "sha256": "0947c4a151837036b38fb440d453b5c6665b96498eadd029e30aeb11116c1fa2",
+      "description": "Figure 3.1: Communication at the physical layer. End-to-end physical-layer communication across two LANs, point-to-point and switched WANs, routers, and a national ISP is traced between Alice and Bob; upper-layer communication is logical while each physical hop is direct.",
+      "text_in_image": "Sky Research; Alice; Application; Alice; Transport; Network; Data-link; Physical; R2; Network; To other; Data-link; ISPs; Physical; R2; R1; R4; Network; To other; Data-link; R3; R4; ISPs; Physical; Switched; R5; WAN; Network; Data-link; R5; National ISP; Physical; ISP; R7; Network; To other; Data-link; ISPs; R6; R7; Physical; Legend; Point-to-point WAN; Bob; LAN switch; Application; Transport; WAN switch; Network; Data-link; Router; Bob; Physical; Scientific Books",
+      "use_when": "Use to teach ch03-3-1, interpret Figure 3.1, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "End-to-end physical-layer communication across two LANs, point-to-point and switched WANs, routers, and a national ISP is traced between Alice and Bob; upper-layer communication is logical while each physical hop is direct.",
+      "source_pdf_page": 4,
+      "source_bbox": [
+        99.32,
+        124.9,
+        451.32,
+        544.7
+      ],
+      "labels": [
+        {
+          "text": "Sky Research",
+          "bbox": [
+            0.1147,
+            0.0807,
+            0.2387,
+            0.0998
+          ]
+        },
+        {
+          "text": "Alice",
+          "bbox": [
+            0.4279,
+            0.0825,
+            0.4772,
+            0.1016
+          ]
+        },
+        {
+          "text": "Application",
+          "bbox": [
+            0.4942,
+            0.1049,
+            0.6015,
+            0.1239
+          ]
+        },
+        {
+          "text": "Alice",
+          "bbox": [
+            0.248,
+            0.109,
+            0.2972,
+            0.1281
+          ]
+        },
+        {
+          "text": "Transport",
+          "bbox": [
+            0.4951,
+            0.1278,
+            0.5826,
+            0.1469
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.4925,
+            0.1517,
+            0.5718,
+            0.1708
+          ]
+        },
+        {
+          "text": "Data-link",
+          "bbox": [
+            0.4909,
+            0.1769,
+            0.5768,
+            0.196
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.4901,
+            0.2059,
+            0.5705,
+            0.225
+          ]
+        },
+        {
+          "text": "R2",
+          "bbox": [
+            0.5306,
+            0.2252,
+            0.5572,
+            0.2443
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.5869,
+            0.2479,
+            0.6662,
+            0.267
+          ]
+        },
+        {
+          "text": "To other",
+          "bbox": [
+            0.0332,
+            0.2668,
+            0.109,
+            0.2859
+          ]
+        },
+        {
+          "text": "Data-link",
+          "bbox": [
+            0.5854,
+            0.2729,
+            0.6712,
+            0.292
+          ]
+        },
+        {
+          "text": "ISPs",
+          "bbox": [
+            0.0502,
+            0.2897,
+            0.0919,
+            0.3087
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.5845,
+            0.302,
+            0.665,
+            0.321
+          ]
+        },
+        {
+          "text": "R2",
+          "bbox": [
+            0.3607,
+            0.3042,
+            0.3873,
+            0.3232
+          ]
+        },
+        {
+          "text": "R1",
+          "bbox": [
+            0.226,
+            0.305,
+            0.2525,
+            0.3241
+          ]
+        },
+        {
+          "text": "R4",
+          "bbox": [
+            0.6048,
+            0.3302,
+            0.6313,
+            0.3493
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.6642,
+            0.3523,
+            0.7435,
+            0.3713
+          ]
+        },
+        {
+          "text": "To other",
+          "bbox": [
+            0.0098,
+            0.3657,
+            0.0856,
+            0.3848
+          ]
+        },
+        {
+          "text": "Data-link",
+          "bbox": [
+            0.6629,
+            0.3773,
+            0.7488,
+            0.3963
+          ]
+        },
+        {
+          "text": "R3",
+          "bbox": [
+            0.2758,
+            0.3812,
+            0.3023,
+            0.4002
+          ]
+        },
+        {
+          "text": "R4",
+          "bbox": [
+            0.3943,
+            0.3812,
+            0.4208,
+            0.4002
+          ]
+        },
+        {
+          "text": "ISPs",
+          "bbox": [
+            0.0269,
+            0.3886,
+            0.0686,
+            0.4077
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.6621,
+            0.4063,
+            0.7425,
+            0.4254
+          ]
+        },
+        {
+          "text": "Switched",
+          "bbox": [
+            0.2089,
+            0.5017,
+            0.2935,
+            0.5208
+          ]
+        },
+        {
+          "text": "R5",
+          "bbox": [
+            0.6852,
+            0.5038,
+            0.7117,
+            0.5228
+          ]
+        },
+        {
+          "text": "WAN",
+          "bbox": [
+            0.2254,
+            0.5246,
+            0.2769,
+            0.5436
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.7453,
+            0.5263,
+            0.8246,
+            0.5453
+          ]
+        },
+        {
+          "text": "Data-link",
+          "bbox": [
+            0.744,
+            0.5513,
+            0.8299,
+            0.5703
+          ]
+        },
+        {
+          "text": "R5",
+          "bbox": [
+            0.482,
+            0.5606,
+            0.5085,
+            0.5797
+          ]
+        },
+        {
+          "text": "National ISP",
+          "bbox": [
+            0.1897,
+            0.5637,
+            0.3065,
+            0.5828
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.7432,
+            0.5803,
+            0.8236,
+            0.5993
+          ]
+        },
+        {
+          "text": "ISP",
+          "bbox": [
+            0.6489,
+            0.6293,
+            0.6817,
+            0.6483
+          ]
+        },
+        {
+          "text": "R7",
+          "bbox": [
+            0.7566,
+            0.6422,
+            0.7832,
+            0.6612
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.8162,
+            0.6634,
+            0.8955,
+            0.6824
+          ]
+        },
+        {
+          "text": "To other",
+          "bbox": [
+            0.2682,
+            0.6679,
+            0.344,
+            0.687
+          ]
+        },
+        {
+          "text": "Data-link",
+          "bbox": [
+            0.8149,
+            0.6884,
+            0.9008,
+            0.7074
+          ]
+        },
+        {
+          "text": "ISPs",
+          "bbox": [
+            0.2853,
+            0.6908,
+            0.3269,
+            0.7098
+          ]
+        },
+        {
+          "text": "R6",
+          "bbox": [
+            0.4711,
+            0.706,
+            0.4977,
+            0.7251
+          ]
+        },
+        {
+          "text": "R7",
+          "bbox": [
+            0.6107,
+            0.706,
+            0.6373,
+            0.7251
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.8141,
+            0.7174,
+            0.8945,
+            0.7365
+          ]
+        },
+        {
+          "text": "Legend",
+          "bbox": [
+            0.0626,
+            0.742,
+            0.1346,
+            0.761
+          ]
+        },
+        {
+          "text": "Point-to-point WAN",
+          "bbox": [
+            0.1616,
+            0.7693,
+            0.3457,
+            0.7884
+          ]
+        },
+        {
+          "text": "Bob",
+          "bbox": [
+            0.8265,
+            0.7928,
+            0.8644,
+            0.8118
+          ]
+        },
+        {
+          "text": "LAN switch",
+          "bbox": [
+            0.1616,
+            0.8067,
+            0.2733,
+            0.8257
+          ]
+        },
+        {
+          "text": "Application",
+          "bbox": [
+            0.8829,
+            0.8154,
+            0.9902,
+            0.8344
+          ]
+        },
+        {
+          "text": "Transport",
+          "bbox": [
+            0.8829,
+            0.8384,
+            0.9704,
+            0.8574
+          ]
+        },
+        {
+          "text": "WAN switch",
+          "bbox": [
+            0.1616,
+            0.8549,
+            0.2782,
+            0.874
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.8859,
+            0.8623,
+            0.9652,
+            0.8813
+          ]
+        },
+        {
+          "text": "Data-link",
+          "bbox": [
+            0.8829,
+            0.8874,
+            0.9687,
+            0.9065
+          ]
+        },
+        {
+          "text": "Router",
+          "bbox": [
+            0.1788,
+            0.9033,
+            0.2407,
+            0.9224
+          ]
+        },
+        {
+          "text": "Bob",
+          "bbox": [
+            0.5976,
+            0.9071,
+            0.6355,
+            0.9261
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.8826,
+            0.9165,
+            0.9631,
+            0.9355
+          ]
+        },
+        {
+          "text": "Scientific Books",
+          "bbox": [
+            0.5422,
+            0.9348,
+            0.6919,
+            0.9539
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_002",
+      "file": "ch03_ill_002.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.2",
+      "section_id": "ch03-3-1-2",
+      "alt": "Figure 3.2: Comparison of analog and digital signals",
+      "sources": [
+        "book Figure 3.2; p.55"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 340,
+      "sha256": "1ef6edc41814f9c81ce4cf20a69e01e8eefa5807eb079e09b5ac579942b358ec",
+      "description": "Figure 3.2: Comparison of analog and digital signals. Two time-domain plots contrast a continuously varying analog signal with a digital signal that jumps among discrete levels.",
+      "text_in_image": "Value; Value; Time; Time; a. Analog signal; b. Digital signal",
+      "use_when": "Use to teach ch03-3-1-2, interpret Figure 3.2, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Two time-domain plots contrast a continuously varying analog signal with a digital signal that jumps among discrete levels.",
+      "source_pdf_page": 5,
+      "source_bbox": [
+        114.32,
+        464.92,
+        466.32,
+        577.76
+      ],
+      "labels": [
+        {
+          "text": "Value",
+          "bbox": [
+            0.0499,
+            0.2598,
+            0.1017,
+            0.3307
+          ]
+        },
+        {
+          "text": "Value",
+          "bbox": [
+            0.4851,
+            0.2598,
+            0.5369,
+            0.3307
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.405,
+            0.7064,
+            0.4522,
+            0.7773
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.9029,
+            0.7064,
+            0.9501,
+            0.7773
+          ]
+        },
+        {
+          "text": "a. Analog signal",
+          "bbox": [
+            0.1854,
+            0.8423,
+            0.3324,
+            0.9132
+          ]
+        },
+        {
+          "text": "b. Digital signal",
+          "bbox": [
+            0.6184,
+            0.8423,
+            0.7633,
+            0.9132
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_003",
+      "file": "ch03_ill_003.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.3",
+      "section_id": "ch03-3-2-1",
+      "alt": "Figure 3.3: A sine wave",
+      "sources": [
+        "book Figure 3.3; p.56"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 307,
+      "sha256": "a5127f5ecefa3c28287d99352fbbfb7dd8a4fddd52682a8f3dd49c0a6b1dec7d",
+      "description": "Figure 3.3: A sine wave. A time-domain sine wave marks repeating positive and negative half-cycles around the zero axis.",
+      "text_in_image": "Value; • • •; Time",
+      "use_when": "Use to teach ch03-3-2-1, interpret Figure 3.3, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "A time-domain sine wave marks repeating positive and negative half-cycles around the zero axis.",
+      "source_pdf_page": 6,
+      "source_bbox": [
+        99.32,
+        383.38,
+        451.32,
+        485.66
+      ],
+      "labels": [
+        {
+          "text": "Value",
+          "bbox": [
+            0.1834,
+            0.2899,
+            0.2352,
+            0.3681
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7229,
+            0.6637,
+            0.7581,
+            0.742
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.7694,
+            0.7869,
+            0.8166,
+            0.8651
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_004",
+      "file": "ch03_ill_004.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.4",
+      "section_id": "ch03-3-2-1-peak-amplitude",
+      "alt": "Figure 3.4: Two signals with the same phase and frequency, but different amplitudes",
+      "sources": [
+        "book Figure 3.4; p.57"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 564,
+      "sha256": "85e34077f1b44dbdae21546b721cc17a4e027db0e276fc13a86a22dca05aeea8",
+      "description": "Figure 3.4: Two signals with the same phase and frequency, but different amplitudes. Two sine waves share frequency and phase but use peak amplitudes of 1 and 2, isolating the effect of amplitude.",
+      "text_in_image": "Amplitude; Peak; amplitude; • • •; Time; a. A signal with high peak amplitude; Amplitude; Peak; amplitude; • • •; Time; b. A signal with low peak amplitude",
+      "use_when": "Use to teach ch03-3-2-1-peak-amplitude, interpret Figure 3.4, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Two sine waves share frequency and phase but use peak amplitudes of 1 and 2, isolating the effect of amplitude.",
+      "source_pdf_page": 7,
+      "source_bbox": [
+        114.32,
+        108.88,
+        466.32,
+        296.42
+      ],
+      "labels": [
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.1746,
+            0.1696,
+            0.2718,
+            0.2122
+          ]
+        },
+        {
+          "text": "Peak",
+          "bbox": [
+            0.3155,
+            0.1975,
+            0.3597,
+            0.2402
+          ]
+        },
+        {
+          "text": "amplitude",
+          "bbox": [
+            0.2921,
+            0.2402,
+            0.383,
+            0.2829
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7354,
+            0.3478,
+            0.7706,
+            0.3905
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.7797,
+            0.4151,
+            0.8269,
+            0.4578
+          ]
+        },
+        {
+          "text": "a. A signal with high peak amplitude",
+          "bbox": [
+            0.35,
+            0.5237,
+            0.684,
+            0.5664
+          ]
+        },
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.1732,
+            0.6294,
+            0.2704,
+            0.6721
+          ]
+        },
+        {
+          "text": "Peak",
+          "bbox": [
+            0.3155,
+            0.6862,
+            0.3597,
+            0.7288
+          ]
+        },
+        {
+          "text": "amplitude",
+          "bbox": [
+            0.2921,
+            0.7288,
+            0.383,
+            0.7715
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7346,
+            0.8067,
+            0.7698,
+            0.8493
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.7797,
+            0.8791,
+            0.8269,
+            0.9217
+          ]
+        },
+        {
+          "text": "b. A signal with low peak amplitude",
+          "bbox": [
+            0.3532,
+            0.9188,
+            0.6807,
+            0.9614
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_005",
+      "file": "ch03_ill_005.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.5",
+      "section_id": "ch03-3-2-1-period-and-frequency",
+      "alt": "Figure 3.5: Two signals with the same amplitude and phase, but different frequencies",
+      "sources": [
+        "book Figure 3.5; p.58"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 697,
+      "sha256": "cd2068a09630a61bb188035358da473b3c15a10d9a840f1cbb04dd12f464b548",
+      "description": "Figure 3.5: Two signals with the same amplitude and phase, but different frequencies. Two sine waves share amplitude and phase while completing 12 and 6 cycles per second, illustrating the inverse relationship between frequency and period.",
+      "text_in_image": "12 periods in 1 s; Frequency is 12 Hz; Amplitude; 1 s; • • •; Time; 1; Period:; s; 12; a. A signal with a frequency of 12 Hz; 6 periods in 1 s; Frequency is 6 Hz; Amplitude; 1 s; • • •; Time; T; 1; Period: s; b. A signal with a frequency of 6 Hz; 6",
+      "use_when": "Use to teach ch03-3-2-1-period-and-frequency, interpret Figure 3.5, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Two sine waves share amplitude and phase while completing 12 and 6 cycles per second, illustrating the inverse relationship between frequency and period.",
+      "source_pdf_page": 8,
+      "source_bbox": [
+        99.32,
+        49.9,
+        451.32,
+        281.84
+      ],
+      "labels": [
+        {
+          "text": "12 periods in 1 s",
+          "bbox": [
+            0.3078,
+            0.1604,
+            0.4581,
+            0.1949
+          ]
+        },
+        {
+          "text": "Frequency is 12 Hz",
+          "bbox": [
+            0.5191,
+            0.1604,
+            0.6962,
+            0.1949
+          ]
+        },
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.138,
+            0.1663,
+            0.2352,
+            0.2008
+          ]
+        },
+        {
+          "text": "1 s",
+          "bbox": [
+            0.4933,
+            0.2165,
+            0.5192,
+            0.251
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7746,
+            0.2949,
+            0.8098,
+            0.3294
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.8148,
+            0.3442,
+            0.862,
+            0.3786
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2922,
+            0.439,
+            0.3007,
+            0.4649
+          ]
+        },
+        {
+          "text": "Period:",
+          "bbox": [
+            0.2188,
+            0.4431,
+            0.2901,
+            0.4776
+          ]
+        },
+        {
+          "text": "s",
+          "bbox": [
+            0.3105,
+            0.4431,
+            0.3193,
+            0.4776
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.2879,
+            0.4654,
+            0.305,
+            0.4912
+          ]
+        },
+        {
+          "text": "a. A signal with a frequency of 12 Hz",
+          "bbox": [
+            0.37,
+            0.481,
+            0.7099,
+            0.5155
+          ]
+        },
+        {
+          "text": "6 periods in 1 s",
+          "bbox": [
+            0.3176,
+            0.612,
+            0.4565,
+            0.6465
+          ]
+        },
+        {
+          "text": "Frequency is 6 Hz",
+          "bbox": [
+            0.5207,
+            0.612,
+            0.6864,
+            0.6465
+          ]
+        },
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.138,
+            0.6222,
+            0.2352,
+            0.6567
+          ]
+        },
+        {
+          "text": "1 s",
+          "bbox": [
+            0.4933,
+            0.6662,
+            0.5192,
+            0.7007
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7746,
+            0.745,
+            0.8098,
+            0.7795
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.8148,
+            0.7979,
+            0.862,
+            0.8324
+          ]
+        },
+        {
+          "text": "T",
+          "bbox": [
+            0.2843,
+            0.8752,
+            0.2969,
+            0.9097
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3184,
+            0.9032,
+            0.327,
+            0.9291
+          ]
+        },
+        {
+          "text": "Period: s",
+          "bbox": [
+            0.2458,
+            0.9073,
+            0.3427,
+            0.9418
+          ]
+        },
+        {
+          "text": "b. A signal with a frequency of 6 Hz",
+          "bbox": [
+            0.3774,
+            0.9114,
+            0.7063,
+            0.9458
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.3184,
+            0.9295,
+            0.327,
+            0.9554
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_006",
+      "file": "ch03_ill_006.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.6",
+      "section_id": "ch03-3-2-2",
+      "alt": "Figure 3.6: Three sine waves with the same amplitude and frequency, but different phases",
+      "sources": [
+        "book Figure 3.6; p.60"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 612,
+      "sha256": "92bb7020314625df85aeffe0b0ca3aa774912b735e15cb9f807e283dff8764f5",
+      "description": "Figure 3.6: Three sine waves with the same amplitude and frequency, but different phases. Three equal-frequency sine waves begin at different positions in their cycles to show phase shifts of 0, 90, and 180 degrees.",
+      "text_in_image": "• • •; 0; Time; a. 0 degrees; • • •; 0; Time; 1/4 T; b. 90 degrees; 0; • • •; Time; 1/2 T; c. 180 degrees",
+      "use_when": "Use to teach ch03-3-2-2, interpret Figure 3.6, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Three equal-frequency sine waves begin at different positions in their cycles to show phase shifts of 0, 90, and 180 degrees.",
+      "source_pdf_page": 10,
+      "source_bbox": [
+        99.32,
+        104.86,
+        451.32,
+        308.54
+      ],
+      "labels": [
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7156,
+            0.1991,
+            0.7484,
+            0.2357
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2773,
+            0.2394,
+            0.2878,
+            0.276
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.7677,
+            0.251,
+            0.8124,
+            0.2876
+          ]
+        },
+        {
+          "text": "a. 0 degrees",
+          "bbox": [
+            0.4656,
+            0.3288,
+            0.566,
+            0.3654
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7156,
+            0.5044,
+            0.7484,
+            0.541
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2789,
+            0.5455,
+            0.2894,
+            0.5821
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.7677,
+            0.5591,
+            0.8124,
+            0.5956
+          ]
+        },
+        {
+          "text": "1/4 T",
+          "bbox": [
+            0.1876,
+            0.5596,
+            0.2329,
+            0.5962
+          ]
+        },
+        {
+          "text": "b. 90 degrees",
+          "bbox": [
+            0.4656,
+            0.6396,
+            0.5778,
+            0.6761
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2761,
+            0.8082,
+            0.2867,
+            0.8448
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7156,
+            0.8127,
+            0.7484,
+            0.8493
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.7677,
+            0.8674,
+            0.8124,
+            0.904
+          ]
+        },
+        {
+          "text": "1/2 T",
+          "bbox": [
+            0.2131,
+            0.9018,
+            0.2583,
+            0.9384
+          ]
+        },
+        {
+          "text": "c. 180 degrees",
+          "bbox": [
+            0.4656,
+            0.931,
+            0.5872,
+            0.9675
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_007",
+      "file": "ch03_ill_007.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.7",
+      "section_id": "ch03-3-2-3",
+      "alt": "Figure 3.7: Wavelength and period",
+      "sources": [
+        "book Figure 3.7; p.61"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 319,
+      "sha256": "408c51054a09b48f6b701147bfa2ca690ac64268cb9f2c5af6a14b7b16ea2866",
+      "description": "Figure 3.7: Wavelength and period. Wavefronts separated by one wavelength are shown moving through a transmission medium, relating wavelength to propagation speed and period.",
+      "text_in_image": "Wavelength; Transmission medium; At time t; Direction of; propagation; Transmission medium; At time t + T",
+      "use_when": "Use to teach ch03-3-2-3, interpret Figure 3.7, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Wavefronts separated by one wavelength are shown moving through a transmission medium, relating wavelength to propagation speed and period.",
+      "source_pdf_page": 11,
+      "source_bbox": [
+        114.32,
+        110.86,
+        466.32,
+        216.86
+      ],
+      "labels": [
+        {
+          "text": "Wavelength",
+          "bbox": [
+            0.5832,
+            0.3147,
+            0.6904,
+            0.3902
+          ]
+        },
+        {
+          "text": "Transmission medium",
+          "bbox": [
+            0.1242,
+            0.4263,
+            0.3261,
+            0.5017
+          ]
+        },
+        {
+          "text": "At time t",
+          "bbox": [
+            0.1242,
+            0.5246,
+            0.2051,
+            0.6152
+          ]
+        },
+        {
+          "text": "Direction of",
+          "bbox": [
+            0.7642,
+            0.6315,
+            0.8746,
+            0.707
+          ]
+        },
+        {
+          "text": "propagation",
+          "bbox": [
+            0.7652,
+            0.707,
+            0.8737,
+            0.7824
+          ]
+        },
+        {
+          "text": "Transmission medium",
+          "bbox": [
+            0.1242,
+            0.7386,
+            0.3261,
+            0.8141
+          ]
+        },
+        {
+          "text": "At time t + T",
+          "bbox": [
+            0.1242,
+            0.8416,
+            0.2427,
+            0.9322
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_008",
+      "file": "ch03_ill_008.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.8",
+      "section_id": "ch03-3-2-4",
+      "alt": "Figure 3.8: The time-domain and frequency-domain plots of a sine wave",
+      "sources": [
+        "book Figure 3.8; p.62"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 602,
+      "sha256": "92a8cce11da4a1e76b7d8278fc82297cc232b229779d64a1a2fe00914e4665f2",
+      "description": "Figure 3.8: The time-domain and frequency-domain plots of a sine wave. The same sine wave is represented as a time-domain oscillation and as one frequency-domain line whose height is the peak amplitude.",
+      "text_in_image": "1 second: Frequency: 6 Hz; Amplitude; Peak value: 5 V; 5; • • •; Time; (s); a. A sine wave in the time domain (peak value: 5 V, frequency: 6 Hz); Amplitude; Peak value: 5 V; 5; Frequency; 1; 2; 3; 4; 5; 6; 7; 8; 9 10 11 12 13 14; (Hz); b. The same sine wave in the frequency domain (peak value: 5 V, frequency: 6 Hz)",
+      "use_when": "Use to teach ch03-3-2-4, interpret Figure 3.8, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "The same sine wave is represented as a time-domain oscillation and as one frequency-domain line whose height is the peak amplitude.",
+      "source_pdf_page": 12,
+      "source_bbox": [
+        99.32,
+        101.86,
+        451.32,
+        302.18
+      ],
+      "labels": [
+        {
+          "text": "1 second: Frequency: 6 Hz",
+          "bbox": [
+            0.344,
+            0.1466,
+            0.5847,
+            0.1859
+          ]
+        },
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.0717,
+            0.1599,
+            0.1678,
+            0.1992
+          ]
+        },
+        {
+          "text": "Peak value: 5 V",
+          "bbox": [
+            0.1876,
+            0.23,
+            0.3304,
+            0.2693
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.1623,
+            0.2536,
+            0.1735,
+            0.2929
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7665,
+            0.3359,
+            0.8013,
+            0.3752
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.8572,
+            0.3969,
+            0.9046,
+            0.4362
+          ]
+        },
+        {
+          "text": "(s)",
+          "bbox": [
+            0.8691,
+            0.436,
+            0.8928,
+            0.4753
+          ]
+        },
+        {
+          "text": "a. A sine wave in the time domain (peak value: 5 V, frequency: 6 Hz)",
+          "bbox": [
+            0.2347,
+            0.4911,
+            0.8597,
+            0.5304
+          ]
+        },
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.0717,
+            0.6496,
+            0.1678,
+            0.6889
+          ]
+        },
+        {
+          "text": "Peak value: 5 V",
+          "bbox": [
+            0.1974,
+            0.6651,
+            0.3403,
+            0.7043
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.1616,
+            0.6919,
+            0.1728,
+            0.7312
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.8335,
+            0.8303,
+            0.9283,
+            0.8695
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2041,
+            0.8361,
+            0.2153,
+            0.8754
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.2335,
+            0.8361,
+            0.2447,
+            0.8754
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.2628,
+            0.8361,
+            0.2741,
+            0.8754
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.2922,
+            0.8361,
+            0.3034,
+            0.8754
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.3215,
+            0.8361,
+            0.3327,
+            0.8754
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.3509,
+            0.8361,
+            0.3621,
+            0.8754
+          ]
+        },
+        {
+          "text": "7",
+          "bbox": [
+            0.3802,
+            0.8361,
+            0.3915,
+            0.8754
+          ]
+        },
+        {
+          "text": "8",
+          "bbox": [
+            0.4096,
+            0.8361,
+            0.4208,
+            0.8754
+          ]
+        },
+        {
+          "text": "9 10 11 12 13 14",
+          "bbox": [
+            0.4389,
+            0.8361,
+            0.6025,
+            0.8754
+          ]
+        },
+        {
+          "text": "(Hz)",
+          "bbox": [
+            0.8603,
+            0.8693,
+            0.9015,
+            0.9086
+          ]
+        },
+        {
+          "text": "b. The same sine wave in the frequency domain (peak value: 5 V, frequency: 6 Hz)",
+          "bbox": [
+            0.174,
+            0.923,
+            0.9205,
+            0.9622
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_009",
+      "file": "ch03_ill_009.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.9",
+      "section_id": "ch03-3-2-4",
+      "alt": "Figure 3.9: The time domain and frequency domain of three sine waves",
+      "sources": [
+        "book Figure 3.9; p.62"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 427,
+      "sha256": "00ad6657192062c998d615bdca14fc06c77eafa6aa822c7281f5ee975c7d5367",
+      "description": "Figure 3.9: The time domain and frequency domain of three sine waves. Three sine waves are compared in time and frequency domains, where the frequency-domain plot exposes each component's frequency and amplitude directly.",
+      "text_in_image": "Amplitude; Amplitude; 15; 15; 10; 10; 5; 5; • • •; 0; 8; 16; Frequency; Time; b. Frequency-domain representation of; 1 s; the same three signals; a. Time-domain representation of three sine waves; with frequencies 0, 8, and 16",
+      "use_when": "Use to teach ch03-3-2-4, interpret Figure 3.9, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Three sine waves are compared in time and frequency domains, where the frequency-domain plot exposes each component's frequency and amplitude directly.",
+      "source_pdf_page": 12,
+      "source_bbox": [
+        99.32,
+        473.02,
+        451.32,
+        618.56
+      ],
+      "labels": [
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.008,
+            0.2024,
+            0.1042,
+            0.2562
+          ]
+        },
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.5885,
+            0.2082,
+            0.6847,
+            0.262
+          ]
+        },
+        {
+          "text": "15",
+          "bbox": [
+            0.0152,
+            0.3377,
+            0.0377,
+            0.3916
+          ]
+        },
+        {
+          "text": "15",
+          "bbox": [
+            0.5971,
+            0.3398,
+            0.6195,
+            0.3936
+          ]
+        },
+        {
+          "text": "10",
+          "bbox": [
+            0.0152,
+            0.4097,
+            0.0377,
+            0.4635
+          ]
+        },
+        {
+          "text": "10",
+          "bbox": [
+            0.5971,
+            0.4107,
+            0.6195,
+            0.4645
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.6083,
+            0.4815,
+            0.6195,
+            0.5353
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.0264,
+            0.4827,
+            0.0377,
+            0.5365
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.4707,
+            0.5359,
+            0.5055,
+            0.5897
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.631,
+            0.5972,
+            0.6423,
+            0.651
+          ]
+        },
+        {
+          "text": "8",
+          "bbox": [
+            0.7155,
+            0.5972,
+            0.7268,
+            0.651
+          ]
+        },
+        {
+          "text": "16",
+          "bbox": [
+            0.7944,
+            0.5972,
+            0.8169,
+            0.651
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.8872,
+            0.5995,
+            0.9818,
+            0.6533
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.5167,
+            0.6113,
+            0.5634,
+            0.6651
+          ]
+        },
+        {
+          "text": "b. Frequency-domain representation of",
+          "bbox": [
+            0.6204,
+            0.677,
+            0.9699,
+            0.7308
+          ]
+        },
+        {
+          "text": "1 s",
+          "bbox": [
+            0.2656,
+            0.7189,
+            0.2913,
+            0.7727
+          ]
+        },
+        {
+          "text": "the same three signals",
+          "bbox": [
+            0.6849,
+            0.7409,
+            0.9054,
+            0.7947
+          ]
+        },
+        {
+          "text": "a. Time-domain representation of three sine waves",
+          "bbox": [
+            0.0292,
+            0.8347,
+            0.4889,
+            0.8885
+          ]
+        },
+        {
+          "text": "with frequencies 0, 8, and 16",
+          "bbox": [
+            0.1288,
+            0.8986,
+            0.3893,
+            0.9524
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_010",
+      "file": "ch03_ill_010.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.10",
+      "section_id": "ch03-3-2-5",
+      "alt": "Figure 3.10: A composite periodic signal",
+      "sources": [
+        "book Figure 3.10; p.64"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 432,
+      "sha256": "10492ef1b7b59df0f7dc968c9ef2f998a30b3405650eab3b837ea06889839d72",
+      "description": "Figure 3.10: A composite periodic signal. A periodic composite time-domain signal repeats a nonsinusoidal pattern while its frequency-domain representation contains discrete spectral lines.",
+      "text_in_image": "• • •; Time",
+      "use_when": "Use to teach ch03-3-2-5, interpret Figure 3.10, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "A periodic composite time-domain signal repeats a nonsinusoidal pattern while its frequency-domain representation contains discrete spectral lines.",
+      "source_pdf_page": 14,
+      "source_bbox": [
+        100.34,
+        48.52,
+        451.32,
+        192.08
+      ],
+      "labels": [
+        {
+          "text": "• • •",
+          "bbox": [
+            0.8348,
+            0.5314,
+            0.8716,
+            0.5922
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.8787,
+            0.6164,
+            0.9288,
+            0.6772
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_011",
+      "file": "ch03_ill_011.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.11",
+      "section_id": "ch03-3-2-5",
+      "alt": "Figure 3.11: Decomposition of a composite periodic signal in the time and frequency domains",
+      "sources": [
+        "book Figure 3.11; p.64"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 576,
+      "sha256": "57b0cd9d5a98c917b70d01c5621e287d415cf8128eaa1c7c57f61b012fafec1e",
+      "description": "Figure 3.11: Decomposition of a composite periodic signal in the time and frequency domains. Fourier decomposition builds a composite periodic signal by adding a fundamental sine wave and odd harmonics, with component and summed waveforms aligned.",
+      "text_in_image": "Frequency f; Amplitude; Frequency 3f; Frequency 9f; • • •; Time; a. Time-domain decomposition of a composite signal; Amplitude; 9f; 3f; f; Frequency; b. Frequency-domain decomposition of the composite signal",
+      "use_when": "Use to teach ch03-3-2-5, interpret Figure 3.11, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Fourier decomposition builds a composite periodic signal by adding a fundamental sine wave and odd harmonics, with component and summed waveforms aligned.",
+      "source_pdf_page": 14,
+      "source_bbox": [
+        99.32,
+        204.94,
+        451.32,
+        396.44
+      ],
+      "labels": [
+        {
+          "text": "Frequency f",
+          "bbox": [
+            0.7057,
+            0.1502,
+            0.8048,
+            0.198
+          ]
+        },
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.1368,
+            0.1682,
+            0.2261,
+            0.2078
+          ]
+        },
+        {
+          "text": "Frequency 3f",
+          "bbox": [
+            0.7052,
+            0.2031,
+            0.8156,
+            0.2509
+          ]
+        },
+        {
+          "text": "Frequency 9f",
+          "bbox": [
+            0.7052,
+            0.2508,
+            0.8156,
+            0.2986
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7376,
+            0.3397,
+            0.77,
+            0.3793
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.7972,
+            0.4023,
+            0.8412,
+            0.4419
+          ]
+        },
+        {
+          "text": "a. Time-domain decomposition of a composite signal",
+          "bbox": [
+            0.2833,
+            0.5229,
+            0.7287,
+            0.5625
+          ]
+        },
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.1368,
+            0.6187,
+            0.2261,
+            0.6583
+          ]
+        },
+        {
+          "text": "9f",
+          "bbox": [
+            0.4999,
+            0.8538,
+            0.5169,
+            0.9017
+          ]
+        },
+        {
+          "text": "3f",
+          "bbox": [
+            0.2913,
+            0.8556,
+            0.3083,
+            0.9034
+          ]
+        },
+        {
+          "text": "f",
+          "bbox": [
+            0.2236,
+            0.8583,
+            0.2294,
+            0.8992
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.7752,
+            0.8699,
+            0.8632,
+            0.9095
+          ]
+        },
+        {
+          "text": "b. Frequency-domain decomposition of the composite signal",
+          "bbox": [
+            0.2525,
+            0.9037,
+            0.7594,
+            0.9433
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_012",
+      "file": "ch03_ill_012.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.12",
+      "section_id": "ch03-3-2-5",
+      "alt": "Figure 3.12: The time and frequency domains of a nonperiodic signal",
+      "sources": [
+        "book Figure 3.12; p.65"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 478,
+      "sha256": "456d84a4e5fb02a7a8cd6fabcea5488a004a2ac6ded739e78b4594753c70d727",
+      "description": "Figure 3.12: The time and frequency domains of a nonperiodic signal. A nonperiodic time-domain waveform corresponds to a continuous frequency spectrum rather than discrete harmonic lines.",
+      "text_in_image": "Amplitude; Amplitude; Amplitude for sine; wave of frequency f; 0; f; 4 kHz; Time; Frequency; a. Time domain; b. Frequency domain",
+      "use_when": "Use to teach ch03-3-2-5, interpret Figure 3.12, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "A nonperiodic time-domain waveform corresponds to a continuous frequency spectrum rather than discrete harmonic lines.",
+      "source_pdf_page": 15,
+      "source_bbox": [
+        115.34,
+        48.52,
+        466.32,
+        207.62
+      ],
+      "labels": [
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.4767,
+            0.2475,
+            0.578,
+            0.3018
+          ]
+        },
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.036,
+            0.2532,
+            0.1372,
+            0.3075
+          ]
+        },
+        {
+          "text": "Amplitude for sine",
+          "bbox": [
+            0.6106,
+            0.3125,
+            0.7894,
+            0.3668
+          ]
+        },
+        {
+          "text": "wave of frequency f",
+          "bbox": [
+            0.6052,
+            0.3689,
+            0.7948,
+            0.4344
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5102,
+            0.7348,
+            0.522,
+            0.7891
+          ]
+        },
+        {
+          "text": "f",
+          "bbox": [
+            0.6069,
+            0.7411,
+            0.6194,
+            0.8067
+          ]
+        },
+        {
+          "text": "4 kHz",
+          "bbox": [
+            0.7848,
+            0.7413,
+            0.842,
+            0.7955
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.3994,
+            0.7461,
+            0.4493,
+            0.8004
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.8613,
+            0.7458,
+            0.9612,
+            0.8
+          ]
+        },
+        {
+          "text": "a. Time domain",
+          "bbox": [
+            0.1435,
+            0.8847,
+            0.2928,
+            0.939
+          ]
+        },
+        {
+          "text": "b. Frequency domain",
+          "bbox": [
+            0.6012,
+            0.8847,
+            0.8018,
+            0.939
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_013",
+      "file": "ch03_ill_013.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.13",
+      "section_id": "ch03-3-2-6",
+      "alt": "Figure 3.13: The bandwidth of periodic and nonperiodic composite signals",
+      "sources": [
+        "book Figure 3.13; p.66"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 775,
+      "sha256": "bed868eedeaa55b50bd275a9f11b35b23172d92dee6a85ba0c3d601df34a459f",
+      "description": "Figure 3.13: The bandwidth of periodic and nonperiodic composite signals. Bandwidth is the interval between minimum and maximum frequencies for both discrete periodic spectra and continuous nonperiodic spectra.",
+      "text_in_image": "Amplitude; • • •; • • •; 1000; 5000; Frequency; Bandwidth = 5000 – 1000 = 4000 Hz; a. Bandwidth of a periodic signal; Amplitude; 1000; 5000; Frequency; Bandwidth = 5000 – 1000 = 4000 Hz; b. Bandwidth of a nonperiodic signal",
+      "use_when": "Use to teach ch03-3-2-6, interpret Figure 3.13, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Bandwidth is the interval between minimum and maximum frequencies for both discrete periodic spectra and continuous nonperiodic spectra.",
+      "source_pdf_page": 16,
+      "source_bbox": [
+        100.34,
+        66.58,
+        451.32,
+        324.56
+      ],
+      "labels": [
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.12,
+            0.1513,
+            0.2176,
+            0.1823
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.4076,
+            0.3109,
+            0.443,
+            0.3419
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.5189,
+            0.3109,
+            0.5542,
+            0.3419
+          ]
+        },
+        {
+          "text": "1000",
+          "bbox": [
+            0.188,
+            0.3988,
+            0.2336,
+            0.4298
+          ]
+        },
+        {
+          "text": "5000",
+          "bbox": [
+            0.7197,
+            0.3988,
+            0.7653,
+            0.4298
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.7808,
+            0.4018,
+            0.8771,
+            0.4328
+          ]
+        },
+        {
+          "text": "Bandwidth = 5000 – 1000 = 4000 Hz",
+          "bbox": [
+            0.3064,
+            0.4283,
+            0.6468,
+            0.4593
+          ]
+        },
+        {
+          "text": "a. Bandwidth of a periodic signal",
+          "bbox": [
+            0.3343,
+            0.4985,
+            0.637,
+            0.5295
+          ]
+        },
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.12,
+            0.5721,
+            0.2176,
+            0.6031
+          ]
+        },
+        {
+          "text": "1000",
+          "bbox": [
+            0.188,
+            0.8235,
+            0.2336,
+            0.8545
+          ]
+        },
+        {
+          "text": "5000",
+          "bbox": [
+            0.7216,
+            0.8235,
+            0.7672,
+            0.8545
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.7784,
+            0.8263,
+            0.8746,
+            0.8573
+          ]
+        },
+        {
+          "text": "Bandwidth = 5000 – 1000 = 4000 Hz",
+          "bbox": [
+            0.3087,
+            0.8528,
+            0.6491,
+            0.8838
+          ]
+        },
+        {
+          "text": "b. Bandwidth of a nonperiodic signal",
+          "bbox": [
+            0.3343,
+            0.9258,
+            0.6724,
+            0.9568
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_014",
+      "file": "ch03_ill_014.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.14",
+      "section_id": "ch03-3-2-6",
+      "alt": "Figure 3.14: The bandwidth for Example 3.10",
+      "sources": [
+        "book Figure 3.14; p.66"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 277,
+      "sha256": "889ad0115ea66c9f193027bdd22653fa33f42595c2d522fc2e90f7f77413aab4",
+      "description": "Figure 3.14: The bandwidth for Example 3.10. A discrete spectrum marks 100, 300, 500, 700, and 900 Hz components, so the periodic signal spans an 800 Hz bandwidth.",
+      "text_in_image": "10 V; 100; 300; 500; 700; 900; Frequency; Bandwidth = 900 − 100 = 800 Hz",
+      "use_when": "Use to teach ch03-3-2-6, interpret Figure 3.14, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "A discrete spectrum marks 100, 300, 500, 700, and 900 Hz components, so the periodic signal spans an 800 Hz bandwidth.",
+      "source_pdf_page": 16,
+      "source_bbox": [
+        99.32,
+        337.42,
+        451.32,
+        429.62
+      ],
+      "labels": [
+        {
+          "text": "10 V",
+          "bbox": [
+            0.1778,
+            0.343,
+            0.2226,
+            0.4297
+          ]
+        },
+        {
+          "text": "100",
+          "bbox": [
+            0.2964,
+            0.6027,
+            0.3305,
+            0.6895
+          ]
+        },
+        {
+          "text": "300",
+          "bbox": [
+            0.3859,
+            0.6027,
+            0.42,
+            0.6895
+          ]
+        },
+        {
+          "text": "500",
+          "bbox": [
+            0.4744,
+            0.6027,
+            0.5085,
+            0.6895
+          ]
+        },
+        {
+          "text": "700",
+          "bbox": [
+            0.5653,
+            0.6027,
+            0.5994,
+            0.6895
+          ]
+        },
+        {
+          "text": "900",
+          "bbox": [
+            0.6576,
+            0.6027,
+            0.6917,
+            0.6895
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.7262,
+            0.6136,
+            0.8222,
+            0.7004
+          ]
+        },
+        {
+          "text": "Bandwidth = 900 − 100 = 800 Hz",
+          "bbox": [
+            0.3366,
+            0.8008,
+            0.643,
+            0.9049
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_015",
+      "file": "ch03_ill_015.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.15",
+      "section_id": "ch03-3-2-6",
+      "alt": "Figure 3.15: The bandwidth for Example 3.11",
+      "sources": [
+        "book Figure 3.15; p.67"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 303,
+      "sha256": "b1c1a6fdde3676c7290f1b476d617b3ce48f78249c3ad37d3825278e34677efa",
+      "description": "Figure 3.15: The bandwidth for Example 3.11. The spectrum for Example 3.11 contains integer-frequency lines from 40 through 60 Hz, giving a 20 Hz bandwidth.",
+      "text_in_image": "40; 41; 42; 58; 59; 60; Frequency; (Hz); Bandwidth = 60 − 40 = 20 Hz",
+      "use_when": "Use to teach ch03-3-2-6, interpret Figure 3.15, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "The spectrum for Example 3.11 contains integer-frequency lines from 40 through 60 Hz, giving a 20 Hz bandwidth.",
+      "source_pdf_page": 17,
+      "source_bbox": [
+        115.34,
+        48.52,
+        466.32,
+        149.18
+      ],
+      "labels": [
+        {
+          "text": "40",
+          "bbox": [
+            0.1659,
+            0.6042,
+            0.189,
+            0.6881
+          ]
+        },
+        {
+          "text": "41",
+          "bbox": [
+            0.1931,
+            0.6042,
+            0.2162,
+            0.6881
+          ]
+        },
+        {
+          "text": "42",
+          "bbox": [
+            0.2202,
+            0.6042,
+            0.2433,
+            0.6881
+          ]
+        },
+        {
+          "text": "58",
+          "bbox": [
+            0.6549,
+            0.6042,
+            0.678,
+            0.6881
+          ]
+        },
+        {
+          "text": "59",
+          "bbox": [
+            0.6821,
+            0.6042,
+            0.7052,
+            0.6881
+          ]
+        },
+        {
+          "text": "60",
+          "bbox": [
+            0.7092,
+            0.6042,
+            0.7323,
+            0.6881
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.8015,
+            0.626,
+            0.899,
+            0.7099
+          ]
+        },
+        {
+          "text": "(Hz)",
+          "bbox": [
+            0.8282,
+            0.7309,
+            0.8723,
+            0.8147
+          ]
+        },
+        {
+          "text": "Bandwidth = 60 − 40 = 20 Hz",
+          "bbox": [
+            0.3122,
+            0.747,
+            0.5888,
+            0.8484
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_016",
+      "file": "ch03_ill_016.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.16",
+      "section_id": "ch03-3-2-6",
+      "alt": "Figure 3.16: The bandwidth for Example 3.12",
+      "sources": [
+        "book Figure 3.16; p.67"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 357,
+      "sha256": "f06e75ae0ed79f1ac47c8c7d827f749dce1c667c7e8b6c95ff56f565b4438e16",
+      "description": "Figure 3.16: The bandwidth for Example 3.12. The continuous spectrum for Example 3.12 extends from 40 to 240 kHz and reaches its peak amplitude at the 140 kHz middle frequency.",
+      "text_in_image": "Amplitude; 40 kHz; 140 kHz; 240 kHz; Frequency",
+      "use_when": "Use to teach ch03-3-2-6, interpret Figure 3.16, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "The continuous spectrum for Example 3.12 extends from 40 to 240 kHz and reaches its peak amplitude at the 140 kHz middle frequency.",
+      "source_pdf_page": 17,
+      "source_bbox": [
+        114.32,
+        203.02,
+        466.32,
+        321.74
+      ],
+      "labels": [
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.082,
+            0.2869,
+            0.1834,
+            0.3621
+          ]
+        },
+        {
+          "text": "40 kHz",
+          "bbox": [
+            0.2065,
+            0.8223,
+            0.2756,
+            0.8975
+          ]
+        },
+        {
+          "text": "140 kHz",
+          "bbox": [
+            0.4471,
+            0.8223,
+            0.534,
+            0.8975
+          ]
+        },
+        {
+          "text": "240 kHz",
+          "bbox": [
+            0.7038,
+            0.8223,
+            0.7907,
+            0.8975
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.818,
+            0.8252,
+            0.918,
+            0.9004
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_017",
+      "file": "ch03_ill_017.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.17",
+      "section_id": "ch03-3-3-1",
+      "alt": "Figure 3.17: Two digital signals: one with two signal levels and the other with four signal levels",
+      "sources": [
+        "book Figure 3.17; p.68"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 742,
+      "sha256": "123200bf0c8e6cbec6dce92ff0235dd54dbcd21fae1436c1448a02aafd03605d",
+      "description": "Figure 3.17: Two digital signals: one with two signal levels and the other with four signal levels. Two digital waveforms show how two voltage levels carry one bit per level while four voltage levels carry two bits per level, producing 8 and 16 bps over the same interval.",
+      "text_in_image": "8 bits sent in 1 s,; Amplitude; Bit rate = 8 bps; 1; 0; 1; 1; 0; 0; 0; 1; Level 2; • • •; Level 1; 1 s; Time; a. A digital signal with two levels; Amplitude; 16 bits sent in 1 s,; Bit rate = 16 bps; 11; 10; 01; 01; 00; 00; 00; 10; Level 4; Level 3; • • •; 1 s; Time; Level 2; Level 1; b. A digital signal with four levels",
+      "use_when": "Use to teach ch03-3-3-1, interpret Figure 3.17, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Two digital waveforms show how two voltage levels carry one bit per level while four voltage levels carry two bits per level, producing 8 and 16 bps over the same interval.",
+      "source_pdf_page": 18,
+      "source_bbox": [
+        99.32,
+        234.88,
+        451.32,
+        481.82
+      ],
+      "labels": [
+        {
+          "text": "8 bits sent in 1 s,",
+          "bbox": [
+            0.4183,
+            0.1316,
+            0.5731,
+            0.1645
+          ]
+        },
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.1517,
+            0.1386,
+            0.2503,
+            0.1715
+          ]
+        },
+        {
+          "text": "Bit rate = 8 bps",
+          "bbox": [
+            0.4246,
+            0.1712,
+            0.5668,
+            0.2041
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2314,
+            0.249,
+            0.2429,
+            0.2819
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3038,
+            0.2502,
+            0.3153,
+            0.2831
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3761,
+            0.2502,
+            0.3877,
+            0.2831
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4485,
+            0.2502,
+            0.4601,
+            0.2831
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5209,
+            0.2502,
+            0.5324,
+            0.2831
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5933,
+            0.2502,
+            0.6048,
+            0.2831
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6657,
+            0.2502,
+            0.6772,
+            0.2831
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7381,
+            0.2502,
+            0.7496,
+            0.2831
+          ]
+        },
+        {
+          "text": "Level 2",
+          "bbox": [
+            0.115,
+            0.2785,
+            0.1838,
+            0.3114
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7915,
+            0.347,
+            0.8272,
+            0.3799
+          ]
+        },
+        {
+          "text": "Level 1",
+          "bbox": [
+            0.115,
+            0.3603,
+            0.1838,
+            0.3932
+          ]
+        },
+        {
+          "text": "1 s",
+          "bbox": [
+            0.767,
+            0.3924,
+            0.7932,
+            0.4253
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.8407,
+            0.4013,
+            0.8893,
+            0.4343
+          ]
+        },
+        {
+          "text": "a. A digital signal with two levels",
+          "bbox": [
+            0.3491,
+            0.4434,
+            0.6593,
+            0.4763
+          ]
+        },
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.1489,
+            0.5322,
+            0.2474,
+            0.5651
+          ]
+        },
+        {
+          "text": "16 bits sent in 1 s,",
+          "bbox": [
+            0.4096,
+            0.5394,
+            0.576,
+            0.5723
+          ]
+        },
+        {
+          "text": "Bit rate = 16 bps",
+          "bbox": [
+            0.4159,
+            0.5789,
+            0.5697,
+            0.6118
+          ]
+        },
+        {
+          "text": "11",
+          "bbox": [
+            0.2228,
+            0.6503,
+            0.2458,
+            0.6832
+          ]
+        },
+        {
+          "text": "10",
+          "bbox": [
+            0.2952,
+            0.6515,
+            0.3182,
+            0.6844
+          ]
+        },
+        {
+          "text": "01",
+          "bbox": [
+            0.3675,
+            0.6515,
+            0.3906,
+            0.6844
+          ]
+        },
+        {
+          "text": "01",
+          "bbox": [
+            0.4399,
+            0.6515,
+            0.463,
+            0.6844
+          ]
+        },
+        {
+          "text": "00",
+          "bbox": [
+            0.5123,
+            0.6515,
+            0.5354,
+            0.6844
+          ]
+        },
+        {
+          "text": "00",
+          "bbox": [
+            0.5847,
+            0.6515,
+            0.6077,
+            0.6844
+          ]
+        },
+        {
+          "text": "00",
+          "bbox": [
+            0.6571,
+            0.6515,
+            0.6801,
+            0.6844
+          ]
+        },
+        {
+          "text": "10",
+          "bbox": [
+            0.7295,
+            0.6515,
+            0.7525,
+            0.6844
+          ]
+        },
+        {
+          "text": "Level 4",
+          "bbox": [
+            0.1107,
+            0.6798,
+            0.1795,
+            0.7127
+          ]
+        },
+        {
+          "text": "Level 3",
+          "bbox": [
+            0.111,
+            0.7252,
+            0.1798,
+            0.7581
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7886,
+            0.7483,
+            0.8243,
+            0.7812
+          ]
+        },
+        {
+          "text": "1 s",
+          "bbox": [
+            0.7641,
+            0.7936,
+            0.7904,
+            0.8266
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.8407,
+            0.8024,
+            0.8893,
+            0.8353
+          ]
+        },
+        {
+          "text": "Level 2",
+          "bbox": [
+            0.1114,
+            0.8058,
+            0.1802,
+            0.8387
+          ]
+        },
+        {
+          "text": "Level 1",
+          "bbox": [
+            0.1118,
+            0.8548,
+            0.1806,
+            0.8877
+          ]
+        },
+        {
+          "text": "b. A digital signal with four levels",
+          "bbox": [
+            0.3499,
+            0.9246,
+            0.6652,
+            0.9575
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_018",
+      "file": "ch03_ill_018.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.18",
+      "section_id": "ch03-3-3-3",
+      "alt": "Figure 3.18: The time and frequency domains of periodic and nonperiodic digital signals",
+      "sources": [
+        "book Figure 3.18; p.70"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 616,
+      "sha256": "5567526ddfe13c8435ea0642acc840e49443257248576e6041edac1af840fd5e",
+      "description": "Figure 3.18: The time and frequency domains of periodic and nonperiodic digital signals. Periodic and nonperiodic digital signals are paired with their discrete and continuous frequency spectra.",
+      "text_in_image": "• • •; • • •; 3f; 5f; 7f; 9f; 13f; 11f; Time; f; Frequency; a. Time and frequency domains of periodic digital signal; • • •; 0; Time; Frequency; b. Time and frequency domains of nonperiodic digital signal",
+      "use_when": "Use to teach ch03-3-3-3, interpret Figure 3.18, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Periodic and nonperiodic digital signals are paired with their discrete and continuous frequency spectra.",
+      "source_pdf_page": 20,
+      "source_bbox": [
+        99.32,
+        242.92,
+        451.32,
+        447.68
+      ],
+      "labels": [
+        {
+          "text": "• • •",
+          "bbox": [
+            0.3643,
+            0.3153,
+            0.3996,
+            0.3544
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.8371,
+            0.3153,
+            0.8724,
+            0.3544
+          ]
+        },
+        {
+          "text": "3f",
+          "bbox": [
+            0.5158,
+            0.3706,
+            0.5344,
+            0.4175
+          ]
+        },
+        {
+          "text": "5f",
+          "bbox": [
+            0.5693,
+            0.3706,
+            0.5879,
+            0.4175
+          ]
+        },
+        {
+          "text": "7f",
+          "bbox": [
+            0.6228,
+            0.3706,
+            0.6414,
+            0.4175
+          ]
+        },
+        {
+          "text": "9f",
+          "bbox": [
+            0.6763,
+            0.3706,
+            0.6949,
+            0.4175
+          ]
+        },
+        {
+          "text": "13f",
+          "bbox": [
+            0.7777,
+            0.3706,
+            0.8077,
+            0.4175
+          ]
+        },
+        {
+          "text": "11f",
+          "bbox": [
+            0.7242,
+            0.3729,
+            0.7541,
+            0.4198
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.3928,
+            0.3765,
+            0.4408,
+            0.4156
+          ]
+        },
+        {
+          "text": "f",
+          "bbox": [
+            0.4707,
+            0.3785,
+            0.4771,
+            0.4176
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.8545,
+            0.3803,
+            0.9504,
+            0.4193
+          ]
+        },
+        {
+          "text": "a. Time and frequency domains of periodic digital signal",
+          "bbox": [
+            0.2158,
+            0.5375,
+            0.7316,
+            0.5766
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.8437,
+            0.802,
+            0.8789,
+            0.8411
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4722,
+            0.8533,
+            0.4836,
+            0.8924
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.3882,
+            0.8611,
+            0.4362,
+            0.9001
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.861,
+            0.8659,
+            0.957,
+            0.905
+          ]
+        },
+        {
+          "text": "b. Time and frequency domains of nonperiodic digital signal",
+          "bbox": [
+            0.2158,
+            0.9244,
+            0.7669,
+            0.9635
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_019",
+      "file": "ch03_ill_019.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.19",
+      "section_id": "ch03-3-3-4",
+      "alt": "Figure 3.19: Baseband transmission",
+      "sources": [
+        "book Figure 3.19; p.71"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 299,
+      "sha256": "b7111b68b0a66d2427bc0b5268754cfda478302b2cbaf6d5252ea325728482a8",
+      "description": "Figure 3.19: Baseband transmission. Baseband transmission sends a digital waveform directly through a low-pass channel and reconstructs the waveform at the receiver.",
+      "text_in_image": "Digital signal; Channel",
+      "use_when": "Use to teach ch03-3-3-4, interpret Figure 3.19, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Baseband transmission sends a digital waveform directly through a low-pass channel and reconstructs the waveform at the receiver.",
+      "source_pdf_page": 21,
+      "source_bbox": [
+        114.32,
+        130.9,
+        466.32,
+        230.12
+      ],
+      "labels": [
+        {
+          "text": "Digital signal",
+          "bbox": [
+            0.4259,
+            0.4883,
+            0.549,
+            0.5689
+          ]
+        },
+        {
+          "text": "Channel",
+          "bbox": [
+            0.4496,
+            0.7994,
+            0.5253,
+            0.88
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_020",
+      "file": "ch03_ill_020.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.20",
+      "section_id": "ch03-3-3-4-baseband-transmission",
+      "alt": "Figure 3.20: Bandwidths of two low-pass channels",
+      "sources": [
+        "book Figure 3.20; p.71"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 515,
+      "sha256": "80229786a3eb085ee0e66c0a697ed76bcee3bd2380b56779d58c3a9f85054337",
+      "description": "Figure 3.20: Bandwidths of two low-pass channels. Low-pass channels are classified by bandwidth from an ideal unlimited channel through finite wide and narrow channels.",
+      "text_in_image": "Amplitude; 0; Frequency; f1; a. Low-pass channel, wide bandwidth; Amplitude; 0; Frequency; f1; b. Low-pass channel, narrow bandwidth",
+      "use_when": "Use to teach ch03-3-3-4-baseband-transmission, interpret Figure 3.20, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Low-pass channels are classified by bandwidth from an ideal unlimited channel through finite wide and narrow channels.",
+      "source_pdf_page": 21,
+      "source_bbox": [
+        114.32,
+        371.98,
+        466.32,
+        543.02
+      ],
+      "labels": [
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.0459,
+            0.1636,
+            0.1431,
+            0.2104
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.0889,
+            0.4193,
+            0.1002,
+            0.466
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.8585,
+            0.4206,
+            0.9541,
+            0.4674
+          ]
+        },
+        {
+          "text": "f1",
+          "bbox": [
+            0.815,
+            0.4286,
+            0.8298,
+            0.4777
+          ]
+        },
+        {
+          "text": "a. Low-pass channel, wide bandwidth",
+          "bbox": [
+            0.2933,
+            0.4424,
+            0.6361,
+            0.4891
+          ]
+        },
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.0459,
+            0.553,
+            0.1431,
+            0.5997
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.0889,
+            0.8037,
+            0.1002,
+            0.8504
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.8585,
+            0.8116,
+            0.9541,
+            0.8584
+          ]
+        },
+        {
+          "text": "f1",
+          "bbox": [
+            0.3547,
+            0.8168,
+            0.3696,
+            0.8659
+          ]
+        },
+        {
+          "text": "b. Low-pass channel, narrow bandwidth",
+          "bbox": [
+            0.3066,
+            0.8881,
+            0.6699,
+            0.9349
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_021",
+      "file": "ch03_ill_021.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.21",
+      "section_id": "ch03-3-3-4-baseband-transmission",
+      "alt": "Figure 3.21: Baseband transmission using a dedicated medium",
+      "sources": [
+        "book Figure 3.21; p.72"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 378,
+      "sha256": "278549a5611d10e8c17e40894225885504c0aacf91a72d4aa1b283a69157c477",
+      "description": "Figure 3.21: Baseband transmission using a dedicated medium. A dedicated medium between two devices provides the low-pass path required for baseband transmission.",
+      "text_in_image": "Input signal bandwidth; Bandwidth supported by medium; Output signal bandwidth; • • •; • • •; • • •; ∞; 0; f1; f1; f2; f2; t; t; Input signal; Wide-bandwidth channel; Output signal",
+      "use_when": "Use to teach ch03-3-3-4-baseband-transmission, interpret Figure 3.21, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "A dedicated medium between two devices provides the low-pass path required for baseband transmission.",
+      "source_pdf_page": 22,
+      "source_bbox": [
+        99.32,
+        200.86,
+        451.32,
+        326.42
+      ],
+      "labels": [
+        {
+          "text": "Input signal bandwidth",
+          "bbox": [
+            0.094,
+            0.2196,
+            0.3036,
+            0.2833
+          ]
+        },
+        {
+          "text": "Bandwidth supported by medium",
+          "bbox": [
+            0.3598,
+            0.2196,
+            0.6692,
+            0.2833
+          ]
+        },
+        {
+          "text": "Output signal bandwidth",
+          "bbox": [
+            0.7051,
+            0.2196,
+            0.9298,
+            0.2833
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.4968,
+            0.3871,
+            0.532,
+            0.4509
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7998,
+            0.4137,
+            0.8351,
+            0.4774
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.181,
+            0.4278,
+            0.2163,
+            0.4915
+          ]
+        },
+        {
+          "text": "∞",
+          "bbox": [
+            0.3251,
+            0.4891,
+            0.341,
+            0.5528
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.0603,
+            0.4983,
+            0.0717,
+            0.562
+          ]
+        },
+        {
+          "text": "f1",
+          "bbox": [
+            0.4204,
+            0.51,
+            0.4353,
+            0.5769
+          ]
+        },
+        {
+          "text": "f1",
+          "bbox": [
+            0.7243,
+            0.511,
+            0.7391,
+            0.5779
+          ]
+        },
+        {
+          "text": "f2",
+          "bbox": [
+            0.8976,
+            0.5109,
+            0.9124,
+            0.5779
+          ]
+        },
+        {
+          "text": "f2",
+          "bbox": [
+            0.5956,
+            0.5118,
+            0.6105,
+            0.5787
+          ]
+        },
+        {
+          "text": "t",
+          "bbox": [
+            0.339,
+            0.7767,
+            0.3453,
+            0.8404
+          ]
+        },
+        {
+          "text": "t",
+          "bbox": [
+            0.9412,
+            0.7767,
+            0.9475,
+            0.8404
+          ]
+        },
+        {
+          "text": "Input signal",
+          "bbox": [
+            0.1449,
+            0.8679,
+            0.2528,
+            0.9317
+          ]
+        },
+        {
+          "text": "Wide-bandwidth channel",
+          "bbox": [
+            0.4,
+            0.8679,
+            0.6291,
+            0.9317
+          ]
+        },
+        {
+          "text": "Output signal",
+          "bbox": [
+            0.7559,
+            0.8679,
+            0.879,
+            0.9317
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_022",
+      "file": "ch03_ill_022.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.22",
+      "section_id": "ch03-3-3-4-baseband-transmission",
+      "alt": "Figure 3.22: Rough approximation of a digital signal using the first harmonic for worst case",
+      "sources": [
+        "book Figure 3.22; p.73"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 919,
+      "sha256": "e32560412cce75dffee57cf864ccd482dea0c78c5c877c53a49e811961db9d9f",
+      "description": "Figure 3.22: Rough approximation of a digital signal using the first harmonic for worst case. A digital bit pattern is approximated by only its first harmonic, showing the rough waveform recovered when bandwidth is limited.",
+      "text_in_image": "Amplitude; N; Bandwidth = 2; 0; N/4; N/2; Frequency; Digital: bit rate N; Digital: bit rate N; Digital: bit rate N; Digital: bit rate N; 0; 0; 1; 0; 1; 0; 0; 1; 1; 0; 0; 0; Analog: f = 0, p = 180; Analog: f = N/4, p = 180; Analog: f = N/2, p = 180; Analog: f = N/4, p = 270; Digital: bit rate N; Digital: bit rate N; Digital: bit rate N; Digital: bit rate N; 1; 0; 0; 1; 0; 1; 1; 1; 0; 1; 1; 1; Analog: f = N/4, p = 90; Analog: f = N/2, p = 0; Analog: f = N/4, p = 0; Analog: f = 0, p = 0",
+      "use_when": "Use to teach ch03-3-3-4-baseband-transmission, interpret Figure 3.22, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "A digital bit pattern is approximated by only its first harmonic, showing the rough waveform recovered when bandwidth is limited.",
+      "source_pdf_page": 23,
+      "source_bbox": [
+        114.32,
+        240.4,
+        466.32,
+        546.5
+      ],
+      "labels": [
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.295,
+            0.1023,
+            0.3846,
+            0.1264
+          ]
+        },
+        {
+          "text": "N",
+          "bbox": [
+            0.4929,
+            0.1428,
+            0.5121,
+            0.1669
+          ]
+        },
+        {
+          "text": "Bandwidth = 2",
+          "bbox": [
+            0.3815,
+            0.1484,
+            0.5094,
+            0.1864
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3346,
+            0.3092,
+            0.345,
+            0.3333
+          ]
+        },
+        {
+          "text": "N/4",
+          "bbox": [
+            0.4294,
+            0.3092,
+            0.463,
+            0.3381
+          ]
+        },
+        {
+          "text": "N/2",
+          "bbox": [
+            0.5384,
+            0.3092,
+            0.572,
+            0.3381
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.6176,
+            0.3155,
+            0.7056,
+            0.3396
+          ]
+        },
+        {
+          "text": "Digital: bit rate N",
+          "bbox": [
+            0.0694,
+            0.3823,
+            0.2166,
+            0.4112
+          ]
+        },
+        {
+          "text": "Digital: bit rate N",
+          "bbox": [
+            0.2978,
+            0.3823,
+            0.445,
+            0.4112
+          ]
+        },
+        {
+          "text": "Digital: bit rate N",
+          "bbox": [
+            0.5348,
+            0.3823,
+            0.682,
+            0.4112
+          ]
+        },
+        {
+          "text": "Digital: bit rate N",
+          "bbox": [
+            0.7722,
+            0.3823,
+            0.9194,
+            0.4112
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3253,
+            0.4219,
+            0.3358,
+            0.4459
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3652,
+            0.4219,
+            0.3756,
+            0.4459
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4011,
+            0.4219,
+            0.4116,
+            0.4459
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5653,
+            0.4219,
+            0.5757,
+            0.4459
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6052,
+            0.4219,
+            0.6156,
+            0.4459
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6411,
+            0.4219,
+            0.6515,
+            0.4459
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.8056,
+            0.4219,
+            0.8161,
+            0.4459
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8455,
+            0.4219,
+            0.856,
+            0.4459
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8814,
+            0.4219,
+            0.8919,
+            0.4459
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1009,
+            0.4263,
+            0.1114,
+            0.4504
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1408,
+            0.4263,
+            0.1513,
+            0.4504
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1767,
+            0.4263,
+            0.1872,
+            0.4504
+          ]
+        },
+        {
+          "text": "Analog: f = 0, p = 180",
+          "bbox": [
+            0.0521,
+            0.6403,
+            0.238,
+            0.6692
+          ]
+        },
+        {
+          "text": "Analog: f = N/4, p = 180",
+          "bbox": [
+            0.2657,
+            0.6403,
+            0.4731,
+            0.6692
+          ]
+        },
+        {
+          "text": "Analog: f = N/2, p = 180",
+          "bbox": [
+            0.5057,
+            0.6403,
+            0.7131,
+            0.6692
+          ]
+        },
+        {
+          "text": "Analog: f = N/4, p = 270",
+          "bbox": [
+            0.7461,
+            0.6403,
+            0.9535,
+            0.6692
+          ]
+        },
+        {
+          "text": "Digital: bit rate N",
+          "bbox": [
+            0.0744,
+            0.6945,
+            0.2216,
+            0.7234
+          ]
+        },
+        {
+          "text": "Digital: bit rate N",
+          "bbox": [
+            0.2968,
+            0.6945,
+            0.444,
+            0.7234
+          ]
+        },
+        {
+          "text": "Digital: bit rate N",
+          "bbox": [
+            0.5358,
+            0.6945,
+            0.683,
+            0.7234
+          ]
+        },
+        {
+          "text": "Digital: bit rate N",
+          "bbox": [
+            0.7742,
+            0.6945,
+            0.9214,
+            0.7234
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1029,
+            0.7372,
+            0.1134,
+            0.7613
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1428,
+            0.7372,
+            0.1532,
+            0.7613
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1787,
+            0.7372,
+            0.1892,
+            0.7613
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3253,
+            0.7372,
+            0.3358,
+            0.7613
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3652,
+            0.7372,
+            0.3756,
+            0.7613
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4011,
+            0.7372,
+            0.4116,
+            0.7613
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5669,
+            0.7372,
+            0.5774,
+            0.7613
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6068,
+            0.7372,
+            0.6172,
+            0.7613
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6427,
+            0.7372,
+            0.6531,
+            0.7613
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8056,
+            0.7372,
+            0.8161,
+            0.7613
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8455,
+            0.7372,
+            0.856,
+            0.7613
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8814,
+            0.7372,
+            0.8919,
+            0.7613
+          ]
+        },
+        {
+          "text": "Analog: f = N/4, p = 90",
+          "bbox": [
+            0.0466,
+            0.9539,
+            0.2435,
+            0.9828
+          ]
+        },
+        {
+          "text": "Analog: f = N/2, p = 0",
+          "bbox": [
+            0.2762,
+            0.9539,
+            0.4626,
+            0.9828
+          ]
+        },
+        {
+          "text": "Analog: f = N/4, p = 0",
+          "bbox": [
+            0.5162,
+            0.9539,
+            0.7026,
+            0.9828
+          ]
+        },
+        {
+          "text": "Analog: f = 0, p = 0",
+          "bbox": [
+            0.7673,
+            0.9539,
+            0.9323,
+            0.9828
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_023",
+      "file": "ch03_ill_023.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.23",
+      "section_id": "ch03-3-3-4-baseband-transmission",
+      "alt": "Figure 3.23: Simulating a digital signal with first three harmonics",
+      "sources": [
+        "book Figure 3.23; p.74"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 850,
+      "sha256": "196f46db78bf9bac1edaf8238723245f307ca73feaeef77d44bf4138c3ea5fd0",
+      "description": "Figure 3.23: Simulating a digital signal with first three harmonics. Adding the third and fifth harmonics progressively improves the approximation of a digital signal compared with using only the first harmonic.",
+      "text_in_image": "Amplitude; 5N; Bandwidth = 2; Frequency; 0; N/4; N/2; 3N/4; 3N/2; 5N/4; 5N/2; Digital: bit rate N; Analog: f = N/2 and 3N/2; 0; 1; 0; Analog: f = N/2; Analog: f = N/2, 3N/2, and 5N/2",
+      "use_when": "Use to teach ch03-3-3-4-baseband-transmission, interpret Figure 3.23, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Adding the third and fifth harmonics progressively improves the approximation of a digital signal compared with using only the first harmonic.",
+      "source_pdf_page": 24,
+      "source_bbox": [
+        99.32,
+        49.9,
+        451.32,
+        332.72
+      ],
+      "labels": [
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.0577,
+            0.1132,
+            0.1549,
+            0.1415
+          ]
+        },
+        {
+          "text": "5N",
+          "bbox": [
+            0.4813,
+            0.1233,
+            0.5135,
+            0.1572
+          ]
+        },
+        {
+          "text": "Bandwidth = 2",
+          "bbox": [
+            0.3618,
+            0.1356,
+            0.5048,
+            0.1802
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.8255,
+            0.347,
+            0.9211,
+            0.3753
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1006,
+            0.3472,
+            0.112,
+            0.3755
+          ]
+        },
+        {
+          "text": "N/4",
+          "bbox": [
+            0.138,
+            0.3472,
+            0.1726,
+            0.3812
+          ]
+        },
+        {
+          "text": "N/2",
+          "bbox": [
+            0.1923,
+            0.3472,
+            0.2287,
+            0.3812
+          ]
+        },
+        {
+          "text": "3N/4",
+          "bbox": [
+            0.332,
+            0.3472,
+            0.378,
+            0.3812
+          ]
+        },
+        {
+          "text": "3N/2",
+          "bbox": [
+            0.5235,
+            0.3472,
+            0.5696,
+            0.3812
+          ]
+        },
+        {
+          "text": "5N/4",
+          "bbox": [
+            0.6485,
+            0.3472,
+            0.6946,
+            0.3812
+          ]
+        },
+        {
+          "text": "5N/2",
+          "bbox": [
+            0.7476,
+            0.3472,
+            0.7936,
+            0.3812
+          ]
+        },
+        {
+          "text": "Digital: bit rate N",
+          "bbox": [
+            0.1991,
+            0.4337,
+            0.3588,
+            0.4676
+          ]
+        },
+        {
+          "text": "Analog: f = N/2 and 3N/2",
+          "bbox": [
+            0.6065,
+            0.4337,
+            0.8399,
+            0.4676
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1878,
+            0.4881,
+            0.1991,
+            0.5164
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2744,
+            0.4881,
+            0.2857,
+            0.5164
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3523,
+            0.4881,
+            0.3636,
+            0.5164
+          ]
+        },
+        {
+          "text": "Analog: f = N/2",
+          "bbox": [
+            0.2047,
+            0.9379,
+            0.3488,
+            0.9719
+          ]
+        },
+        {
+          "text": "Analog: f = N/2, 3N/2, and 5N/2",
+          "bbox": [
+            0.5746,
+            0.9379,
+            0.8719,
+            0.9719
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_024",
+      "file": "ch03_ill_024.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.24",
+      "section_id": "ch03-3-3-4-broadband-transmission-using-modulation",
+      "alt": "Figure 3.24: Bandwidth of a bandpass channel",
+      "sources": [
+        "book Figure 3.24; p.75"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 304,
+      "sha256": "a87e16fb96554cc7f23b353885cbaa463427f575205d68ad0b77e02ac2da0e9a",
+      "description": "Figure 3.24: Bandwidth of a bandpass channel. Broadband transmission modulates a digital signal into an analog waveform that fits a bandpass channel, then demodulates it at the receiver.",
+      "text_in_image": "Amplitude; f1; f2; Frequency; Bandpass channel",
+      "use_when": "Use to teach ch03-3-3-4-broadband-transmission-using-modulation, interpret Figure 3.24, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Broadband transmission modulates a digital signal into an analog waveform that fits a bandpass channel, then demodulates it at the receiver.",
+      "source_pdf_page": 25,
+      "source_bbox": [
+        114.32,
+        314.92,
+        466.32,
+        415.7
+      ],
+      "labels": [
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.1412,
+            0.3138,
+            0.2385,
+            0.3932
+          ]
+        },
+        {
+          "text": "f1",
+          "bbox": [
+            0.3078,
+            0.764,
+            0.3226,
+            0.8474
+          ]
+        },
+        {
+          "text": "f2",
+          "bbox": [
+            0.5854,
+            0.764,
+            0.6003,
+            0.8474
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.7628,
+            0.7646,
+            0.8588,
+            0.844
+          ]
+        },
+        {
+          "text": "Bandpass channel",
+          "bbox": [
+            0.3712,
+            0.8238,
+            0.5347,
+            0.9031
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_025",
+      "file": "ch03_ill_025.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.25",
+      "section_id": "ch03-3-3-4-broadband-transmission-using-modulation",
+      "alt": "Figure 3.25: Modulation of a digital signal for transmission on a bandpass channel",
+      "sources": [
+        "book Figure 3.25; p.76"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 630,
+      "sha256": "19b64f154e29812254d1b2d527441edaa8d9738336196c0d771f276dcb9dfb9c",
+      "description": "Figure 3.25: Modulation of a digital signal for transmission on a bandpass channel. A bandpass channel is shown carrying an analog modulated signal whose spectrum fits between the channel's lower and upper frequencies.",
+      "text_in_image": "t; t; Input digital signal; Output digital signal; Digital/analog; Analog/digital; converter; converter; Available bandwidth; Output analog signal bandwidth; Input analog signal bandwidth; f1; f2; f1; f2; f1; f2; Bandpass channel; t; t; Input analog signal; Input analog signal",
+      "use_when": "Use to teach ch03-3-3-4-broadband-transmission-using-modulation, interpret Figure 3.25, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "A bandpass channel is shown carrying an analog modulated signal whose spectrum fits between the channel's lower and upper frequencies.",
+      "source_pdf_page": 26,
+      "source_bbox": [
+        99.32,
+        49.9,
+        451.32,
+        259.58
+      ],
+      "labels": [
+        {
+          "text": "t",
+          "bbox": [
+            0.3195,
+            0.2516,
+            0.3259,
+            0.2897
+          ]
+        },
+        {
+          "text": "t",
+          "bbox": [
+            0.944,
+            0.2516,
+            0.9503,
+            0.2897
+          ]
+        },
+        {
+          "text": "Input digital signal",
+          "bbox": [
+            0.1019,
+            0.2561,
+            0.2737,
+            0.2942
+          ]
+        },
+        {
+          "text": "Output digital signal",
+          "bbox": [
+            0.7188,
+            0.2561,
+            0.9057,
+            0.2942
+          ]
+        },
+        {
+          "text": "Digital/analog",
+          "bbox": [
+            0.2873,
+            0.3775,
+            0.4174,
+            0.4157
+          ]
+        },
+        {
+          "text": "Analog/digital",
+          "bbox": [
+            0.5817,
+            0.3861,
+            0.713,
+            0.4242
+          ]
+        },
+        {
+          "text": "converter",
+          "bbox": [
+            0.2873,
+            0.4175,
+            0.3719,
+            0.4556
+          ]
+        },
+        {
+          "text": "converter",
+          "bbox": [
+            0.6284,
+            0.426,
+            0.713,
+            0.4641
+          ]
+        },
+        {
+          "text": "Available bandwidth",
+          "bbox": [
+            0.4005,
+            0.545,
+            0.5882,
+            0.5831
+          ]
+        },
+        {
+          "text": "Output analog signal bandwidth",
+          "bbox": [
+            0.6667,
+            0.5537,
+            0.9577,
+            0.5919
+          ]
+        },
+        {
+          "text": "Input analog signal bandwidth",
+          "bbox": [
+            0.0469,
+            0.5545,
+            0.3228,
+            0.5927
+          ]
+        },
+        {
+          "text": "f1",
+          "bbox": [
+            0.0927,
+            0.6809,
+            0.1075,
+            0.721
+          ]
+        },
+        {
+          "text": "f2",
+          "bbox": [
+            0.2357,
+            0.6809,
+            0.2506,
+            0.721
+          ]
+        },
+        {
+          "text": "f1",
+          "bbox": [
+            0.4175,
+            0.6809,
+            0.4323,
+            0.721
+          ]
+        },
+        {
+          "text": "f2",
+          "bbox": [
+            0.5543,
+            0.6809,
+            0.5691,
+            0.721
+          ]
+        },
+        {
+          "text": "f1",
+          "bbox": [
+            0.7275,
+            0.6809,
+            0.7423,
+            0.721
+          ]
+        },
+        {
+          "text": "f2",
+          "bbox": [
+            0.8705,
+            0.6809,
+            0.8854,
+            0.721
+          ]
+        },
+        {
+          "text": "Bandpass channel",
+          "bbox": [
+            0.4115,
+            0.8206,
+            0.575,
+            0.8588
+          ]
+        },
+        {
+          "text": "t",
+          "bbox": [
+            0.3197,
+            0.8358,
+            0.326,
+            0.874
+          ]
+        },
+        {
+          "text": "t",
+          "bbox": [
+            0.9425,
+            0.8358,
+            0.9488,
+            0.874
+          ]
+        },
+        {
+          "text": "Input analog signal",
+          "bbox": [
+            0.0977,
+            0.8979,
+            0.2719,
+            0.936
+          ]
+        },
+        {
+          "text": "Input analog signal",
+          "bbox": [
+            0.7251,
+            0.8979,
+            0.8993,
+            0.936
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_026",
+      "file": "ch03_ill_026.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.26",
+      "section_id": "ch03-3-4",
+      "alt": "Figure 3.26: Causes of impairment",
+      "sources": [
+        "book Figure 3.26; p.77"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 312,
+      "sha256": "c6fff712fcb5882e7d573b0870d5617d8cbb3cf51916fcee928ba57ba1e3f23c",
+      "description": "Figure 3.26: Causes of impairment. Transmission impairment is organized into attenuation, distortion, and noise as the three causes that change a signal in transit.",
+      "text_in_image": "Impairment; causes; Attenuation; Distortion; Noise",
+      "use_when": "Use to teach ch03-3-4, interpret Figure 3.26, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Transmission impairment is organized into attenuation, distortion, and noise as the three causes that change a signal in transit.",
+      "source_pdf_page": 27,
+      "source_bbox": [
+        114.32,
+        80.86,
+        466.32,
+        184.58
+      ],
+      "labels": [
+        {
+          "text": "Impairment",
+          "bbox": [
+            0.4451,
+            0.3471,
+            0.5512,
+            0.4243
+          ]
+        },
+        {
+          "text": "causes",
+          "bbox": [
+            0.4685,
+            0.4243,
+            0.5278,
+            0.5014
+          ]
+        },
+        {
+          "text": "Attenuation",
+          "bbox": [
+            0.246,
+            0.7794,
+            0.3533,
+            0.8566
+          ]
+        },
+        {
+          "text": "Distortion",
+          "bbox": [
+            0.4539,
+            0.7794,
+            0.5461,
+            0.8566
+          ]
+        },
+        {
+          "text": "Noise",
+          "bbox": [
+            0.6702,
+            0.7794,
+            0.7232,
+            0.8566
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_027",
+      "file": "ch03_ill_027.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.27",
+      "section_id": "ch03-3-4-1",
+      "alt": "Figure 3.27: Attenuation",
+      "sources": [
+        "book Figure 3.27; p.77"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 417,
+      "sha256": "b45853e7458a28d0ef8f4105bd196bf11bbbe843fdebfee1ff1f667b7c883e12",
+      "description": "Figure 3.27: Attenuation. Input and output sine waves show attenuation as a reduction in amplitude while frequency and phase remain unchanged.",
+      "text_in_image": "Original; Attenuated; Amplified; Amplifier; Transmission medium; Point 1; Point 2; Point 3",
+      "use_when": "Use to teach ch03-3-4-1, interpret Figure 3.27, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Input and output sine waves show attenuation as a reduction in amplitude while frequency and phase remain unchanged.",
+      "source_pdf_page": 27,
+      "source_bbox": [
+        114.32,
+        296.44,
+        466.32,
+        435.02
+      ],
+      "labels": [
+        {
+          "text": "Original",
+          "bbox": [
+            0.1718,
+            0.2084,
+            0.2532,
+            0.2661
+          ]
+        },
+        {
+          "text": "Attenuated",
+          "bbox": [
+            0.4932,
+            0.2084,
+            0.5986,
+            0.2661
+          ]
+        },
+        {
+          "text": "Amplified",
+          "bbox": [
+            0.7444,
+            0.2084,
+            0.8366,
+            0.2661
+          ]
+        },
+        {
+          "text": "Amplifier",
+          "bbox": [
+            0.6125,
+            0.7578,
+            0.7009,
+            0.8155
+          ]
+        },
+        {
+          "text": "Transmission medium",
+          "bbox": [
+            0.2783,
+            0.8001,
+            0.4801,
+            0.8578
+          ]
+        },
+        {
+          "text": "Point 1",
+          "bbox": [
+            0.18,
+            0.8161,
+            0.245,
+            0.8738
+          ]
+        },
+        {
+          "text": "Point 2",
+          "bbox": [
+            0.5134,
+            0.8161,
+            0.5784,
+            0.8738
+          ]
+        },
+        {
+          "text": "Point 3",
+          "bbox": [
+            0.7586,
+            0.8161,
+            0.8237,
+            0.8738
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_028",
+      "file": "ch03_ill_028.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.28",
+      "section_id": "ch03-3-4-1-decibel",
+      "alt": "Figure 3.28: Decibels for Example 3.28",
+      "sources": [
+        "book Figure 3.28; p.78"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 341,
+      "sha256": "afafd2670a4477f36cbb058631293da5c50674bfd5206e2cf72b7c7076f0096b",
+      "description": "Figure 3.28: Decibels for Example 3.28. A transmission path combines losses and amplifier gain in decibels; adding the stage values gives the net power change.",
+      "text_in_image": "1 dB; –3 dB; 7 dB; –3 dB; Amplifier; Transmission; Transmission; Point 4; Point 1; Point 2; Point 3; medium; medium",
+      "use_when": "Use to teach ch03-3-4-1-decibel, interpret Figure 3.28, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "A transmission path combines losses and amplifier gain in decibels; adding the stage values gives the net power change.",
+      "source_pdf_page": 28,
+      "source_bbox": [
+        99.32,
+        323.38,
+        451.32,
+        436.76
+      ],
+      "labels": [
+        {
+          "text": "1 dB",
+          "bbox": [
+            0.4785,
+            0.2777,
+            0.5221,
+            0.3482
+          ]
+        },
+        {
+          "text": "–3 dB",
+          "bbox": [
+            0.2232,
+            0.4393,
+            0.2782,
+            0.5099
+          ]
+        },
+        {
+          "text": "7 dB",
+          "bbox": [
+            0.4782,
+            0.4393,
+            0.5218,
+            0.5099
+          ]
+        },
+        {
+          "text": "–3 dB",
+          "bbox": [
+            0.7219,
+            0.4393,
+            0.7768,
+            0.5099
+          ]
+        },
+        {
+          "text": "Amplifier",
+          "bbox": [
+            0.4434,
+            0.7218,
+            0.5318,
+            0.7924
+          ]
+        },
+        {
+          "text": "Transmission",
+          "bbox": [
+            0.1899,
+            0.7866,
+            0.3115,
+            0.8571
+          ]
+        },
+        {
+          "text": "Transmission",
+          "bbox": [
+            0.6885,
+            0.7866,
+            0.8102,
+            0.8571
+          ]
+        },
+        {
+          "text": "Point 4",
+          "bbox": [
+            0.8355,
+            0.7983,
+            0.9006,
+            0.8689
+          ]
+        },
+        {
+          "text": "Point 1",
+          "bbox": [
+            0.0994,
+            0.8039,
+            0.1645,
+            0.8745
+          ]
+        },
+        {
+          "text": "Point 2",
+          "bbox": [
+            0.3448,
+            0.8039,
+            0.4098,
+            0.8745
+          ]
+        },
+        {
+          "text": "Point 3",
+          "bbox": [
+            0.5901,
+            0.8039,
+            0.6552,
+            0.8745
+          ]
+        },
+        {
+          "text": "medium",
+          "bbox": [
+            0.2134,
+            0.8571,
+            0.288,
+            0.9277
+          ]
+        },
+        {
+          "text": "medium",
+          "bbox": [
+            0.7121,
+            0.8571,
+            0.7866,
+            0.9277
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_029",
+      "file": "ch03_ill_029.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.29",
+      "section_id": "ch03-3-4-2",
+      "alt": "Figure 3.29: Distortion",
+      "sources": [
+        "book Figure 3.29; p.79"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 451,
+      "sha256": "dd255f1c4dcee964762391a701da0364fc7b5727f27f6fa209060ec878799256",
+      "description": "Figure 3.29: Distortion. A composite signal's frequency components arrive with unequal delays and amplitudes, so their recombination produces a distorted output waveform.",
+      "text_in_image": "Composite signal; Composite signal; sent; received; Components,; Components,; in phase; out of phase; At the sender; At the receiver",
+      "use_when": "Use to teach ch03-3-4-2, interpret Figure 3.29, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "A composite signal's frequency components arrive with unequal delays and amplitudes, so their recombination produces a distorted output waveform.",
+      "source_pdf_page": 29,
+      "source_bbox": [
+        114.32,
+        308.92,
+        466.32,
+        458.72
+      ],
+      "labels": [
+        {
+          "text": "Composite signal",
+          "bbox": [
+            0.1118,
+            0.2875,
+            0.2703,
+            0.341
+          ]
+        },
+        {
+          "text": "Composite signal",
+          "bbox": [
+            0.7278,
+            0.2875,
+            0.8862,
+            0.3409
+          ]
+        },
+        {
+          "text": "sent",
+          "bbox": [
+            0.1728,
+            0.341,
+            0.2094,
+            0.3944
+          ]
+        },
+        {
+          "text": "received",
+          "bbox": [
+            0.769,
+            0.3409,
+            0.845,
+            0.3943
+          ]
+        },
+        {
+          "text": "Components,",
+          "bbox": [
+            0.3347,
+            0.7574,
+            0.4553,
+            0.8108
+          ]
+        },
+        {
+          "text": "Components,",
+          "bbox": [
+            0.5415,
+            0.7573,
+            0.6621,
+            0.8107
+          ]
+        },
+        {
+          "text": "in phase",
+          "bbox": [
+            0.3575,
+            0.8108,
+            0.4326,
+            0.8642
+          ]
+        },
+        {
+          "text": "out of phase",
+          "bbox": [
+            0.5463,
+            0.8107,
+            0.6574,
+            0.8642
+          ]
+        },
+        {
+          "text": "At the sender",
+          "bbox": [
+            0.2234,
+            0.8818,
+            0.3445,
+            0.9352
+          ]
+        },
+        {
+          "text": "At the receiver",
+          "bbox": [
+            0.6439,
+            0.8818,
+            0.7781,
+            0.9352
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_030",
+      "file": "ch03_ill_030.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.30",
+      "section_id": "ch03-3-4-3",
+      "alt": "Figure 3.30: Noise",
+      "sources": [
+        "book Figure 3.30; p.80"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 395,
+      "sha256": "83eaad28adc94930fca37c1e95e1c7b0119dd14c6de47326ab056b8cc4db424e",
+      "description": "Figure 3.30: Noise. Four noise types are illustrated: thermal noise, induced noise, crosstalk, and impulse noise superimposed on a signal.",
+      "text_in_image": "Transmitted; Noise; Received; Transmission medium; Point 1; Point 2",
+      "use_when": "Use to teach ch03-3-4-3, interpret Figure 3.30, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Four noise types are illustrated: thermal noise, induced noise, crosstalk, and impulse noise superimposed on a signal.",
+      "source_pdf_page": 30,
+      "source_bbox": [
+        99.32,
+        49.9,
+        451.32,
+        181.16
+      ],
+      "labels": [
+        {
+          "text": "Transmitted",
+          "bbox": [
+            0.164,
+            0.2265,
+            0.2787,
+            0.2875
+          ]
+        },
+        {
+          "text": "Noise",
+          "bbox": [
+            0.4399,
+            0.2265,
+            0.4929,
+            0.2875
+          ]
+        },
+        {
+          "text": "Received",
+          "bbox": [
+            0.7384,
+            0.2265,
+            0.8221,
+            0.2875
+          ]
+        },
+        {
+          "text": "Transmission medium",
+          "bbox": [
+            0.3991,
+            0.8631,
+            0.601,
+            0.9241
+          ]
+        },
+        {
+          "text": "Point 1",
+          "bbox": [
+            0.1885,
+            0.8794,
+            0.2536,
+            0.9403
+          ]
+        },
+        {
+          "text": "Point 2",
+          "bbox": [
+            0.7466,
+            0.8794,
+            0.8116,
+            0.9403
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_031",
+      "file": "ch03_ill_031.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.31",
+      "section_id": "ch03-3-4-3-signal-to-noise-ratio-snr",
+      "alt": "Figure 3.31: Two cases of SNR: a high SNR and a low SNR",
+      "sources": [
+        "book Figure 3.31; p.80"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 586,
+      "sha256": "aa60bbd2a9b1180d365285db98a7747b37fb1fbc16d009cbe034d8d2f4ba0d86",
+      "description": "Figure 3.31: Two cases of SNR: a high SNR and a low SNR. Two received signals contrast a high signal-to-noise ratio with a low ratio where noise obscures the data waveform.",
+      "text_in_image": "Signal; Noise; Signal + noise; a. High SNR; Signal; Noise; Signal + noise; b. Low SNR",
+      "use_when": "Use to teach ch03-3-4-3-signal-to-noise-ratio-snr, interpret Figure 3.31, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Two received signals contrast a high signal-to-noise ratio with a low ratio where noise obscures the data waveform.",
+      "source_pdf_page": 30,
+      "source_bbox": [
+        99.32,
+        298.54,
+        451.32,
+        493.34
+      ],
+      "labels": [
+        {
+          "text": "Signal",
+          "bbox": [
+            0.225,
+            0.1537,
+            0.2831,
+            0.1948
+          ]
+        },
+        {
+          "text": "Noise",
+          "bbox": [
+            0.5072,
+            0.1537,
+            0.5602,
+            0.1948
+          ]
+        },
+        {
+          "text": "Signal + noise",
+          "bbox": [
+            0.7048,
+            0.1537,
+            0.835,
+            0.1948
+          ]
+        },
+        {
+          "text": "a. High SNR",
+          "bbox": [
+            0.4303,
+            0.5302,
+            0.5471,
+            0.5712
+          ]
+        },
+        {
+          "text": "Signal",
+          "bbox": [
+            0.2235,
+            0.6737,
+            0.2816,
+            0.7148
+          ]
+        },
+        {
+          "text": "Noise",
+          "bbox": [
+            0.5059,
+            0.6737,
+            0.5589,
+            0.7148
+          ]
+        },
+        {
+          "text": "Signal + noise",
+          "bbox": [
+            0.7034,
+            0.6746,
+            0.8336,
+            0.7156
+          ]
+        },
+        {
+          "text": "b. Low SNR",
+          "bbox": [
+            0.431,
+            0.9038,
+            0.5438,
+            0.9449
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_032",
+      "file": "ch03_ill_032.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.32",
+      "section_id": "ch03-3-6-4",
+      "alt": "Figure 3.32: Filling the link with bits for case 1",
+      "sources": [
+        "book Figure 3.32; p.87"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 459,
+      "sha256": "21524f10f5535c99fd56f3bbbfb8612518d278ee327616403d4a8944271f3ad3",
+      "description": "Figure 3.32: Filling the link with bits for case 1. A one-bit-per-second link with a five-second propagation delay is shown at successive times as five bits fill the path.",
+      "text_in_image": "Sender; Receiver; Delay: 5 s; Bandwidth: 1 bps; Bandwidth × delay = 5 bits; After 1 s; 1st bit; After 2 s; 2nd bit; 1st bit; 3rd bit; 2nd bit; 1st bit; After 3 s; After 4 s; 4th bit; 3rd bit; 2nd bit; 1st bit; 1st bit; After 5 s; 5th bit; 4th bit; 3rd bit; 2nd bit; 1 s; 1 s; 1 s; 1 s; 1 s",
+      "use_when": "Use to teach ch03-3-6-4, interpret Figure 3.32, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "A one-bit-per-second link with a five-second propagation delay is shown at successive times as five bits fill the path.",
+      "source_pdf_page": 37,
+      "source_bbox": [
+        114.32,
+        286.9,
+        466.32,
+        439.52
+      ],
+      "labels": [
+        {
+          "text": "Sender",
+          "bbox": [
+            0.2095,
+            0.1844,
+            0.2671,
+            0.2323
+          ]
+        },
+        {
+          "text": "Receiver",
+          "bbox": [
+            0.7698,
+            0.1844,
+            0.8435,
+            0.2323
+          ]
+        },
+        {
+          "text": "Delay: 5 s",
+          "bbox": [
+            0.5416,
+            0.2215,
+            0.6256,
+            0.2694
+          ]
+        },
+        {
+          "text": "Bandwidth: 1 bps",
+          "bbox": [
+            0.3615,
+            0.2259,
+            0.5078,
+            0.2737
+          ]
+        },
+        {
+          "text": "Bandwidth × delay = 5 bits",
+          "bbox": [
+            0.4109,
+            0.2853,
+            0.6364,
+            0.3332
+          ]
+        },
+        {
+          "text": "After 1 s",
+          "bbox": [
+            0.1565,
+            0.456,
+            0.229,
+            0.5038
+          ]
+        },
+        {
+          "text": "1st bit",
+          "bbox": [
+            0.2694,
+            0.4559,
+            0.3207,
+            0.5038
+          ]
+        },
+        {
+          "text": "After 2 s",
+          "bbox": [
+            0.1565,
+            0.5318,
+            0.229,
+            0.5796
+          ]
+        },
+        {
+          "text": "2nd bit",
+          "bbox": [
+            0.2659,
+            0.5318,
+            0.3241,
+            0.5796
+          ]
+        },
+        {
+          "text": "1st bit",
+          "bbox": [
+            0.382,
+            0.5318,
+            0.4333,
+            0.5796
+          ]
+        },
+        {
+          "text": "3rd bit",
+          "bbox": [
+            0.2677,
+            0.6077,
+            0.3224,
+            0.6555
+          ]
+        },
+        {
+          "text": "2nd bit",
+          "bbox": [
+            0.3786,
+            0.6077,
+            0.4368,
+            0.6555
+          ]
+        },
+        {
+          "text": "1st bit",
+          "bbox": [
+            0.4942,
+            0.6077,
+            0.5454,
+            0.6555
+          ]
+        },
+        {
+          "text": "After 3 s",
+          "bbox": [
+            0.1565,
+            0.6077,
+            0.229,
+            0.6555
+          ]
+        },
+        {
+          "text": "After 4 s",
+          "bbox": [
+            0.1565,
+            0.6836,
+            0.229,
+            0.7314
+          ]
+        },
+        {
+          "text": "4th bit",
+          "bbox": [
+            0.2682,
+            0.6836,
+            0.3218,
+            0.7314
+          ]
+        },
+        {
+          "text": "3rd bit",
+          "bbox": [
+            0.3803,
+            0.6836,
+            0.435,
+            0.7314
+          ]
+        },
+        {
+          "text": "2nd bit",
+          "bbox": [
+            0.4907,
+            0.6836,
+            0.5489,
+            0.7314
+          ]
+        },
+        {
+          "text": "1st bit",
+          "bbox": [
+            0.6119,
+            0.6836,
+            0.6632,
+            0.7314
+          ]
+        },
+        {
+          "text": "1st bit",
+          "bbox": [
+            0.722,
+            0.7587,
+            0.7733,
+            0.8065
+          ]
+        },
+        {
+          "text": "After 5 s",
+          "bbox": [
+            0.1565,
+            0.7594,
+            0.229,
+            0.8072
+          ]
+        },
+        {
+          "text": "5th bit",
+          "bbox": [
+            0.2682,
+            0.7602,
+            0.3218,
+            0.808
+          ]
+        },
+        {
+          "text": "4th bit",
+          "bbox": [
+            0.3809,
+            0.7602,
+            0.4345,
+            0.808
+          ]
+        },
+        {
+          "text": "3rd bit",
+          "bbox": [
+            0.4924,
+            0.7602,
+            0.5472,
+            0.808
+          ]
+        },
+        {
+          "text": "2nd bit",
+          "bbox": [
+            0.6121,
+            0.7602,
+            0.6703,
+            0.808
+          ]
+        },
+        {
+          "text": "1 s",
+          "bbox": [
+            0.2834,
+            0.8989,
+            0.307,
+            0.9467
+          ]
+        },
+        {
+          "text": "1 s",
+          "bbox": [
+            0.397,
+            0.8989,
+            0.4206,
+            0.9467
+          ]
+        },
+        {
+          "text": "1 s",
+          "bbox": [
+            0.5106,
+            0.8989,
+            0.5342,
+            0.9467
+          ]
+        },
+        {
+          "text": "1 s",
+          "bbox": [
+            0.6242,
+            0.8989,
+            0.6479,
+            0.9467
+          ]
+        },
+        {
+          "text": "1 s",
+          "bbox": [
+            0.7379,
+            0.8989,
+            0.7616,
+            0.9467
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_033",
+      "file": "ch03_ill_033.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.33",
+      "section_id": "ch03-3-6-4",
+      "alt": "Figure 3.33: Filling the link with bits in case 2",
+      "sources": [
+        "book Figure 3.33; p.88"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 604,
+      "sha256": "b0fb045aeb95a8e00740e0144ead2d17009fd837de2338f4f45ad72c9c62c0e0",
+      "description": "Figure 3.33: Filling the link with bits in case 2. A five-bit-per-second link with the same five-second delay contains 25 bits in flight, demonstrating the bandwidth-delay product.",
+      "text_in_image": "Sender; Receiver; Bandwidth: 5 bps; Delay: 5 s; Bandwidth × delay = 25 bits; First 5 bits; After 1 s; First 5 bits; After 2 s; First 5 bits; After 3 s; First 5 bits; After 4 s; First 5 bits; After 5 s; 1 s; 1 s; 1 s; 1 s; 1 s",
+      "use_when": "Use to teach ch03-3-6-4, interpret Figure 3.33, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "A five-bit-per-second link with the same five-second delay contains 25 bits in flight, demonstrating the bandwidth-delay product.",
+      "source_pdf_page": 38,
+      "source_bbox": [
+        99.32,
+        49.9,
+        451.32,
+        250.94
+      ],
+      "labels": [
+        {
+          "text": "Sender",
+          "bbox": [
+            0.181,
+            0.1707,
+            0.2441,
+            0.2105
+          ]
+        },
+        {
+          "text": "Receiver",
+          "bbox": [
+            0.7951,
+            0.1707,
+            0.8759,
+            0.2105
+          ]
+        },
+        {
+          "text": "Bandwidth: 5 bps",
+          "bbox": [
+            0.3216,
+            0.2507,
+            0.4819,
+            0.2905
+          ]
+        },
+        {
+          "text": "Delay: 5 s",
+          "bbox": [
+            0.5687,
+            0.2533,
+            0.6609,
+            0.2931
+          ]
+        },
+        {
+          "text": "Bandwidth × delay = 25 bits",
+          "bbox": [
+            0.396,
+            0.3067,
+            0.6546,
+            0.3465
+          ]
+        },
+        {
+          "text": "First 5 bits",
+          "bbox": [
+            0.226,
+            0.3675,
+            0.3233,
+            0.4073
+          ]
+        },
+        {
+          "text": "After 1 s",
+          "bbox": [
+            0.1241,
+            0.4252,
+            0.2036,
+            0.465
+          ]
+        },
+        {
+          "text": "First 5 bits",
+          "bbox": [
+            0.3509,
+            0.4623,
+            0.4482,
+            0.502
+          ]
+        },
+        {
+          "text": "After 2 s",
+          "bbox": [
+            0.124,
+            0.521,
+            0.2036,
+            0.5608
+          ]
+        },
+        {
+          "text": "First 5 bits",
+          "bbox": [
+            0.4758,
+            0.5585,
+            0.5731,
+            0.5983
+          ]
+        },
+        {
+          "text": "After 3 s",
+          "bbox": [
+            0.124,
+            0.6168,
+            0.2036,
+            0.6566
+          ]
+        },
+        {
+          "text": "First 5 bits",
+          "bbox": [
+            0.5997,
+            0.6531,
+            0.6969,
+            0.6929
+          ]
+        },
+        {
+          "text": "After 4 s",
+          "bbox": [
+            0.124,
+            0.7126,
+            0.2036,
+            0.7524
+          ]
+        },
+        {
+          "text": "First 5 bits",
+          "bbox": [
+            0.7246,
+            0.7515,
+            0.8219,
+            0.7913
+          ]
+        },
+        {
+          "text": "After 5 s",
+          "bbox": [
+            0.124,
+            0.8084,
+            0.2036,
+            0.8482
+          ]
+        },
+        {
+          "text": "1 s",
+          "bbox": [
+            0.2621,
+            0.9116,
+            0.288,
+            0.9514
+          ]
+        },
+        {
+          "text": "1 s",
+          "bbox": [
+            0.3868,
+            0.9117,
+            0.4127,
+            0.9514
+          ]
+        },
+        {
+          "text": "1 s",
+          "bbox": [
+            0.5113,
+            0.9116,
+            0.5372,
+            0.9514
+          ]
+        },
+        {
+          "text": "1 s",
+          "bbox": [
+            0.6358,
+            0.9116,
+            0.6617,
+            0.9514
+          ]
+        },
+        {
+          "text": "1 s",
+          "bbox": [
+            0.7603,
+            0.9116,
+            0.7862,
+            0.9514
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_034",
+      "file": "ch03_ill_034.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.34",
+      "section_id": "ch03-3-6-4",
+      "alt": "Figure 3.34: Concept of bandwidth-delay product",
+      "sources": [
+        "book Figure 3.34; p.88"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 217,
+      "sha256": "e78e96082433cd591a5eb499c478a93ec17cc70a861cd366078c62f0e7862f11",
+      "description": "Figure 3.34: Concept of bandwidth-delay product. A pipe analogy relates bandwidth to pipe width, propagation delay to pipe length, and bandwidth-delay product to the volume in transit.",
+      "text_in_image": "Length: delay; Cross section: bandwidth; Volume: bandwidth × delay",
+      "use_when": "Use to teach ch03-3-6-4, interpret Figure 3.34, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "A pipe analogy relates bandwidth to pipe width, propagation delay to pipe length, and bandwidth-delay product to the volume in transit.",
+      "source_pdf_page": 38,
+      "source_bbox": [
+        99.32,
+        407.8,
+        451.32,
+        479.96
+      ],
+      "labels": [
+        {
+          "text": "Length: delay",
+          "bbox": [
+            0.5733,
+            0.442,
+            0.6989,
+            0.5529
+          ]
+        },
+        {
+          "text": "Cross section: bandwidth",
+          "bbox": [
+            0.1858,
+            0.6961,
+            0.4156,
+            0.807
+          ]
+        },
+        {
+          "text": "Volume: bandwidth × delay",
+          "bbox": [
+            0.5228,
+            0.6984,
+            0.7741,
+            0.8315
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_035",
+      "file": "ch03_ill_035.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.35",
+      "section_id": "ch03-q-p3-9",
+      "alt": "Figure 3.35: Problem P3-9",
+      "sources": [
+        "book Figure 3.35; p.92"
+      ],
+      "confidence": "high",
+      "width": 948,
+      "height": 267,
+      "sha256": "b136f2ce66ca7967b17dc54a0b672c42f31b16432f70b4c17e3757150017bfd9",
+      "description": "Figure 3.35: Problem P3-9. Problem Figure 3.35 gives a digital pulse train with a labeled 16 ns timing interval for calculating bit rate.",
+      "text_in_image": "16 ns; • • •; Time",
+      "use_when": "Use to teach ch03-q-p3-9, interpret Figure 3.35, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Problem Figure 3.35 gives a digital pulse train with a labeled 16 ns timing interval for calculating bit rate.",
+      "source_pdf_page": 42,
+      "source_bbox": [
+        135.62,
+        68.86,
+        451.32,
+        157.34
+      ],
+      "labels": [
+        {
+          "text": "16 ns",
+          "bbox": [
+            0.4448,
+            0.3459,
+            0.499,
+            0.4363
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.8036,
+            0.5758,
+            0.8429,
+            0.6662
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.8404,
+            0.7264,
+            0.893,
+            0.8168
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_036",
+      "file": "ch03_ill_036.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.36",
+      "section_id": "ch03-q-p3-10",
+      "alt": "Figure 3.36: Problem P3-10",
+      "sources": [
+        "book Figure 3.36; p.92"
+      ],
+      "confidence": "high",
+      "width": 948,
+      "height": 248,
+      "sha256": "b645eb1c0664d35e626b88c835e21314b48e4bc63129ffb617d9a2d55951a171",
+      "description": "Figure 3.36: Problem P3-10. Problem Figure 3.36 gives a sinusoidal waveform with a labeled 4 ms time interval for calculating frequency.",
+      "text_in_image": "4 ms; • • •; Time",
+      "use_when": "Use to teach ch03-q-p3-10, interpret Figure 3.36, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Problem Figure 3.36 gives a sinusoidal waveform with a labeled 4 ms time interval for calculating frequency.",
+      "source_pdf_page": 42,
+      "source_bbox": [
+        135.62,
+        191.2,
+        451.32,
+        273.44
+      ],
+      "labels": [
+        {
+          "text": "4 ms",
+          "bbox": [
+            0.4027,
+            0.3886,
+            0.4513,
+            0.4859
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.6863,
+            0.6067,
+            0.7256,
+            0.704
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.7641,
+            0.7593,
+            0.8167,
+            0.8566
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    },
+    {
+      "id": "ch03_ill_037",
+      "file": "ch03_ill_037.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 3.37",
+      "section_id": "ch03-q-p3-11",
+      "alt": "Figure 3.37: Problem P3-11",
+      "sources": [
+        "book Figure 3.37; p.92"
+      ],
+      "confidence": "high",
+      "width": 948,
+      "height": 282,
+      "sha256": "69a39def7613a2cd4e0255fd267ceb9abb5dd2e7136db8728358df0703369669",
+      "description": "Figure 3.37: Problem P3-11. Problem Figure 3.37 gives discrete spectral lines with labeled frequencies and amplitudes for calculating composite-signal bandwidth.",
+      "text_in_image": "180; Frequency; 5; 5; 5; 5; 5",
+      "use_when": "Use to teach ch03-q-p3-11, interpret Figure 3.37, compare the depicted signals or channels, or solve a linked practice problem.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Problem Figure 3.37 gives discrete spectral lines with labeled frequencies and amplitudes for calculating composite-signal bandwidth.",
+      "source_pdf_page": 42,
+      "source_bbox": [
+        135.62,
+        307.24,
+        451.32,
+        400.94
+      ],
+      "labels": [
+        {
+          "text": "180",
+          "bbox": [
+            0.48,
+            0.5956,
+            0.518,
+            0.681
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.7204,
+            0.6044,
+            0.8273,
+            0.6898
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.2247,
+            0.7464,
+            0.2374,
+            0.8318
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.2843,
+            0.7464,
+            0.2969,
+            0.8318
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.3438,
+            0.7464,
+            0.3565,
+            0.8318
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.4034,
+            0.7464,
+            0.416,
+            0.8318
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.4629,
+            0.7464,
+            0.4756,
+            0.8318
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T12:09:54+00:00"
+      }
+    }
+  ]
+}

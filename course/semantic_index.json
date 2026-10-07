@@ -118,6 +118,60 @@
       "prerequisites": []
     },
     {
+      "chapter": 3,
+      "title": "Introduction to Physical Layer",
+      "key_terms": [
+        "analog",
+        "analog data",
+        "analog signal",
+        "attenuation",
+        "bandpass channel",
+        "bandwidth",
+        "baseband transmission",
+        "bit length",
+        "bit rate",
+        "bits per second (bps)",
+        "broadband transmission",
+        "composite signal",
+        "cycle",
+        "data",
+        "decibel (dB)",
+        "digital",
+        "digital data",
+        "digital signal",
+        "distortion",
+        "Fourier analysis",
+        "frequency",
+        "frequency-domain",
+        "fundamental frequency",
+        "harmonic",
+        "Hertz (Hz)",
+        "jitter",
+        "latency",
+        "low-pass channel",
+        "noise",
+        "nonperiodic signal",
+        "Nyquist bit rate",
+        "peak amplitude",
+        "period",
+        "periodic signal",
+        "phase",
+        "processing delay",
+        "propagation speed",
+        "propagation time",
+        "queuing time",
+        "Shannon capacity",
+        "signal",
+        "signal-to-noise ratio (SNR)",
+        "sine wave",
+        "throughput",
+        "time-domain",
+        "transmission time",
+        "wavelength"
+      ],
+      "prerequisites": []
+    },
+    {
       "chapter": 4,
       "title": "Digital Transmission",
       "key_terms": [
@@ -1862,7 +1916,10 @@
       "chapter": 2,
       "title": "Second Scenario",
       "parent": "ch02-2-1-1",
-      "children": [],
+      "children": [
+        "ch02-2-1-1-second-scenario-message-flow",
+        "ch02-2-1-1-second-scenario-benefits"
+      ],
       "source": "book p.32",
       "kind": "concept",
       "asset_ids": [
@@ -1876,6 +1933,39 @@
         "ch02-q-p2-1",
         "ch02-q-p2-2"
       ]
+    },
+    {
+      "id": "ch02-2-1-1-second-scenario-message-flow",
+      "chapter": 2,
+      "title": "Layered Message Flow",
+      "parent": "ch02-2-1-1-second-scenario",
+      "children": [],
+      "source": "book pp.33–34",
+      "kind": "mechanism",
+      "asset_ids": [],
+      "terms": [
+        "flow",
+        "layered",
+        "message"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch02-2-1-1-second-scenario-benefits",
+      "chapter": 2,
+      "title": "Benefits and Tradeoffs of Protocol Layering",
+      "parent": "ch02-2-1-1-second-scenario",
+      "children": [],
+      "source": "book p.34",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "benefits",
+        "layering",
+        "protocol",
+        "tradeoffs"
+      ],
+      "question_ids": []
     },
     {
       "id": "ch02-2-1-2",
@@ -2440,6 +2530,1905 @@
         "3",
         "4",
         "summary"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-0",
+      "chapter": 3,
+      "title": "Chapter Objectives",
+      "parent": null,
+      "children": [],
+      "source": "book p.53",
+      "kind": "objectives",
+      "asset_ids": [],
+      "terms": [
+        "chapter",
+        "objectives"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-1",
+      "chapter": 3,
+      "title": "3.1 DATA AND SIGNALS",
+      "parent": null,
+      "children": [
+        "ch03-3-1-1",
+        "ch03-3-1-2",
+        "ch03-3-1-3"
+      ],
+      "source": "book 3.1; p.54",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_001"
+      ],
+      "terms": [
+        "1",
+        "3",
+        "data",
+        "signals"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-1-1",
+      "chapter": 3,
+      "title": "3.1.1 Analog and Digital Data",
+      "parent": "ch03-3-1",
+      "children": [],
+      "source": "book 3.1.1; p.55",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "3",
+        "analog",
+        "data",
+        "digital"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-1-2",
+      "chapter": 3,
+      "title": "3.1.2 Analog and Digital Signals",
+      "parent": "ch03-3-1",
+      "children": [],
+      "source": "book 3.1.2; p.55",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_002"
+      ],
+      "terms": [
+        "1",
+        "2",
+        "3",
+        "analog",
+        "digital",
+        "signals"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-1-3",
+      "chapter": 3,
+      "title": "3.1.3 Periodic and Nonperiodic",
+      "parent": "ch03-3-1",
+      "children": [],
+      "source": "book 3.1.3; p.56",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "3",
+        "nonperiodic",
+        "periodic"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-2",
+      "chapter": 3,
+      "title": "3.2 PERIODIC ANALOG SIGNALS",
+      "parent": null,
+      "children": [
+        "ch03-3-2-1",
+        "ch03-3-2-2",
+        "ch03-3-2-3",
+        "ch03-3-2-4",
+        "ch03-3-2-5",
+        "ch03-3-2-6"
+      ],
+      "source": "book 3.2; p.56",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "3",
+        "analog",
+        "periodic",
+        "signals"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-2-1",
+      "chapter": 3,
+      "title": "3.2.1 Sine Wave",
+      "parent": "ch03-3-2",
+      "children": [
+        "ch03-3-2-1-peak-amplitude",
+        "ch03-example-3-1",
+        "ch03-example-3-2",
+        "ch03-3-2-1-period-and-frequency",
+        "ch03-example-3-3",
+        "ch03-example-3-4",
+        "ch03-example-3-5"
+      ],
+      "source": "book 3.2.1; p.56",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_003"
+      ],
+      "terms": [
+        "1",
+        "2",
+        "3",
+        "sine",
+        "wave"
+      ],
+      "question_ids": [
+        "ch03-q-q3-1",
+        "ch03-q-q3-2",
+        "ch03-q-p3-1",
+        "ch03-q-p3-2",
+        "ch03-q-p3-10"
+      ]
+    },
+    {
+      "id": "ch03-3-2-1-peak-amplitude",
+      "chapter": 3,
+      "title": "Peak Amplitude",
+      "parent": "ch03-3-2-1",
+      "children": [],
+      "source": "book p.57",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_004"
+      ],
+      "terms": [
+        "amplitude",
+        "peak"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-1",
+      "chapter": 3,
+      "title": "Example 3.1",
+      "parent": "ch03-3-2-1",
+      "children": [],
+      "source": "book Example 3.1; p.57",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-2",
+      "chapter": 3,
+      "title": "Example 3.2",
+      "parent": "ch03-3-2-1",
+      "children": [],
+      "source": "book Example 3.2; p.57",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-2-1-period-and-frequency",
+      "chapter": 3,
+      "title": "Period and Frequency",
+      "parent": "ch03-3-2-1",
+      "children": [],
+      "source": "book p.57",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_005"
+      ],
+      "terms": [
+        "frequency",
+        "period"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-3",
+      "chapter": 3,
+      "title": "Example 3.3",
+      "parent": "ch03-3-2-1",
+      "children": [],
+      "source": "book Example 3.3; p.58",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-4",
+      "chapter": 3,
+      "title": "Example 3.4",
+      "parent": "ch03-3-2-1",
+      "children": [],
+      "source": "book Example 3.4; p.58",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "4",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-5",
+      "chapter": 3,
+      "title": "Example 3.5",
+      "parent": "ch03-3-2-1",
+      "children": [],
+      "source": "book Example 3.5; p.59",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "5",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-2-2",
+      "chapter": 3,
+      "title": "3.2.2 Phase",
+      "parent": "ch03-3-2",
+      "children": [
+        "ch03-example-3-6"
+      ],
+      "source": "book 3.2.2; p.59",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_006"
+      ],
+      "terms": [
+        "2",
+        "3",
+        "phase"
+      ],
+      "question_ids": [
+        "ch03-q-q3-2",
+        "ch03-q-p3-3"
+      ]
+    },
+    {
+      "id": "ch03-example-3-6",
+      "chapter": 3,
+      "title": "Example 3.6",
+      "parent": "ch03-3-2-2",
+      "children": [],
+      "source": "book Example 3.6; p.60",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "6",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-2-3",
+      "chapter": 3,
+      "title": "3.2.3 Wavelength",
+      "parent": "ch03-3-2",
+      "children": [],
+      "source": "book 3.2.3; p.61",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_007"
+      ],
+      "terms": [
+        "2",
+        "3",
+        "wavelength"
+      ],
+      "question_ids": [
+        "ch03-q-q3-9",
+        "ch03-q-p3-20"
+      ]
+    },
+    {
+      "id": "ch03-3-2-4",
+      "chapter": 3,
+      "title": "3.2.4 Time and Frequency Domains",
+      "parent": "ch03-3-2",
+      "children": [
+        "ch03-example-3-7"
+      ],
+      "source": "book 3.2.4; p.61",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_008"
+      ],
+      "terms": [
+        "2",
+        "3",
+        "4",
+        "domains",
+        "frequency",
+        "time"
+      ],
+      "question_ids": [
+        "ch03-q-q3-10"
+      ]
+    },
+    {
+      "id": "ch03-example-3-7",
+      "chapter": 3,
+      "title": "Example 3.7",
+      "parent": "ch03-3-2-4",
+      "children": [],
+      "source": "book Example 3.7; p.62",
+      "kind": "worked_example",
+      "asset_ids": [
+        "ch03_ill_009"
+      ],
+      "terms": [
+        "3",
+        "7",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-2-5",
+      "chapter": 3,
+      "title": "3.2.5 Composite Signals",
+      "parent": "ch03-3-2",
+      "children": [
+        "ch03-example-3-8",
+        "ch03-example-3-9"
+      ],
+      "source": "book 3.2.5; p.63",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "3",
+        "5",
+        "composite",
+        "signals"
+      ],
+      "question_ids": [
+        "ch03-q-q3-3",
+        "ch03-q-q3-11",
+        "ch03-q-q3-12",
+        "ch03-q-p3-12",
+        "ch03-q-p3-13"
+      ]
+    },
+    {
+      "id": "ch03-example-3-8",
+      "chapter": 3,
+      "title": "Example 3.8",
+      "parent": "ch03-3-2-5",
+      "children": [],
+      "source": "book Example 3.8; p.63",
+      "kind": "worked_example",
+      "asset_ids": [
+        "ch03_ill_010",
+        "ch03_ill_011"
+      ],
+      "terms": [
+        "3",
+        "8",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-9",
+      "chapter": 3,
+      "title": "Example 3.9",
+      "parent": "ch03-3-2-5",
+      "children": [],
+      "source": "book Example 3.9; p.64",
+      "kind": "worked_example",
+      "asset_ids": [
+        "ch03_ill_012"
+      ],
+      "terms": [
+        "3",
+        "9",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-2-6",
+      "chapter": 3,
+      "title": "3.2.6 Bandwidth",
+      "parent": "ch03-3-2",
+      "children": [
+        "ch03-example-3-10",
+        "ch03-example-3-11",
+        "ch03-example-3-12",
+        "ch03-example-3-13",
+        "ch03-example-3-14",
+        "ch03-example-3-15"
+      ],
+      "source": "book 3.2.6; p.65",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "3",
+        "6",
+        "bandwidth"
+      ],
+      "question_ids": [
+        "ch03-q-p3-4",
+        "ch03-q-p3-5",
+        "ch03-q-p3-6",
+        "ch03-q-p3-11",
+        "ch03-q-p3-12",
+        "ch03-q-p3-13"
+      ]
+    },
+    {
+      "id": "ch03-example-3-10",
+      "chapter": 3,
+      "title": "Example 3.10",
+      "parent": "ch03-3-2-6",
+      "children": [],
+      "source": "book Example 3.10; p.65",
+      "kind": "worked_example",
+      "asset_ids": [
+        "ch03_ill_013",
+        "ch03_ill_014"
+      ],
+      "terms": [
+        "10",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-11",
+      "chapter": 3,
+      "title": "Example 3.11",
+      "parent": "ch03-3-2-6",
+      "children": [],
+      "source": "book Example 3.11; p.66",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "11",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-12",
+      "chapter": 3,
+      "title": "Example 3.12",
+      "parent": "ch03-3-2-6",
+      "children": [],
+      "source": "book Example 3.12; p.66",
+      "kind": "worked_example",
+      "asset_ids": [
+        "ch03_ill_015",
+        "ch03_ill_016"
+      ],
+      "terms": [
+        "12",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-13",
+      "chapter": 3,
+      "title": "Example 3.13",
+      "parent": "ch03-3-2-6",
+      "children": [],
+      "source": "book Example 3.13; p.67",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "13",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-14",
+      "chapter": 3,
+      "title": "Example 3.14",
+      "parent": "ch03-3-2-6",
+      "children": [],
+      "source": "book Example 3.14; p.67",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "14",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-15",
+      "chapter": 3,
+      "title": "Example 3.15",
+      "parent": "ch03-3-2-6",
+      "children": [],
+      "source": "book Example 3.15; p.67",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "15",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-3",
+      "chapter": 3,
+      "title": "3.3 DIGITAL SIGNALS",
+      "parent": null,
+      "children": [
+        "ch03-example-3-16",
+        "ch03-example-3-17",
+        "ch03-3-3-1",
+        "ch03-3-3-2",
+        "ch03-3-3-3",
+        "ch03-3-3-4"
+      ],
+      "source": "book 3.3; p.68",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_017"
+      ],
+      "terms": [
+        "3",
+        "digital",
+        "signals"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-16",
+      "chapter": 3,
+      "title": "Example 3.16",
+      "parent": "ch03-3-3",
+      "children": [],
+      "source": "book Example 3.16; p.68",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "16",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-17",
+      "chapter": 3,
+      "title": "Example 3.17",
+      "parent": "ch03-3-3",
+      "children": [],
+      "source": "book Example 3.17; p.68",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "17",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-3-1",
+      "chapter": 3,
+      "title": "3.3.1 Bit Rate",
+      "parent": "ch03-3-3",
+      "children": [
+        "ch03-example-3-18",
+        "ch03-example-3-19",
+        "ch03-example-3-20"
+      ],
+      "source": "book 3.3.1; p.69",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "3",
+        "bit",
+        "rate"
+      ],
+      "question_ids": [
+        "ch03-q-p3-7",
+        "ch03-q-p3-8",
+        "ch03-q-p3-9",
+        "ch03-q-p3-24"
+      ]
+    },
+    {
+      "id": "ch03-example-3-18",
+      "chapter": 3,
+      "title": "Example 3.18",
+      "parent": "ch03-3-3-1",
+      "children": [],
+      "source": "book Example 3.18; p.69",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "18",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-19",
+      "chapter": 3,
+      "title": "Example 3.19",
+      "parent": "ch03-3-3-1",
+      "children": [],
+      "source": "book Example 3.19; p.69",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "19",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-20",
+      "chapter": 3,
+      "title": "Example 3.20",
+      "parent": "ch03-3-3-1",
+      "children": [],
+      "source": "book Example 3.20; p.69",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "20",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-3-2",
+      "chapter": 3,
+      "title": "3.3.2 Bit Length",
+      "parent": "ch03-3-3",
+      "children": [],
+      "source": "book 3.3.2; p.69",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "3",
+        "bit",
+        "length"
+      ],
+      "question_ids": [
+        "ch03-q-p3-31"
+      ]
+    },
+    {
+      "id": "ch03-3-3-3",
+      "chapter": 3,
+      "title": "3.3.3 Digital Signal as a Composite Analog Signal",
+      "parent": "ch03-3-3",
+      "children": [],
+      "source": "book 3.3.3; p.70",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_018"
+      ],
+      "terms": [
+        "3",
+        "analog",
+        "composite",
+        "digital",
+        "signal"
+      ],
+      "question_ids": [
+        "ch03-q-p3-14"
+      ]
+    },
+    {
+      "id": "ch03-3-3-4",
+      "chapter": 3,
+      "title": "3.3.4 Transmission of Digital Signals",
+      "parent": "ch03-3-3",
+      "children": [
+        "ch03-3-3-4-baseband-transmission",
+        "ch03-3-3-4-case-1-low-pass-channel-with-wide-bandwidth",
+        "ch03-example-3-21",
+        "ch03-3-3-4-case-2-low-pass-channel-with-limited-bandwidth",
+        "ch03-3-3-4-rough-approximation",
+        "ch03-3-3-4-better-approximation",
+        "ch03-example-3-22",
+        "ch03-example-3-23",
+        "ch03-3-3-4-broadband-transmission-using-modulation",
+        "ch03-example-3-24",
+        "ch03-example-3-25"
+      ],
+      "source": "book 3.3.4; p.70",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "4",
+        "digital",
+        "signals",
+        "transmission"
+      ],
+      "question_ids": [
+        "ch03-q-q3-5",
+        "ch03-q-q3-6",
+        "ch03-q-q3-13",
+        "ch03-q-q3-14",
+        "ch03-q-q3-15",
+        "ch03-q-p3-14"
+      ]
+    },
+    {
+      "id": "ch03-3-3-4-baseband-transmission",
+      "chapter": 3,
+      "title": "Baseband Transmission",
+      "parent": "ch03-3-3-4",
+      "children": [],
+      "source": "book p.71",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_019",
+        "ch03_ill_020"
+      ],
+      "terms": [
+        "baseband",
+        "transmission"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-3-4-case-1-low-pass-channel-with-wide-bandwidth",
+      "chapter": 3,
+      "title": "Case 1: Low-Pass Channel with Wide Bandwidth",
+      "parent": "ch03-3-3-4",
+      "children": [],
+      "source": "book p.72",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_021"
+      ],
+      "terms": [
+        "1",
+        "bandwidth",
+        "case",
+        "channel",
+        "low",
+        "pass",
+        "wide"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-21",
+      "chapter": 3,
+      "title": "Example 3.21",
+      "parent": "ch03-3-3-4",
+      "children": [],
+      "source": "book Example 3.21; p.72",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "21",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-3-4-case-2-low-pass-channel-with-limited-bandwidth",
+      "chapter": 3,
+      "title": "Case 2: Low-Pass Channel with Limited Bandwidth",
+      "parent": "ch03-3-3-4",
+      "children": [],
+      "source": "book p.72",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "bandwidth",
+        "case",
+        "channel",
+        "limited",
+        "low",
+        "pass"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-3-4-rough-approximation",
+      "chapter": 3,
+      "title": "Rough Approximation",
+      "parent": "ch03-3-3-4",
+      "children": [],
+      "source": "book p.72",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_022"
+      ],
+      "terms": [
+        "approximation",
+        "rough"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-3-4-better-approximation",
+      "chapter": 3,
+      "title": "Better Approximation",
+      "parent": "ch03-3-3-4",
+      "children": [],
+      "source": "book p.73",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_023"
+      ],
+      "terms": [
+        "approximation",
+        "better"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-22",
+      "chapter": 3,
+      "title": "Example 3.22",
+      "parent": "ch03-3-3-4",
+      "children": [],
+      "source": "book Example 3.22; p.74",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "22",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-23",
+      "chapter": 3,
+      "title": "Example 3.23",
+      "parent": "ch03-3-3-4",
+      "children": [],
+      "source": "book Example 3.23; p.75",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "23",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-3-4-broadband-transmission-using-modulation",
+      "chapter": 3,
+      "title": "Broadband Transmission (Using Modulation)",
+      "parent": "ch03-3-3-4",
+      "children": [],
+      "source": "book p.75",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_024",
+        "ch03_ill_025"
+      ],
+      "terms": [
+        "broadband",
+        "modulation",
+        "transmission",
+        "using"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-24",
+      "chapter": 3,
+      "title": "Example 3.24",
+      "parent": "ch03-3-3-4",
+      "children": [],
+      "source": "book Example 3.24; p.76",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "24",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-25",
+      "chapter": 3,
+      "title": "Example 3.25",
+      "parent": "ch03-3-3-4",
+      "children": [],
+      "source": "book Example 3.25; p.76",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "25",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-4",
+      "chapter": 3,
+      "title": "3.4 TRANSMISSION IMPAIRMENT",
+      "parent": null,
+      "children": [
+        "ch03-3-4-1",
+        "ch03-3-4-2",
+        "ch03-3-4-3"
+      ],
+      "source": "book 3.4; p.76",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_026"
+      ],
+      "terms": [
+        "3",
+        "4",
+        "impairment",
+        "transmission"
+      ],
+      "question_ids": [
+        "ch03-q-q3-4"
+      ]
+    },
+    {
+      "id": "ch03-3-4-1",
+      "chapter": 3,
+      "title": "3.4.1 Attenuation",
+      "parent": "ch03-3-4",
+      "children": [
+        "ch03-3-4-1-decibel",
+        "ch03-example-3-26",
+        "ch03-example-3-27",
+        "ch03-example-3-28",
+        "ch03-example-3-29",
+        "ch03-example-3-30"
+      ],
+      "source": "book 3.4.1; p.77",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_027"
+      ],
+      "terms": [
+        "1",
+        "3",
+        "4",
+        "attenuation"
+      ],
+      "question_ids": [
+        "ch03-q-p3-15",
+        "ch03-q-p3-16",
+        "ch03-q-p3-17"
+      ]
+    },
+    {
+      "id": "ch03-3-4-1-decibel",
+      "chapter": 3,
+      "title": "Decibel",
+      "parent": "ch03-3-4-1",
+      "children": [],
+      "source": "book p.77",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "decibel"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-26",
+      "chapter": 3,
+      "title": "Example 3.26",
+      "parent": "ch03-3-4-1",
+      "children": [],
+      "source": "book Example 3.26; p.78",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "26",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-27",
+      "chapter": 3,
+      "title": "Example 3.27",
+      "parent": "ch03-3-4-1",
+      "children": [],
+      "source": "book Example 3.27; p.78",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "27",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-28",
+      "chapter": 3,
+      "title": "Example 3.28",
+      "parent": "ch03-3-4-1",
+      "children": [],
+      "source": "book Example 3.28; p.78",
+      "kind": "worked_example",
+      "asset_ids": [
+        "ch03_ill_028"
+      ],
+      "terms": [
+        "28",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-29",
+      "chapter": 3,
+      "title": "Example 3.29",
+      "parent": "ch03-3-4-1",
+      "children": [],
+      "source": "book Example 3.29; p.78",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "29",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-30",
+      "chapter": 3,
+      "title": "Example 3.30",
+      "parent": "ch03-3-4-1",
+      "children": [],
+      "source": "book Example 3.30; p.79",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "30",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-4-2",
+      "chapter": 3,
+      "title": "3.4.2 Distortion",
+      "parent": "ch03-3-4",
+      "children": [],
+      "source": "book 3.4.2; p.79",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_029"
+      ],
+      "terms": [
+        "2",
+        "3",
+        "4",
+        "distortion"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-4-3",
+      "chapter": 3,
+      "title": "3.4.3 Noise",
+      "parent": "ch03-3-4",
+      "children": [
+        "ch03-3-4-3-signal-to-noise-ratio-snr",
+        "ch03-example-3-31",
+        "ch03-example-3-32"
+      ],
+      "source": "book 3.4.3; p.79",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_030"
+      ],
+      "terms": [
+        "3",
+        "4",
+        "noise"
+      ],
+      "question_ids": [
+        "ch03-q-p3-22",
+        "ch03-q-p3-25",
+        "ch03-q-p3-26"
+      ]
+    },
+    {
+      "id": "ch03-3-4-3-signal-to-noise-ratio-snr",
+      "chapter": 3,
+      "title": "Signal-to-Noise Ratio (SNR)",
+      "parent": "ch03-3-4-3",
+      "children": [],
+      "source": "book p.80",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_031"
+      ],
+      "terms": [
+        "noise",
+        "ratio",
+        "signal",
+        "snr"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-31",
+      "chapter": 3,
+      "title": "Example 3.31",
+      "parent": "ch03-3-4-3",
+      "children": [],
+      "source": "book Example 3.31; p.81",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "31",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-32",
+      "chapter": 3,
+      "title": "Example 3.32",
+      "parent": "ch03-3-4-3",
+      "children": [],
+      "source": "book Example 3.32; p.81",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "32",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-5",
+      "chapter": 3,
+      "title": "3.5 DATA RATE LIMITS",
+      "parent": null,
+      "children": [
+        "ch03-3-5-1",
+        "ch03-3-5-2",
+        "ch03-3-5-3"
+      ],
+      "source": "book 3.5; p.81",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "5",
+        "data",
+        "limits",
+        "rate"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-5-1",
+      "chapter": 3,
+      "title": "3.5.1 Noiseless Channel: Nyquist Bit Rate",
+      "parent": "ch03-3-5",
+      "children": [
+        "ch03-example-3-33",
+        "ch03-example-3-34",
+        "ch03-example-3-35",
+        "ch03-example-3-36"
+      ],
+      "source": "book 3.5.1; p.81",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "3",
+        "5",
+        "bit",
+        "channel",
+        "noiseless",
+        "nyquist",
+        "rate"
+      ],
+      "question_ids": [
+        "ch03-q-q3-7"
+      ]
+    },
+    {
+      "id": "ch03-example-3-33",
+      "chapter": 3,
+      "title": "Example 3.33",
+      "parent": "ch03-3-5-1",
+      "children": [],
+      "source": "book Example 3.33; p.82",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "33",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-34",
+      "chapter": 3,
+      "title": "Example 3.34",
+      "parent": "ch03-3-5-1",
+      "children": [],
+      "source": "book Example 3.34; p.82",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "34",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-35",
+      "chapter": 3,
+      "title": "Example 3.35",
+      "parent": "ch03-3-5-1",
+      "children": [],
+      "source": "book Example 3.35; p.82",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "35",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-36",
+      "chapter": 3,
+      "title": "Example 3.36",
+      "parent": "ch03-3-5-1",
+      "children": [],
+      "source": "book Example 3.36; p.82",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "36",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-5-2",
+      "chapter": 3,
+      "title": "3.5.2 Noisy Channel: Shannon Capacity",
+      "parent": "ch03-3-5",
+      "children": [
+        "ch03-example-3-37",
+        "ch03-example-3-38",
+        "ch03-example-3-39",
+        "ch03-example-3-40"
+      ],
+      "source": "book 3.5.2; p.82",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "3",
+        "5",
+        "capacity",
+        "channel",
+        "noisy",
+        "shannon"
+      ],
+      "question_ids": [
+        "ch03-q-q3-8",
+        "ch03-q-p3-21",
+        "ch03-q-p3-22",
+        "ch03-q-p3-27",
+        "ch03-q-p3-28",
+        "ch03-q-p3-29"
+      ]
+    },
+    {
+      "id": "ch03-example-3-37",
+      "chapter": 3,
+      "title": "Example 3.37",
+      "parent": "ch03-3-5-2",
+      "children": [],
+      "source": "book Example 3.37; p.83",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "37",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-38",
+      "chapter": 3,
+      "title": "Example 3.38",
+      "parent": "ch03-3-5-2",
+      "children": [],
+      "source": "book Example 3.38; p.83",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "38",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-39",
+      "chapter": 3,
+      "title": "Example 3.39",
+      "parent": "ch03-3-5-2",
+      "children": [],
+      "source": "book Example 3.39; p.83",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "39",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-40",
+      "chapter": 3,
+      "title": "Example 3.40",
+      "parent": "ch03-3-5-2",
+      "children": [],
+      "source": "book Example 3.40; p.83",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "40",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-5-3",
+      "chapter": 3,
+      "title": "3.5.3 Using Both Limits",
+      "parent": "ch03-3-5",
+      "children": [
+        "ch03-example-3-41"
+      ],
+      "source": "book 3.5.3; p.83",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "5",
+        "both",
+        "limits",
+        "using"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-41",
+      "chapter": 3,
+      "title": "Example 3.41",
+      "parent": "ch03-3-5-3",
+      "children": [],
+      "source": "book Example 3.41; p.83",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "41",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-6",
+      "chapter": 3,
+      "title": "3.6 PERFORMANCE",
+      "parent": null,
+      "children": [
+        "ch03-3-6-1",
+        "ch03-3-6-2",
+        "ch03-3-6-3",
+        "ch03-3-6-4",
+        "ch03-3-6-5"
+      ],
+      "source": "book 3.6; p.84",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "6",
+        "performance"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-6-1",
+      "chapter": 3,
+      "title": "3.6.1 Bandwidth",
+      "parent": "ch03-3-6",
+      "children": [
+        "ch03-3-6-1-bandwidth-in-hertz",
+        "ch03-3-6-1-bandwidth-in-bits-per-seconds",
+        "ch03-3-6-1-relationship",
+        "ch03-example-3-42",
+        "ch03-example-3-43"
+      ],
+      "source": "book 3.6.1; p.84",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "3",
+        "6",
+        "bandwidth"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-6-1-bandwidth-in-hertz",
+      "chapter": 3,
+      "title": "Bandwidth in Hertz",
+      "parent": "ch03-3-6-1",
+      "children": [],
+      "source": "book p.84",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "bandwidth",
+        "hertz"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-6-1-bandwidth-in-bits-per-seconds",
+      "chapter": 3,
+      "title": "Bandwidth in Bits per Seconds",
+      "parent": "ch03-3-6-1",
+      "children": [],
+      "source": "book p.84",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "bandwidth",
+        "bits",
+        "per",
+        "seconds"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-6-1-relationship",
+      "chapter": 3,
+      "title": "Relationship",
+      "parent": "ch03-3-6-1",
+      "children": [],
+      "source": "book p.84",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "relationship"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-42",
+      "chapter": 3,
+      "title": "Example 3.42",
+      "parent": "ch03-3-6-1",
+      "children": [],
+      "source": "book Example 3.42; p.85",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "42",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-43",
+      "chapter": 3,
+      "title": "Example 3.43",
+      "parent": "ch03-3-6-1",
+      "children": [],
+      "source": "book Example 3.43; p.85",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "43",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-6-2",
+      "chapter": 3,
+      "title": "3.6.2 Throughput",
+      "parent": "ch03-3-6",
+      "children": [
+        "ch03-example-3-44"
+      ],
+      "source": "book 3.6.2; p.85",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "3",
+        "6",
+        "throughput"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-44",
+      "chapter": 3,
+      "title": "Example 3.44",
+      "parent": "ch03-3-6-2",
+      "children": [],
+      "source": "book Example 3.44; p.85",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "44",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-6-3",
+      "chapter": 3,
+      "title": "3.6.3 Latency (Delay)",
+      "parent": "ch03-3-6",
+      "children": [
+        "ch03-3-6-3-propagation-time",
+        "ch03-example-3-45",
+        "ch03-3-6-3-transmission-time",
+        "ch03-example-3-46",
+        "ch03-example-3-47"
+      ],
+      "source": "book 3.6.3; p.85",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "6",
+        "delay",
+        "latency"
+      ],
+      "question_ids": [
+        "ch03-q-p3-18",
+        "ch03-q-p3-19",
+        "ch03-q-p3-23",
+        "ch03-q-p3-30",
+        "ch03-q-p3-33"
+      ]
+    },
+    {
+      "id": "ch03-3-6-3-propagation-time",
+      "chapter": 3,
+      "title": "Propagation Time",
+      "parent": "ch03-3-6-3",
+      "children": [],
+      "source": "book p.85",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "propagation",
+        "time"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-45",
+      "chapter": 3,
+      "title": "Example 3.45",
+      "parent": "ch03-3-6-3",
+      "children": [],
+      "source": "book Example 3.45; p.86",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "45",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-6-3-transmission-time",
+      "chapter": 3,
+      "title": "Transmission Time",
+      "parent": "ch03-3-6-3",
+      "children": [],
+      "source": "book p.86",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "time",
+        "transmission"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-46",
+      "chapter": 3,
+      "title": "Example 3.46",
+      "parent": "ch03-3-6-3",
+      "children": [],
+      "source": "book Example 3.46; p.86",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "46",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-example-3-47",
+      "chapter": 3,
+      "title": "Example 3.47",
+      "parent": "ch03-3-6-3",
+      "children": [],
+      "source": "book Example 3.47; p.86",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "47",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-6-4",
+      "chapter": 3,
+      "title": "3.6.4 Bandwidth-Delay Product",
+      "parent": "ch03-3-6",
+      "children": [
+        "ch03-example-3-48"
+      ],
+      "source": "book 3.6.4; p.87",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_032",
+        "ch03_ill_033"
+      ],
+      "terms": [
+        "3",
+        "4",
+        "6",
+        "bandwidth",
+        "delay",
+        "product"
+      ],
+      "question_ids": [
+        "ch03-q-p3-32"
+      ]
+    },
+    {
+      "id": "ch03-example-3-48",
+      "chapter": 3,
+      "title": "Example 3.48",
+      "parent": "ch03-3-6-4",
+      "children": [],
+      "source": "book Example 3.48; p.88",
+      "kind": "worked_example",
+      "asset_ids": [
+        "ch03_ill_034"
+      ],
+      "terms": [
+        "3",
+        "48",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-6-5",
+      "chapter": 3,
+      "title": "3.6.5 Jitter",
+      "parent": "ch03-3-6",
+      "children": [],
+      "source": "book 3.6.5; p.88",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "5",
+        "6",
+        "jitter"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-7",
+      "chapter": 3,
+      "title": "3.7 END-CHAPTER MATERIALS",
+      "parent": null,
+      "children": [
+        "ch03-3-7-1",
+        "ch03-3-7-2",
+        "ch03-3-7-3",
+        "ch03-3-7-practice-problem-figures"
+      ],
+      "source": "book 3.7; p.89",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "7",
+        "chapter",
+        "end",
+        "materials"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-7-1",
+      "chapter": 3,
+      "title": "3.7.1 Recommended Reading",
+      "parent": "ch03-3-7",
+      "children": [
+        "ch03-3-7-1-books"
+      ],
+      "source": "book 3.7.1; p.89",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "3",
+        "7",
+        "reading",
+        "recommended"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-7-1-books",
+      "chapter": 3,
+      "title": "Books",
+      "parent": "ch03-3-7-1",
+      "children": [],
+      "source": "book p.89",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "books"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-7-2",
+      "chapter": 3,
+      "title": "3.7.2 Key Terms",
+      "parent": "ch03-3-7",
+      "children": [],
+      "source": "book 3.7.2; p.89",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "3",
+        "7",
+        "key",
+        "terms"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-7-3",
+      "chapter": 3,
+      "title": "3.7.3 Summary",
+      "parent": "ch03-3-7",
+      "children": [],
+      "source": "book 3.7.3; p.89",
+      "kind": "summary",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "7",
+        "summary"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch03-3-7-practice-problem-figures",
+      "chapter": 3,
+      "title": "Practice Problem Figures",
+      "parent": "ch03-3-7",
+      "children": [],
+      "source": "book p.92",
+      "kind": "concept",
+      "asset_ids": [
+        "ch03_ill_035",
+        "ch03_ill_036",
+        "ch03_ill_037"
+      ],
+      "terms": [
+        "figures",
+        "practice",
+        "problem"
       ],
       "question_ids": []
     },

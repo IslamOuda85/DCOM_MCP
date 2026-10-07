@@ -1,6 +1,6 @@
 {
   "chapter": 2,
-  "promoted_at": "2026-10-07T03:00:49+00:00",
+  "promoted_at": "2026-10-07T04:14:03+00:00",
   "validation": {
     "chapter": "Chapter_02",
     "ready": true,
@@ -8,9 +8,9 @@
     "error_count": 0
   },
   "files": {
-    "content.md": "94382a95d384fa2ed9346fb4610e6c73f7e5a1852cd0c1a81a6ff0534a0af053",
-    "data_card.md": "175a80e0230903e496954a3bc51c51bc14b47a80673242168ceb73ddd964ad5a",
-    "questions.md": "7fd952d8c4d1ed470b7b93c6e66ec611951f3c2445f6fdd448c1a5f756075157",
+    "content.md": "c9fc80a6629601f69bbba21fae67f0e340587d2b0ebaad6cfe152ec0ab69b9a9",
+    "data_card.md": "812195f2b60e5a61fefcbb1049efef6b107ff1da187a646c5f2d237494bd9002",
+    "questions.md": "12c56da058714a2097400e154c99554e09170e58af341c7c81f11db237fea796",
     "assets/ch02_ill_001.png": "94c51ce100ce230e79732de6b259758dd17f3f1e9cf2f0feb6cc39410bf42a27",
     "assets/ch02_ill_002.png": "909c470006f9dfd1801acf60166e235538a27007f1cebfbd8499c60cf004a1dc",
     "assets/ch02_ill_003.png": "356e3ec0d6acaa29e5da1fb049bd47a3aa4b898506db1213b1d957a8e70ab5a1",
@@ -23,6 +23,6 @@
     "assets/ch02_ill_010.png": "1123d7ec70e7b127223c14e719100b516a4b6137a8f8e0fc661cae87b0c0f399",
     "assets/ch02_ill_011.png": "e94c2b76e774e831479e80a113de6cf79fc4ee830ea8976e53d739ac12e14027",
     "assets/ch02_ill_012.png": "f8ff07f1ebcd50fa75e25fde6003c0f527068485862e9f7e307a65e7a5472d0e",
-    "assets/manifest.json": "c860b720b2e6e5958ee18b0c20733f197a39c9e264e734349805aa93372a0fc1"
+    "assets/manifest.json": "66c1ba4f09d46e2505574b435428ce7529c5a9a9989ae7942a79b21cc28ab8f8"
   }
 }

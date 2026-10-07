@@ -11,4 +11,6 @@ student_profile*
 *.docx
 _staging/
 .DS_Store
+node_modules/
+.wrangler/
 

@@ -241,3 +241,5 @@ Assume that an application-layer protocol is written to use the services of UDP.
 Using the internet in Figure 1.11 (Chapter 1) in the text, show the layers of the TCP/IP protocol suite and the flow of data when two hosts, one on the west coast and the other on the east coast, exchange messages.
 
 > [ASSET_REF ch01_ill_011] Cross-chapter reference to the reviewed source Figure 1.11.
+
+> [ASSET_REF ch01_ill_011] Cross-chapter reference to the reviewed source Figure 1.11.

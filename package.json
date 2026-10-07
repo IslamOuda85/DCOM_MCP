@@ -1,0 +1,17 @@
+{
+  "name": "dcom-mcp-cloudflare-container",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "cf:deploy": "wrangler deploy --config wrangler.jsonc",
+    "cf:dev": "wrangler dev --config wrangler.jsonc"
+  },
+  "dependencies": {
+    "@cloudflare/containers": "^0.3.7"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260601.0",
+    "typescript": "^5.9.0",
+    "wrangler": "^4.40.0"
+  }
+}
