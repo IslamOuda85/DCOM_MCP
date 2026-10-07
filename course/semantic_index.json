@@ -336,6 +336,52 @@
         "chunk interleaving"
       ],
       "prerequisites": []
+    },
+    {
+      "chapter": 12,
+      "title": "Media Access Control (MAC)",
+      "key_terms": [
+        "1-persistent method",
+        "ALOHA",
+        "binary exponential backoff",
+        "carrier sense multiple access (CSMA)",
+        "carrier sense multiple access with collision",
+        "avoidance (CSMA/CA)",
+        "carrier sense multiple access with collision",
+        "detection (CSMA/CD)",
+        "channelization",
+        "code-division multiple access (CDMA)",
+        "collision",
+        "contention",
+        "contention window",
+        "controlled access",
+        "DCF interframe space (DIFS)",
+        "frequency-division multiple access (FDMA)",
+        "inner product",
+        "interface space (IFS)",
+        "jamming signal",
+        "media access control (MAC)",
+        "multiple access (MA)",
+        "network allocation vector (NAV)",
+        "nonpersistent method",
+        "orthogonal sequence",
+        "p-persistent method",
+        "polling",
+        "primary station",
+        "propagation time",
+        "pure ALOHA",
+        "random access",
+        "reservation",
+        "secondary station",
+        "short interframe space (SIFS)",
+        "slotted ALOHA",
+        "time-division multiple access (TDMA)",
+        "token",
+        "token passing",
+        "vulnerable time",
+        "Walsh table"
+      ],
+      "prerequisites": []
     }
   ],
   "sections": [
@@ -9311,6 +9357,1111 @@
       "asset_ids": [],
       "terms": [
         "chapter",
+        "summary"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-0",
+      "chapter": 12,
+      "title": "Chapter Objectives",
+      "parent": null,
+      "children": [],
+      "source": "book p.325",
+      "kind": "objectives",
+      "asset_ids": [
+        "ch12_ill_001"
+      ],
+      "terms": [
+        "chapter",
+        "objectives"
+      ],
+      "question_ids": [
+        "ch12-q-q12-1",
+        "ch12-q-q12-2",
+        "ch12-q-q12-3"
+      ]
+    },
+    {
+      "id": "ch12-12-1",
+      "chapter": 12,
+      "title": "12.1 RANDOM ACCESS",
+      "parent": null,
+      "children": [
+        "ch12-12-1-1",
+        "ch12-12-1-2",
+        "ch12-12-1-3",
+        "ch12-12-1-4"
+      ],
+      "source": "book 12.1; p.326",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "12",
+        "access",
+        "random"
+      ],
+      "question_ids": [
+        "ch12-q-q12-1",
+        "ch12-q-q12-17",
+        "ch12-q-q12-18"
+      ]
+    },
+    {
+      "id": "ch12-12-1-1",
+      "chapter": 12,
+      "title": "12.1.1 ALOHA",
+      "parent": "ch12-12-1",
+      "children": [
+        "ch12-12-1-1-pure-aloha",
+        "ch12-12-1-1-vulnerable-time",
+        "ch12-12-1-1-pure-throughput",
+        "ch12-12-1-1-slotted-aloha",
+        "ch12-12-1-1-slotted-aloha-throughput"
+      ],
+      "source": "book 12.1.1; p.326",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "12",
+        "aloha"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-1-1-pure-aloha",
+      "chapter": 12,
+      "title": "Pure ALOHA",
+      "parent": "ch12-12-1-1",
+      "children": [
+        "ch12-example-12-1"
+      ],
+      "source": "book p.326",
+      "kind": "concept",
+      "asset_ids": [
+        "ch12_ill_002",
+        "ch12_ill_003"
+      ],
+      "terms": [
+        "aloha",
+        "pure"
+      ],
+      "question_ids": [
+        "ch12-q-q12-8",
+        "ch12-q-q12-11"
+      ]
+    },
+    {
+      "id": "ch12-example-12-1",
+      "chapter": 12,
+      "title": "Example 12.1",
+      "parent": "ch12-12-1-1-pure-aloha",
+      "children": [],
+      "source": "book Example 12.1; p.328",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "12",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-1-1-vulnerable-time",
+      "chapter": 12,
+      "title": "Vulnerable time",
+      "parent": "ch12-12-1-1",
+      "children": [
+        "ch12-example-12-2"
+      ],
+      "source": "book p.328",
+      "kind": "concept",
+      "asset_ids": [
+        "ch12_ill_004"
+      ],
+      "terms": [
+        "time",
+        "vulnerable"
+      ],
+      "question_ids": [
+        "ch12-q-q12-4"
+      ]
+    },
+    {
+      "id": "ch12-example-12-2",
+      "chapter": 12,
+      "title": "Example 12.2",
+      "parent": "ch12-12-1-1-vulnerable-time",
+      "children": [],
+      "source": "book Example 12.2; p.329",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "12",
+        "2",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-1-1-pure-throughput",
+      "chapter": 12,
+      "title": "Throughput",
+      "parent": "ch12-12-1-1",
+      "children": [
+        "ch12-example-12-3"
+      ],
+      "source": "book p.329",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "throughput"
+      ],
+      "question_ids": [
+        "ch12-q-q12-6",
+        "ch12-q-p12-1",
+        "ch12-q-p12-2",
+        "ch12-q-p12-3",
+        "ch12-q-p12-4",
+        "ch12-q-p12-5",
+        "ch12-q-p12-6",
+        "ch12-q-p12-7",
+        "ch12-q-p12-8",
+        "ch12-q-p12-9",
+        "ch12-q-p12-10",
+        "ch12-q-p12-22"
+      ]
+    },
+    {
+      "id": "ch12-example-12-3",
+      "chapter": 12,
+      "title": "Example 12.3",
+      "parent": "ch12-12-1-1-pure-throughput",
+      "children": [],
+      "source": "book Example 12.3; p.329",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "12",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-1-1-slotted-aloha",
+      "chapter": 12,
+      "title": "Slotted ALOHA",
+      "parent": "ch12-12-1-1",
+      "children": [],
+      "source": "book p.330",
+      "kind": "concept",
+      "asset_ids": [
+        "ch12_ill_005",
+        "ch12_ill_006"
+      ],
+      "terms": [
+        "aloha",
+        "slotted"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-1-1-slotted-aloha-throughput",
+      "chapter": 12,
+      "title": "Throughput",
+      "parent": "ch12-12-1-1",
+      "children": [
+        "ch12-example-12-4"
+      ],
+      "source": "book p.331",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "throughput"
+      ],
+      "question_ids": [
+        "ch12-q-q12-5",
+        "ch12-q-q12-7",
+        "ch12-q-p12-1",
+        "ch12-q-p12-2",
+        "ch12-q-p12-3",
+        "ch12-q-p12-4",
+        "ch12-q-p12-5",
+        "ch12-q-p12-6",
+        "ch12-q-p12-7",
+        "ch12-q-p12-8",
+        "ch12-q-p12-9",
+        "ch12-q-p12-10"
+      ]
+    },
+    {
+      "id": "ch12-example-12-4",
+      "chapter": 12,
+      "title": "Example 12.4",
+      "parent": "ch12-12-1-1-slotted-aloha-throughput",
+      "children": [],
+      "source": "book Example 12.4; p.331",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "12",
+        "4",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-1-2",
+      "chapter": 12,
+      "title": "12.1.2 CSMA",
+      "parent": "ch12-12-1",
+      "children": [
+        "ch12-12-1-2-vulnerable-time",
+        "ch12-12-1-2-persistence-methods",
+        "ch12-12-1-2-1-persistent",
+        "ch12-12-1-2-nonpersistent"
+      ],
+      "source": "book 12.1.2; p.331",
+      "kind": "concept",
+      "asset_ids": [
+        "ch12_ill_007"
+      ],
+      "terms": [
+        "1",
+        "12",
+        "2",
+        "csma"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-1-2-vulnerable-time",
+      "chapter": 12,
+      "title": "Vulnerable Time",
+      "parent": "ch12-12-1-2",
+      "children": [],
+      "source": "book p.332",
+      "kind": "concept",
+      "asset_ids": [
+        "ch12_ill_008"
+      ],
+      "terms": [
+        "time",
+        "vulnerable"
+      ],
+      "question_ids": [
+        "ch12-q-p12-11",
+        "ch12-q-p12-12",
+        "ch12-q-p12-13"
+      ]
+    },
+    {
+      "id": "ch12-12-1-2-persistence-methods",
+      "chapter": 12,
+      "title": "Persistence Methods",
+      "parent": "ch12-12-1-2",
+      "children": [],
+      "source": "book p.333",
+      "kind": "concept",
+      "asset_ids": [
+        "ch12_ill_009"
+      ],
+      "terms": [
+        "methods",
+        "persistence"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-1-2-1-persistent",
+      "chapter": 12,
+      "title": "1-Persistent",
+      "parent": "ch12-12-1-2",
+      "children": [],
+      "source": "book p.333",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "persistent"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-1-2-nonpersistent",
+      "chapter": 12,
+      "title": "Nonpersistent",
+      "parent": "ch12-12-1-2",
+      "children": [],
+      "source": "book p.333",
+      "kind": "concept",
+      "asset_ids": [
+        "ch12_ill_010"
+      ],
+      "terms": [
+        "nonpersistent"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-1-3",
+      "chapter": 12,
+      "title": "12.1.3 CSMA/CD",
+      "parent": "ch12-12-1",
+      "children": [
+        "ch12-12-1-3-minimum-frame-size",
+        "ch12-12-1-3-procedure",
+        "ch12-12-1-3-energy-level",
+        "ch12-12-1-3-throughput",
+        "ch12-12-1-3-traditional-ethernet"
+      ],
+      "source": "book 12.1.3; p.334",
+      "kind": "concept",
+      "asset_ids": [
+        "ch12_ill_011",
+        "ch12_ill_012"
+      ],
+      "terms": [
+        "1",
+        "12",
+        "3",
+        "cd",
+        "csma"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-1-3-minimum-frame-size",
+      "chapter": 12,
+      "title": "Minimum Frame Size",
+      "parent": "ch12-12-1-3",
+      "children": [
+        "ch12-example-12-5"
+      ],
+      "source": "book p.335",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "frame",
+        "minimum",
+        "size"
+      ],
+      "question_ids": [
+        "ch12-q-q12-14",
+        "ch12-q-q12-15",
+        "ch12-q-q12-16",
+        "ch12-q-q12-19",
+        "ch12-q-q12-20",
+        "ch12-q-p12-14",
+        "ch12-q-p12-15",
+        "ch12-q-p12-16",
+        "ch12-q-p12-17",
+        "ch12-q-p12-18",
+        "ch12-q-p12-19",
+        "ch12-q-p12-20",
+        "ch12-q-p12-21"
+      ]
+    },
+    {
+      "id": "ch12-example-12-5",
+      "chapter": 12,
+      "title": "Example 12.5",
+      "parent": "ch12-12-1-3-minimum-frame-size",
+      "children": [],
+      "source": "book Example 12.5; p.336",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "12",
+        "5",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-1-3-procedure",
+      "chapter": 12,
+      "title": "Procedure",
+      "parent": "ch12-12-1-3",
+      "children": [],
+      "source": "book p.336",
+      "kind": "concept",
+      "asset_ids": [
+        "ch12_ill_013"
+      ],
+      "terms": [
+        "procedure"
+      ],
+      "question_ids": [
+        "ch12-q-q12-9",
+        "ch12-q-q12-12",
+        "ch12-q-p12-14",
+        "ch12-q-p12-15",
+        "ch12-q-p12-16",
+        "ch12-q-p12-17",
+        "ch12-q-p12-18",
+        "ch12-q-p12-19",
+        "ch12-q-p12-20",
+        "ch12-q-p12-21"
+      ]
+    },
+    {
+      "id": "ch12-12-1-3-energy-level",
+      "chapter": 12,
+      "title": "Energy Level",
+      "parent": "ch12-12-1-3",
+      "children": [],
+      "source": "book p.337",
+      "kind": "concept",
+      "asset_ids": [
+        "ch12_ill_014"
+      ],
+      "terms": [
+        "energy",
+        "level"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-1-3-throughput",
+      "chapter": 12,
+      "title": "Throughput",
+      "parent": "ch12-12-1-3",
+      "children": [],
+      "source": "book p.337",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "throughput"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-1-3-traditional-ethernet",
+      "chapter": 12,
+      "title": "Traditional Ethernet",
+      "parent": "ch12-12-1-3",
+      "children": [],
+      "source": "book p.337",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "ethernet",
+        "traditional"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-1-4",
+      "chapter": 12,
+      "title": "12.1.4 CSMA/CA",
+      "parent": "ch12-12-1",
+      "children": [
+        "ch12-12-1-4-frame-exchange-time-line",
+        "ch12-12-1-4-network-allocation-vector",
+        "ch12-12-1-4-collision-during-handshaking",
+        "ch12-12-1-4-hidden-station-problem",
+        "ch12-12-1-4-csma-ca-and-wireless-networks"
+      ],
+      "source": "book 12.1.4; p.338",
+      "kind": "concept",
+      "asset_ids": [
+        "ch12_ill_015",
+        "ch12_ill_016"
+      ],
+      "terms": [
+        "1",
+        "12",
+        "4",
+        "ca",
+        "csma"
+      ],
+      "question_ids": [
+        "ch12-q-q12-10",
+        "ch12-q-q12-13",
+        "ch12-q-q12-21",
+        "ch12-q-q12-23"
+      ]
+    },
+    {
+      "id": "ch12-12-1-4-frame-exchange-time-line",
+      "chapter": 12,
+      "title": "Frame Exchange Time Line",
+      "parent": "ch12-12-1-4",
+      "children": [],
+      "source": "book p.339",
+      "kind": "concept",
+      "asset_ids": [
+        "ch12_ill_017"
+      ],
+      "terms": [
+        "exchange",
+        "frame",
+        "line",
+        "time"
+      ],
+      "question_ids": [
+        "ch12-q-q12-22"
+      ]
+    },
+    {
+      "id": "ch12-12-1-4-network-allocation-vector",
+      "chapter": 12,
+      "title": "Network Allocation Vector",
+      "parent": "ch12-12-1-4",
+      "children": [],
+      "source": "book p.340",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "allocation",
+        "network",
+        "vector"
+      ],
+      "question_ids": [
+        "ch12-q-q12-24"
+      ]
+    },
+    {
+      "id": "ch12-12-1-4-collision-during-handshaking",
+      "chapter": 12,
+      "title": "Collision During Handshaking",
+      "parent": "ch12-12-1-4",
+      "children": [],
+      "source": "book p.340",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "collision",
+        "during",
+        "handshaking"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-1-4-hidden-station-problem",
+      "chapter": 12,
+      "title": "Hidden-Station Problem",
+      "parent": "ch12-12-1-4",
+      "children": [],
+      "source": "book p.341",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "hidden",
+        "problem",
+        "station"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-1-4-csma-ca-and-wireless-networks",
+      "chapter": 12,
+      "title": "CSMA/CA and Wireless Networks",
+      "parent": "ch12-12-1-4",
+      "children": [],
+      "source": "book p.341",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "ca",
+        "csma",
+        "networks",
+        "wireless"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-2",
+      "chapter": 12,
+      "title": "12.2 CONTROLLED ACCESS",
+      "parent": null,
+      "children": [
+        "ch12-12-2-1",
+        "ch12-12-2-2",
+        "ch12-12-2-3"
+      ],
+      "source": "book 12.2; p.341",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "12",
+        "2",
+        "access",
+        "controlled"
+      ],
+      "question_ids": [
+        "ch12-q-q12-2",
+        "ch12-q-q12-17"
+      ]
+    },
+    {
+      "id": "ch12-12-2-1",
+      "chapter": 12,
+      "title": "12.2.1 Reservation",
+      "parent": "ch12-12-2",
+      "children": [],
+      "source": "book 12.2.1; p.341",
+      "kind": "concept",
+      "asset_ids": [
+        "ch12_ill_018"
+      ],
+      "terms": [
+        "1",
+        "12",
+        "2",
+        "reservation"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-2-2",
+      "chapter": 12,
+      "title": "12.2.2 Polling",
+      "parent": "ch12-12-2",
+      "children": [
+        "ch12-12-2-2-select",
+        "ch12-12-2-2-poll"
+      ],
+      "source": "book 12.2.2; p.342",
+      "kind": "concept",
+      "asset_ids": [
+        "ch12_ill_019"
+      ],
+      "terms": [
+        "12",
+        "2",
+        "polling"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-2-2-select",
+      "chapter": 12,
+      "title": "Select",
+      "parent": "ch12-12-2-2",
+      "children": [],
+      "source": "book p.342",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "select"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-2-2-poll",
+      "chapter": 12,
+      "title": "Poll",
+      "parent": "ch12-12-2-2",
+      "children": [],
+      "source": "book p.342",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "poll"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-2-3",
+      "chapter": 12,
+      "title": "12.2.3 Token Passing",
+      "parent": "ch12-12-2",
+      "children": [
+        "ch12-12-2-3-logical-ring"
+      ],
+      "source": "book 12.2.3; p.343",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "12",
+        "2",
+        "3",
+        "passing",
+        "token"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-2-3-logical-ring",
+      "chapter": 12,
+      "title": "Logical Ring",
+      "parent": "ch12-12-2-3",
+      "children": [],
+      "source": "book p.343",
+      "kind": "concept",
+      "asset_ids": [
+        "ch12_ill_020"
+      ],
+      "terms": [
+        "logical",
+        "ring"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-3",
+      "chapter": 12,
+      "title": "12.3 CHANNELIZATION",
+      "parent": null,
+      "children": [
+        "ch12-12-3-1",
+        "ch12-12-3-2",
+        "ch12-12-3-3"
+      ],
+      "source": "book 12.3; p.344",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "12",
+        "3",
+        "channelization"
+      ],
+      "question_ids": [
+        "ch12-q-q12-3",
+        "ch12-q-q12-18"
+      ]
+    },
+    {
+      "id": "ch12-12-3-1",
+      "chapter": 12,
+      "title": "12.3.1 FDMA",
+      "parent": "ch12-12-3",
+      "children": [],
+      "source": "book 12.3.1; p.344",
+      "kind": "concept",
+      "asset_ids": [
+        "ch12_ill_021"
+      ],
+      "terms": [
+        "1",
+        "12",
+        "3",
+        "fdma"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-3-2",
+      "chapter": 12,
+      "title": "12.3.2 TDMA",
+      "parent": "ch12-12-3",
+      "children": [],
+      "source": "book 12.3.2; p.346",
+      "kind": "concept",
+      "asset_ids": [
+        "ch12_ill_022"
+      ],
+      "terms": [
+        "12",
+        "2",
+        "3",
+        "tdma"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-3-3",
+      "chapter": 12,
+      "title": "12.3.3 CDMA",
+      "parent": "ch12-12-3",
+      "children": [
+        "ch12-12-3-3-analogy",
+        "ch12-12-3-3-idea",
+        "ch12-12-3-3-chips",
+        "ch12-12-3-3-data-representation",
+        "ch12-12-3-3-encoding-and-decoding",
+        "ch12-12-3-3-signal-level",
+        "ch12-12-3-3-sequence-generation"
+      ],
+      "source": "book 12.3.3; p.347",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "12",
+        "3",
+        "cdma"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-3-3-analogy",
+      "chapter": 12,
+      "title": "Analogy",
+      "parent": "ch12-12-3-3",
+      "children": [],
+      "source": "book p.347",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "analogy"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-3-3-idea",
+      "chapter": 12,
+      "title": "Idea",
+      "parent": "ch12-12-3-3",
+      "children": [],
+      "source": "book p.347",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "idea"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-3-3-chips",
+      "chapter": 12,
+      "title": "Chips",
+      "parent": "ch12-12-3-3",
+      "children": [],
+      "source": "book p.347",
+      "kind": "concept",
+      "asset_ids": [
+        "ch12_ill_023",
+        "ch12_ill_024"
+      ],
+      "terms": [
+        "chips"
+      ],
+      "question_ids": [
+        "ch12-q-p12-23",
+        "ch12-q-p12-24"
+      ]
+    },
+    {
+      "id": "ch12-12-3-3-data-representation",
+      "chapter": 12,
+      "title": "Data Representation",
+      "parent": "ch12-12-3-3",
+      "children": [],
+      "source": "book p.349",
+      "kind": "concept",
+      "asset_ids": [
+        "ch12_ill_025"
+      ],
+      "terms": [
+        "data",
+        "representation"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-3-3-encoding-and-decoding",
+      "chapter": 12,
+      "title": "Encoding and Decoding",
+      "parent": "ch12-12-3-3",
+      "children": [],
+      "source": "book p.349",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "decoding",
+        "encoding"
+      ],
+      "question_ids": [
+        "ch12-q-p12-25"
+      ]
+    },
+    {
+      "id": "ch12-12-3-3-signal-level",
+      "chapter": 12,
+      "title": "Signal Level",
+      "parent": "ch12-12-3-3",
+      "children": [],
+      "source": "book p.349",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "level",
+        "signal"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-3-3-sequence-generation",
+      "chapter": 12,
+      "title": "Sequence Generation",
+      "parent": "ch12-12-3-3",
+      "children": [
+        "ch12-example-12-6",
+        "ch12-example-12-7",
+        "ch12-example-12-8"
+      ],
+      "source": "book p.349",
+      "kind": "concept",
+      "asset_ids": [
+        "ch12_ill_026",
+        "ch12_ill_027",
+        "ch12_ill_028",
+        "ch12_ill_029"
+      ],
+      "terms": [
+        "generation",
+        "sequence"
+      ],
+      "question_ids": [
+        "ch12-q-p12-25"
+      ]
+    },
+    {
+      "id": "ch12-example-12-6",
+      "chapter": 12,
+      "title": "Example 12.6",
+      "parent": "ch12-12-3-3-sequence-generation",
+      "children": [],
+      "source": "book Example 12.6; p.351",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "12",
+        "6",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-example-12-7",
+      "chapter": 12,
+      "title": "Example 12.7",
+      "parent": "ch12-12-3-3-sequence-generation",
+      "children": [],
+      "source": "book Example 12.7; p.352",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "12",
+        "7",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-example-12-8",
+      "chapter": 12,
+      "title": "Example 12.8",
+      "parent": "ch12-12-3-3-sequence-generation",
+      "children": [],
+      "source": "book Example 12.8; p.352",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "12",
+        "8",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-4",
+      "chapter": 12,
+      "title": "12.4 END-CHAPTER MATERIALS",
+      "parent": null,
+      "children": [
+        "ch12-12-4-1",
+        "ch12-12-4-2",
+        "ch12-12-4-3"
+      ],
+      "source": "book 12.4; p.352",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "12",
+        "4",
+        "chapter",
+        "end",
+        "materials"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-4-1",
+      "chapter": 12,
+      "title": "12.4.1 Recommended Reading",
+      "parent": "ch12-12-4",
+      "children": [
+        "ch12-12-4-1-books",
+        "ch12-12-4-1-rfcs"
+      ],
+      "source": "book 12.4.1; p.352",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "12",
+        "4",
+        "reading",
+        "recommended"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-4-1-books",
+      "chapter": 12,
+      "title": "Books",
+      "parent": "ch12-12-4-1",
+      "children": [],
+      "source": "book p.352",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "books"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-4-1-rfcs",
+      "chapter": 12,
+      "title": "RFCs",
+      "parent": "ch12-12-4-1",
+      "children": [],
+      "source": "book p.352",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "rfcs"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-4-2",
+      "chapter": 12,
+      "title": "12.4.2 Key Terms",
+      "parent": "ch12-12-4",
+      "children": [],
+      "source": "book 12.4.2; p.353",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "12",
+        "2",
+        "4",
+        "key",
+        "terms"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch12-12-4-3",
+      "chapter": 12,
+      "title": "12.4.3 Summary",
+      "parent": "ch12-12-4",
+      "children": [],
+      "source": "book 12.4.3; p.353",
+      "kind": "summary",
+      "asset_ids": [],
+      "terms": [
+        "12",
+        "3",
+        "4",
         "summary"
       ],
       "question_ids": []

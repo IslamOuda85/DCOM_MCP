@@ -1,0 +1,6745 @@
+{
+  "chapter": 12,
+  "spec_version": "1.1-controller",
+  "generated_at": "2026-10-07T03:48:17+00:00",
+  "assets": [
+    {
+      "id": "ch12_ill_001",
+      "file": "ch12_ill_001.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.1",
+      "section_id": "ch12-0",
+      "alt": "Figure 12.1: Taxonomy of multiple-access protocols",
+      "sources": [
+        "book Figure 12.1; p.325"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 423,
+      "sha256": "004efca0351c25002710d95db64a20c7a044d6d6779afab5f8e3b6defc2271cb",
+      "description": "Figure 12.1: Taxonomy of multiple-access protocols. A taxonomy tree divides multiple-access protocols into random access, controlled access, and channelization, with the protocols in each family listed below.",
+      "structure": "A taxonomy tree divides multiple-access protocols into random access, controlled access, and channelization, with the protocols in each family listed below.",
+      "text_in_image": "Multiple-access; protocols; Random-access; Controlled-access; Channelization; protocols; protocols; protocols; ALOHA; Reservation; FDMA; CSMA; Polling; TDMA; CSMA/CD; CDMA; Token passing; CSMA/CA",
+      "use_when": "Teach ch12-0, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 1,
+      "source_bbox": [
+        114.32,
+        289.12,
+        466.32,
+        429.98
+      ],
+      "labels": [
+        {
+          "text": "Multiple-access",
+          "bbox": [
+            0.4246,
+            0.2267,
+            0.5686,
+            0.2835
+          ]
+        },
+        {
+          "text": "protocols",
+          "bbox": [
+            0.4543,
+            0.2948,
+            0.5389,
+            0.3516
+          ]
+        },
+        {
+          "text": "Random-access",
+          "bbox": [
+            0.0966,
+            0.464,
+            0.2392,
+            0.5208
+          ]
+        },
+        {
+          "text": "Controlled-access",
+          "bbox": [
+            0.4164,
+            0.4657,
+            0.5793,
+            0.5225
+          ]
+        },
+        {
+          "text": "Channelization",
+          "bbox": [
+            0.759,
+            0.4657,
+            0.8966,
+            0.5225
+          ]
+        },
+        {
+          "text": "protocols",
+          "bbox": [
+            0.1256,
+            0.5322,
+            0.2102,
+            0.5889
+          ]
+        },
+        {
+          "text": "protocols",
+          "bbox": [
+            0.4556,
+            0.5339,
+            0.5402,
+            0.5907
+          ]
+        },
+        {
+          "text": "protocols",
+          "bbox": [
+            0.7855,
+            0.5339,
+            0.8701,
+            0.5907
+          ]
+        },
+        {
+          "text": "ALOHA",
+          "bbox": [
+            0.1415,
+            0.6607,
+            0.2249,
+            0.7175
+          ]
+        },
+        {
+          "text": "Reservation",
+          "bbox": [
+            0.4817,
+            0.6822,
+            0.5979,
+            0.739
+          ]
+        },
+        {
+          "text": "FDMA",
+          "bbox": [
+            0.8066,
+            0.6847,
+            0.8748,
+            0.7415
+          ]
+        },
+        {
+          "text": "CSMA",
+          "bbox": [
+            0.1415,
+            0.7267,
+            0.2084,
+            0.7834
+          ]
+        },
+        {
+          "text": "Polling",
+          "bbox": [
+            0.4817,
+            0.7467,
+            0.5499,
+            0.8035
+          ]
+        },
+        {
+          "text": "TDMA",
+          "bbox": [
+            0.8066,
+            0.7476,
+            0.8761,
+            0.8044
+          ]
+        },
+        {
+          "text": "CSMA/CD",
+          "bbox": [
+            0.1415,
+            0.7926,
+            0.2476,
+            0.8494
+          ]
+        },
+        {
+          "text": "CDMA",
+          "bbox": [
+            0.8066,
+            0.8105,
+            0.8773,
+            0.8673
+          ]
+        },
+        {
+          "text": "Token passing",
+          "bbox": [
+            0.4817,
+            0.8112,
+            0.6213,
+            0.868
+          ]
+        },
+        {
+          "text": "CSMA/CA",
+          "bbox": [
+            0.1415,
+            0.8586,
+            0.2476,
+            0.9154
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_002",
+      "file": "ch12_ill_002.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.2",
+      "section_id": "ch12-12-1-1-pure-aloha",
+      "alt": "Figure 12.2: Frames in a pure ALOHA network",
+      "sources": [
+        "book Figure 12.2; p.327"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 478,
+      "sha256": "b74d1d99790588d2b9460784481d39382b4f2f5994b9261c17ea36839babbddb",
+      "description": "Figure 12.2: Frames in a pure ALOHA network. Four station timelines show unslotted frames, with shaded overlap regions marking two pure-ALOHA collisions.",
+      "structure": "Four station timelines show unslotted frames, with shaded overlap regions marking two pure-ALOHA collisions.",
+      "text_in_image": "Station 1; Station 2; Station 3; Station 4; Time; Collision; Collision; duration; duration",
+      "use_when": "Teach ch12-12-1-1-pure-aloha, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 3,
+      "source_bbox": [
+        115.34,
+        47.8,
+        466.32,
+        206.9
+      ],
+      "labels": [
+        {
+          "text": "Station 1",
+          "bbox": [
+            0.0458,
+            0.239,
+            0.1275,
+            0.2893
+          ]
+        },
+        {
+          "text": "Station 2",
+          "bbox": [
+            0.0458,
+            0.3933,
+            0.1275,
+            0.4436
+          ]
+        },
+        {
+          "text": "Station 3",
+          "bbox": [
+            0.0458,
+            0.5476,
+            0.1275,
+            0.5979
+          ]
+        },
+        {
+          "text": "Station 4",
+          "bbox": [
+            0.0458,
+            0.7019,
+            0.1275,
+            0.7522
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.9011,
+            0.762,
+            0.9513,
+            0.8123
+          ]
+        },
+        {
+          "text": "Collision",
+          "bbox": [
+            0.3594,
+            0.7915,
+            0.443,
+            0.8418
+          ]
+        },
+        {
+          "text": "Collision",
+          "bbox": [
+            0.6088,
+            0.7915,
+            0.6924,
+            0.8418
+          ]
+        },
+        {
+          "text": "duration",
+          "bbox": [
+            0.3632,
+            0.8518,
+            0.4392,
+            0.9021
+          ]
+        },
+        {
+          "text": "duration",
+          "bbox": [
+            0.6126,
+            0.8518,
+            0.6886,
+            0.9021
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_003",
+      "file": "ch12_ill_003.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.3",
+      "section_id": "ch12-12-1-1-pure-aloha",
+      "alt": "Figure 12.3: Procedure for pure ALOHA protocol",
+      "sources": [
+        "book Figure 12.3; p.328"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 685,
+      "sha256": "0d22b8fec4b76b9e145fc2ffbd33c6fcce573e1ae2091441087cb4f1088bd349",
+      "description": "Figure 12.3: Procedure for pure ALOHA protocol. The pure-ALOHA flowchart initializes attempt count K, sends, waits for an acknowledgment, and uses exponential random backoff before retry or abort.",
+      "structure": "The pure-ALOHA flowchart initializes attempt count K, sends, waits for an acknowledgment, and uses exponential random backoff before retry or abort.",
+      "text_in_image": "Station has; Legend; a frame to send; K : Number of attempts; K = 0; Tp: Maximum propagation time; Tfr: Average transmission time; TB: (Backoff time): R × Tp or R × Tfr; R : (Random number): 0 to 2K – 1; Send the; Wait TB; frame; Wait; Choose; (2 × Tp); R; [false]; ACK; K > Kmax; received?; K = K + 1; [false]; [true]; [true]; Success; Abort",
+      "use_when": "Teach ch12-12-1-1-pure-aloha, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 4,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        275.96
+      ],
+      "labels": [
+        {
+          "text": "Station has",
+          "bbox": [
+            0.8217,
+            0.1558,
+            0.93,
+            0.1909
+          ]
+        },
+        {
+          "text": "Legend",
+          "bbox": [
+            0.0097,
+            0.1936,
+            0.0819,
+            0.2287
+          ]
+        },
+        {
+          "text": "a frame to send",
+          "bbox": [
+            0.8217,
+            0.1979,
+            0.9717,
+            0.233
+          ]
+        },
+        {
+          "text": "K : Number of attempts",
+          "bbox": [
+            0.0197,
+            0.2436,
+            0.2379,
+            0.2857
+          ]
+        },
+        {
+          "text": "K = 0",
+          "bbox": [
+            0.7643,
+            0.2674,
+            0.8152,
+            0.3094
+          ]
+        },
+        {
+          "text": "Tp: Maximum propagation time",
+          "bbox": [
+            0.0197,
+            0.2857,
+            0.3115,
+            0.3348
+          ]
+        },
+        {
+          "text": "Tfr: Average transmission time",
+          "bbox": [
+            0.0197,
+            0.3278,
+            0.3058,
+            0.3769
+          ]
+        },
+        {
+          "text": "TB: (Backoff time): R × Tp or R × Tfr",
+          "bbox": [
+            0.0197,
+            0.3699,
+            0.352,
+            0.419
+          ]
+        },
+        {
+          "text": "R : (Random number): 0 to 2K – 1",
+          "bbox": [
+            0.0197,
+            0.4119,
+            0.3325,
+            0.454
+          ]
+        },
+        {
+          "text": "Send the",
+          "bbox": [
+            0.7509,
+            0.422,
+            0.83,
+            0.4571
+          ]
+        },
+        {
+          "text": "Wait TB",
+          "bbox": [
+            0.4305,
+            0.4451,
+            0.5097,
+            0.4892
+          ]
+        },
+        {
+          "text": "frame",
+          "bbox": [
+            0.7639,
+            0.4641,
+            0.817,
+            0.4992
+          ]
+        },
+        {
+          "text": "Wait",
+          "bbox": [
+            0.7676,
+            0.5794,
+            0.82,
+            0.6145
+          ]
+        },
+        {
+          "text": "Choose",
+          "bbox": [
+            0.4326,
+            0.5801,
+            0.501,
+            0.6152
+          ]
+        },
+        {
+          "text": "(2 × Tp)",
+          "bbox": [
+            0.7562,
+            0.6197,
+            0.8314,
+            0.6632
+          ]
+        },
+        {
+          "text": "R",
+          "bbox": [
+            0.4598,
+            0.6292,
+            0.4738,
+            0.6643
+          ]
+        },
+        {
+          "text": "[false]",
+          "bbox": [
+            0.4705,
+            0.6837,
+            0.5287,
+            0.7188
+          ]
+        },
+        {
+          "text": "ACK",
+          "bbox": [
+            0.8956,
+            0.6921,
+            0.9437,
+            0.7272
+          ]
+        },
+        {
+          "text": "K > Kmax",
+          "bbox": [
+            0.2823,
+            0.7023,
+            0.3655,
+            0.7514
+          ]
+        },
+        {
+          "text": "received?",
+          "bbox": [
+            0.876,
+            0.7342,
+            0.9633,
+            0.7693
+          ]
+        },
+        {
+          "text": "K = K + 1",
+          "bbox": [
+            0.5786,
+            0.7382,
+            0.6689,
+            0.7803
+          ]
+        },
+        {
+          "text": "[false]",
+          "bbox": [
+            0.7,
+            0.769,
+            0.7582,
+            0.8041
+          ]
+        },
+        {
+          "text": "[true]",
+          "bbox": [
+            0.4743,
+            0.7879,
+            0.5249,
+            0.8229
+          ]
+        },
+        {
+          "text": "[true]",
+          "bbox": [
+            0.7981,
+            0.7971,
+            0.8487,
+            0.8321
+          ]
+        },
+        {
+          "text": "Success",
+          "bbox": [
+            0.8198,
+            0.875,
+            0.8932,
+            0.9101
+          ]
+        },
+        {
+          "text": "Abort",
+          "bbox": [
+            0.3808,
+            0.8761,
+            0.4391,
+            0.9112
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_004",
+      "file": "ch12_ill_004.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.4",
+      "section_id": "ch12-12-1-1-vulnerable-time",
+      "alt": "Figure 12.4: Vulnerable time for pure ALOHA protocol",
+      "sources": [
+        "book Figure 12.4; p.328"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 491,
+      "sha256": "4fef66fb9e10501722d25fede4b6eae409d0c8bfa5c8aa503f23a527f897246e",
+      "description": "Figure 12.4: Vulnerable time for pure ALOHA protocol. Three frames centered around B show that any start within one frame time before or after B overlaps it, giving a vulnerable interval of 2T_fr.",
+      "structure": "Three frames centered around B show that any start within one frame time before or after B overlaps it, giving a vulnerable interval of 2T_fr.",
+      "text_in_image": "A’s end; B’s end; collides with; collides with; B’s beginning; C’s beginning; A; B; C; Time; t + Tfr; t; t – Tfr; Vulnerable time = 2 × Tfr",
+      "use_when": "Teach ch12-12-1-1-vulnerable-time, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 4,
+      "source_bbox": [
+        99.32,
+        402.82,
+        451.32,
+        566.0
+      ],
+      "labels": [
+        {
+          "text": "A’s end",
+          "bbox": [
+            0.355,
+            0.1871,
+            0.4263,
+            0.2361
+          ]
+        },
+        {
+          "text": "B’s end",
+          "bbox": [
+            0.5308,
+            0.1871,
+            0.6009,
+            0.2361
+          ]
+        },
+        {
+          "text": "collides with",
+          "bbox": [
+            0.3323,
+            0.2459,
+            0.4491,
+            0.2949
+          ]
+        },
+        {
+          "text": "collides with",
+          "bbox": [
+            0.5074,
+            0.2459,
+            0.6242,
+            0.2949
+          ]
+        },
+        {
+          "text": "B’s beginning",
+          "bbox": [
+            0.3266,
+            0.3047,
+            0.4547,
+            0.3538
+          ]
+        },
+        {
+          "text": "C’s beginning",
+          "bbox": [
+            0.5017,
+            0.3047,
+            0.6299,
+            0.3538
+          ]
+        },
+        {
+          "text": "A",
+          "bbox": [
+            0.2942,
+            0.4813,
+            0.3106,
+            0.5303
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.4823,
+            0.5635,
+            0.4974,
+            0.6126
+          ]
+        },
+        {
+          "text": "C",
+          "bbox": [
+            0.6467,
+            0.6442,
+            0.6619,
+            0.6932
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.8508,
+            0.6996,
+            0.8988,
+            0.7486
+          ]
+        },
+        {
+          "text": "t + Tfr",
+          "bbox": [
+            0.5797,
+            0.7404,
+            0.6342,
+            0.809
+          ]
+        },
+        {
+          "text": "t",
+          "bbox": [
+            0.3707,
+            0.7467,
+            0.377,
+            0.7957
+          ]
+        },
+        {
+          "text": "t – Tfr",
+          "bbox": [
+            0.1167,
+            0.7474,
+            0.1697,
+            0.816
+          ]
+        },
+        {
+          "text": "Vulnerable time = 2 × Tfr",
+          "bbox": [
+            0.2582,
+            0.7959,
+            0.489,
+            0.8645
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_005",
+      "file": "ch12_ill_005.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.5",
+      "section_id": "ch12-12-1-1-slotted-aloha",
+      "alt": "Figure 12.5: Frames in a slotted ALOHA network",
+      "sources": [
+        "book Figure 12.5; p.330"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 476,
+      "sha256": "e68b7018c719f702576485ce2e7cd8f18ede60b82f087f7b969bfeb488bec9f6",
+      "description": "Figure 12.5: Frames in a slotted ALOHA network. Four station timelines aligned to slots show collisions only when frames begin in the same slot.",
+      "structure": "Four station timelines aligned to slots show collisions only when frames begin in the same slot.",
+      "text_in_image": "Collision; Collision; duration; duration; Station 1; Station 2; Station 3; Station 4; Time; Slot 1; Slot 2; Slot 3; Slot 4; Slot 5; Slot 6",
+      "use_when": "Teach ch12-12-1-1-slotted-aloha, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 6,
+      "source_bbox": [
+        99.32,
+        194.86,
+        451.32,
+        353.18
+      ],
+      "labels": [
+        {
+          "text": "Collision",
+          "bbox": [
+            0.315,
+            0.204,
+            0.3984,
+            0.2545
+          ]
+        },
+        {
+          "text": "Collision",
+          "bbox": [
+            0.4142,
+            0.204,
+            0.4976,
+            0.2545
+          ]
+        },
+        {
+          "text": "duration",
+          "bbox": [
+            0.3188,
+            0.2646,
+            0.3946,
+            0.3151
+          ]
+        },
+        {
+          "text": "duration",
+          "bbox": [
+            0.418,
+            0.2646,
+            0.4938,
+            0.3151
+          ]
+        },
+        {
+          "text": "Station 1",
+          "bbox": [
+            0.0928,
+            0.3496,
+            0.1743,
+            0.4001
+          ]
+        },
+        {
+          "text": "Station 2",
+          "bbox": [
+            0.0928,
+            0.4853,
+            0.1743,
+            0.5358
+          ]
+        },
+        {
+          "text": "Station 3",
+          "bbox": [
+            0.0928,
+            0.6209,
+            0.1743,
+            0.6715
+          ]
+        },
+        {
+          "text": "Station 4",
+          "bbox": [
+            0.0928,
+            0.7566,
+            0.1743,
+            0.8072
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.8601,
+            0.7916,
+            0.9072,
+            0.8421
+          ]
+        },
+        {
+          "text": "Slot 1",
+          "bbox": [
+            0.251,
+            0.8548,
+            0.306,
+            0.9053
+          ]
+        },
+        {
+          "text": "Slot 2",
+          "bbox": [
+            0.3429,
+            0.8548,
+            0.3978,
+            0.9053
+          ]
+        },
+        {
+          "text": "Slot 3",
+          "bbox": [
+            0.4215,
+            0.8548,
+            0.4764,
+            0.9053
+          ]
+        },
+        {
+          "text": "Slot 4",
+          "bbox": [
+            0.5029,
+            0.8548,
+            0.5579,
+            0.9053
+          ]
+        },
+        {
+          "text": "Slot 5",
+          "bbox": [
+            0.5872,
+            0.8548,
+            0.6421,
+            0.9053
+          ]
+        },
+        {
+          "text": "Slot 6",
+          "bbox": [
+            0.6686,
+            0.8548,
+            0.7236,
+            0.9053
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_006",
+      "file": "ch12_ill_006.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.6",
+      "section_id": "ch12-12-1-1-slotted-aloha-throughput",
+      "alt": "Figure 12.6: Vulnerable time for slotted ALOHA protocol",
+      "sources": [
+        "book Figure 12.6; p.330"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 481,
+      "sha256": "6241c18a368cbc50d712354a788283ad642de8fb363716b3d8dfc72c6502fc1c",
+      "description": "Figure 12.6: Vulnerable time for slotted ALOHA protocol. Frames B and C share one slot, illustrating the slotted-ALOHA vulnerable interval T_fr.",
+      "structure": "Frames B and C share one slot, illustrating the slotted-ALOHA vulnerable interval T_fr.",
+      "text_in_image": "B collides with C; A; B; C; Time; t + Tfr; t – Tfr; t; Vulnerable time = Tfr",
+      "use_when": "Teach ch12-12-1-1-slotted-aloha-throughput, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 6,
+      "source_bbox": [
+        99.32,
+        437.02,
+        451.32,
+        597.08
+      ],
+      "labels": [
+        {
+          "text": "B collides with C",
+          "bbox": [
+            0.4844,
+            0.2096,
+            0.6429,
+            0.2596
+          ]
+        },
+        {
+          "text": "A",
+          "bbox": [
+            0.3204,
+            0.3197,
+            0.3368,
+            0.3697
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.5533,
+            0.4345,
+            0.5685,
+            0.4845
+          ]
+        },
+        {
+          "text": "C",
+          "bbox": [
+            0.5527,
+            0.5658,
+            0.5691,
+            0.6157
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.8493,
+            0.6803,
+            0.8964,
+            0.7303
+          ]
+        },
+        {
+          "text": "t + Tfr",
+          "bbox": [
+            0.6499,
+            0.725,
+            0.7054,
+            0.795
+          ]
+        },
+        {
+          "text": "t – Tfr",
+          "bbox": [
+            0.1937,
+            0.7322,
+            0.2487,
+            0.8021
+          ]
+        },
+        {
+          "text": "t",
+          "bbox": [
+            0.4423,
+            0.7354,
+            0.4486,
+            0.7854
+          ]
+        },
+        {
+          "text": "Vulnerable time = Tfr",
+          "bbox": [
+            0.4643,
+            0.7752,
+            0.6579,
+            0.8451
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_007",
+      "file": "ch12_ill_007.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.7",
+      "section_id": "ch12-12-1-2",
+      "alt": "Figure 12.7: Space/time model of a collision in CSMA",
+      "sources": [
+        "book Figure 12.7; p.332"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 571,
+      "sha256": "a6d60b32e087834f3b4e3bfa5880dd1a96cada38fe084ddb4102502a6a20f435",
+      "description": "Figure 12.7: Space/time model of a collision in CSMA. A space-time diagram shows B and C sensing idle at different times because of propagation delay, then creating an overlap region.",
+      "structure": "A space-time diagram shows B and C sensing idle at different times because of propagation delay, then creating an overlap region.",
+      "text_in_image": "B starts; C starts; at time t1; at time t2; A; B; C; D; t1; t2; Area where; B’s signal exists; Area where; both signals exist; Area where; C’s signal exists; Time; Time",
+      "use_when": "Teach ch12-12-1-2, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 8,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        237.98
+      ],
+      "labels": [
+        {
+          "text": "B starts",
+          "bbox": [
+            0.3868,
+            0.1801,
+            0.4558,
+            0.2222
+          ]
+        },
+        {
+          "text": "C starts",
+          "bbox": [
+            0.7242,
+            0.1844,
+            0.7932,
+            0.2264
+          ]
+        },
+        {
+          "text": "at time t1",
+          "bbox": [
+            0.3797,
+            0.2306,
+            0.4629,
+            0.2832
+          ]
+        },
+        {
+          "text": "at time t2",
+          "bbox": [
+            0.7171,
+            0.2348,
+            0.8004,
+            0.2874
+          ]
+        },
+        {
+          "text": "A",
+          "bbox": [
+            0.195,
+            0.2885,
+            0.2114,
+            0.3306
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.3672,
+            0.2885,
+            0.3824,
+            0.3306
+          ]
+        },
+        {
+          "text": "C",
+          "bbox": [
+            0.696,
+            0.2885,
+            0.7112,
+            0.3306
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.8499,
+            0.2885,
+            0.8664,
+            0.3306
+          ]
+        },
+        {
+          "text": "t1",
+          "bbox": [
+            0.2325,
+            0.3866,
+            0.2473,
+            0.4307
+          ]
+        },
+        {
+          "text": "t2",
+          "bbox": [
+            0.91,
+            0.4147,
+            0.9249,
+            0.4588
+          ]
+        },
+        {
+          "text": "Area where",
+          "bbox": [
+            0.1206,
+            0.4614,
+            0.2262,
+            0.5035
+          ]
+        },
+        {
+          "text": "B’s signal exists",
+          "bbox": [
+            0.0768,
+            0.5119,
+            0.2262,
+            0.554
+          ]
+        },
+        {
+          "text": "Area where",
+          "bbox": [
+            0.1205,
+            0.6116,
+            0.2262,
+            0.6537
+          ]
+        },
+        {
+          "text": "both signals exist",
+          "bbox": [
+            0.0679,
+            0.6621,
+            0.2262,
+            0.7041
+          ]
+        },
+        {
+          "text": "Area where",
+          "bbox": [
+            0.3941,
+            0.7965,
+            0.4998,
+            0.8386
+          ]
+        },
+        {
+          "text": "C’s signal exists",
+          "bbox": [
+            0.3723,
+            0.847,
+            0.5217,
+            0.8891
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.2304,
+            0.8582,
+            0.2786,
+            0.9003
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.878,
+            0.8582,
+            0.9261,
+            0.9003
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_008",
+      "file": "ch12_ill_008.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.8",
+      "section_id": "ch12-12-1-2-vulnerable-time",
+      "alt": "Figure 12.8: Vulnerable time in CSMA",
+      "sources": [
+        "book Figure 12.8; p.332"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 468,
+      "sha256": "fd26a8199b3a990438a04fdb11af229fee7f041ac959901736f690e2cfc41fbd",
+      "description": "Figure 12.8: Vulnerable time in CSMA. Signals propagate from four stations across a bus; sensing points and the shaded wedge identify the CSMA vulnerable propagation interval.",
+      "structure": "Signals propagate from four stations across a bus; sensing points and the shaded wedge identify the CSMA vulnerable propagation interval.",
+      "text_in_image": "A; B; C; D; D senses; B senses; C senses; here; here; here; t1; Vulnerable time; =; propagation time; Frame propagation; Time; Time",
+      "use_when": "Teach ch12-12-1-2-vulnerable-time, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 8,
+      "source_bbox": [
+        99.32,
+        409.84,
+        451.32,
+        565.46
+      ],
+      "labels": [
+        {
+          "text": "A",
+          "bbox": [
+            0.0091,
+            0.1817,
+            0.0255,
+            0.2331
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.2163,
+            0.1817,
+            0.2315,
+            0.2331
+          ]
+        },
+        {
+          "text": "C",
+          "bbox": [
+            0.6017,
+            0.1817,
+            0.6168,
+            0.2331
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.7758,
+            0.1817,
+            0.7922,
+            0.2331
+          ]
+        },
+        {
+          "text": "D senses",
+          "bbox": [
+            0.6713,
+            0.3187,
+            0.7528,
+            0.3701
+          ]
+        },
+        {
+          "text": "B senses",
+          "bbox": [
+            0.1244,
+            0.319,
+            0.2046,
+            0.3704
+          ]
+        },
+        {
+          "text": "C senses",
+          "bbox": [
+            0.4847,
+            0.319,
+            0.5662,
+            0.3704
+          ]
+        },
+        {
+          "text": "here",
+          "bbox": [
+            0.6877,
+            0.3804,
+            0.7363,
+            0.4318
+          ]
+        },
+        {
+          "text": "here",
+          "bbox": [
+            0.1402,
+            0.3807,
+            0.1888,
+            0.4321
+          ]
+        },
+        {
+          "text": "here",
+          "bbox": [
+            0.5011,
+            0.3807,
+            0.5497,
+            0.4321
+          ]
+        },
+        {
+          "text": "t1",
+          "bbox": [
+            0.021,
+            0.4014,
+            0.0358,
+            0.4554
+          ]
+        },
+        {
+          "text": "Vulnerable time",
+          "bbox": [
+            0.8401,
+            0.4068,
+            0.9871,
+            0.4583
+          ]
+        },
+        {
+          "text": "=",
+          "bbox": [
+            0.9072,
+            0.4685,
+            0.92,
+            0.5199
+          ]
+        },
+        {
+          "text": "propagation time",
+          "bbox": [
+            0.8363,
+            0.5302,
+            0.9909,
+            0.5816
+          ]
+        },
+        {
+          "text": "Frame propagation",
+          "bbox": [
+            0.3374,
+            0.5796,
+            0.5097,
+            0.631
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.0181,
+            0.8265,
+            0.066,
+            0.878
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.7808,
+            0.8266,
+            0.8287,
+            0.878
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_009",
+      "file": "ch12_ill_009.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.9",
+      "section_id": "ch12-12-1-2-persistence-methods",
+      "alt": "Figure 12.9: Behavior of three persistence methods",
+      "sources": [
+        "book Figure 12.9; p.333"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 615,
+      "sha256": "d6a33eb0e5d7c3614180814de9b4e0ef56377556d2ec8b1d5739e81aa8a107cf",
+      "description": "Figure 12.9: Behavior of three persistence methods. Timelines compare 1-persistent, nonpersistent, and p-persistent behavior while a channel alternates between busy and idle.",
+      "structure": "Timelines compare 1-persistent, nonpersistent, and p-persistent behavior while a channel alternates between busy and idle.",
+      "text_in_image": "Transmit; Transmit; Sense; Sense; Continuously sense; Wait; Wait; Time; Time; Busy; Busy; a. 1-Persistent; b. Nonpersistent; Send if; Send if; Send if; R < p.; R < p.; R < p.; Wait a time slot; Wait a backoff; Wait a time slot; Continuously sense; otherwise; time; otherwise; Time; Busy; Busy; c. p-Persistent",
+      "use_when": "Teach ch12-12-1-2-persistence-methods, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 9,
+      "source_bbox": [
+        114.32,
+        123.88,
+        466.32,
+        328.64
+      ],
+      "labels": [
+        {
+          "text": "Transmit",
+          "bbox": [
+            0.2575,
+            0.1853,
+            0.3387,
+            0.2243
+          ]
+        },
+        {
+          "text": "Transmit",
+          "bbox": [
+            0.8557,
+            0.1853,
+            0.9368,
+            0.2243
+          ]
+        },
+        {
+          "text": "Sense",
+          "bbox": [
+            0.5133,
+            0.2361,
+            0.5663,
+            0.2751
+          ]
+        },
+        {
+          "text": "Sense",
+          "bbox": [
+            0.6525,
+            0.2361,
+            0.7054,
+            0.2751
+          ]
+        },
+        {
+          "text": "Continuously sense",
+          "bbox": [
+            0.0992,
+            0.2391,
+            0.2763,
+            0.2782
+          ]
+        },
+        {
+          "text": "Wait",
+          "bbox": [
+            0.5886,
+            0.278,
+            0.6309,
+            0.317
+          ]
+        },
+        {
+          "text": "Wait",
+          "bbox": [
+            0.7674,
+            0.2779,
+            0.8097,
+            0.317
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.9336,
+            0.3555,
+            0.9808,
+            0.3946
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.366,
+            0.3599,
+            0.4131,
+            0.3989
+          ]
+        },
+        {
+          "text": "Busy",
+          "bbox": [
+            0.1461,
+            0.4017,
+            0.1941,
+            0.4407
+          ]
+        },
+        {
+          "text": "Busy",
+          "bbox": [
+            0.5839,
+            0.4017,
+            0.6318,
+            0.4407
+          ]
+        },
+        {
+          "text": "a. 1-Persistent",
+          "bbox": [
+            0.1482,
+            0.4527,
+            0.2768,
+            0.4918
+          ]
+        },
+        {
+          "text": "b. Nonpersistent",
+          "bbox": [
+            0.6384,
+            0.4527,
+            0.7862,
+            0.4918
+          ]
+        },
+        {
+          "text": "Send if",
+          "bbox": [
+            0.2653,
+            0.5343,
+            0.3303,
+            0.5733
+          ]
+        },
+        {
+          "text": "Send if",
+          "bbox": [
+            0.5666,
+            0.5343,
+            0.6315,
+            0.5733
+          ]
+        },
+        {
+          "text": "Send if",
+          "bbox": [
+            0.7189,
+            0.5343,
+            0.7839,
+            0.5733
+          ]
+        },
+        {
+          "text": "R < p.",
+          "bbox": [
+            0.2703,
+            0.5812,
+            0.3253,
+            0.628
+          ]
+        },
+        {
+          "text": "R < p.",
+          "bbox": [
+            0.5715,
+            0.5812,
+            0.6266,
+            0.628
+          ]
+        },
+        {
+          "text": "R < p.",
+          "bbox": [
+            0.7239,
+            0.5812,
+            0.7789,
+            0.628
+          ]
+        },
+        {
+          "text": "Wait a time slot",
+          "bbox": [
+            0.3118,
+            0.6505,
+            0.4401,
+            0.6875
+          ]
+        },
+        {
+          "text": "Wait a backoff",
+          "bbox": [
+            0.4638,
+            0.6505,
+            0.5879,
+            0.6875
+          ]
+        },
+        {
+          "text": "Wait a time slot",
+          "bbox": [
+            0.6107,
+            0.6505,
+            0.739,
+            0.6875
+          ]
+        },
+        {
+          "text": "Continuously sense",
+          "bbox": [
+            0.1012,
+            0.6522,
+            0.2783,
+            0.6912
+          ]
+        },
+        {
+          "text": "otherwise",
+          "bbox": [
+            0.3362,
+            0.6974,
+            0.4156,
+            0.7344
+          ]
+        },
+        {
+          "text": "time",
+          "bbox": [
+            0.5077,
+            0.6974,
+            0.544,
+            0.7344
+          ]
+        },
+        {
+          "text": "otherwise",
+          "bbox": [
+            0.6352,
+            0.6974,
+            0.7146,
+            0.7344
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.9067,
+            0.776,
+            0.9538,
+            0.815
+          ]
+        },
+        {
+          "text": "Busy",
+          "bbox": [
+            0.1693,
+            0.8233,
+            0.2172,
+            0.8624
+          ]
+        },
+        {
+          "text": "Busy",
+          "bbox": [
+            0.479,
+            0.8233,
+            0.5269,
+            0.8624
+          ]
+        },
+        {
+          "text": "c. p-Persistent",
+          "bbox": [
+            0.4363,
+            0.8681,
+            0.5649,
+            0.915
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_010",
+      "file": "ch12_ill_010.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.10",
+      "section_id": "ch12-12-1-2-persistence-methods",
+      "alt": "Figure 12.10: Flow diagram for three persistence methods",
+      "sources": [
+        "book Figure 12.10; p.334"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 1017,
+      "sha256": "038a960879f123d59badad1b57048032d50b9ae3b4c93b66c43cf6add3683cdd",
+      "description": "Figure 12.10: Flow diagram for three persistence methods. Three flowcharts specify the sensing, waiting, probability, and transmission decisions for 1-persistent, nonpersistent, and p-persistent CSMA.",
+      "structure": "Three flowcharts specify the sensing, waiting, probability, and transmission decisions for 1-persistent, nonpersistent, and p-persistent CSMA.",
+      "text_in_image": "Channel; Channel; [true]; [true]; busy?; busy?; Wait; randomly; [false]; [false]; Station; Station; can transmit.; can transmit.; a. 1-Persistent; b. Nonpersistent; Channel; [true]; busy?; [false]; Generate a; random number; (R = 0 to 1); Channel; [false]; R ≤ p; [false]; busy?; Wait; a slot; [true]; [true]; Use backoff process; Station; as though collision occurred.; can transmit.; c. p-Persistent",
+      "use_when": "Teach ch12-12-1-2-persistence-methods, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 10,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        386.42
+      ],
+      "labels": [
+        {
+          "text": "Channel",
+          "bbox": [
+            0.1006,
+            0.1426,
+            0.1766,
+            0.1662
+          ]
+        },
+        {
+          "text": "Channel",
+          "bbox": [
+            0.5094,
+            0.1426,
+            0.5853,
+            0.1662
+          ]
+        },
+        {
+          "text": "[true]",
+          "bbox": [
+            0.2828,
+            0.1609,
+            0.3335,
+            0.1845
+          ]
+        },
+        {
+          "text": "[true]",
+          "bbox": [
+            0.6827,
+            0.1617,
+            0.7333,
+            0.1853
+          ]
+        },
+        {
+          "text": "busy?",
+          "bbox": [
+            0.112,
+            0.1692,
+            0.1652,
+            0.1928
+          ]
+        },
+        {
+          "text": "busy?",
+          "bbox": [
+            0.5208,
+            0.1692,
+            0.5739,
+            0.1928
+          ]
+        },
+        {
+          "text": "Wait",
+          "bbox": [
+            0.7852,
+            0.1729,
+            0.8333,
+            0.1965
+          ]
+        },
+        {
+          "text": "randomly",
+          "bbox": [
+            0.7618,
+            0.1995,
+            0.8568,
+            0.2231
+          ]
+        },
+        {
+          "text": "[false]",
+          "bbox": [
+            0.6649,
+            0.2166,
+            0.7231,
+            0.2402
+          ]
+        },
+        {
+          "text": "[false]",
+          "bbox": [
+            0.2566,
+            0.2225,
+            0.3148,
+            0.2461
+          ]
+        },
+        {
+          "text": "Station",
+          "bbox": [
+            0.2135,
+            0.2863,
+            0.2838,
+            0.31
+          ]
+        },
+        {
+          "text": "Station",
+          "bbox": [
+            0.6222,
+            0.2863,
+            0.6925,
+            0.31
+          ]
+        },
+        {
+          "text": "can transmit.",
+          "bbox": [
+            0.1898,
+            0.3147,
+            0.3075,
+            0.3383
+          ]
+        },
+        {
+          "text": "can transmit.",
+          "bbox": [
+            0.5985,
+            0.3147,
+            0.7163,
+            0.3383
+          ]
+        },
+        {
+          "text": "a. 1-Persistent",
+          "bbox": [
+            0.1301,
+            0.3641,
+            0.2593,
+            0.3877
+          ]
+        },
+        {
+          "text": "b. Nonpersistent",
+          "bbox": [
+            0.6053,
+            0.3641,
+            0.7604,
+            0.3877
+          ]
+        },
+        {
+          "text": "Channel",
+          "bbox": [
+            0.3944,
+            0.4737,
+            0.4704,
+            0.4974
+          ]
+        },
+        {
+          "text": "[true]",
+          "bbox": [
+            0.5826,
+            0.4907,
+            0.6332,
+            0.5144
+          ]
+        },
+        {
+          "text": "busy?",
+          "bbox": [
+            0.4058,
+            0.5003,
+            0.459,
+            0.5239
+          ]
+        },
+        {
+          "text": "[false]",
+          "bbox": [
+            0.5529,
+            0.5374,
+            0.6112,
+            0.561
+          ]
+        },
+        {
+          "text": "Generate a",
+          "bbox": [
+            0.4945,
+            0.6168,
+            0.5983,
+            0.6404
+          ]
+        },
+        {
+          "text": "random number",
+          "bbox": [
+            0.4739,
+            0.6433,
+            0.6189,
+            0.667
+          ]
+        },
+        {
+          "text": "(R = 0 to 1)",
+          "bbox": [
+            0.4937,
+            0.6699,
+            0.599,
+            0.6983
+          ]
+        },
+        {
+          "text": "Channel",
+          "bbox": [
+            0.1234,
+            0.7188,
+            0.1994,
+            0.7425
+          ]
+        },
+        {
+          "text": "[false]",
+          "bbox": [
+            0.2781,
+            0.7277,
+            0.3363,
+            0.7513
+          ]
+        },
+        {
+          "text": "R ≤ p",
+          "bbox": [
+            0.6469,
+            0.7286,
+            0.6948,
+            0.7569
+          ]
+        },
+        {
+          "text": "[false]",
+          "bbox": [
+            0.475,
+            0.7369,
+            0.5332,
+            0.7606
+          ]
+        },
+        {
+          "text": "busy?",
+          "bbox": [
+            0.1348,
+            0.7454,
+            0.188,
+            0.7691
+          ]
+        },
+        {
+          "text": "Wait",
+          "bbox": [
+            0.385,
+            0.7577,
+            0.4332,
+            0.7814
+          ]
+        },
+        {
+          "text": "a slot",
+          "bbox": [
+            0.3835,
+            0.7843,
+            0.4347,
+            0.808
+          ]
+        },
+        {
+          "text": "[true]",
+          "bbox": [
+            0.279,
+            0.7972,
+            0.3296,
+            0.8208
+          ]
+        },
+        {
+          "text": "[true]",
+          "bbox": [
+            0.553,
+            0.7972,
+            0.6036,
+            0.8208
+          ]
+        },
+        {
+          "text": "Use backoff process",
+          "bbox": [
+            0.1817,
+            0.8548,
+            0.3665,
+            0.8784
+          ]
+        },
+        {
+          "text": "Station",
+          "bbox": [
+            0.5099,
+            0.8548,
+            0.5802,
+            0.8784
+          ]
+        },
+        {
+          "text": "as though collision occurred.",
+          "bbox": [
+            0.1424,
+            0.8831,
+            0.4058,
+            0.9068
+          ]
+        },
+        {
+          "text": "can transmit.",
+          "bbox": [
+            0.4862,
+            0.8831,
+            0.6039,
+            0.9068
+          ]
+        },
+        {
+          "text": "c. p-Persistent",
+          "bbox": [
+            0.4346,
+            0.9346,
+            0.5637,
+            0.9629
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_011",
+      "file": "ch12_ill_011.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.11",
+      "section_id": "ch12-12-1-3",
+      "alt": "Figure 12.11: Collision of the first bits in CSMA/CD",
+      "sources": [
+        "book Figure 12.11; p.335"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 464,
+      "sha256": "f2b16a19b8c2c7d36c9ce890b346fe8232463d52dd9b048b7d7b7f485ebc9005",
+      "description": "Figure 12.11: Collision of the first bits in CSMA/CD. A space-time plot shows the first bits from A and C colliding before either station detects the other transmission.",
+      "structure": "A space-time plot shows the first bits from A and C colliding before either station detects the other transmission.",
+      "text_in_image": "A; B; C; D; t1; First bit of A; t2; Transmission; Transmission; time; t3; time; First bit of C; C’s collision; t4; A’s collision; detection and; detection; abortion; and abortion; Collision; Time; Time; occurs",
+      "use_when": "Teach ch12-12-1-3, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 11,
+      "source_bbox": [
+        115.34,
+        47.8,
+        466.32,
+        202.04
+      ],
+      "labels": [
+        {
+          "text": "A",
+          "bbox": [
+            0.1402,
+            0.2221,
+            0.1566,
+            0.274
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.3188,
+            0.2221,
+            0.334,
+            0.274
+          ]
+        },
+        {
+          "text": "C",
+          "bbox": [
+            0.6164,
+            0.2221,
+            0.6316,
+            0.274
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.7682,
+            0.2221,
+            0.7846,
+            0.274
+          ]
+        },
+        {
+          "text": "t1",
+          "bbox": [
+            0.1589,
+            0.3898,
+            0.1737,
+            0.4443
+          ]
+        },
+        {
+          "text": "First bit of A",
+          "bbox": [
+            0.357,
+            0.4029,
+            0.4773,
+            0.4872
+          ]
+        },
+        {
+          "text": "t2",
+          "bbox": [
+            0.8266,
+            0.4572,
+            0.8415,
+            0.5116
+          ]
+        },
+        {
+          "text": "Transmission",
+          "bbox": [
+            0.0125,
+            0.4599,
+            0.1353,
+            0.5118
+          ]
+        },
+        {
+          "text": "Transmission",
+          "bbox": [
+            0.8618,
+            0.4651,
+            0.9846,
+            0.5169
+          ]
+        },
+        {
+          "text": "time",
+          "bbox": [
+            0.0948,
+            0.5222,
+            0.1353,
+            0.574
+          ]
+        },
+        {
+          "text": "t3",
+          "bbox": [
+            0.8266,
+            0.5249,
+            0.8415,
+            0.5793
+          ]
+        },
+        {
+          "text": "time",
+          "bbox": [
+            0.8618,
+            0.5273,
+            0.9023,
+            0.5792
+          ]
+        },
+        {
+          "text": "First bit of C",
+          "bbox": [
+            0.3708,
+            0.5633,
+            0.4986,
+            0.6497
+          ]
+        },
+        {
+          "text": "C’s collision",
+          "bbox": [
+            0.6069,
+            0.5849,
+            0.7228,
+            0.6368
+          ]
+        },
+        {
+          "text": "t4",
+          "bbox": [
+            0.1582,
+            0.5981,
+            0.1731,
+            0.6525
+          ]
+        },
+        {
+          "text": "A’s collision",
+          "bbox": [
+            0.21,
+            0.6365,
+            0.3271,
+            0.6884
+          ]
+        },
+        {
+          "text": "detection and",
+          "bbox": [
+            0.6038,
+            0.6471,
+            0.7259,
+            0.699
+          ]
+        },
+        {
+          "text": "detection",
+          "bbox": [
+            0.2268,
+            0.6987,
+            0.3104,
+            0.7506
+          ]
+        },
+        {
+          "text": "abortion",
+          "bbox": [
+            0.6268,
+            0.7094,
+            0.7028,
+            0.7612
+          ]
+        },
+        {
+          "text": "and abortion",
+          "bbox": [
+            0.2113,
+            0.761,
+            0.3259,
+            0.8128
+          ]
+        },
+        {
+          "text": "Collision",
+          "bbox": [
+            0.5149,
+            0.7757,
+            0.601,
+            0.8276
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.1649,
+            0.821,
+            0.213,
+            0.8729
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.791,
+            0.821,
+            0.8391,
+            0.8728
+          ]
+        },
+        {
+          "text": "occurs",
+          "bbox": [
+            0.5263,
+            0.838,
+            0.5896,
+            0.8898
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_012",
+      "file": "ch12_ill_012.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.12",
+      "section_id": "ch12-12-1-3",
+      "alt": "Figure 12.12: Collision and abortion in CSMA/CD",
+      "sources": [
+        "book Figure 12.12; p.335"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 522,
+      "sha256": "af3474a012cd60abdbd2079826fe7256b2f248c1568fbe6fa54d55e1212e7a21",
+      "description": "Figure 12.12: Collision and abortion in CSMA/CD. After collision, A and C continue briefly, detect the collision at different times, and abort their partial frames.",
+      "structure": "After collision, A and C continue briefly, detect the collision at different times, and abort their partial frames.",
+      "text_in_image": "A; B; C; D; Collision; occurs; t1; t2; Transmission; Transmission; Part of A’s frame; time; t3; time; Part of C’s frame; t4; A detects; collision and; aborts; C detects; collision; Time; Time; and aborts",
+      "use_when": "Teach ch12-12-1-3, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 11,
+      "source_bbox": [
+        114.32,
+        368.86,
+        466.32,
+        542.54
+      ],
+      "labels": [
+        {
+          "text": "A",
+          "bbox": [
+            0.1508,
+            0.1974,
+            0.1672,
+            0.2435
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.3374,
+            0.1974,
+            0.3525,
+            0.2435
+          ]
+        },
+        {
+          "text": "C",
+          "bbox": [
+            0.6482,
+            0.1974,
+            0.6633,
+            0.2435
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.7897,
+            0.1974,
+            0.8061,
+            0.2435
+          ]
+        },
+        {
+          "text": "Collision",
+          "bbox": [
+            0.5396,
+            0.2934,
+            0.6229,
+            0.3395
+          ]
+        },
+        {
+          "text": "occurs",
+          "bbox": [
+            0.5516,
+            0.3487,
+            0.6109,
+            0.3948
+          ]
+        },
+        {
+          "text": "t1",
+          "bbox": [
+            0.1576,
+            0.3557,
+            0.1725,
+            0.4041
+          ]
+        },
+        {
+          "text": "t2",
+          "bbox": [
+            0.8321,
+            0.4184,
+            0.8469,
+            0.4667
+          ]
+        },
+        {
+          "text": "Transmission",
+          "bbox": [
+            0.0134,
+            0.4214,
+            0.1359,
+            0.4674
+          ]
+        },
+        {
+          "text": "Transmission",
+          "bbox": [
+            0.8659,
+            0.4262,
+            0.9884,
+            0.4722
+          ]
+        },
+        {
+          "text": "Part of A’s frame",
+          "bbox": [
+            0.2194,
+            0.4405,
+            0.3794,
+            0.5254
+          ]
+        },
+        {
+          "text": "time",
+          "bbox": [
+            0.0955,
+            0.4766,
+            0.1359,
+            0.5227
+          ]
+        },
+        {
+          "text": "t3",
+          "bbox": [
+            0.8321,
+            0.4813,
+            0.8469,
+            0.5297
+          ]
+        },
+        {
+          "text": "time",
+          "bbox": [
+            0.8659,
+            0.4814,
+            0.9064,
+            0.5275
+          ]
+        },
+        {
+          "text": "Part of C’s frame",
+          "bbox": [
+            0.4149,
+            0.4838,
+            0.5736,
+            0.5683
+          ]
+        },
+        {
+          "text": "t4",
+          "bbox": [
+            0.1569,
+            0.5494,
+            0.1718,
+            0.5978
+          ]
+        },
+        {
+          "text": "A detects",
+          "bbox": [
+            0.0445,
+            0.6148,
+            0.1335,
+            0.6609
+          ]
+        },
+        {
+          "text": "collision and",
+          "bbox": [
+            0.0116,
+            0.6701,
+            0.1335,
+            0.7162
+          ]
+        },
+        {
+          "text": "aborts",
+          "bbox": [
+            0.0716,
+            0.7254,
+            0.1335,
+            0.7715
+          ]
+        },
+        {
+          "text": "C detects",
+          "bbox": [
+            0.639,
+            0.7458,
+            0.728,
+            0.7918
+          ]
+        },
+        {
+          "text": "collision",
+          "bbox": [
+            0.6437,
+            0.801,
+            0.7233,
+            0.8471
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.1651,
+            0.8313,
+            0.2131,
+            0.8773
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.802,
+            0.8313,
+            0.8499,
+            0.8773
+          ]
+        },
+        {
+          "text": "and aborts",
+          "bbox": [
+            0.6314,
+            0.8563,
+            0.7356,
+            0.9024
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_013",
+      "file": "ch12_ill_013.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.13",
+      "section_id": "ch12-12-1-3-procedure",
+      "alt": "Figure 12.13: Flow diagram for the CSMA/CD",
+      "sources": [
+        "book Figure 12.13; p.336"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 731,
+      "sha256": "ca170589db65574b2f26c1a43f213a18e0ee4464d903eb95a4b980abc4141fea",
+      "description": "Figure 12.13: Flow diagram for the CSMA/CD. The CSMA/CD flowchart combines persistence, simultaneous transmit-and-listen behavior, collision detection, jamming, and binary exponential backoff.",
+      "structure": "The CSMA/CD flowchart combines persistence, simultaneous transmit-and-listen behavior, collision detection, jamming, and binary exponential backoff.",
+      "text_in_image": "Station has; a frame to send; K = 0; Legend; Tfr: Frame average transmission; time; Wait TB; K : Number of attempts; Apply one of the; R  : (random number): 0 to 2K _ 1; persistence methods; seconds; TB: (Backoff time) = R × Tfr; Create random; Done or; [false]; Transmit; number R; collision?; and receive; [true]; [true]; Send a; Collision; K < 15 ?; [true]; jamming; K = K + 1; detected?; signal; [false]; [false]; Abort; Success",
+      "use_when": "Teach ch12-12-1-3-procedure, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 12,
+      "source_bbox": [
+        99.32,
+        297.88,
+        451.32,
+        541.1
+      ],
+      "labels": [
+        {
+          "text": "Station has",
+          "bbox": [
+            0.832,
+            0.1463,
+            0.9396,
+            0.1792
+          ]
+        },
+        {
+          "text": "a frame to send",
+          "bbox": [
+            0.832,
+            0.1858,
+            0.981,
+            0.2186
+          ]
+        },
+        {
+          "text": "K = 0",
+          "bbox": [
+            0.7835,
+            0.2509,
+            0.834,
+            0.2903
+          ]
+        },
+        {
+          "text": "Legend",
+          "bbox": [
+            0.0055,
+            0.2998,
+            0.0773,
+            0.3327
+          ]
+        },
+        {
+          "text": "Tfr: Frame average transmission",
+          "bbox": [
+            0.0164,
+            0.3411,
+            0.3064,
+            0.3871
+          ]
+        },
+        {
+          "text": "time",
+          "bbox": [
+            0.0164,
+            0.3805,
+            0.1019,
+            0.4134
+          ]
+        },
+        {
+          "text": "Wait TB",
+          "bbox": [
+            0.3634,
+            0.4175,
+            0.442,
+            0.4634
+          ]
+        },
+        {
+          "text": "K : Number of attempts",
+          "bbox": [
+            0.0164,
+            0.42,
+            0.2332,
+            0.4594
+          ]
+        },
+        {
+          "text": "Apply one of the",
+          "bbox": [
+            0.7308,
+            0.4225,
+            0.8837,
+            0.4553
+          ]
+        },
+        {
+          "text": "R  : (random number): 0 to 2K _ 1",
+          "bbox": [
+            0.0164,
+            0.4482,
+            0.3106,
+            0.4989
+          ]
+        },
+        {
+          "text": "persistence methods",
+          "bbox": [
+            0.7157,
+            0.4619,
+            0.8988,
+            0.4948
+          ]
+        },
+        {
+          "text": "seconds",
+          "bbox": [
+            0.3627,
+            0.4652,
+            0.4426,
+            0.498
+          ]
+        },
+        {
+          "text": "TB: (Backoff time) = R × Tfr",
+          "bbox": [
+            0.0164,
+            0.499,
+            0.2831,
+            0.5449
+          ]
+        },
+        {
+          "text": "Create random",
+          "bbox": [
+            0.3329,
+            0.5582,
+            0.4725,
+            0.5911
+          ]
+        },
+        {
+          "text": "Done or",
+          "bbox": [
+            0.8864,
+            0.5645,
+            0.96,
+            0.5974
+          ]
+        },
+        {
+          "text": "[false]",
+          "bbox": [
+            0.7404,
+            0.5746,
+            0.7982,
+            0.6074
+          ]
+        },
+        {
+          "text": "Transmit",
+          "bbox": [
+            0.6361,
+            0.5919,
+            0.7179,
+            0.6248
+          ]
+        },
+        {
+          "text": "number R",
+          "bbox": [
+            0.3555,
+            0.5977,
+            0.4499,
+            0.6371
+          ]
+        },
+        {
+          "text": "collision?",
+          "bbox": [
+            0.8792,
+            0.604,
+            0.9673,
+            0.6368
+          ]
+        },
+        {
+          "text": "and receive",
+          "bbox": [
+            0.6251,
+            0.6314,
+            0.7289,
+            0.6643
+          ]
+        },
+        {
+          "text": "[true]",
+          "bbox": [
+            0.8181,
+            0.6584,
+            0.8684,
+            0.6912
+          ]
+        },
+        {
+          "text": "[true]",
+          "bbox": [
+            0.4099,
+            0.6897,
+            0.4602,
+            0.7226
+          ]
+        },
+        {
+          "text": "Send a",
+          "bbox": [
+            0.6453,
+            0.7198,
+            0.7064,
+            0.7527
+          ]
+        },
+        {
+          "text": "Collision",
+          "bbox": [
+            0.8789,
+            0.724,
+            0.9676,
+            0.7569
+          ]
+        },
+        {
+          "text": "K < 15 ?",
+          "bbox": [
+            0.2455,
+            0.7246,
+            0.323,
+            0.764
+          ]
+        },
+        {
+          "text": "[true]",
+          "bbox": [
+            0.7413,
+            0.7348,
+            0.7917,
+            0.7677
+          ]
+        },
+        {
+          "text": "jamming",
+          "bbox": [
+            0.6356,
+            0.7593,
+            0.7161,
+            0.7922
+          ]
+        },
+        {
+          "text": "K = K + 1",
+          "bbox": [
+            0.4748,
+            0.7636,
+            0.5646,
+            0.803
+          ]
+        },
+        {
+          "text": "detected?",
+          "bbox": [
+            0.8805,
+            0.7635,
+            0.966,
+            0.7963
+          ]
+        },
+        {
+          "text": "signal",
+          "bbox": [
+            0.6488,
+            0.7988,
+            0.7029,
+            0.8316
+          ]
+        },
+        {
+          "text": "[false]",
+          "bbox": [
+            0.8181,
+            0.805,
+            0.876,
+            0.8378
+          ]
+        },
+        {
+          "text": "[false]",
+          "bbox": [
+            0.4086,
+            0.8087,
+            0.4665,
+            0.8416
+          ]
+        },
+        {
+          "text": "Abort",
+          "bbox": [
+            0.3214,
+            0.8813,
+            0.3793,
+            0.9142
+          ]
+        },
+        {
+          "text": "Success",
+          "bbox": [
+            0.8338,
+            0.8838,
+            0.9068,
+            0.9167
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_014",
+      "file": "ch12_ill_014.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.14",
+      "section_id": "ch12-12-1-3-energy-level",
+      "alt": "Figure 12.14: Energy level during transmission, idleness, or collision",
+      "sources": [
+        "book Figure 12.14; p.337"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 366,
+      "sha256": "7582688ba1a29fc9377de4a5cd3b982dbcbfdcb8622539a759f785d942bd36d4",
+      "description": "Figure 12.14: Energy level during transmission, idleness, or collision. Energy over time distinguishes a normal transmission level, zero-energy idle interval, and abnormal collision level.",
+      "structure": "Energy over time distinguishes a normal transmission level, zero-energy idle interval, and abnormal collision level.",
+      "text_in_image": "Energy; Collision; Time; Frame transmission; Frame transmission; Idle",
+      "use_when": "Teach ch12-12-1-3-energy-level, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 13,
+      "source_bbox": [
+        114.32,
+        298.9,
+        466.32,
+        420.62
+      ],
+      "labels": [
+        {
+          "text": "Energy",
+          "bbox": [
+            0.1616,
+            0.2911,
+            0.2268,
+            0.3569
+          ]
+        },
+        {
+          "text": "Collision",
+          "bbox": [
+            0.401,
+            0.2911,
+            0.4844,
+            0.3569
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.8113,
+            0.6637,
+            0.8585,
+            0.7294
+          ]
+        },
+        {
+          "text": "Frame transmission",
+          "bbox": [
+            0.1598,
+            0.6651,
+            0.3385,
+            0.7308
+          ]
+        },
+        {
+          "text": "Frame transmission",
+          "bbox": [
+            0.6076,
+            0.6651,
+            0.7863,
+            0.7308
+          ]
+        },
+        {
+          "text": "Idle",
+          "bbox": [
+            0.424,
+            0.7878,
+            0.4593,
+            0.8536
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_015",
+      "file": "ch12_ill_015.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.15",
+      "section_id": "ch12-12-1-4",
+      "alt": "Figure 12.15: Flow diagram of CSMA/CA",
+      "sources": [
+        "book Figure 12.15; p.338"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 1207,
+      "sha256": "92d9643408c3b81787580706d57ce246be7731d03f8b5333d9d0acdeac064eaa",
+      "description": "Figure 12.15: Flow diagram of CSMA/CA. The CSMA/CA flowchart uses IFS, a contention window, acknowledgments, timeout, and exponential backoff because wireless stations cannot reliably detect collisions.",
+      "structure": "The CSMA/CA flowchart uses IFS, a contention window, acknowledgments, timeout, and exponential backoff because wireless stations cannot reliably detect collisions.",
+      "text_in_image": "Station has; a frame to send; K = 0; Legend; K: Number of attempts; TB: Backoff time; Channel free?; IFS: Interframe Space; [false]; [true]; RTS: Request to send; Carrier sense; CTS: Clear to send; Wait IFS; Choose a random number; Contention; R between 0 and 2K − 1; window; and use the Rth slot; Send RTS; Wait TB; seconds; Set a timer; CTS received; [false]; before time-out?; [true]; Wait IFS; Send; Transmission; the frame; Set a timer; [true]; ACK received; K < limit ?; [false]; before time-out?; K = K + 1; [true]; [false]; Abort; Success",
+      "use_when": "Teach ch12-12-1-4, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 14,
+      "source_bbox": [
+        99.32,
+        122.86,
+        451.32,
+        524.9
+      ],
+      "labels": [
+        {
+          "text": "Station has",
+          "bbox": [
+            0.7704,
+            0.0885,
+            0.8771,
+            0.1081
+          ]
+        },
+        {
+          "text": "a frame to send",
+          "bbox": [
+            0.7498,
+            0.112,
+            0.8976,
+            0.1317
+          ]
+        },
+        {
+          "text": "K = 0",
+          "bbox": [
+            0.7044,
+            0.1495,
+            0.7545,
+            0.173
+          ]
+        },
+        {
+          "text": "Legend",
+          "bbox": [
+            0.0249,
+            0.173,
+            0.096,
+            0.1926
+          ]
+        },
+        {
+          "text": "K: Number of attempts",
+          "bbox": [
+            0.0254,
+            0.1966,
+            0.2375,
+            0.2207
+          ]
+        },
+        {
+          "text": "TB: Backoff time",
+          "bbox": [
+            0.0254,
+            0.223,
+            0.1835,
+            0.2505
+          ]
+        },
+        {
+          "text": "Channel free?",
+          "bbox": [
+            0.8047,
+            0.23,
+            0.93,
+            0.2496
+          ]
+        },
+        {
+          "text": "IFS: Interframe Space",
+          "bbox": [
+            0.0254,
+            0.2494,
+            0.235,
+            0.2736
+          ]
+        },
+        {
+          "text": "[false]",
+          "bbox": [
+            0.6546,
+            0.2675,
+            0.712,
+            0.2871
+          ]
+        },
+        {
+          "text": "[true]",
+          "bbox": [
+            0.7401,
+            0.275,
+            0.79,
+            0.2946
+          ]
+        },
+        {
+          "text": "RTS: Request to send",
+          "bbox": [
+            0.0254,
+            0.2758,
+            0.2375,
+            0.3
+          ]
+        },
+        {
+          "text": "Carrier sense",
+          "bbox": [
+            0.8305,
+            0.2813,
+            0.9596,
+            0.3009
+          ]
+        },
+        {
+          "text": "CTS: Clear to send",
+          "bbox": [
+            0.0254,
+            0.3022,
+            0.2082,
+            0.3219
+          ]
+        },
+        {
+          "text": "Wait IFS",
+          "bbox": [
+            0.6854,
+            0.3298,
+            0.7734,
+            0.3494
+          ]
+        },
+        {
+          "text": "Choose a random number",
+          "bbox": [
+            0.6137,
+            0.3837,
+            0.8452,
+            0.4033
+          ]
+        },
+        {
+          "text": "Contention",
+          "bbox": [
+            0.4793,
+            0.4004,
+            0.5867,
+            0.42
+          ]
+        },
+        {
+          "text": "R between 0 and 2K − 1",
+          "bbox": [
+            0.6233,
+            0.4072,
+            0.8356,
+            0.4308
+          ]
+        },
+        {
+          "text": "window",
+          "bbox": [
+            0.4956,
+            0.4239,
+            0.5705,
+            0.4436
+          ]
+        },
+        {
+          "text": "and use the Rth slot",
+          "bbox": [
+            0.6414,
+            0.4308,
+            0.8174,
+            0.4543
+          ]
+        },
+        {
+          "text": "Send RTS",
+          "bbox": [
+            0.6836,
+            0.4886,
+            0.7753,
+            0.5082
+          ]
+        },
+        {
+          "text": "Wait TB",
+          "bbox": [
+            0.3198,
+            0.5208,
+            0.3978,
+            0.5443
+          ]
+        },
+        {
+          "text": "seconds",
+          "bbox": [
+            0.3192,
+            0.5453,
+            0.3985,
+            0.5649
+          ]
+        },
+        {
+          "text": "Set a timer",
+          "bbox": [
+            0.6808,
+            0.5499,
+            0.7781,
+            0.5695
+          ]
+        },
+        {
+          "text": "CTS received",
+          "bbox": [
+            0.837,
+            0.5893,
+            0.9599,
+            0.6089
+          ]
+        },
+        {
+          "text": "[false]",
+          "bbox": [
+            0.6559,
+            0.5999,
+            0.7133,
+            0.6196
+          ]
+        },
+        {
+          "text": "before time-out?",
+          "bbox": [
+            0.8239,
+            0.6128,
+            0.973,
+            0.6325
+          ]
+        },
+        {
+          "text": "[true]",
+          "bbox": [
+            0.7455,
+            0.6336,
+            0.7954,
+            0.6532
+          ]
+        },
+        {
+          "text": "Wait IFS",
+          "bbox": [
+            0.6923,
+            0.6684,
+            0.7803,
+            0.6881
+          ]
+        },
+        {
+          "text": "Send",
+          "bbox": [
+            0.7123,
+            0.7216,
+            0.7629,
+            0.7412
+          ]
+        },
+        {
+          "text": "Transmission",
+          "bbox": [
+            0.8263,
+            0.7365,
+            0.9562,
+            0.7561
+          ]
+        },
+        {
+          "text": "the frame",
+          "bbox": [
+            0.6949,
+            0.7451,
+            0.7803,
+            0.7648
+          ]
+        },
+        {
+          "text": "Set a timer",
+          "bbox": [
+            0.6936,
+            0.804,
+            0.7909,
+            0.8237
+          ]
+        },
+        {
+          "text": "[true]",
+          "bbox": [
+            0.3692,
+            0.8167,
+            0.4191,
+            0.8363
+          ]
+        },
+        {
+          "text": "ACK received",
+          "bbox": [
+            0.8309,
+            0.8352,
+            0.96,
+            0.8548
+          ]
+        },
+        {
+          "text": "K < limit ?",
+          "bbox": [
+            0.1955,
+            0.8375,
+            0.2924,
+            0.8611
+          ]
+        },
+        {
+          "text": "[false]",
+          "bbox": [
+            0.6602,
+            0.8451,
+            0.7176,
+            0.8647
+          ]
+        },
+        {
+          "text": "before time-out?",
+          "bbox": [
+            0.8209,
+            0.8587,
+            0.97,
+            0.8784
+          ]
+        },
+        {
+          "text": "K = K + 1",
+          "bbox": [
+            0.4329,
+            0.8608,
+            0.5219,
+            0.8844
+          ]
+        },
+        {
+          "text": "[true]",
+          "bbox": [
+            0.7491,
+            0.8862,
+            0.799,
+            0.9059
+          ]
+        },
+        {
+          "text": "[false]",
+          "bbox": [
+            0.3679,
+            0.8877,
+            0.4253,
+            0.9074
+          ]
+        },
+        {
+          "text": "Abort",
+          "bbox": [
+            0.2768,
+            0.9311,
+            0.3342,
+            0.9507
+          ]
+        },
+        {
+          "text": "Success",
+          "bbox": [
+            0.7654,
+            0.9329,
+            0.8377,
+            0.9526
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_016",
+      "file": "ch12_ill_016.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.16",
+      "section_id": "ch12-12-1-4-frame-exchange-time-line",
+      "alt": "Figure 12.16: Contention window",
+      "sources": [
+        "book Figure 12.16; p.339"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 377,
+      "sha256": "5d1cc5f35477f98117eeb092a9c178b99619d555e2a9696112efa717cc600a2c",
+      "description": "Figure 12.16: Contention window. A time axis expands the contention window after a failed attempt and shows a randomly selected slot following IFS.",
+      "structure": "A time axis expands the contention window after a failed attempt and shows a randomly selected slot following IFS.",
+      "text_in_image": "Size:; Found; binary exponential; idle; Continuously sense; IFS; Contention window; Time; Busy",
+      "use_when": "Teach ch12-12-1-4-frame-exchange-time-line, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 15,
+      "source_bbox": [
+        114.32,
+        250.9,
+        466.32,
+        376.22
+      ],
+      "labels": [
+        {
+          "text": "Size:",
+          "bbox": [
+            0.5936,
+            0.2733,
+            0.6448,
+            0.3371
+          ]
+        },
+        {
+          "text": "Found",
+          "bbox": [
+            0.3814,
+            0.3273,
+            0.444,
+            0.3911
+          ]
+        },
+        {
+          "text": "binary exponential",
+          "bbox": [
+            0.5345,
+            0.3463,
+            0.7039,
+            0.4101
+          ]
+        },
+        {
+          "text": "idle",
+          "bbox": [
+            0.395,
+            0.4003,
+            0.4304,
+            0.4641
+          ]
+        },
+        {
+          "text": "Continuously sense",
+          "bbox": [
+            0.2203,
+            0.4793,
+            0.3977,
+            0.5431
+          ]
+        },
+        {
+          "text": "IFS",
+          "bbox": [
+            0.4504,
+            0.5201,
+            0.4832,
+            0.5839
+          ]
+        },
+        {
+          "text": "Contention window",
+          "bbox": [
+            0.5292,
+            0.7662,
+            0.7086,
+            0.8301
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.8015,
+            0.7708,
+            0.8487,
+            0.8346
+          ]
+        },
+        {
+          "text": "Busy",
+          "bbox": [
+            0.2723,
+            0.8005,
+            0.3203,
+            0.8644
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_017",
+      "file": "ch12_ill_017.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.17",
+      "section_id": "ch12-12-1-4-network-allocation-vector",
+      "alt": "Figure 12.17: CSMA/CA and NAV",
+      "sources": [
+        "book Figure 12.17; p.340"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 659,
+      "sha256": "1ef31d7c60eea9732a7da1c5521bcc87b39debe6b87522cf5da9395f84fa5ca2",
+      "description": "Figure 12.17: CSMA/CA and NAV. RTS, CTS, data, and ACK timelines show SIFS/DIFS spacing and how other stations set their network allocation vectors.",
+      "structure": "RTS, CTS, data, and ACK timelines show SIFS/DIFS spacing and how other stations set their network allocation vectors.",
+      "text_in_image": "All other stations; Source; Destination; A; B; C; D; • • •; DIFS; RTS; SIFS; CTS; CTS; SIFS; NAV; Data; SIFS; ACK; ACK; Time; Time; Time; Time",
+      "use_when": "Teach ch12-12-1-4-network-allocation-vector, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 16,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        267.02
+      ],
+      "labels": [
+        {
+          "text": "All other stations",
+          "bbox": [
+            0.6202,
+            0.1271,
+            0.7772,
+            0.1636
+          ]
+        },
+        {
+          "text": "Source",
+          "bbox": [
+            0.1992,
+            0.1289,
+            0.2663,
+            0.1654
+          ]
+        },
+        {
+          "text": "Destination",
+          "bbox": [
+            0.4331,
+            0.1289,
+            0.5446,
+            0.1654
+          ]
+        },
+        {
+          "text": "A",
+          "bbox": [
+            0.201,
+            0.1779,
+            0.2174,
+            0.2144
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.4573,
+            0.1779,
+            0.4725,
+            0.2144
+          ]
+        },
+        {
+          "text": "C",
+          "bbox": [
+            0.5612,
+            0.1779,
+            0.5764,
+            0.2144
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.7749,
+            0.1779,
+            0.7914,
+            0.2144
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.6808,
+            0.2602,
+            0.7161,
+            0.2967
+          ]
+        },
+        {
+          "text": "DIFS",
+          "bbox": [
+            0.1592,
+            0.3076,
+            0.2086,
+            0.3441
+          ]
+        },
+        {
+          "text": "RTS",
+          "bbox": [
+            0.3317,
+            0.3762,
+            0.3779,
+            0.4187
+          ]
+        },
+        {
+          "text": "SIFS",
+          "bbox": [
+            0.5069,
+            0.4158,
+            0.5526,
+            0.4523
+          ]
+        },
+        {
+          "text": "CTS",
+          "bbox": [
+            0.6235,
+            0.4697,
+            0.6689,
+            0.5099
+          ]
+        },
+        {
+          "text": "CTS",
+          "bbox": [
+            0.3273,
+            0.4702,
+            0.3728,
+            0.5104
+          ]
+        },
+        {
+          "text": "SIFS",
+          "bbox": [
+            0.1644,
+            0.507,
+            0.21,
+            0.5435
+          ]
+        },
+        {
+          "text": "NAV",
+          "bbox": [
+            0.6719,
+            0.6053,
+            0.7213,
+            0.6418
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.3458,
+            0.6075,
+            0.3889,
+            0.644
+          ]
+        },
+        {
+          "text": "SIFS",
+          "bbox": [
+            0.5068,
+            0.7025,
+            0.5524,
+            0.739
+          ]
+        },
+        {
+          "text": "ACK",
+          "bbox": [
+            0.6237,
+            0.758,
+            0.6755,
+            0.7987
+          ]
+        },
+        {
+          "text": "ACK",
+          "bbox": [
+            0.3249,
+            0.7603,
+            0.3756,
+            0.7968
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.2081,
+            0.8768,
+            0.2562,
+            0.9133
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.4627,
+            0.8768,
+            0.5108,
+            0.9133
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.5652,
+            0.8768,
+            0.6133,
+            0.9133
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.7784,
+            0.8768,
+            0.8265,
+            0.9133
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_018",
+      "file": "ch12_ill_018.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.18",
+      "section_id": "ch12-12-2-1",
+      "alt": "Figure 12.18: Reservation access method",
+      "sources": [
+        "book Figure 12.18; p.341"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 382,
+      "sha256": "08fcd553ce1593aeb03d61bd7de9340d9ea4984d88630f29094ba07c66943796",
+      "description": "Figure 12.18: Reservation access method. Reservation mini-slots precede data frames; stations announce their intended transmissions before sending in reservation order.",
+      "structure": "Reservation mini-slots precede data frames; stations announce their intended transmissions before sending in reservation order.",
+      "text_in_image": "Direction of packet movement; 5; 4; 3; 2; 1; 5; 4; 3; 2; 1; 5; 4; 3; 2; 1; Data; Data; Data; Data; 0; 0; 0; 0; 0; 0; 0; 0; 0; 1; 0; 1; 1; 0; 1; station 1; station 4; station 3; station 1; Reservation; frame",
+      "use_when": "Teach ch12-12-2-1, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 17,
+      "source_bbox": [
+        114.32,
+        458.92,
+        466.32,
+        585.8
+      ],
+      "labels": [
+        {
+          "text": "Direction of packet movement",
+          "bbox": [
+            0.3553,
+            0.2792,
+            0.6324,
+            0.3423
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.1047,
+            0.4121,
+            0.116,
+            0.4751
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.1247,
+            0.412,
+            0.136,
+            0.4751
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.1447,
+            0.412,
+            0.156,
+            0.4751
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.1647,
+            0.412,
+            0.176,
+            0.4751
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1847,
+            0.412,
+            0.196,
+            0.4751
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.3336,
+            0.4121,
+            0.345,
+            0.4751
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.3536,
+            0.4121,
+            0.365,
+            0.4751
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.3736,
+            0.4121,
+            0.385,
+            0.4751
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.3936,
+            0.4121,
+            0.405,
+            0.4751
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4136,
+            0.4121,
+            0.425,
+            0.4751
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.8075,
+            0.4121,
+            0.8189,
+            0.4751
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.8275,
+            0.4121,
+            0.8389,
+            0.4751
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.8475,
+            0.4121,
+            0.8589,
+            0.4751
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.8675,
+            0.4121,
+            0.8789,
+            0.4751
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8875,
+            0.4121,
+            0.8989,
+            0.4751
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.2434,
+            0.5068,
+            0.2863,
+            0.5698
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.4724,
+            0.5068,
+            0.5153,
+            0.5698
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.5948,
+            0.5075,
+            0.6377,
+            0.5705
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.7173,
+            0.5075,
+            0.7602,
+            0.5705
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1047,
+            0.5451,
+            0.116,
+            0.6081
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1247,
+            0.5451,
+            0.136,
+            0.6081
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1447,
+            0.5451,
+            0.156,
+            0.6081
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1647,
+            0.5451,
+            0.176,
+            0.6081
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1847,
+            0.5451,
+            0.196,
+            0.6081
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3336,
+            0.5451,
+            0.345,
+            0.6081
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3536,
+            0.5451,
+            0.365,
+            0.6081
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3736,
+            0.5451,
+            0.385,
+            0.6081
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3936,
+            0.5451,
+            0.405,
+            0.6081
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4136,
+            0.5451,
+            0.425,
+            0.6081
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.8075,
+            0.5451,
+            0.8189,
+            0.6081
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8275,
+            0.5451,
+            0.8389,
+            0.6081
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8475,
+            0.5451,
+            0.8589,
+            0.6081
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.8675,
+            0.5451,
+            0.8789,
+            0.6081
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8875,
+            0.5451,
+            0.8989,
+            0.6081
+          ]
+        },
+        {
+          "text": "station 1",
+          "bbox": [
+            0.226,
+            0.5788,
+            0.3037,
+            0.6419
+          ]
+        },
+        {
+          "text": "station 4",
+          "bbox": [
+            0.455,
+            0.5788,
+            0.5327,
+            0.6419
+          ]
+        },
+        {
+          "text": "station 3",
+          "bbox": [
+            0.5775,
+            0.5795,
+            0.6551,
+            0.6426
+          ]
+        },
+        {
+          "text": "station 1",
+          "bbox": [
+            0.6999,
+            0.5795,
+            0.7776,
+            0.6426
+          ]
+        },
+        {
+          "text": "Reservation",
+          "bbox": [
+            0.0961,
+            0.67,
+            0.2047,
+            0.7331
+          ]
+        },
+        {
+          "text": "frame",
+          "bbox": [
+            0.1239,
+            0.7421,
+            0.1769,
+            0.8051
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_019",
+      "file": "ch12_ill_019.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.19",
+      "section_id": "ch12-12-2-2",
+      "alt": "Figure 12.19: Select and poll functions in polling-access method",
+      "sources": [
+        "book Figure 12.19; p.342"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 551,
+      "sha256": "925d0754ef90bda950971a9ee425c064efda81bfcafd0c57c44717609d669085",
+      "description": "Figure 12.19: Select and poll functions in polling-access method. Select and poll exchanges show a primary station granting a secondary permission to receive or to transmit.",
+      "structure": "Select and poll exchanges show a primary station granting a secondary permission to receive or to transmit.",
+      "text_in_image": "A; A; B; B; Primary; Primary; 1; SEL; 1; Poll; 2; 2; ACK; NAK; 3; Data; 3; 4; Poll; ACK; 4; Data; Select; 5; ACK; Poll",
+      "use_when": "Teach ch12-12-2-2, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 18,
+      "source_bbox": [
+        99.32,
+        173.86,
+        451.32,
+        357.02
+      ],
+      "labels": [
+        {
+          "text": "A",
+          "bbox": [
+            0.2832,
+            0.1799,
+            0.2996,
+            0.2236
+          ]
+        },
+        {
+          "text": "A",
+          "bbox": [
+            0.7784,
+            0.1846,
+            0.7948,
+            0.2283
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.8869,
+            0.1877,
+            0.902,
+            0.2314
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.3877,
+            0.1878,
+            0.4028,
+            0.2314
+          ]
+        },
+        {
+          "text": "Primary",
+          "bbox": [
+            0.0927,
+            0.2236,
+            0.1659,
+            0.2673
+          ]
+        },
+        {
+          "text": "Primary",
+          "bbox": [
+            0.5884,
+            0.2298,
+            0.6616,
+            0.2735
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.0564,
+            0.4086,
+            0.0677,
+            0.4523
+          ]
+        },
+        {
+          "text": "SEL",
+          "bbox": [
+            0.2184,
+            0.4255,
+            0.2588,
+            0.4691
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5542,
+            0.4382,
+            0.5656,
+            0.4819
+          ]
+        },
+        {
+          "text": "Poll",
+          "bbox": [
+            0.6684,
+            0.444,
+            0.7051,
+            0.4877
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.4171,
+            0.478,
+            0.4285,
+            0.5217
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.811,
+            0.4889,
+            0.8224,
+            0.5326
+          ]
+        },
+        {
+          "text": "ACK",
+          "bbox": [
+            0.2146,
+            0.5029,
+            0.2626,
+            0.5466
+          ]
+        },
+        {
+          "text": "NAK",
+          "bbox": [
+            0.6621,
+            0.521,
+            0.7114,
+            0.5646
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.0563,
+            0.5482,
+            0.0676,
+            0.5919
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.2171,
+            0.5886,
+            0.26,
+            0.6322
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.5538,
+            0.6229,
+            0.5652,
+            0.6665
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.4186,
+            0.6285,
+            0.43,
+            0.6722
+          ]
+        },
+        {
+          "text": "Poll",
+          "bbox": [
+            0.7177,
+            0.6307,
+            0.7543,
+            0.6744
+          ]
+        },
+        {
+          "text": "ACK",
+          "bbox": [
+            0.2146,
+            0.6639,
+            0.2626,
+            0.7076
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.913,
+            0.6868,
+            0.9244,
+            0.7305
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.7145,
+            0.706,
+            0.7574,
+            0.7497
+          ]
+        },
+        {
+          "text": "Select",
+          "bbox": [
+            0.2066,
+            0.7575,
+            0.2621,
+            0.8012
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.55,
+            0.7783,
+            0.5613,
+            0.822
+          ]
+        },
+        {
+          "text": "ACK",
+          "bbox": [
+            0.712,
+            0.7807,
+            0.76,
+            0.8244
+          ]
+        },
+        {
+          "text": "Poll",
+          "bbox": [
+            0.7238,
+            0.8635,
+            0.7604,
+            0.9072
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_020",
+      "file": "ch12_ill_020.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.20",
+      "section_id": "ch12-12-2-3-logical-ring",
+      "alt": "Figure 12.20: Logical ring and physical topology in token-passing access method",
+      "sources": [
+        "book Figure 12.20; p.343"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 635,
+      "sha256": "339555452eebb4b020fcc99a4b318d93d0b49f84053499c0a619dfbb75e63aee",
+      "description": "Figure 12.20: Logical ring and physical topology in token-passing access method. Physical ring, dual ring, bus ring, and star ring topologies are annotated with the logical token path.",
+      "structure": "Physical ring, dual ring, bus ring, and star ring topologies are annotated with the logical token path.",
+      "text_in_image": "1; 2; 1; 2; 3; 4; 3; 4; a. Physical ring; b. Dual ring; 1; 2; 1; 2; 3; 4; 3; 4; c. Bus ring; d. Star ring",
+      "use_when": "Teach ch12-12-2-3-logical-ring, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 19,
+      "source_bbox": [
+        114.32,
+        383.92,
+        466.32,
+        595.16
+      ],
+      "labels": [
+        {
+          "text": "1",
+          "bbox": [
+            0.2483,
+            0.1621,
+            0.2597,
+            0.2
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.3993,
+            0.1621,
+            0.4107,
+            0.2
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6318,
+            0.1621,
+            0.6432,
+            0.2
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.7693,
+            0.1621,
+            0.7807,
+            0.2
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.6315,
+            0.3553,
+            0.6429,
+            0.3931
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.7693,
+            0.3553,
+            0.7807,
+            0.3931
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.2509,
+            0.3602,
+            0.2623,
+            0.3981
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.3997,
+            0.3602,
+            0.411,
+            0.3981
+          ]
+        },
+        {
+          "text": "a. Physical ring",
+          "bbox": [
+            0.2422,
+            0.4717,
+            0.383,
+            0.5096
+          ]
+        },
+        {
+          "text": "b. Dual ring",
+          "bbox": [
+            0.6251,
+            0.4717,
+            0.7344,
+            0.5096
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2461,
+            0.5417,
+            0.2574,
+            0.5796
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.4021,
+            0.5454,
+            0.4135,
+            0.5833
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6207,
+            0.5485,
+            0.6321,
+            0.5864
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.765,
+            0.5485,
+            0.7764,
+            0.5864
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.2539,
+            0.7361,
+            0.2653,
+            0.774
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.4021,
+            0.7361,
+            0.4135,
+            0.774
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.6211,
+            0.764,
+            0.6324,
+            0.8019
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.7669,
+            0.764,
+            0.7782,
+            0.8019
+          ]
+        },
+        {
+          "text": "c. Bus ring",
+          "bbox": [
+            0.2646,
+            0.8606,
+            0.3638,
+            0.8985
+          ]
+        },
+        {
+          "text": "d. Star ring",
+          "bbox": [
+            0.6273,
+            0.8724,
+            0.729,
+            0.9103
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_021",
+      "file": "ch12_ill_021.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.21",
+      "section_id": "ch12-12-3-1",
+      "alt": "Figure 12.21: Frequency-division multiple access (FDMA)",
+      "sources": [
+        "book Figure 12.21; p.345"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 714,
+      "sha256": "1190cf1b93bbd791e04e161da677052be2bf7ce06c33cd517225937b70812c71",
+      "description": "Figure 12.21: Frequency-division multiple access (FDMA). Four stations occupy separate frequency bands in a common FDMA channel while one station is silent.",
+      "structure": "Four stations occupy separate frequency bands in a common FDMA channel while one station is silent.",
+      "text_in_image": "Data; Data; f; f; Station 2; Station 1; • • •; • • •; t; t; f; Common; • • •; channel; t; f; f; Station 3; Station 4; • • •; • • •; t; t; Data; Silent",
+      "use_when": "Teach ch12-12-3-1, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 21,
+      "source_bbox": [
+        114.32,
+        86.86,
+        466.32,
+        324.62
+      ],
+      "labels": [
+        {
+          "text": "Data",
+          "bbox": [
+            0.1193,
+            0.1568,
+            0.1622,
+            0.1905
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.8286,
+            0.1568,
+            0.8715,
+            0.1905
+          ]
+        },
+        {
+          "text": "f",
+          "bbox": [
+            0.1871,
+            0.2206,
+            0.1935,
+            0.2543
+          ]
+        },
+        {
+          "text": "f",
+          "bbox": [
+            0.6239,
+            0.2204,
+            0.6303,
+            0.2541
+          ]
+        },
+        {
+          "text": "Station 2",
+          "bbox": [
+            0.8927,
+            0.2905,
+            0.9742,
+            0.3241
+          ]
+        },
+        {
+          "text": "Station 1",
+          "bbox": [
+            0.0258,
+            0.3098,
+            0.1073,
+            0.3435
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.323,
+            0.3202,
+            0.3582,
+            0.3539
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7597,
+            0.3201,
+            0.795,
+            0.3537
+          ]
+        },
+        {
+          "text": "t",
+          "bbox": [
+            0.347,
+            0.3961,
+            0.3534,
+            0.4298
+          ]
+        },
+        {
+          "text": "t",
+          "bbox": [
+            0.7832,
+            0.3971,
+            0.7896,
+            0.4308
+          ]
+        },
+        {
+          "text": "f",
+          "bbox": [
+            0.2444,
+            0.4734,
+            0.2507,
+            0.507
+          ]
+        },
+        {
+          "text": "Common",
+          "bbox": [
+            0.8077,
+            0.5363,
+            0.8923,
+            0.5699
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.3787,
+            0.5688,
+            0.414,
+            0.6025
+          ]
+        },
+        {
+          "text": "channel",
+          "bbox": [
+            0.8147,
+            0.5763,
+            0.8854,
+            0.6099
+          ]
+        },
+        {
+          "text": "t",
+          "bbox": [
+            0.7528,
+            0.621,
+            0.7591,
+            0.6547
+          ]
+        },
+        {
+          "text": "f",
+          "bbox": [
+            0.1872,
+            0.7105,
+            0.1935,
+            0.7441
+          ]
+        },
+        {
+          "text": "f",
+          "bbox": [
+            0.6239,
+            0.7105,
+            0.6303,
+            0.7441
+          ]
+        },
+        {
+          "text": "Station 3",
+          "bbox": [
+            0.0258,
+            0.7927,
+            0.1073,
+            0.8263
+          ]
+        },
+        {
+          "text": "Station 4",
+          "bbox": [
+            0.8927,
+            0.7927,
+            0.9742,
+            0.8263
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.323,
+            0.8101,
+            0.3582,
+            0.8438
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7598,
+            0.8101,
+            0.795,
+            0.8438
+          ]
+        },
+        {
+          "text": "t",
+          "bbox": [
+            0.7835,
+            0.8859,
+            0.7898,
+            0.9196
+          ]
+        },
+        {
+          "text": "t",
+          "bbox": [
+            0.3468,
+            0.8862,
+            0.3531,
+            0.9199
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.8286,
+            0.9244,
+            0.8715,
+            0.9581
+          ]
+        },
+        {
+          "text": "Silent",
+          "bbox": [
+            0.1129,
+            0.9329,
+            0.1685,
+            0.9666
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_022",
+      "file": "ch12_ill_022.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.22",
+      "section_id": "ch12-12-3-2",
+      "alt": "Figure 12.22: Time-division multiple access (TDMA)",
+      "sources": [
+        "book Figure 12.22; p.346"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 720,
+      "sha256": "ace6d5fa2a17f1867006bcd21e2fc968f6d4ab625e4b526ec305c7d6fac3fc63",
+      "description": "Figure 12.22: Time-division multiple access (TDMA). Four stations occupy repeating time slots in a common TDMA channel while one station is silent.",
+      "structure": "Four stations occupy repeating time slots in a common TDMA channel while one station is silent.",
+      "text_in_image": "Data; Data; f; f; Station 2; Station 1; • • •; • • •; t; t; f; Common; channel; • • •; t; f; f; Station 3; Station 4; • • •; • • •; t; t; Data; Silent",
+      "use_when": "Teach ch12-12-3-2, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 22,
+      "source_bbox": [
+        99.32,
+        128.86,
+        451.32,
+        368.42
+      ],
+      "labels": [
+        {
+          "text": "Data",
+          "bbox": [
+            0.8251,
+            0.1556,
+            0.8681,
+            0.189
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.116,
+            0.1558,
+            0.159,
+            0.1892
+          ]
+        },
+        {
+          "text": "f",
+          "bbox": [
+            0.6321,
+            0.2076,
+            0.6384,
+            0.241
+          ]
+        },
+        {
+          "text": "f",
+          "bbox": [
+            0.1838,
+            0.222,
+            0.1902,
+            0.2554
+          ]
+        },
+        {
+          "text": "Station 2",
+          "bbox": [
+            0.8959,
+            0.3054,
+            0.9774,
+            0.3388
+          ]
+        },
+        {
+          "text": "Station 1",
+          "bbox": [
+            0.0226,
+            0.3077,
+            0.1041,
+            0.3411
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7723,
+            0.314,
+            0.8075,
+            0.3474
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.3262,
+            0.3284,
+            0.3614,
+            0.3618
+          ]
+        },
+        {
+          "text": "t",
+          "bbox": [
+            0.7915,
+            0.3818,
+            0.7978,
+            0.4152
+          ]
+        },
+        {
+          "text": "t",
+          "bbox": [
+            0.3428,
+            0.3963,
+            0.3491,
+            0.4297
+          ]
+        },
+        {
+          "text": "f",
+          "bbox": [
+            0.228,
+            0.4908,
+            0.2343,
+            0.5242
+          ]
+        },
+        {
+          "text": "Common",
+          "bbox": [
+            0.8045,
+            0.5324,
+            0.8891,
+            0.5658
+          ]
+        },
+        {
+          "text": "channel",
+          "bbox": [
+            0.8115,
+            0.5721,
+            0.8821,
+            0.6055
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.3623,
+            0.5846,
+            0.3976,
+            0.618
+          ]
+        },
+        {
+          "text": "t",
+          "bbox": [
+            0.7363,
+            0.6289,
+            0.7426,
+            0.6623
+          ]
+        },
+        {
+          "text": "f",
+          "bbox": [
+            0.1838,
+            0.7158,
+            0.1902,
+            0.7492
+          ]
+        },
+        {
+          "text": "f",
+          "bbox": [
+            0.6321,
+            0.7206,
+            0.6384,
+            0.754
+          ]
+        },
+        {
+          "text": "Station 3",
+          "bbox": [
+            0.0226,
+            0.7942,
+            0.1041,
+            0.8276
+          ]
+        },
+        {
+          "text": "Station 4",
+          "bbox": [
+            0.8959,
+            0.7959,
+            0.9774,
+            0.8293
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.3224,
+            0.8222,
+            0.3576,
+            0.8556
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7722,
+            0.827,
+            0.8075,
+            0.8604
+          ]
+        },
+        {
+          "text": "t",
+          "bbox": [
+            0.3433,
+            0.8944,
+            0.3496,
+            0.9278
+          ]
+        },
+        {
+          "text": "t",
+          "bbox": [
+            0.7915,
+            0.8944,
+            0.7979,
+            0.9278
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.8253,
+            0.9233,
+            0.8683,
+            0.9567
+          ]
+        },
+        {
+          "text": "Silent",
+          "bbox": [
+            0.1097,
+            0.9334,
+            0.1653,
+            0.9668
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_023",
+      "file": "ch12_ill_023.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.23",
+      "section_id": "ch12-12-3-3-idea",
+      "alt": "Figure 12.23: Simple idea of communication with code",
+      "sources": [
+        "book Figure 12.23; p.348"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 658,
+      "sha256": "8b6ff83df6e44bc2d714873e4701d35f6c9467f4f8d52cd6a245ee44b842fa6d",
+      "description": "Figure 12.23: Simple idea of communication with code. Four stations multiply data by distinct codes and their coded signals add on the shared channel.",
+      "structure": "Four stations multiply data by distinct codes and their coded signals add on the shared channel.",
+      "text_in_image": "Data; Data; d1; d2; Station 1; Station 2; d1 · c1; d2 · c2; Common; Data; d1 · c1; d2 · c2; d3 · c3; d4 · c4; +; +; +; channel; d3 · c3; d4 · c4; Station 4; Station 3; d3; d4; Data",
+      "use_when": "Teach ch12-12-3-3-idea, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 24,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        266.72
+      ],
+      "labels": [
+        {
+          "text": "Data",
+          "bbox": [
+            0.1116,
+            0.1702,
+            0.1547,
+            0.2067
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.823,
+            0.1702,
+            0.866,
+            0.2067
+          ]
+        },
+        {
+          "text": "d1",
+          "bbox": [
+            0.1426,
+            0.2446,
+            0.1625,
+            0.2899
+          ]
+        },
+        {
+          "text": "d2",
+          "bbox": [
+            0.8545,
+            0.2446,
+            0.8745,
+            0.2899
+          ]
+        },
+        {
+          "text": "Station 1",
+          "bbox": [
+            0.0167,
+            0.3435,
+            0.0984,
+            0.3801
+          ]
+        },
+        {
+          "text": "Station 2",
+          "bbox": [
+            0.8987,
+            0.3435,
+            0.9804,
+            0.3801
+          ]
+        },
+        {
+          "text": "d1 · c1",
+          "bbox": [
+            0.1426,
+            0.4096,
+            0.1983,
+            0.4548
+          ]
+        },
+        {
+          "text": "d2 · c2",
+          "bbox": [
+            0.8545,
+            0.4096,
+            0.9102,
+            0.4548
+          ]
+        },
+        {
+          "text": "Common",
+          "bbox": [
+            0.849,
+            0.521,
+            0.9339,
+            0.5576
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.2504,
+            0.5382,
+            0.2934,
+            0.5747
+          ]
+        },
+        {
+          "text": "d1 · c1",
+          "bbox": [
+            0.3272,
+            0.5407,
+            0.3851,
+            0.5875
+          ]
+        },
+        {
+          "text": "d2 · c2",
+          "bbox": [
+            0.4367,
+            0.5407,
+            0.4945,
+            0.5875
+          ]
+        },
+        {
+          "text": "d3 · c3",
+          "bbox": [
+            0.5462,
+            0.5407,
+            0.604,
+            0.5875
+          ]
+        },
+        {
+          "text": "d4 · c4",
+          "bbox": [
+            0.6567,
+            0.5407,
+            0.7124,
+            0.5875
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.4044,
+            0.5489,
+            0.4174,
+            0.5855
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.5139,
+            0.5494,
+            0.5269,
+            0.5859
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.6233,
+            0.5494,
+            0.6363,
+            0.5859
+          ]
+        },
+        {
+          "text": "channel",
+          "bbox": [
+            0.856,
+            0.5644,
+            0.9269,
+            0.6009
+          ]
+        },
+        {
+          "text": "d3 · c3",
+          "bbox": [
+            0.1426,
+            0.6895,
+            0.1983,
+            0.7347
+          ]
+        },
+        {
+          "text": "d4 · c4",
+          "bbox": [
+            0.8545,
+            0.6895,
+            0.9102,
+            0.7347
+          ]
+        },
+        {
+          "text": "Station 4",
+          "bbox": [
+            0.8987,
+            0.7743,
+            0.9804,
+            0.8108
+          ]
+        },
+        {
+          "text": "Station 3",
+          "bbox": [
+            0.0167,
+            0.7819,
+            0.0984,
+            0.8185
+          ]
+        },
+        {
+          "text": "d3",
+          "bbox": [
+            0.1426,
+            0.8531,
+            0.1625,
+            0.8984
+          ]
+        },
+        {
+          "text": "d4",
+          "bbox": [
+            0.8545,
+            0.8551,
+            0.8745,
+            0.9004
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.823,
+            0.9177,
+            0.866,
+            0.9543
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_024",
+      "file": "ch12_ill_024.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.24",
+      "section_id": "ch12-12-3-3-chips",
+      "alt": "Figure 12.24: Chip sequences",
+      "sources": [
+        "book Figure 12.24; p.348"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 233,
+      "sha256": "3f94a201e9fcd05afc4bdf31c16b8eee2934e450f02104b48d19406c0cbdde9b",
+      "description": "Figure 12.24: Chip sequences. Four mutually orthogonal length-four chip sequences C1 through C4 are listed.",
+      "structure": "Four mutually orthogonal length-four chip sequences C1 through C4 are listed.",
+      "text_in_image": "C1; C2; C3; C4; [+1   +1   +1   +1]; [+1   –1   +1  –1]; [+1   +1   –1   –1]; [+1   –1   –1   +1]",
+      "use_when": "Teach ch12-12-3-3-chips, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 24,
+      "source_bbox": [
+        99.32,
+        330.58,
+        451.32,
+        407.96
+      ],
+      "labels": [
+        {
+          "text": "C1",
+          "bbox": [
+            0.1348,
+            0.4927,
+            0.1585,
+            0.6208
+          ]
+        },
+        {
+          "text": "C2",
+          "bbox": [
+            0.369,
+            0.4927,
+            0.3926,
+            0.6208
+          ]
+        },
+        {
+          "text": "C3",
+          "bbox": [
+            0.6031,
+            0.4927,
+            0.6268,
+            0.6208
+          ]
+        },
+        {
+          "text": "C4",
+          "bbox": [
+            0.8373,
+            0.4927,
+            0.8609,
+            0.6208
+          ]
+        },
+        {
+          "text": "[+1   +1   +1   +1]",
+          "bbox": [
+            0.0651,
+            0.6912,
+            0.2282,
+            0.7946
+          ]
+        },
+        {
+          "text": "[+1   –1   +1  –1]",
+          "bbox": [
+            0.3036,
+            0.6912,
+            0.458,
+            0.7946
+          ]
+        },
+        {
+          "text": "[+1   +1   –1   –1]",
+          "bbox": [
+            0.5356,
+            0.6912,
+            0.6956,
+            0.7946
+          ]
+        },
+        {
+          "text": "[+1   –1   –1   +1]",
+          "bbox": [
+            0.769,
+            0.6912,
+            0.9291,
+            0.7946
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_025",
+      "file": "ch12_ill_025.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.25",
+      "section_id": "ch12-12-3-3-data-representation",
+      "alt": "Figure 12.25: Data representation in CDMA",
+      "sources": [
+        "book Figure 12.25; p.349"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 209,
+      "sha256": "1c1be1e351ce4e102405e3df45266823010fbcb5d403f18e59df335aa4944f13",
+      "description": "Figure 12.25: Data representation in CDMA. CDMA maps bit 0 to minus one, bit 1 to plus one, and silence to zero before code multiplication.",
+      "structure": "CDMA maps bit 0 to minus one, bit 1 to plus one, and silence to zero before code multiplication.",
+      "text_in_image": "Data bit 0                  –1; Data bit 1                  +1; Silence                   0",
+      "use_when": "Teach ch12-12-3-3-data-representation, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 25,
+      "source_bbox": [
+        114.32,
+        177.88,
+        466.32,
+        247.04
+      ],
+      "labels": [
+        {
+          "text": "Data bit 0                  –1",
+          "bbox": [
+            0.1024,
+            0.5971,
+            0.317,
+            0.7128
+          ]
+        },
+        {
+          "text": "Data bit 1                  +1",
+          "bbox": [
+            0.3944,
+            0.6054,
+            0.6105,
+            0.7211
+          ]
+        },
+        {
+          "text": "Silence                   0",
+          "bbox": [
+            0.6956,
+            0.6069,
+            0.8818,
+            0.7226
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_026",
+      "file": "ch12_ill_026.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.26",
+      "section_id": "ch12-12-3-3-encoding-and-decoding",
+      "alt": "Figure 12.26: Sharing channel in CDMA",
+      "sources": [
+        "book Figure 12.26; p.350"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 661,
+      "sha256": "02ea9a56077f38b0c1d2c50664c1662e2f98c3627788f4480087ac15e622b9ee",
+      "description": "Figure 12.26: Sharing channel in CDMA. A four-station CDMA example multiplies each station symbol by its chip code and sums the resulting sequences on the shared channel.",
+      "structure": "A four-station CDMA example multiplies each station symbol by its chip code and sums the resulting sequences on the shared channel.",
+      "text_in_image": "Bit 0; Bit 0; –1; –1; C2; C1; Station 1; Station 2; [+1  +1   +1  –1]; [+1  +1   +1  +1]; d1 · c1; d2 · c2; [–1  –1   –1  –1]; [–1  –1   –1  +1]; Common; Data; [–1  –1  –3   +1]; channel; [0     0     0     0]; [+1  –1   –1  +1]; C4; d3 · c3; d4 · c4; C3; [+1 –1 –1 +1]; [+1  +1   –1  –1]; Station 3; Station 4; +1; 0; Silent; Bit 1",
+      "use_when": "Teach ch12-12-3-3-encoding-and-decoding, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 26,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        267.74
+      ],
+      "labels": [
+        {
+          "text": "Bit 0",
+          "bbox": [
+            0.196,
+            0.1694,
+            0.241,
+            0.2058
+          ]
+        },
+        {
+          "text": "Bit 0",
+          "bbox": [
+            0.7571,
+            0.1694,
+            0.8021,
+            0.2058
+          ]
+        },
+        {
+          "text": "–1",
+          "bbox": [
+            0.2241,
+            0.2187,
+            0.2468,
+            0.2551
+          ]
+        },
+        {
+          "text": "–1",
+          "bbox": [
+            0.7834,
+            0.2187,
+            0.8062,
+            0.2551
+          ]
+        },
+        {
+          "text": "C2",
+          "bbox": [
+            0.8879,
+            0.2908,
+            0.9117,
+            0.3289
+          ]
+        },
+        {
+          "text": "C1",
+          "bbox": [
+            0.0987,
+            0.3152,
+            0.1225,
+            0.3534
+          ]
+        },
+        {
+          "text": "Station 1",
+          "bbox": [
+            0.258,
+            0.3181,
+            0.3396,
+            0.3544
+          ]
+        },
+        {
+          "text": "Station 2",
+          "bbox": [
+            0.66,
+            0.3181,
+            0.7417,
+            0.3544
+          ]
+        },
+        {
+          "text": "[+1  +1   +1  –1]",
+          "bbox": [
+            0.8245,
+            0.3271,
+            0.9751,
+            0.3635
+          ]
+        },
+        {
+          "text": "[+1  +1   +1  +1]",
+          "bbox": [
+            0.0227,
+            0.3515,
+            0.1747,
+            0.3879
+          ]
+        },
+        {
+          "text": "d1 · c1",
+          "bbox": [
+            0.2978,
+            0.3732,
+            0.3535,
+            0.4187
+          ]
+        },
+        {
+          "text": "d2 · c2",
+          "bbox": [
+            0.648,
+            0.3732,
+            0.7037,
+            0.4187
+          ]
+        },
+        {
+          "text": "[–1  –1   –1  –1]",
+          "bbox": [
+            0.2525,
+            0.4169,
+            0.3988,
+            0.4533
+          ]
+        },
+        {
+          "text": "[–1  –1   –1  +1]",
+          "bbox": [
+            0.602,
+            0.4169,
+            0.7497,
+            0.4533
+          ]
+        },
+        {
+          "text": "Common",
+          "bbox": [
+            0.7776,
+            0.5349,
+            0.8624,
+            0.5713
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.3328,
+            0.5544,
+            0.3758,
+            0.5908
+          ]
+        },
+        {
+          "text": "[–1  –1  –3   +1]",
+          "bbox": [
+            0.4557,
+            0.5554,
+            0.6035,
+            0.5918
+          ]
+        },
+        {
+          "text": "channel",
+          "bbox": [
+            0.7845,
+            0.5786,
+            0.8554,
+            0.615
+          ]
+        },
+        {
+          "text": "[0     0     0     0]",
+          "bbox": [
+            0.2514,
+            0.6837,
+            0.3976,
+            0.72
+          ]
+        },
+        {
+          "text": "[+1  –1   –1  +1]",
+          "bbox": [
+            0.6034,
+            0.6837,
+            0.7526,
+            0.72
+          ]
+        },
+        {
+          "text": "C4",
+          "bbox": [
+            0.8857,
+            0.7267,
+            0.9095,
+            0.7649
+          ]
+        },
+        {
+          "text": "d3 · c3",
+          "bbox": [
+            0.2966,
+            0.7273,
+            0.3524,
+            0.7728
+          ]
+        },
+        {
+          "text": "d4 · c4",
+          "bbox": [
+            0.6502,
+            0.7273,
+            0.7059,
+            0.7728
+          ]
+        },
+        {
+          "text": "C3",
+          "bbox": [
+            0.1044,
+            0.7441,
+            0.1282,
+            0.7823
+          ]
+        },
+        {
+          "text": "[+1 –1 –1 +1]",
+          "bbox": [
+            0.8344,
+            0.7631,
+            0.9608,
+            0.7994
+          ]
+        },
+        {
+          "text": "[+1  +1   –1  –1]",
+          "bbox": [
+            0.0298,
+            0.7805,
+            0.179,
+            0.8169
+          ]
+        },
+        {
+          "text": "Station 3",
+          "bbox": [
+            0.258,
+            0.7921,
+            0.3396,
+            0.8285
+          ]
+        },
+        {
+          "text": "Station 4",
+          "bbox": [
+            0.66,
+            0.7921,
+            0.7417,
+            0.8285
+          ]
+        },
+        {
+          "text": "+1",
+          "bbox": [
+            0.7838,
+            0.8706,
+            0.808,
+            0.9069
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2319,
+            0.874,
+            0.2433,
+            0.9104
+          ]
+        },
+        {
+          "text": "Silent",
+          "bbox": [
+            0.1871,
+            0.9182,
+            0.2403,
+            0.9546
+          ]
+        },
+        {
+          "text": "Bit 1",
+          "bbox": [
+            0.7531,
+            0.9182,
+            0.7981,
+            0.9546
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_027",
+      "file": "ch12_ill_027.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.27",
+      "section_id": "ch12-12-3-3-signal-level",
+      "alt": "Figure 12.27: Digital signal created by four stations in CDMA",
+      "sources": [
+        "book Figure 12.27; p.350"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 536,
+      "sha256": "208d8c0789a872a84e2a54abef106b2f204e76b4c06391ea3c6c84cd27523054",
+      "description": "Figure 12.27: Digital signal created by four stations in CDMA. Four station waveforms and the composite channel waveform show the chip-by-chip sum for a specific data combination.",
+      "structure": "Four station waveforms and the composite channel waveform show the chip-by-chip sum for a specific data combination.",
+      "text_in_image": "Bit 0; Bit 0; [–1  +1  –1 +1]; [–1  –1 –1 –1]; Station 1; Station 2; Bit 1; Silent; [+1  –1  –1 +1]; [0    0    0    0]; Station 4; Station 3; Data on the channel",
+      "use_when": "Teach ch12-12-3-3-signal-level, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 26,
+      "source_bbox": [
+        99.32,
+        287.56,
+        451.32,
+        465.68
+      ],
+      "labels": [
+        {
+          "text": "Bit 0",
+          "bbox": [
+            0.658,
+            0.2166,
+            0.7029,
+            0.2615
+          ]
+        },
+        {
+          "text": "Bit 0",
+          "bbox": [
+            0.1582,
+            0.2188,
+            0.203,
+            0.2637
+          ]
+        },
+        {
+          "text": "[–1  +1  –1 +1]",
+          "bbox": [
+            0.6091,
+            0.2833,
+            0.7467,
+            0.3282
+          ]
+        },
+        {
+          "text": "[–1  –1 –1 –1]",
+          "bbox": [
+            0.1147,
+            0.2854,
+            0.2435,
+            0.3304
+          ]
+        },
+        {
+          "text": "Station 1",
+          "bbox": [
+            0.015,
+            0.3524,
+            0.0964,
+            0.3973
+          ]
+        },
+        {
+          "text": "Station 2",
+          "bbox": [
+            0.5139,
+            0.3545,
+            0.5954,
+            0.3995
+          ]
+        },
+        {
+          "text": "Bit 1",
+          "bbox": [
+            0.6621,
+            0.4411,
+            0.707,
+            0.486
+          ]
+        },
+        {
+          "text": "Silent",
+          "bbox": [
+            0.1573,
+            0.4565,
+            0.2128,
+            0.5014
+          ]
+        },
+        {
+          "text": "[+1  –1  –1 +1]",
+          "bbox": [
+            0.6145,
+            0.5013,
+            0.7522,
+            0.5463
+          ]
+        },
+        {
+          "text": "[0    0    0    0]",
+          "bbox": [
+            0.1147,
+            0.5054,
+            0.2435,
+            0.5503
+          ]
+        },
+        {
+          "text": "Station 4",
+          "bbox": [
+            0.5128,
+            0.563,
+            0.5943,
+            0.6079
+          ]
+        },
+        {
+          "text": "Station 3",
+          "bbox": [
+            0.0135,
+            0.5631,
+            0.0949,
+            0.608
+          ]
+        },
+        {
+          "text": "Data on the channel",
+          "bbox": [
+            0.1877,
+            0.7513,
+            0.3746,
+            0.7962
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_028",
+      "file": "ch12_ill_028.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.28",
+      "section_id": "ch12-12-3-3-encoding-and-decoding",
+      "alt": "Figure 12.28: Decoding of the composite signal for one in CDMA",
+      "sources": [
+        "book Figure 12.28; p.351"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 507,
+      "sha256": "bc0aea10f1c04f69e1f1c3ade79a986b01542a4effb37d2c939e166de815f82e",
+      "description": "Figure 12.28: Decoding of the composite signal for one in CDMA. The receiver multiplies the composite signal by station 2’s code, sums the products, divides by four, and recovers bit 0.",
+      "structure": "The receiver multiplies the composite signal by station 2’s code, sums the products, divides by four, and recovers bit 0.",
+      "text_in_image": "Station 2’s code; [+1  –1   +1  –1]; Data on the channel; Summing the values; Inner product result; –4; –4; –4/4; –1; Bit 0",
+      "use_when": "Teach ch12-12-3-3-encoding-and-decoding, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 27,
+      "source_bbox": [
+        115.34,
+        47.8,
+        466.32,
+        216.62
+      ],
+      "labels": [
+        {
+          "text": "Station 2’s code",
+          "bbox": [
+            0.5556,
+            0.2172,
+            0.7025,
+            0.2646
+          ]
+        },
+        {
+          "text": "[+1  –1   +1  –1]",
+          "bbox": [
+            0.554,
+            0.2785,
+            0.7032,
+            0.3259
+          ]
+        },
+        {
+          "text": "Data on the channel",
+          "bbox": [
+            0.0274,
+            0.303,
+            0.2148,
+            0.3503
+          ]
+        },
+        {
+          "text": "Summing the values",
+          "bbox": [
+            0.5565,
+            0.562,
+            0.7426,
+            0.6094
+          ]
+        },
+        {
+          "text": "Inner product result",
+          "bbox": [
+            0.0158,
+            0.5665,
+            0.1956,
+            0.6139
+          ]
+        },
+        {
+          "text": "–4",
+          "bbox": [
+            0.9142,
+            0.687,
+            0.9392,
+            0.7343
+          ]
+        },
+        {
+          "text": "–4",
+          "bbox": [
+            0.3841,
+            0.8534,
+            0.4069,
+            0.9008
+          ]
+        },
+        {
+          "text": "–4/4",
+          "bbox": [
+            0.4658,
+            0.8534,
+            0.5118,
+            0.9008
+          ]
+        },
+        {
+          "text": "–1",
+          "bbox": [
+            0.5754,
+            0.8534,
+            0.5982,
+            0.9007
+          ]
+        },
+        {
+          "text": "Bit 0",
+          "bbox": [
+            0.66,
+            0.8534,
+            0.7049,
+            0.9007
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_029",
+      "file": "ch12_ill_029.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.29",
+      "section_id": "ch12-12-3-3-sequence-generation",
+      "alt": "Figure 12.29: General rule and examples of creating Walsh tables",
+      "sources": [
+        "book Figure 12.29; p.351"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 420,
+      "sha256": "0aa49d20ab5f6f870c0f1476fcedab5096321e1c8ecf603bb854dfc8970fbc10",
+      "description": "Figure 12.29: General rule and examples of creating Walsh tables. Walsh matrix recursion and the generated W2 and W4 tables show how orthogonal chip sets double in size.",
+      "structure": "Walsh matrix recursion and the generated W2 and W4 tables show how orthogonal chip sets double in size.",
+      "text_in_image": "+1; +1; +1; +1; +1; –1; +1; –1; +1; +1; W4  =; W2  =; WN; WN; +1; +1; +1; –1; –1; –1; +1; W1  =; W2N  =; WN; WN; +1; –1; –1; +1; a. Two basic rules; b. Generation of W2 and W4",
+      "use_when": "Teach ch12-12-3-3-sequence-generation, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 27,
+      "source_bbox": [
+        114.32,
+        234.46,
+        466.32,
+        374.18
+      ],
+      "labels": [
+        {
+          "text": "+1",
+          "bbox": [
+            0.7433,
+            0.3402,
+            0.7668,
+            0.3967
+          ]
+        },
+        {
+          "text": "+1",
+          "bbox": [
+            0.8052,
+            0.3402,
+            0.8287,
+            0.3967
+          ]
+        },
+        {
+          "text": "+1",
+          "bbox": [
+            0.8652,
+            0.3402,
+            0.8887,
+            0.3967
+          ]
+        },
+        {
+          "text": "+1",
+          "bbox": [
+            0.927,
+            0.3402,
+            0.9506,
+            0.3967
+          ]
+        },
+        {
+          "text": "+1",
+          "bbox": [
+            0.7433,
+            0.455,
+            0.7668,
+            0.5115
+          ]
+        },
+        {
+          "text": "–1",
+          "bbox": [
+            0.8052,
+            0.455,
+            0.8273,
+            0.5115
+          ]
+        },
+        {
+          "text": "+1",
+          "bbox": [
+            0.8652,
+            0.455,
+            0.8887,
+            0.5115
+          ]
+        },
+        {
+          "text": "–1",
+          "bbox": [
+            0.927,
+            0.455,
+            0.9492,
+            0.5115
+          ]
+        },
+        {
+          "text": "+1",
+          "bbox": [
+            0.5305,
+            0.4758,
+            0.5541,
+            0.5322
+          ]
+        },
+        {
+          "text": "+1",
+          "bbox": [
+            0.5877,
+            0.4758,
+            0.6113,
+            0.5322
+          ]
+        },
+        {
+          "text": "W4  =",
+          "bbox": [
+            0.6533,
+            0.524,
+            0.7063,
+            0.5969
+          ]
+        },
+        {
+          "text": "W2  =",
+          "bbox": [
+            0.452,
+            0.5298,
+            0.505,
+            0.6027
+          ]
+        },
+        {
+          "text": "WN",
+          "bbox": [
+            0.264,
+            0.5605,
+            0.3027,
+            0.6342
+          ]
+        },
+        {
+          "text": "WN",
+          "bbox": [
+            0.349,
+            0.5605,
+            0.3877,
+            0.6342
+          ]
+        },
+        {
+          "text": "+1",
+          "bbox": [
+            0.5305,
+            0.5883,
+            0.5541,
+            0.6448
+          ]
+        },
+        {
+          "text": "+1",
+          "bbox": [
+            0.7433,
+            0.5924,
+            0.7668,
+            0.6489
+          ]
+        },
+        {
+          "text": "+1",
+          "bbox": [
+            0.8052,
+            0.5924,
+            0.8287,
+            0.6489
+          ]
+        },
+        {
+          "text": "–1",
+          "bbox": [
+            0.8652,
+            0.5995,
+            0.8873,
+            0.6632
+          ]
+        },
+        {
+          "text": "–1",
+          "bbox": [
+            0.9271,
+            0.5995,
+            0.9492,
+            0.6632
+          ]
+        },
+        {
+          "text": "–1",
+          "bbox": [
+            0.5878,
+            0.6038,
+            0.6099,
+            0.6674
+          ]
+        },
+        {
+          "text": "+1",
+          "bbox": [
+            0.0999,
+            0.6056,
+            0.1234,
+            0.6621
+          ]
+        },
+        {
+          "text": "W1  =",
+          "bbox": [
+            0.0278,
+            0.6064,
+            0.0808,
+            0.6793
+          ]
+        },
+        {
+          "text": "W2N  =",
+          "bbox": [
+            0.152,
+            0.6153,
+            0.2198,
+            0.6997
+          ]
+        },
+        {
+          "text": "WN",
+          "bbox": [
+            0.264,
+            0.6927,
+            0.3027,
+            0.7664
+          ]
+        },
+        {
+          "text": "WN",
+          "bbox": [
+            0.349,
+            0.6927,
+            0.3902,
+            0.7692
+          ]
+        },
+        {
+          "text": "+1",
+          "bbox": [
+            0.7433,
+            0.7071,
+            0.7668,
+            0.7636
+          ]
+        },
+        {
+          "text": "–1",
+          "bbox": [
+            0.8052,
+            0.7071,
+            0.8273,
+            0.7636
+          ]
+        },
+        {
+          "text": "–1",
+          "bbox": [
+            0.8652,
+            0.7142,
+            0.8873,
+            0.7779
+          ]
+        },
+        {
+          "text": "+1",
+          "bbox": [
+            0.9271,
+            0.7214,
+            0.9507,
+            0.7779
+          ]
+        },
+        {
+          "text": "a. Two basic rules",
+          "bbox": [
+            0.0935,
+            0.8578,
+            0.2544,
+            0.9143
+          ]
+        },
+        {
+          "text": "b. Generation of W2 and W4",
+          "bbox": [
+            0.539,
+            0.8578,
+            0.7852,
+            0.9286
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    },
+    {
+      "id": "ch12_ill_030",
+      "file": "ch12_ill_030.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 12.30",
+      "section_id": "ch12-q-p12-20",
+      "alt": "Figure 12.30: Problem P12-20",
+      "sources": [
+        "book Figure 12.30; p.359"
+      ],
+      "confidence": "high",
+      "width": 948,
+      "height": 319,
+      "sha256": "1eda7d9abfbae8b06e6c74683c3be26175d996f3ee23d9b18355ceb22d12b5d6",
+      "description": "Figure 12.30: Problem P12-20. A time line for Problem P12-20 alternates contention slots, busy frame intervals, and an idle interval.",
+      "structure": "A time line for Problem P12-20 alternates contention slots, busy frame intervals, and an idle interval.",
+      "text_in_image": "Busy; Busy; Busy; Idle; Time; Contention; Contention; Contention",
+      "use_when": "Teach ch12-q-p12-20, compare MAC behavior, trace the timing or signal calculation, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 35,
+      "source_bbox": [
+        150.56,
+        309.82,
+        466.32,
+        415.7
+      ],
+      "labels": [
+        {
+          "text": "Busy",
+          "bbox": [
+            0.4447,
+            0.3183,
+            0.4968,
+            0.3938
+          ]
+        },
+        {
+          "text": "Busy",
+          "bbox": [
+            0.1768,
+            0.3219,
+            0.2289,
+            0.3974
+          ]
+        },
+        {
+          "text": "Busy",
+          "bbox": [
+            0.756,
+            0.3326,
+            0.8081,
+            0.4082
+          ]
+        },
+        {
+          "text": "Idle",
+          "bbox": [
+            0.5524,
+            0.4968,
+            0.5918,
+            0.5724
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.9087,
+            0.7098,
+            0.9613,
+            0.7853
+          ]
+        },
+        {
+          "text": "Contention",
+          "bbox": [
+            0.2823,
+            0.7344,
+            0.3949,
+            0.81
+          ]
+        },
+        {
+          "text": "Contention",
+          "bbox": [
+            0.6195,
+            0.7344,
+            0.7321,
+            0.81
+          ]
+        },
+        {
+          "text": "Contention",
+          "bbox": [
+            0.0439,
+            0.7452,
+            0.1565,
+            0.8208
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:48:32+00:00"
+      }
+    }
+  ]
+}

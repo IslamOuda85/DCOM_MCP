@@ -2,7 +2,7 @@
 
 A read-only MCP server for a specific Data Communications course. It retrieves textbook sections, chapter data cards, original figures, and practice questions linked to the section being studied.
 
-**Current release:** Chapters 1, 2, and 4–10 are reviewed and available. Chapters 3, 12, and 13 are being repaired and are not served as verified content. Chapter 11 is outside this course's configured scope. See [release status](course/release.json) and [review records](course/reviews).
+**Current release:** Chapters 1, 2, 4–10, and 12 are reviewed and available. Chapters 3 and 13 are being repaired and are not served as verified content. Chapter 11 is outside this course's configured scope. See [release status](course/release.json) and [review records](course/reviews).
 
 ## Course grounding
 
