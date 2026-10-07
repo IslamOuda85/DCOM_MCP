@@ -84,7 +84,7 @@ def get_asset_metadata(asset_id: str) -> dict:
 
 @mcp.tool(annotations=READ)
 def get_asset(asset_id: str) -> list:
-    """Return the original course image and its description as MCP content; no local viewer is required."""
+    """Return verified asset metadata plus the original image as an MCP image block for image-capable clients."""
     a,path=store.asset(asset_id)
     return [json.dumps(a,ensure_ascii=False),Image(path=str(path))]
 

@@ -27,6 +27,8 @@ Use the asset IDs attached to the retrieved section or question. Inspect `get_as
 
 Explain what the student should notice in the image, name its components, and trace its relevant relationships. Cite its original figure/table label and page. Never invent an image, swap in a generic diagram without being asked, or claim an image is visible to the learner when the client does not render MCP images. In a text-only client, describe the verified structure and provide the repository asset link.
 
+When the learner asks to see an original figure, call `get_asset` and let its MCP image content accompany the explanation; do not replace the image with only a description or link when the client supports image results. If the client does not visibly render the returned image, say that clearly and provide the verified asset link instead of saying it was shown. When the learner asks for an editable or shareable visual artifact, retrieve the relevant source material and image first, then use the host's artifact feature if available. Cite the source figure and label any redraw as a derived teaching aid. The MCP server supplies the verified content; the chat host controls image rendering and artifact creation.
+
 Respect `has_figure` and `figure_assets` on questions. A reused teaching figure remains the same source asset, even when several questions reference it. A table or equation image can be authoritative when preserving its layout is essential. Do not flatten fractions or remove subscripts, superscripts, leading zeros, or units. Explain uncertainty rather than guess damaged text.
 
 ## Feedback and answers
