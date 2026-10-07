@@ -240,6 +240,51 @@
         "wavelength-division multiplexing (WDM)"
       ],
       "prerequisites": []
+    },
+    {
+      "chapter": 7,
+      "title": "Transmission Media",
+      "key_terms": [
+        "angle of incidence",
+        "Bayonet Neill-Concelman (BNC)",
+        "cladding",
+        "coaxial cable",
+        "core",
+        "critical angle",
+        "electromagnetic spectrum",
+        "fiber-optic cable",
+        "gauge",
+        "ground propagation",
+        "guided media",
+        "horn antenna",
+        "infrared wave",
+        "IrDA port",
+        "line-of-sight propagation",
+        "microwave",
+        "MT-RJ",
+        "multimode graded-index fiber",
+        "multimode step-index fiber",
+        "omnidirectional antenna",
+        "optical fiber",
+        "parabolic dish antenna",
+        "Radio Government (RG) rating",
+        "radio wave",
+        "reflection",
+        "refraction",
+        "RJ45",
+        "shielded twisted-pair (STP)",
+        "single-mode fiber",
+        "sky propagation",
+        "straight-tip (ST) connector",
+        "subscriber channel (SC) connector",
+        "transmission medium",
+        "twisted-pair cable",
+        "unguided medium",
+        "unidirectional antenna",
+        "unshielded twisted-pair (UTP)",
+        "wireless communication"
+      ],
+      "prerequisites": []
     }
   ],
   "sections": [
@@ -5660,6 +5705,753 @@
       "terms": [
         "3",
         "6",
+        "summary"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-0",
+      "chapter": 7,
+      "title": "Chapter Objectives",
+      "parent": null,
+      "children": [],
+      "source": "book p.185",
+      "kind": "objectives",
+      "asset_ids": [],
+      "terms": [
+        "chapter",
+        "objectives"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-1",
+      "chapter": 7,
+      "title": "7.1 INTRODUCTION",
+      "parent": null,
+      "children": [],
+      "source": "book 7.1; p.186",
+      "kind": "concept",
+      "asset_ids": [
+        "ch07_ill_001",
+        "ch07_ill_002"
+      ],
+      "terms": [
+        "1",
+        "7",
+        "introduction"
+      ],
+      "question_ids": [
+        "ch07-q-q7-1",
+        "ch07-q-q7-2",
+        "ch07-q-q7-3"
+      ]
+    },
+    {
+      "id": "ch07-7-2",
+      "chapter": 7,
+      "title": "7.2 GUIDED MEDIA",
+      "parent": null,
+      "children": [
+        "ch07-7-2-1",
+        "ch07-7-2-2",
+        "ch07-7-2-3"
+      ],
+      "source": "book 7.2; p.187",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "7",
+        "guided",
+        "media"
+      ],
+      "question_ids": [
+        "ch07-q-q7-4"
+      ]
+    },
+    {
+      "id": "ch07-7-2-1",
+      "chapter": 7,
+      "title": "7.2.1 Twisted-Pair Cable",
+      "parent": "ch07-7-2",
+      "children": [
+        "ch07-7-2-1-unshielded-versus-shielded-twisted-pair-cable",
+        "ch07-7-2-1-categories",
+        "ch07-7-2-1-connectors",
+        "ch07-7-2-1-performance",
+        "ch07-7-2-1-applications"
+      ],
+      "source": "book 7.2.1; p.187",
+      "kind": "concept",
+      "asset_ids": [
+        "ch07_ill_003"
+      ],
+      "terms": [
+        "1",
+        "2",
+        "7",
+        "cable",
+        "pair",
+        "twisted"
+      ],
+      "question_ids": [
+        "ch07-q-q7-5"
+      ]
+    },
+    {
+      "id": "ch07-7-2-1-unshielded-versus-shielded-twisted-pair-cable",
+      "chapter": 7,
+      "title": "Unshielded Versus Shielded Twisted-Pair Cable",
+      "parent": "ch07-7-2-1",
+      "children": [],
+      "source": "book p.188",
+      "kind": "concept",
+      "asset_ids": [
+        "ch07_ill_004"
+      ],
+      "terms": [
+        "cable",
+        "pair",
+        "shielded",
+        "twisted",
+        "unshielded",
+        "versus"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-2-1-categories",
+      "chapter": 7,
+      "title": "Categories",
+      "parent": "ch07-7-2-1",
+      "children": [],
+      "source": "book p.188",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "categories"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-2-1-connectors",
+      "chapter": 7,
+      "title": "Connectors",
+      "parent": "ch07-7-2-1",
+      "children": [],
+      "source": "book p.189",
+      "kind": "concept",
+      "asset_ids": [
+        "ch07_ill_005"
+      ],
+      "terms": [
+        "connectors"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-2-1-performance",
+      "chapter": 7,
+      "title": "Performance",
+      "parent": "ch07-7-2-1",
+      "children": [],
+      "source": "book p.189",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "performance"
+      ],
+      "question_ids": [
+        "ch07-q-p7-1",
+        "ch07-q-p7-2",
+        "ch07-q-p7-3",
+        "ch07-q-p7-8"
+      ]
+    },
+    {
+      "id": "ch07-7-2-1-applications",
+      "chapter": 7,
+      "title": "Applications",
+      "parent": "ch07-7-2-1",
+      "children": [],
+      "source": "book p.189",
+      "kind": "concept",
+      "asset_ids": [
+        "ch07_ill_006"
+      ],
+      "terms": [
+        "applications"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-2-2",
+      "chapter": 7,
+      "title": "7.2.2 Coaxial Cable",
+      "parent": "ch07-7-2",
+      "children": [
+        "ch07-7-2-2-coaxial-cable-standards",
+        "ch07-7-2-2-coaxial-cable-connectors",
+        "ch07-7-2-2-performance",
+        "ch07-7-2-2-applications"
+      ],
+      "source": "book 7.2.2; p.190",
+      "kind": "concept",
+      "asset_ids": [
+        "ch07_ill_007"
+      ],
+      "terms": [
+        "2",
+        "7",
+        "cable",
+        "coaxial"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-2-2-coaxial-cable-standards",
+      "chapter": 7,
+      "title": "Coaxial Cable Standards",
+      "parent": "ch07-7-2-2",
+      "children": [],
+      "source": "book p.190",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "cable",
+        "coaxial",
+        "standards"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-2-2-coaxial-cable-connectors",
+      "chapter": 7,
+      "title": "Coaxial Cable Connectors",
+      "parent": "ch07-7-2-2",
+      "children": [],
+      "source": "book p.191",
+      "kind": "concept",
+      "asset_ids": [
+        "ch07_ill_008"
+      ],
+      "terms": [
+        "cable",
+        "coaxial",
+        "connectors"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-2-2-performance",
+      "chapter": 7,
+      "title": "Performance",
+      "parent": "ch07-7-2-2",
+      "children": [],
+      "source": "book p.191",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "performance"
+      ],
+      "question_ids": [
+        "ch07-q-p7-4",
+        "ch07-q-p7-5",
+        "ch07-q-p7-6",
+        "ch07-q-p7-8"
+      ]
+    },
+    {
+      "id": "ch07-7-2-2-applications",
+      "chapter": 7,
+      "title": "Applications",
+      "parent": "ch07-7-2-2",
+      "children": [],
+      "source": "book p.191",
+      "kind": "concept",
+      "asset_ids": [
+        "ch07_ill_009"
+      ],
+      "terms": [
+        "applications"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-2-3",
+      "chapter": 7,
+      "title": "7.2.3 Fiber-Optic Cable",
+      "parent": "ch07-7-2",
+      "children": [
+        "ch07-7-2-3-propagation-modes",
+        "ch07-7-2-3-multimode",
+        "ch07-7-2-3-single-mode",
+        "ch07-7-2-3-fiber-sizes",
+        "ch07-7-2-3-cable-composition",
+        "ch07-7-2-3-fiber-optic-cable-connectors",
+        "ch07-7-2-3-performance",
+        "ch07-7-2-3-applications",
+        "ch07-7-2-3-advantages-and-disadvantages-of-optical-fiber",
+        "ch07-7-2-3-advantages",
+        "ch07-7-2-3-disadvantages"
+      ],
+      "source": "book 7.2.3; p.192",
+      "kind": "concept",
+      "asset_ids": [
+        "ch07_ill_010",
+        "ch07_ill_011"
+      ],
+      "terms": [
+        "2",
+        "3",
+        "7",
+        "cable",
+        "fiber",
+        "optic"
+      ],
+      "question_ids": [
+        "ch07-q-q7-7",
+        "ch07-q-p7-7",
+        "ch07-q-p7-10"
+      ]
+    },
+    {
+      "id": "ch07-7-2-3-propagation-modes",
+      "chapter": 7,
+      "title": "Propagation Modes",
+      "parent": "ch07-7-2-3",
+      "children": [],
+      "source": "book p.193",
+      "kind": "concept",
+      "asset_ids": [
+        "ch07_ill_012"
+      ],
+      "terms": [
+        "modes",
+        "propagation"
+      ],
+      "question_ids": [
+        "ch07-q-q7-6",
+        "ch07-q-p7-11"
+      ]
+    },
+    {
+      "id": "ch07-7-2-3-multimode",
+      "chapter": 7,
+      "title": "Multimode",
+      "parent": "ch07-7-2-3",
+      "children": [],
+      "source": "book p.193",
+      "kind": "concept",
+      "asset_ids": [
+        "ch07_ill_013"
+      ],
+      "terms": [
+        "multimode"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-2-3-single-mode",
+      "chapter": 7,
+      "title": "Single-Mode",
+      "parent": "ch07-7-2-3",
+      "children": [],
+      "source": "book p.194",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "mode",
+        "single"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-2-3-fiber-sizes",
+      "chapter": 7,
+      "title": "Fiber Sizes",
+      "parent": "ch07-7-2-3",
+      "children": [],
+      "source": "book p.195",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "fiber",
+        "sizes"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-2-3-cable-composition",
+      "chapter": 7,
+      "title": "Cable Composition",
+      "parent": "ch07-7-2-3",
+      "children": [],
+      "source": "book p.195",
+      "kind": "concept",
+      "asset_ids": [
+        "ch07_ill_014"
+      ],
+      "terms": [
+        "cable",
+        "composition"
+      ],
+      "question_ids": [
+        "ch07-q-q7-7"
+      ]
+    },
+    {
+      "id": "ch07-7-2-3-fiber-optic-cable-connectors",
+      "chapter": 7,
+      "title": "Fiber-Optic Cable Connectors",
+      "parent": "ch07-7-2-3",
+      "children": [],
+      "source": "book p.195",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "cable",
+        "connectors",
+        "fiber",
+        "optic"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-2-3-performance",
+      "chapter": 7,
+      "title": "Performance",
+      "parent": "ch07-7-2-3",
+      "children": [],
+      "source": "book p.195",
+      "kind": "concept",
+      "asset_ids": [
+        "ch07_ill_015",
+        "ch07_ill_016"
+      ],
+      "terms": [
+        "performance"
+      ],
+      "question_ids": [
+        "ch07-q-p7-8",
+        "ch07-q-p7-9"
+      ]
+    },
+    {
+      "id": "ch07-7-2-3-applications",
+      "chapter": 7,
+      "title": "Applications",
+      "parent": "ch07-7-2-3",
+      "children": [],
+      "source": "book p.196",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "applications"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-2-3-advantages-and-disadvantages-of-optical-fiber",
+      "chapter": 7,
+      "title": "Advantages and Disadvantages of Optical Fiber",
+      "parent": "ch07-7-2-3",
+      "children": [],
+      "source": "book p.197",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "advantages",
+        "disadvantages",
+        "fiber",
+        "optical"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-2-3-advantages",
+      "chapter": 7,
+      "title": "Advantages",
+      "parent": "ch07-7-2-3",
+      "children": [],
+      "source": "book p.197",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "advantages"
+      ],
+      "question_ids": [
+        "ch07-q-q7-8"
+      ]
+    },
+    {
+      "id": "ch07-7-2-3-disadvantages",
+      "chapter": 7,
+      "title": "Disadvantages",
+      "parent": "ch07-7-2-3",
+      "children": [],
+      "source": "book p.197",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "disadvantages"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-3",
+      "chapter": 7,
+      "title": "7.3 UNGUIDED MEDIA: WIRELESS",
+      "parent": null,
+      "children": [
+        "ch07-7-3-1",
+        "ch07-7-3-2",
+        "ch07-7-3-3"
+      ],
+      "source": "book 7.3; p.197",
+      "kind": "concept",
+      "asset_ids": [
+        "ch07_ill_017",
+        "ch07_ill_018"
+      ],
+      "terms": [
+        "3",
+        "7",
+        "media",
+        "unguided",
+        "wireless"
+      ],
+      "question_ids": [
+        "ch07-q-q7-9"
+      ]
+    },
+    {
+      "id": "ch07-7-3-1",
+      "chapter": 7,
+      "title": "7.3.1 Radio Waves",
+      "parent": "ch07-7-3",
+      "children": [
+        "ch07-7-3-1-omnidirectional-antenna",
+        "ch07-7-3-1-applications"
+      ],
+      "source": "book 7.3.1; p.199",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "3",
+        "7",
+        "radio",
+        "waves"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-3-1-omnidirectional-antenna",
+      "chapter": 7,
+      "title": "Omnidirectional Antenna",
+      "parent": "ch07-7-3-1",
+      "children": [],
+      "source": "book p.199",
+      "kind": "concept",
+      "asset_ids": [
+        "ch07_ill_019"
+      ],
+      "terms": [
+        "antenna",
+        "omnidirectional"
+      ],
+      "question_ids": [
+        "ch07-q-q7-10"
+      ]
+    },
+    {
+      "id": "ch07-7-3-1-applications",
+      "chapter": 7,
+      "title": "Applications",
+      "parent": "ch07-7-3-1",
+      "children": [],
+      "source": "book p.200",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "applications"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-3-2",
+      "chapter": 7,
+      "title": "7.3.2 Microwaves",
+      "parent": "ch07-7-3",
+      "children": [
+        "ch07-7-3-2-unidirectional-antenna",
+        "ch07-7-3-2-applications"
+      ],
+      "source": "book 7.3.2; p.200",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "3",
+        "7",
+        "microwaves"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-3-2-unidirectional-antenna",
+      "chapter": 7,
+      "title": "Unidirectional Antenna",
+      "parent": "ch07-7-3-2",
+      "children": [],
+      "source": "book p.200",
+      "kind": "concept",
+      "asset_ids": [
+        "ch07_ill_020"
+      ],
+      "terms": [
+        "antenna",
+        "unidirectional"
+      ],
+      "question_ids": [
+        "ch07-q-q7-10"
+      ]
+    },
+    {
+      "id": "ch07-7-3-2-applications",
+      "chapter": 7,
+      "title": "Applications",
+      "parent": "ch07-7-3-2",
+      "children": [],
+      "source": "book p.201",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "applications"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-3-3",
+      "chapter": 7,
+      "title": "7.3.3 Infrared",
+      "parent": "ch07-7-3",
+      "children": [
+        "ch07-7-3-3-applications"
+      ],
+      "source": "book 7.3.3; p.201",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "7",
+        "infrared"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-3-3-applications",
+      "chapter": 7,
+      "title": "Applications",
+      "parent": "ch07-7-3-3",
+      "children": [],
+      "source": "book p.202",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "applications"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-4",
+      "chapter": 7,
+      "title": "7.4 END-CHAPTER MATERIALS",
+      "parent": null,
+      "children": [
+        "ch07-7-4-1",
+        "ch07-7-4-2",
+        "ch07-7-4-3"
+      ],
+      "source": "book 7.4; p.202",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "4",
+        "7",
+        "chapter",
+        "end",
+        "materials"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-4-1",
+      "chapter": 7,
+      "title": "7.4.1 Recommended Reading",
+      "parent": "ch07-7-4",
+      "children": [
+        "ch07-7-4-1-books"
+      ],
+      "source": "book 7.4.1; p.202",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "4",
+        "7",
+        "reading",
+        "recommended"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-4-1-books",
+      "chapter": 7,
+      "title": "Books",
+      "parent": "ch07-7-4-1",
+      "children": [],
+      "source": "book p.202",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "books"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-4-2",
+      "chapter": 7,
+      "title": "7.4.2 Key Terms",
+      "parent": "ch07-7-4",
+      "children": [],
+      "source": "book 7.4.2; p.202",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "4",
+        "7",
+        "key",
+        "terms"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch07-7-4-3",
+      "chapter": 7,
+      "title": "7.4.3 Summary",
+      "parent": "ch07-7-4",
+      "children": [],
+      "source": "book 7.4.3; p.203",
+      "kind": "summary",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "4",
+        "7",
         "summary"
       ],
       "question_ids": []
