@@ -382,6 +382,51 @@
         "Walsh table"
       ],
       "prerequisites": []
+    },
+    {
+      "chapter": 13,
+      "title": "Wired LANs: Ethernet",
+      "key_terms": [
+        "10 Gigabit Ethernet",
+        "1000Base-CX",
+        "1000Base-LX",
+        "1000Base-SX",
+        "1000Base-T",
+        "100Base-FX",
+        "100Base-T4",
+        "100Base-TX",
+        "10Base2",
+        "10Base5",
+        "10Base-F",
+        "10Base-T",
+        "10GBase-EW",
+        "10GBase-LR",
+        "10GBase-SR",
+        "10GBase-X4",
+        "autonegotiation",
+        "bridge",
+        "carrier extension",
+        "Cheapernet",
+        "collision domain",
+        "Fast Ethernet",
+        "frame bursting",
+        "full-duplex switched Ethernet",
+        "Gigabit Ethernet",
+        "hexadecimal notation",
+        "logical link control (LLC)",
+        "media access control (MAC)",
+        "network interface card (NIC)",
+        "Project 802",
+        "Standard Ethernet",
+        "switch",
+        "switched Ethernet",
+        "thick Ethernet",
+        "Thicknet",
+        "thin Ethernet",
+        "transceiver",
+        "twisted-pair Ethernet"
+      ],
+      "prerequisites": []
     }
   ],
   "sections": [
@@ -10462,6 +10507,1143 @@
         "12",
         "3",
         "4",
+        "summary"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-0",
+      "chapter": 13,
+      "title": "Chapter Objectives",
+      "parent": null,
+      "children": [],
+      "source": "book p.361",
+      "kind": "objectives",
+      "asset_ids": [],
+      "terms": [
+        "chapter",
+        "objectives"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-1",
+      "chapter": 13,
+      "title": "13.1 ETHERNET PROTOCOL",
+      "parent": null,
+      "children": [
+        "ch13-13-1-1",
+        "ch13-13-1-2"
+      ],
+      "source": "book 13.1; p.362",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "13",
+        "ethernet",
+        "protocol"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-1-1",
+      "chapter": 13,
+      "title": "13.1.1 IEEE Project 802",
+      "parent": "ch13-13-1",
+      "children": [
+        "ch13-13-1-1-logical-link-control-llc",
+        "ch13-13-1-1-media-access-control-mac"
+      ],
+      "source": "book 13.1.1; p.362",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "13",
+        "802",
+        "ieee",
+        "project"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-1-1-logical-link-control-llc",
+      "chapter": 13,
+      "title": "Logical Link Control (LLC)",
+      "parent": "ch13-13-1-1",
+      "children": [],
+      "source": "book p.362",
+      "kind": "concept",
+      "asset_ids": [
+        "ch13_ill_001"
+      ],
+      "terms": [
+        "control",
+        "link",
+        "llc",
+        "logical"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-1-1-media-access-control-mac",
+      "chapter": 13,
+      "title": "Media Access Control (MAC)",
+      "parent": "ch13-13-1-1",
+      "children": [],
+      "source": "book p.363",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "access",
+        "control",
+        "mac",
+        "media"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-1-2",
+      "chapter": 13,
+      "title": "13.1.2 Ethernet Evolution",
+      "parent": "ch13-13-1",
+      "children": [],
+      "source": "book 13.1.2; p.363",
+      "kind": "concept",
+      "asset_ids": [
+        "ch13_ill_002"
+      ],
+      "terms": [
+        "1",
+        "13",
+        "2",
+        "ethernet",
+        "evolution"
+      ],
+      "question_ids": [
+        "ch13-q-q13-2",
+        "ch13-q-p13-7"
+      ]
+    },
+    {
+      "id": "ch13-13-2",
+      "chapter": 13,
+      "title": "13.2 STANDARD ETHERNET",
+      "parent": null,
+      "children": [
+        "ch13-13-2-1",
+        "ch13-13-2-2",
+        "ch13-13-2-3",
+        "ch13-13-2-4",
+        "ch13-13-2-5",
+        "ch13-13-2-6"
+      ],
+      "source": "book 13.2; p.364",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "13",
+        "2",
+        "ethernet",
+        "standard"
+      ],
+      "question_ids": [
+        "ch13-q-p13-8"
+      ]
+    },
+    {
+      "id": "ch13-13-2-1",
+      "chapter": 13,
+      "title": "13.2.1 Characteristics",
+      "parent": "ch13-13-2",
+      "children": [
+        "ch13-13-2-1-connectionless-and-unreliable-service",
+        "ch13-13-2-1-frame-format",
+        "ch13-13-2-1-frame-length"
+      ],
+      "source": "book 13.2.1; p.364",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "13",
+        "2",
+        "characteristics"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-2-1-connectionless-and-unreliable-service",
+      "chapter": 13,
+      "title": "Connectionless and Unreliable Service",
+      "parent": "ch13-13-2-1",
+      "children": [],
+      "source": "book p.364",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "connectionless",
+        "service",
+        "unreliable"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-2-1-frame-format",
+      "chapter": 13,
+      "title": "Frame Format",
+      "parent": "ch13-13-2-1",
+      "children": [],
+      "source": "book p.364",
+      "kind": "concept",
+      "asset_ids": [
+        "ch13_ill_003"
+      ],
+      "terms": [
+        "format",
+        "frame"
+      ],
+      "question_ids": [
+        "ch13-q-q13-7",
+        "ch13-q-p13-5"
+      ]
+    },
+    {
+      "id": "ch13-13-2-1-frame-length",
+      "chapter": 13,
+      "title": "Frame Length",
+      "parent": "ch13-13-2-1",
+      "children": [],
+      "source": "book p.365",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "frame",
+        "length"
+      ],
+      "question_ids": [
+        "ch13-q-p13-4",
+        "ch13-q-p13-5"
+      ]
+    },
+    {
+      "id": "ch13-13-2-2",
+      "chapter": 13,
+      "title": "13.2.2 Addressing",
+      "parent": "ch13-13-2",
+      "children": [
+        "ch13-13-2-2-transmission-of-address-bits",
+        "ch13-example-13-1",
+        "ch13-13-2-2-unicast-multicast-and-broadcast-addresses",
+        "ch13-example-13-2",
+        "ch13-13-2-2-distinguish-between-unicast-multicast-and-broadcast-transmission"
+      ],
+      "source": "book 13.2.2; p.366",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "13",
+        "2",
+        "addressing"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-2-2-transmission-of-address-bits",
+      "chapter": 13,
+      "title": "Transmission of Address Bits",
+      "parent": "ch13-13-2-2",
+      "children": [],
+      "source": "book p.366",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "address",
+        "bits",
+        "transmission"
+      ],
+      "question_ids": [
+        "ch13-q-p13-1",
+        "ch13-q-p13-2"
+      ]
+    },
+    {
+      "id": "ch13-example-13-1",
+      "chapter": 13,
+      "title": "Example 13.1",
+      "parent": "ch13-13-2-2",
+      "children": [],
+      "source": "book Example 13.1; p.366",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "13",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-2-2-unicast-multicast-and-broadcast-addresses",
+      "chapter": 13,
+      "title": "Unicast, Multicast, and Broadcast Addresses",
+      "parent": "ch13-13-2-2",
+      "children": [],
+      "source": "book p.366",
+      "kind": "concept",
+      "asset_ids": [
+        "ch13_ill_004"
+      ],
+      "terms": [
+        "addresses",
+        "broadcast",
+        "multicast",
+        "unicast"
+      ],
+      "question_ids": [
+        "ch13-q-q13-8",
+        "ch13-q-p13-3"
+      ]
+    },
+    {
+      "id": "ch13-example-13-2",
+      "chapter": 13,
+      "title": "Example 13.2",
+      "parent": "ch13-13-2-2",
+      "children": [],
+      "source": "book Example 13.2; p.367",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "13",
+        "2",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-2-2-distinguish-between-unicast-multicast-and-broadcast-transmission",
+      "chapter": 13,
+      "title": "Distinguish Between Unicast, Multicast, and Broadcast Transmission",
+      "parent": "ch13-13-2-2",
+      "children": [],
+      "source": "book p.367",
+      "kind": "concept",
+      "asset_ids": [
+        "ch13_ill_005"
+      ],
+      "terms": [
+        "between",
+        "broadcast",
+        "distinguish",
+        "multicast",
+        "transmission",
+        "unicast"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-2-3",
+      "chapter": 13,
+      "title": "13.2.3 Access Method",
+      "parent": "ch13-13-2",
+      "children": [],
+      "source": "book 13.2.3; p.368",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "13",
+        "2",
+        "3",
+        "access",
+        "method"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-2-4",
+      "chapter": 13,
+      "title": "13.2.4 Efficiency of Standard Ethernet",
+      "parent": "ch13-13-2",
+      "children": [
+        "ch13-example-13-3"
+      ],
+      "source": "book 13.2.4; p.370",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "13",
+        "2",
+        "4",
+        "efficiency",
+        "ethernet",
+        "standard"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-example-13-3",
+      "chapter": 13,
+      "title": "Example 13.3",
+      "parent": "ch13-13-2-4",
+      "children": [],
+      "source": "book Example 13.3; p.370",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "13",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-2-5",
+      "chapter": 13,
+      "title": "13.2.5 Implementation",
+      "parent": "ch13-13-2",
+      "children": [
+        "ch13-13-2-5-encoding-and-decoding",
+        "ch13-13-2-5-10base5-thick-ethernet",
+        "ch13-13-2-5-10base2-thin-ethernet",
+        "ch13-13-2-5-10base-t-twisted-pair-ethernet",
+        "ch13-13-2-5-10base-f-fiber-ethernet"
+      ],
+      "source": "book 13.2.5; p.370",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "13",
+        "2",
+        "5",
+        "implementation"
+      ],
+      "question_ids": [
+        "ch13-q-q13-3"
+      ]
+    },
+    {
+      "id": "ch13-13-2-5-encoding-and-decoding",
+      "chapter": 13,
+      "title": "Encoding and Decoding",
+      "parent": "ch13-13-2-5",
+      "children": [],
+      "source": "book p.371",
+      "kind": "concept",
+      "asset_ids": [
+        "ch13_ill_006"
+      ],
+      "terms": [
+        "decoding",
+        "encoding"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-2-5-10base5-thick-ethernet",
+      "chapter": 13,
+      "title": "10Base5: Thick Ethernet",
+      "parent": "ch13-13-2-5",
+      "children": [],
+      "source": "book p.371",
+      "kind": "concept",
+      "asset_ids": [
+        "ch13_ill_007"
+      ],
+      "terms": [
+        "10base5",
+        "ethernet",
+        "thick"
+      ],
+      "question_ids": [
+        "ch13-q-p13-6"
+      ]
+    },
+    {
+      "id": "ch13-13-2-5-10base2-thin-ethernet",
+      "chapter": 13,
+      "title": "10Base2: Thin Ethernet",
+      "parent": "ch13-13-2-5",
+      "children": [],
+      "source": "book p.372",
+      "kind": "concept",
+      "asset_ids": [
+        "ch13_ill_008"
+      ],
+      "terms": [
+        "10base2",
+        "ethernet",
+        "thin"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-2-5-10base-t-twisted-pair-ethernet",
+      "chapter": 13,
+      "title": "10Base-T: Twisted-Pair Ethernet",
+      "parent": "ch13-13-2-5",
+      "children": [],
+      "source": "book p.372",
+      "kind": "concept",
+      "asset_ids": [
+        "ch13_ill_009"
+      ],
+      "terms": [
+        "10base",
+        "ethernet",
+        "pair",
+        "t",
+        "twisted"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-2-5-10base-f-fiber-ethernet",
+      "chapter": 13,
+      "title": "10Base-F: Fiber Ethernet",
+      "parent": "ch13-13-2-5",
+      "children": [],
+      "source": "book p.373",
+      "kind": "concept",
+      "asset_ids": [
+        "ch13_ill_010"
+      ],
+      "terms": [
+        "10base",
+        "ethernet",
+        "f",
+        "fiber"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-2-6",
+      "chapter": 13,
+      "title": "13.2.6 Changes in the Standard",
+      "parent": "ch13-13-2",
+      "children": [
+        "ch13-13-2-6-bridged-ethernet",
+        "ch13-13-2-6-raising-the-bandwidth",
+        "ch13-13-2-6-separating-collision-domains",
+        "ch13-13-2-6-switched-ethernet",
+        "ch13-13-2-6-full-duplex-ethernet",
+        "ch13-13-2-6-no-need-for-csma-cd",
+        "ch13-13-2-6-mac-control-layer"
+      ],
+      "source": "book 13.2.6; p.373",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "13",
+        "2",
+        "6",
+        "changes",
+        "standard"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-2-6-bridged-ethernet",
+      "chapter": 13,
+      "title": "Bridged Ethernet",
+      "parent": "ch13-13-2-6",
+      "children": [],
+      "source": "book p.373",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "bridged",
+        "ethernet"
+      ],
+      "question_ids": [
+        "ch13-q-q13-9"
+      ]
+    },
+    {
+      "id": "ch13-13-2-6-raising-the-bandwidth",
+      "chapter": 13,
+      "title": "Raising the Bandwidth",
+      "parent": "ch13-13-2-6",
+      "children": [],
+      "source": "book p.373",
+      "kind": "concept",
+      "asset_ids": [
+        "ch13_ill_011",
+        "ch13_ill_012"
+      ],
+      "terms": [
+        "bandwidth",
+        "raising"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-2-6-separating-collision-domains",
+      "chapter": 13,
+      "title": "Separating Collision Domains",
+      "parent": "ch13-13-2-6",
+      "children": [],
+      "source": "book p.374",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "collision",
+        "domains",
+        "separating"
+      ],
+      "question_ids": [
+        "ch13-q-q13-9"
+      ]
+    },
+    {
+      "id": "ch13-13-2-6-switched-ethernet",
+      "chapter": 13,
+      "title": "Switched Ethernet",
+      "parent": "ch13-13-2-6",
+      "children": [],
+      "source": "book p.374",
+      "kind": "concept",
+      "asset_ids": [
+        "ch13_ill_013",
+        "ch13_ill_014"
+      ],
+      "terms": [
+        "ethernet",
+        "switched"
+      ],
+      "question_ids": [
+        "ch13-q-q13-10"
+      ]
+    },
+    {
+      "id": "ch13-13-2-6-full-duplex-ethernet",
+      "chapter": 13,
+      "title": "Full-Duplex Ethernet",
+      "parent": "ch13-13-2-6",
+      "children": [],
+      "source": "book p.375",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "duplex",
+        "ethernet",
+        "full"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-2-6-no-need-for-csma-cd",
+      "chapter": 13,
+      "title": "No Need for CSMA/CD",
+      "parent": "ch13-13-2-6",
+      "children": [],
+      "source": "book p.375",
+      "kind": "concept",
+      "asset_ids": [
+        "ch13_ill_015"
+      ],
+      "terms": [
+        "cd",
+        "csma",
+        "need",
+        "no"
+      ],
+      "question_ids": [
+        "ch13-q-q13-1"
+      ]
+    },
+    {
+      "id": "ch13-13-2-6-mac-control-layer",
+      "chapter": 13,
+      "title": "MAC Control Layer",
+      "parent": "ch13-13-2-6",
+      "children": [],
+      "source": "book p.376",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "control",
+        "layer",
+        "mac"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-3",
+      "chapter": 13,
+      "title": "13.3 FAST ETHERNET (100 MBPS)",
+      "parent": null,
+      "children": [
+        "ch13-13-3-1",
+        "ch13-13-3-2"
+      ],
+      "source": "book 13.3; p.376",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "100",
+        "13",
+        "3",
+        "ethernet",
+        "fast",
+        "mbps"
+      ],
+      "question_ids": [
+        "ch13-q-p13-9"
+      ]
+    },
+    {
+      "id": "ch13-13-3-1",
+      "chapter": 13,
+      "title": "13.3.1 Access Method",
+      "parent": "ch13-13-3",
+      "children": [
+        "ch13-13-3-1-autonegotiation"
+      ],
+      "source": "book 13.3.1; p.377",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "13",
+        "3",
+        "access",
+        "method"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-3-1-autonegotiation",
+      "chapter": 13,
+      "title": "Autonegotiation",
+      "parent": "ch13-13-3-1",
+      "children": [],
+      "source": "book p.377",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "autonegotiation"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-3-2",
+      "chapter": 13,
+      "title": "13.3.2 Physical Layer",
+      "parent": "ch13-13-3",
+      "children": [
+        "ch13-13-3-2-topology",
+        "ch13-13-3-2-encoding",
+        "ch13-13-3-2-summary"
+      ],
+      "source": "book 13.3.2; p.377",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "13",
+        "2",
+        "3",
+        "layer",
+        "physical"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-3-2-topology",
+      "chapter": 13,
+      "title": "Topology",
+      "parent": "ch13-13-3-2",
+      "children": [],
+      "source": "book p.378",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "topology"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-3-2-encoding",
+      "chapter": 13,
+      "title": "Encoding",
+      "parent": "ch13-13-3-2",
+      "children": [],
+      "source": "book p.378",
+      "kind": "concept",
+      "asset_ids": [
+        "ch13_ill_016"
+      ],
+      "terms": [
+        "encoding"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-3-2-summary",
+      "chapter": 13,
+      "title": "Summary",
+      "parent": "ch13-13-3-2",
+      "children": [],
+      "source": "book p.379",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "summary"
+      ],
+      "question_ids": [
+        "ch13-q-q13-4"
+      ]
+    },
+    {
+      "id": "ch13-13-4",
+      "chapter": 13,
+      "title": "13.4 GIGABIT ETHERNET",
+      "parent": null,
+      "children": [
+        "ch13-13-4-1",
+        "ch13-13-4-2"
+      ],
+      "source": "book 13.4; p.379",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "13",
+        "4",
+        "ethernet",
+        "gigabit"
+      ],
+      "question_ids": [
+        "ch13-q-p13-10"
+      ]
+    },
+    {
+      "id": "ch13-13-4-1",
+      "chapter": 13,
+      "title": "13.4.1 MAC Sublayer",
+      "parent": "ch13-13-4",
+      "children": [
+        "ch13-13-4-1-full-duplex-mode",
+        "ch13-13-4-1-half-duplex-mode",
+        "ch13-13-4-1-traditional",
+        "ch13-13-4-1-carrier-extension",
+        "ch13-13-4-1-frame-bursting"
+      ],
+      "source": "book 13.4.1; p.380",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "13",
+        "4",
+        "mac",
+        "sublayer"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-4-1-full-duplex-mode",
+      "chapter": 13,
+      "title": "Full-Duplex Mode",
+      "parent": "ch13-13-4-1",
+      "children": [],
+      "source": "book p.380",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "duplex",
+        "full",
+        "mode"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-4-1-half-duplex-mode",
+      "chapter": 13,
+      "title": "Half-Duplex Mode",
+      "parent": "ch13-13-4-1",
+      "children": [],
+      "source": "book p.380",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "duplex",
+        "half",
+        "mode"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-4-1-traditional",
+      "chapter": 13,
+      "title": "Traditional",
+      "parent": "ch13-13-4-1",
+      "children": [],
+      "source": "book p.380",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "traditional"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-4-1-carrier-extension",
+      "chapter": 13,
+      "title": "Carrier Extension",
+      "parent": "ch13-13-4-1",
+      "children": [],
+      "source": "book p.380",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "carrier",
+        "extension"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-4-1-frame-bursting",
+      "chapter": 13,
+      "title": "Frame Bursting",
+      "parent": "ch13-13-4-1",
+      "children": [],
+      "source": "book p.381",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "bursting",
+        "frame"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-4-2",
+      "chapter": 13,
+      "title": "13.4.2 Physical Layer",
+      "parent": "ch13-13-4",
+      "children": [
+        "ch13-13-4-2-topology",
+        "ch13-13-4-2-implementation",
+        "ch13-13-4-2-encoding",
+        "ch13-13-4-2-implementation-summary"
+      ],
+      "source": "book 13.4.2; p.381",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "13",
+        "2",
+        "4",
+        "layer",
+        "physical"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-4-2-topology",
+      "chapter": 13,
+      "title": "Topology",
+      "parent": "ch13-13-4-2",
+      "children": [],
+      "source": "book p.381",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "topology"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-4-2-implementation",
+      "chapter": 13,
+      "title": "Implementation",
+      "parent": "ch13-13-4-2",
+      "children": [],
+      "source": "book p.381",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "implementation"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-4-2-encoding",
+      "chapter": 13,
+      "title": "Encoding",
+      "parent": "ch13-13-4-2",
+      "children": [],
+      "source": "book p.381",
+      "kind": "concept",
+      "asset_ids": [
+        "ch13_ill_017"
+      ],
+      "terms": [
+        "encoding"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-4-2-implementation-summary",
+      "chapter": 13,
+      "title": "Implementation Summary",
+      "parent": "ch13-13-4-2",
+      "children": [],
+      "source": "book p.382",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "implementation",
+        "summary"
+      ],
+      "question_ids": [
+        "ch13-q-q13-5"
+      ]
+    },
+    {
+      "id": "ch13-13-5",
+      "chapter": 13,
+      "title": "13.5 10 GIGABIT ETHERNET",
+      "parent": null,
+      "children": [
+        "ch13-13-5-1"
+      ],
+      "source": "book 13.5; p.382",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "13",
+        "5",
+        "ethernet",
+        "gigabit"
+      ],
+      "question_ids": [
+        "ch13-q-p13-11"
+      ]
+    },
+    {
+      "id": "ch13-13-5-1",
+      "chapter": 13,
+      "title": "13.5.1 Implementation",
+      "parent": "ch13-13-5",
+      "children": [],
+      "source": "book 13.5.1; p.382",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "13",
+        "5",
+        "implementation"
+      ],
+      "question_ids": [
+        "ch13-q-q13-6"
+      ]
+    },
+    {
+      "id": "ch13-13-6",
+      "chapter": 13,
+      "title": "13.6 END-CHAPTER MATERIALS",
+      "parent": null,
+      "children": [
+        "ch13-13-6-1",
+        "ch13-13-6-2",
+        "ch13-13-6-3"
+      ],
+      "source": "book 13.6; p.383",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "13",
+        "6",
+        "chapter",
+        "end",
+        "materials"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-6-1",
+      "chapter": 13,
+      "title": "13.6.1 Recommended Reading",
+      "parent": "ch13-13-6",
+      "children": [
+        "ch13-13-6-1-books",
+        "ch13-13-6-1-rfcs"
+      ],
+      "source": "book 13.6.1; p.383",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "13",
+        "6",
+        "reading",
+        "recommended"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-6-1-books",
+      "chapter": 13,
+      "title": "Books",
+      "parent": "ch13-13-6-1",
+      "children": [],
+      "source": "book p.383",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "books"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-6-1-rfcs",
+      "chapter": 13,
+      "title": "RFCs",
+      "parent": "ch13-13-6-1",
+      "children": [],
+      "source": "book p.383",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "rfcs"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-6-2",
+      "chapter": 13,
+      "title": "13.6.2 Key Terms",
+      "parent": "ch13-13-6",
+      "children": [],
+      "source": "book 13.6.2; p.383",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "13",
+        "2",
+        "6",
+        "key",
+        "terms"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch13-13-6-3",
+      "chapter": 13,
+      "title": "13.6.3 Summary",
+      "parent": "ch13-13-6",
+      "children": [],
+      "source": "book 13.6.3; p.383",
+      "kind": "summary",
+      "asset_ids": [],
+      "terms": [
+        "13",
+        "3",
+        "6",
         "summary"
       ],
       "question_ids": []

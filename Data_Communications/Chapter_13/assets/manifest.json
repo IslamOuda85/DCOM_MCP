@@ -1,0 +1,2930 @@
+{
+  "chapter": 13,
+  "spec_version": "1.1-controller",
+  "generated_at": "2026-10-07T03:54:04+00:00",
+  "assets": [
+    {
+      "id": "ch13_ill_001",
+      "file": "ch13_ill_001.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 13.1",
+      "section_id": "ch13-13-1-1",
+      "alt": "Figure 13.1: IEEE standard for LANs",
+      "sources": [
+        "book Figure 13.1; p.363"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 508,
+      "sha256": "03a8d480ea4d0a8aac60b7ce91f90d280296bc087413dc468f53250dffb67f32",
+      "description": "Figure 13.1: IEEE standard for LANs. The OSI data-link layer is split into LLC and MAC sublayers; IEEE 802 maps different MAC and physical-layer technologies beneath one common LLC.",
+      "structure": "The OSI data-link layer is split into LLC and MAC sublayers; IEEE 802 maps different MAC and physical-layer technologies beneath one common LLC.",
+      "text_in_image": "LLC: Logical link control; MAC: Media access control; LLC; Data-link layer; Ethernet; Token Ring; Token Bus; • • •; MAC; MAC; MAC; Ethernet; Token Ring; Token Bus; Physical layer; physical; physical; physical; • • •; layer; layer; layer; Transmission media; Transmission media; OSI or TCP/IP Suite; IEEE Standard",
+      "use_when": "Teach ch13-13-1-1, compare Ethernet generations or media, interpret the frame or topology, or answer a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 3,
+      "source_bbox": [
+        115.34,
+        47.8,
+        466.32,
+        216.68
+      ],
+      "labels": [
+        {
+          "text": "LLC: Logical link control",
+          "bbox": [
+            0.2321,
+            0.2029,
+            0.4721,
+            0.2621
+          ]
+        },
+        {
+          "text": "MAC: Media access control",
+          "bbox": [
+            0.5157,
+            0.2029,
+            0.7733,
+            0.2621
+          ]
+        },
+        {
+          "text": "LLC",
+          "bbox": [
+            0.6502,
+            0.3268,
+            0.6971,
+            0.3741
+          ]
+        },
+        {
+          "text": "Data-link layer",
+          "bbox": [
+            0.1502,
+            0.4023,
+            0.2876,
+            0.4497
+          ]
+        },
+        {
+          "text": "Ethernet",
+          "bbox": [
+            0.4533,
+            0.4358,
+            0.5362,
+            0.4831
+          ]
+        },
+        {
+          "text": "Token Ring",
+          "bbox": [
+            0.5613,
+            0.4358,
+            0.6728,
+            0.4831
+          ]
+        },
+        {
+          "text": "Token Bus",
+          "bbox": [
+            0.6856,
+            0.4358,
+            0.7883,
+            0.4831
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.8177,
+            0.4614,
+            0.8531,
+            0.5087
+          ]
+        },
+        {
+          "text": "MAC",
+          "bbox": [
+            0.4693,
+            0.4926,
+            0.5203,
+            0.54
+          ]
+        },
+        {
+          "text": "MAC",
+          "bbox": [
+            0.5916,
+            0.4926,
+            0.6426,
+            0.54
+          ]
+        },
+        {
+          "text": "MAC",
+          "bbox": [
+            0.7114,
+            0.4926,
+            0.7624,
+            0.54
+          ]
+        },
+        {
+          "text": "Ethernet",
+          "bbox": [
+            0.4661,
+            0.5895,
+            0.5433,
+            0.6368
+          ]
+        },
+        {
+          "text": "Token Ring",
+          "bbox": [
+            0.5655,
+            0.5895,
+            0.6717,
+            0.6368
+          ]
+        },
+        {
+          "text": "Token Bus",
+          "bbox": [
+            0.695,
+            0.5895,
+            0.7924,
+            0.6368
+          ]
+        },
+        {
+          "text": "Physical layer",
+          "bbox": [
+            0.1547,
+            0.6463,
+            0.2831,
+            0.6937
+          ]
+        },
+        {
+          "text": "physical",
+          "bbox": [
+            0.4667,
+            0.6463,
+            0.5426,
+            0.6937
+          ]
+        },
+        {
+          "text": "physical",
+          "bbox": [
+            0.5807,
+            0.6463,
+            0.6566,
+            0.6937
+          ]
+        },
+        {
+          "text": "physical",
+          "bbox": [
+            0.7058,
+            0.6463,
+            0.7816,
+            0.6937
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.8177,
+            0.6463,
+            0.8531,
+            0.6937
+          ]
+        },
+        {
+          "text": "layer",
+          "bbox": [
+            0.4819,
+            0.7031,
+            0.5274,
+            0.7505
+          ]
+        },
+        {
+          "text": "layer",
+          "bbox": [
+            0.5958,
+            0.7031,
+            0.6414,
+            0.7505
+          ]
+        },
+        {
+          "text": "layer",
+          "bbox": [
+            0.7209,
+            0.7031,
+            0.7665,
+            0.7505
+          ]
+        },
+        {
+          "text": "Transmission media",
+          "bbox": [
+            0.5679,
+            0.772,
+            0.7513,
+            0.8194
+          ]
+        },
+        {
+          "text": "Transmission media",
+          "bbox": [
+            0.1246,
+            0.7725,
+            0.308,
+            0.8199
+          ]
+        },
+        {
+          "text": "OSI or TCP/IP Suite",
+          "bbox": [
+            0.1224,
+            0.839,
+            0.3101,
+            0.8864
+          ]
+        },
+        {
+          "text": "IEEE Standard",
+          "bbox": [
+            0.5915,
+            0.8401,
+            0.7276,
+            0.8875
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:54:27+00:00"
+      }
+    },
+    {
+      "id": "ch13_ill_002",
+      "file": "ch13_ill_002.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 13.2",
+      "section_id": "ch13-13-1-2",
+      "alt": "Figure 13.2: Ethernet evolution through four generations",
+      "sources": [
+        "book Figure 13.2; p.363"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 332,
+      "sha256": "6d3eb2d7c89fc38f82911482b050c027f78ef23f9715524757c93726ed9649f0",
+      "description": "Figure 13.2: Ethernet evolution through four generations. An evolution tree lists Standard Ethernet at 10 Mbps, Fast Ethernet at 100 Mbps, Gigabit Ethernet at 1 Gbps, and 10 Gigabit Ethernet at 10 Gbps.",
+      "structure": "An evolution tree lists Standard Ethernet at 10 Mbps, Fast Ethernet at 100 Mbps, Gigabit Ethernet at 1 Gbps, and 10 Gigabit Ethernet at 10 Gbps.",
+      "text_in_image": "Ethernet; evolution; Standard; Fast; Gigabit; 10 Gigabit; Ethernet; Ethernet; Ethernet; Ethernet; 10 Mbps; 100 Mbps; 1 Gbps; 10 Gbps",
+      "use_when": "Teach ch13-13-1-2, compare Ethernet generations or media, interpret the frame or topology, or answer a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 3,
+      "source_bbox": [
+        114.32,
+        478.54,
+        466.32,
+        588.8
+      ],
+      "labels": [
+        {
+          "text": "Ethernet",
+          "bbox": [
+            0.4561,
+            0.2835,
+            0.5331,
+            0.3561
+          ]
+        },
+        {
+          "text": "evolution",
+          "bbox": [
+            0.4522,
+            0.3706,
+            0.537,
+            0.4432
+          ]
+        },
+        {
+          "text": "Standard",
+          "bbox": [
+            0.1663,
+            0.625,
+            0.2471,
+            0.6976
+          ]
+        },
+        {
+          "text": "Fast",
+          "bbox": [
+            0.3872,
+            0.625,
+            0.4247,
+            0.6976
+          ]
+        },
+        {
+          "text": "Gigabit",
+          "bbox": [
+            0.5589,
+            0.625,
+            0.627,
+            0.6976
+          ]
+        },
+        {
+          "text": "10 Gigabit",
+          "bbox": [
+            0.7374,
+            0.625,
+            0.8339,
+            0.6976
+          ]
+        },
+        {
+          "text": "Ethernet",
+          "bbox": [
+            0.1682,
+            0.7121,
+            0.2452,
+            0.7847
+          ]
+        },
+        {
+          "text": "Ethernet",
+          "bbox": [
+            0.3675,
+            0.7121,
+            0.4445,
+            0.7847
+          ]
+        },
+        {
+          "text": "Ethernet",
+          "bbox": [
+            0.5544,
+            0.7121,
+            0.6314,
+            0.7847
+          ]
+        },
+        {
+          "text": "Ethernet",
+          "bbox": [
+            0.7471,
+            0.7121,
+            0.8241,
+            0.7847
+          ]
+        },
+        {
+          "text": "10 Mbps",
+          "bbox": [
+            0.1694,
+            0.8667,
+            0.2534,
+            0.9392
+          ]
+        },
+        {
+          "text": "100 Mbps",
+          "bbox": [
+            0.3588,
+            0.8667,
+            0.4542,
+            0.9392
+          ]
+        },
+        {
+          "text": "1 Gbps",
+          "bbox": [
+            0.56,
+            0.8667,
+            0.6288,
+            0.9392
+          ]
+        },
+        {
+          "text": "10 Gbps",
+          "bbox": [
+            0.7503,
+            0.8667,
+            0.8305,
+            0.9392
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:54:27+00:00"
+      }
+    },
+    {
+      "id": "ch13_ill_003",
+      "file": "ch13_ill_003.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 13.3",
+      "section_id": "ch13-13-2-1-frame-format",
+      "alt": "Figure 13.3: Ethernet frame",
+      "sources": [
+        "book Figure 13.3; p.364"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 439,
+      "sha256": "6eec80baf82832df2c372cea6e8122da247f81dbc277ca4bcb37ceb9d2992a12",
+      "description": "Figure 13.3: Ethernet frame. The Ethernet frame layout gives preamble, SFD, destination, source, type, data and padding, and CRC fields with byte lengths and payload limits.",
+      "structure": "The Ethernet frame layout gives preamble, SFD, destination, source, type, data and padding, and CRC fields with byte lengths and payload limits.",
+      "text_in_image": "Minimum payload length: 46 bytes; Preamble: 56 bits of alternating 1s and 0s; Maximum payload length: 1500 bytes; SFD: Start frame delimiter, flag (10101011); S; Destination; Source; CRC; Type; Preamble; F; Data and padding; address; address; D; 7 bytes; 1 byte; 6 bytes; 6 bytes; 2 bytes; 4 bytes; Minimum frame length: 512 bits or 64 bytes; Physical-layer; Maximum frame length: 12,144 bits or 1518 bytes; header",
+      "use_when": "Teach ch13-13-2-1-frame-format, compare Ethernet generations or media, interpret the frame or topology, or answer a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 4,
+      "source_bbox": [
+        99.32,
+        408.4,
+        451.32,
+        554.36
+      ],
+      "labels": [
+        {
+          "text": "Minimum payload length: 46 bytes",
+          "bbox": [
+            0.5878,
+            0.2161,
+            0.9073,
+            0.271
+          ]
+        },
+        {
+          "text": "Preamble: 56 bits of alternating 1s and 0s",
+          "bbox": [
+            0.058,
+            0.2713,
+            0.442,
+            0.3399
+          ]
+        },
+        {
+          "text": "Maximum payload length: 1500 bytes",
+          "bbox": [
+            0.5746,
+            0.2866,
+            0.9205,
+            0.3414
+          ]
+        },
+        {
+          "text": "SFD: Start frame delimiter, flag (10101011)",
+          "bbox": [
+            0.058,
+            0.3578,
+            0.4583,
+            0.4264
+          ]
+        },
+        {
+          "text": "S",
+          "bbox": [
+            0.2033,
+            0.4723,
+            0.2159,
+            0.5271
+          ]
+        },
+        {
+          "text": "Destination",
+          "bbox": [
+            0.2602,
+            0.4742,
+            0.365,
+            0.529
+          ]
+        },
+        {
+          "text": "Source",
+          "bbox": [
+            0.4133,
+            0.4742,
+            0.4765,
+            0.529
+          ]
+        },
+        {
+          "text": "CRC",
+          "bbox": [
+            0.933,
+            0.5052,
+            0.9785,
+            0.56
+          ]
+        },
+        {
+          "text": "Type",
+          "bbox": [
+            0.5166,
+            0.5055,
+            0.5615,
+            0.5603
+          ]
+        },
+        {
+          "text": "Preamble",
+          "bbox": [
+            0.075,
+            0.5193,
+            0.168,
+            0.5741
+          ]
+        },
+        {
+          "text": "F",
+          "bbox": [
+            0.2027,
+            0.5193,
+            0.2166,
+            0.5741
+          ]
+        },
+        {
+          "text": "Data and padding",
+          "bbox": [
+            0.661,
+            0.519,
+            0.8354,
+            0.5738
+          ]
+        },
+        {
+          "text": "address",
+          "bbox": [
+            0.2785,
+            0.5368,
+            0.3466,
+            0.5916
+          ]
+        },
+        {
+          "text": "address",
+          "bbox": [
+            0.4108,
+            0.5368,
+            0.479,
+            0.5916
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.2014,
+            0.5662,
+            0.2178,
+            0.621
+          ]
+        },
+        {
+          "text": "7 bytes",
+          "bbox": [
+            0.0889,
+            0.6344,
+            0.154,
+            0.6893
+          ]
+        },
+        {
+          "text": "1 byte",
+          "bbox": [
+            0.1753,
+            0.6344,
+            0.2315,
+            0.6893
+          ]
+        },
+        {
+          "text": "6 bytes",
+          "bbox": [
+            0.2779,
+            0.6344,
+            0.3429,
+            0.6893
+          ]
+        },
+        {
+          "text": "6 bytes",
+          "bbox": [
+            0.4124,
+            0.6344,
+            0.4774,
+            0.6893
+          ]
+        },
+        {
+          "text": "2 bytes",
+          "bbox": [
+            0.5069,
+            0.6344,
+            0.5719,
+            0.6893
+          ]
+        },
+        {
+          "text": "4 bytes",
+          "bbox": [
+            0.918,
+            0.6344,
+            0.983,
+            0.6893
+          ]
+        },
+        {
+          "text": "Minimum frame length: 512 bits or 64 bytes",
+          "bbox": [
+            0.4113,
+            0.7244,
+            0.8147,
+            0.7793
+          ]
+        },
+        {
+          "text": "Physical-layer",
+          "bbox": [
+            0.0793,
+            0.7736,
+            0.2164,
+            0.8284
+          ]
+        },
+        {
+          "text": "Maximum frame length: 12,144 bits or 1518 bytes",
+          "bbox": [
+            0.3838,
+            0.7929,
+            0.8422,
+            0.8477
+          ]
+        },
+        {
+          "text": "header",
+          "bbox": [
+            0.1144,
+            0.8362,
+            0.1813,
+            0.891
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:54:27+00:00"
+      }
+    },
+    {
+      "id": "ch13_ill_004",
+      "file": "ch13_ill_004.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 13.4",
+      "section_id": "ch13-13-2-2-unicast-multicast-and-broadcast-addresses",
+      "alt": "Figure 13.4: Unicast and multicast addresses",
+      "sources": [
+        "book Figure 13.4; p.367"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 301,
+      "sha256": "732c18ce4ebddc821ef7a8b8821d002f657a8f7bacb09728036f9d2201ee5654",
+      "description": "Figure 13.4: Unicast and multicast addresses. The least significant bit of the first destination-address byte distinguishes unicast 0 from multicast 1; the remaining six-byte address follows.",
+      "structure": "The least significant bit of the first destination-address byte distinguishes unicast 0 from multicast 1; the remaining six-byte address follows.",
+      "text_in_image": "Unicast: 0; Multicast: 1; • • •; Byte 1; Byte 2; Byte 6",
+      "use_when": "Teach ch13-13-2-2-unicast-multicast-and-broadcast-addresses, compare Ethernet generations or media, interpret the frame or topology, or answer a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 7,
+      "source_bbox": [
+        115.34,
+        47.8,
+        466.32,
+        147.68
+      ],
+      "labels": [
+        {
+          "text": "Unicast: 0",
+          "bbox": [
+            0.1835,
+            0.3667,
+            0.2766,
+            0.4468
+          ]
+        },
+        {
+          "text": "Multicast: 1",
+          "bbox": [
+            0.301,
+            0.3667,
+            0.4106,
+            0.4468
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.5865,
+            0.6093,
+            0.6218,
+            0.6894
+          ]
+        },
+        {
+          "text": "Byte 1",
+          "bbox": [
+            0.2112,
+            0.7397,
+            0.2714,
+            0.8198
+          ]
+        },
+        {
+          "text": "Byte 2",
+          "bbox": [
+            0.4241,
+            0.7397,
+            0.4843,
+            0.8198
+          ]
+        },
+        {
+          "text": "Byte 6",
+          "bbox": [
+            0.7217,
+            0.7397,
+            0.7819,
+            0.8198
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:54:27+00:00"
+      }
+    },
+    {
+      "id": "ch13_ill_005",
+      "file": "ch13_ill_005.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 13.5",
+      "section_id": "ch13-13-2-2-distinguish-between-unicast-multicast-and-broadcast-transmission",
+      "alt": "Figure 13.5: Implementation of standard Ethernet",
+      "sources": [
+        "book Figure 13.5; p.368"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 754,
+      "sha256": "cd6a8c75993433ed6cbc74a366636fcce8a65861c772f7926381b2358eefc8a1",
+      "description": "Figure 13.5: Implementation of standard Ethernet. Standard Ethernet is shown as a coaxial bus and as a twisted-pair star using a hub, with hosts, taps, terminations, and cables identified.",
+      "structure": "Standard Ethernet is shown as a coaxial bus and as a twisted-pair star using a hub, with hosts, taps, terminations, and cables identified.",
+      "text_in_image": "A; B; C; D; E; F; G; H; a. A LAN with a bus topology using a coaxial cable; Legend; A; B; C; D; A host (of any type); A hub; A cable tap; A cable end; Hub; Coaxial cable; Twisted pair cable; E; F; G; H; b. A LAN with a star topology using a hub",
+      "use_when": "Teach ch13-13-2-2-distinguish-between-unicast-multicast-and-broadcast-transmission, compare Ethernet generations or media, interpret the frame or topology, or answer a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 8,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        298.76
+      ],
+      "labels": [
+        {
+          "text": "A",
+          "bbox": [
+            0.1102,
+            0.161,
+            0.1267,
+            0.1929
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.1938,
+            0.161,
+            0.209,
+            0.1929
+          ]
+        },
+        {
+          "text": "C",
+          "bbox": [
+            0.2762,
+            0.161,
+            0.2914,
+            0.1929
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.3627,
+            0.161,
+            0.3791,
+            0.1929
+          ]
+        },
+        {
+          "text": "E",
+          "bbox": [
+            0.4616,
+            0.161,
+            0.4756,
+            0.1929
+          ]
+        },
+        {
+          "text": "F",
+          "bbox": [
+            0.5559,
+            0.161,
+            0.5685,
+            0.1929
+          ]
+        },
+        {
+          "text": "G",
+          "bbox": [
+            0.6492,
+            0.161,
+            0.6657,
+            0.1929
+          ]
+        },
+        {
+          "text": "H",
+          "bbox": [
+            0.7436,
+            0.161,
+            0.7601,
+            0.1929
+          ]
+        },
+        {
+          "text": "a. A LAN with a bus topology using a coaxial cable",
+          "bbox": [
+            0.0872,
+            0.3926,
+            0.5584,
+            0.4244
+          ]
+        },
+        {
+          "text": "Legend",
+          "bbox": [
+            0.6819,
+            0.4355,
+            0.7499,
+            0.4674
+          ]
+        },
+        {
+          "text": "A",
+          "bbox": [
+            0.2476,
+            0.5019,
+            0.2641,
+            0.5338
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.3629,
+            0.5019,
+            0.3781,
+            0.5338
+          ]
+        },
+        {
+          "text": "C",
+          "bbox": [
+            0.4705,
+            0.5019,
+            0.4857,
+            0.5338
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.5754,
+            0.5019,
+            0.5918,
+            0.5338
+          ]
+        },
+        {
+          "text": "A host (of any type)",
+          "bbox": [
+            0.7564,
+            0.5144,
+            0.9397,
+            0.5463
+          ]
+        },
+        {
+          "text": "A hub",
+          "bbox": [
+            0.7564,
+            0.6026,
+            0.8128,
+            0.6345
+          ]
+        },
+        {
+          "text": "A cable tap",
+          "bbox": [
+            0.7564,
+            0.6705,
+            0.8602,
+            0.7024
+          ]
+        },
+        {
+          "text": "A cable end",
+          "bbox": [
+            0.7564,
+            0.7266,
+            0.8653,
+            0.7584
+          ]
+        },
+        {
+          "text": "Hub",
+          "bbox": [
+            0.08,
+            0.7726,
+            0.1192,
+            0.8044
+          ]
+        },
+        {
+          "text": "Coaxial cable",
+          "bbox": [
+            0.7564,
+            0.7778,
+            0.8811,
+            0.8096
+          ]
+        },
+        {
+          "text": "Twisted pair cable",
+          "bbox": [
+            0.7564,
+            0.8224,
+            0.923,
+            0.8542
+          ]
+        },
+        {
+          "text": "E",
+          "bbox": [
+            0.2488,
+            0.835,
+            0.2627,
+            0.8668
+          ]
+        },
+        {
+          "text": "F",
+          "bbox": [
+            0.3641,
+            0.835,
+            0.3768,
+            0.8668
+          ]
+        },
+        {
+          "text": "G",
+          "bbox": [
+            0.4699,
+            0.835,
+            0.4863,
+            0.8668
+          ]
+        },
+        {
+          "text": "H",
+          "bbox": [
+            0.5754,
+            0.835,
+            0.5918,
+            0.8668
+          ]
+        },
+        {
+          "text": "b. A LAN with a star topology using a hub",
+          "bbox": [
+            0.0873,
+            0.8924,
+            0.4808,
+            0.9243
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:54:27+00:00"
+      }
+    },
+    {
+      "id": "ch13_ill_006",
+      "file": "ch13_ill_006.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 13.6",
+      "section_id": "ch13-13-2-5-encoding-and-decoding",
+      "alt": "Figure 13.6: Encoding in a Standard Ethernet implementation",
+      "sources": [
+        "book Figure 13.6; p.371"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 341,
+      "sha256": "f286de63c5d4ea56bd21a8dc068aefb3eb42a4094328c14f04cf279b33a0cb6e",
+      "description": "Figure 13.6: Encoding in a Standard Ethernet implementation. Manchester encoders and decoders connect two 10-Mbps stations across the shared medium.",
+      "structure": "Manchester encoders and decoders connect two 10-Mbps stations across the shared medium.",
+      "text_in_image": "10 Mbps data; 10 Mbps data; Manchester; Manchester; encoder; decoder; Station; Media",
+      "use_when": "Teach ch13-13-2-5-encoding-and-decoding, compare Ethernet generations or media, interpret the frame or topology, or answer a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 11,
+      "source_bbox": [
+        114.32,
+        141.88,
+        466.32,
+        255.02
+      ],
+      "labels": [
+        {
+          "text": "10 Mbps data",
+          "bbox": [
+            0.2547,
+            0.2733,
+            0.3784,
+            0.3441
+          ]
+        },
+        {
+          "text": "10 Mbps data",
+          "bbox": [
+            0.6129,
+            0.2733,
+            0.7367,
+            0.344
+          ]
+        },
+        {
+          "text": "Manchester",
+          "bbox": [
+            0.2639,
+            0.4628,
+            0.3699,
+            0.5335
+          ]
+        },
+        {
+          "text": "Manchester",
+          "bbox": [
+            0.6222,
+            0.4628,
+            0.7282,
+            0.5335
+          ]
+        },
+        {
+          "text": "encoder",
+          "bbox": [
+            0.281,
+            0.5477,
+            0.3529,
+            0.6184
+          ]
+        },
+        {
+          "text": "decoder",
+          "bbox": [
+            0.6392,
+            0.5477,
+            0.7111,
+            0.6184
+          ]
+        },
+        {
+          "text": "Station",
+          "bbox": [
+            0.1867,
+            0.6939,
+            0.2511,
+            0.7647
+          ]
+        },
+        {
+          "text": "Media",
+          "bbox": [
+            0.4686,
+            0.8739,
+            0.5267,
+            0.9446
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:54:27+00:00"
+      }
+    },
+    {
+      "id": "ch13_ill_007",
+      "file": "ch13_ill_007.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 13.7",
+      "section_id": "ch13-13-2-5-10base5-thick-ethernet",
+      "alt": "Figure 13.7: 10Base5 implementation",
+      "sources": [
+        "book Figure 13.7; p.371"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 326,
+      "sha256": "7793cf0abedbdef32a55f3c30e89df5138a2dd0f1d1e7f6b5799b226d8e7ef74",
+      "description": "Figure 13.7: 10Base5 implementation. 10Base5 uses a thick coaxial bus up to 500 m with transceivers and transceiver cables connecting stations.",
+      "structure": "10Base5 uses a thick coaxial bus up to 500 m with transceivers and transceiver cables connecting stations.",
+      "text_in_image": "10Base5; 10 Mbps; 500 m; Transceiver cable; maximum 50 m; Baseband; Cable; Cable; (digital); end; end; Transceiver; Thick coaxial cable; maximum 500 m",
+      "use_when": "Teach ch13-13-2-5-10base5-thick-ethernet, compare Ethernet generations or media, interpret the frame or topology, or answer a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 11,
+      "source_bbox": [
+        114.32,
+        376.9,
+        466.32,
+        485.18
+      ],
+      "labels": [
+        {
+          "text": "10Base5",
+          "bbox": [
+            0.118,
+            0.3522,
+            0.1975,
+            0.4261
+          ]
+        },
+        {
+          "text": "10 Mbps",
+          "bbox": [
+            0.0121,
+            0.4746,
+            0.0923,
+            0.5484
+          ]
+        },
+        {
+          "text": "500 m",
+          "bbox": [
+            0.224,
+            0.4746,
+            0.2815,
+            0.5484
+          ]
+        },
+        {
+          "text": "Transceiver cable",
+          "bbox": [
+            0.5197,
+            0.512,
+            0.6789,
+            0.5859
+          ]
+        },
+        {
+          "text": "maximum 50 m",
+          "bbox": [
+            0.5273,
+            0.5859,
+            0.6713,
+            0.6598
+          ]
+        },
+        {
+          "text": "Baseband",
+          "bbox": [
+            0.1207,
+            0.6395,
+            0.209,
+            0.7134
+          ]
+        },
+        {
+          "text": "Cable",
+          "bbox": [
+            0.2513,
+            0.6395,
+            0.304,
+            0.7134
+          ]
+        },
+        {
+          "text": "Cable",
+          "bbox": [
+            0.9409,
+            0.6395,
+            0.9996,
+            0.7134
+          ]
+        },
+        {
+          "text": "(digital)",
+          "bbox": [
+            0.1282,
+            0.7134,
+            0.2015,
+            0.7872
+          ]
+        },
+        {
+          "text": "end",
+          "bbox": [
+            0.2712,
+            0.7134,
+            0.3053,
+            0.7872
+          ]
+        },
+        {
+          "text": "end",
+          "bbox": [
+            0.9409,
+            0.7134,
+            0.9737,
+            0.7872
+          ]
+        },
+        {
+          "text": "Transceiver",
+          "bbox": [
+            0.4176,
+            0.7695,
+            0.5232,
+            0.8434
+          ]
+        },
+        {
+          "text": "Thick coaxial cable",
+          "bbox": [
+            0.5516,
+            0.7695,
+            0.7296,
+            0.8434
+          ]
+        },
+        {
+          "text": "maximum 500 m",
+          "bbox": [
+            0.5629,
+            0.8434,
+            0.7183,
+            0.9173
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:54:27+00:00"
+      }
+    },
+    {
+      "id": "ch13_ill_008",
+      "file": "ch13_ill_008.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 13.8",
+      "section_id": "ch13-13-2-5-10base2-thin-ethernet",
+      "alt": "Figure 13.8: 10Base2 implementation",
+      "sources": [
+        "book Figure 13.8; p.372"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 480,
+      "sha256": "d3019ee683e9061e24a5c4a8d8a7b5cee2d69afc98430b95e69dcff16bcb44b7",
+      "description": "Figure 13.8: 10Base2 implementation. 10Base2 uses a thin coaxial bus up to 185 m with T connections and cable-end terminators.",
+      "structure": "10Base2 uses a thin coaxial bus up to 185 m with T connections and cable-end terminators.",
+      "text_in_image": "Cable; end; 10Base2; 10 Mbps; 185 m; Baseband; (digital); Thin coaxial cable,; maximum 185 m; Cable; end",
+      "use_when": "Teach ch13-13-2-5-10base2-thin-ethernet, compare Ethernet generations or media, interpret the frame or topology, or answer a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 12,
+      "source_bbox": [
+        99.32,
+        141.88,
+        451.32,
+        301.46
+      ],
+      "labels": [
+        {
+          "text": "Cable",
+          "bbox": [
+            0.7863,
+            0.2076,
+            0.8394,
+            0.2577
+          ]
+        },
+        {
+          "text": "end",
+          "bbox": [
+            0.7964,
+            0.2577,
+            0.8293,
+            0.3079
+          ]
+        },
+        {
+          "text": "10Base2",
+          "bbox": [
+            0.2039,
+            0.319,
+            0.2834,
+            0.3692
+          ]
+        },
+        {
+          "text": "10 Mbps",
+          "bbox": [
+            0.0951,
+            0.4083,
+            0.1753,
+            0.4584
+          ]
+        },
+        {
+          "text": "185 m",
+          "bbox": [
+            0.3128,
+            0.4083,
+            0.3702,
+            0.4584
+          ]
+        },
+        {
+          "text": "Baseband",
+          "bbox": [
+            0.2066,
+            0.5265,
+            0.2949,
+            0.5766
+          ]
+        },
+        {
+          "text": "(digital)",
+          "bbox": [
+            0.2141,
+            0.5766,
+            0.2873,
+            0.6267
+          ]
+        },
+        {
+          "text": "Thin coaxial cable,",
+          "bbox": [
+            0.6493,
+            0.6426,
+            0.8228,
+            0.6927
+          ]
+        },
+        {
+          "text": "maximum 185 m",
+          "bbox": [
+            0.6584,
+            0.6927,
+            0.8137,
+            0.7428
+          ]
+        },
+        {
+          "text": "Cable",
+          "bbox": [
+            0.3452,
+            0.8435,
+            0.3982,
+            0.8936
+          ]
+        },
+        {
+          "text": "end",
+          "bbox": [
+            0.3553,
+            0.8936,
+            0.3882,
+            0.9438
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:54:27+00:00"
+      }
+    },
+    {
+      "id": "ch13_ill_009",
+      "file": "ch13_ill_009.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 13.9",
+      "section_id": "ch13-13-2-5-10base-t-twisted-pair-ethernet",
+      "alt": "Figure 13.9: 10Base-T implementation",
+      "sources": [
+        "book Figure 13.9; p.372"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 425,
+      "sha256": "dcc1c1eaac48c25d138114917f8bc39adef26588210532505c53ed841c97b932",
+      "description": "Figure 13.9: 10Base-T implementation. 10Base-T uses two UTP pairs in a star centered on a 10Base-T hub.",
+      "structure": "10Base-T uses two UTP pairs in a star centered on a 10Base-T hub.",
+      "text_in_image": "10Base-T; 10 Mbps; Twisted pair; Baseband; Two pairs of; (digital); UTP cable; • • •; 10Base-T hub",
+      "use_when": "Teach ch13-13-2-5-10base-t-twisted-pair-ethernet, compare Ethernet generations or media, interpret the frame or topology, or answer a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 12,
+      "source_bbox": [
+        99.32,
+        466.3,
+        451.32,
+        607.52
+      ],
+      "labels": [
+        {
+          "text": "10Base-T",
+          "bbox": [
+            0.1944,
+            0.3297,
+            0.2853,
+            0.3864
+          ]
+        },
+        {
+          "text": "10 Mbps",
+          "bbox": [
+            0.0885,
+            0.4306,
+            0.1687,
+            0.4872
+          ]
+        },
+        {
+          "text": "Twisted pair",
+          "bbox": [
+            0.2476,
+            0.4306,
+            0.4221,
+            0.4872
+          ]
+        },
+        {
+          "text": "Baseband",
+          "bbox": [
+            0.1999,
+            0.5641,
+            0.2883,
+            0.6207
+          ]
+        },
+        {
+          "text": "Two pairs of",
+          "bbox": [
+            0.7917,
+            0.5702,
+            0.9115,
+            0.6269
+          ]
+        },
+        {
+          "text": "(digital)",
+          "bbox": [
+            0.2075,
+            0.6207,
+            0.2807,
+            0.6774
+          ]
+        },
+        {
+          "text": "UTP cable",
+          "bbox": [
+            0.7917,
+            0.6269,
+            0.8883,
+            0.6835
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7083,
+            0.7863,
+            0.7435,
+            0.8429
+          ]
+        },
+        {
+          "text": "10Base-T hub",
+          "bbox": [
+            0.6368,
+            0.8796,
+            0.765,
+            0.9362
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:54:27+00:00"
+      }
+    },
+    {
+      "id": "ch13_ill_010",
+      "file": "ch13_ill_010.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 13.10",
+      "section_id": "ch13-13-2-5-10base-f-fiber-ethernet",
+      "alt": "Figure 13.10: 10Base-F implementation",
+      "sources": [
+        "book Figure 13.10; p.373"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 396,
+      "sha256": "67e3f84b1e21617a632d62e64fac13960ac629ccb4b3902c995b90ad26a683b4",
+      "description": "Figure 13.10: 10Base-F implementation. 10Base-F uses two fiber-optic cables per station in a star centered on a fiber hub.",
+      "structure": "10Base-F uses two fiber-optic cables per station in a star centered on a fiber hub.",
+      "text_in_image": "10Base-F; Two fiber-optic; 10 Mbps; Fiber; cables; Baseband; • • •; (digital); 10Base-F  hub",
+      "use_when": "Teach ch13-13-2-5-10base-f-fiber-ethernet, compare Ethernet generations or media, interpret the frame or topology, or answer a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 13,
+      "source_bbox": [
+        114.32,
+        184.9,
+        466.32,
+        316.34
+      ],
+      "labels": [
+        {
+          "text": "10Base-F",
+          "bbox": [
+            0.1827,
+            0.4464,
+            0.2723,
+            0.5073
+          ]
+        },
+        {
+          "text": "Two fiber-optic",
+          "bbox": [
+            0.7693,
+            0.5294,
+            0.9145,
+            0.5903
+          ]
+        },
+        {
+          "text": "10 Mbps",
+          "bbox": [
+            0.0855,
+            0.5396,
+            0.1657,
+            0.6004
+          ]
+        },
+        {
+          "text": "Fiber",
+          "bbox": [
+            0.2994,
+            0.5396,
+            0.3474,
+            0.6004
+          ]
+        },
+        {
+          "text": "cables",
+          "bbox": [
+            0.7693,
+            0.5903,
+            0.8261,
+            0.6511
+          ]
+        },
+        {
+          "text": "Baseband",
+          "bbox": [
+            0.1867,
+            0.683,
+            0.2751,
+            0.7439
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.6145,
+            0.7368,
+            0.6498,
+            0.7977
+          ]
+        },
+        {
+          "text": "(digital)",
+          "bbox": [
+            0.1943,
+            0.7439,
+            0.2675,
+            0.8048
+          ]
+        },
+        {
+          "text": "10Base-F  hub",
+          "bbox": [
+            0.5312,
+            0.871,
+            0.6638,
+            0.9319
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:54:27+00:00"
+      }
+    },
+    {
+      "id": "ch13_ill_011",
+      "file": "ch13_ill_011.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 13.11",
+      "section_id": "ch13-13-2-6-raising-the-bandwidth",
+      "alt": "Figure 13.11: Sharing bandwidth",
+      "sources": [
+        "book Figure 13.11; p.374"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 350,
+      "sha256": "3f9a2d169b7af8df7b7476590875195c6493dcb8fd7a189b18ea90ec19bf6329",
+      "description": "Figure 13.11: Sharing bandwidth. Two stations alternately share a 10-Mbps medium and each average 5 Mbps when both contend.",
+      "structure": "Two stations alternately share a 10-Mbps medium and each average 5 Mbps when both contend.",
+      "text_in_image": "Rate; Rate; One; One; One; One; One; One; One; One; frame; frame; frame; frame; frame; frame; frame; frame; 10 Mbps; 10 Mbps; 5 Mbps; 5 Mbps; • • •; • • •; Time; Time; a. First station; b. Second station",
+      "use_when": "Teach ch13-13-2-6-raising-the-bandwidth, compare Ethernet generations or media, interpret the frame or topology, or answer a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 14,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        164.18
+      ],
+      "labels": [
+        {
+          "text": "Rate",
+          "bbox": [
+            0.1276,
+            0.2813,
+            0.1694,
+            0.35
+          ]
+        },
+        {
+          "text": "Rate",
+          "bbox": [
+            0.5619,
+            0.2813,
+            0.6037,
+            0.35
+          ]
+        },
+        {
+          "text": "One",
+          "bbox": [
+            0.157,
+            0.403,
+            0.195,
+            0.4717
+          ]
+        },
+        {
+          "text": "One",
+          "bbox": [
+            0.2241,
+            0.403,
+            0.2621,
+            0.4717
+          ]
+        },
+        {
+          "text": "One",
+          "bbox": [
+            0.2988,
+            0.403,
+            0.3367,
+            0.4717
+          ]
+        },
+        {
+          "text": "One",
+          "bbox": [
+            0.3734,
+            0.403,
+            0.4114,
+            0.4717
+          ]
+        },
+        {
+          "text": "One",
+          "bbox": [
+            0.6187,
+            0.4039,
+            0.6567,
+            0.4726
+          ]
+        },
+        {
+          "text": "One",
+          "bbox": [
+            0.6934,
+            0.4039,
+            0.7314,
+            0.4726
+          ]
+        },
+        {
+          "text": "One",
+          "bbox": [
+            0.7682,
+            0.4039,
+            0.8062,
+            0.4726
+          ]
+        },
+        {
+          "text": "One",
+          "bbox": [
+            0.8429,
+            0.4039,
+            0.8809,
+            0.4726
+          ]
+        },
+        {
+          "text": "frame",
+          "bbox": [
+            0.1494,
+            0.4717,
+            0.2025,
+            0.5405
+          ]
+        },
+        {
+          "text": "frame",
+          "bbox": [
+            0.2165,
+            0.4717,
+            0.2697,
+            0.5405
+          ]
+        },
+        {
+          "text": "frame",
+          "bbox": [
+            0.2912,
+            0.4717,
+            0.3443,
+            0.5405
+          ]
+        },
+        {
+          "text": "frame",
+          "bbox": [
+            0.3658,
+            0.4717,
+            0.419,
+            0.5405
+          ]
+        },
+        {
+          "text": "frame",
+          "bbox": [
+            0.6111,
+            0.4726,
+            0.6643,
+            0.5414
+          ]
+        },
+        {
+          "text": "frame",
+          "bbox": [
+            0.6858,
+            0.4726,
+            0.739,
+            0.5414
+          ]
+        },
+        {
+          "text": "frame",
+          "bbox": [
+            0.7606,
+            0.4726,
+            0.8137,
+            0.5414
+          ]
+        },
+        {
+          "text": "frame",
+          "bbox": [
+            0.8353,
+            0.4726,
+            0.8885,
+            0.5414
+          ]
+        },
+        {
+          "text": "10 Mbps",
+          "bbox": [
+            0.4949,
+            0.5133,
+            0.5753,
+            0.582
+          ]
+        },
+        {
+          "text": "10 Mbps",
+          "bbox": [
+            0.0599,
+            0.516,
+            0.1403,
+            0.5848
+          ]
+        },
+        {
+          "text": "5 Mbps",
+          "bbox": [
+            0.0713,
+            0.6367,
+            0.1403,
+            0.7055
+          ]
+        },
+        {
+          "text": "5 Mbps",
+          "bbox": [
+            0.5063,
+            0.6367,
+            0.5753,
+            0.7054
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.4173,
+            0.6934,
+            0.4526,
+            0.7621
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.886,
+            0.6934,
+            0.9214,
+            0.7622
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.4202,
+            0.8172,
+            0.4676,
+            0.8859
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.8899,
+            0.8172,
+            0.9372,
+            0.8859
+          ]
+        },
+        {
+          "text": "a. First station",
+          "bbox": [
+            0.2346,
+            0.8539,
+            0.3645,
+            0.9227
+          ]
+        },
+        {
+          "text": "b. Second station",
+          "bbox": [
+            0.674,
+            0.8539,
+            0.8295,
+            0.9227
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:54:27+00:00"
+      }
+    },
+    {
+      "id": "ch13_ill_012",
+      "file": "ch13_ill_012.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 13.12",
+      "section_id": "ch13-13-2-6-bridged-ethernet",
+      "alt": "Figure 13.12: A network with and without a bridge",
+      "sources": [
+        "book Figure 13.12; p.374"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 447,
+      "sha256": "0948114df9eb4794cc6d3dc3d27f9e6344469ccc54ee6a44594101bd3890c249",
+      "description": "Figure 13.12: A network with and without a bridge. A single shared Ethernet segment is compared with the same network divided into two segments by a bridge.",
+      "structure": "A single shared Ethernet segment is compared with the same network divided into two segments by a bridge.",
+      "text_in_image": "a. Without bridging; Bridge; b. With bridging",
+      "use_when": "Teach ch13-13-2-6-bridged-ethernet, compare Ethernet generations or media, interpret the frame or topology, or answer a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 14,
+      "source_bbox": [
+        99.32,
+        180.04,
+        451.32,
+        328.76
+      ],
+      "labels": [
+        {
+          "text": "a. Without bridging",
+          "bbox": [
+            0.4079,
+            0.4482,
+            0.5866,
+            0.502
+          ]
+        },
+        {
+          "text": "Bridge",
+          "bbox": [
+            0.4709,
+            0.7335,
+            0.5328,
+            0.7873
+          ]
+        },
+        {
+          "text": "b. With bridging",
+          "bbox": [
+            0.4252,
+            0.8857,
+            0.5761,
+            0.9395
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:54:27+00:00"
+      }
+    },
+    {
+      "id": "ch13_ill_013",
+      "file": "ch13_ill_013.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 13.13",
+      "section_id": "ch13-13-2-6-separating-collision-domains",
+      "alt": "Figure 13.13: Collision domains in an unbridged network and a bridged network",
+      "sources": [
+        "book Figure 13.13; p.375"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 593,
+      "sha256": "6de137e0b3dbcf9ba004311c1b684a2d1318b4586a3ed9ca12659025bf7c56a9",
+      "description": "Figure 13.13: Collision domains in an unbridged network and a bridged network. One collision domain in an unbridged LAN becomes four smaller domains after bridging.",
+      "structure": "One collision domain in an unbridged LAN becomes four smaller domains after bridging.",
+      "text_in_image": "Domain; a. Without bridging; Domain; Domain; Bridge; Domain; Domain; b. With bridging",
+      "use_when": "Teach ch13-13-2-6-separating-collision-domains, compare Ethernet generations or media, interpret the frame or topology, or answer a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 15,
+      "source_bbox": [
+        115.34,
+        47.8,
+        466.32,
+        245.0
+      ],
+      "labels": [
+        {
+          "text": "Domain",
+          "bbox": [
+            0.0887,
+            0.1456,
+            0.1591,
+            0.1837
+          ]
+        },
+        {
+          "text": "a. Without bridging",
+          "bbox": [
+            0.4175,
+            0.3136,
+            0.5893,
+            0.3517
+          ]
+        },
+        {
+          "text": "Domain",
+          "bbox": [
+            0.2436,
+            0.4034,
+            0.314,
+            0.4414
+          ]
+        },
+        {
+          "text": "Domain",
+          "bbox": [
+            0.6777,
+            0.4034,
+            0.7482,
+            0.4414
+          ]
+        },
+        {
+          "text": "Bridge",
+          "bbox": [
+            0.468,
+            0.6567,
+            0.5275,
+            0.6948
+          ]
+        },
+        {
+          "text": "Domain",
+          "bbox": [
+            0.6683,
+            0.8868,
+            0.7387,
+            0.9249
+          ]
+        },
+        {
+          "text": "Domain",
+          "bbox": [
+            0.26,
+            0.8911,
+            0.3304,
+            0.9291
+          ]
+        },
+        {
+          "text": "b. With bridging",
+          "bbox": [
+            0.4159,
+            0.9211,
+            0.561,
+            0.9592
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:54:27+00:00"
+      }
+    },
+    {
+      "id": "ch13_ill_014",
+      "file": "ch13_ill_014.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 13.14",
+      "section_id": "ch13-13-2-6-switched-ethernet",
+      "alt": "Figure 13.14: Switched Ethernet",
+      "sources": [
+        "book Figure 13.14; p.375"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 450,
+      "sha256": "7aaf2fc860235a6d2d1543e1a533eef4af2531463077c9bbb40ba6a1fb0f2def",
+      "description": "Figure 13.14: Switched Ethernet. A switch gives each attached station its own collision domain in a star.",
+      "structure": "A switch gives each attached station its own collision domain in a star.",
+      "text_in_image": "Switch; Domain; Domain; Domain; Domain; Domain; Domain; Domain",
+      "use_when": "Teach ch13-13-2-6-switched-ethernet, compare Ethernet generations or media, interpret the frame or topology, or answer a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 15,
+      "source_bbox": [
+        114.32,
+        300.88,
+        466.32,
+        450.38
+      ],
+      "labels": [
+        {
+          "text": "Switch",
+          "bbox": [
+            0.469,
+            0.188,
+            0.5307,
+            0.2395
+          ]
+        },
+        {
+          "text": "Domain",
+          "bbox": [
+            0.7747,
+            0.3048,
+            0.8462,
+            0.3563
+          ]
+        },
+        {
+          "text": "Domain",
+          "bbox": [
+            0.1538,
+            0.3048,
+            0.2253,
+            0.3564
+          ]
+        },
+        {
+          "text": "Domain",
+          "bbox": [
+            0.1937,
+            0.6234,
+            0.2652,
+            0.6749
+          ]
+        },
+        {
+          "text": "Domain",
+          "bbox": [
+            0.7442,
+            0.6252,
+            0.8157,
+            0.6768
+          ]
+        },
+        {
+          "text": "Domain",
+          "bbox": [
+            0.622,
+            0.8522,
+            0.6934,
+            0.9038
+          ]
+        },
+        {
+          "text": "Domain",
+          "bbox": [
+            0.3224,
+            0.8585,
+            0.3939,
+            0.91
+          ]
+        },
+        {
+          "text": "Domain",
+          "bbox": [
+            0.4674,
+            0.9106,
+            0.5389,
+            0.9622
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:54:27+00:00"
+      }
+    },
+    {
+      "id": "ch13_ill_015",
+      "file": "ch13_ill_015.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 13.15",
+      "section_id": "ch13-13-2-6-full-duplex-ethernet",
+      "alt": "Figure 13.15: Full-duplex switched Ethernet",
+      "sources": [
+        "book Figure 13.15; p.376"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 455,
+      "sha256": "0a57f460b146a41d128fd0db0a047abb45e2af5ac0736f50260951989751bbb9",
+      "description": "Figure 13.15: Full-duplex switched Ethernet. Full-duplex switched Ethernet gives every station separate transmit and receive paths to the switch.",
+      "structure": "Full-duplex switched Ethernet gives every station separate transmit and receive paths to the switch.",
+      "text_in_image": "Switch; Transmit; Transmit; Receive; Receive; Transmit; Transmit; Receive; Receive; Transmit; Receive",
+      "use_when": "Teach ch13-13-2-6-full-duplex-ethernet, compare Ethernet generations or media, interpret the frame or topology, or answer a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 16,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        199.04
+      ],
+      "labels": [
+        {
+          "text": "Switch",
+          "bbox": [
+            0.4712,
+            0.186,
+            0.5345,
+            0.2389
+          ]
+        },
+        {
+          "text": "Transmit",
+          "bbox": [
+            0.3079,
+            0.2645,
+            0.3894,
+            0.3174
+          ]
+        },
+        {
+          "text": "Transmit",
+          "bbox": [
+            0.6162,
+            0.2645,
+            0.6977,
+            0.3174
+          ]
+        },
+        {
+          "text": "Receive",
+          "bbox": [
+            0.3124,
+            0.3787,
+            0.3849,
+            0.4316
+          ]
+        },
+        {
+          "text": "Receive",
+          "bbox": [
+            0.6207,
+            0.3787,
+            0.6932,
+            0.4316
+          ]
+        },
+        {
+          "text": "Transmit",
+          "bbox": [
+            0.6104,
+            0.4549,
+            0.6842,
+            0.6261
+          ]
+        },
+        {
+          "text": "Transmit",
+          "bbox": [
+            0.3167,
+            0.4661,
+            0.3905,
+            0.6373
+          ]
+        },
+        {
+          "text": "Receive",
+          "bbox": [
+            0.3545,
+            0.5323,
+            0.4219,
+            0.6887
+          ]
+        },
+        {
+          "text": "Receive",
+          "bbox": [
+            0.5827,
+            0.5339,
+            0.6501,
+            0.6903
+          ]
+        },
+        {
+          "text": "Transmit",
+          "bbox": [
+            0.4569,
+            0.5498,
+            0.4797,
+            0.7389
+          ]
+        },
+        {
+          "text": "Receive",
+          "bbox": [
+            0.5054,
+            0.5602,
+            0.5282,
+            0.7285
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:54:27+00:00"
+      }
+    },
+    {
+      "id": "ch13_ill_016",
+      "file": "ch13_ill_016.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 13.16",
+      "section_id": "ch13-13-3-2-encoding",
+      "alt": "Figure 13.16: Encoding for Fast Ethernet implementation",
+      "sources": [
+        "book Figure 13.16; p.378"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 971,
+      "sha256": "e73a749312abe5cec62b80833ea85e29c230f263e3b34ab2ce82f06356e1d768",
+      "description": "Figure 13.16: Encoding for Fast Ethernet implementation. Fast Ethernet encoding chains compare 100Base-TX 4B/5B plus MLT-3, 100Base-FX 4B/5B plus NRZ-I, and 100Base-T4 8B/6T signaling.",
+      "structure": "Fast Ethernet encoding chains compare 100Base-TX 4B/5B plus MLT-3, 100Base-FX 4B/5B plus NRZ-I, and 100Base-T4 8B/6T signaling.",
+      "text_in_image": "100Base-TX; 100Base-FX; 4 × 25 Mbps; 4 × 25 Mbps; 4 × 25 Mbps; 4 × 25 Mbps; 4B/5B encoder; 4B/5B decoder; 4B/5B encoder; 4B/5B decoder; 125 Mbps; 125 Mbps; 125 Mbps; 125 Mbps; MLT-3 encoder; MLT-3 decoder; NRZ-I  encoder; NRZ-I decoder; Station; Station; Two UTP category 5; Two fibers; 100Base-T4; 100 Mbps; 100 Mbps; 8B/6T encoder; 8B/6T decoder; Station; 4 category 3 UTP",
+      "use_when": "Teach ch13-13-3-2-encoding, compare Ethernet generations or media, interpret the frame or topology, or answer a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 18,
+      "source_bbox": [
+        99.32,
+        200.86,
+        451.32,
+        524.0
+      ],
+      "labels": [
+        {
+          "text": "100Base-TX",
+          "bbox": [
+            0.1839,
+            0.1058,
+            0.2991,
+            0.1304
+          ]
+        },
+        {
+          "text": "100Base-FX",
+          "bbox": [
+            0.6974,
+            0.1058,
+            0.8113,
+            0.1304
+          ]
+        },
+        {
+          "text": "4 × 25 Mbps",
+          "bbox": [
+            0.0566,
+            0.1439,
+            0.177,
+            0.1686
+          ]
+        },
+        {
+          "text": "4 × 25 Mbps",
+          "bbox": [
+            0.3023,
+            0.1439,
+            0.417,
+            0.1685
+          ]
+        },
+        {
+          "text": "4 × 25 Mbps",
+          "bbox": [
+            0.5723,
+            0.1439,
+            0.6871,
+            0.1686
+          ]
+        },
+        {
+          "text": "4 × 25 Mbps",
+          "bbox": [
+            0.8151,
+            0.1439,
+            0.9299,
+            0.1685
+          ]
+        },
+        {
+          "text": "4B/5B encoder",
+          "bbox": [
+            0.0554,
+            0.225,
+            0.1913,
+            0.2496
+          ]
+        },
+        {
+          "text": "4B/5B decoder",
+          "bbox": [
+            0.2917,
+            0.225,
+            0.4276,
+            0.2496
+          ]
+        },
+        {
+          "text": "4B/5B encoder",
+          "bbox": [
+            0.5683,
+            0.225,
+            0.7041,
+            0.2496
+          ]
+        },
+        {
+          "text": "4B/5B decoder",
+          "bbox": [
+            0.8046,
+            0.225,
+            0.9404,
+            0.2496
+          ]
+        },
+        {
+          "text": "125 Mbps",
+          "bbox": [
+            0.131,
+            0.2704,
+            0.2217,
+            0.295
+          ]
+        },
+        {
+          "text": "125 Mbps",
+          "bbox": [
+            0.2565,
+            0.2704,
+            0.3473,
+            0.295
+          ]
+        },
+        {
+          "text": "125 Mbps",
+          "bbox": [
+            0.6466,
+            0.2704,
+            0.7374,
+            0.295
+          ]
+        },
+        {
+          "text": "125 Mbps",
+          "bbox": [
+            0.7694,
+            0.2704,
+            0.8601,
+            0.295
+          ]
+        },
+        {
+          "text": "MLT-3 encoder",
+          "bbox": [
+            0.0472,
+            0.3177,
+            0.1951,
+            0.3423
+          ]
+        },
+        {
+          "text": "MLT-3 decoder",
+          "bbox": [
+            0.2868,
+            0.3177,
+            0.4348,
+            0.3423
+          ]
+        },
+        {
+          "text": "NRZ-I  encoder",
+          "bbox": [
+            0.5583,
+            0.3177,
+            0.7098,
+            0.3423
+          ]
+        },
+        {
+          "text": "NRZ-I decoder",
+          "bbox": [
+            0.8007,
+            0.3177,
+            0.9466,
+            0.3423
+          ]
+        },
+        {
+          "text": "Station",
+          "bbox": [
+            0.0185,
+            0.4058,
+            0.0824,
+            0.4304
+          ]
+        },
+        {
+          "text": "Station",
+          "bbox": [
+            0.5314,
+            0.4058,
+            0.5953,
+            0.4304
+          ]
+        },
+        {
+          "text": "Two UTP category 5",
+          "bbox": [
+            0.1479,
+            0.485,
+            0.3352,
+            0.5096
+          ]
+        },
+        {
+          "text": "Two fibers",
+          "bbox": [
+            0.7069,
+            0.485,
+            0.8019,
+            0.5096
+          ]
+        },
+        {
+          "text": "100Base-T4",
+          "bbox": [
+            0.4409,
+            0.5571,
+            0.5511,
+            0.5817
+          ]
+        },
+        {
+          "text": "100 Mbps",
+          "bbox": [
+            0.5577,
+            0.5953,
+            0.6485,
+            0.6199
+          ]
+        },
+        {
+          "text": "100 Mbps",
+          "bbox": [
+            0.3434,
+            0.5975,
+            0.4342,
+            0.6221
+          ]
+        },
+        {
+          "text": "8B/6T encoder",
+          "bbox": [
+            0.3215,
+            0.6876,
+            0.4561,
+            0.7122
+          ]
+        },
+        {
+          "text": "8B/6T decoder",
+          "bbox": [
+            0.5358,
+            0.6876,
+            0.6704,
+            0.7122
+          ]
+        },
+        {
+          "text": "Station",
+          "bbox": [
+            0.2562,
+            0.88,
+            0.3201,
+            0.9046
+          ]
+        },
+        {
+          "text": "4 category 3 UTP",
+          "bbox": [
+            0.4163,
+            0.9378,
+            0.5756,
+            0.9624
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:54:27+00:00"
+      }
+    },
+    {
+      "id": "ch13_ill_017",
+      "file": "ch13_ill_017.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 13.17",
+      "section_id": "ch13-13-4-2-encoding",
+      "alt": "Figure 13.17: Encoding in Gigabit Ethernet implementations",
+      "sources": [
+        "book Figure 13.17; p.382"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 519,
+      "sha256": "88fef64b0c3a27a9ea59b02da7c72d9b6267d4619b96d2dfbafac4bb4097aca8",
+      "description": "Figure 13.17: Encoding in Gigabit Ethernet implementations. Gigabit Ethernet encoding chains compare 8B/10B plus NRZ for fiber or STP implementations with 4D-PAM5 over four UTP pairs for 1000Base-T.",
+      "structure": "Gigabit Ethernet encoding chains compare 8B/10B plus NRZ for fiber or STP implementations with 4D-PAM5 over four UTP pairs for 1000Base-T.",
+      "text_in_image": "1000Base-SX, 1000Base-LX, and 1000Base-CX; 1000Base-T; 8 × 125 Mbps; 8 × 125 Mbps; 8 × 125 Mbps; 8 × 125 Mbps; 8B/10B block encoder; 8B/10B block decoder; 4D-PAM5 encoder; 4D-PAM5 decoder; 1.25 Gbps; 1.25 Gbps; NRZ line encoder; NRZ line decoder; Station; Station; Two fibers or two STPs; 4 UTP cables",
+      "use_when": "Teach ch13-13-4-2-encoding, compare Ethernet generations or media, interpret the frame or topology, or answer a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 22,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        220.34
+      ],
+      "labels": [
+        {
+          "text": "1000Base-SX, 1000Base-LX, and 1000Base-CX",
+          "bbox": [
+            0.0152,
+            0.1781,
+            0.4572,
+            0.2242
+          ]
+        },
+        {
+          "text": "1000Base-T",
+          "bbox": [
+            0.6901,
+            0.1787,
+            0.8006,
+            0.2248
+          ]
+        },
+        {
+          "text": "8 × 125 Mbps",
+          "bbox": [
+            0.0604,
+            0.2432,
+            0.1868,
+            0.2894
+          ]
+        },
+        {
+          "text": "8 × 125 Mbps",
+          "bbox": [
+            0.2956,
+            0.2432,
+            0.422,
+            0.2894
+          ]
+        },
+        {
+          "text": "8 × 125 Mbps",
+          "bbox": [
+            0.7908,
+            0.2512,
+            0.9172,
+            0.2974
+          ]
+        },
+        {
+          "text": "8 × 125 Mbps",
+          "bbox": [
+            0.5734,
+            0.2554,
+            0.6998,
+            0.3016
+          ]
+        },
+        {
+          "text": "8B/10B block encoder",
+          "bbox": [
+            0.0202,
+            0.3992,
+            0.2237,
+            0.4454
+          ]
+        },
+        {
+          "text": "8B/10B block decoder",
+          "bbox": [
+            0.2557,
+            0.3992,
+            0.4592,
+            0.4454
+          ]
+        },
+        {
+          "text": "4D-PAM5 encoder",
+          "bbox": [
+            0.5513,
+            0.4381,
+            0.7219,
+            0.4842
+          ]
+        },
+        {
+          "text": "4D-PAM5 decoder",
+          "bbox": [
+            0.7687,
+            0.4381,
+            0.9393,
+            0.4843
+          ]
+        },
+        {
+          "text": "1.25 Gbps",
+          "bbox": [
+            0.1292,
+            0.4836,
+            0.2222,
+            0.5297
+          ]
+        },
+        {
+          "text": "1.25 Gbps",
+          "bbox": [
+            0.251,
+            0.4836,
+            0.344,
+            0.5297
+          ]
+        },
+        {
+          "text": "NRZ line encoder",
+          "bbox": [
+            0.0315,
+            0.5733,
+            0.2024,
+            0.6195
+          ]
+        },
+        {
+          "text": "NRZ line decoder",
+          "bbox": [
+            0.2717,
+            0.5733,
+            0.4426,
+            0.6195
+          ]
+        },
+        {
+          "text": "Station",
+          "bbox": [
+            0.5139,
+            0.7387,
+            0.578,
+            0.7849
+          ]
+        },
+        {
+          "text": "Station",
+          "bbox": [
+            0.0132,
+            0.7409,
+            0.0773,
+            0.7871
+          ]
+        },
+        {
+          "text": "Two fibers or two STPs",
+          "bbox": [
+            0.1299,
+            0.8914,
+            0.3425,
+            0.9376
+          ]
+        },
+        {
+          "text": "4 UTP cables",
+          "bbox": [
+            0.6847,
+            0.9,
+            0.8066,
+            0.9461
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:54:27+00:00"
+      }
+    }
+  ]
+}

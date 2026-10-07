@@ -1,0 +1,33 @@
+{
+  "chapter": 13,
+  "promoted_at": "2026-10-07T03:54:36+00:00",
+  "validation": {
+    "chapter": "Chapter_13",
+    "ready": true,
+    "errors": [],
+    "error_count": 0
+  },
+  "files": {
+    "content.md": "3c69d5f248d745c2a57700228b4bf5e543bc1bf07213b93324b2ebe17a155887",
+    "data_card.md": "0b526d106dea07dcd5fc842fe54e98a45136e17b606a44e50ed3964a45945afa",
+    "questions.md": "d18f79db970a121e524f53d07c9b773e6e6993aa49bf357f6bf96ab37c572b04",
+    "assets/ch13_ill_001.png": "03a8d480ea4d0a8aac60b7ce91f90d280296bc087413dc468f53250dffb67f32",
+    "assets/ch13_ill_002.png": "6d3eb2d7c89fc38f82911482b050c027f78ef23f9715524757c93726ed9649f0",
+    "assets/ch13_ill_003.png": "6eec80baf82832df2c372cea6e8122da247f81dbc277ca4bcb37ceb9d2992a12",
+    "assets/ch13_ill_004.png": "732c18ce4ebddc821ef7a8b8821d002f657a8f7bacb09728036f9d2201ee5654",
+    "assets/ch13_ill_005.png": "cd6a8c75993433ed6cbc74a366636fcce8a65861c772f7926381b2358eefc8a1",
+    "assets/ch13_ill_006.png": "f286de63c5d4ea56bd21a8dc068aefb3eb42a4094328c14f04cf279b33a0cb6e",
+    "assets/ch13_ill_007.png": "7793cf0abedbdef32a55f3c30e89df5138a2dd0f1d1e7f6b5799b226d8e7ef74",
+    "assets/ch13_ill_008.png": "d3019ee683e9061e24a5c4a8d8a7b5cee2d69afc98430b95e69dcff16bcb44b7",
+    "assets/ch13_ill_009.png": "dcc1c1eaac48c25d138114917f8bc39adef26588210532505c53ed841c97b932",
+    "assets/ch13_ill_010.png": "67e3f84b1e21617a632d62e64fac13960ac629ccb4b3902c995b90ad26a683b4",
+    "assets/ch13_ill_011.png": "3f9a2d169b7af8df7b7476590875195c6493dcb8fd7a189b18ea90ec19bf6329",
+    "assets/ch13_ill_012.png": "0948114df9eb4794cc6d3dc3d27f9e6344469ccc54ee6a44594101bd3890c249",
+    "assets/ch13_ill_013.png": "6de137e0b3dbcf9ba004311c1b684a2d1318b4586a3ed9ca12659025bf7c56a9",
+    "assets/ch13_ill_014.png": "7aaf2fc860235a6d2d1543e1a533eef4af2531463077c9bbb40ba6a1fb0f2def",
+    "assets/ch13_ill_015.png": "0a57f460b146a41d128fd0db0a047abb45e2af5ac0736f50260951989751bbb9",
+    "assets/ch13_ill_016.png": "e73a749312abe5cec62b80833ea85e29c230f263e3b34ab2ce82f06356e1d768",
+    "assets/ch13_ill_017.png": "88fef64b0c3a27a9ea59b02da7c72d9b6267d4619b96d2dfbafac4bb4097aca8",
+    "assets/manifest.json": "66a97b71c9705eccd31b97d1372cb86b6993cc390cfa07ac28a675d58159f844"
+  }
+}
