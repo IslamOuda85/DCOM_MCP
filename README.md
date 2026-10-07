@@ -60,7 +60,7 @@ The repository includes a Python ASGI entry point in [index.py](index.py) for Ve
 
 Deploy this repository as a **new, separate Vercel project**. Do not connect it to the existing website project or assign it the apex domain `owda.io`. After deploying and checking the Vercel-provided URL, add only `mcp.owda.io` to the new project's Domains settings. At Hostinger, create only the DNS record Vercel specifies for that subdomain; leave the apex and existing website records unchanged. The MCP URL will be `https://mcp.owda.io/mcp`.
 
-Vercel supplies the deployment hostname through `VERCEL_URL`; the server allows that exact hostname for previews, along with the production host `mcp.owda.io`. The allowed-host and allowed-origin protections remain enabled. The root `owda.io` website and its Vercel project are not part of this deployment.
+Vercel supplies the deployment hostname through `VERCEL_URL`; the server allows that exact hostname for previews, along with the production aliases `dcom-mcp.vercel.app` and `mcp.owda.io`. The allowed-host and allowed-origin protections remain enabled. The root `owda.io` website and its Vercel project are not part of this deployment.
 
 ### Cloudflare deployment
 

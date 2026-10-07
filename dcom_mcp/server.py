@@ -11,8 +11,8 @@ from .store import Store
 ROOT=Path(os.environ.get('COURSE_ROOT',Path(__file__).resolve().parents[1])).resolve()
 INSTRUCTIONS=(ROOT/'teaching/system_prompt.md').read_text(encoding='utf-8')
 HOST=os.environ.get('MCP_HOST','127.0.0.1')
-allowed_hosts=[x.strip() for x in os.environ.get('MCP_ALLOWED_HOSTS','127.0.0.1:*,localhost:*,mcp.owda.io').split(',') if x.strip()]
-allowed_origins=[x.strip() for x in os.environ.get('MCP_ALLOWED_ORIGINS','http://127.0.0.1:*,http://localhost:*,https://mcp.owda.io').split(',') if x.strip()]
+allowed_hosts=[x.strip() for x in os.environ.get('MCP_ALLOWED_HOSTS','127.0.0.1:*,localhost:*,dcom-mcp.vercel.app,mcp.owda.io').split(',') if x.strip()]
+allowed_origins=[x.strip() for x in os.environ.get('MCP_ALLOWED_ORIGINS','http://127.0.0.1:*,http://localhost:*,https://dcom-mcp.vercel.app,https://mcp.owda.io').split(',') if x.strip()]
 # Vercel assigns a stable hostname to each deployment. Allow that exact host so
 # preview deployments can be checked without opening the host allowlist broadly.
 vercel_host=os.environ.get('VERCEL_URL')
