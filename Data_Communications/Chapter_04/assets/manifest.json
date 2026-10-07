@@ -1,0 +1,8422 @@
+{
+  "chapter": 4,
+  "spec_version": "1.1-controller",
+  "generated_at": "2026-10-07T03:03:01+00:00",
+  "assets": [
+    {
+      "id": "ch04_ill_001",
+      "file": "ch04_ill_001.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.1",
+      "section_id": "ch04-4-1-1",
+      "alt": "Figure 4.1: Line coding and decoding",
+      "sources": [
+        "book Figure 4.1; p.96"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 391,
+      "sha256": "1b3ad15010621b455e81c25dc956d12f5c22771ac43a6910e1b7c9c27aa4d21e",
+      "description": "Figure 4.1: Line coding and decoding. Digital bits enter an encoder, cross a link as a digital waveform, and enter a decoder that recovers the same digital bits. Sender and receiver blocks mark the endpoints.",
+      "structure": "Digital bits enter an encoder, cross a link as a digital waveform, and enter a decoder that recovers the same digital bits. Sender and receiver blocks mark the endpoints.",
+      "text_in_image": "Sender; Receiver; Digital data; Digital data; Digital signal; 0 1 0 1  …  1 0 1; 0 1 0 1  …  1 0 1; • • •; Link; Encoder; Decoder",
+      "use_when": "Teach ch04-4-1-1, interpret Figure 4.1, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 2,
+      "source_bbox": [
+        99.32,
+        250.9,
+        451.32,
+        380.9
+      ],
+      "labels": [
+        {
+          "text": "Sender",
+          "bbox": [
+            0.2078,
+            0.2525,
+            0.2709,
+            0.314
+          ]
+        },
+        {
+          "text": "Receiver",
+          "bbox": [
+            0.7122,
+            0.2525,
+            0.7921,
+            0.314
+          ]
+        },
+        {
+          "text": "Digital data",
+          "bbox": [
+            0.0773,
+            0.4352,
+            0.184,
+            0.4967
+          ]
+        },
+        {
+          "text": "Digital data",
+          "bbox": [
+            0.816,
+            0.4352,
+            0.9227,
+            0.4967
+          ]
+        },
+        {
+          "text": "Digital signal",
+          "bbox": [
+            0.4246,
+            0.5086,
+            0.5477,
+            0.5701
+          ]
+        },
+        {
+          "text": "0 1 0 1  …  1 0 1",
+          "bbox": [
+            0.0578,
+            0.5357,
+            0.2035,
+            0.6087
+          ]
+        },
+        {
+          "text": "0 1 0 1  …  1 0 1",
+          "bbox": [
+            0.797,
+            0.5357,
+            0.9426,
+            0.6087
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.4664,
+            0.5967,
+            0.5016,
+            0.6582
+          ]
+        },
+        {
+          "text": "Link",
+          "bbox": [
+            0.4784,
+            0.7582,
+            0.5214,
+            0.8198
+          ]
+        },
+        {
+          "text": "Encoder",
+          "bbox": [
+            0.2058,
+            0.7977,
+            0.2815,
+            0.8592
+          ]
+        },
+        {
+          "text": "Decoder",
+          "bbox": [
+            0.7222,
+            0.7977,
+            0.7992,
+            0.8592
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_002",
+      "file": "ch04_ill_002.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.2",
+      "section_id": "ch04-4-1-1-signal-element-versus-data-element",
+      "alt": "Figure 4.2: Signal element versus data element",
+      "sources": [
+        "book Figure 4.2; p.97"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 753,
+      "sha256": "fba1ea24808428b44722850c0e1fb84bc6da0da94354d976c46f75383fda2801",
+      "description": "Figure 4.2: Signal element versus data element. Four panels compare the ratio r of data elements to signal elements: one-to-one, one data element over two signal elements, two data elements in one signal element, and four data elements over three signal elements.",
+      "structure": "Four panels compare the ratio r of data elements to signal elements: one-to-one, one data element over two signal elements, two data elements in one signal element, and four data elements over three signal elements.",
+      "text_in_image": "1 data element; 1 data element; 1; 0; 1; 1; 0; 1; 1 signal; 2 signal; element; elements; a. One data element per one signal; b. One data element per two signal; elements   r =   1; element (r = 1); 2; 2 data elements; 4 data elements; 11; 01; 11; 1101; 1 signal; 3 signal; element; elements; c. Two data elements per one signal; d. Four data elements per three signal; elements   r = 4; element (r = 2); 3",
+      "use_when": "Teach ch04-4-1-1-signal-element-versus-data-element, interpret Figure 4.2, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 3,
+      "source_bbox": [
+        114.32,
+        49.9,
+        466.32,
+        300.44
+      ],
+      "labels": [
+        {
+          "text": "1 data element",
+          "bbox": [
+            0.2227,
+            0.1236,
+            0.3552,
+            0.1556
+          ]
+        },
+        {
+          "text": "1 data element",
+          "bbox": [
+            0.631,
+            0.1236,
+            0.7636,
+            0.1556
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2098,
+            0.1834,
+            0.2211,
+            0.2153
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.283,
+            0.1834,
+            0.2944,
+            0.2153
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3562,
+            0.1834,
+            0.3676,
+            0.2153
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6194,
+            0.1885,
+            0.6308,
+            0.2204
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6928,
+            0.1885,
+            0.7042,
+            0.2204
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7662,
+            0.1885,
+            0.7775,
+            0.2204
+          ]
+        },
+        {
+          "text": "1 signal",
+          "bbox": [
+            0.2502,
+            0.3435,
+            0.3272,
+            0.3754
+          ]
+        },
+        {
+          "text": "2 signal",
+          "bbox": [
+            0.66,
+            0.3435,
+            0.737,
+            0.3754
+          ]
+        },
+        {
+          "text": "element",
+          "bbox": [
+            0.2527,
+            0.3818,
+            0.3247,
+            0.4138
+          ]
+        },
+        {
+          "text": "elements",
+          "bbox": [
+            0.6581,
+            0.3818,
+            0.7389,
+            0.4138
+          ]
+        },
+        {
+          "text": "a. One data element per one signal",
+          "bbox": [
+            0.1252,
+            0.4259,
+            0.4389,
+            0.4579
+          ]
+        },
+        {
+          "text": "b. One data element per two signal",
+          "bbox": [
+            0.5333,
+            0.426,
+            0.8496,
+            0.4579
+          ]
+        },
+        {
+          "text": "elements   r =   1",
+          "bbox": [
+            0.5333,
+            0.4575,
+            0.7008,
+            0.5027
+          ]
+        },
+        {
+          "text": "element (r = 1)",
+          "bbox": [
+            0.1252,
+            0.4643,
+            0.2851,
+            0.5026
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.6921,
+            0.4825,
+            0.7006,
+            0.5064
+          ]
+        },
+        {
+          "text": "2 data elements",
+          "bbox": [
+            0.2196,
+            0.5798,
+            0.361,
+            0.6117
+          ]
+        },
+        {
+          "text": "4 data elements",
+          "bbox": [
+            0.6285,
+            0.5798,
+            0.7699,
+            0.6117
+          ]
+        },
+        {
+          "text": "11",
+          "bbox": [
+            0.2046,
+            0.6431,
+            0.2273,
+            0.6751
+          ]
+        },
+        {
+          "text": "01",
+          "bbox": [
+            0.2779,
+            0.6448,
+            0.3006,
+            0.6767
+          ]
+        },
+        {
+          "text": "11",
+          "bbox": [
+            0.3511,
+            0.6448,
+            0.3739,
+            0.6767
+          ]
+        },
+        {
+          "text": "1101",
+          "bbox": [
+            0.6759,
+            0.6458,
+            0.7214,
+            0.6778
+          ]
+        },
+        {
+          "text": "1 signal",
+          "bbox": [
+            0.2507,
+            0.799,
+            0.3277,
+            0.831
+          ]
+        },
+        {
+          "text": "3 signal",
+          "bbox": [
+            0.6601,
+            0.799,
+            0.7371,
+            0.831
+          ]
+        },
+        {
+          "text": "element",
+          "bbox": [
+            0.2533,
+            0.8374,
+            0.3252,
+            0.8693
+          ]
+        },
+        {
+          "text": "elements",
+          "bbox": [
+            0.6582,
+            0.8374,
+            0.739,
+            0.8693
+          ]
+        },
+        {
+          "text": "c. Two data elements per one signal",
+          "bbox": [
+            0.1252,
+            0.8815,
+            0.4515,
+            0.9134
+          ]
+        },
+        {
+          "text": "d. Four data elements per three signal",
+          "bbox": [
+            0.5334,
+            0.8815,
+            0.8748,
+            0.9134
+          ]
+        },
+        {
+          "text": "elements   r = 4",
+          "bbox": [
+            0.5334,
+            0.9137,
+            0.6967,
+            0.9581
+          ]
+        },
+        {
+          "text": "element (r = 2)",
+          "bbox": [
+            0.1252,
+            0.9198,
+            0.2851,
+            0.9581
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.6882,
+            0.9386,
+            0.6967,
+            0.9625
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_003",
+      "file": "ch04_ill_003.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.3",
+      "section_id": "ch04-example-4-3",
+      "alt": "Figure 4.3: Effect of lack of synchronization",
+      "sources": [
+        "book Figure 4.3; p.100"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 540,
+      "sha256": "e3da8d6d4ef65b3a63f2036960a1743bf03fc0fb4880f56275fe220fed4e95c3",
+      "description": "Figure 4.3: Effect of lack of synchronization. Two time plots compare the sent sequence with a receiver using the wrong clock. Misaligned sampling boundaries turn eight sent bits into twelve interpreted bits.",
+      "structure": "Two time plots compare the sent sequence with a receiver using the wrong clock. Misaligned sampling boundaries turn eight sent bits into twelve interpreted bits.",
+      "text_in_image": "1; 0; 1; 1; 0; 0; 0; 1; • • •; Time; a. Sent; 1; 1; 0; 1; 1; 1; 0; 0; 0; 0; 1; 1; • • •; Time; b. Received",
+      "use_when": "Teach ch04-example-4-3, interpret Figure 4.3, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 6,
+      "source_bbox": [
+        100.34,
+        48.52,
+        451.32,
+        228.26
+      ],
+      "labels": [
+        {
+          "text": "1",
+          "bbox": [
+            0.2157,
+            0.227,
+            0.2271,
+            0.2715
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2821,
+            0.227,
+            0.2935,
+            0.2715
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3485,
+            0.227,
+            0.3599,
+            0.2715
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.415,
+            0.227,
+            0.4264,
+            0.2715
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4814,
+            0.227,
+            0.4928,
+            0.2715
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5478,
+            0.227,
+            0.5592,
+            0.2715
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6143,
+            0.227,
+            0.6257,
+            0.2715
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6807,
+            0.227,
+            0.6921,
+            0.2715
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7344,
+            0.2287,
+            0.7697,
+            0.2732
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.7672,
+            0.4043,
+            0.8153,
+            0.4488
+          ]
+        },
+        {
+          "text": "a. Sent",
+          "bbox": [
+            0.4556,
+            0.4632,
+            0.5177,
+            0.5077
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.199,
+            0.6497,
+            0.2104,
+            0.6942
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2395,
+            0.6497,
+            0.2509,
+            0.6942
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2849,
+            0.6497,
+            0.2963,
+            0.6942
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3303,
+            0.6497,
+            0.3417,
+            0.6942
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3757,
+            0.6497,
+            0.3871,
+            0.6942
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4211,
+            0.6497,
+            0.4325,
+            0.6942
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4665,
+            0.6497,
+            0.4779,
+            0.6942
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.512,
+            0.6497,
+            0.5234,
+            0.6942
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5585,
+            0.6497,
+            0.5699,
+            0.6942
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.605,
+            0.6497,
+            0.6164,
+            0.6942
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6505,
+            0.6497,
+            0.6619,
+            0.6942
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6959,
+            0.6497,
+            0.7073,
+            0.6942
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7344,
+            0.6514,
+            0.7697,
+            0.6959
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.7672,
+            0.8128,
+            0.8153,
+            0.8573
+          ]
+        },
+        {
+          "text": "b. Received",
+          "bbox": [
+            0.4359,
+            0.8633,
+            0.5436,
+            0.9078
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_004",
+      "file": "ch04_ill_004.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.4",
+      "section_id": "ch04-4-1-2-unipolar-scheme",
+      "alt": "Figure 4.4: Line coding schemes",
+      "sources": [
+        "book Figure 4.4; p.101"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 446,
+      "sha256": "3e934ea044a6b381de2c6ab8a277a282b34ded2cdb433520c516e08203005c0f",
+      "description": "Figure 4.4: Line coding schemes. A classification tree branches from line coding to unipolar, polar, bipolar, multilevel, and multitransition families, with the named schemes listed beside each branch.",
+      "structure": "A classification tree branches from line coding to unipolar, polar, bipolar, multilevel, and multitransition families, with the named schemes listed beside each branch.",
+      "text_in_image": "Unipolar; NRZ; NRZ, RZ, and biphase (Manchester,; Polar; and differential Manchester); Line coding; Bipolar; AMI and pseudoternary; Multilevel; 2B/1Q,  8B/6T, and 4D-PAM5; Multitransition; MLT-3",
+      "use_when": "Teach ch04-4-1-2-unipolar-scheme, interpret Figure 4.4, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 7,
+      "source_bbox": [
+        115.34,
+        48.52,
+        466.32,
+        196.82
+      ],
+      "labels": [
+        {
+          "text": "Unipolar",
+          "bbox": [
+            0.3794,
+            0.2678,
+            0.4605,
+            0.3218
+          ]
+        },
+        {
+          "text": "NRZ",
+          "bbox": [
+            0.5729,
+            0.2814,
+            0.621,
+            0.3354
+          ]
+        },
+        {
+          "text": "NRZ, RZ, and biphase (Manchester,",
+          "bbox": [
+            0.5729,
+            0.3745,
+            0.9248,
+            0.4285
+          ]
+        },
+        {
+          "text": "Polar",
+          "bbox": [
+            0.3959,
+            0.3951,
+            0.444,
+            0.4491
+          ]
+        },
+        {
+          "text": "and differential Manchester)",
+          "bbox": [
+            0.5729,
+            0.4393,
+            0.8523,
+            0.4932
+          ]
+        },
+        {
+          "text": "Line coding",
+          "bbox": [
+            0.0987,
+            0.5224,
+            0.2082,
+            0.5764
+          ]
+        },
+        {
+          "text": "Bipolar",
+          "bbox": [
+            0.3858,
+            0.5224,
+            0.4541,
+            0.5764
+          ]
+        },
+        {
+          "text": "AMI and pseudoternary",
+          "bbox": [
+            0.5729,
+            0.5361,
+            0.8094,
+            0.59
+          ]
+        },
+        {
+          "text": "Multilevel",
+          "bbox": [
+            0.3753,
+            0.6547,
+            0.4694,
+            0.7086
+          ]
+        },
+        {
+          "text": "2B/1Q,  8B/6T, and 4D-PAM5",
+          "bbox": [
+            0.5729,
+            0.6633,
+            0.8608,
+            0.7173
+          ]
+        },
+        {
+          "text": "Multitransition",
+          "bbox": [
+            0.3516,
+            0.7822,
+            0.4884,
+            0.8362
+          ]
+        },
+        {
+          "text": "MLT-3",
+          "bbox": [
+            0.5729,
+            0.7959,
+            0.6396,
+            0.8498
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_005",
+      "file": "ch04_ill_005.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.5",
+      "section_id": "ch04-4-1-2-nrz-non-return-to-zero",
+      "alt": "Figure 4.5: Unipolar NRZ scheme",
+      "sources": [
+        "book Figure 4.5; p.101"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 313,
+      "sha256": "dbbbfaed47ef7690e0bce48d4736f596d8c15d585d0af5d90dffba52d9b1a777",
+      "description": "Figure 4.5: Unipolar NRZ scheme. A unipolar NRZ waveform uses zero and positive voltage V for the shown bit pattern; an inset gives the normalized power expression.",
+      "structure": "A unipolar NRZ waveform uses zero and positive voltage V for the shown bit pattern; an inset gives the normalized power expression.",
+      "text_in_image": "Amplitude; 1; 0; 1; 1; 0; V; 1; 1; 1; V 2 +     (0)2 =     V 2; 2; 2; 2; 0; Normalized power; Time",
+      "use_when": "Teach ch04-4-1-2-nrz-non-return-to-zero, interpret Figure 4.5, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 7,
+      "source_bbox": [
+        114.32,
+        276.7,
+        466.32,
+        380.9
+      ],
+      "labels": [
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.1853,
+            0.3456,
+            0.2796,
+            0.4228
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2559,
+            0.4998,
+            0.267,
+            0.577
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.313,
+            0.4998,
+            0.324,
+            0.577
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3701,
+            0.4998,
+            0.3811,
+            0.577
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4272,
+            0.4998,
+            0.4382,
+            0.577
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4842,
+            0.4998,
+            0.4952,
+            0.577
+          ]
+        },
+        {
+          "text": "V",
+          "bbox": [
+            0.2099,
+            0.5716,
+            0.2258,
+            0.6488
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6194,
+            0.5949,
+            0.629,
+            0.6625
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6833,
+            0.5949,
+            0.693,
+            0.6625
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7553,
+            0.5949,
+            0.765,
+            0.6625
+          ]
+        },
+        {
+          "text": "V 2 +     (0)2 =     V 2",
+          "bbox": [
+            0.6315,
+            0.5969,
+            0.7992,
+            0.6946
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.6194,
+            0.6692,
+            0.629,
+            0.7367
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.6833,
+            0.6692,
+            0.693,
+            0.7367
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.7553,
+            0.6692,
+            0.765,
+            0.7367
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2141,
+            0.7421,
+            0.2251,
+            0.8194
+          ]
+        },
+        {
+          "text": "Normalized power",
+          "bbox": [
+            0.6169,
+            0.8046,
+            0.781,
+            0.8818
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.535,
+            0.8165,
+            0.5807,
+            0.8937
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_006",
+      "file": "ch04_ill_006.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.6",
+      "section_id": "ch04-4-1-2-non-return-to-zero-nrz",
+      "alt": "Figure 4.6: Polar NRZ-L and NRZ-I schemes",
+      "sources": [
+        "book Figure 4.6; p.102"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 457,
+      "sha256": "61fc4e4dfb72ce32cc4d11c7f929069b674574de814a64bfc3d76d02c444efa3",
+      "description": "Figure 4.6: Polar NRZ-L and NRZ-I schemes. NRZ-L and NRZ-I waveforms encode the same bit stream. NRZ-L maps levels to bits; NRZ-I uses an inversion for bit 1. A normalized power spectrum marks average signal rate N/2 and bandwidth versus f/N.",
+      "structure": "NRZ-L and NRZ-I waveforms encode the same bit stream. NRZ-L maps levels to bits; NRZ-I uses an inversion for bit 1. A normalized power spectrum marks average signal rate N/2 and bandwidth versus f/N.",
+      "text_in_image": "0; 1; 0; 0; 1; 1; 1; 0; S_ave = N/2; r = 1; NRZ-L; P; Time; 1; Bandwidth; NRZ-I; 0.5; Time; 0; f /N; 0; 1; 2; No inversion: Next bit is 0; Inversion: Next bit is 1",
+      "use_when": "Teach ch04-4-1-2-non-return-to-zero-nrz, interpret Figure 4.6, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 8,
+      "source_bbox": [
+        100.34,
+        48.52,
+        451.32,
+        200.54
+      ],
+      "labels": [
+        {
+          "text": "0",
+          "bbox": [
+            0.1231,
+            0.2717,
+            0.1339,
+            0.3227
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1757,
+            0.2717,
+            0.1865,
+            0.3227
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2282,
+            0.2717,
+            0.2391,
+            0.3227
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2808,
+            0.2717,
+            0.2916,
+            0.3227
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3334,
+            0.2717,
+            0.3442,
+            0.3227
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.386,
+            0.2717,
+            0.3968,
+            0.3227
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4386,
+            0.2717,
+            0.4494,
+            0.3227
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4911,
+            0.2717,
+            0.502,
+            0.3227
+          ]
+        },
+        {
+          "text": "S_ave = N/2",
+          "bbox": [
+            0.8583,
+            0.3062,
+            0.946,
+            0.3698
+          ]
+        },
+        {
+          "text": "r = 1",
+          "bbox": [
+            0.6475,
+            0.3149,
+            0.6898,
+            0.3685
+          ]
+        },
+        {
+          "text": "NRZ-L",
+          "bbox": [
+            0.0286,
+            0.4136,
+            0.0923,
+            0.4646
+          ]
+        },
+        {
+          "text": "P",
+          "bbox": [
+            0.6683,
+            0.4347,
+            0.6803,
+            0.4857
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.5472,
+            0.4596,
+            0.5922,
+            0.5106
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.646,
+            0.5557,
+            0.6569,
+            0.6067
+          ]
+        },
+        {
+          "text": "Bandwidth",
+          "bbox": [
+            0.7489,
+            0.6059,
+            0.844,
+            0.6569
+          ]
+        },
+        {
+          "text": "NRZ-I",
+          "bbox": [
+            0.0343,
+            0.6371,
+            0.0921,
+            0.688
+          ]
+        },
+        {
+          "text": "0.5",
+          "bbox": [
+            0.6298,
+            0.6513,
+            0.6569,
+            0.7023
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.5472,
+            0.6777,
+            0.5922,
+            0.7287
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.646,
+            0.7511,
+            0.6569,
+            0.8021
+          ]
+        },
+        {
+          "text": "f /N",
+          "bbox": [
+            0.9313,
+            0.8041,
+            0.9612,
+            0.8577
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6678,
+            0.8067,
+            0.6786,
+            0.8577
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7793,
+            0.8067,
+            0.7901,
+            0.8577
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.8959,
+            0.8067,
+            0.9067,
+            0.8577
+          ]
+        },
+        {
+          "text": "No inversion: Next bit is 0",
+          "bbox": [
+            0.1159,
+            0.851,
+            0.3516,
+            0.902
+          ]
+        },
+        {
+          "text": "Inversion: Next bit is 1",
+          "bbox": [
+            0.3953,
+            0.851,
+            0.5949,
+            0.902
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_007",
+      "file": "ch04_ill_007.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.7",
+      "section_id": "ch04-4-1-2-return-to-zero-rz",
+      "alt": "Figure 4.7: Polar RZ scheme",
+      "sources": [
+        "book Figure 4.7; p.103"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 392,
+      "sha256": "a9a7b986b59f3ca2bd530720e57119f686da0f57b933c946b77eb35c938f7f5c",
+      "description": "Figure 4.7: Polar RZ scheme. Polar RZ returns to zero in every bit interval and uses positive, zero, and negative levels. The adjacent spectrum indicates r = 1/2, average signal rate N, and its wider bandwidth.",
+      "structure": "Polar RZ returns to zero in every bit interval and uses positive, zero, and negative levels. The adjacent spectrum indicates r = 1/2, average signal rate N, and its wider bandwidth.",
+      "text_in_image": "1; S_ave = N; r =; 2; Amplitude; P; 0; 1; 0; 0; 1; Bandwidth; 1; 0.5; Time; 0; 0; 1; 2; f/N",
+      "use_when": "Teach ch04-4-1-2-return-to-zero-rz, interpret Figure 4.7, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 9,
+      "source_bbox": [
+        114.32,
+        311.92,
+        466.32,
+        442.04
+      ],
+      "labels": [
+        {
+          "text": "1",
+          "bbox": [
+            0.6157,
+            0.2663,
+            0.6263,
+            0.3235
+          ]
+        },
+        {
+          "text": "S_ave = N",
+          "bbox": [
+            0.8149,
+            0.2861,
+            0.8832,
+            0.3598
+          ]
+        },
+        {
+          "text": "r =",
+          "bbox": [
+            0.5798,
+            0.2957,
+            0.6052,
+            0.3645
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.6157,
+            0.3269,
+            0.6263,
+            0.3842
+          ]
+        },
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.0923,
+            0.3544,
+            0.1828,
+            0.4116
+          ]
+        },
+        {
+          "text": "P",
+          "bbox": [
+            0.6065,
+            0.4334,
+            0.6194,
+            0.4907
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1644,
+            0.4831,
+            0.175,
+            0.5403
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2287,
+            0.4831,
+            0.2393,
+            0.5403
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.293,
+            0.4831,
+            0.3036,
+            0.5403
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3573,
+            0.4831,
+            0.3679,
+            0.5403
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4216,
+            0.4831,
+            0.4322,
+            0.5403
+          ]
+        },
+        {
+          "text": "Bandwidth",
+          "bbox": [
+            0.6867,
+            0.4999,
+            0.7796,
+            0.5572
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5868,
+            0.5525,
+            0.5974,
+            0.6098
+          ]
+        },
+        {
+          "text": "0.5",
+          "bbox": [
+            0.5709,
+            0.6578,
+            0.5974,
+            0.7151
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.4832,
+            0.7251,
+            0.5272,
+            0.7823
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5868,
+            0.7678,
+            0.5974,
+            0.8251
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6065,
+            0.8312,
+            0.6171,
+            0.8885
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7279,
+            0.8312,
+            0.7384,
+            0.8885
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.8422,
+            0.8312,
+            0.8528,
+            0.8885
+          ]
+        },
+        {
+          "text": "f/N",
+          "bbox": [
+            0.8684,
+            0.8336,
+            0.8965,
+            0.8909
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_008",
+      "file": "ch04_ill_008.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.8",
+      "section_id": "ch04-4-1-2-biphase-manchester-and-differential-manchester",
+      "alt": "Figure 4.8: Polar biphase: Manchester and differential Manchester schemes",
+      "sources": [
+        "book Figure 4.8; p.104"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 625,
+      "sha256": "0321fa416a28459756f410ed14bb1efb5291865880d86ba880a1519cafdd8e7f",
+      "description": "Figure 4.8: Polar biphase: Manchester and differential Manchester schemes. Manchester and differential Manchester waveforms encode the same bits. Manchester uses a mid-bit transition; differential Manchester also uses presence or absence of a transition at the interval start. Their spectrum marks average signal rate N.",
+      "structure": "Manchester and differential Manchester waveforms encode the same bits. Manchester uses a mid-bit transition; differential Manchester also uses presence or absence of a transition at the interval start. Their spectrum marks average signal rate N.",
+      "text_in_image": "0 is; 1 is; 0; 1; 0; 0; 1; 1; 1; S_ave = N; r =; 2; Manchester; P; Time; 1; Bandwidth; 0.5; 0; Differential; 0; 1; 2; f/N; Manchester; Time; No inversion: Next bit is 1; Inversion: Next bit is 0",
+      "use_when": "Teach ch04-4-1-2-biphase-manchester-and-differential-manchester, interpret Figure 4.8, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 10,
+      "source_bbox": [
+        99.32,
+        49.9,
+        451.32,
+        257.78
+      ],
+      "labels": [
+        {
+          "text": "0 is",
+          "bbox": [
+            0.2497,
+            0.1641,
+            0.2803,
+            0.2013
+          ]
+        },
+        {
+          "text": "1 is",
+          "bbox": [
+            0.3982,
+            0.1641,
+            0.4288,
+            0.2013
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1721,
+            0.2964,
+            0.1829,
+            0.3337
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2375,
+            0.2964,
+            0.2483,
+            0.3337
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3029,
+            0.2964,
+            0.3137,
+            0.3337
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3684,
+            0.2964,
+            0.3792,
+            0.3337
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.435,
+            0.2964,
+            0.4458,
+            0.3337
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5004,
+            0.2964,
+            0.5112,
+            0.3337
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6874,
+            0.3422,
+            0.6982,
+            0.3794
+          ]
+        },
+        {
+          "text": "S_ave = N",
+          "bbox": [
+            0.876,
+            0.3551,
+            0.9456,
+            0.4031
+          ]
+        },
+        {
+          "text": "r =",
+          "bbox": [
+            0.6511,
+            0.3614,
+            0.6771,
+            0.4062
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.6874,
+            0.3823,
+            0.6982,
+            0.4195
+          ]
+        },
+        {
+          "text": "Manchester",
+          "bbox": [
+            0.0294,
+            0.4532,
+            0.1301,
+            0.4904
+          ]
+        },
+        {
+          "text": "P",
+          "bbox": [
+            0.6769,
+            0.4611,
+            0.69,
+            0.4989
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.5672,
+            0.4955,
+            0.612,
+            0.5327
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6576,
+            0.5313,
+            0.6684,
+            0.5685
+          ]
+        },
+        {
+          "text": "Bandwidth",
+          "bbox": [
+            0.731,
+            0.5609,
+            0.8257,
+            0.5981
+          ]
+        },
+        {
+          "text": "0.5",
+          "bbox": [
+            0.6414,
+            0.6007,
+            0.6684,
+            0.6379
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6576,
+            0.6719,
+            0.6684,
+            0.7091
+          ]
+        },
+        {
+          "text": "Differential",
+          "bbox": [
+            0.03,
+            0.7008,
+            0.1301,
+            0.738
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6769,
+            0.7139,
+            0.6877,
+            0.7511
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7885,
+            0.7139,
+            0.7993,
+            0.7511
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.8977,
+            0.7139,
+            0.9085,
+            0.7511
+          ]
+        },
+        {
+          "text": "f/N",
+          "bbox": [
+            0.9282,
+            0.7141,
+            0.9555,
+            0.752
+          ]
+        },
+        {
+          "text": "Manchester",
+          "bbox": [
+            0.0294,
+            0.7441,
+            0.1301,
+            0.7813
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.5672,
+            0.7643,
+            0.612,
+            0.8015
+          ]
+        },
+        {
+          "text": "No inversion: Next bit is 1",
+          "bbox": [
+            0.1577,
+            0.8831,
+            0.3913,
+            0.9203
+          ]
+        },
+        {
+          "text": "Inversion: Next bit is 0",
+          "bbox": [
+            0.4324,
+            0.883,
+            0.63,
+            0.9203
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_009",
+      "file": "ch04_ill_009.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.9",
+      "section_id": "ch04-4-1-2-ami-and-pseudoternary",
+      "alt": "Figure 4.9: Bipolar schemes: AMI and pseudoternary",
+      "sources": [
+        "book Figure 4.9; p.105"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 409,
+      "sha256": "740053968e02b97411789d24c7c74153229a779ee2468407540afd82424d356c",
+      "description": "Figure 4.9: Bipolar schemes: AMI and pseudoternary. AMI and pseudoternary waveforms alternate nonzero polarities. AMI assigns alternating nonzero pulses to 1s; pseudoternary assigns them to 0s. The spectrum marks average signal rate N/2.",
+      "structure": "AMI and pseudoternary waveforms alternate nonzero polarities. AMI assigns alternating nonzero pulses to 1s; pseudoternary assigns them to 0s. The spectrum marks average signal rate N/2.",
+      "text_in_image": "Amplitude; 1; S_ave =   N; r = 1; 2; 0; 1; 0; 0; 1; 0; P; AMI; Bandwidth; Time; 1; 0.5; Pseudoternary; 0; Time; f/N; 0; 1; 2",
+      "use_when": "Teach ch04-4-1-2-ami-and-pseudoternary, interpret Figure 4.9, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 11,
+      "source_bbox": [
+        114.32,
+        92.86,
+        466.32,
+        228.98
+      ],
+      "labels": [
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.1117,
+            0.2026,
+            0.2089,
+            0.2613
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.9382,
+            0.2611,
+            0.9467,
+            0.3052
+          ]
+        },
+        {
+          "text": "S_ave =   N",
+          "bbox": [
+            0.8709,
+            0.2711,
+            0.9646,
+            0.3445
+          ]
+        },
+        {
+          "text": "r = 1",
+          "bbox": [
+            0.683,
+            0.2797,
+            0.7274,
+            0.3502
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.9382,
+            0.3077,
+            0.9467,
+            0.3518
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1877,
+            0.3113,
+            0.1991,
+            0.3701
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.254,
+            0.3113,
+            0.2653,
+            0.3701
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3202,
+            0.3113,
+            0.3316,
+            0.3701
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3864,
+            0.3113,
+            0.3978,
+            0.3701
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4527,
+            0.3113,
+            0.464,
+            0.3701
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5189,
+            0.3113,
+            0.5303,
+            0.3701
+          ]
+        },
+        {
+          "text": "P",
+          "bbox": [
+            0.7105,
+            0.4103,
+            0.7244,
+            0.4691
+          ]
+        },
+        {
+          "text": "AMI",
+          "bbox": [
+            0.1029,
+            0.4589,
+            0.1515,
+            0.5177
+          ]
+        },
+        {
+          "text": "Bandwidth",
+          "bbox": [
+            0.7755,
+            0.463,
+            0.8753,
+            0.5218
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.5788,
+            0.5126,
+            0.6259,
+            0.5714
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6908,
+            0.5323,
+            0.7022,
+            0.5911
+          ]
+        },
+        {
+          "text": "0.5",
+          "bbox": [
+            0.6738,
+            0.6269,
+            0.7022,
+            0.6857
+          ]
+        },
+        {
+          "text": "Pseudoternary",
+          "bbox": [
+            0.0158,
+            0.6954,
+            0.1515,
+            0.7542
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6908,
+            0.7256,
+            0.7022,
+            0.7844
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.5788,
+            0.7586,
+            0.6259,
+            0.8173
+          ]
+        },
+        {
+          "text": "f/N",
+          "bbox": [
+            0.9442,
+            0.7751,
+            0.9724,
+            0.8456
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7108,
+            0.7806,
+            0.7221,
+            0.8394
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8158,
+            0.7806,
+            0.8271,
+            0.8394
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.9204,
+            0.7806,
+            0.9317,
+            0.8394
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_010",
+      "file": "ch04_ill_010.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.10",
+      "section_id": "ch04-4-1-2-2b1q",
+      "alt": "Figure 4.10: Multilevel: 2B1Q scheme",
+      "sources": [
+        "book Figure 4.10; p.106"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 534,
+      "sha256": "641a2e7c19073b13249a4158d146e5258800ff77d7e449d6cb0d2c982d8d144e",
+      "description": "Figure 4.10: Multilevel: 2B1Q scheme. The 2B1Q mapping table assigns dibits 00, 01, 10, and 11 to four amplitudes. A waveform encodes paired bits, and the spectrum marks r = 2 and average signal rate N/4.",
+      "structure": "The 2B1Q mapping table assigns dibits 00, 01, 10, and 11 to four amplitudes. A waveform encodes paired bits, and the spectrum marks r = 2 and average signal rate N/4.",
+      "text_in_image": "Rules:; 00; –3; 01; –1; 10; +3; 11; +1; S_ave = N/4; r = 2; 11; 00; 01; 11; 10; +3; P; +1; 1; Bandwidth; Time; –1; 0.5; 0; –3; f/N; 0; 1/2; 1; 2; Assuming positive original level",
+      "use_when": "Teach ch04-4-1-2-2b1q, interpret Figure 4.10, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 12,
+      "source_bbox": [
+        99.32,
+        227.86,
+        451.32,
+        405.5
+      ],
+      "labels": [
+        {
+          "text": "Rules:",
+          "bbox": [
+            0.2112,
+            0.1812,
+            0.2693,
+            0.2262
+          ]
+        },
+        {
+          "text": "00",
+          "bbox": [
+            0.2151,
+            0.2411,
+            0.2379,
+            0.2862
+          ]
+        },
+        {
+          "text": "–3",
+          "bbox": [
+            0.289,
+            0.2411,
+            0.3117,
+            0.2862
+          ]
+        },
+        {
+          "text": "01",
+          "bbox": [
+            0.3344,
+            0.2411,
+            0.3572,
+            0.2862
+          ]
+        },
+        {
+          "text": "–1",
+          "bbox": [
+            0.4041,
+            0.2411,
+            0.4268,
+            0.2862
+          ]
+        },
+        {
+          "text": "10",
+          "bbox": [
+            0.4424,
+            0.2411,
+            0.4651,
+            0.2862
+          ]
+        },
+        {
+          "text": "+3",
+          "bbox": [
+            0.5198,
+            0.2411,
+            0.544,
+            0.2862
+          ]
+        },
+        {
+          "text": "11",
+          "bbox": [
+            0.5674,
+            0.2411,
+            0.5901,
+            0.2862
+          ]
+        },
+        {
+          "text": "+1",
+          "bbox": [
+            0.6391,
+            0.2468,
+            0.6633,
+            0.2918
+          ]
+        },
+        {
+          "text": "S_ave = N/4",
+          "bbox": [
+            0.7914,
+            0.4091,
+            0.8829,
+            0.4654
+          ]
+        },
+        {
+          "text": "r = 2",
+          "bbox": [
+            0.5859,
+            0.4157,
+            0.6302,
+            0.4698
+          ]
+        },
+        {
+          "text": "11",
+          "bbox": [
+            0.1698,
+            0.418,
+            0.1925,
+            0.463
+          ]
+        },
+        {
+          "text": "00",
+          "bbox": [
+            0.2358,
+            0.418,
+            0.2585,
+            0.463
+          ]
+        },
+        {
+          "text": "01",
+          "bbox": [
+            0.3018,
+            0.418,
+            0.3245,
+            0.463
+          ]
+        },
+        {
+          "text": "11",
+          "bbox": [
+            0.3677,
+            0.418,
+            0.3905,
+            0.463
+          ]
+        },
+        {
+          "text": "10",
+          "bbox": [
+            0.4337,
+            0.418,
+            0.4564,
+            0.463
+          ]
+        },
+        {
+          "text": "+3",
+          "bbox": [
+            0.106,
+            0.4705,
+            0.1325,
+            0.5155
+          ]
+        },
+        {
+          "text": "P",
+          "bbox": [
+            0.6218,
+            0.5094,
+            0.6356,
+            0.5544
+          ]
+        },
+        {
+          "text": "+1",
+          "bbox": [
+            0.1056,
+            0.5618,
+            0.1325,
+            0.6069
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6043,
+            0.5908,
+            0.6157,
+            0.6358
+          ]
+        },
+        {
+          "text": "Bandwidth",
+          "bbox": [
+            0.6876,
+            0.6041,
+            0.7874,
+            0.6491
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.4866,
+            0.6485,
+            0.5338,
+            0.6935
+          ]
+        },
+        {
+          "text": "–1",
+          "bbox": [
+            0.1098,
+            0.6532,
+            0.1325,
+            0.6983
+          ]
+        },
+        {
+          "text": "0.5",
+          "bbox": [
+            0.5869,
+            0.6645,
+            0.6153,
+            0.7096
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6021,
+            0.7383,
+            0.6135,
+            0.7833
+          ]
+        },
+        {
+          "text": "–3",
+          "bbox": [
+            0.1098,
+            0.7446,
+            0.1325,
+            0.7897
+          ]
+        },
+        {
+          "text": "f/N",
+          "bbox": [
+            0.8557,
+            0.7778,
+            0.8839,
+            0.8319
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.623,
+            0.7812,
+            0.6344,
+            0.8263
+          ]
+        },
+        {
+          "text": "1/2",
+          "bbox": [
+            0.6654,
+            0.7812,
+            0.6944,
+            0.8263
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7276,
+            0.7812,
+            0.7389,
+            0.8263
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.8325,
+            0.7812,
+            0.8439,
+            0.8263
+          ]
+        },
+        {
+          "text": "Assuming positive original level",
+          "bbox": [
+            0.192,
+            0.8539,
+            0.4863,
+            0.899
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_011",
+      "file": "ch04_ill_011.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.11",
+      "section_id": "ch04-4-1-2-8b6t",
+      "alt": "Figure 4.11: Multilevel: 8B6T scheme",
+      "sources": [
+        "book Figure 4.11; p.107"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 335,
+      "sha256": "9f7dfc225824a589f2e33ff23378caf037f937ef56854f9d79e9fca95a7dade8",
+      "description": "Figure 4.11: Multilevel: 8B6T scheme. The 8B6T waveform maps successive 8-bit groups to six ternary signal elements at +V, 0, or −V; two example input groups and their ternary outputs are shown.",
+      "structure": "The 8B6T waveform maps successive 8-bit groups to six ternary signal elements at +V, 0, or −V; two example input groups and their ternary outputs are shown.",
+      "text_in_image": "01010000; 00010001; 01010011; +V; Inverted; pattern; 0; Time; –V; – 0 – 0 + +; – + – + + 0; + – – + 0 +",
+      "use_when": "Teach ch04-4-1-2-8b6t, interpret Figure 4.11, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 13,
+      "source_bbox": [
+        114.32,
+        212.86,
+        466.32,
+        324.02
+      ],
+      "labels": [
+        {
+          "text": "01010000",
+          "bbox": [
+            0.7166,
+            0.3231,
+            0.8075,
+            0.3969
+          ]
+        },
+        {
+          "text": "00010001",
+          "bbox": [
+            0.1779,
+            0.3243,
+            0.2688,
+            0.3981
+          ]
+        },
+        {
+          "text": "01010011",
+          "bbox": [
+            0.4475,
+            0.3243,
+            0.5384,
+            0.3981
+          ]
+        },
+        {
+          "text": "+V",
+          "bbox": [
+            0.0389,
+            0.4298,
+            0.0704,
+            0.5036
+          ]
+        },
+        {
+          "text": "Inverted",
+          "bbox": [
+            0.8173,
+            0.4414,
+            0.8918,
+            0.5152
+          ]
+        },
+        {
+          "text": "pattern",
+          "bbox": [
+            0.8201,
+            0.5171,
+            0.8889,
+            0.5909
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.059,
+            0.5876,
+            0.0704,
+            0.6614
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.9139,
+            0.6634,
+            0.9611,
+            0.7372
+          ]
+        },
+        {
+          "text": "–V",
+          "bbox": [
+            0.043,
+            0.7297,
+            0.0708,
+            0.8035
+          ]
+        },
+        {
+          "text": "– 0 – 0 + +",
+          "bbox": [
+            0.1818,
+            0.8469,
+            0.2813,
+            0.9207
+          ]
+        },
+        {
+          "text": "– + – + + 0",
+          "bbox": [
+            0.4417,
+            0.8469,
+            0.5426,
+            0.9207
+          ]
+        },
+        {
+          "text": "+ – – + 0 +",
+          "bbox": [
+            0.7089,
+            0.8469,
+            0.8099,
+            0.9207
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_012",
+      "file": "ch04_ill_012.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.12",
+      "section_id": "ch04-4-1-2-4d-pam5",
+      "alt": "Figure 4.12: Multilevel: 4D-PAM5 scheme",
+      "sources": [
+        "book Figure 4.12; p.108"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 576,
+      "sha256": "fda47e1ec739b5b09e36a4c4813fb06cc8a1223efa2edf9d92ebde94a05c1aa1",
+      "description": "Figure 4.12: Multilevel: 4D-PAM5 scheme. A 4D-PAM5 encoder distributes eight incoming bits over four wires. Each wire carries a 250-Mbps five-level symbol stream, yielding four parallel 125-MBd paths.",
+      "structure": "A 4D-PAM5 encoder distributes eight incoming bits over four wires. Each wire carries a 250-Mbps five-level symbol stream, yielding four parallel 125-MBd paths.",
+      "text_in_image": "1 Gbps; 00011110; 250 Mbps; Wire 1 (125 MBd); 250 Mbps; Wire 2 (125 MBd); +2; +1; 250 Mbps; Wire 3 (125 MBd); –1; –2; 250 Mbps; Wire 4 (125 MBd)",
+      "use_when": "Teach ch04-4-1-2-4d-pam5, interpret Figure 4.12, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 14,
+      "source_bbox": [
+        100.34,
+        48.52,
+        451.32,
+        240.32
+      ],
+      "labels": [
+        {
+          "text": "1 Gbps",
+          "bbox": [
+            0.4186,
+            0.2073,
+            0.4838,
+            0.249
+          ]
+        },
+        {
+          "text": "00011110",
+          "bbox": [
+            0.1964,
+            0.21,
+            0.3103,
+            0.2621
+          ]
+        },
+        {
+          "text": "250 Mbps",
+          "bbox": [
+            0.6748,
+            0.2532,
+            0.7666,
+            0.2949
+          ]
+        },
+        {
+          "text": "Wire 1 (125 MBd)",
+          "bbox": [
+            0.7946,
+            0.2903,
+            0.964,
+            0.332
+          ]
+        },
+        {
+          "text": "250 Mbps",
+          "bbox": [
+            0.6748,
+            0.4383,
+            0.7666,
+            0.48
+          ]
+        },
+        {
+          "text": "Wire 2 (125 MBd)",
+          "bbox": [
+            0.7946,
+            0.4737,
+            0.964,
+            0.5154
+          ]
+        },
+        {
+          "text": "+2",
+          "bbox": [
+            0.0331,
+            0.5371,
+            0.0605,
+            0.5789
+          ]
+        },
+        {
+          "text": "+1",
+          "bbox": [
+            0.0336,
+            0.5872,
+            0.0605,
+            0.6289
+          ]
+        },
+        {
+          "text": "250 Mbps",
+          "bbox": [
+            0.6748,
+            0.6208,
+            0.7666,
+            0.6625
+          ]
+        },
+        {
+          "text": "Wire 3 (125 MBd)",
+          "bbox": [
+            0.7946,
+            0.657,
+            0.964,
+            0.6988
+          ]
+        },
+        {
+          "text": "–1",
+          "bbox": [
+            0.0378,
+            0.6847,
+            0.0605,
+            0.7264
+          ]
+        },
+        {
+          "text": "–2",
+          "bbox": [
+            0.0374,
+            0.7289,
+            0.0602,
+            0.7706
+          ]
+        },
+        {
+          "text": "250 Mbps",
+          "bbox": [
+            0.6748,
+            0.8007,
+            0.7666,
+            0.8424
+          ]
+        },
+        {
+          "text": "Wire 4 (125 MBd)",
+          "bbox": [
+            0.7946,
+            0.8404,
+            0.964,
+            0.8821
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_013",
+      "file": "ch04_ill_013.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.13",
+      "section_id": "ch04-4-1-2-multitransition-mlt-3",
+      "alt": "Figure 4.13: Multitransition: MLT-3 scheme",
+      "sources": [
+        "book Figure 4.13; p.109"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 622,
+      "sha256": "17b12cd145ac5cb518e5bf490cdb2fd591a5480bc4fa8901d44f549c8795036a",
+      "description": "Figure 4.13: Multitransition: MLT-3 scheme. MLT-3 cycles through +V, 0, −V, and 0 only when the next bit is 1; bit 0 holds the current level. Typical and worst-case waveforms accompany a state-transition diagram.",
+      "structure": "MLT-3 cycles through +V, 0, −V, and 0 only when the next bit is 1; bit 0 holds the current level. Typical and worst-case waveforms accompany a state-transition diagram.",
+      "text_in_image": "0; 1; 0; 1; 1; 0; 1; 1; +V; 0V; Next bit: 0; Time; –V; Next bit: 1; Next bit: 1; 0; a. Typical case; Next bit: 1; +V; –V; 1; 1; 1; 1; 1; 1; 1; 1; Last; Last; non-zero; non-zero; +V; Next bit: 0; Next bit: 0; level: –V; level: +V; 0V; c. Transition states; Time; –V; b. Worst case",
+      "use_when": "Teach ch04-4-1-2-multitransition-mlt-3, interpret Figure 4.13, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 15,
+      "source_bbox": [
+        115.34,
+        48.52,
+        466.32,
+        255.38
+      ],
+      "labels": [
+        {
+          "text": "0",
+          "bbox": [
+            0.0816,
+            0.1722,
+            0.093,
+            0.2109
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1246,
+            0.1722,
+            0.136,
+            0.2109
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1676,
+            0.1722,
+            0.179,
+            0.2109
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2106,
+            0.1722,
+            0.222,
+            0.2109
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2536,
+            0.1722,
+            0.265,
+            0.2109
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2966,
+            0.1722,
+            0.308,
+            0.2109
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3396,
+            0.1722,
+            0.351,
+            0.2109
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3827,
+            0.1722,
+            0.394,
+            0.2109
+          ]
+        },
+        {
+          "text": "+V",
+          "bbox": [
+            0.0197,
+            0.2271,
+            0.0513,
+            0.2658
+          ]
+        },
+        {
+          "text": "0V",
+          "bbox": [
+            0.025,
+            0.3004,
+            0.0528,
+            0.3391
+          ]
+        },
+        {
+          "text": "Next bit: 0",
+          "bbox": [
+            0.6914,
+            0.3038,
+            0.7889,
+            0.3425
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.4276,
+            0.3425,
+            0.4749,
+            0.3812
+          ]
+        },
+        {
+          "text": "–V",
+          "bbox": [
+            0.0216,
+            0.3849,
+            0.0494,
+            0.4236
+          ]
+        },
+        {
+          "text": "Next bit: 1",
+          "bbox": [
+            0.5279,
+            0.3879,
+            0.6254,
+            0.4265
+          ]
+        },
+        {
+          "text": "Next bit: 1",
+          "bbox": [
+            0.8526,
+            0.3883,
+            0.9501,
+            0.427
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7318,
+            0.4086,
+            0.7432,
+            0.4473
+          ]
+        },
+        {
+          "text": "a. Typical case",
+          "bbox": [
+            0.1769,
+            0.446,
+            0.3108,
+            0.4847
+          ]
+        },
+        {
+          "text": "Next bit: 1",
+          "bbox": [
+            0.7419,
+            0.484,
+            0.8394,
+            0.5227
+          ]
+        },
+        {
+          "text": "+V",
+          "bbox": [
+            0.8876,
+            0.5546,
+            0.9192,
+            0.5933
+          ]
+        },
+        {
+          "text": "–V",
+          "bbox": [
+            0.5573,
+            0.5602,
+            0.5852,
+            0.5988
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.0821,
+            0.5856,
+            0.0935,
+            0.6243
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1252,
+            0.5856,
+            0.1366,
+            0.6243
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1682,
+            0.5856,
+            0.1796,
+            0.6243
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2112,
+            0.5856,
+            0.2226,
+            0.6243
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2542,
+            0.5856,
+            0.2656,
+            0.6243
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2972,
+            0.5856,
+            0.3086,
+            0.6243
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3402,
+            0.5856,
+            0.3516,
+            0.6243
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3832,
+            0.5856,
+            0.3946,
+            0.6243
+          ]
+        },
+        {
+          "text": "Last",
+          "bbox": [
+            0.7718,
+            0.586,
+            0.8111,
+            0.6247
+          ]
+        },
+        {
+          "text": "Last",
+          "bbox": [
+            0.6712,
+            0.5883,
+            0.7105,
+            0.627
+          ]
+        },
+        {
+          "text": "non-zero",
+          "bbox": [
+            0.7509,
+            0.6257,
+            0.8319,
+            0.6643
+          ]
+        },
+        {
+          "text": "non-zero",
+          "bbox": [
+            0.6503,
+            0.628,
+            0.7313,
+            0.6667
+          ]
+        },
+        {
+          "text": "+V",
+          "bbox": [
+            0.0197,
+            0.6406,
+            0.0513,
+            0.6793
+          ]
+        },
+        {
+          "text": "Next bit: 0",
+          "bbox": [
+            0.5288,
+            0.6652,
+            0.6263,
+            0.7039
+          ]
+        },
+        {
+          "text": "Next bit: 0",
+          "bbox": [
+            0.8539,
+            0.6652,
+            0.9514,
+            0.7039
+          ]
+        },
+        {
+          "text": "level: –V",
+          "bbox": [
+            0.7493,
+            0.6654,
+            0.8335,
+            0.704
+          ]
+        },
+        {
+          "text": "level: +V",
+          "bbox": [
+            0.6469,
+            0.6677,
+            0.7348,
+            0.7063
+          ]
+        },
+        {
+          "text": "0V",
+          "bbox": [
+            0.0272,
+            0.7138,
+            0.055,
+            0.7525
+          ]
+        },
+        {
+          "text": "c. Transition states",
+          "bbox": [
+            0.673,
+            0.7451,
+            0.8434,
+            0.7838
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.4247,
+            0.7551,
+            0.472,
+            0.7937
+          ]
+        },
+        {
+          "text": "–V",
+          "bbox": [
+            0.0216,
+            0.7983,
+            0.0494,
+            0.837
+          ]
+        },
+        {
+          "text": "b. Worst case",
+          "bbox": [
+            0.1683,
+            0.8695,
+            0.2883,
+            0.9081
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_014",
+      "file": "ch04_ill_014.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.14",
+      "section_id": "ch04-4-1-3",
+      "alt": "Figure 4.14: Block coding concept",
+      "sources": [
+        "book Figure 4.14; p.110"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 508,
+      "sha256": "d379d33590b5d75e88434365deb0b4183bcce27e1ae8c03000e871860ae30a8e",
+      "description": "Figure 4.14: Block coding concept. An mB/nB block coder divides an input stream into m-bit groups, substitutes each with an n-bit code, and recombines the n-bit groups into a longer output stream.",
+      "structure": "An mB/nB block coder divides an input stream into m-bit groups, substitutes each with an n-bit code, and recombines the n-bit groups into a longer output stream.",
+      "text_in_image": "Division of a stream into m-bit groups; m bits; m bits; m bits; …; …; …; 1 1 0; 1; 0 0 0; 1; • • •; 0 1 0; 1; mB-to-nB; substitution; …; …; …; 0 1 0; 1 0 1; 0 0 0; 0 0 1; 0 1 1; 1 1 1; • • •; n bits; n bits; n bits; Combining n-bit groups into a stream",
+      "use_when": "Teach ch04-4-1-3, interpret Figure 4.14, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 16,
+      "source_bbox": [
+        99.32,
+        164.86,
+        451.32,
+        333.74
+      ],
+      "labels": [
+        {
+          "text": "Division of a stream into m-bit groups",
+          "bbox": [
+            0.3266,
+            0.1913,
+            0.6775,
+            0.2501
+          ]
+        },
+        {
+          "text": "m bits",
+          "bbox": [
+            0.3258,
+            0.2728,
+            0.3871,
+            0.3316
+          ]
+        },
+        {
+          "text": "m bits",
+          "bbox": [
+            0.4439,
+            0.2728,
+            0.5052,
+            0.3316
+          ]
+        },
+        {
+          "text": "m bits",
+          "bbox": [
+            0.617,
+            0.2728,
+            0.6782,
+            0.3316
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.3617,
+            0.3274,
+            0.3847,
+            0.3762
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.4784,
+            0.3274,
+            0.5014,
+            0.3762
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.6514,
+            0.3274,
+            0.6744,
+            0.3762
+          ]
+        },
+        {
+          "text": "1 1 0",
+          "bbox": [
+            0.3096,
+            0.3404,
+            0.3556,
+            0.3893
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3897,
+            0.3404,
+            0.4011,
+            0.3893
+          ]
+        },
+        {
+          "text": "0 0 0",
+          "bbox": [
+            0.4277,
+            0.3404,
+            0.4737,
+            0.3893
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5064,
+            0.3404,
+            0.5178,
+            0.3893
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.5433,
+            0.3409,
+            0.5789,
+            0.3897
+          ]
+        },
+        {
+          "text": "0 1 0",
+          "bbox": [
+            0.6008,
+            0.3404,
+            0.6467,
+            0.3893
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6794,
+            0.3404,
+            0.6909,
+            0.3893
+          ]
+        },
+        {
+          "text": "mB-to-nB",
+          "bbox": [
+            0.5665,
+            0.5021,
+            0.6583,
+            0.5609
+          ]
+        },
+        {
+          "text": "substitution",
+          "bbox": [
+            0.5588,
+            0.5618,
+            0.666,
+            0.6107
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.3201,
+            0.7156,
+            0.3431,
+            0.7644
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.4661,
+            0.7156,
+            0.4891,
+            0.7644
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.6659,
+            0.7156,
+            0.6889,
+            0.7644
+          ]
+        },
+        {
+          "text": "0 1 0",
+          "bbox": [
+            0.2695,
+            0.7286,
+            0.3154,
+            0.7774
+          ]
+        },
+        {
+          "text": "1 0 1",
+          "bbox": [
+            0.346,
+            0.7286,
+            0.392,
+            0.7774
+          ]
+        },
+        {
+          "text": "0 0 0",
+          "bbox": [
+            0.4155,
+            0.7286,
+            0.4614,
+            0.7774
+          ]
+        },
+        {
+          "text": "0 0 1",
+          "bbox": [
+            0.4921,
+            0.7286,
+            0.538,
+            0.7774
+          ]
+        },
+        {
+          "text": "0 1 1",
+          "bbox": [
+            0.6153,
+            0.7286,
+            0.6612,
+            0.7774
+          ]
+        },
+        {
+          "text": "1 1 1",
+          "bbox": [
+            0.6918,
+            0.7286,
+            0.7378,
+            0.7774
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.5579,
+            0.7302,
+            0.5935,
+            0.779
+          ]
+        },
+        {
+          "text": "n bits",
+          "bbox": [
+            0.3017,
+            0.7933,
+            0.3579,
+            0.8521
+          ]
+        },
+        {
+          "text": "n bits",
+          "bbox": [
+            0.4477,
+            0.7933,
+            0.5039,
+            0.8521
+          ]
+        },
+        {
+          "text": "n bits",
+          "bbox": [
+            0.6475,
+            0.7933,
+            0.7036,
+            0.8521
+          ]
+        },
+        {
+          "text": "Combining n-bit groups into a stream",
+          "bbox": [
+            0.3301,
+            0.8681,
+            0.6753,
+            0.9269
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_015",
+      "file": "ch04_ill_015.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.15",
+      "section_id": "ch04-4-1-3-4b-5b",
+      "alt": "Figure 4.15: Using block coding 4B/5B with NRZ-I line coding scheme",
+      "sources": [
+        "book Figure 4.15; p.110"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 384,
+      "sha256": "968c7fef1414cdd6ee0af15ebe17f9ff1c4b88e826145005559ac2de2664d057",
+      "description": "Figure 4.15: Using block coding 4B/5B with NRZ-I line coding scheme. A 4B/5B encoder precedes NRZ-I encoding at the sender; the receiver applies NRZ-I decoding and then 4B/5B decoding to recover the original data.",
+      "structure": "A 4B/5B encoder precedes NRZ-I encoding at the sender; the receiver applies NRZ-I decoding and then 4B/5B decoding to recover the original data.",
+      "text_in_image": "Sender; Receiver; Digital signal; Link; 4B/5B; NRZ-I; NRZ-I; 4B/5B; encoding; encoding; decoding; decoding",
+      "use_when": "Teach ch04-4-1-3-4b-5b, interpret Figure 4.15, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 16,
+      "source_bbox": [
+        99.32,
+        479.56,
+        451.32,
+        607.28
+      ],
+      "labels": [
+        {
+          "text": "Sender",
+          "bbox": [
+            0.1072,
+            0.2845,
+            0.1703,
+            0.3471
+          ]
+        },
+        {
+          "text": "Receiver",
+          "bbox": [
+            0.8039,
+            0.2845,
+            0.8846,
+            0.3471
+          ]
+        },
+        {
+          "text": "Digital signal",
+          "bbox": [
+            0.4225,
+            0.5049,
+            0.5456,
+            0.5675
+          ]
+        },
+        {
+          "text": "Link",
+          "bbox": [
+            0.468,
+            0.7815,
+            0.5109,
+            0.8441
+          ]
+        },
+        {
+          "text": "4B/5B",
+          "bbox": [
+            0.1158,
+            0.8059,
+            0.1752,
+            0.8686
+          ]
+        },
+        {
+          "text": "NRZ-I",
+          "bbox": [
+            0.2669,
+            0.8059,
+            0.3274,
+            0.8686
+          ]
+        },
+        {
+          "text": "NRZ-I",
+          "bbox": [
+            0.6659,
+            0.8059,
+            0.7265,
+            0.8686
+          ]
+        },
+        {
+          "text": "4B/5B",
+          "bbox": [
+            0.8248,
+            0.8059,
+            0.8842,
+            0.8686
+          ]
+        },
+        {
+          "text": "encoding",
+          "bbox": [
+            0.1038,
+            0.8608,
+            0.1872,
+            0.9234
+          ]
+        },
+        {
+          "text": "encoding",
+          "bbox": [
+            0.2555,
+            0.8608,
+            0.3388,
+            0.9234
+          ]
+        },
+        {
+          "text": "decoding",
+          "bbox": [
+            0.6545,
+            0.8608,
+            0.7378,
+            0.9234
+          ]
+        },
+        {
+          "text": "decoding",
+          "bbox": [
+            0.8128,
+            0.8608,
+            0.8962,
+            0.9234
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_016",
+      "file": "ch04_ill_016.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.16",
+      "section_id": "ch04-example-4-5",
+      "alt": "Figure 4.16: Substitution in 4B/5B block coding",
+      "sources": [
+        "book Figure 4.16; p.112"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 472,
+      "sha256": "24dc2d71f999d27b9cf64a6e112a49fc69cdb888409d5cc67d3449cc2ebb031e",
+      "description": "Figure 4.16: Substitution in 4B/5B block coding. Four-bit blocks such as 1111 and 0001 map to five-bit blocks such as 11111 and 11001; branching lines illustrate substitution from the 4-bit set to the 5-bit set.",
+      "structure": "Four-bit blocks such as 1111 and 0001 map to five-bit blocks such as 11111 and 11001; branching lines illustrate substitution from the 4-bit set to the 5-bit set.",
+      "text_in_image": "4-bit blocks; 1 1 1 1; 0 0 0 1; 0 0 0 0; • • •; 1 1 1 1 1; 1 1 1 1 0; 1 1 1 0 1; 0 1 0 0 1; 0 0 0 0 0; • • •; • • •; 5-bit blocks",
+      "use_when": "Teach ch04-example-4-5, interpret Figure 4.16, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 18,
+      "source_bbox": [
+        100.34,
+        48.52,
+        451.32,
+        205.52
+      ],
+      "labels": [
+        {
+          "text": "4-bit blocks",
+          "bbox": [
+            0.4397,
+            0.2397,
+            0.5537,
+            0.2907
+          ]
+        },
+        {
+          "text": "1 1 1 1",
+          "bbox": [
+            0.3008,
+            0.36,
+            0.3635,
+            0.411
+          ]
+        },
+        {
+          "text": "0 0 0 1",
+          "bbox": [
+            0.5003,
+            0.36,
+            0.5629,
+            0.411
+          ]
+        },
+        {
+          "text": "0 0 0 0",
+          "bbox": [
+            0.6299,
+            0.36,
+            0.6926,
+            0.411
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.4142,
+            0.362,
+            0.4495,
+            0.413
+          ]
+        },
+        {
+          "text": "1 1 1 1 1",
+          "bbox": [
+            0.1183,
+            0.7032,
+            0.198,
+            0.7541
+          ]
+        },
+        {
+          "text": "1 1 1 1 0",
+          "bbox": [
+            0.2626,
+            0.7032,
+            0.3423,
+            0.7541
+          ]
+        },
+        {
+          "text": "1 1 1 0 1",
+          "bbox": [
+            0.4069,
+            0.7032,
+            0.4866,
+            0.7541
+          ]
+        },
+        {
+          "text": "0 1 0 0 1",
+          "bbox": [
+            0.6002,
+            0.7032,
+            0.68,
+            0.7541
+          ]
+        },
+        {
+          "text": "0 0 0 0 0",
+          "bbox": [
+            0.7935,
+            0.7032,
+            0.8733,
+            0.7541
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.5257,
+            0.7051,
+            0.5611,
+            0.7561
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7191,
+            0.7051,
+            0.7544,
+            0.7561
+          ]
+        },
+        {
+          "text": "5-bit blocks",
+          "bbox": [
+            0.4397,
+            0.8281,
+            0.5537,
+            0.879
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_017",
+      "file": "ch04_ill_017.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.17",
+      "section_id": "ch04-4-1-3-8b-10b",
+      "alt": "Figure 4.17: 8B/10B block encoding",
+      "sources": [
+        "book Figure 4.17; p.112"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 378,
+      "sha256": "7c4ea0447acd10153cd41ff7a5f9026517fd1c08f748ebd61342f4f840abb223",
+      "description": "Figure 4.17: 8B/10B block encoding. An 8B/10B encoder combines a 5B/6B encoder, a 3B/4B encoder, and a disparity controller to turn each 8-bit block into a balanced 10-bit block.",
+      "structure": "An 8B/10B encoder combines a 5B/6B encoder, a 3B/4B encoder, and a disparity controller to turn each 8-bit block into a balanced 10-bit block.",
+      "text_in_image": "5B/6B encoding; 10-bit block; 8-bit block; Disparity; controller; 3B/4B encoding; 8B/10B encoder",
+      "use_when": "Teach ch04-4-1-3-8b-10b, interpret Figure 4.17, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 18,
+      "source_bbox": [
+        99.32,
+        323.38,
+        451.32,
+        449.18
+      ],
+      "labels": [
+        {
+          "text": "5B/6B encoding",
+          "bbox": [
+            0.3261,
+            0.2855,
+            0.4745,
+            0.3491
+          ]
+        },
+        {
+          "text": "10-bit block",
+          "bbox": [
+            0.7763,
+            0.5157,
+            0.8868,
+            0.5793
+          ]
+        },
+        {
+          "text": "8-bit block",
+          "bbox": [
+            0.1185,
+            0.5326,
+            0.2176,
+            0.5962
+          ]
+        },
+        {
+          "text": "Disparity",
+          "bbox": [
+            0.597,
+            0.6177,
+            0.6816,
+            0.6813
+          ]
+        },
+        {
+          "text": "controller",
+          "bbox": [
+            0.5951,
+            0.6722,
+            0.6835,
+            0.7358
+          ]
+        },
+        {
+          "text": "3B/4B encoding",
+          "bbox": [
+            0.3456,
+            0.7479,
+            0.494,
+            0.8115
+          ]
+        },
+        {
+          "text": "8B/10B encoder",
+          "bbox": [
+            0.4388,
+            0.8793,
+            0.5872,
+            0.9429
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_018",
+      "file": "ch04_ill_018.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.18",
+      "section_id": "ch04-4-1-4",
+      "alt": "Figure 4.18: AMI used with scrambling",
+      "sources": [
+        "book Figure 4.18; p.113"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 366,
+      "sha256": "b55023935ed9bcbb955a66ef7c20935c4ccf8519590ad7383f8c3b3ba2622870",
+      "description": "Figure 4.18: AMI used with scrambling. A sender modifies an AMI waveform when a violated all-zero run appears; the receiver detects the deliberate violations and decodes the modified AMI stream.",
+      "structure": "A sender modifies an AMI waveform when a violated all-zero run appears; the receiver detects the deliberate violations and decodes the modified AMI stream.",
+      "text_in_image": "Sender; Receiver; Violated digital signal; Modified AMI; Modified AMI; decoding; encoding",
+      "use_when": "Teach ch04-4-1-4, interpret Figure 4.18, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 19,
+      "source_bbox": [
+        114.32,
+        242.92,
+        466.32,
+        364.4
+      ],
+      "labels": [
+        {
+          "text": "Sender",
+          "bbox": [
+            0.2336,
+            0.3046,
+            0.2967,
+            0.3705
+          ]
+        },
+        {
+          "text": "Receiver",
+          "bbox": [
+            0.7726,
+            0.3348,
+            0.8534,
+            0.4007
+          ]
+        },
+        {
+          "text": "Violated digital signal",
+          "bbox": [
+            0.389,
+            0.474,
+            0.5897,
+            0.5399
+          ]
+        },
+        {
+          "text": "Modified AMI",
+          "bbox": [
+            0.6993,
+            0.7852,
+            0.8325,
+            0.8511
+          ]
+        },
+        {
+          "text": "Modified AMI",
+          "bbox": [
+            0.1599,
+            0.7935,
+            0.2931,
+            0.8593
+          ]
+        },
+        {
+          "text": "decoding",
+          "bbox": [
+            0.7242,
+            0.8511,
+            0.8075,
+            0.917
+          ]
+        },
+        {
+          "text": "encoding",
+          "bbox": [
+            0.1849,
+            0.8593,
+            0.2682,
+            0.9252
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_019",
+      "file": "ch04_ill_019.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.19",
+      "section_id": "ch04-4-1-4-b8zs",
+      "alt": "Figure 4.19: Two cases of B8ZS scrambling technique",
+      "sources": [
+        "book Figure 4.19; p.113"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 336,
+      "sha256": "df8a993acfa1cc1e05120a0e82dcc2c4f80f1cdbd55c752070ab71d6c18ddfee",
+      "description": "Figure 4.19: Two cases of B8ZS scrambling technique. Two B8ZS panels show eight-zero substitution after a positive previous pulse and after a negative previous pulse. B and V markers distinguish balancing and deliberate violation pulses.",
+      "structure": "Two B8ZS panels show eight-zero substitution after a positive previous pulse and after a negative previous pulse. B and V markers distinguish balancing and deliberate violation pulses.",
+      "text_in_image": "1; 0; 0; 0; 0; 0; 0; 0; 0; 1; 0; 0; 0; 0; 0; 0; 0; 0; V; B; B; V; 0; 0; 0; 0; 0; 0; 0; 0; V; B; B; V; a. Previous level is positive.; b. Previous level is negative.",
+      "use_when": "Teach ch04-4-1-4-b8zs, interpret Figure 4.19, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 19,
+      "source_bbox": [
+        115.34,
+        472.9,
+        466.32,
+        584.42
+      ],
+      "labels": [
+        {
+          "text": "1",
+          "bbox": [
+            0.1541,
+            0.3565,
+            0.1656,
+            0.4283
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1877,
+            0.3565,
+            0.1992,
+            0.4283
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2212,
+            0.3565,
+            0.2327,
+            0.4283
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2548,
+            0.3565,
+            0.2663,
+            0.4283
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2884,
+            0.3565,
+            0.2999,
+            0.4283
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3219,
+            0.3565,
+            0.3334,
+            0.4283
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3555,
+            0.3565,
+            0.367,
+            0.4283
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3891,
+            0.3565,
+            0.4006,
+            0.4283
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4226,
+            0.3565,
+            0.4341,
+            0.4283
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.569,
+            0.3565,
+            0.5805,
+            0.4283
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6026,
+            0.3565,
+            0.6141,
+            0.4283
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6363,
+            0.3564,
+            0.6478,
+            0.4282
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6699,
+            0.3564,
+            0.6814,
+            0.4282
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7036,
+            0.3564,
+            0.7151,
+            0.4282
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7373,
+            0.3564,
+            0.7488,
+            0.4282
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7709,
+            0.3564,
+            0.7824,
+            0.4282
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.8046,
+            0.3564,
+            0.8161,
+            0.4282
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.8382,
+            0.3564,
+            0.8497,
+            0.4282
+          ]
+        },
+        {
+          "text": "V",
+          "bbox": [
+            0.286,
+            0.5004,
+            0.3026,
+            0.5725
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.4207,
+            0.5004,
+            0.436,
+            0.5725
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.7353,
+            0.4999,
+            0.7507,
+            0.572
+          ]
+        },
+        {
+          "text": "V",
+          "bbox": [
+            0.8022,
+            0.5075,
+            0.8188,
+            0.5795
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7709,
+            0.5666,
+            0.7824,
+            0.6386
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1877,
+            0.5722,
+            0.1992,
+            0.6442
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2212,
+            0.5722,
+            0.2327,
+            0.6442
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2548,
+            0.5722,
+            0.2663,
+            0.6442
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3555,
+            0.5722,
+            0.367,
+            0.6442
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6026,
+            0.5727,
+            0.6141,
+            0.6448
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6363,
+            0.5727,
+            0.6478,
+            0.6448
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6699,
+            0.5727,
+            0.6814,
+            0.6448
+          ]
+        },
+        {
+          "text": "V",
+          "bbox": [
+            0.7016,
+            0.7199,
+            0.7182,
+            0.7919
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.8369,
+            0.7199,
+            0.8523,
+            0.7919
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.3196,
+            0.7228,
+            0.3349,
+            0.7949
+          ]
+        },
+        {
+          "text": "V",
+          "bbox": [
+            0.3867,
+            0.7228,
+            0.4033,
+            0.7949
+          ]
+        },
+        {
+          "text": "a. Previous level is positive.",
+          "bbox": [
+            0.1659,
+            0.8402,
+            0.424,
+            0.9123
+          ]
+        },
+        {
+          "text": "b. Previous level is negative.",
+          "bbox": [
+            0.5896,
+            0.8402,
+            0.854,
+            0.9123
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_020",
+      "file": "ch04_ill_020.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.20",
+      "section_id": "ch04-4-1-4-hdb3",
+      "alt": "Figure 4.20: Different situations in HDB3 scrambling technique",
+      "sources": [
+        "book Figure 4.20; p.114"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 388,
+      "sha256": "dee93024e8a8b24089635dcd4a2fa4ee46445ba7681914df87eddc610a596feb",
+      "description": "Figure 4.20: Different situations in HDB3 scrambling technique. Three HDB3 panels show four-zero substitution for even and odd counts of nonzero pulses and for the next alternating case. B and V pulses preserve AMI polarity rules while inserting violations.",
+      "structure": "Three HDB3 panels show four-zero substitution for even and odd counts of nonzero pulses and for the next alternating case. B and V pulses preserve AMI polarity rules while inserting violations.",
+      "text_in_image": "First; Second; Third; substitution; substitution; substitution; 1; 1; 0; 0; 0; 0; 1; 0; 0; 0; 0; 0; 0; 0; 0; 0; B; B; V; V; 0; 0; 0; 0; 0; 0; 0; V; Even; Even Odd; Even; Even",
+      "use_when": "Teach ch04-4-1-4-hdb3, interpret Figure 4.20, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 20,
+      "source_bbox": [
+        99.32,
+        332.92,
+        451.32,
+        461.9
+      ],
+      "labels": [
+        {
+          "text": "First",
+          "bbox": [
+            0.3517,
+            0.2353,
+            0.3934,
+            0.2973
+          ]
+        },
+        {
+          "text": "Second",
+          "bbox": [
+            0.506,
+            0.2353,
+            0.5729,
+            0.2973
+          ]
+        },
+        {
+          "text": "Third",
+          "bbox": [
+            0.6477,
+            0.2353,
+            0.6982,
+            0.2973
+          ]
+        },
+        {
+          "text": "substitution",
+          "bbox": [
+            0.3195,
+            0.3097,
+            0.4256,
+            0.3718
+          ]
+        },
+        {
+          "text": "substitution",
+          "bbox": [
+            0.4864,
+            0.3097,
+            0.5925,
+            0.3718
+          ]
+        },
+        {
+          "text": "substitution",
+          "bbox": [
+            0.6199,
+            0.3097,
+            0.726,
+            0.3718
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2457,
+            0.3937,
+            0.257,
+            0.4557
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2791,
+            0.3937,
+            0.2904,
+            0.4557
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3124,
+            0.3937,
+            0.3238,
+            0.4557
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3458,
+            0.3937,
+            0.3572,
+            0.4557
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3792,
+            0.3937,
+            0.3906,
+            0.4557
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4126,
+            0.3937,
+            0.4239,
+            0.4557
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.446,
+            0.3937,
+            0.4573,
+            0.4557
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4793,
+            0.3937,
+            0.4907,
+            0.4557
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5127,
+            0.3937,
+            0.524,
+            0.4557
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5461,
+            0.3937,
+            0.5575,
+            0.4557
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5795,
+            0.3937,
+            0.5909,
+            0.4557
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6129,
+            0.3937,
+            0.6242,
+            0.4557
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6463,
+            0.3937,
+            0.6576,
+            0.4557
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6796,
+            0.3937,
+            0.691,
+            0.4557
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.713,
+            0.3937,
+            0.7244,
+            0.4557
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7464,
+            0.3937,
+            0.7578,
+            0.4557
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.611,
+            0.5533,
+            0.6261,
+            0.6153
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.3105,
+            0.5593,
+            0.3257,
+            0.6213
+          ]
+        },
+        {
+          "text": "V",
+          "bbox": [
+            0.4093,
+            0.5593,
+            0.4257,
+            0.6213
+          ]
+        },
+        {
+          "text": "V",
+          "bbox": [
+            0.7105,
+            0.5593,
+            0.7269,
+            0.6213
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3458,
+            0.6173,
+            0.3572,
+            0.6793
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3792,
+            0.6173,
+            0.3905,
+            0.6793
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4793,
+            0.6173,
+            0.4907,
+            0.6793
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5127,
+            0.6173,
+            0.524,
+            0.6793
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5461,
+            0.6173,
+            0.5574,
+            0.6793
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6462,
+            0.6173,
+            0.6576,
+            0.6793
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6796,
+            0.6173,
+            0.691,
+            0.6793
+          ]
+        },
+        {
+          "text": "V",
+          "bbox": [
+            0.577,
+            0.74,
+            0.5934,
+            0.802
+          ]
+        },
+        {
+          "text": "Even",
+          "bbox": [
+            0.2782,
+            0.8528,
+            0.3246,
+            0.9148
+          ]
+        },
+        {
+          "text": "Even Odd",
+          "bbox": [
+            0.4032,
+            0.8528,
+            0.4963,
+            0.9148
+          ]
+        },
+        {
+          "text": "Even",
+          "bbox": [
+            0.5786,
+            0.8528,
+            0.625,
+            0.9148
+          ]
+        },
+        {
+          "text": "Even",
+          "bbox": [
+            0.7122,
+            0.8528,
+            0.7585,
+            0.9148
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_021",
+      "file": "ch04_ill_021.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.21",
+      "section_id": "ch04-4-2-1",
+      "alt": "Figure 4.21: Components of PCM encoder",
+      "sources": [
+        "book Figure 4.21; p.115"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 591,
+      "sha256": "61b5cdfe99fb2d131cc8371302daa486dedcaac891bd7e4d8a59a5c7cdc04219",
+      "description": "Figure 4.21: Components of PCM encoder. A PCM encoder takes an analog signal through sampling, quantizing, and encoding. Insets show the PAM samples and quantized levels; the output is a digital bit stream.",
+      "structure": "A PCM encoder takes an analog signal through sampling, quantizing, and encoding. Insets show the PAM samples and quantized levels; the output is a digital bit stream.",
+      "text_in_image": "Quantized signal; PCM encoder; 1 1 … 1 1 0 0; Sampling; Encoding; Quantizing; Digital data; Analog signal; PAM signal",
+      "use_when": "Teach ch04-4-2-1, interpret Figure 4.21, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 21,
+      "source_bbox": [
+        114.32,
+        233.38,
+        466.32,
+        430.28
+      ],
+      "labels": [
+        {
+          "text": "Quantized signal",
+          "bbox": [
+            0.5553,
+            0.1722,
+            0.7094,
+            0.2129
+          ]
+        },
+        {
+          "text": "PCM encoder",
+          "bbox": [
+            0.2763,
+            0.4006,
+            0.4024,
+            0.4413
+          ]
+        },
+        {
+          "text": "1 1 … 1 1 0 0",
+          "bbox": [
+            0.8465,
+            0.5402,
+            0.972,
+            0.581
+          ]
+        },
+        {
+          "text": "Sampling",
+          "bbox": [
+            0.3297,
+            0.601,
+            0.4172,
+            0.6417
+          ]
+        },
+        {
+          "text": "Encoding",
+          "bbox": [
+            0.5081,
+            0.601,
+            0.5956,
+            0.6417
+          ]
+        },
+        {
+          "text": "Quantizing",
+          "bbox": [
+            0.6783,
+            0.601,
+            0.7798,
+            0.6417
+          ]
+        },
+        {
+          "text": "Digital data",
+          "bbox": [
+            0.8557,
+            0.6013,
+            0.9628,
+            0.642
+          ]
+        },
+        {
+          "text": "Analog signal",
+          "bbox": [
+            0.0749,
+            0.6592,
+            0.2024,
+            0.6999
+          ]
+        },
+        {
+          "text": "PAM signal",
+          "bbox": [
+            0.3952,
+            0.9034,
+            0.5028,
+            0.9441
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_022",
+      "file": "ch04_ill_022.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.22",
+      "section_id": "ch04-4-2-1-sampling",
+      "alt": "Figure 4.22: Three different sampling methods for PCM",
+      "sources": [
+        "book Figure 4.22; p.116"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 403,
+      "sha256": "1531d24256d38adb51acf19f78d0ab306c5eb8f1b0f6b0c37a1ce8c0252171d5",
+      "description": "Figure 4.22: Three different sampling methods for PCM. Three aligned time plots compare ideal point sampling, natural pulse sampling, and flat-top sample-and-hold sampling of the same analog waveform.",
+      "structure": "Three aligned time plots compare ideal point sampling, natural pulse sampling, and flat-top sample-and-hold sampling of the same analog waveform.",
+      "text_in_image": "Amplitude; Amplitude; Amplitude; Analog signal; Analog signal; Analog signal; Time; Time; Time; Ts; a. Ideal sampling; b. Natural sampling; c. Flat-top sampling",
+      "use_when": "Teach ch04-4-2-1-sampling, interpret Figure 4.22, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 22,
+      "source_bbox": [
+        100.34,
+        48.52,
+        451.32,
+        182.48
+      ],
+      "labels": [
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.0223,
+            0.3054,
+            0.1202,
+            0.3652
+          ]
+        },
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.3241,
+            0.3054,
+            0.422,
+            0.3652
+          ]
+        },
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.6257,
+            0.3054,
+            0.7236,
+            0.3652
+          ]
+        },
+        {
+          "text": "Analog signal",
+          "bbox": [
+            0.1494,
+            0.3617,
+            0.2771,
+            0.4216
+          ]
+        },
+        {
+          "text": "Analog signal",
+          "bbox": [
+            0.4563,
+            0.3617,
+            0.584,
+            0.4216
+          ]
+        },
+        {
+          "text": "Analog signal",
+          "bbox": [
+            0.7665,
+            0.3617,
+            0.8942,
+            0.4215
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.3181,
+            0.5889,
+            0.3655,
+            0.6487
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.6226,
+            0.5889,
+            0.6701,
+            0.6487
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.9273,
+            0.5889,
+            0.9748,
+            0.6487
+          ]
+        },
+        {
+          "text": "Ts",
+          "bbox": [
+            0.139,
+            0.7385,
+            0.1606,
+            0.8131
+          ]
+        },
+        {
+          "text": "a. Ideal sampling",
+          "bbox": [
+            0.1019,
+            0.8581,
+            0.2589,
+            0.9179
+          ]
+        },
+        {
+          "text": "b. Natural sampling",
+          "bbox": [
+            0.4008,
+            0.8581,
+            0.581,
+            0.918
+          ]
+        },
+        {
+          "text": "c. Flat-top sampling",
+          "bbox": [
+            0.7068,
+            0.8581,
+            0.8904,
+            0.918
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_023",
+      "file": "ch04_ill_023.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.23",
+      "section_id": "ch04-example-4-7",
+      "alt": "Figure 4.23: Nyquist sampling rate for low-pass and bandpass signals",
+      "sources": [
+        "book Figure 4.23; p.117"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 555,
+      "sha256": "862308d507ed22ccdf7770728bdb269cc26709f41238c94ec1d88a20d618c3b4",
+      "description": "Figure 4.23: Nyquist sampling rate for low-pass and bandpass signals. Frequency plots show a low-pass signal spanning zero to fmax and a bandpass signal spanning fmin to fmax. Both annotate the Nyquist rate as twice fmax.",
+      "structure": "Frequency plots show a low-pass signal spanning zero to fmax and a bandpass signal spanning fmin to fmax. Both annotate the Nyquist rate as twice fmax.",
+      "text_in_image": "Amplitude; Nyquist rate = 2 ×  fmax; Low-pass signal; Frequency; fmin; fmax; Amplitude; Nyquist rate = 2  ×  fmax; Bandpass signal; 0; fmin; fmax; Frequency",
+      "use_when": "Teach ch04-example-4-7, interpret Figure 4.23, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 23,
+      "source_bbox": [
+        115.34,
+        48.52,
+        466.32,
+        233.18
+      ],
+      "labels": [
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.117,
+            0.2348,
+            0.2146,
+            0.2781
+          ]
+        },
+        {
+          "text": "Nyquist rate = 2 ×  fmax",
+          "bbox": [
+            0.3534,
+            0.3193,
+            0.5668,
+            0.3735
+          ]
+        },
+        {
+          "text": "Low-pass signal",
+          "bbox": [
+            0.3829,
+            0.4045,
+            0.5373,
+            0.4478
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.7838,
+            0.4964,
+            0.8801,
+            0.5397
+          ]
+        },
+        {
+          "text": "fmin",
+          "bbox": [
+            0.1519,
+            0.4996,
+            0.1848,
+            0.5451
+          ]
+        },
+        {
+          "text": "fmax",
+          "bbox": [
+            0.7365,
+            0.4996,
+            0.7723,
+            0.5451
+          ]
+        },
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.117,
+            0.5984,
+            0.2146,
+            0.6417
+          ]
+        },
+        {
+          "text": "Nyquist rate = 2  ×  fmax",
+          "bbox": [
+            0.3505,
+            0.6878,
+            0.5697,
+            0.742
+          ]
+        },
+        {
+          "text": "Bandpass signal",
+          "bbox": [
+            0.3863,
+            0.7719,
+            0.5339,
+            0.8152
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1601,
+            0.8536,
+            0.1715,
+            0.8969
+          ]
+        },
+        {
+          "text": "fmin",
+          "bbox": [
+            0.3363,
+            0.8622,
+            0.368,
+            0.9093
+          ]
+        },
+        {
+          "text": "fmax",
+          "bbox": [
+            0.5502,
+            0.8622,
+            0.586,
+            0.9077
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.7838,
+            0.8644,
+            0.8801,
+            0.9077
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_024",
+      "file": "ch04_ill_024.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.24",
+      "section_id": "ch04-example-4-7",
+      "alt": "Figure 4.24: Recovery of a sampled sine wave for different sampling rates",
+      "sources": [
+        "book Figure 4.24; p.117"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 840,
+      "sha256": "452293136a7d8e46c59b4dacd037af9e45834ae3761b9304a7c954f07d6fffb4",
+      "description": "Figure 4.24: Recovery of a sampled sine wave for different sampling rates. Three panels sample and reconstruct a sine wave at fs = 2f, fs = 4f, and fs = f, showing Nyquist-rate sampling, oversampling, and an incorrect undersampled reconstruction.",
+      "structure": "Three panels sample and reconstruct a sine wave at fs = 2f, fs = 4f, and fs = f, showing Nyquist-rate sampling, oversampling, and an incorrect undersampled reconstruction.",
+      "text_in_image": "a. Nyquist rate sampling: fs = 2 f; b. Oversampling: fs = 4 f; c. Undersampling: fs =  f",
+      "use_when": "Teach ch04-example-4-7, interpret Figure 4.24, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 23,
+      "source_bbox": [
+        114.32,
+        246.04,
+        466.32,
+        525.74
+      ],
+      "labels": [
+        {
+          "text": "a. Nyquist rate sampling: fs = 2 f",
+          "bbox": [
+            0.369,
+            0.3452,
+            0.6646,
+            0.3867
+          ]
+        },
+        {
+          "text": "b. Oversampling: fs = 4 f",
+          "bbox": [
+            0.4045,
+            0.6218,
+            0.6281,
+            0.6633
+          ]
+        },
+        {
+          "text": "c. Undersampling: fs =  f",
+          "bbox": [
+            0.405,
+            0.9024,
+            0.6287,
+            0.9439
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_025",
+      "file": "ch04_ill_025.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.25",
+      "section_id": "ch04-example-4-7",
+      "alt": "Figure 4.25: Sampling of a clock with only one hand",
+      "sources": [
+        "book Figure 4.25; p.118"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 803,
+      "sha256": "1f8dc9a41652db006493b0242e40fffcb7a4de5fb2fc2249fd3e0cd1a7041157",
+      "description": "Figure 4.25: Sampling of a clock with only one hand. Clock-face sequences compare sampling at the Nyquist rate, oversampling, and undersampling. The observed samples can imply forward, ambiguous, or backward motion.",
+      "structure": "Clock-face sequences compare sampling at the Nyquist rate, oversampling, and undersampling. The observed samples can imply forward, ambiguous, or backward motion.",
+      "text_in_image": "Samples can mean that; 12; 12; 12; 12; 12; the clock is moving; either forward or; 9; 3; 9; 3; 9; 3; 9; 3; 9; 3; backward.; 6; 6; 6; 6; 6; (12-6-12-6-12); 1; a. Sampling at Nyquist rate: Ts = T; 2; 12; 12; 12; 12; 12; Samples show clock; is moving forward.; 9; 3; 9; 3; 9; 3; 9; 3; 9; 3; (12-3-6-9-12); 6; 6; 6; 6; 6; 1; b. Oversampling (above Nyquist rate): Ts =   T; 4; 12; 12; 12; 12; 12; Samples show clock; 9; 3; 9; 3; 9; 3; 9; 3; 9; 3; is moving backward.; (12-9-6-3-12); 6; 6; 6; 6; 6; c. Undersampling (below Nyquist rate): Ts = T 3; 4",
+      "use_when": "Teach ch04-example-4-7, interpret Figure 4.25, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 24,
+      "source_bbox": [
+        100.34,
+        48.52,
+        451.32,
+        315.92
+      ],
+      "labels": [
+        {
+          "text": "Samples can mean that",
+          "bbox": [
+            0.7658,
+            0.1781,
+            0.976,
+            0.208
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.098,
+            0.1839,
+            0.118,
+            0.2102
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.2426,
+            0.184,
+            0.2626,
+            0.2102
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.3866,
+            0.184,
+            0.4066,
+            0.2102
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.5312,
+            0.184,
+            0.5513,
+            0.2102
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.6761,
+            0.184,
+            0.6961,
+            0.2102
+          ]
+        },
+        {
+          "text": "the clock is moving",
+          "bbox": [
+            0.7658,
+            0.208,
+            0.9456,
+            0.238
+          ]
+        },
+        {
+          "text": "either forward or",
+          "bbox": [
+            0.7658,
+            0.2379,
+            0.9207,
+            0.2679
+          ]
+        },
+        {
+          "text": "9",
+          "bbox": [
+            0.0594,
+            0.2407,
+            0.0694,
+            0.2669
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.1471,
+            0.2407,
+            0.1571,
+            0.2669
+          ]
+        },
+        {
+          "text": "9",
+          "bbox": [
+            0.204,
+            0.2408,
+            0.214,
+            0.267
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.2917,
+            0.2408,
+            0.3017,
+            0.267
+          ]
+        },
+        {
+          "text": "9",
+          "bbox": [
+            0.348,
+            0.2408,
+            0.358,
+            0.267
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.4357,
+            0.2408,
+            0.4457,
+            0.267
+          ]
+        },
+        {
+          "text": "9",
+          "bbox": [
+            0.4926,
+            0.2408,
+            0.5026,
+            0.267
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.5803,
+            0.2408,
+            0.5903,
+            0.267
+          ]
+        },
+        {
+          "text": "9",
+          "bbox": [
+            0.6375,
+            0.2408,
+            0.6475,
+            0.267
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.7252,
+            0.2408,
+            0.7352,
+            0.267
+          ]
+        },
+        {
+          "text": "backward.",
+          "bbox": [
+            0.7658,
+            0.2678,
+            0.8604,
+            0.2978
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.103,
+            0.2974,
+            0.113,
+            0.3237
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.2476,
+            0.2975,
+            0.2576,
+            0.3237
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.3916,
+            0.2975,
+            0.4016,
+            0.3237
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.5362,
+            0.2975,
+            0.5462,
+            0.3237
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.6811,
+            0.2975,
+            0.6911,
+            0.3237
+          ]
+        },
+        {
+          "text": "(12-6-12-6-12)",
+          "bbox": [
+            0.7658,
+            0.2977,
+            0.903,
+            0.3277
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3596,
+            0.3539,
+            0.3682,
+            0.3764
+          ]
+        },
+        {
+          "text": "a. Sampling at Nyquist rate: Ts = T",
+          "bbox": [
+            0.034,
+            0.3587,
+            0.3522,
+            0.4006
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.3596,
+            0.3788,
+            0.3682,
+            0.4013
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.6758,
+            0.4654,
+            0.6958,
+            0.4917
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.098,
+            0.4667,
+            0.118,
+            0.493
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.2428,
+            0.4667,
+            0.2628,
+            0.493
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.3837,
+            0.4677,
+            0.4037,
+            0.4939
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.5308,
+            0.4699,
+            0.5509,
+            0.4962
+          ]
+        },
+        {
+          "text": "Samples show clock",
+          "bbox": [
+            0.7658,
+            0.4904,
+            0.9583,
+            0.5204
+          ]
+        },
+        {
+          "text": "is moving forward.",
+          "bbox": [
+            0.7658,
+            0.5204,
+            0.9405,
+            0.5503
+          ]
+        },
+        {
+          "text": "9",
+          "bbox": [
+            0.6371,
+            0.5222,
+            0.6472,
+            0.5484
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.7249,
+            0.5222,
+            0.7349,
+            0.5484
+          ]
+        },
+        {
+          "text": "9",
+          "bbox": [
+            0.0594,
+            0.5235,
+            0.0694,
+            0.5497
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.1471,
+            0.5235,
+            0.1571,
+            0.5497
+          ]
+        },
+        {
+          "text": "9",
+          "bbox": [
+            0.2031,
+            0.5235,
+            0.2131,
+            0.5497
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.2926,
+            0.5235,
+            0.3026,
+            0.5497
+          ]
+        },
+        {
+          "text": "9",
+          "bbox": [
+            0.344,
+            0.5245,
+            0.354,
+            0.5507
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.4308,
+            0.5245,
+            0.4408,
+            0.5507
+          ]
+        },
+        {
+          "text": "9",
+          "bbox": [
+            0.4902,
+            0.5267,
+            0.5002,
+            0.5529
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.5825,
+            0.5267,
+            0.5925,
+            0.5529
+          ]
+        },
+        {
+          "text": "(12-3-6-9-12)",
+          "bbox": [
+            0.7658,
+            0.5503,
+            0.8915,
+            0.5803
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.6808,
+            0.579,
+            0.6908,
+            0.6052
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.103,
+            0.5802,
+            0.113,
+            0.6065
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.2478,
+            0.5802,
+            0.2578,
+            0.6065
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.3887,
+            0.5812,
+            0.3987,
+            0.6075
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.5358,
+            0.5834,
+            0.5458,
+            0.6097
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4671,
+            0.6356,
+            0.4757,
+            0.6581
+          ]
+        },
+        {
+          "text": "b. Oversampling (above Nyquist rate): Ts =   T",
+          "bbox": [
+            0.034,
+            0.641,
+            0.4602,
+            0.6829
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.4671,
+            0.6605,
+            0.4757,
+            0.683
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.3859,
+            0.7439,
+            0.406,
+            0.7701
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.2425,
+            0.7452,
+            0.2625,
+            0.7715
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.099,
+            0.7456,
+            0.119,
+            0.7718
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.6777,
+            0.746,
+            0.6977,
+            0.7722
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.5308,
+            0.7473,
+            0.5509,
+            0.7736
+          ]
+        },
+        {
+          "text": "Samples show clock",
+          "bbox": [
+            0.7658,
+            0.7778,
+            0.9583,
+            0.8078
+          ]
+        },
+        {
+          "text": "9",
+          "bbox": [
+            0.3473,
+            0.8007,
+            0.3573,
+            0.8269
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.435,
+            0.8007,
+            0.445,
+            0.8269
+          ]
+        },
+        {
+          "text": "9",
+          "bbox": [
+            0.2039,
+            0.802,
+            0.2139,
+            0.8282
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.2916,
+            0.802,
+            0.3016,
+            0.8282
+          ]
+        },
+        {
+          "text": "9",
+          "bbox": [
+            0.0604,
+            0.8024,
+            0.0704,
+            0.8286
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.1481,
+            0.8024,
+            0.1581,
+            0.8286
+          ]
+        },
+        {
+          "text": "9",
+          "bbox": [
+            0.6391,
+            0.8027,
+            0.6491,
+            0.8289
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.7268,
+            0.8027,
+            0.7368,
+            0.8289
+          ]
+        },
+        {
+          "text": "9",
+          "bbox": [
+            0.4922,
+            0.8041,
+            0.5022,
+            0.8303
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.5799,
+            0.8041,
+            0.5899,
+            0.8303
+          ]
+        },
+        {
+          "text": "is moving backward.",
+          "bbox": [
+            0.7658,
+            0.8077,
+            0.957,
+            0.8377
+          ]
+        },
+        {
+          "text": "(12-9-6-3-12)",
+          "bbox": [
+            0.7658,
+            0.8377,
+            0.8915,
+            0.8676
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.3909,
+            0.8574,
+            0.401,
+            0.8837
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.2475,
+            0.8587,
+            0.2575,
+            0.885
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.104,
+            0.8591,
+            0.114,
+            0.8853
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.6827,
+            0.8595,
+            0.6927,
+            0.8857
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.5358,
+            0.8609,
+            0.5459,
+            0.8871
+          ]
+        },
+        {
+          "text": "c. Undersampling (below Nyquist rate): Ts = T 3",
+          "bbox": [
+            0.034,
+            0.9132,
+            0.479,
+            0.9594
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.4705,
+            0.938,
+            0.479,
+            0.9605
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_026",
+      "file": "ch04_ill_026.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.26",
+      "section_id": "ch04-4-2-1-quantization-error",
+      "alt": "Figure 4.26: Quantization and encoding of a sampled signal",
+      "sources": [
+        "book Figure 4.26; p.120"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 885,
+      "sha256": "1bb24a627c7128e913934640d9c6dd47df2d510f3439651c96180e0eca312183",
+      "description": "Figure 4.26: Quantization and encoding of a sampled signal. A quantization graph assigns nine PAM samples to eight zones around multiples of Δ. A table records normalized PAM values, quantized values, errors, decimal codes, and three-bit encoded words for every sample.",
+      "structure": "A quantization graph assigns nine PAM samples to eight zones around multiples of Δ. A table records normalized PAM values, quantized values, errors, decimal codes, and three-bit encoded words for every sample.",
+      "text_in_image": "Quantization; Normalized; codes; amplitude; 4D; 19.7; 7; 16.2; 3D; 6; 11.0; 2D; 5; 7.5; D; 4; 0; 3; Time; –5.5; –D; –6.0; –6.1; 2; –9.4; –2D; –11.3; 1; –3D; 0; –4D; Normalized; –1.22; 1.50; 3.24; 3.94; 2.20; –1.10; –2.26; –1.88; –1.20; PAM values; Normalized; –1.50; 1.50; 3.50; 3.50; 2.50; –1.50; –2.50; –1.50; –1.50; quantized values; Normalized; –0.38; 0; +0.26; –0.44; +0.30; –0.40; –0.24; +0.38; –0.30; error; Quantization code; 2; 5; 7; 7; 6; 2; 1; 2; 2; Encoded words; 010; 101; 111; 111; 110; 010; 001; 010; 010",
+      "use_when": "Teach ch04-4-2-1-quantization-error, interpret Figure 4.26, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 26,
+      "source_bbox": [
+        100.34,
+        48.52,
+        451.32,
+        343.16
+      ],
+      "labels": [
+        {
+          "text": "Quantization",
+          "bbox": [
+            0.0242,
+            0.1217,
+            0.1396,
+            0.1481
+          ]
+        },
+        {
+          "text": "Normalized",
+          "bbox": [
+            0.1715,
+            0.1217,
+            0.2826,
+            0.1481
+          ]
+        },
+        {
+          "text": "codes",
+          "bbox": [
+            0.0242,
+            0.149,
+            0.0751,
+            0.1755
+          ]
+        },
+        {
+          "text": "amplitude",
+          "bbox": [
+            0.1823,
+            0.149,
+            0.2717,
+            0.1755
+          ]
+        },
+        {
+          "text": "4D",
+          "bbox": [
+            0.1859,
+            0.2127,
+            0.2132,
+            0.2391
+          ]
+        },
+        {
+          "text": "19.7",
+          "bbox": [
+            0.5028,
+            0.2284,
+            0.5419,
+            0.2549
+          ]
+        },
+        {
+          "text": "7",
+          "bbox": [
+            0.0617,
+            0.2321,
+            0.0729,
+            0.2586
+          ]
+        },
+        {
+          "text": "16.2",
+          "bbox": [
+            0.4166,
+            0.2528,
+            0.4557,
+            0.2792
+          ]
+        },
+        {
+          "text": "3D",
+          "bbox": [
+            0.1859,
+            0.2655,
+            0.2132,
+            0.2919
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.0617,
+            0.284,
+            0.0729,
+            0.3104
+          ]
+        },
+        {
+          "text": "11.0",
+          "bbox": [
+            0.5907,
+            0.3138,
+            0.6298,
+            0.3402
+          ]
+        },
+        {
+          "text": "2D",
+          "bbox": [
+            0.1859,
+            0.3183,
+            0.2132,
+            0.3447
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.0617,
+            0.3367,
+            0.0729,
+            0.3631
+          ]
+        },
+        {
+          "text": "7.5",
+          "bbox": [
+            0.3288,
+            0.3427,
+            0.3567,
+            0.3691
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.1971,
+            0.3712,
+            0.2132,
+            0.3976
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.0617,
+            0.3904,
+            0.0729,
+            0.4168
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.202,
+            0.4263,
+            0.2132,
+            0.4527
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.0617,
+            0.4429,
+            0.0729,
+            0.4693
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.9381,
+            0.4512,
+            0.9845,
+            0.4776
+          ]
+        },
+        {
+          "text": "–5.5",
+          "bbox": [
+            0.6789,
+            0.479,
+            0.718,
+            0.5055
+          ]
+        },
+        {
+          "text": "–D",
+          "bbox": [
+            0.1859,
+            0.4803,
+            0.2132,
+            0.5068
+          ]
+        },
+        {
+          "text": "–6.0",
+          "bbox": [
+            0.943,
+            0.49,
+            0.9821,
+            0.5165
+          ]
+        },
+        {
+          "text": "–6.1",
+          "bbox": [
+            0.2404,
+            0.4934,
+            0.2795,
+            0.5198
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.0617,
+            0.4965,
+            0.0729,
+            0.523
+          ]
+        },
+        {
+          "text": "–9.4",
+          "bbox": [
+            0.8541,
+            0.5221,
+            0.8932,
+            0.5485
+          ]
+        },
+        {
+          "text": "–2D",
+          "bbox": [
+            0.1747,
+            0.5322,
+            0.2132,
+            0.5586
+          ]
+        },
+        {
+          "text": "–11.3",
+          "bbox": [
+            0.7637,
+            0.54,
+            0.8139,
+            0.5664
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.0617,
+            0.5485,
+            0.0729,
+            0.5749
+          ]
+        },
+        {
+          "text": "–3D",
+          "bbox": [
+            0.1747,
+            0.585,
+            0.2132,
+            0.6114
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.0617,
+            0.6016,
+            0.0729,
+            0.628
+          ]
+        },
+        {
+          "text": "–4D",
+          "bbox": [
+            0.1747,
+            0.6378,
+            0.2132,
+            0.6642
+          ]
+        },
+        {
+          "text": "Normalized",
+          "bbox": [
+            0.0242,
+            0.6659,
+            0.1297,
+            0.6923
+          ]
+        },
+        {
+          "text": "–1.22",
+          "bbox": [
+            0.1943,
+            0.6671,
+            0.2446,
+            0.6935
+          ]
+        },
+        {
+          "text": "1.50",
+          "bbox": [
+            0.2965,
+            0.6671,
+            0.3356,
+            0.6935
+          ]
+        },
+        {
+          "text": "3.24",
+          "bbox": [
+            0.3861,
+            0.6671,
+            0.4252,
+            0.6936
+          ]
+        },
+        {
+          "text": "3.94",
+          "bbox": [
+            0.4736,
+            0.6671,
+            0.5127,
+            0.6936
+          ]
+        },
+        {
+          "text": "2.20",
+          "bbox": [
+            0.5622,
+            0.6671,
+            0.6013,
+            0.6935
+          ]
+        },
+        {
+          "text": "–1.10",
+          "bbox": [
+            0.6369,
+            0.6671,
+            0.6872,
+            0.6935
+          ]
+        },
+        {
+          "text": "–2.26",
+          "bbox": [
+            0.723,
+            0.6671,
+            0.7733,
+            0.6935
+          ]
+        },
+        {
+          "text": "–1.88",
+          "bbox": [
+            0.8112,
+            0.6671,
+            0.8615,
+            0.6935
+          ]
+        },
+        {
+          "text": "–1.20",
+          "bbox": [
+            0.8979,
+            0.6671,
+            0.9482,
+            0.6935
+          ]
+        },
+        {
+          "text": "PAM values",
+          "bbox": [
+            0.0242,
+            0.6932,
+            0.1327,
+            0.7197
+          ]
+        },
+        {
+          "text": "Normalized",
+          "bbox": [
+            0.0242,
+            0.7353,
+            0.1297,
+            0.7618
+          ]
+        },
+        {
+          "text": "–1.50",
+          "bbox": [
+            0.1943,
+            0.7354,
+            0.2446,
+            0.7618
+          ]
+        },
+        {
+          "text": "1.50",
+          "bbox": [
+            0.2965,
+            0.7354,
+            0.3356,
+            0.7618
+          ]
+        },
+        {
+          "text": "3.50",
+          "bbox": [
+            0.3861,
+            0.7354,
+            0.4252,
+            0.7619
+          ]
+        },
+        {
+          "text": "3.50",
+          "bbox": [
+            0.4736,
+            0.7354,
+            0.5127,
+            0.7619
+          ]
+        },
+        {
+          "text": "2.50",
+          "bbox": [
+            0.5622,
+            0.7354,
+            0.6013,
+            0.7618
+          ]
+        },
+        {
+          "text": "–1.50",
+          "bbox": [
+            0.6369,
+            0.7354,
+            0.6872,
+            0.7618
+          ]
+        },
+        {
+          "text": "–2.50",
+          "bbox": [
+            0.7211,
+            0.7354,
+            0.7714,
+            0.7618
+          ]
+        },
+        {
+          "text": "–1.50",
+          "bbox": [
+            0.8112,
+            0.7354,
+            0.8615,
+            0.7618
+          ]
+        },
+        {
+          "text": "–1.50",
+          "bbox": [
+            0.8979,
+            0.7354,
+            0.9482,
+            0.7618
+          ]
+        },
+        {
+          "text": "quantized values",
+          "bbox": [
+            0.0242,
+            0.7626,
+            0.1732,
+            0.7891
+          ]
+        },
+        {
+          "text": "Normalized",
+          "bbox": [
+            0.0242,
+            0.8093,
+            0.1297,
+            0.8357
+          ]
+        },
+        {
+          "text": "–0.38",
+          "bbox": [
+            0.1943,
+            0.8094,
+            0.2446,
+            0.8358
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3105,
+            0.8094,
+            0.3216,
+            0.8358
+          ]
+        },
+        {
+          "text": "+0.26",
+          "bbox": [
+            0.3682,
+            0.8094,
+            0.4217,
+            0.8358
+          ]
+        },
+        {
+          "text": "–0.44",
+          "bbox": [
+            0.4604,
+            0.8094,
+            0.5106,
+            0.8358
+          ]
+        },
+        {
+          "text": "+0.30",
+          "bbox": [
+            0.5494,
+            0.8094,
+            0.6029,
+            0.8358
+          ]
+        },
+        {
+          "text": "–0.40",
+          "bbox": [
+            0.6369,
+            0.8094,
+            0.6872,
+            0.8358
+          ]
+        },
+        {
+          "text": "–0.24",
+          "bbox": [
+            0.7211,
+            0.8094,
+            0.7714,
+            0.8358
+          ]
+        },
+        {
+          "text": "+0.38",
+          "bbox": [
+            0.808,
+            0.8094,
+            0.8615,
+            0.8358
+          ]
+        },
+        {
+          "text": "–0.30",
+          "bbox": [
+            0.8979,
+            0.8094,
+            0.9482,
+            0.8358
+          ]
+        },
+        {
+          "text": "error",
+          "bbox": [
+            0.0242,
+            0.8366,
+            0.0676,
+            0.8631
+          ]
+        },
+        {
+          "text": "Quantization code",
+          "bbox": [
+            0.0242,
+            0.8719,
+            0.1874,
+            0.8983
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.2211,
+            0.8821,
+            0.2322,
+            0.9085
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.3105,
+            0.8821,
+            0.3216,
+            0.9085
+          ]
+        },
+        {
+          "text": "7",
+          "bbox": [
+            0.3983,
+            0.8821,
+            0.4095,
+            0.9085
+          ]
+        },
+        {
+          "text": "7",
+          "bbox": [
+            0.4858,
+            0.8821,
+            0.4969,
+            0.9085
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.5737,
+            0.882,
+            0.5849,
+            0.9085
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.6611,
+            0.882,
+            0.6722,
+            0.9085
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7476,
+            0.882,
+            0.7588,
+            0.9085
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.8367,
+            0.882,
+            0.8479,
+            0.9085
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.9204,
+            0.882,
+            0.9315,
+            0.9085
+          ]
+        },
+        {
+          "text": "Encoded words",
+          "bbox": [
+            0.0242,
+            0.9277,
+            0.1624,
+            0.9541
+          ]
+        },
+        {
+          "text": "010",
+          "bbox": [
+            0.2099,
+            0.9381,
+            0.2434,
+            0.9645
+          ]
+        },
+        {
+          "text": "101",
+          "bbox": [
+            0.2993,
+            0.9381,
+            0.3328,
+            0.9645
+          ]
+        },
+        {
+          "text": "111",
+          "bbox": [
+            0.3871,
+            0.9381,
+            0.4206,
+            0.9645
+          ]
+        },
+        {
+          "text": "111",
+          "bbox": [
+            0.4746,
+            0.9381,
+            0.5081,
+            0.9645
+          ]
+        },
+        {
+          "text": "110",
+          "bbox": [
+            0.5625,
+            0.938,
+            0.596,
+            0.9645
+          ]
+        },
+        {
+          "text": "010",
+          "bbox": [
+            0.6499,
+            0.938,
+            0.6834,
+            0.9645
+          ]
+        },
+        {
+          "text": "001",
+          "bbox": [
+            0.7364,
+            0.938,
+            0.77,
+            0.9645
+          ]
+        },
+        {
+          "text": "010",
+          "bbox": [
+            0.8256,
+            0.938,
+            0.8591,
+            0.9645
+          ]
+        },
+        {
+          "text": "010",
+          "bbox": [
+            0.9092,
+            0.938,
+            0.9427,
+            0.9645
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_027",
+      "file": "ch04_ill_027.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.27",
+      "section_id": "ch04-4-2-1-original-signal-recovery",
+      "alt": "Figure 4.27: Components of a PCM decoder",
+      "sources": [
+        "book Figure 4.27; p.122"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 536,
+      "sha256": "0868957df148c614c4eb6ef0a6f343023a5316e6ca9d705aa3669e9a016e981e",
+      "description": "Figure 4.27: Components of a PCM decoder. A PCM decoder converts digital code words into held staircase samples, then passes them through a low-pass filter to reconstruct a smooth analog waveform.",
+      "structure": "A PCM decoder converts digital code words into held staircase samples, then passes them through a low-pass filter to reconstruct a smooth analog waveform.",
+      "text_in_image": "Amplitude; Time; PCM decoder; Amplitude; Analog signal; Make and; Low-pass; 1 1 … 1 1 0 0; connect; Time; filter; samples; Digital data",
+      "use_when": "Teach ch04-4-2-1-original-signal-recovery, interpret Figure 4.27, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 28,
+      "source_bbox": [
+        99.32,
+        140.86,
+        451.32,
+        319.04
+      ],
+      "labels": [
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.2028,
+            0.2201,
+            0.3007,
+            0.2652
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.5084,
+            0.3638,
+            0.556,
+            0.4088
+          ]
+        },
+        {
+          "text": "PCM decoder",
+          "bbox": [
+            0.1769,
+            0.563,
+            0.3034,
+            0.6081
+          ]
+        },
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.621,
+            0.6265,
+            0.7189,
+            0.6716
+          ]
+        },
+        {
+          "text": "Analog signal",
+          "bbox": [
+            0.7346,
+            0.652,
+            0.8623,
+            0.6971
+          ]
+        },
+        {
+          "text": "Make and",
+          "bbox": [
+            0.2309,
+            0.7111,
+            0.3273,
+            0.7561
+          ]
+        },
+        {
+          "text": "Low-pass",
+          "bbox": [
+            0.4439,
+            0.7335,
+            0.5323,
+            0.7786
+          ]
+        },
+        {
+          "text": "1 1 … 1 1 0 0",
+          "bbox": [
+            0.032,
+            0.7375,
+            0.1578,
+            0.7938
+          ]
+        },
+        {
+          "text": "connect",
+          "bbox": [
+            0.2435,
+            0.756,
+            0.3147,
+            0.801
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.9295,
+            0.7651,
+            0.977,
+            0.8102
+          ]
+        },
+        {
+          "text": "filter",
+          "bbox": [
+            0.4665,
+            0.7784,
+            0.5098,
+            0.8235
+          ]
+        },
+        {
+          "text": "samples",
+          "bbox": [
+            0.2422,
+            0.8009,
+            0.3159,
+            0.8459
+          ]
+        },
+        {
+          "text": "Digital data",
+          "bbox": [
+            0.0412,
+            0.8163,
+            0.1486,
+            0.8613
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_028",
+      "file": "ch04_ill_028.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.28",
+      "section_id": "ch04-4-2-2",
+      "alt": "Figure 4.28: The process of delta modulation",
+      "sources": [
+        "book Figure 4.28; p.123"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 472,
+      "sha256": "9885e8f6fbbdb47f1d863869704574593563bd7c2802e77d10e08b06d6f72bc9",
+      "description": "Figure 4.28: The process of delta modulation. An analog curve is approximated by a staircase with step size d and interval T. Each upward or downward step produces the displayed 1 or 0 in the generated bit stream.",
+      "structure": "An analog curve is approximated by a staircase with step size d and interval T. Each upward or downward step produces the displayed 1 or 0 in the generated bit stream.",
+      "text_in_image": "Amplitude; T; d; Time; Generated; 0; 1; 1; 1; 1; 1; 1; 0; 0; 0; 0; 0; 0; 1; 1; binary data",
+      "use_when": "Teach ch04-4-2-2, interpret Figure 4.28, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 29,
+      "source_bbox": [
+        115.34,
+        440.56,
+        466.32,
+        597.5
+      ],
+      "labels": [
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.158,
+            0.248,
+            0.2555,
+            0.299
+          ]
+        },
+        {
+          "text": "T",
+          "bbox": [
+            0.5611,
+            0.3018,
+            0.5757,
+            0.354
+          ]
+        },
+        {
+          "text": "d",
+          "bbox": [
+            0.1811,
+            0.4983,
+            0.1925,
+            0.5493
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.87,
+            0.8082,
+            0.9173,
+            0.8592
+          ]
+        },
+        {
+          "text": "Generated",
+          "bbox": [
+            0.1045,
+            0.8223,
+            0.1982,
+            0.8733
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2244,
+            0.8526,
+            0.2358,
+            0.9036
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2625,
+            0.8526,
+            0.2739,
+            0.9036
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3063,
+            0.8526,
+            0.3177,
+            0.9036
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3501,
+            0.8526,
+            0.3615,
+            0.9036
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3925,
+            0.8526,
+            0.4039,
+            0.9036
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4335,
+            0.8526,
+            0.4449,
+            0.9036
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4759,
+            0.8526,
+            0.4873,
+            0.9036
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5169,
+            0.8526,
+            0.5283,
+            0.9036
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5621,
+            0.8526,
+            0.5735,
+            0.9036
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6087,
+            0.8526,
+            0.6201,
+            0.9036
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6483,
+            0.8526,
+            0.6597,
+            0.9036
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6865,
+            0.8526,
+            0.6979,
+            0.9036
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7317,
+            0.8526,
+            0.7431,
+            0.9036
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7755,
+            0.8526,
+            0.7869,
+            0.9036
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8179,
+            0.8526,
+            0.8293,
+            0.9036
+          ]
+        },
+        {
+          "text": "binary data",
+          "bbox": [
+            0.0963,
+            0.8733,
+            0.1982,
+            0.9243
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_029",
+      "file": "ch04_ill_029.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.29",
+      "section_id": "ch04-4-2-2-modulator",
+      "alt": "Figure 4.29: Delta modulation components",
+      "sources": [
+        "book Figure 4.29; p.124"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 413,
+      "sha256": "b78e2d96a5a6d541a12b8cc205a68cf2d3480e25e696061f6627573566bfeb51",
+      "description": "Figure 4.29: Delta modulation components. A delta modulator compares the analog input with delayed staircase feedback. A comparator drives both the digital output and a staircase maker; a delay unit feeds the next comparison.",
+      "structure": "A delta modulator compares the analog input with delayed staircase feedback. A comparator drives both the digital output and a staircase maker; a delay unit feeds the next comparison.",
+      "text_in_image": "DM modulator; 1 1 … 1 1 0 0; Comparator; Digital data; Analog signal; Delay unit; Staircase maker",
+      "use_when": "Teach ch04-4-2-2-modulator, interpret Figure 4.29, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 30,
+      "source_bbox": [
+        99.32,
+        156.88,
+        451.32,
+        294.08
+      ],
+      "labels": [
+        {
+          "text": "DM modulator",
+          "bbox": [
+            0.3003,
+            0.253,
+            0.4364,
+            0.3114
+          ]
+        },
+        {
+          "text": "1 1 … 1 1 0 0",
+          "bbox": [
+            0.8013,
+            0.4109,
+            0.9267,
+            0.4838
+          ]
+        },
+        {
+          "text": "Comparator",
+          "bbox": [
+            0.4367,
+            0.5126,
+            0.5456,
+            0.571
+          ]
+        },
+        {
+          "text": "Digital data",
+          "bbox": [
+            0.8105,
+            0.5131,
+            0.9175,
+            0.5715
+          ]
+        },
+        {
+          "text": "Analog signal",
+          "bbox": [
+            0.0954,
+            0.5463,
+            0.2226,
+            0.6047
+          ]
+        },
+        {
+          "text": "Delay unit",
+          "bbox": [
+            0.382,
+            0.8287,
+            0.4776,
+            0.8871
+          ]
+        },
+        {
+          "text": "Staircase maker",
+          "bbox": [
+            0.5556,
+            0.8287,
+            0.7004,
+            0.8871
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_030",
+      "file": "ch04_ill_030.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.30",
+      "section_id": "ch04-4-2-2-quantization-error",
+      "alt": "Figure 4.30: Delta demodulation components",
+      "sources": [
+        "book Figure 4.30; p.125"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 444,
+      "sha256": "0f0e4bb571886cfdda69335714ca1889ae79f29c1791ca0cf2c77b9edb93c52a",
+      "description": "Figure 4.30: Delta demodulation components. A delta demodulator sends received bits through a staircase maker and delay feedback loop, then smooths the staircase with a low-pass filter to recover the analog signal.",
+      "structure": "A delta demodulator sends received bits through a staircase maker and delay feedback loop, then smooths the staircase with a low-pass filter to recover the analog signal.",
+      "text_in_image": "DM demodulator; Staircase; maker; 1 1 … 1 1 0 0; Digital data; Low-pass; Analog signal; filter; Delay unit",
+      "use_when": "Teach ch04-4-2-2-quantization-error, interpret Figure 4.30, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 31,
+      "source_bbox": [
+        115.34,
+        48.52,
+        466.32,
+        196.04
+      ],
+      "labels": [
+        {
+          "text": "DM demodulator",
+          "bbox": [
+            0.2611,
+            0.2582,
+            0.4188,
+            0.3124
+          ]
+        },
+        {
+          "text": "Staircase",
+          "bbox": [
+            0.3214,
+            0.3322,
+            0.4037,
+            0.3864
+          ]
+        },
+        {
+          "text": "maker",
+          "bbox": [
+            0.3342,
+            0.3796,
+            0.3909,
+            0.4339
+          ]
+        },
+        {
+          "text": "1 1 … 1 1 0 0",
+          "bbox": [
+            0.1123,
+            0.4432,
+            0.2376,
+            0.511
+          ]
+        },
+        {
+          "text": "Digital data",
+          "bbox": [
+            0.1215,
+            0.5383,
+            0.2285,
+            0.5926
+          ]
+        },
+        {
+          "text": "Low-pass",
+          "bbox": [
+            0.5374,
+            0.5446,
+            0.6254,
+            0.5988
+          ]
+        },
+        {
+          "text": "Analog signal",
+          "bbox": [
+            0.7311,
+            0.5883,
+            0.8583,
+            0.6425
+          ]
+        },
+        {
+          "text": "filter",
+          "bbox": [
+            0.5599,
+            0.5921,
+            0.6029,
+            0.6463
+          ]
+        },
+        {
+          "text": "Delay unit",
+          "bbox": [
+            0.3197,
+            0.8383,
+            0.4153,
+            0.8925
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_031",
+      "file": "ch04_ill_031.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.31",
+      "section_id": "ch04-4-3",
+      "alt": "Figure 4.31: Data transmission and modes",
+      "sources": [
+        "book Figure 4.31; p.125"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 448,
+      "sha256": "822bea8d7721193b3e97452a587319c327d6c8fe0725f0629778325d8d7d1cef",
+      "description": "Figure 4.31: Data transmission and modes. A hierarchy divides data transmission into parallel and serial; serial divides further into asynchronous, synchronous, and isochronous modes.",
+      "structure": "A hierarchy divides data transmission into parallel and serial; serial divides further into asynchronous, synchronous, and isochronous modes.",
+      "text_in_image": "Data transmission; Parallel; Serial; Asynchronous; Synchronous; Isochronous",
+      "use_when": "Teach ch04-4-3, interpret Figure 4.31, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 31,
+      "source_bbox": [
+        114.32,
+        346.9,
+        466.32,
+        495.98
+      ],
+      "labels": [
+        {
+          "text": "Data transmission",
+          "bbox": [
+            0.3263,
+            0.2552,
+            0.4898,
+            0.3089
+          ]
+        },
+        {
+          "text": "Parallel",
+          "bbox": [
+            0.1743,
+            0.4986,
+            0.2437,
+            0.5522
+          ]
+        },
+        {
+          "text": "Serial",
+          "bbox": [
+            0.582,
+            0.4986,
+            0.6351,
+            0.5522
+          ]
+        },
+        {
+          "text": "Asynchronous",
+          "bbox": [
+            0.3602,
+            0.756,
+            0.4915,
+            0.8097
+          ]
+        },
+        {
+          "text": "Synchronous",
+          "bbox": [
+            0.5473,
+            0.756,
+            0.666,
+            0.8097
+          ]
+        },
+        {
+          "text": "Isochronous",
+          "bbox": [
+            0.7318,
+            0.756,
+            0.8429,
+            0.8097
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_032",
+      "file": "ch04_ill_032.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.32",
+      "section_id": "ch04-4-3-1",
+      "alt": "Figure 4.32: Parallel transmission",
+      "sources": [
+        "book Figure 4.32; p.126"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 507,
+      "sha256": "d9f36358d4a83d119a3f8c5775270b626a11807c4b2689fdb2bf70fbcb1aa6db",
+      "description": "Figure 4.32: Parallel transmission. Eight bits leave the sender at the same time over eight separate lines and reach the receiver in parallel; a curved boundary labels one wire pod containing eight lines.",
+      "structure": "Eight bits leave the sender at the same time over eight separate lines and reach the receiver in parallel; a curved boundary labels one wire pod containing eight lines.",
+      "text_in_image": "The 8 bits; are sent; together; 0; 1; 1; 0; 0; 0; 1; 0; We need; Sender; Receiver; eight lines",
+      "use_when": "Teach ch04-4-3-1, interpret Figure 4.32, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 32,
+      "source_bbox": [
+        99.32,
+        92.86,
+        451.32,
+        261.38
+      ],
+      "labels": [
+        {
+          "text": "The 8 bits",
+          "bbox": [
+            0.3155,
+            0.1965,
+            0.4072,
+            0.2442
+          ]
+        },
+        {
+          "text": "are sent",
+          "bbox": [
+            0.3232,
+            0.238,
+            0.3996,
+            0.2857
+          ]
+        },
+        {
+          "text": "together",
+          "bbox": [
+            0.3238,
+            0.2796,
+            0.399,
+            0.3273
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3533,
+            0.3505,
+            0.3648,
+            0.3982
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3533,
+            0.4051,
+            0.3648,
+            0.4528
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3533,
+            0.4597,
+            0.3648,
+            0.5074
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3533,
+            0.5143,
+            0.3648,
+            0.562
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3533,
+            0.5689,
+            0.3648,
+            0.6166
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3533,
+            0.6235,
+            0.3648,
+            0.6712
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3533,
+            0.6781,
+            0.3648,
+            0.7258
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3533,
+            0.7327,
+            0.3648,
+            0.7804
+          ]
+        },
+        {
+          "text": "We need",
+          "bbox": [
+            0.5584,
+            0.7982,
+            0.6393,
+            0.8459
+          ]
+        },
+        {
+          "text": "Sender",
+          "bbox": [
+            0.23,
+            0.7989,
+            0.2937,
+            0.8466
+          ]
+        },
+        {
+          "text": "Receiver",
+          "bbox": [
+            0.6957,
+            0.7989,
+            0.7773,
+            0.8466
+          ]
+        },
+        {
+          "text": "eight lines",
+          "bbox": [
+            0.5514,
+            0.8397,
+            0.6463,
+            0.8874
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_033",
+      "file": "ch04_ill_033.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.33",
+      "section_id": "ch04-4-3-2",
+      "alt": "Figure 4.33: Serial transmission",
+      "sources": [
+        "book Figure 4.33; p.126"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 437,
+      "sha256": "4d5c5b5095549b94ecfee1fa3ea0fcd235e3eb7fd895d3890d09a825c9409241",
+      "description": "Figure 4.33: Serial transmission. A parallel-to-serial converter emits eight bits one after another on one line; a serial-to-parallel converter restores the group at the receiver.",
+      "structure": "A parallel-to-serial converter emits eight bits one after another on one line; a serial-to-parallel converter restores the group at the receiver.",
+      "text_in_image": "The 8 bits are sent; 0; 0; one after another.; 1; 1; 1; 1; 0; 1; 1; 0; 0; 0; 1; 0; 0; 0; We need only; 0; 0; one line (wire).; 0; 0; 1; 1; Parallel/serial; Serial/parallel; 0; 0; converter; converter; Sender; Receiver",
+      "use_when": "Teach ch04-4-3-2, interpret Figure 4.33, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 32,
+      "source_bbox": [
+        99.32,
+        409.24,
+        451.32,
+        554.42
+      ],
+      "labels": [
+        {
+          "text": "The 8 bits are sent",
+          "bbox": [
+            0.4126,
+            0.3081,
+            0.5792,
+            0.3632
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2565,
+            0.3403,
+            0.2678,
+            0.3954
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.727,
+            0.3403,
+            0.7383,
+            0.3954
+          ]
+        },
+        {
+          "text": "one after another.",
+          "bbox": [
+            0.4161,
+            0.3707,
+            0.5757,
+            0.4258
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2565,
+            0.3924,
+            0.2678,
+            0.4476
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.727,
+            0.3924,
+            0.7383,
+            0.4476
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2565,
+            0.4446,
+            0.2678,
+            0.4997
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.727,
+            0.4446,
+            0.7383,
+            0.4997
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3369,
+            0.4602,
+            0.3483,
+            0.5153
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3769,
+            0.4602,
+            0.3883,
+            0.5153
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.417,
+            0.4602,
+            0.4283,
+            0.5153
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.457,
+            0.4602,
+            0.4683,
+            0.5153
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.497,
+            0.4602,
+            0.5083,
+            0.5153
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.537,
+            0.4602,
+            0.5483,
+            0.5153
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.577,
+            0.4602,
+            0.5883,
+            0.5153
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.617,
+            0.4602,
+            0.6283,
+            0.5153
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2565,
+            0.4968,
+            0.2678,
+            0.5519
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.727,
+            0.4968,
+            0.7383,
+            0.5519
+          ]
+        },
+        {
+          "text": "We need only",
+          "bbox": [
+            0.4306,
+            0.5355,
+            0.5568,
+            0.5906
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2565,
+            0.549,
+            0.2678,
+            0.6041
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.727,
+            0.549,
+            0.7383,
+            0.6041
+          ]
+        },
+        {
+          "text": "one line (wire).",
+          "bbox": [
+            0.424,
+            0.5981,
+            0.5635,
+            0.6532
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2565,
+            0.6012,
+            0.2678,
+            0.6563
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.727,
+            0.6012,
+            0.7383,
+            0.6563
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2565,
+            0.6534,
+            0.2678,
+            0.7085
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.727,
+            0.6534,
+            0.7383,
+            0.7085
+          ]
+        },
+        {
+          "text": "Parallel/serial",
+          "bbox": [
+            0.283,
+            0.6934,
+            0.408,
+            0.7485
+          ]
+        },
+        {
+          "text": "Serial/parallel",
+          "bbox": [
+            0.5699,
+            0.6934,
+            0.6974,
+            0.7485
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2565,
+            0.7056,
+            0.2678,
+            0.7607
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.727,
+            0.7056,
+            0.7383,
+            0.7607
+          ]
+        },
+        {
+          "text": "converter",
+          "bbox": [
+            0.3026,
+            0.7561,
+            0.3884,
+            0.8112
+          ]
+        },
+        {
+          "text": "converter",
+          "bbox": [
+            0.5907,
+            0.7561,
+            0.6765,
+            0.8112
+          ]
+        },
+        {
+          "text": "Sender",
+          "bbox": [
+            0.1897,
+            0.8333,
+            0.2529,
+            0.8884
+          ]
+        },
+        {
+          "text": "Receiver",
+          "bbox": [
+            0.7349,
+            0.8333,
+            0.8157,
+            0.8884
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_034",
+      "file": "ch04_ill_034.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.34",
+      "section_id": "ch04-4-3-2-asynchronous-transmission",
+      "alt": "Figure 4.34: Asynchronous transmission",
+      "sources": [
+        "book Figure 4.34; p.128"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 551,
+      "sha256": "51662e0b7e2e39b4cd98b6d0cb43d0d6d5e2bc8de6b428f7d032ef35b5a3d9cb",
+      "description": "Figure 4.34: Asynchronous transmission. An asynchronous bit stream frames each data unit with a start bit and stop bits. Gaps of arbitrary length separate the units, and an arrow shows the direction of flow.",
+      "structure": "An asynchronous bit stream frames each data unit with a start bit and stop bits. Gaps of arbitrary length separate the units, and an arrow shows the direction of flow.",
+      "text_in_image": "Direction of flow; Stop bit; Start bit; Sender; Receiver; Data; 1; 11111011; 0; 01101; 0; 1; 11111011; 0; 1; 00010111; 0; 1; 11; Gaps between; data units",
+      "use_when": "Teach ch04-4-3-2-asynchronous-transmission, interpret Figure 4.34, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 34,
+      "source_bbox": [
+        100.34,
+        48.52,
+        451.32,
+        231.74
+      ],
+      "labels": [
+        {
+          "text": "Direction of flow",
+          "bbox": [
+            0.4328,
+            0.1751,
+            0.5962,
+            0.2217
+          ]
+        },
+        {
+          "text": "Stop bit",
+          "bbox": [
+            0.3567,
+            0.2895,
+            0.4313,
+            0.3361
+          ]
+        },
+        {
+          "text": "Start bit",
+          "bbox": [
+            0.5941,
+            0.2895,
+            0.67,
+            0.3361
+          ]
+        },
+        {
+          "text": "Sender",
+          "bbox": [
+            0.0776,
+            0.3017,
+            0.1435,
+            0.3483
+          ]
+        },
+        {
+          "text": "Receiver",
+          "bbox": [
+            0.8479,
+            0.3017,
+            0.9322,
+            0.3483
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.491,
+            0.3254,
+            0.5358,
+            0.372
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4224,
+            0.4106,
+            0.4343,
+            0.4573
+          ]
+        },
+        {
+          "text": "11111011",
+          "bbox": [
+            0.4569,
+            0.4106,
+            0.5684,
+            0.4573
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5941,
+            0.4106,
+            0.606,
+            0.4573
+          ]
+        },
+        {
+          "text": "01101",
+          "bbox": [
+            0.1543,
+            0.6099,
+            0.2232,
+            0.6565
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2466,
+            0.6099,
+            0.2585,
+            0.6565
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3178,
+            0.6099,
+            0.3296,
+            0.6565
+          ]
+        },
+        {
+          "text": "11111011",
+          "bbox": [
+            0.3523,
+            0.6099,
+            0.4638,
+            0.6565
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4895,
+            0.6099,
+            0.5013,
+            0.6565
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5618,
+            0.6099,
+            0.5737,
+            0.6565
+          ]
+        },
+        {
+          "text": "00010111",
+          "bbox": [
+            0.5963,
+            0.6099,
+            0.7079,
+            0.6565
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7335,
+            0.6099,
+            0.7454,
+            0.6565
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8057,
+            0.6099,
+            0.8176,
+            0.6565
+          ]
+        },
+        {
+          "text": "11",
+          "bbox": [
+            0.8402,
+            0.6099,
+            0.8663,
+            0.6565
+          ]
+        },
+        {
+          "text": "Gaps between",
+          "bbox": [
+            0.4641,
+            0.8149,
+            0.5978,
+            0.8615
+          ]
+        },
+        {
+          "text": "data units",
+          "bbox": [
+            0.4851,
+            0.8695,
+            0.5768,
+            0.9162
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_035",
+      "file": "ch04_ill_035.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.35",
+      "section_id": "ch04-4-3-2-synchronous-transmission",
+      "alt": "Figure 4.35: Synchronous transmission",
+      "sources": [
+        "book Figure 4.35; p.129"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 485,
+      "sha256": "613e80606488a7672b1ff182f75cc2711abf0b700660773f0e6c66595fa36277",
+      "description": "Figure 4.35: Synchronous transmission. A synchronous transmission sends a continuous stream organized into frames, with no gaps between data units inside a frame; sender, receiver, frame boundaries, and flow direction are shown.",
+      "structure": "A synchronous transmission sends a continuous stream organized into frames, with no gaps between data units inside a frame; sender, receiver, frame boundaries, and flow direction are shown.",
+      "text_in_image": "Direction of flow; Frame; Frame; Frame; 11110011; 11111011; 11110110; 11110111; • • •; 11110111; Sender; Receiver",
+      "use_when": "Teach ch04-4-3-2-synchronous-transmission, interpret Figure 4.35, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 35,
+      "source_bbox": [
+        115.34,
+        48.52,
+        466.32,
+        209.72
+      ],
+      "labels": [
+        {
+          "text": "Direction of flow",
+          "bbox": [
+            0.3974,
+            0.2465,
+            0.5593,
+            0.2998
+          ]
+        },
+        {
+          "text": "Frame",
+          "bbox": [
+            0.0762,
+            0.3526,
+            0.1363,
+            0.4059
+          ]
+        },
+        {
+          "text": "Frame",
+          "bbox": [
+            0.2492,
+            0.3526,
+            0.3092,
+            0.4059
+          ]
+        },
+        {
+          "text": "Frame",
+          "bbox": [
+            0.76,
+            0.3526,
+            0.8201,
+            0.4059
+          ]
+        },
+        {
+          "text": "11110011",
+          "bbox": [
+            0.7783,
+            0.4926,
+            0.8888,
+            0.5459
+          ]
+        },
+        {
+          "text": "11111011",
+          "bbox": [
+            0.2666,
+            0.496,
+            0.3771,
+            0.5493
+          ]
+        },
+        {
+          "text": "11110110",
+          "bbox": [
+            0.3998,
+            0.496,
+            0.5103,
+            0.5493
+          ]
+        },
+        {
+          "text": "11110111",
+          "bbox": [
+            0.6049,
+            0.496,
+            0.7153,
+            0.5493
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.5396,
+            0.4968,
+            0.576,
+            0.5502
+          ]
+        },
+        {
+          "text": "11110111",
+          "bbox": [
+            0.0931,
+            0.4993,
+            0.2036,
+            0.5526
+          ]
+        },
+        {
+          "text": "Sender",
+          "bbox": [
+            0.0135,
+            0.8384,
+            0.0788,
+            0.8917
+          ]
+        },
+        {
+          "text": "Receiver",
+          "bbox": [
+            0.9081,
+            0.8384,
+            0.9916,
+            0.8917
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    },
+    {
+      "id": "ch04_ill_036",
+      "file": "ch04_ill_036.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 4.36",
+      "section_id": "ch04-q-p4-9",
+      "alt": "Figure 4.36: Problem P4-9",
+      "sources": [
+        "book Figure 4.36; p.132"
+      ],
+      "confidence": "high",
+      "width": 947,
+      "height": 753,
+      "sha256": "b35aff19c255fba21888731ccbafc0744d8fec83d4ef68f8c0278a905b651d43",
+      "description": "Figure 4.36: Problem P4-9. Three waveform panels for Problem P4-9 show NRZ-I, differential Manchester, and AMI signals on aligned bit intervals so the student can decode the corresponding eight-bit streams.",
+      "structure": "Three waveform panels for Problem P4-9 show NRZ-I, differential Manchester, and AMI signals on aligned bit intervals so the student can decode the corresponding eight-bit streams.",
+      "text_in_image": "Time; a. NRZ-I; Time; b. differential Manchester; Time; c. AMI",
+      "use_when": "Teach ch04-q-p4-9, interpret Figure 4.36, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 38,
+      "source_bbox": [
+        135.68,
+        296.92,
+        451.32,
+        547.46
+      ],
+      "labels": [
+        {
+          "text": "Time",
+          "bbox": [
+            0.7182,
+            0.2724,
+            0.7708,
+            0.3043
+          ]
+        },
+        {
+          "text": "a. NRZ-I",
+          "bbox": [
+            0.4143,
+            0.3463,
+            0.5058,
+            0.3782
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.7182,
+            0.5338,
+            0.7708,
+            0.5657
+          ]
+        },
+        {
+          "text": "b. differential Manchester",
+          "bbox": [
+            0.3206,
+            0.6243,
+            0.5815,
+            0.6562
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.7182,
+            0.8042,
+            0.7708,
+            0.8361
+          ]
+        },
+        {
+          "text": "c. AMI",
+          "bbox": [
+            0.4253,
+            0.8842,
+            0.4971,
+            0.9161
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:07:29+00:00"
+      }
+    }
+  ]
+}

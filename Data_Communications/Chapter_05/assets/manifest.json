@@ -1,0 +1,3260 @@
+{
+  "chapter": 5,
+  "spec_version": "1.1-controller",
+  "generated_at": "2026-10-07T03:08:10+00:00",
+  "assets": [
+    {
+      "id": "ch05_ill_001",
+      "file": "ch05_ill_001.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 5.1",
+      "section_id": "ch05-5-1",
+      "alt": "Figure 5.1: Digital-to-analog conversion",
+      "sources": [
+        "book Figure 5.1; p.136"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 423,
+      "sha256": "926aee47184b27ea41e9731bb93b2fd6a2b8786f2278f926b2ed7fbc679d3cf0",
+      "description": "Figure 5.1: Digital-to-analog conversion. A left-to-right communication path sends digital data into a modulator, carries the resulting analog signal across the link, and uses a demodulator to recover digital data at the receiver.",
+      "structure": "A left-to-right communication path sends digital data into a modulator, carries the resulting analog signal across the link, and uses a demodulator to recover digital data at the receiver.",
+      "text_in_image": "Sender; Receiver; Analog signal; Digital data; Digital data; 0 1 0 1  …  1 0 1; 0 1 0 1  …  1 0 1; Link; Modulator; Demodulator",
+      "use_when": "Teach ch05-5-1, interpret Figure 5.1, compare modulation methods, or support a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 2,
+      "source_bbox": [
+        99.32,
+        134.86,
+        451.32,
+        275.6
+      ],
+      "labels": [
+        {
+          "text": "Sender",
+          "bbox": [
+            0.1807,
+            0.2044,
+            0.2423,
+            0.2586
+          ]
+        },
+        {
+          "text": "Receiver",
+          "bbox": [
+            0.7486,
+            0.2044,
+            0.8266,
+            0.2586
+          ]
+        },
+        {
+          "text": "Analog signal",
+          "bbox": [
+            0.4328,
+            0.3837,
+            0.5567,
+            0.4379
+          ]
+        },
+        {
+          "text": "Digital data",
+          "bbox": [
+            0.0487,
+            0.4175,
+            0.1528,
+            0.4716
+          ]
+        },
+        {
+          "text": "Digital data",
+          "bbox": [
+            0.8479,
+            0.4177,
+            0.9521,
+            0.4718
+          ]
+        },
+        {
+          "text": "0 1 0 1  …  1 0 1",
+          "bbox": [
+            0.0301,
+            0.505,
+            0.1723,
+            0.5731
+          ]
+        },
+        {
+          "text": "0 1 0 1  …  1 0 1",
+          "bbox": [
+            0.8293,
+            0.505,
+            0.9716,
+            0.5731
+          ]
+        },
+        {
+          "text": "Link",
+          "bbox": [
+            0.4765,
+            0.722,
+            0.5184,
+            0.7761
+          ]
+        },
+        {
+          "text": "Modulator",
+          "bbox": [
+            0.1717,
+            0.7645,
+            0.2654,
+            0.8186
+          ]
+        },
+        {
+          "text": "Demodulator",
+          "bbox": [
+            0.7345,
+            0.7645,
+            0.8516,
+            0.8186
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:12:30+00:00"
+      }
+    },
+    {
+      "id": "ch05_ill_002",
+      "file": "ch05_ill_002.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 5.2",
+      "section_id": "ch05-5-1",
+      "alt": "Figure 5.2: Types of digital-to-analog conversion",
+      "sources": [
+        "book Figure 5.2; p.136"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 462,
+      "sha256": "f3bbdb5b5164318ac313378d32870c11e2ec7371c8a44b391c0e8866090f7c75",
+      "description": "Figure 5.2: Types of digital-to-analog conversion. A classification tree branches digital-to-analog conversion into ASK, FSK, PSK, and QAM, with each abbreviation attached to its full modulation name.",
+      "structure": "A classification tree branches digital-to-analog conversion into ASK, FSK, PSK, and QAM, with each abbreviation attached to its full modulation name.",
+      "text_in_image": "Digital-to-analog; conversion; Amplitude shift keying; Frequency shift keying; Phase shift keying; (ASK); (FSK); (PSK); Quadrature amplitude modulation; (QAM)",
+      "use_when": "Teach ch05-5-1, interpret Figure 5.2, compare modulation methods, or support a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 2,
+      "source_bbox": [
+        99.32,
+        414.46,
+        451.32,
+        568.22
+      ],
+      "labels": [
+        {
+          "text": "Digital-to-analog",
+          "bbox": [
+            0.4222,
+            0.2135,
+            0.5788,
+            0.2655
+          ]
+        },
+        {
+          "text": "conversion",
+          "bbox": [
+            0.4506,
+            0.2759,
+            0.5504,
+            0.328
+          ]
+        },
+        {
+          "text": "Amplitude shift keying",
+          "bbox": [
+            0.0582,
+            0.533,
+            0.269,
+            0.5851
+          ]
+        },
+        {
+          "text": "Frequency shift keying",
+          "bbox": [
+            0.395,
+            0.533,
+            0.6046,
+            0.5851
+          ]
+        },
+        {
+          "text": "Phase shift keying",
+          "bbox": [
+            0.7534,
+            0.533,
+            0.92,
+            0.5851
+          ]
+        },
+        {
+          "text": "(ASK)",
+          "bbox": [
+            0.1333,
+            0.5955,
+            0.1939,
+            0.6475
+          ]
+        },
+        {
+          "text": "(FSK)",
+          "bbox": [
+            0.4714,
+            0.5955,
+            0.5282,
+            0.6475
+          ]
+        },
+        {
+          "text": "(PSK)",
+          "bbox": [
+            0.8083,
+            0.5955,
+            0.8651,
+            0.6475
+          ]
+        },
+        {
+          "text": "Quadrature amplitude modulation",
+          "bbox": [
+            0.3318,
+            0.7825,
+            0.669,
+            0.8345
+          ]
+        },
+        {
+          "text": "(QAM)",
+          "bbox": [
+            0.4651,
+            0.8449,
+            0.5357,
+            0.8969
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:12:30+00:00"
+      }
+    },
+    {
+      "id": "ch05_ill_003",
+      "file": "ch05_ill_003.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 5.3",
+      "section_id": "ch05-5-1-2-binary-ask-bask",
+      "alt": "Figure 5.3: Binary amplitude shift keying",
+      "sources": [
+        "book Figure 5.3; p.138"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 423,
+      "sha256": "7d9869400352729a8daf4ff1c0e1f0fd2178e3f26c106711f0b20acb5cfb9ec3",
+      "description": "Figure 5.3: Binary amplitude shift keying. Aligned panels show the input bits, the on-off keyed carrier, five one-second signal elements, and the centered frequency spectrum. The annotations connect r = 1, S = N, and B = (1 + d)S.",
+      "structure": "Aligned panels show the input bits, the on-off keyed carrier, five one-second signal elements, and the centered frequency spectrum. The annotations connect r = 1, S = N, and B = (1 + d)S.",
+      "text_in_image": "Amplitude; Bit rate: 5; 1; 0; 1; 1; 0; r = 1; B = (1 + d)S; S = N; Bandwidth; Time; 1 signal; 1 signal; 1 signal; 1 signal; 1 signal; element; element; element; element; element; 0; 1 s; 0; fc; Baud rate: 5",
+      "use_when": "Teach ch05-5-1-2-binary-ask-bask, interpret Figure 5.3, compare modulation methods, or support a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 4,
+      "source_bbox": [
+        99.32,
+        337.9,
+        451.32,
+        478.46
+      ],
+      "labels": [
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.0146,
+            0.2208,
+            0.1129,
+            0.278
+          ]
+        },
+        {
+          "text": "Bit rate: 5",
+          "bbox": [
+            0.2744,
+            0.2283,
+            0.3664,
+            0.2856
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1122,
+            0.3325,
+            0.1237,
+            0.3897
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2139,
+            0.3325,
+            0.2254,
+            0.3897
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3146,
+            0.3325,
+            0.3261,
+            0.3897
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4223,
+            0.3325,
+            0.4338,
+            0.3897
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5314,
+            0.3325,
+            0.5429,
+            0.3897
+          ]
+        },
+        {
+          "text": "r = 1",
+          "bbox": [
+            0.7023,
+            0.3323,
+            0.7471,
+            0.4009
+          ]
+        },
+        {
+          "text": "B = (1 + d)S",
+          "bbox": [
+            0.8613,
+            0.3323,
+            0.9768,
+            0.4009
+          ]
+        },
+        {
+          "text": "S = N",
+          "bbox": [
+            0.7785,
+            0.3329,
+            0.8298,
+            0.4015
+          ]
+        },
+        {
+          "text": "Bandwidth",
+          "bbox": [
+            0.793,
+            0.492,
+            0.8939,
+            0.5492
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.5985,
+            0.5249,
+            0.647,
+            0.5821
+          ]
+        },
+        {
+          "text": "1 signal",
+          "bbox": [
+            0.0762,
+            0.5983,
+            0.1483,
+            0.6555
+          ]
+        },
+        {
+          "text": "1 signal",
+          "bbox": [
+            0.1837,
+            0.5983,
+            0.2558,
+            0.6555
+          ]
+        },
+        {
+          "text": "1 signal",
+          "bbox": [
+            0.2843,
+            0.5983,
+            0.3564,
+            0.6555
+          ]
+        },
+        {
+          "text": "1 signal",
+          "bbox": [
+            0.392,
+            0.5983,
+            0.4641,
+            0.6555
+          ]
+        },
+        {
+          "text": "1 signal",
+          "bbox": [
+            0.5011,
+            0.5983,
+            0.5733,
+            0.6555
+          ]
+        },
+        {
+          "text": "element",
+          "bbox": [
+            0.0759,
+            0.6666,
+            0.1486,
+            0.7238
+          ]
+        },
+        {
+          "text": "element",
+          "bbox": [
+            0.1833,
+            0.6666,
+            0.2561,
+            0.7238
+          ]
+        },
+        {
+          "text": "element",
+          "bbox": [
+            0.284,
+            0.6666,
+            0.3567,
+            0.7238
+          ]
+        },
+        {
+          "text": "element",
+          "bbox": [
+            0.3917,
+            0.6666,
+            0.4644,
+            0.7238
+          ]
+        },
+        {
+          "text": "element",
+          "bbox": [
+            0.5008,
+            0.6666,
+            0.5736,
+            0.7238
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7056,
+            0.7266,
+            0.7171,
+            0.7839
+          ]
+        },
+        {
+          "text": "1 s",
+          "bbox": [
+            0.3073,
+            0.7604,
+            0.3335,
+            0.8177
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7248,
+            0.7842,
+            0.7363,
+            0.8415
+          ]
+        },
+        {
+          "text": "fc",
+          "bbox": [
+            0.8366,
+            0.8001,
+            0.8506,
+            0.8684
+          ]
+        },
+        {
+          "text": "Baud rate: 5",
+          "bbox": [
+            0.2642,
+            0.8318,
+            0.3766,
+            0.889
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:12:30+00:00"
+      }
+    },
+    {
+      "id": "ch05_ill_004",
+      "file": "ch05_ill_004.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 5.4",
+      "section_id": "ch05-5-1-2-implementation",
+      "alt": "Figure 5.4: Implementation of binary ASK",
+      "sources": [
+        "book Figure 5.4; p.139"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 434,
+      "sha256": "bf639527ab90db36d517780545c4a4ed601caff981f21a8802143bb3d2202d0b",
+      "description": "Figure 5.4: Implementation of binary ASK. A unipolar NRZ bit stream and a carrier oscillator feed a multiplier. The output preserves the carrier for bit 1 and suppresses it for bit 0, producing binary ASK.",
+      "structure": "A unipolar NRZ bit stream and a carrier oscillator feed a multiplier. The output preserves the carrier for bit 1 and suppresses it for bit 0, producing binary ASK.",
+      "text_in_image": "1; 0; 1; 1; 0; Multiplier; Carrier signal; fc; Modulated signal; Oscillator",
+      "use_when": "Teach ch05-5-1-2-implementation, interpret Figure 5.4, compare modulation methods, or support a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 5,
+      "source_bbox": [
+        114.32,
+        197.86,
+        466.32,
+        342.2
+      ],
+      "labels": [
+        {
+          "text": "1",
+          "bbox": [
+            0.0589,
+            0.2981,
+            0.0699,
+            0.3526
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1393,
+            0.2981,
+            0.1503,
+            0.3526
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2162,
+            0.2981,
+            0.2272,
+            0.3526
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.299,
+            0.2981,
+            0.3099,
+            0.3526
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3823,
+            0.2981,
+            0.3933,
+            0.3526
+          ]
+        },
+        {
+          "text": "Multiplier",
+          "bbox": [
+            0.7054,
+            0.3346,
+            0.7944,
+            0.3891
+          ]
+        },
+        {
+          "text": "Carrier signal",
+          "bbox": [
+            0.2011,
+            0.4949,
+            0.3211,
+            0.5493
+          ]
+        },
+        {
+          "text": "fc",
+          "bbox": [
+            0.8005,
+            0.6439,
+            0.8139,
+            0.7104
+          ]
+        },
+        {
+          "text": "Modulated signal",
+          "bbox": [
+            0.1874,
+            0.7171,
+            0.3404,
+            0.7716
+          ]
+        },
+        {
+          "text": "Oscillator",
+          "bbox": [
+            0.7061,
+            0.8074,
+            0.7927,
+            0.8618
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:12:30+00:00"
+      }
+    },
+    {
+      "id": "ch05_ill_005",
+      "file": "ch05_ill_005.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 5.5",
+      "section_id": "ch05-example-5-4",
+      "alt": "Figure 5.5: Bandwidth of full-duplex ASK used in Example 5.4",
+      "sources": [
+        "book Figure 5.5; p.140"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 279,
+      "sha256": "2eec2665ac4be4e781789bcf514bcc75dd2aa7f06fc446c0a409af5f75d5e8c2",
+      "description": "Figure 5.5: Bandwidth of full-duplex ASK used in Example 5.4. The 200-to-300 kHz channel is divided into two 50 kHz bands centered at 225 and 275 kHz, supporting simultaneous ASK transmission in opposite directions.",
+      "structure": "The 200-to-300 kHz channel is divided into two 50 kHz bands centered at 225 and 275 kHz, supporting simultaneous ASK transmission in opposite directions.",
+      "text_in_image": "B = 50 kHz; B = 50 kHz; fc1; fc2; 200; 300; (225); (275)",
+      "use_when": "Teach ch05-example-5-4, interpret Figure 5.5, compare modulation methods, or support a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 6,
+      "source_bbox": [
+        99.32,
+        78.88,
+        451.32,
+        171.62
+      ],
+      "labels": [
+        {
+          "text": "B = 50 kHz",
+          "bbox": [
+            0.3764,
+            0.3452,
+            0.4859,
+            0.4526
+          ]
+        },
+        {
+          "text": "B = 50 kHz",
+          "bbox": [
+            0.5215,
+            0.3452,
+            0.631,
+            0.4526
+          ]
+        },
+        {
+          "text": "fc1",
+          "bbox": [
+            0.4208,
+            0.5999,
+            0.4444,
+            0.7066
+          ]
+        },
+        {
+          "text": "fc2",
+          "bbox": [
+            0.566,
+            0.6,
+            0.5895,
+            0.7066
+          ]
+        },
+        {
+          "text": "200",
+          "bbox": [
+            0.3426,
+            0.7708,
+            0.3784,
+            0.8605
+          ]
+        },
+        {
+          "text": "300",
+          "bbox": [
+            0.6289,
+            0.7708,
+            0.6646,
+            0.8605
+          ]
+        },
+        {
+          "text": "(225)",
+          "bbox": [
+            0.404,
+            0.8077,
+            0.4556,
+            0.8973
+          ]
+        },
+        {
+          "text": "(275)",
+          "bbox": [
+            0.5491,
+            0.8077,
+            0.6008,
+            0.8973
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:12:30+00:00"
+      }
+    },
+    {
+      "id": "ch05_ill_006",
+      "file": "ch05_ill_006.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 5.6",
+      "section_id": "ch05-5-1-3-binary-fsk-bfsk",
+      "alt": "Figure 5.6: Binary frequency shift keying",
+      "sources": [
+        "book Figure 5.6; p.140"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 468,
+      "sha256": "db87efe4097ae0e0a04a3ba43528a7d21864006c0709e5ceae04627d7977d983",
+      "description": "Figure 5.6: Binary frequency shift keying. The same bit stream selects between two carrier frequencies f1 and f2. Two adjacent spectra are separated by 2Δf, and the diagram states B = (1 + d)S + 2Δf with r = 1 and S = N.",
+      "structure": "The same bit stream selects between two carrier frequencies f1 and f2. Two adjacent spectra are separated by 2Δf, and the diagram states B = (1 + d)S + 2Δf with r = 1 and S = N.",
+      "text_in_image": "Amplitude; r = 1; S = N; B = (1 + d)S + 2Δf; Bit rate: 5; 1; 0; 1; 1; 0; B = S(1 + d) + 2Δf; S(1 + d); S(1 + d); Time; 1 signal; 1 signal; 1 signal; 1 signal; 1 signal; element; element; element; element; element; 0; 0; f1; f2; 1 s; Baud rate: 5; 2Δf",
+      "use_when": "Teach ch05-5-1-3-binary-fsk-bfsk, interpret Figure 5.6, compare modulation methods, or support a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 6,
+      "source_bbox": [
+        99.32,
+        424.48,
+        451.32,
+        580.28
+      ],
+      "labels": [
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.0223,
+            0.1774,
+            0.1162,
+            0.2281
+          ]
+        },
+        {
+          "text": "r = 1",
+          "bbox": [
+            0.6584,
+            0.2407,
+            0.7012,
+            0.3017
+          ]
+        },
+        {
+          "text": "S = N",
+          "bbox": [
+            0.7219,
+            0.2407,
+            0.7709,
+            0.3017
+          ]
+        },
+        {
+          "text": "B = (1 + d)S + 2Δf",
+          "bbox": [
+            0.7912,
+            0.2407,
+            0.9616,
+            0.3017
+          ]
+        },
+        {
+          "text": "Bit rate: 5",
+          "bbox": [
+            0.2737,
+            0.2476,
+            0.3615,
+            0.2983
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1126,
+            0.3257,
+            0.1235,
+            0.3764
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2116,
+            0.3257,
+            0.2226,
+            0.3764
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3106,
+            0.3257,
+            0.3216,
+            0.3764
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4097,
+            0.3257,
+            0.4206,
+            0.3764
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5087,
+            0.3257,
+            0.5197,
+            0.3764
+          ]
+        },
+        {
+          "text": "B = S(1 + d) + 2Δf",
+          "bbox": [
+            0.7458,
+            0.3569,
+            0.8934,
+            0.4103
+          ]
+        },
+        {
+          "text": "S(1 + d)",
+          "bbox": [
+            0.738,
+            0.4471,
+            0.8076,
+            0.5005
+          ]
+        },
+        {
+          "text": "S(1 + d)",
+          "bbox": [
+            0.8283,
+            0.4471,
+            0.8978,
+            0.5005
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.5779,
+            0.5148,
+            0.6242,
+            0.5654
+          ]
+        },
+        {
+          "text": "1 signal",
+          "bbox": [
+            0.0837,
+            0.5766,
+            0.1525,
+            0.6272
+          ]
+        },
+        {
+          "text": "1 signal",
+          "bbox": [
+            0.1827,
+            0.5766,
+            0.2516,
+            0.6272
+          ]
+        },
+        {
+          "text": "1 signal",
+          "bbox": [
+            0.2817,
+            0.5766,
+            0.3506,
+            0.6272
+          ]
+        },
+        {
+          "text": "1 signal",
+          "bbox": [
+            0.3807,
+            0.5766,
+            0.4496,
+            0.6272
+          ]
+        },
+        {
+          "text": "1 signal",
+          "bbox": [
+            0.4798,
+            0.5766,
+            0.5486,
+            0.6272
+          ]
+        },
+        {
+          "text": "element",
+          "bbox": [
+            0.0833,
+            0.6302,
+            0.1528,
+            0.6808
+          ]
+        },
+        {
+          "text": "element",
+          "bbox": [
+            0.1824,
+            0.6302,
+            0.2518,
+            0.6808
+          ]
+        },
+        {
+          "text": "element",
+          "bbox": [
+            0.2814,
+            0.6302,
+            0.3509,
+            0.6808
+          ]
+        },
+        {
+          "text": "element",
+          "bbox": [
+            0.3804,
+            0.6302,
+            0.4499,
+            0.6808
+          ]
+        },
+        {
+          "text": "element",
+          "bbox": [
+            0.4794,
+            0.6302,
+            0.5489,
+            0.6808
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6631,
+            0.6453,
+            0.6741,
+            0.6959
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6817,
+            0.6917,
+            0.6926,
+            0.7423
+          ]
+        },
+        {
+          "text": "f1",
+          "bbox": [
+            0.7622,
+            0.7055,
+            0.7765,
+            0.7598
+          ]
+        },
+        {
+          "text": "f2",
+          "bbox": [
+            0.8602,
+            0.7055,
+            0.8745,
+            0.7598
+          ]
+        },
+        {
+          "text": "1 s",
+          "bbox": [
+            0.3165,
+            0.7235,
+            0.3415,
+            0.7741
+          ]
+        },
+        {
+          "text": "Baud rate: 5",
+          "bbox": [
+            0.2754,
+            0.7959,
+            0.3826,
+            0.8465
+          ]
+        },
+        {
+          "text": "2Δf",
+          "bbox": [
+            0.792,
+            0.8047,
+            0.833,
+            0.8657
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:12:30+00:00"
+      }
+    },
+    {
+      "id": "ch05_ill_007",
+      "file": "ch05_ill_007.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 5.7",
+      "section_id": "ch05-5-1-3-multilevel-fsk",
+      "alt": "Figure 5.7: Implementation of BFSK",
+      "sources": [
+        "book Figure 5.7; p.142"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 418,
+      "sha256": "f80cb8fc8c82093d3a70a48c8757a305236835d117ad5e7fd1270c0ff8373e29",
+      "description": "Figure 5.7: Implementation of BFSK. A unipolar NRZ input controls a voltage-controlled oscillator. Low and high input levels select the two BFSK frequencies while preserving a continuous phase in the coherent implementation.",
+      "structure": "A unipolar NRZ input controls a voltage-controlled oscillator. Low and high input levels select the two BFSK frequencies while preserving a continuous phase in the coherent implementation.",
+      "text_in_image": "1; 0; 1; 1; 0; VCO; Voltage-controlled; oscillator",
+      "use_when": "Teach ch05-5-1-3-multilevel-fsk, interpret Figure 5.7, compare modulation methods, or support a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 8,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        186.92
+      ],
+      "labels": [
+        {
+          "text": "1",
+          "bbox": [
+            0.1019,
+            0.3144,
+            0.1133,
+            0.3732
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1768,
+            0.3144,
+            0.1882,
+            0.3732
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2513,
+            0.3144,
+            0.2627,
+            0.3732
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3258,
+            0.3144,
+            0.3372,
+            0.3732
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4004,
+            0.3144,
+            0.4118,
+            0.3732
+          ]
+        },
+        {
+          "text": "VCO",
+          "bbox": [
+            0.7074,
+            0.5871,
+            0.7555,
+            0.6459
+          ]
+        },
+        {
+          "text": "Voltage-controlled",
+          "bbox": [
+            0.6467,
+            0.6872,
+            0.816,
+            0.7459
+          ]
+        },
+        {
+          "text": "oscillator",
+          "bbox": [
+            0.6889,
+            0.7473,
+            0.7738,
+            0.8061
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:12:30+00:00"
+      }
+    },
+    {
+      "id": "ch05_ill_008",
+      "file": "ch05_ill_008.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 5.8",
+      "section_id": "ch05-example-5-6",
+      "alt": "Figure 5.8: Bandwidth of MFSK used in Example 5.6",
+      "sources": [
+        "book Figure 5.8; p.142"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 352,
+      "sha256": "412585a842b7f577ef2d5ffbf18b789b8c63edd4b3273be336faf309bffa50d9",
+      "description": "Figure 5.8: Bandwidth of MFSK used in Example 5.6. Eight 1 MHz-wide MFSK bands are arranged from 6.5 to 13.5 MHz around a 10 MHz center. Their total occupied bandwidth is 8 MHz.",
+      "structure": "Eight 1 MHz-wide MFSK bands are arranged from 6.5 to 13.5 MHz around a 10 MHz center. Their total occupied bandwidth is 8 MHz.",
+      "text_in_image": "Bandwidth = 8 MHz; f1; f2; f3; f4; fc; f5; f6; f7; f8; 6.5; 7.5; 8.5; 9.5; 10.5; 11.5; 12.5; 13.5; 10; MHz; MHz; MHz; MHz; MHz; MHz; MHz; MHz; MHz",
+      "use_when": "Teach ch05-example-5-6, interpret Figure 5.8, compare modulation methods, or support a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 8,
+      "source_bbox": [
+        99.32,
+        328.78,
+        451.32,
+        445.88
+      ],
+      "labels": [
+        {
+          "text": "Bandwidth = 8 MHz",
+          "bbox": [
+            0.4072,
+            0.2562,
+            0.5962,
+            0.3247
+          ]
+        },
+        {
+          "text": "f1",
+          "bbox": [
+            0.1128,
+            0.6907,
+            0.1277,
+            0.7624
+          ]
+        },
+        {
+          "text": "f2",
+          "bbox": [
+            0.2202,
+            0.6907,
+            0.2351,
+            0.7624
+          ]
+        },
+        {
+          "text": "f3",
+          "bbox": [
+            0.3275,
+            0.6907,
+            0.3425,
+            0.7624
+          ]
+        },
+        {
+          "text": "f4",
+          "bbox": [
+            0.4349,
+            0.6907,
+            0.4498,
+            0.7624
+          ]
+        },
+        {
+          "text": "fc",
+          "bbox": [
+            0.4938,
+            0.6907,
+            0.509,
+            0.7726
+          ]
+        },
+        {
+          "text": "f5",
+          "bbox": [
+            0.553,
+            0.6907,
+            0.5679,
+            0.7624
+          ]
+        },
+        {
+          "text": "f6",
+          "bbox": [
+            0.6604,
+            0.6907,
+            0.6753,
+            0.7624
+          ]
+        },
+        {
+          "text": "f7",
+          "bbox": [
+            0.7677,
+            0.6907,
+            0.7827,
+            0.7624
+          ]
+        },
+        {
+          "text": "f8",
+          "bbox": [
+            0.8751,
+            0.6907,
+            0.89,
+            0.7624
+          ]
+        },
+        {
+          "text": "6.5",
+          "bbox": [
+            0.106,
+            0.7744,
+            0.1346,
+            0.8429
+          ]
+        },
+        {
+          "text": "7.5",
+          "bbox": [
+            0.2133,
+            0.7744,
+            0.2419,
+            0.8429
+          ]
+        },
+        {
+          "text": "8.5",
+          "bbox": [
+            0.3207,
+            0.7744,
+            0.3493,
+            0.8429
+          ]
+        },
+        {
+          "text": "9.5",
+          "bbox": [
+            0.4281,
+            0.7744,
+            0.4567,
+            0.8429
+          ]
+        },
+        {
+          "text": "10.5",
+          "bbox": [
+            0.5405,
+            0.7744,
+            0.5805,
+            0.8429
+          ]
+        },
+        {
+          "text": "11.5",
+          "bbox": [
+            0.6478,
+            0.7744,
+            0.6879,
+            0.8429
+          ]
+        },
+        {
+          "text": "12.5",
+          "bbox": [
+            0.7552,
+            0.7744,
+            0.7952,
+            0.8429
+          ]
+        },
+        {
+          "text": "13.5",
+          "bbox": [
+            0.8625,
+            0.7744,
+            0.9026,
+            0.8429
+          ]
+        },
+        {
+          "text": "10",
+          "bbox": [
+            0.49,
+            0.7916,
+            0.5129,
+            0.8602
+          ]
+        },
+        {
+          "text": "MHz",
+          "bbox": [
+            0.0967,
+            0.8525,
+            0.1438,
+            0.921
+          ]
+        },
+        {
+          "text": "MHz",
+          "bbox": [
+            0.2041,
+            0.8525,
+            0.2511,
+            0.921
+          ]
+        },
+        {
+          "text": "MHz",
+          "bbox": [
+            0.3115,
+            0.8525,
+            0.3585,
+            0.921
+          ]
+        },
+        {
+          "text": "MHz",
+          "bbox": [
+            0.4188,
+            0.8525,
+            0.4659,
+            0.921
+          ]
+        },
+        {
+          "text": "MHz",
+          "bbox": [
+            0.537,
+            0.8525,
+            0.584,
+            0.921
+          ]
+        },
+        {
+          "text": "MHz",
+          "bbox": [
+            0.6443,
+            0.8525,
+            0.6914,
+            0.921
+          ]
+        },
+        {
+          "text": "MHz",
+          "bbox": [
+            0.7517,
+            0.8525,
+            0.7987,
+            0.921
+          ]
+        },
+        {
+          "text": "MHz",
+          "bbox": [
+            0.859,
+            0.8525,
+            0.9061,
+            0.921
+          ]
+        },
+        {
+          "text": "MHz",
+          "bbox": [
+            0.4766,
+            0.8697,
+            0.5262,
+            0.9383
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:12:30+00:00"
+      }
+    },
+    {
+      "id": "ch05_ill_009",
+      "file": "ch05_ill_009.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 5.9",
+      "section_id": "ch05-5-1-4-binary-psk-bpsk",
+      "alt": "Figure 5.9: Binary phase shift keying",
+      "sources": [
+        "book Figure 5.9; p.143"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 429,
+      "sha256": "439eb76adb3e1490b4958baefd4061cc0117b8e816b38daf379bccc4c9649b40",
+      "description": "Figure 5.9: Binary phase shift keying. Aligned panels show a five-bit input, the binary phase-shift-keyed carrier, signal-element boundaries, and its centered spectrum. The annotations connect r = 1, S = N, and B = (1 + d)S.",
+      "structure": "Aligned panels show a five-bit input, the binary phase-shift-keyed carrier, signal-element boundaries, and its centered spectrum. The annotations connect r = 1, S = N, and B = (1 + d)S.",
+      "text_in_image": "Bit rate: 5; Amplitude; r = 1; S = N; B = (1 + d)S; 1; 0; 1; 1; 0; Bandwidth; Time; 1 signal; 1 signal; 1 signal; 1 signal; 1 signal; element; element; element; element; element; 0; 0; 1 s; fc; Baud rate: 5",
+      "use_when": "Teach ch05-5-1-4-binary-psk-bpsk, interpret Figure 5.9, compare modulation methods, or support a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 9,
+      "source_bbox": [
+        115.34,
+        47.8,
+        466.32,
+        190.64
+      ],
+      "labels": [
+        {
+          "text": "Bit rate: 5",
+          "bbox": [
+            0.2663,
+            0.2112,
+            0.3556,
+            0.2666
+          ]
+        },
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.015,
+            0.2129,
+            0.1105,
+            0.2683
+          ]
+        },
+        {
+          "text": "r = 1",
+          "bbox": [
+            0.6677,
+            0.2903,
+            0.7112,
+            0.3569
+          ]
+        },
+        {
+          "text": "S = N",
+          "bbox": [
+            0.7672,
+            0.2903,
+            0.817,
+            0.3569
+          ]
+        },
+        {
+          "text": "B = (1 + d)S",
+          "bbox": [
+            0.8595,
+            0.2903,
+            0.9717,
+            0.3569
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1068,
+            0.3095,
+            0.118,
+            0.3649
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2061,
+            0.3095,
+            0.2173,
+            0.3649
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3055,
+            0.3095,
+            0.3166,
+            0.3649
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4048,
+            0.3095,
+            0.4159,
+            0.3649
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5041,
+            0.3095,
+            0.5153,
+            0.3649
+          ]
+        },
+        {
+          "text": "Bandwidth",
+          "bbox": [
+            0.7902,
+            0.4571,
+            0.8882,
+            0.5126
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.5741,
+            0.5133,
+            0.6212,
+            0.5687
+          ]
+        },
+        {
+          "text": "1 signal",
+          "bbox": [
+            0.0774,
+            0.5884,
+            0.1475,
+            0.6438
+          ]
+        },
+        {
+          "text": "1 signal",
+          "bbox": [
+            0.1767,
+            0.5884,
+            0.2468,
+            0.6438
+          ]
+        },
+        {
+          "text": "1 signal",
+          "bbox": [
+            0.276,
+            0.5884,
+            0.3461,
+            0.6438
+          ]
+        },
+        {
+          "text": "1 signal",
+          "bbox": [
+            0.3753,
+            0.5884,
+            0.4454,
+            0.6438
+          ]
+        },
+        {
+          "text": "1 signal",
+          "bbox": [
+            0.4746,
+            0.5884,
+            0.5447,
+            0.6438
+          ]
+        },
+        {
+          "text": "element",
+          "bbox": [
+            0.0771,
+            0.6465,
+            0.1477,
+            0.7019
+          ]
+        },
+        {
+          "text": "element",
+          "bbox": [
+            0.1764,
+            0.6465,
+            0.2471,
+            0.7019
+          ]
+        },
+        {
+          "text": "element",
+          "bbox": [
+            0.2757,
+            0.6465,
+            0.3464,
+            0.7019
+          ]
+        },
+        {
+          "text": "element",
+          "bbox": [
+            0.375,
+            0.6465,
+            0.4457,
+            0.7019
+          ]
+        },
+        {
+          "text": "element",
+          "bbox": [
+            0.4743,
+            0.6465,
+            0.545,
+            0.7019
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6652,
+            0.6835,
+            0.6763,
+            0.7389
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6842,
+            0.7354,
+            0.6954,
+            0.7908
+          ]
+        },
+        {
+          "text": "1 s",
+          "bbox": [
+            0.2982,
+            0.7447,
+            0.3237,
+            0.8001
+          ]
+        },
+        {
+          "text": "fc",
+          "bbox": [
+            0.8371,
+            0.7497,
+            0.8507,
+            0.8169
+          ]
+        },
+        {
+          "text": "Baud rate: 5",
+          "bbox": [
+            0.2564,
+            0.8115,
+            0.3655,
+            0.8669
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:12:30+00:00"
+      }
+    },
+    {
+      "id": "ch05_ill_010",
+      "file": "ch05_ill_010.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 5.10",
+      "section_id": "ch05-5-1-4-implementation",
+      "alt": "Figure 5.10: BPSK multiplier implementation (source caption: Implementation of BASK)",
+      "sources": [
+        "book Figure 5.10; p.143"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 424,
+      "sha256": "d53633847e8d03fa206248c70035961dc4ec30274917777a768f64fe90af43c3",
+      "description": "Figure 5.10: BPSK multiplier implementation (source caption: Implementation of BASK). A polar NRZ waveform and a carrier oscillator feed a multiplier. Positive and negative input levels produce carrier phases separated by 180 degrees, implementing BPSK; the book caption itself says BASK.",
+      "structure": "A polar NRZ waveform and a carrier oscillator feed a multiplier. Positive and negative input levels produce carrier phases separated by 180 degrees, implementing BPSK; the book caption itself says BASK.",
+      "text_in_image": "1; 0; 1; 1; 0; Multiplier; Carrier signal; fc; Modulated signal; Oscillator",
+      "use_when": "Teach ch05-5-1-4-implementation, interpret Figure 5.10, compare modulation methods, or support a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 9,
+      "source_bbox": [
+        114.32,
+        411.46,
+        466.32,
+        552.56
+      ],
+      "labels": [
+        {
+          "text": "1",
+          "bbox": [
+            0.0895,
+            0.2564,
+            0.1006,
+            0.3123
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1662,
+            0.2564,
+            0.1772,
+            0.3123
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2428,
+            0.2564,
+            0.2539,
+            0.3123
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3195,
+            0.2564,
+            0.3305,
+            0.3123
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3962,
+            0.2564,
+            0.4072,
+            0.3123
+          ]
+        },
+        {
+          "text": "Multiplier",
+          "bbox": [
+            0.6953,
+            0.2815,
+            0.785,
+            0.3374
+          ]
+        },
+        {
+          "text": "Carrier signal",
+          "bbox": [
+            0.2262,
+            0.4696,
+            0.3471,
+            0.5255
+          ]
+        },
+        {
+          "text": "fc",
+          "bbox": [
+            0.7862,
+            0.5912,
+            0.7997,
+            0.6592
+          ]
+        },
+        {
+          "text": "Modulated signal",
+          "bbox": [
+            0.2097,
+            0.7007,
+            0.3637,
+            0.7566
+          ]
+        },
+        {
+          "text": "Oscillator",
+          "bbox": [
+            0.6966,
+            0.7326,
+            0.7837,
+            0.7885
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:12:30+00:00"
+      }
+    },
+    {
+      "id": "ch05_ill_011",
+      "file": "ch05_ill_011.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 5.11",
+      "section_id": "ch05-5-1-4-quadrature-psk-qpsk",
+      "alt": "Figure 5.11: QPSK and its implementation",
+      "sources": [
+        "book Figure 5.11; p.144"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 823,
+      "sha256": "4389203de4b66430a89c1813f4165d27e87b57d412d757d3eae57949ca0bcf8a",
+      "description": "Figure 5.11: QPSK and its implementation. A serial bit stream is split into odd and even branches, each branch modulates a carrier, and a 90-degree phase shift makes the two carriers orthogonal. Their sum produces four QPSK phases and the associated bit pairs.",
+      "structure": "A serial bit stream is split into odd and even branches, each branch modulates a carrier, and a 90-degree phase shift makes the two carriers orthogonal. Their sum produces four QPSK phases and the associated bit pairs.",
+      "text_in_image": "0 0; 1 0; 0 1; 1 1; 0; 1; 0; 1; 2/1; Oscillator; 0; 0; 1; 1; S; converter; 90°; –135; –45; 135; 45",
+      "use_when": "Teach ch05-5-1-4-quadrature-psk-qpsk, interpret Figure 5.11, compare modulation methods, or support a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 10,
+      "source_bbox": [
+        99.32,
+        140.86,
+        451.32,
+        414.68
+      ],
+      "labels": [
+        {
+          "text": "0 0",
+          "bbox": [
+            0.0509,
+            0.1204,
+            0.0785,
+            0.1492
+          ]
+        },
+        {
+          "text": "1 0",
+          "bbox": [
+            0.1332,
+            0.1204,
+            0.1608,
+            0.1492
+          ]
+        },
+        {
+          "text": "0 1",
+          "bbox": [
+            0.2155,
+            0.1204,
+            0.2432,
+            0.1492
+          ]
+        },
+        {
+          "text": "1 1",
+          "bbox": [
+            0.2979,
+            0.1204,
+            0.3255,
+            0.1492
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.0592,
+            0.1797,
+            0.0702,
+            0.2085
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1415,
+            0.1797,
+            0.1526,
+            0.2085
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2238,
+            0.1797,
+            0.2349,
+            0.2085
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3061,
+            0.1797,
+            0.3172,
+            0.2085
+          ]
+        },
+        {
+          "text": "2/1",
+          "bbox": [
+            0.4786,
+            0.4889,
+            0.5068,
+            0.5177
+          ]
+        },
+        {
+          "text": "Oscillator",
+          "bbox": [
+            0.5919,
+            0.504,
+            0.679,
+            0.5328
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.0592,
+            0.5111,
+            0.0702,
+            0.5399
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1415,
+            0.5111,
+            0.1526,
+            0.5399
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2238,
+            0.5111,
+            0.2349,
+            0.5399
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3061,
+            0.5111,
+            0.3172,
+            0.5399
+          ]
+        },
+        {
+          "text": "S",
+          "bbox": [
+            0.8279,
+            0.5118,
+            0.8389,
+            0.5411
+          ]
+        },
+        {
+          "text": "converter",
+          "bbox": [
+            0.4516,
+            0.5191,
+            0.5338,
+            0.5479
+          ]
+        },
+        {
+          "text": "90°",
+          "bbox": [
+            0.6971,
+            0.5774,
+            0.7281,
+            0.612
+          ]
+        },
+        {
+          "text": "–135",
+          "bbox": [
+            0.0426,
+            0.9382,
+            0.0868,
+            0.967
+          ]
+        },
+        {
+          "text": "–45",
+          "bbox": [
+            0.1305,
+            0.9382,
+            0.1636,
+            0.967
+          ]
+        },
+        {
+          "text": "135",
+          "bbox": [
+            0.2128,
+            0.9382,
+            0.2459,
+            0.967
+          ]
+        },
+        {
+          "text": "45",
+          "bbox": [
+            0.3006,
+            0.9382,
+            0.3227,
+            0.967
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:12:30+00:00"
+      }
+    },
+    {
+      "id": "ch05_ill_012",
+      "file": "ch05_ill_012.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 5.12",
+      "section_id": "ch05-5-1-4-constellation-diagram",
+      "alt": "Figure 5.12: Concept of a constellation diagram",
+      "sources": [
+        "book Figure 5.12; p.145"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 526,
+      "sha256": "019f90ea85c25f09eb2e6ae57d51a29a704bac2027536d9dace762c32d48f905",
+      "description": "Figure 5.12: Concept of a constellation diagram. A constellation point is projected onto the in-phase X axis and quadrature Y axis. The projections give I and Q amplitudes, while the vector length and angle give the signal amplitude and phase.",
+      "structure": "A constellation point is projected onto the in-phase X axis and quadrature Y axis. The projections give I and Q amplitudes, while the vector length and angle give the signal amplitude and phase.",
+      "text_in_image": "Y (Quadrature carrier); Length: amplitude; Q component; Amplitude of; Angle: phase; X (In-phase carrier); Amplitude of; I component",
+      "use_when": "Teach ch05-5-1-4-constellation-diagram, interpret Figure 5.12, compare modulation methods, or support a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 11,
+      "source_bbox": [
+        114.32,
+        197.86,
+        466.32,
+        372.86
+      ],
+      "labels": [
+        {
+          "text": "Y (Quadrature carrier)",
+          "bbox": [
+            0.2027,
+            0.1688,
+            0.4141,
+            0.2249
+          ]
+        },
+        {
+          "text": "Length: amplitude",
+          "bbox": [
+            0.3386,
+            0.4023,
+            0.4799,
+            0.6731
+          ]
+        },
+        {
+          "text": "Q component",
+          "bbox": [
+            0.2583,
+            0.4288,
+            0.2816,
+            0.6764
+          ]
+        },
+        {
+          "text": "Amplitude of",
+          "bbox": [
+            0.2296,
+            0.43,
+            0.2529,
+            0.6751
+          ]
+        },
+        {
+          "text": "Angle: phase",
+          "bbox": [
+            0.4018,
+            0.6762,
+            0.5275,
+            0.7232
+          ]
+        },
+        {
+          "text": "X (In-phase carrier)",
+          "bbox": [
+            0.6215,
+            0.7549,
+            0.8104,
+            0.811
+          ]
+        },
+        {
+          "text": "Amplitude of",
+          "bbox": [
+            0.3688,
+            0.8227,
+            0.4972,
+            0.8696
+          ]
+        },
+        {
+          "text": "I component",
+          "bbox": [
+            0.3728,
+            0.8775,
+            0.4932,
+            0.9244
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:12:30+00:00"
+      }
+    },
+    {
+      "id": "ch05_ill_013",
+      "file": "ch05_ill_013.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 5.13",
+      "section_id": "ch05-example-5-8",
+      "alt": "Figure 5.13: Three constellation diagrams",
+      "sources": [
+        "book Figure 5.13; p.145"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 352,
+      "sha256": "abd4a28173d66e474051c66d83787027b2a9f3b88377b7921780a2d83cc5728a",
+      "description": "Figure 5.13: Three constellation diagrams. Three coordinate plots compare OOK with points at zero and positive I, BPSK with symmetric I-axis points, and QPSK with four equal-radius points in the four quadrants.",
+      "structure": "Three coordinate plots compare OOK with points at zero and positive I, BPSK with symmetric I-axis points, and QPSK with four equal-radius points in the four quadrants.",
+      "text_in_image": "01; 11; 0; 0; 1; 1; 00; 10; ASK (OOK); BPSK; QPSK",
+      "use_when": "Teach ch05-example-5-8, interpret Figure 5.13, compare modulation methods, or support a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 11,
+      "source_bbox": [
+        114.32,
+        447.76,
+        466.32,
+        564.98
+      ],
+      "labels": [
+        {
+          "text": "01",
+          "bbox": [
+            0.6854,
+            0.4203,
+            0.7081,
+            0.4886
+          ]
+        },
+        {
+          "text": "11",
+          "bbox": [
+            0.8197,
+            0.4203,
+            0.8424,
+            0.4886
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1816,
+            0.5987,
+            0.1929,
+            0.6669
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4143,
+            0.6177,
+            0.4257,
+            0.6859
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5578,
+            0.6177,
+            0.5691,
+            0.686
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2829,
+            0.6189,
+            0.2943,
+            0.6871
+          ]
+        },
+        {
+          "text": "00",
+          "bbox": [
+            0.6825,
+            0.6742,
+            0.7053,
+            0.7425
+          ]
+        },
+        {
+          "text": "10",
+          "bbox": [
+            0.82,
+            0.6742,
+            0.8428,
+            0.7425
+          ]
+        },
+        {
+          "text": "ASK (OOK)",
+          "bbox": [
+            0.139,
+            0.855,
+            0.2596,
+            0.9232
+          ]
+        },
+        {
+          "text": "BPSK",
+          "bbox": [
+            0.4594,
+            0.855,
+            0.5188,
+            0.9233
+          ]
+        },
+        {
+          "text": "QPSK",
+          "bbox": [
+            0.7343,
+            0.855,
+            0.7962,
+            0.9232
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:12:30+00:00"
+      }
+    },
+    {
+      "id": "ch05_ill_014",
+      "file": "ch05_ill_014.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 5.14",
+      "section_id": "ch05-5-1-5",
+      "alt": "Figure 5.14: Constellation diagrams for some QAMs",
+      "sources": [
+        "book Figure 5.14; p.146"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 383,
+      "sha256": "b1ba8a11494395e480b46823a1bcc32a83192bfcd2125b87123308af48ef697d",
+      "description": "Figure 5.14: Constellation diagrams for some QAMs. Four constellation plots compare three 4-QAM arrangements and one 16-QAM grid, showing how different I/Q amplitude choices create the same or larger number of signal points.",
+      "structure": "Four constellation plots compare three 4-QAM arrangements and one 16-QAM grid, showing how different I/Q amplitude choices create the same or larger number of signal points.",
+      "text_in_image": "a. 4-QAM; b. 4-QAM; c. 4-QAM; d. 16-QAM",
+      "use_when": "Teach ch05-5-1-5, interpret Figure 5.14, compare modulation methods, or support a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 12,
+      "source_bbox": [
+        99.32,
+        456.88,
+        451.32,
+        584.06
+      ],
+      "labels": [
+        {
+          "text": "a. 4-QAM",
+          "bbox": [
+            0.0736,
+            0.8035,
+            0.1708,
+            0.8664
+          ]
+        },
+        {
+          "text": "b. 4-QAM",
+          "bbox": [
+            0.3169,
+            0.8035,
+            0.4154,
+            0.8664
+          ]
+        },
+        {
+          "text": "c. 4-QAM",
+          "bbox": [
+            0.5619,
+            0.8035,
+            0.6579,
+            0.8664
+          ]
+        },
+        {
+          "text": "d. 16-QAM",
+          "bbox": [
+            0.7987,
+            0.8035,
+            0.9086,
+            0.8664
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:12:30+00:00"
+      }
+    },
+    {
+      "id": "ch05_ill_015",
+      "file": "ch05_ill_015.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 5.15",
+      "section_id": "ch05-5-2",
+      "alt": "Figure 5.15: Types of analog-to-analog modulation",
+      "sources": [
+        "book Figure 5.15; p.147"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 363,
+      "sha256": "ab52c17858949a0cc67036d4b500c75ac51cb9bc860645bde8cc47fdd929a29e",
+      "description": "Figure 5.15: Types of analog-to-analog modulation. A classification tree branches analog-to-analog conversion into amplitude modulation, frequency modulation, and phase modulation.",
+      "structure": "A classification tree branches analog-to-analog conversion into amplitude modulation, frequency modulation, and phase modulation.",
+      "text_in_image": "Analog-to-analog; conversion; Amplitude modulation; Frequency modulation; Phase modulation",
+      "use_when": "Teach ch05-5-2, interpret Figure 5.15, compare modulation methods, or support a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 13,
+      "source_bbox": [
+        114.32,
+        264.88,
+        466.32,
+        385.46
+      ],
+      "labels": [
+        {
+          "text": "Analog-to-analog",
+          "bbox": [
+            0.4216,
+            0.2648,
+            0.582,
+            0.3311
+          ]
+        },
+        {
+          "text": "conversion",
+          "bbox": [
+            0.4519,
+            0.3501,
+            0.5517,
+            0.4164
+          ]
+        },
+        {
+          "text": "Amplitude modulation",
+          "bbox": [
+            0.0901,
+            0.7495,
+            0.2965,
+            0.8158
+          ]
+        },
+        {
+          "text": "Frequency modulation",
+          "bbox": [
+            0.3992,
+            0.7495,
+            0.6044,
+            0.8158
+          ]
+        },
+        {
+          "text": "Phase modulation",
+          "bbox": [
+            0.7334,
+            0.7495,
+            0.8957,
+            0.8158
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:12:30+00:00"
+      }
+    },
+    {
+      "id": "ch05_ill_016",
+      "file": "ch05_ill_016.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 5.16",
+      "section_id": "ch05-5-2-1-am-bandwidth",
+      "alt": "Figure 5.16: Amplitude modulation",
+      "sources": [
+        "book Figure 5.16; p.148"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 604,
+      "sha256": "2fc4ac09d5359b44e42516a5918077addc2c62113c696b6b3dc87528f7252d22",
+      "description": "Figure 5.16: Amplitude modulation. An audio waveform multiplies a sinusoidal carrier to form an AM waveform whose envelope follows the audio. A spectrum centered at fc spans B_AM = 2B.",
+      "structure": "An audio waveform multiplies a sinusoidal carrier to form an AM waveform whose envelope follows the audio. A spectrum centered at fc spans B_AM = 2B.",
+      "text_in_image": "Modulating signal; Multiplier; Carrier frequency; fc; Oscillator; Modulated signal; BAM = 2B; 0; fc",
+      "use_when": "Teach ch05-5-2-1-am-bandwidth, interpret Figure 5.16, compare modulation methods, or support a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 14,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        248.84
+      ],
+      "labels": [
+        {
+          "text": "Modulating signal",
+          "bbox": [
+            0.0262,
+            0.1756,
+            0.1898,
+            0.2151
+          ]
+        },
+        {
+          "text": "Multiplier",
+          "bbox": [
+            0.7447,
+            0.215,
+            0.8356,
+            0.2544
+          ]
+        },
+        {
+          "text": "Carrier frequency",
+          "bbox": [
+            0.0262,
+            0.3446,
+            0.1844,
+            0.3841
+          ]
+        },
+        {
+          "text": "fc",
+          "bbox": [
+            0.8415,
+            0.4115,
+            0.8552,
+            0.4593
+          ]
+        },
+        {
+          "text": "Oscillator",
+          "bbox": [
+            0.7529,
+            0.5125,
+            0.8413,
+            0.5519
+          ]
+        },
+        {
+          "text": "Modulated signal",
+          "bbox": [
+            0.0262,
+            0.5652,
+            0.1823,
+            0.6047
+          ]
+        },
+        {
+          "text": "BAM = 2B",
+          "bbox": [
+            0.7657,
+            0.6242,
+            0.8529,
+            0.6736
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6668,
+            0.8224,
+            0.678,
+            0.8618
+          ]
+        },
+        {
+          "text": "fc",
+          "bbox": [
+            0.8049,
+            0.8495,
+            0.8186,
+            0.8973
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:12:30+00:00"
+      }
+    },
+    {
+      "id": "ch05_ill_017",
+      "file": "ch05_ill_017.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 5.17",
+      "section_id": "ch05-5-2-1-standard-bandwidth-allocation-for-am-radio",
+      "alt": "Figure 5.17: AM band allocation",
+      "sources": [
+        "book Figure 5.17; p.148"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 280,
+      "sha256": "8046110a33b404036463feea90fa8685898e2f640beb5496e193cb10b22b3874",
+      "description": "Figure 5.17: AM band allocation. Carrier frequencies are placed at 10 kHz intervals across the 530-to-1700 kHz AM broadcast band; each station occupies one 10 kHz channel.",
+      "structure": "Carrier frequencies are placed at 10 kHz intervals across the 530-to-1700 kHz AM broadcast band; each station occupies one 10 kHz channel.",
+      "text_in_image": "fc; fc; fc; fc; fc; • • •; 530; 1700; 10 kHz; kHz; kHz",
+      "use_when": "Teach ch05-5-2-1-standard-bandwidth-allocation-for-am-radio, interpret Figure 5.17, compare modulation methods, or support a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 14,
+      "source_bbox": [
+        99.32,
+        419.68,
+        451.32,
+        512.72
+      ],
+      "labels": [
+        {
+          "text": "fc",
+          "bbox": [
+            0.1582,
+            0.3418,
+            0.1721,
+            0.445
+          ]
+        },
+        {
+          "text": "fc",
+          "bbox": [
+            0.2787,
+            0.3418,
+            0.2926,
+            0.445
+          ]
+        },
+        {
+          "text": "fc",
+          "bbox": [
+            0.3976,
+            0.3418,
+            0.4115,
+            0.445
+          ]
+        },
+        {
+          "text": "fc",
+          "bbox": [
+            0.706,
+            0.3418,
+            0.7199,
+            0.445
+          ]
+        },
+        {
+          "text": "fc",
+          "bbox": [
+            0.8265,
+            0.3418,
+            0.8404,
+            0.445
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.5411,
+            0.4115,
+            0.5763,
+            0.4975
+          ]
+        },
+        {
+          "text": "530",
+          "bbox": [
+            0.0861,
+            0.6224,
+            0.1202,
+            0.7084
+          ]
+        },
+        {
+          "text": "1700",
+          "bbox": [
+            0.871,
+            0.6224,
+            0.9164,
+            0.7084
+          ]
+        },
+        {
+          "text": "10 kHz",
+          "bbox": [
+            0.3714,
+            0.6981,
+            0.4377,
+            0.7841
+          ]
+        },
+        {
+          "text": "kHz",
+          "bbox": [
+            0.0842,
+            0.7207,
+            0.1221,
+            0.8067
+          ]
+        },
+        {
+          "text": "kHz",
+          "bbox": [
+            0.8748,
+            0.7207,
+            0.9126,
+            0.8067
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:12:30+00:00"
+      }
+    },
+    {
+      "id": "ch05_ill_018",
+      "file": "ch05_ill_018.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 5.18",
+      "section_id": "ch05-5-2-2-fm-bandwidth",
+      "alt": "Figure 5.18: Frequency modulation",
+      "sources": [
+        "book Figure 5.18; p.149"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 619,
+      "sha256": "3f59d7e8f3c865228889e7e8fd567debb5de5a63d6eec7a60d820cba447887d9",
+      "description": "Figure 5.18: Frequency modulation. The audio amplitude controls a voltage-controlled oscillator, changing the instantaneous frequency of the FM waveform while its amplitude stays constant. The spectrum states B_FM = 2(1 + β)B.",
+      "structure": "The audio amplitude controls a voltage-controlled oscillator, changing the instantaneous frequency of the FM waveform while its amplitude stays constant. The spectrum states B_FM = 2(1 + β)B.",
+      "text_in_image": "Amplitude; Modulating signal (audio); Time; Carrier frequency; VCO; Voltage-controlled; oscillator; Time; BFM = 2(1 + β)B; FM signal; 0; fc; Time",
+      "use_when": "Teach ch05-5-2-2-fm-bandwidth, interpret Figure 5.18, compare modulation methods, or support a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 15,
+      "source_bbox": [
+        114.32,
+        205.9,
+        466.32,
+        411.86
+      ],
+      "labels": [
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.0251,
+            0.1463,
+            0.1224,
+            0.1851
+          ]
+        },
+        {
+          "text": "Modulating signal (audio)",
+          "bbox": [
+            0.0851,
+            0.2104,
+            0.3225,
+            0.2493
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.484,
+            0.3783,
+            0.532,
+            0.4171
+          ]
+        },
+        {
+          "text": "Carrier frequency",
+          "bbox": [
+            0.0889,
+            0.3958,
+            0.2498,
+            0.4346
+          ]
+        },
+        {
+          "text": "VCO",
+          "bbox": [
+            0.7523,
+            0.4251,
+            0.8002,
+            0.464
+          ]
+        },
+        {
+          "text": "Voltage-controlled",
+          "bbox": [
+            0.6904,
+            0.4963,
+            0.8621,
+            0.5351
+          ]
+        },
+        {
+          "text": "oscillator",
+          "bbox": [
+            0.734,
+            0.5429,
+            0.8186,
+            0.5817
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.484,
+            0.5682,
+            0.532,
+            0.6071
+          ]
+        },
+        {
+          "text": "BFM = 2(1 + β)B",
+          "bbox": [
+            0.7082,
+            0.6258,
+            0.8614,
+            0.6744
+          ]
+        },
+        {
+          "text": "FM signal",
+          "bbox": [
+            0.0923,
+            0.6816,
+            0.1851,
+            0.7204
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6507,
+            0.8142,
+            0.662,
+            0.853
+          ]
+        },
+        {
+          "text": "fc",
+          "bbox": [
+            0.7804,
+            0.839,
+            0.7942,
+            0.8856
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.484,
+            0.8543,
+            0.532,
+            0.8931
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:12:30+00:00"
+      }
+    },
+    {
+      "id": "ch05_ill_019",
+      "file": "ch05_ill_019.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 5.19",
+      "section_id": "ch05-5-2-3",
+      "alt": "Figure 5.19: FM band allocation",
+      "sources": [
+        "book Figure 5.19; p.150"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 281,
+      "sha256": "553cd13b9b6d2321a635d051becb914417984a85ee83f023db68d2aa19b688ab",
+      "description": "Figure 5.19: FM band allocation. Potential FM carriers are spaced by 200 kHz across 88-to-108 MHz, with alternating slots marked as having no station to reduce adjacent-channel interference.",
+      "structure": "Potential FM carriers are spaced by 200 kHz across 88-to-108 MHz, with alternating slots marked as having no station to reduce adjacent-channel interference.",
+      "text_in_image": "fc; fc; fc; fc; No; No; • • •; station; station; 88; 108; MHz; 200 kHz; MHz",
+      "use_when": "Teach ch05-5-2-3, interpret Figure 5.19, compare modulation methods, or support a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 16,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        141.14
+      ],
+      "labels": [
+        {
+          "text": "fc",
+          "bbox": [
+            0.1264,
+            0.3757,
+            0.1403,
+            0.4785
+          ]
+        },
+        {
+          "text": "fc",
+          "bbox": [
+            0.3509,
+            0.3757,
+            0.3648,
+            0.4785
+          ]
+        },
+        {
+          "text": "fc",
+          "bbox": [
+            0.6355,
+            0.3757,
+            0.6495,
+            0.4785
+          ]
+        },
+        {
+          "text": "fc",
+          "bbox": [
+            0.8608,
+            0.3757,
+            0.8748,
+            0.4785
+          ]
+        },
+        {
+          "text": "No",
+          "bbox": [
+            0.2323,
+            0.384,
+            0.2602,
+            0.4697
+          ]
+        },
+        {
+          "text": "No",
+          "bbox": [
+            0.733,
+            0.384,
+            0.7609,
+            0.4697
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.4799,
+            0.4272,
+            0.5172,
+            0.5179
+          ]
+        },
+        {
+          "text": "station",
+          "bbox": [
+            0.2159,
+            0.4747,
+            0.2767,
+            0.5604
+          ]
+        },
+        {
+          "text": "station",
+          "bbox": [
+            0.7166,
+            0.4747,
+            0.7773,
+            0.5604
+          ]
+        },
+        {
+          "text": "88",
+          "bbox": [
+            0.0643,
+            0.6168,
+            0.0871,
+            0.7025
+          ]
+        },
+        {
+          "text": "108",
+          "bbox": [
+            0.9043,
+            0.6202,
+            0.9385,
+            0.7059
+          ]
+        },
+        {
+          "text": "MHz",
+          "bbox": [
+            0.0523,
+            0.7075,
+            0.0992,
+            0.7932
+          ]
+        },
+        {
+          "text": "200 kHz",
+          "bbox": [
+            0.321,
+            0.7071,
+            0.3989,
+            0.7928
+          ]
+        },
+        {
+          "text": "MHz",
+          "bbox": [
+            0.898,
+            0.7108,
+            0.9448,
+            0.7966
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:12:30+00:00"
+      }
+    },
+    {
+      "id": "ch05_ill_020",
+      "file": "ch05_ill_020.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 5.20",
+      "section_id": "ch05-5-2-3",
+      "alt": "Figure 5.20: Phase modulation",
+      "sources": [
+        "book Figure 5.20; p.150"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 626,
+      "sha256": "9093a0201ccd31f76b179808fc0c600fdd0d703792581c89898c9323d885ad1a",
+      "description": "Figure 5.20: Phase modulation. The derivative of the audio waveform drives a voltage-controlled oscillator, producing phase modulation. The spectrum states B_PM = 2(1 + β)B.",
+      "structure": "The derivative of the audio waveform drives a voltage-controlled oscillator, producing phase modulation. The spectrum states B_PM = 2(1 + β)B.",
+      "text_in_image": "Amplitude; Modulating signal (audio); VCO; Time; Carrier frequency; d/dt; Time; BPM = 2(1 + β)B; PM signal; Time; 0; fc",
+      "use_when": "Teach ch05-5-2-3, interpret Figure 5.20, compare modulation methods, or support a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 16,
+      "source_bbox": [
+        99.32,
+        253.96,
+        451.32,
+        462.14
+      ],
+      "labels": [
+        {
+          "text": "Amplitude",
+          "bbox": [
+            0.0178,
+            0.1418,
+            0.113,
+            0.1798
+          ]
+        },
+        {
+          "text": "Modulating signal (audio)",
+          "bbox": [
+            0.0808,
+            0.2161,
+            0.3133,
+            0.2542
+          ]
+        },
+        {
+          "text": "VCO",
+          "bbox": [
+            0.74,
+            0.3465,
+            0.787,
+            0.3846
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.4696,
+            0.3787,
+            0.5166,
+            0.4167
+          ]
+        },
+        {
+          "text": "Carrier frequency",
+          "bbox": [
+            0.0808,
+            0.4031,
+            0.2384,
+            0.4412
+          ]
+        },
+        {
+          "text": "d/dt",
+          "bbox": [
+            0.7457,
+            0.5393,
+            0.7812,
+            0.585
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.4731,
+            0.5698,
+            0.52,
+            0.6079
+          ]
+        },
+        {
+          "text": "BPM = 2(1 + β)B",
+          "bbox": [
+            0.695,
+            0.6441,
+            0.845,
+            0.6918
+          ]
+        },
+        {
+          "text": "PM signal",
+          "bbox": [
+            0.0808,
+            0.6747,
+            0.1717,
+            0.7127
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.4788,
+            0.8469,
+            0.5258,
+            0.8849
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6342,
+            0.8508,
+            0.6454,
+            0.8888
+          ]
+        },
+        {
+          "text": "fc",
+          "bbox": [
+            0.7697,
+            0.8761,
+            0.7833,
+            0.9222
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:12:30+00:00"
+      }
+    }
+  ]
+}

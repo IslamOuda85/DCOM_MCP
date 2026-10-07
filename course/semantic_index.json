@@ -116,6 +116,90 @@
         "protocol layering"
       ],
       "prerequisites": []
+    },
+    {
+      "chapter": 4,
+      "title": "Digital Transmission",
+      "key_terms": [
+        "adaptive delta modulation",
+        "alternate mark inversion (AMI)",
+        "analog-to-digital conversion",
+        "asynchronous transmission",
+        "baseline",
+        "baseline wandering",
+        "baud rate",
+        "biphase",
+        "bipolar",
+        "bipolar with 8-zero substitution (B8ZS)",
+        "bit rate",
+        "block coding",
+        "companding and expanding",
+        "data element",
+        "data rate",
+        "DC component",
+        "delta modulation (DM)",
+        "differential Manchester",
+        "digital-to-digital conversion",
+        "digitization",
+        "eight binary/ten binary (8B/10B)",
+        "eight-binary, six-ternary (8B6T)",
+        "four binary/five binary (4B/5B)",
+        "four dimensional, five-level pulse amplitude",
+        "modulation (4D-PAM5)",
+        "high-density bipolar 3-zero (HDB3)",
+        "isochronous transmission",
+        "line coding",
+        "Manchester",
+        "modulation rate",
+        "multilevel binary",
+        "multiline transmission, three-level (MLT-3)",
+        "non-return-to-zero (NRZ)",
+        "non-return-to-zero, invert (NRZ-I)",
+        "non-return-to-zero, level (NRZ-L)",
+        "Nyquist theorem",
+        "parallel transmission",
+        "polar",
+        "pseudoternary",
+        "pulse amplitude modulation (PAM)",
+        "pulse code modulation (PCM)",
+        "pulse rate",
+        "quantization",
+        "quantization error",
+        "return-to-zero (RZ)",
+        "sample and hold",
+        "sampling",
+        "sampling rate",
+        "scrambling",
+        "self-synchronizing",
+        "serial transmission",
+        "signal element",
+        "signal rate",
+        "start bit",
+        "stop bit",
+        "synchronous transmission",
+        "transmission mode",
+        "two-binary, one quaternary (2B1Q)",
+        "unipolar"
+      ],
+      "prerequisites": []
+    },
+    {
+      "chapter": 5,
+      "title": "Analog Transmission",
+      "key_terms": [
+        "amplitude modulation (AM)",
+        "amplitude shift keying (ASK)",
+        "analog-to-analog conversion",
+        "carrier signal",
+        "constellation diagram",
+        "digital-to-analog conversion",
+        "frequency modulation (FM)",
+        "frequency shift keying (FSK)",
+        "phase modulation (PM)",
+        "phase shift keying (PSK)",
+        "quadrature amplitude modulation (QAM)"
+      ],
+      "prerequisites": []
     }
   ],
   "sections": [
@@ -2128,6 +2212,2414 @@
         "2",
         "3",
         "4",
+        "summary"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-0",
+      "chapter": 4,
+      "title": "Chapter Objectives",
+      "parent": null,
+      "children": [],
+      "source": "book p.95",
+      "kind": "objectives",
+      "asset_ids": [],
+      "terms": [
+        "chapter",
+        "objectives"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-1",
+      "chapter": 4,
+      "title": "4.1 DIGITAL-TO-DIGITAL CONVERSION",
+      "parent": null,
+      "children": [
+        "ch04-4-1-1",
+        "ch04-4-1-2",
+        "ch04-4-1-3",
+        "ch04-4-1-4"
+      ],
+      "source": "book 4.1; p.96",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "4",
+        "conversion",
+        "digital"
+      ],
+      "question_ids": [
+        "ch04-q-q4-1"
+      ]
+    },
+    {
+      "id": "ch04-4-1-1",
+      "chapter": 4,
+      "title": "4.1.1 Line Coding",
+      "parent": "ch04-4-1",
+      "children": [
+        "ch04-4-1-1-characteristics",
+        "ch04-4-1-1-signal-element-versus-data-element",
+        "ch04-4-1-1-data-rate-versus-signal-rate",
+        "ch04-4-1-1-bandwidth",
+        "ch04-4-1-1-baseline-wandering",
+        "ch04-4-1-1-dc-components",
+        "ch04-4-1-1-self-synchronization",
+        "ch04-4-1-1-built-in-error-detection",
+        "ch04-4-1-1-immunity-to-noise-and-interference",
+        "ch04-4-1-1-complexity"
+      ],
+      "source": "book 4.1.1; p.96",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_001"
+      ],
+      "terms": [
+        "1",
+        "4",
+        "coding",
+        "line"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-1-1-characteristics",
+      "chapter": 4,
+      "title": "Characteristics",
+      "parent": "ch04-4-1-1",
+      "children": [],
+      "source": "book p.96",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "characteristics"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-1-1-signal-element-versus-data-element",
+      "chapter": 4,
+      "title": "Signal Element Versus Data Element",
+      "parent": "ch04-4-1-1",
+      "children": [],
+      "source": "book p.96",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_002"
+      ],
+      "terms": [
+        "data",
+        "element",
+        "signal",
+        "versus"
+      ],
+      "question_ids": [
+        "ch04-q-q4-2",
+        "ch04-q-p4-1"
+      ]
+    },
+    {
+      "id": "ch04-4-1-1-data-rate-versus-signal-rate",
+      "chapter": 4,
+      "title": "Data Rate Versus Signal Rate",
+      "parent": "ch04-4-1-1",
+      "children": [
+        "ch04-example-4-1"
+      ],
+      "source": "book p.97",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "data",
+        "rate",
+        "signal",
+        "versus"
+      ],
+      "question_ids": [
+        "ch04-q-q4-3",
+        "ch04-q-p4-1"
+      ]
+    },
+    {
+      "id": "ch04-example-4-1",
+      "chapter": 4,
+      "title": "Example 4.1",
+      "parent": "ch04-4-1-1-data-rate-versus-signal-rate",
+      "children": [],
+      "source": "book Example 4.1",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "4",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-1-1-bandwidth",
+      "chapter": 4,
+      "title": "Bandwidth",
+      "parent": "ch04-4-1-1",
+      "children": [
+        "ch04-example-4-2"
+      ],
+      "source": "book p.98",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "bandwidth"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-example-4-2",
+      "chapter": 4,
+      "title": "Example 4.2",
+      "parent": "ch04-4-1-1-bandwidth",
+      "children": [],
+      "source": "book Example 4.2",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "4",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-1-1-baseline-wandering",
+      "chapter": 4,
+      "title": "Baseline Wandering",
+      "parent": "ch04-4-1-1",
+      "children": [],
+      "source": "book p.99",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "baseline",
+        "wandering"
+      ],
+      "question_ids": [
+        "ch04-q-q4-4"
+      ]
+    },
+    {
+      "id": "ch04-4-1-1-dc-components",
+      "chapter": 4,
+      "title": "DC Components",
+      "parent": "ch04-4-1-1",
+      "children": [],
+      "source": "book p.99",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "components",
+        "dc"
+      ],
+      "question_ids": [
+        "ch04-q-q4-5"
+      ]
+    },
+    {
+      "id": "ch04-4-1-1-self-synchronization",
+      "chapter": 4,
+      "title": "Self-synchronization",
+      "parent": "ch04-4-1-1",
+      "children": [
+        "ch04-example-4-3"
+      ],
+      "source": "book p.99",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "self",
+        "synchronization"
+      ],
+      "question_ids": [
+        "ch04-q-q4-6",
+        "ch04-q-p4-2"
+      ]
+    },
+    {
+      "id": "ch04-example-4-3",
+      "chapter": 4,
+      "title": "Example 4.3",
+      "parent": "ch04-4-1-1-self-synchronization",
+      "children": [],
+      "source": "book Example 4.3",
+      "kind": "worked_example",
+      "asset_ids": [
+        "ch04_ill_003"
+      ],
+      "terms": [
+        "3",
+        "4",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-1-1-built-in-error-detection",
+      "chapter": 4,
+      "title": "Built-in Error Detection",
+      "parent": "ch04-4-1-1",
+      "children": [],
+      "source": "book p.100",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "built",
+        "detection",
+        "error"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-1-1-immunity-to-noise-and-interference",
+      "chapter": 4,
+      "title": "Immunity to Noise and Interference",
+      "parent": "ch04-4-1-1",
+      "children": [],
+      "source": "book p.100",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "immunity",
+        "interference",
+        "noise"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-1-1-complexity",
+      "chapter": 4,
+      "title": "Complexity",
+      "parent": "ch04-4-1-1",
+      "children": [],
+      "source": "book p.100",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "complexity"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-1-2",
+      "chapter": 4,
+      "title": "4.1.2 Line Coding Schemes",
+      "parent": "ch04-4-1",
+      "children": [
+        "ch04-4-1-2-unipolar-scheme",
+        "ch04-4-1-2-nrz-non-return-to-zero",
+        "ch04-4-1-2-polar-schemes",
+        "ch04-4-1-2-non-return-to-zero-nrz",
+        "ch04-4-1-2-return-to-zero-rz",
+        "ch04-4-1-2-biphase-manchester-and-differential-manchester",
+        "ch04-4-1-2-bipolar-schemes",
+        "ch04-4-1-2-ami-and-pseudoternary",
+        "ch04-4-1-2-multilevel-schemes",
+        "ch04-4-1-2-2b1q",
+        "ch04-4-1-2-8b6t",
+        "ch04-4-1-2-4d-pam5",
+        "ch04-4-1-2-multitransition-mlt-3",
+        "ch04-4-1-2-summary-of-line-coding-schemes"
+      ],
+      "source": "book 4.1.2; p.100",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "2",
+        "4",
+        "coding",
+        "line",
+        "schemes"
+      ],
+      "question_ids": [
+        "ch04-q-q4-7",
+        "ch04-q-p4-9",
+        "ch04-q-p4-19"
+      ]
+    },
+    {
+      "id": "ch04-4-1-2-unipolar-scheme",
+      "chapter": 4,
+      "title": "Unipolar Scheme",
+      "parent": "ch04-4-1-2",
+      "children": [],
+      "source": "book p.100",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_004"
+      ],
+      "terms": [
+        "scheme",
+        "unipolar"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-1-2-nrz-non-return-to-zero",
+      "chapter": 4,
+      "title": "NRZ (Non-Return-to-Zero)",
+      "parent": "ch04-4-1-2",
+      "children": [],
+      "source": "book p.101",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_005"
+      ],
+      "terms": [
+        "non",
+        "nrz",
+        "return",
+        "zero"
+      ],
+      "question_ids": [
+        "ch04-q-p4-3"
+      ]
+    },
+    {
+      "id": "ch04-4-1-2-polar-schemes",
+      "chapter": 4,
+      "title": "Polar Schemes",
+      "parent": "ch04-4-1-2",
+      "children": [],
+      "source": "book p.101",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "polar",
+        "schemes"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-1-2-non-return-to-zero-nrz",
+      "chapter": 4,
+      "title": "Non-Return-to-Zero (NRZ)",
+      "parent": "ch04-4-1-2",
+      "children": [
+        "ch04-example-4-4"
+      ],
+      "source": "book p.101",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_006"
+      ],
+      "terms": [
+        "non",
+        "nrz",
+        "return",
+        "zero"
+      ],
+      "question_ids": [
+        "ch04-q-p4-4",
+        "ch04-q-p4-10"
+      ]
+    },
+    {
+      "id": "ch04-example-4-4",
+      "chapter": 4,
+      "title": "Example 4.4",
+      "parent": "ch04-4-1-2-non-return-to-zero-nrz",
+      "children": [],
+      "source": "book Example 4.4",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "4",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-1-2-return-to-zero-rz",
+      "chapter": 4,
+      "title": "Return-to-Zero (RZ)",
+      "parent": "ch04-4-1-2",
+      "children": [],
+      "source": "book p.103",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_007"
+      ],
+      "terms": [
+        "return",
+        "rz",
+        "zero"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-1-2-biphase-manchester-and-differential-manchester",
+      "chapter": 4,
+      "title": "Biphase: Manchester and Differential Manchester",
+      "parent": "ch04-4-1-2",
+      "children": [],
+      "source": "book p.103",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_008"
+      ],
+      "terms": [
+        "biphase",
+        "differential",
+        "manchester"
+      ],
+      "question_ids": [
+        "ch04-q-p4-5",
+        "ch04-q-p4-6",
+        "ch04-q-p4-11"
+      ]
+    },
+    {
+      "id": "ch04-4-1-2-bipolar-schemes",
+      "chapter": 4,
+      "title": "Bipolar Schemes",
+      "parent": "ch04-4-1-2",
+      "children": [],
+      "source": "book p.104",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "bipolar",
+        "schemes"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-1-2-ami-and-pseudoternary",
+      "chapter": 4,
+      "title": "AMI and Pseudoternary",
+      "parent": "ch04-4-1-2",
+      "children": [],
+      "source": "book p.104",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_009"
+      ],
+      "terms": [
+        "ami",
+        "pseudoternary"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-1-2-multilevel-schemes",
+      "chapter": 4,
+      "title": "Multilevel Schemes",
+      "parent": "ch04-4-1-2",
+      "children": [],
+      "source": "book p.105",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "multilevel",
+        "schemes"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-1-2-2b1q",
+      "chapter": 4,
+      "title": "2B1Q",
+      "parent": "ch04-4-1-2",
+      "children": [],
+      "source": "book p.106",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_010"
+      ],
+      "terms": [
+        "2b1q"
+      ],
+      "question_ids": [
+        "ch04-q-p4-7"
+      ]
+    },
+    {
+      "id": "ch04-4-1-2-8b6t",
+      "chapter": 4,
+      "title": "8B6T",
+      "parent": "ch04-4-1-2",
+      "children": [],
+      "source": "book p.106",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_011"
+      ],
+      "terms": [
+        "8b6t"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-1-2-4d-pam5",
+      "chapter": 4,
+      "title": "4D-PAM5",
+      "parent": "ch04-4-1-2",
+      "children": [],
+      "source": "book p.107",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_012"
+      ],
+      "terms": [
+        "4d",
+        "pam5"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-1-2-multitransition-mlt-3",
+      "chapter": 4,
+      "title": "Multitransition: MLT-3",
+      "parent": "ch04-4-1-2",
+      "children": [],
+      "source": "book p.108",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_013"
+      ],
+      "terms": [
+        "3",
+        "mlt",
+        "multitransition"
+      ],
+      "question_ids": [
+        "ch04-q-p4-8"
+      ]
+    },
+    {
+      "id": "ch04-4-1-2-summary-of-line-coding-schemes",
+      "chapter": 4,
+      "title": "Summary of Line Coding Schemes",
+      "parent": "ch04-4-1-2",
+      "children": [],
+      "source": "book p.109",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "coding",
+        "line",
+        "schemes",
+        "summary"
+      ],
+      "question_ids": [
+        "ch04-q-p4-3",
+        "ch04-q-p4-4",
+        "ch04-q-p4-5",
+        "ch04-q-p4-6",
+        "ch04-q-p4-7",
+        "ch04-q-p4-8"
+      ]
+    },
+    {
+      "id": "ch04-4-1-3",
+      "chapter": 4,
+      "title": "4.1.3 Block Coding",
+      "parent": "ch04-4-1",
+      "children": [
+        "ch04-4-1-3-4b-5b",
+        "ch04-4-1-3-8b-10b"
+      ],
+      "source": "book 4.1.3; p.109",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_014"
+      ],
+      "terms": [
+        "1",
+        "3",
+        "4",
+        "block",
+        "coding"
+      ],
+      "question_ids": [
+        "ch04-q-q4-8",
+        "ch04-q-p4-13"
+      ]
+    },
+    {
+      "id": "ch04-4-1-3-4b-5b",
+      "chapter": 4,
+      "title": "4B/5B",
+      "parent": "ch04-4-1-3",
+      "children": [
+        "ch04-example-4-5"
+      ],
+      "source": "book p.110",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_015"
+      ],
+      "terms": [
+        "4b",
+        "5b"
+      ],
+      "question_ids": [
+        "ch04-q-p4-12"
+      ]
+    },
+    {
+      "id": "ch04-example-4-5",
+      "chapter": 4,
+      "title": "Example 4.5",
+      "parent": "ch04-4-1-3-4b-5b",
+      "children": [],
+      "source": "book Example 4.5",
+      "kind": "worked_example",
+      "asset_ids": [
+        "ch04_ill_016"
+      ],
+      "terms": [
+        "4",
+        "5",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-1-3-8b-10b",
+      "chapter": 4,
+      "title": "8B/10B",
+      "parent": "ch04-4-1-3",
+      "children": [],
+      "source": "book p.112",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_017"
+      ],
+      "terms": [
+        "10b",
+        "8b"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-1-4",
+      "chapter": 4,
+      "title": "4.1.4 Scrambling",
+      "parent": "ch04-4-1",
+      "children": [
+        "ch04-4-1-4-b8zs",
+        "ch04-4-1-4-hdb3"
+      ],
+      "source": "book 4.1.4; p.113",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_018"
+      ],
+      "terms": [
+        "1",
+        "4",
+        "scrambling"
+      ],
+      "question_ids": [
+        "ch04-q-q4-9"
+      ]
+    },
+    {
+      "id": "ch04-4-1-4-b8zs",
+      "chapter": 4,
+      "title": "B8ZS",
+      "parent": "ch04-4-1-4",
+      "children": [],
+      "source": "book p.113",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_019"
+      ],
+      "terms": [
+        "b8zs"
+      ],
+      "question_ids": [
+        "ch04-q-p4-14"
+      ]
+    },
+    {
+      "id": "ch04-4-1-4-hdb3",
+      "chapter": 4,
+      "title": "HDB3",
+      "parent": "ch04-4-1-4",
+      "children": [],
+      "source": "book p.114",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_020"
+      ],
+      "terms": [
+        "hdb3"
+      ],
+      "question_ids": [
+        "ch04-q-p4-14"
+      ]
+    },
+    {
+      "id": "ch04-4-2",
+      "chapter": 4,
+      "title": "4.2 ANALOG-TO-DIGITAL CONVERSION",
+      "parent": null,
+      "children": [
+        "ch04-4-2-1",
+        "ch04-4-2-2"
+      ],
+      "source": "book 4.2; p.115",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "4",
+        "analog",
+        "conversion",
+        "digital"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-2-1",
+      "chapter": 4,
+      "title": "4.2.1 Pulse Code Modulation (PCM)",
+      "parent": "ch04-4-2",
+      "children": [
+        "ch04-4-2-1-sampling",
+        "ch04-4-2-1-sampling-rate",
+        "ch04-4-2-1-quantization",
+        "ch04-4-2-1-quantization-levels",
+        "ch04-4-2-1-quantization-error",
+        "ch04-4-2-1-uniform-versus-nonuniform-quantization",
+        "ch04-4-2-1-encoding",
+        "ch04-4-2-1-original-signal-recovery",
+        "ch04-4-2-1-pcm-bandwidth",
+        "ch04-4-2-1-maximum-data-rate-of-a-channel",
+        "ch04-4-2-1-minimum-required-bandwidth"
+      ],
+      "source": "book 4.2.1; p.115",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_021"
+      ],
+      "terms": [
+        "1",
+        "2",
+        "4",
+        "code",
+        "modulation",
+        "pcm",
+        "pulse"
+      ],
+      "question_ids": [
+        "ch04-q-q4-10"
+      ]
+    },
+    {
+      "id": "ch04-4-2-1-sampling",
+      "chapter": 4,
+      "title": "Sampling",
+      "parent": "ch04-4-2-1",
+      "children": [],
+      "source": "book p.115",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_022"
+      ],
+      "terms": [
+        "sampling"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-2-1-sampling-rate",
+      "chapter": 4,
+      "title": "Sampling Rate",
+      "parent": "ch04-4-2-1",
+      "children": [
+        "ch04-example-4-6",
+        "ch04-example-4-7",
+        "ch04-example-4-8",
+        "ch04-example-4-9",
+        "ch04-example-4-10",
+        "ch04-example-4-11"
+      ],
+      "source": "book p.116",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "rate",
+        "sampling"
+      ],
+      "question_ids": [
+        "ch04-q-p4-15",
+        "ch04-q-p4-16"
+      ]
+    },
+    {
+      "id": "ch04-example-4-6",
+      "chapter": 4,
+      "title": "Example 4.6",
+      "parent": "ch04-4-2-1-sampling-rate",
+      "children": [],
+      "source": "book Example 4.6",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "4",
+        "6",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-example-4-7",
+      "chapter": 4,
+      "title": "Example 4.7",
+      "parent": "ch04-4-2-1-sampling-rate",
+      "children": [],
+      "source": "book Example 4.7",
+      "kind": "worked_example",
+      "asset_ids": [
+        "ch04_ill_023",
+        "ch04_ill_024",
+        "ch04_ill_025"
+      ],
+      "terms": [
+        "4",
+        "7",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-example-4-8",
+      "chapter": 4,
+      "title": "Example 4.8",
+      "parent": "ch04-4-2-1-sampling-rate",
+      "children": [],
+      "source": "book Example 4.8",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "4",
+        "8",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-example-4-9",
+      "chapter": 4,
+      "title": "Example 4.9",
+      "parent": "ch04-4-2-1-sampling-rate",
+      "children": [],
+      "source": "book Example 4.9",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "4",
+        "9",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-example-4-10",
+      "chapter": 4,
+      "title": "Example 4.10",
+      "parent": "ch04-4-2-1-sampling-rate",
+      "children": [],
+      "source": "book Example 4.10",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "4",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-example-4-11",
+      "chapter": 4,
+      "title": "Example 4.11",
+      "parent": "ch04-4-2-1-sampling-rate",
+      "children": [],
+      "source": "book Example 4.11",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "11",
+        "4",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-2-1-quantization",
+      "chapter": 4,
+      "title": "Quantization",
+      "parent": "ch04-4-2-1",
+      "children": [],
+      "source": "book p.119",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "quantization"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-2-1-quantization-levels",
+      "chapter": 4,
+      "title": "Quantization Levels",
+      "parent": "ch04-4-2-1",
+      "children": [],
+      "source": "book p.119",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "levels",
+        "quantization"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-2-1-quantization-error",
+      "chapter": 4,
+      "title": "Quantization Error",
+      "parent": "ch04-4-2-1",
+      "children": [
+        "ch04-example-4-12",
+        "ch04-example-4-13"
+      ],
+      "source": "book p.119",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_026"
+      ],
+      "terms": [
+        "error",
+        "quantization"
+      ],
+      "question_ids": [
+        "ch04-q-p4-16",
+        "ch04-q-p4-18"
+      ]
+    },
+    {
+      "id": "ch04-example-4-12",
+      "chapter": 4,
+      "title": "Example 4.12",
+      "parent": "ch04-4-2-1-quantization-error",
+      "children": [],
+      "source": "book Example 4.12",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "12",
+        "4",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-example-4-13",
+      "chapter": 4,
+      "title": "Example 4.13",
+      "parent": "ch04-4-2-1-quantization-error",
+      "children": [],
+      "source": "book Example 4.13",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "13",
+        "4",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-2-1-uniform-versus-nonuniform-quantization",
+      "chapter": 4,
+      "title": "Uniform Versus Nonuniform Quantization",
+      "parent": "ch04-4-2-1",
+      "children": [],
+      "source": "book p.121",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "nonuniform",
+        "quantization",
+        "uniform",
+        "versus"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-2-1-encoding",
+      "chapter": 4,
+      "title": "Encoding",
+      "parent": "ch04-4-2-1",
+      "children": [
+        "ch04-example-4-14"
+      ],
+      "source": "book p.121",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "encoding"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-example-4-14",
+      "chapter": 4,
+      "title": "Example 4.14",
+      "parent": "ch04-4-2-1-encoding",
+      "children": [],
+      "source": "book Example 4.14",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "14",
+        "4",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-2-1-original-signal-recovery",
+      "chapter": 4,
+      "title": "Original Signal Recovery",
+      "parent": "ch04-4-2-1",
+      "children": [],
+      "source": "book p.121",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_027"
+      ],
+      "terms": [
+        "original",
+        "recovery",
+        "signal"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-2-1-pcm-bandwidth",
+      "chapter": 4,
+      "title": "PCM Bandwidth",
+      "parent": "ch04-4-2-1",
+      "children": [
+        "ch04-example-4-15"
+      ],
+      "source": "book p.122",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "bandwidth",
+        "pcm"
+      ],
+      "question_ids": [
+        "ch04-q-p4-16"
+      ]
+    },
+    {
+      "id": "ch04-example-4-15",
+      "chapter": 4,
+      "title": "Example 4.15",
+      "parent": "ch04-4-2-1-pcm-bandwidth",
+      "children": [],
+      "source": "book Example 4.15",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "15",
+        "4",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-2-1-maximum-data-rate-of-a-channel",
+      "chapter": 4,
+      "title": "Maximum Data Rate of a Channel",
+      "parent": "ch04-4-2-1",
+      "children": [],
+      "source": "book p.123",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "channel",
+        "data",
+        "maximum",
+        "rate"
+      ],
+      "question_ids": [
+        "ch04-q-p4-17"
+      ]
+    },
+    {
+      "id": "ch04-4-2-1-minimum-required-bandwidth",
+      "chapter": 4,
+      "title": "Minimum Required Bandwidth",
+      "parent": "ch04-4-2-1",
+      "children": [],
+      "source": "book p.123",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "bandwidth",
+        "minimum",
+        "required"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-2-2",
+      "chapter": 4,
+      "title": "4.2.2 Delta Modulation (DM)",
+      "parent": "ch04-4-2",
+      "children": [
+        "ch04-4-2-2-modulator",
+        "ch04-4-2-2-demodulator",
+        "ch04-4-2-2-adaptive-dm",
+        "ch04-4-2-2-quantization-error"
+      ],
+      "source": "book 4.2.2; p.123",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_028"
+      ],
+      "terms": [
+        "2",
+        "4",
+        "delta",
+        "dm",
+        "modulation"
+      ],
+      "question_ids": [
+        "ch04-q-q4-10"
+      ]
+    },
+    {
+      "id": "ch04-4-2-2-modulator",
+      "chapter": 4,
+      "title": "Modulator",
+      "parent": "ch04-4-2-2",
+      "children": [],
+      "source": "book p.124",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_029"
+      ],
+      "terms": [
+        "modulator"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-2-2-demodulator",
+      "chapter": 4,
+      "title": "Demodulator",
+      "parent": "ch04-4-2-2",
+      "children": [],
+      "source": "book p.124",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "demodulator"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-2-2-adaptive-dm",
+      "chapter": 4,
+      "title": "Adaptive DM",
+      "parent": "ch04-4-2-2",
+      "children": [],
+      "source": "book p.124",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "adaptive",
+        "dm"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-2-2-quantization-error",
+      "chapter": 4,
+      "title": "Quantization Error",
+      "parent": "ch04-4-2-2",
+      "children": [],
+      "source": "book p.124",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_030"
+      ],
+      "terms": [
+        "error",
+        "quantization"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-3",
+      "chapter": 4,
+      "title": "4.3 TRANSMISSION MODES",
+      "parent": null,
+      "children": [
+        "ch04-4-3-1",
+        "ch04-4-3-2"
+      ],
+      "source": "book 4.3; p.125",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_031"
+      ],
+      "terms": [
+        "3",
+        "4",
+        "modes",
+        "transmission"
+      ],
+      "question_ids": [
+        "ch04-q-q4-11"
+      ]
+    },
+    {
+      "id": "ch04-4-3-1",
+      "chapter": 4,
+      "title": "4.3.1 Parallel Transmission",
+      "parent": "ch04-4-3",
+      "children": [],
+      "source": "book 4.3.1; p.125",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_032"
+      ],
+      "terms": [
+        "1",
+        "3",
+        "4",
+        "parallel",
+        "transmission"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-3-2",
+      "chapter": 4,
+      "title": "4.3.2 Serial Transmission",
+      "parent": "ch04-4-3",
+      "children": [
+        "ch04-4-3-2-asynchronous-transmission",
+        "ch04-4-3-2-synchronous-transmission",
+        "ch04-4-3-2-isochronous"
+      ],
+      "source": "book 4.3.2; p.126",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_033"
+      ],
+      "terms": [
+        "2",
+        "3",
+        "4",
+        "serial",
+        "transmission"
+      ],
+      "question_ids": [
+        "ch04-q-q4-12"
+      ]
+    },
+    {
+      "id": "ch04-4-3-2-asynchronous-transmission",
+      "chapter": 4,
+      "title": "Asynchronous Transmission",
+      "parent": "ch04-4-3-2",
+      "children": [],
+      "source": "book p.127",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_034"
+      ],
+      "terms": [
+        "asynchronous",
+        "transmission"
+      ],
+      "question_ids": [
+        "ch04-q-p4-20"
+      ]
+    },
+    {
+      "id": "ch04-4-3-2-synchronous-transmission",
+      "chapter": 4,
+      "title": "Synchronous Transmission",
+      "parent": "ch04-4-3-2",
+      "children": [],
+      "source": "book p.128",
+      "kind": "concept",
+      "asset_ids": [
+        "ch04_ill_035"
+      ],
+      "terms": [
+        "synchronous",
+        "transmission"
+      ],
+      "question_ids": [
+        "ch04-q-p4-20"
+      ]
+    },
+    {
+      "id": "ch04-4-3-2-isochronous",
+      "chapter": 4,
+      "title": "Isochronous",
+      "parent": "ch04-4-3-2",
+      "children": [],
+      "source": "book p.129",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "isochronous"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-4",
+      "chapter": 4,
+      "title": "4.4 END-CHAPTER MATERIALS",
+      "parent": null,
+      "children": [
+        "ch04-4-4-1",
+        "ch04-4-4-2",
+        "ch04-4-4-3"
+      ],
+      "source": "book 4.4; p.129",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "4",
+        "chapter",
+        "end",
+        "materials"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-4-1",
+      "chapter": 4,
+      "title": "4.4.1 Recommended Reading",
+      "parent": "ch04-4-4",
+      "children": [
+        "ch04-4-4-1-books"
+      ],
+      "source": "book 4.4.1; p.129",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "4",
+        "reading",
+        "recommended"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-4-1-books",
+      "chapter": 4,
+      "title": "Books",
+      "parent": "ch04-4-4-1",
+      "children": [],
+      "source": "book p.129",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "books"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-4-2",
+      "chapter": 4,
+      "title": "4.4.2 Key Terms",
+      "parent": "ch04-4-4",
+      "children": [],
+      "source": "book 4.4.2; p.130",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "4",
+        "key",
+        "terms"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch04-4-4-3",
+      "chapter": 4,
+      "title": "4.4.3 Summary",
+      "parent": "ch04-4-4",
+      "children": [],
+      "source": "book 4.4.3; p.130",
+      "kind": "summary",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "4",
+        "summary"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch05-0",
+      "chapter": 5,
+      "title": "Chapter Objectives",
+      "parent": null,
+      "children": [],
+      "source": "book p.135",
+      "kind": "objectives",
+      "asset_ids": [],
+      "terms": [
+        "chapter",
+        "objectives"
+      ],
+      "question_ids": [
+        "ch05-q-q5-1"
+      ]
+    },
+    {
+      "id": "ch05-5-1",
+      "chapter": 5,
+      "title": "5.1 DIGITAL-TO-ANALOG CONVERSION",
+      "parent": null,
+      "children": [
+        "ch05-5-1-1",
+        "ch05-5-1-2",
+        "ch05-5-1-3",
+        "ch05-5-1-4",
+        "ch05-5-1-5"
+      ],
+      "source": "book 5.1; p.136",
+      "kind": "concept",
+      "asset_ids": [
+        "ch05_ill_001",
+        "ch05_ill_002"
+      ],
+      "terms": [
+        "1",
+        "5",
+        "analog",
+        "conversion",
+        "digital"
+      ],
+      "question_ids": [
+        "ch05-q-q5-3"
+      ]
+    },
+    {
+      "id": "ch05-5-1-1",
+      "chapter": 5,
+      "title": "5.1.1 Aspects of Digital-to-Analog Conversion",
+      "parent": "ch05-5-1",
+      "children": [
+        "ch05-5-1-1-data-element-versus-signal-element",
+        "ch05-5-1-1-data-rate-versus-signal-rate",
+        "ch05-5-1-1-bandwidth",
+        "ch05-5-1-1-carrier-signal"
+      ],
+      "source": "book 5.1.1; p.137",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "5",
+        "analog",
+        "aspects",
+        "conversion",
+        "digital"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch05-5-1-1-data-element-versus-signal-element",
+      "chapter": 5,
+      "title": "Data Element Versus Signal Element",
+      "parent": "ch05-5-1-1",
+      "children": [],
+      "source": "book p.137",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "data",
+        "element",
+        "signal",
+        "versus"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch05-5-1-1-data-rate-versus-signal-rate",
+      "chapter": 5,
+      "title": "Data Rate Versus Signal Rate",
+      "parent": "ch05-5-1-1",
+      "children": [
+        "ch05-example-5-1",
+        "ch05-example-5-2"
+      ],
+      "source": "book p.137",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "data",
+        "rate",
+        "signal",
+        "versus"
+      ],
+      "question_ids": [
+        "ch05-q-p5-1",
+        "ch05-q-p5-2",
+        "ch05-q-p5-3",
+        "ch05-q-p5-6",
+        "ch05-q-p5-9",
+        "ch05-q-p5-10"
+      ]
+    },
+    {
+      "id": "ch05-example-5-1",
+      "chapter": 5,
+      "title": "Example 5.1",
+      "parent": "ch05-5-1-1-data-rate-versus-signal-rate",
+      "children": [],
+      "source": "book Example 5.1",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "5",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch05-example-5-2",
+      "chapter": 5,
+      "title": "Example 5.2",
+      "parent": "ch05-5-1-1-data-rate-versus-signal-rate",
+      "children": [],
+      "source": "book Example 5.2",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "5",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch05-5-1-1-bandwidth",
+      "chapter": 5,
+      "title": "Bandwidth",
+      "parent": "ch05-5-1-1",
+      "children": [],
+      "source": "book p.138",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "bandwidth"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch05-5-1-1-carrier-signal",
+      "chapter": 5,
+      "title": "Carrier Signal",
+      "parent": "ch05-5-1-1",
+      "children": [],
+      "source": "book p.138",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "carrier",
+        "signal"
+      ],
+      "question_ids": [
+        "ch05-q-q5-2"
+      ]
+    },
+    {
+      "id": "ch05-5-1-2",
+      "chapter": 5,
+      "title": "5.1.2 Amplitude Shift Keying",
+      "parent": "ch05-5-1",
+      "children": [
+        "ch05-5-1-2-binary-ask-bask",
+        "ch05-5-1-2-bandwidth-for-ask",
+        "ch05-5-1-2-implementation",
+        "ch05-5-1-2-multilevel-ask"
+      ],
+      "source": "book 5.1.2; p.138",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "2",
+        "5",
+        "amplitude",
+        "keying",
+        "shift"
+      ],
+      "question_ids": [
+        "ch05-q-q5-4",
+        "ch05-q-q5-5",
+        "ch05-q-p5-1",
+        "ch05-q-p5-2"
+      ]
+    },
+    {
+      "id": "ch05-5-1-2-binary-ask-bask",
+      "chapter": 5,
+      "title": "Binary ASK (BASK)",
+      "parent": "ch05-5-1-2",
+      "children": [],
+      "source": "book p.138",
+      "kind": "concept",
+      "asset_ids": [
+        "ch05_ill_003"
+      ],
+      "terms": [
+        "ask",
+        "bask",
+        "binary"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch05-5-1-2-bandwidth-for-ask",
+      "chapter": 5,
+      "title": "Bandwidth for ASK",
+      "parent": "ch05-5-1-2",
+      "children": [],
+      "source": "book p.138",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "ask",
+        "bandwidth"
+      ],
+      "question_ids": [
+        "ch05-q-p5-7",
+        "ch05-q-p5-8"
+      ]
+    },
+    {
+      "id": "ch05-5-1-2-implementation",
+      "chapter": 5,
+      "title": "Implementation",
+      "parent": "ch05-5-1-2",
+      "children": [
+        "ch05-example-5-3",
+        "ch05-example-5-4"
+      ],
+      "source": "book p.139",
+      "kind": "concept",
+      "asset_ids": [
+        "ch05_ill_004"
+      ],
+      "terms": [
+        "implementation"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch05-example-5-3",
+      "chapter": 5,
+      "title": "Example 5.3",
+      "parent": "ch05-5-1-2-implementation",
+      "children": [],
+      "source": "book Example 5.3",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "5",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch05-example-5-4",
+      "chapter": 5,
+      "title": "Example 5.4",
+      "parent": "ch05-5-1-2-implementation",
+      "children": [],
+      "source": "book Example 5.4",
+      "kind": "worked_example",
+      "asset_ids": [
+        "ch05_ill_005"
+      ],
+      "terms": [
+        "4",
+        "5",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch05-5-1-2-multilevel-ask",
+      "chapter": 5,
+      "title": "Multilevel ASK",
+      "parent": "ch05-5-1-2",
+      "children": [],
+      "source": "book p.140",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "ask",
+        "multilevel"
+      ],
+      "question_ids": [
+        "ch05-q-p5-3"
+      ]
+    },
+    {
+      "id": "ch05-5-1-3",
+      "chapter": 5,
+      "title": "5.1.3 Frequency Shift Keying",
+      "parent": "ch05-5-1",
+      "children": [
+        "ch05-5-1-3-binary-fsk-bfsk",
+        "ch05-5-1-3-bandwidth-for-bfsk",
+        "ch05-5-1-3-implementation",
+        "ch05-5-1-3-multilevel-fsk"
+      ],
+      "source": "book 5.1.3; p.140",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "3",
+        "5",
+        "frequency",
+        "keying",
+        "shift"
+      ],
+      "question_ids": [
+        "ch05-q-q5-4",
+        "ch05-q-p5-1",
+        "ch05-q-p5-2"
+      ]
+    },
+    {
+      "id": "ch05-5-1-3-binary-fsk-bfsk",
+      "chapter": 5,
+      "title": "Binary FSK (BFSK)",
+      "parent": "ch05-5-1-3",
+      "children": [],
+      "source": "book p.140",
+      "kind": "concept",
+      "asset_ids": [
+        "ch05_ill_006"
+      ],
+      "terms": [
+        "bfsk",
+        "binary",
+        "fsk"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch05-5-1-3-bandwidth-for-bfsk",
+      "chapter": 5,
+      "title": "Bandwidth for BFSK",
+      "parent": "ch05-5-1-3",
+      "children": [
+        "ch05-example-5-5"
+      ],
+      "source": "book p.141",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "bandwidth",
+        "bfsk"
+      ],
+      "question_ids": [
+        "ch05-q-p5-7"
+      ]
+    },
+    {
+      "id": "ch05-example-5-5",
+      "chapter": 5,
+      "title": "Example 5.5",
+      "parent": "ch05-5-1-3-bandwidth-for-bfsk",
+      "children": [],
+      "source": "book Example 5.5",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "5",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch05-5-1-3-implementation",
+      "chapter": 5,
+      "title": "Implementation",
+      "parent": "ch05-5-1-3",
+      "children": [],
+      "source": "book p.141",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "implementation"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch05-5-1-3-multilevel-fsk",
+      "chapter": 5,
+      "title": "Multilevel FSK",
+      "parent": "ch05-5-1-3",
+      "children": [
+        "ch05-example-5-6"
+      ],
+      "source": "book p.141",
+      "kind": "concept",
+      "asset_ids": [
+        "ch05_ill_007"
+      ],
+      "terms": [
+        "fsk",
+        "multilevel"
+      ],
+      "question_ids": [
+        "ch05-q-p5-3"
+      ]
+    },
+    {
+      "id": "ch05-example-5-6",
+      "chapter": 5,
+      "title": "Example 5.6",
+      "parent": "ch05-5-1-3-multilevel-fsk",
+      "children": [],
+      "source": "book Example 5.6",
+      "kind": "worked_example",
+      "asset_ids": [
+        "ch05_ill_008"
+      ],
+      "terms": [
+        "5",
+        "6",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch05-5-1-4",
+      "chapter": 5,
+      "title": "5.1.4 Phase Shift Keying",
+      "parent": "ch05-5-1",
+      "children": [
+        "ch05-5-1-4-binary-psk-bpsk",
+        "ch05-5-1-4-bandwidth",
+        "ch05-5-1-4-implementation",
+        "ch05-5-1-4-quadrature-psk-qpsk",
+        "ch05-5-1-4-constellation-diagram"
+      ],
+      "source": "book 5.1.4; p.142",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "4",
+        "5",
+        "keying",
+        "phase",
+        "shift"
+      ],
+      "question_ids": [
+        "ch05-q-q5-4",
+        "ch05-q-p5-3"
+      ]
+    },
+    {
+      "id": "ch05-5-1-4-binary-psk-bpsk",
+      "chapter": 5,
+      "title": "Binary PSK (BPSK)",
+      "parent": "ch05-5-1-4",
+      "children": [],
+      "source": "book p.142",
+      "kind": "concept",
+      "asset_ids": [
+        "ch05_ill_009"
+      ],
+      "terms": [
+        "binary",
+        "bpsk",
+        "psk"
+      ],
+      "question_ids": [
+        "ch05-q-q5-5",
+        "ch05-q-p5-2"
+      ]
+    },
+    {
+      "id": "ch05-5-1-4-bandwidth",
+      "chapter": 5,
+      "title": "Bandwidth",
+      "parent": "ch05-5-1-4",
+      "children": [],
+      "source": "book p.143",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "bandwidth"
+      ],
+      "question_ids": [
+        "ch05-q-p5-7",
+        "ch05-q-p5-8"
+      ]
+    },
+    {
+      "id": "ch05-5-1-4-implementation",
+      "chapter": 5,
+      "title": "Implementation",
+      "parent": "ch05-5-1-4",
+      "children": [],
+      "source": "book p.143",
+      "kind": "concept",
+      "asset_ids": [
+        "ch05_ill_010"
+      ],
+      "terms": [
+        "implementation"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch05-5-1-4-quadrature-psk-qpsk",
+      "chapter": 5,
+      "title": "Quadrature PSK (QPSK)",
+      "parent": "ch05-5-1-4",
+      "children": [
+        "ch05-example-5-7"
+      ],
+      "source": "book p.143",
+      "kind": "concept",
+      "asset_ids": [
+        "ch05_ill_011"
+      ],
+      "terms": [
+        "psk",
+        "qpsk",
+        "quadrature"
+      ],
+      "question_ids": [
+        "ch05-q-p5-1"
+      ]
+    },
+    {
+      "id": "ch05-example-5-7",
+      "chapter": 5,
+      "title": "Example 5.7",
+      "parent": "ch05-5-1-4-quadrature-psk-qpsk",
+      "children": [],
+      "source": "book Example 5.7",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "5",
+        "7",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch05-5-1-4-constellation-diagram",
+      "chapter": 5,
+      "title": "Constellation Diagram",
+      "parent": "ch05-5-1-4",
+      "children": [
+        "ch05-example-5-8"
+      ],
+      "source": "book p.144",
+      "kind": "concept",
+      "asset_ids": [
+        "ch05_ill_012"
+      ],
+      "terms": [
+        "constellation",
+        "diagram"
+      ],
+      "question_ids": [
+        "ch05-q-q5-6",
+        "ch05-q-q5-7",
+        "ch05-q-p5-4",
+        "ch05-q-p5-5",
+        "ch05-q-p5-6"
+      ]
+    },
+    {
+      "id": "ch05-example-5-8",
+      "chapter": 5,
+      "title": "Example 5.8",
+      "parent": "ch05-5-1-4-constellation-diagram",
+      "children": [],
+      "source": "book Example 5.8",
+      "kind": "worked_example",
+      "asset_ids": [
+        "ch05_ill_013"
+      ],
+      "terms": [
+        "5",
+        "8",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch05-5-1-5",
+      "chapter": 5,
+      "title": "5.1.5 Quadrature Amplitude Modulation",
+      "parent": "ch05-5-1",
+      "children": [
+        "ch05-5-1-5-bandwidth-for-qam"
+      ],
+      "source": "book 5.1.5; p.146",
+      "kind": "concept",
+      "asset_ids": [
+        "ch05_ill_014"
+      ],
+      "terms": [
+        "1",
+        "5",
+        "amplitude",
+        "modulation",
+        "quadrature"
+      ],
+      "question_ids": [
+        "ch05-q-q5-4",
+        "ch05-q-p5-1",
+        "ch05-q-p5-2",
+        "ch05-q-p5-3",
+        "ch05-q-p5-4",
+        "ch05-q-p5-5"
+      ]
+    },
+    {
+      "id": "ch05-5-1-5-bandwidth-for-qam",
+      "chapter": 5,
+      "title": "Bandwidth for QAM",
+      "parent": "ch05-5-1-5",
+      "children": [],
+      "source": "book p.147",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "bandwidth",
+        "qam"
+      ],
+      "question_ids": [
+        "ch05-q-p5-7",
+        "ch05-q-p5-8",
+        "ch05-q-p5-9",
+        "ch05-q-p5-10"
+      ]
+    },
+    {
+      "id": "ch05-5-2",
+      "chapter": 5,
+      "title": "5.2 ANALOG-TO-ANALOG CONVERSION",
+      "parent": null,
+      "children": [
+        "ch05-5-2-1",
+        "ch05-5-2-2",
+        "ch05-5-2-3"
+      ],
+      "source": "book 5.2; p.147",
+      "kind": "concept",
+      "asset_ids": [
+        "ch05_ill_015"
+      ],
+      "terms": [
+        "2",
+        "5",
+        "analog",
+        "conversion"
+      ],
+      "question_ids": [
+        "ch05-q-q5-8"
+      ]
+    },
+    {
+      "id": "ch05-5-2-1",
+      "chapter": 5,
+      "title": "5.2.1 Amplitude Modulation (AM)",
+      "parent": "ch05-5-2",
+      "children": [
+        "ch05-5-2-1-am-bandwidth",
+        "ch05-5-2-1-standard-bandwidth-allocation-for-am-radio"
+      ],
+      "source": "book 5.2.1; p.147",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "2",
+        "5",
+        "am",
+        "amplitude",
+        "modulation"
+      ],
+      "question_ids": [
+        "ch05-q-q5-9",
+        "ch05-q-q5-10"
+      ]
+    },
+    {
+      "id": "ch05-5-2-1-am-bandwidth",
+      "chapter": 5,
+      "title": "AM Bandwidth",
+      "parent": "ch05-5-2-1",
+      "children": [],
+      "source": "book p.147",
+      "kind": "concept",
+      "asset_ids": [
+        "ch05_ill_016"
+      ],
+      "terms": [
+        "am",
+        "bandwidth"
+      ],
+      "question_ids": [
+        "ch05-q-p5-11"
+      ]
+    },
+    {
+      "id": "ch05-5-2-1-standard-bandwidth-allocation-for-am-radio",
+      "chapter": 5,
+      "title": "Standard Bandwidth Allocation for AM Radio",
+      "parent": "ch05-5-2-1",
+      "children": [],
+      "source": "book p.148",
+      "kind": "concept",
+      "asset_ids": [
+        "ch05_ill_017"
+      ],
+      "terms": [
+        "allocation",
+        "am",
+        "bandwidth",
+        "radio",
+        "standard"
+      ],
+      "question_ids": [
+        "ch05-q-p5-12"
+      ]
+    },
+    {
+      "id": "ch05-5-2-2",
+      "chapter": 5,
+      "title": "5.2.2 Frequency Modulation (FM)",
+      "parent": "ch05-5-2",
+      "children": [
+        "ch05-5-2-2-fm-bandwidth",
+        "ch05-5-2-2-standard-bandwidth-allocation-for-fm-radio"
+      ],
+      "source": "book 5.2.2; p.148",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "5",
+        "fm",
+        "frequency",
+        "modulation"
+      ],
+      "question_ids": [
+        "ch05-q-q5-9",
+        "ch05-q-q5-10"
+      ]
+    },
+    {
+      "id": "ch05-5-2-2-fm-bandwidth",
+      "chapter": 5,
+      "title": "FM Bandwidth",
+      "parent": "ch05-5-2-2",
+      "children": [],
+      "source": "book p.149",
+      "kind": "concept",
+      "asset_ids": [
+        "ch05_ill_018"
+      ],
+      "terms": [
+        "bandwidth",
+        "fm"
+      ],
+      "question_ids": [
+        "ch05-q-p5-11"
+      ]
+    },
+    {
+      "id": "ch05-5-2-2-standard-bandwidth-allocation-for-fm-radio",
+      "chapter": 5,
+      "title": "Standard Bandwidth Allocation for FM Radio",
+      "parent": "ch05-5-2-2",
+      "children": [],
+      "source": "book p.149",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "allocation",
+        "bandwidth",
+        "fm",
+        "radio",
+        "standard"
+      ],
+      "question_ids": [
+        "ch05-q-p5-12"
+      ]
+    },
+    {
+      "id": "ch05-5-2-3",
+      "chapter": 5,
+      "title": "5.2.3 Phase Modulation (PM)",
+      "parent": "ch05-5-2",
+      "children": [
+        "ch05-5-2-3-pm-bandwidth"
+      ],
+      "source": "book 5.2.3; p.149",
+      "kind": "concept",
+      "asset_ids": [
+        "ch05_ill_019",
+        "ch05_ill_020"
+      ],
+      "terms": [
+        "2",
+        "3",
+        "5",
+        "modulation",
+        "phase",
+        "pm"
+      ],
+      "question_ids": [
+        "ch05-q-q5-9",
+        "ch05-q-q5-10"
+      ]
+    },
+    {
+      "id": "ch05-5-2-3-pm-bandwidth",
+      "chapter": 5,
+      "title": "PM Bandwidth",
+      "parent": "ch05-5-2-3",
+      "children": [],
+      "source": "book p.150",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "bandwidth",
+        "pm"
+      ],
+      "question_ids": [
+        "ch05-q-p5-11"
+      ]
+    },
+    {
+      "id": "ch05-5-3",
+      "chapter": 5,
+      "title": "5.3 END-CHAPTER MATERIALS",
+      "parent": null,
+      "children": [
+        "ch05-5-3-1",
+        "ch05-5-3-2",
+        "ch05-5-3-3"
+      ],
+      "source": "book 5.3; p.151",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "5",
+        "chapter",
+        "end",
+        "materials"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch05-5-3-1",
+      "chapter": 5,
+      "title": "5.3.1 Recommended Reading",
+      "parent": "ch05-5-3",
+      "children": [
+        "ch05-5-3-1-books"
+      ],
+      "source": "book 5.3.1; p.151",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "3",
+        "5",
+        "reading",
+        "recommended"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch05-5-3-1-books",
+      "chapter": 5,
+      "title": "Books",
+      "parent": "ch05-5-3-1",
+      "children": [],
+      "source": "book p.151",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "books"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch05-5-3-2",
+      "chapter": 5,
+      "title": "5.3.2 Key Terms",
+      "parent": "ch05-5-3",
+      "children": [],
+      "source": "book 5.3.2; p.151",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "3",
+        "5",
+        "key",
+        "terms"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch05-5-3-3",
+      "chapter": 5,
+      "title": "5.3.3 Summary",
+      "parent": "ch05-5-3",
+      "children": [],
+      "source": "book 5.3.3; p.151",
+      "kind": "summary",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "5",
         "summary"
       ],
       "question_ids": []
