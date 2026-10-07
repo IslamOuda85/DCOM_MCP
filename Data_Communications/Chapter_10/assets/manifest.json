@@ -1,0 +1,8651 @@
+{
+  "chapter": 10,
+  "spec_version": "1.1-controller",
+  "generated_at": "2026-10-07T03:42:37+00:00",
+  "assets": [
+    {
+      "id": "ch10_ill_001",
+      "file": "ch10_ill_001.png",
+      "type": "illustration",
+      "kind": "waveform",
+      "render": true,
+      "orig_label": "Figure 10.1",
+      "section_id": "ch10-1-1",
+      "alt": "Figure 10.1: Single-bit and burst error",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 2,
+          "label": "Figure 10.1"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 365,
+      "sha256": "d6834e8e43f3c745628d773499c421b94c6e81fd6b06af6326d12f57d618e176",
+      "data_file": null,
+      "source_pdf_page": 2,
+      "source_bbox": [
+        99.32,
+        209.38,
+        451.32,
+        330.98
+      ],
+      "labels": [
+        {
+          "text": "Length of burst error (8 bits)",
+          "bbox": [
+            0.4974,
+            0.2654,
+            0.7577,
+            0.3312
+          ]
+        },
+        {
+          "text": "0 1 0 0 1 1 0 1 0 1 0 0 0 0 1 1",
+          "bbox": [
+            0.4415,
+            0.4347,
+            0.8641,
+            0.5171
+          ]
+        },
+        {
+          "text": "Sent",
+          "bbox": [
+            0.0774,
+            0.4353,
+            0.1178,
+            0.501
+          ]
+        },
+        {
+          "text": "Sent",
+          "bbox": [
+            0.8812,
+            0.4352,
+            0.9216,
+            0.501
+          ]
+        },
+        {
+          "text": "0 0 0 0 0 0 1 0",
+          "bbox": [
+            0.1348,
+            0.4373,
+            0.3381,
+            0.5196
+          ]
+        },
+        {
+          "text": "Corrupted bit",
+          "bbox": [
+            0.2584,
+            0.5548,
+            0.3802,
+            0.6206
+          ]
+        },
+        {
+          "text": "Corrupted bits",
+          "bbox": [
+            0.7335,
+            0.5548,
+            0.8642,
+            0.6206
+          ]
+        },
+        {
+          "text": "0 1 0 1 0 1 0 0 0 1 1 0 0 0 1 1",
+          "bbox": [
+            0.4415,
+            0.6927,
+            0.8641,
+            0.7751
+          ]
+        },
+        {
+          "text": "0 0 0 0 1 0 1 0",
+          "bbox": [
+            0.1348,
+            0.6953,
+            0.3381,
+            0.7776
+          ]
+        },
+        {
+          "text": "Received",
+          "bbox": [
+            0.0343,
+            0.697,
+            0.118,
+            0.7628
+          ]
+        },
+        {
+          "text": "Received",
+          "bbox": [
+            0.8811,
+            0.697,
+            0.9647,
+            0.7627
+          ]
+        },
+        {
+          "text": "a. Single-bit error",
+          "bbox": [
+            0.1513,
+            0.7945,
+            0.3123,
+            0.8603
+          ]
+        },
+        {
+          "text": "b. Burst error",
+          "bbox": [
+            0.6124,
+            0.7945,
+            0.7334,
+            0.8603
+          ]
+        }
+      ],
+      "text_in_image": "Length of burst error (8 bits); 0 1 0 0 1 1 0 1 0 1 0 0 0 0 1 1; Sent; Sent; 0 0 0 0 0 0 1 0; Corrupted bit; Corrupted bits; 0 1 0 1 0 1 0 0 0 1 1 0 0 0 1 1; 0 0 0 0 1 0 1 0; Received; Received; a. Single-bit error; b. Burst error",
+      "description": "Figure 10.1: Single-bit and burst error. Two sent and received bit strings contrast one changed bit with an eight-bit burst span whose endpoints and internal corruptions are marked.",
+      "structure": "Two sent and received bit strings contrast one changed bit with an eight-bit burst span whose endpoints and internal corruptions are marked.",
+      "use_when": "Teach ch10-1-1, interpret Figure 10.1, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_ill_002",
+      "file": "ch10_ill_002.png",
+      "type": "illustration",
+      "kind": "flow",
+      "render": true,
+      "orig_label": "Figure 10.2",
+      "section_id": "ch10-2-1",
+      "alt": "Figure 10.2: Process of error detection in block coding",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 4,
+          "label": "Figure 10.2"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1053,
+      "height": 485,
+      "sha256": "ec25f41b9a5074ebcbb807a04c7c0f303149e9f23c728d391dccc0b77f816a3d",
+      "data_file": null,
+      "source_pdf_page": 4,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        209.24
+      ],
+      "labels": [
+        {
+          "text": "Sender",
+          "bbox": [
+            0.2174,
+            0.2078,
+            0.2807,
+            0.2574
+          ]
+        },
+        {
+          "text": "Receiver",
+          "bbox": [
+            0.7042,
+            0.2078,
+            0.7843,
+            0.2574
+          ]
+        },
+        {
+          "text": "Decoder",
+          "bbox": [
+            0.6179,
+            0.2828,
+            0.6951,
+            0.3324
+          ]
+        },
+        {
+          "text": "Encoder",
+          "bbox": [
+            0.2992,
+            0.2836,
+            0.3751,
+            0.3332
+          ]
+        },
+        {
+          "text": "k bits",
+          "bbox": [
+            0.135,
+            0.3673,
+            0.1837,
+            0.4268
+          ]
+        },
+        {
+          "text": "k bits",
+          "bbox": [
+            0.8083,
+            0.3673,
+            0.857,
+            0.4268
+          ]
+        },
+        {
+          "text": "Dataword",
+          "bbox": [
+            0.2005,
+            0.3817,
+            0.2977,
+            0.4312
+          ]
+        },
+        {
+          "text": "Dataword",
+          "bbox": [
+            0.694,
+            0.3817,
+            0.7913,
+            0.4312
+          ]
+        },
+        {
+          "text": "Extract",
+          "bbox": [
+            0.7555,
+            0.4855,
+            0.8214,
+            0.5351
+          ]
+        },
+        {
+          "text": "Generator",
+          "bbox": [
+            0.2035,
+            0.5651,
+            0.2946,
+            0.6147
+          ]
+        },
+        {
+          "text": "Checker",
+          "bbox": [
+            0.7048,
+            0.5651,
+            0.7805,
+            0.6147
+          ]
+        },
+        {
+          "text": "Discard",
+          "bbox": [
+            0.8064,
+            0.6044,
+            0.8773,
+            0.6539
+          ]
+        },
+        {
+          "text": "Unreliable",
+          "bbox": [
+            0.4486,
+            0.6748,
+            0.5448,
+            0.7243
+          ]
+        },
+        {
+          "text": "transmission",
+          "bbox": [
+            0.4391,
+            0.7305,
+            0.5543,
+            0.7801
+          ]
+        },
+        {
+          "text": "n bits",
+          "bbox": [
+            0.116,
+            0.7731,
+            0.166,
+            0.8325
+          ]
+        },
+        {
+          "text": "Codeword",
+          "bbox": [
+            0.202,
+            0.7731,
+            0.2962,
+            0.8226
+          ]
+        },
+        {
+          "text": "Codeword",
+          "bbox": [
+            0.6956,
+            0.7731,
+            0.7897,
+            0.8226
+          ]
+        },
+        {
+          "text": "n bits",
+          "bbox": [
+            0.8244,
+            0.7731,
+            0.8744,
+            0.8325
+          ]
+        }
+      ],
+      "text_in_image": "Sender; Receiver; Decoder; Encoder; k bits; k bits; Dataword; Dataword; Extract; Generator; Checker; Discard; Unreliable; transmission; n bits; Codeword; Codeword; n bits",
+      "description": "Figure 10.2: Process of error detection in block coding. A sender maps a k-bit dataword through a generator to an n-bit codeword; after an unreliable channel, a checker either extracts the dataword or discards the word.",
+      "structure": "A sender maps a k-bit dataword through a generator to an n-bit codeword; after an unreliable channel, a checker either extracts the dataword or discards the word.",
+      "use_when": "Teach ch10-2-1, interpret Figure 10.2, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_ill_003",
+      "file": "ch10_ill_003.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 10.3",
+      "section_id": "ch10-2-1",
+      "alt": "Figure 10.3: Geometric concept explaining dmin in error detection",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 6,
+          "label": "Figure 10.3"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1053,
+      "height": 399,
+      "sha256": "a555bf764be75b742f7d31fceca142faacc2ec533b0551166c02dbfccc266c4e",
+      "data_file": null,
+      "source_pdf_page": 6,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        180.38
+      ],
+      "labels": [
+        {
+          "text": "Legend",
+          "bbox": [
+            0.5048,
+            0.3599,
+            0.577,
+            0.4203
+          ]
+        },
+        {
+          "text": "Any valid codeword",
+          "bbox": [
+            0.5437,
+            0.4449,
+            0.7298,
+            0.5053
+          ]
+        },
+        {
+          "text": "Radius s",
+          "bbox": [
+            0.2886,
+            0.4505,
+            0.3664,
+            0.523
+          ]
+        },
+        {
+          "text": "y",
+          "bbox": [
+            0.4339,
+            0.4752,
+            0.4537,
+            0.5506
+          ]
+        },
+        {
+          "text": "x",
+          "bbox": [
+            0.245,
+            0.4827,
+            0.2648,
+            0.5582
+          ]
+        },
+        {
+          "text": "Any corrupted codeword",
+          "bbox": [
+            0.5437,
+            0.5162,
+            0.7715,
+            0.5766
+          ]
+        },
+        {
+          "text": "with 1 to s errors",
+          "bbox": [
+            0.5437,
+            0.5887,
+            0.6981,
+            0.6611
+          ]
+        },
+        {
+          "text": "dmin > s",
+          "bbox": [
+            0.32,
+            0.7619,
+            0.4005,
+            0.8343
+          ]
+        }
+      ],
+      "text_in_image": "Legend; Any valid codeword; Radius s; y; x; Any corrupted codeword; with 1 to s errors; dmin > s",
+      "description": "Figure 10.3: Geometric concept explaining dmin in error detection. A radius-s neighborhood around valid codeword x contains every word produced by up to s errors, while another valid word y lies beyond minimum distance d_min.",
+      "structure": "A radius-s neighborhood around valid codeword x contains every word produced by up to s errors, while another valid word y lies beyond minimum distance d_min.",
+      "use_when": "Teach ch10-2-1, interpret Figure 10.3, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_ill_004",
+      "file": "ch10_ill_004.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 10.4",
+      "section_id": "ch10-2-1",
+      "alt": "Figure 10.4: Encoder and decoder for simple parity-check code",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 7,
+          "label": "Figure 10.4"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 581,
+      "sha256": "ece7a582d873eb5716e7bfea263b74b71639c7c07336cc944b5a2fc1edaad1a8",
+      "data_file": null,
+      "source_pdf_page": 7,
+      "source_bbox": [
+        114.32,
+        224.86,
+        466.32,
+        418.22
+      ],
+      "labels": [
+        {
+          "text": "Sender",
+          "bbox": [
+            0.171,
+            0.1737,
+            0.2341,
+            0.2151
+          ]
+        },
+        {
+          "text": "Receiver",
+          "bbox": [
+            0.7324,
+            0.1737,
+            0.8131,
+            0.2151
+          ]
+        },
+        {
+          "text": "Dataword",
+          "bbox": [
+            0.0887,
+            0.2363,
+            0.1783,
+            0.2776
+          ]
+        },
+        {
+          "text": "Dataword",
+          "bbox": [
+            0.7766,
+            0.2363,
+            0.8663,
+            0.2776
+          ]
+        },
+        {
+          "text": "Decoder",
+          "bbox": [
+            0.5747,
+            0.2486,
+            0.6517,
+            0.29
+          ]
+        },
+        {
+          "text": "Encoder",
+          "bbox": [
+            0.3027,
+            0.2492,
+            0.3785,
+            0.2906
+          ]
+        },
+        {
+          "text": "a3 a2 a1 a0",
+          "bbox": [
+            0.0775,
+            0.2892,
+            0.1895,
+            0.3409
+          ]
+        },
+        {
+          "text": "a3 a2 a1 a0",
+          "bbox": [
+            0.7684,
+            0.2892,
+            0.8804,
+            0.3409
+          ]
+        },
+        {
+          "text": "Accept",
+          "bbox": [
+            0.702,
+            0.3513,
+            0.7664,
+            0.3927
+          ]
+        },
+        {
+          "text": "Discard",
+          "bbox": [
+            0.942,
+            0.3882,
+            0.9648,
+            0.5169
+          ]
+        },
+        {
+          "text": "Decision",
+          "bbox": [
+            0.7766,
+            0.4039,
+            0.8574,
+            0.4453
+          ]
+        },
+        {
+          "text": "logic",
+          "bbox": [
+            0.7943,
+            0.4352,
+            0.8397,
+            0.4766
+          ]
+        },
+        {
+          "text": "Syndrome",
+          "bbox": [
+            0.5716,
+            0.4686,
+            0.665,
+            0.51
+          ]
+        },
+        {
+          "text": "s0",
+          "bbox": [
+            0.6784,
+            0.4729,
+            0.6958,
+            0.5164
+          ]
+        },
+        {
+          "text": "Checker",
+          "bbox": [
+            0.6492,
+            0.5534,
+            0.725,
+            0.5947
+          ]
+        },
+        {
+          "text": "Generator",
+          "bbox": [
+            0.2009,
+            0.5571,
+            0.2918,
+            0.5985
+          ]
+        },
+        {
+          "text": "Unreliable",
+          "bbox": [
+            0.4329,
+            0.6989,
+            0.5288,
+            0.7403
+          ]
+        },
+        {
+          "text": "Parity bit",
+          "bbox": [
+            0.2175,
+            0.7036,
+            0.3015,
+            0.7449
+          ]
+        },
+        {
+          "text": "transmission",
+          "bbox": [
+            0.4234,
+            0.7485,
+            0.5383,
+            0.7899
+          ]
+        },
+        {
+          "text": "a3 a2 a1 a0 r0",
+          "bbox": [
+            0.0766,
+            0.791,
+            0.2182,
+            0.8427
+          ]
+        },
+        {
+          "text": "b3 b2 b1 b0 q0",
+          "bbox": [
+            0.7684,
+            0.791,
+            0.9112,
+            0.8427
+          ]
+        },
+        {
+          "text": "Codeword",
+          "bbox": [
+            0.0984,
+            0.8447,
+            0.1931,
+            0.8861
+          ]
+        },
+        {
+          "text": "Codeword",
+          "bbox": [
+            0.7875,
+            0.8447,
+            0.8822,
+            0.8861
+          ]
+        }
+      ],
+      "text_in_image": "Sender; Receiver; Dataword; Dataword; Decoder; Encoder; a3 a2 a1 a0; a3 a2 a1 a0; Accept; Discard; Decision; logic; Syndrome; s0; Checker; Generator; Unreliable; Parity bit; transmission; a3 a2 a1 a0 r0; b3 b2 b1 b0 q0; Codeword; Codeword",
+      "description": "Figure 10.4: Encoder and decoder for simple parity-check code. A four-bit dataword feeds an even-parity generator; the receiver recomputes a one-bit syndrome and accepts or discards the received dataword.",
+      "structure": "A four-bit dataword feeds an even-parity generator; the receiver recomputes a one-bit syndrome and accepts or discards the received dataword.",
+      "use_when": "Teach ch10-2-1, interpret Figure 10.4, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_ill_005",
+      "file": "ch10_ill_005.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 10.5",
+      "section_id": "ch10-3-1",
+      "alt": "Figure 10.5: CRC encoder and decoder",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 9,
+          "label": "Figure 10.5"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 725,
+      "sha256": "6ce1b678c86056ebc36b2f2c7b8c34072a9e45fff3428b672e01994d27b88c51",
+      "data_file": null,
+      "source_pdf_page": 9,
+      "source_bbox": [
+        114.32,
+        261.88,
+        466.32,
+        503.3
+      ],
+      "labels": [
+        {
+          "text": "Sender",
+          "bbox": [
+            0.1583,
+            0.139,
+            0.2214,
+            0.1722
+          ]
+        },
+        {
+          "text": "Receiver",
+          "bbox": [
+            0.7317,
+            0.139,
+            0.8125,
+            0.1722
+          ]
+        },
+        {
+          "text": "Dataword",
+          "bbox": [
+            0.0792,
+            0.2029,
+            0.1689,
+            0.236
+          ]
+        },
+        {
+          "text": "Dataword",
+          "bbox": [
+            0.7873,
+            0.2029,
+            0.877,
+            0.236
+          ]
+        },
+        {
+          "text": "Encoder",
+          "bbox": [
+            0.2687,
+            0.2166,
+            0.3508,
+            0.2497
+          ]
+        },
+        {
+          "text": "Decoder",
+          "bbox": [
+            0.5783,
+            0.2166,
+            0.6591,
+            0.2497
+          ]
+        },
+        {
+          "text": "a3 a2 a1 a0",
+          "bbox": [
+            0.0746,
+            0.2617,
+            0.1788,
+            0.3031
+          ]
+        },
+        {
+          "text": "a3 a2 a1 a0",
+          "bbox": [
+            0.7828,
+            0.2617,
+            0.8869,
+            0.3031
+          ]
+        },
+        {
+          "text": "Accept",
+          "bbox": [
+            0.711,
+            0.3352,
+            0.7754,
+            0.3683
+          ]
+        },
+        {
+          "text": "0 0 0",
+          "bbox": [
+            0.2699,
+            0.3681,
+            0.3179,
+            0.4012
+          ]
+        },
+        {
+          "text": "Discard",
+          "bbox": [
+            0.9398,
+            0.3846,
+            0.9625,
+            0.4877
+          ]
+        },
+        {
+          "text": "Decision",
+          "bbox": [
+            0.7876,
+            0.3929,
+            0.8685,
+            0.426
+          ]
+        },
+        {
+          "text": "logic",
+          "bbox": [
+            0.8053,
+            0.4326,
+            0.8508,
+            0.4658
+          ]
+        },
+        {
+          "text": "Syndrome",
+          "bbox": [
+            0.5672,
+            0.4651,
+            0.6606,
+            0.4982
+          ]
+        },
+        {
+          "text": "s2",
+          "bbox": [
+            0.6725,
+            0.4683,
+            0.6899,
+            0.5031
+          ]
+        },
+        {
+          "text": "s1",
+          "bbox": [
+            0.7006,
+            0.4683,
+            0.718,
+            0.5031
+          ]
+        },
+        {
+          "text": "s0",
+          "bbox": [
+            0.7287,
+            0.4683,
+            0.7461,
+            0.5031
+          ]
+        },
+        {
+          "text": "Divisor",
+          "bbox": [
+            0.4303,
+            0.5115,
+            0.4979,
+            0.5446
+          ]
+        },
+        {
+          "text": "Generator",
+          "bbox": [
+            0.2052,
+            0.5588,
+            0.2961,
+            0.5919
+          ]
+        },
+        {
+          "text": "Checker",
+          "bbox": [
+            0.6714,
+            0.5588,
+            0.7472,
+            0.5919
+          ]
+        },
+        {
+          "text": "d3 d2",
+          "bbox": [
+            0.4127,
+            0.5635,
+            0.4599,
+            0.6049
+          ]
+        },
+        {
+          "text": "d1",
+          "bbox": [
+            0.4682,
+            0.5635,
+            0.4881,
+            0.6045
+          ]
+        },
+        {
+          "text": "d0",
+          "bbox": [
+            0.4968,
+            0.5635,
+            0.5167,
+            0.6045
+          ]
+        },
+        {
+          "text": "Shared",
+          "bbox": [
+            0.4307,
+            0.6127,
+            0.4939,
+            0.6458
+          ]
+        },
+        {
+          "text": "Remainder",
+          "bbox": [
+            0.2791,
+            0.6459,
+            0.3018,
+            0.7913
+          ]
+        },
+        {
+          "text": "Unreliable",
+          "bbox": [
+            0.416,
+            0.7329,
+            0.5119,
+            0.7661
+          ]
+        },
+        {
+          "text": "transmission",
+          "bbox": [
+            0.4065,
+            0.7727,
+            0.5214,
+            0.8058
+          ]
+        },
+        {
+          "text": "a3 a2 a1 a0 r2 r1 r0",
+          "bbox": [
+            0.0739,
+            0.8167,
+            0.261,
+            0.8581
+          ]
+        },
+        {
+          "text": "b3 b2 b1 b0",
+          "bbox": [
+            0.7827,
+            0.8167,
+            0.8869,
+            0.8581
+          ]
+        },
+        {
+          "text": "q2 q1 q0",
+          "bbox": [
+            0.8951,
+            0.8167,
+            0.9712,
+            0.8581
+          ]
+        },
+        {
+          "text": "Codeword",
+          "bbox": [
+            0.1208,
+            0.8735,
+            0.2155,
+            0.9067
+          ]
+        },
+        {
+          "text": "Codeword",
+          "bbox": [
+            0.8296,
+            0.8735,
+            0.9243,
+            0.9066
+          ]
+        }
+      ],
+      "text_in_image": "Sender; Receiver; Dataword; Dataword; Encoder; Decoder; a3 a2 a1 a0; a3 a2 a1 a0; Accept; 0 0 0; Discard; Decision; logic; Syndrome; s2; s1; s0; Divisor; Generator; Checker; d3 d2; d1; d0; Shared; Remainder; Unreliable; transmission; a3 a2 a1 a0 r2 r1 r0; b3 b2 b1 b0; q2 q1 q0; Codeword; Codeword",
+      "description": "Figure 10.5: CRC encoder and decoder. A CRC sender divides an augmented dataword by a shared divisor and appends the remainder; the receiver divides the received codeword and tests the syndrome.",
+      "structure": "A CRC sender divides an augmented dataword by a shared divisor and appends the remainder; the receiver divides the received codeword and tests the syndrome.",
+      "use_when": "Teach ch10-3-1, interpret Figure 10.5, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_ill_006",
+      "file": "ch10_ill_006.png",
+      "type": "illustration",
+      "kind": "matrix_table",
+      "render": true,
+      "orig_label": "Figure 10.6",
+      "section_id": "ch10-3-1",
+      "alt": "Figure 10.6: Division in CRC encoder",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 10,
+          "label": "Figure 10.6"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 841,
+      "sha256": "0bc4811071650392b9f1a7bc4213cd64d15e2fa1102705cc33f19fedc086b7b9",
+      "data_file": null,
+      "source_pdf_page": 10,
+      "source_bbox": [
+        99.32,
+        166.9,
+        451.32,
+        446.96
+      ],
+      "labels": [
+        {
+          "text": "Dataword",
+          "bbox": [
+            0.2476,
+            0.1259,
+            0.3372,
+            0.1545
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.359,
+            0.127,
+            0.3704,
+            0.1556
+          ]
+        },
+        {
+          "text": "0 0",
+          "bbox": [
+            0.3854,
+            0.127,
+            0.4232,
+            0.1556
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4383,
+            0.127,
+            0.4496,
+            0.1556
+          ]
+        },
+        {
+          "text": "Encoding",
+          "bbox": [
+            0.0714,
+            0.1901,
+            0.1585,
+            0.2186
+          ]
+        },
+        {
+          "text": "Quotient",
+          "bbox": [
+            0.3318,
+            0.2518,
+            0.4113,
+            0.2804
+          ]
+        },
+        {
+          "text": "Discard",
+          "bbox": [
+            0.4975,
+            0.2885,
+            0.5682,
+            0.3171
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3266,
+            0.2923,
+            0.338,
+            0.3208
+          ]
+        },
+        {
+          "text": "0 1",
+          "bbox": [
+            0.3531,
+            0.2923,
+            0.3908,
+            0.3208
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4059,
+            0.2923,
+            0.4173,
+            0.3208
+          ]
+        },
+        {
+          "text": "Dividend",
+          "bbox": [
+            0.5924,
+            0.3401,
+            0.6826,
+            0.3687
+          ]
+        },
+        {
+          "text": "Divisor",
+          "bbox": [
+            0.1181,
+            0.3406,
+            0.1863,
+            0.3692
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2065,
+            0.3437,
+            0.2179,
+            0.3722
+          ]
+        },
+        {
+          "text": "0 1",
+          "bbox": [
+            0.2329,
+            0.3437,
+            0.2707,
+            0.3722
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2858,
+            0.3437,
+            0.2971,
+            0.3722
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3277,
+            0.3437,
+            0.339,
+            0.3722
+          ]
+        },
+        {
+          "text": "0 0",
+          "bbox": [
+            0.3541,
+            0.3437,
+            0.3918,
+            0.3722
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4069,
+            0.3437,
+            0.4183,
+            0.3722
+          ]
+        },
+        {
+          "text": "0 0 0",
+          "bbox": [
+            0.4333,
+            0.3437,
+            0.4975,
+            0.3722
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3276,
+            0.3855,
+            0.339,
+            0.4141
+          ]
+        },
+        {
+          "text": "0 1",
+          "bbox": [
+            0.3541,
+            0.3855,
+            0.3918,
+            0.4141
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4069,
+            0.3855,
+            0.4183,
+            0.4141
+          ]
+        },
+        {
+          "text": "Note:",
+          "bbox": [
+            0.765,
+            0.3983,
+            0.818,
+            0.4269
+          ]
+        },
+        {
+          "text": "Multiply: AND",
+          "bbox": [
+            0.7652,
+            0.4301,
+            0.906,
+            0.4586
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3529,
+            0.4414,
+            0.3642,
+            0.4699
+          ]
+        },
+        {
+          "text": "1 0",
+          "bbox": [
+            0.3793,
+            0.4414,
+            0.4171,
+            0.4699
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4321,
+            0.4414,
+            0.4435,
+            0.4699
+          ]
+        },
+        {
+          "text": "Subtract: XOR",
+          "bbox": [
+            0.7652,
+            0.4644,
+            0.9066,
+            0.4929
+          ]
+        },
+        {
+          "text": "Leftmost bit 0:",
+          "bbox": [
+            0.1081,
+            0.4674,
+            0.2489,
+            0.496
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3529,
+            0.482,
+            0.3642,
+            0.5105
+          ]
+        },
+        {
+          "text": "0 0",
+          "bbox": [
+            0.3793,
+            0.482,
+            0.4171,
+            0.5105
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4321,
+            0.482,
+            0.4435,
+            0.5105
+          ]
+        },
+        {
+          "text": "use 0000 divisor",
+          "bbox": [
+            0.1033,
+            0.4979,
+            0.2536,
+            0.5265
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3771,
+            0.5416,
+            0.3885,
+            0.5702
+          ]
+        },
+        {
+          "text": "0 0",
+          "bbox": [
+            0.4035,
+            0.5416,
+            0.4413,
+            0.5702
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4564,
+            0.5416,
+            0.4677,
+            0.5702
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3771,
+            0.5784,
+            0.3885,
+            0.607
+          ]
+        },
+        {
+          "text": "0 1",
+          "bbox": [
+            0.4035,
+            0.5784,
+            0.4413,
+            0.607
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4564,
+            0.5784,
+            0.4677,
+            0.607
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4044,
+            0.6368,
+            0.4157,
+            0.6653
+          ]
+        },
+        {
+          "text": "1 1",
+          "bbox": [
+            0.4308,
+            0.6368,
+            0.4686,
+            0.6653
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4836,
+            0.6368,
+            0.495,
+            0.6653
+          ]
+        },
+        {
+          "text": "Leftmost bit 0:",
+          "bbox": [
+            0.1623,
+            0.6629,
+            0.3031,
+            0.6914
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4044,
+            0.6787,
+            0.4157,
+            0.7072
+          ]
+        },
+        {
+          "text": "0 0",
+          "bbox": [
+            0.4308,
+            0.6787,
+            0.4686,
+            0.7072
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4836,
+            0.6787,
+            0.495,
+            0.7072
+          ]
+        },
+        {
+          "text": "use 0000 divisor",
+          "bbox": [
+            0.1576,
+            0.6933,
+            0.3079,
+            0.7219
+          ]
+        },
+        {
+          "text": "1 1",
+          "bbox": [
+            0.4333,
+            0.737,
+            0.4711,
+            0.7656
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4862,
+            0.737,
+            0.4975,
+            0.7656
+          ]
+        },
+        {
+          "text": "Remainder",
+          "bbox": [
+            0.5276,
+            0.739,
+            0.6273,
+            0.7676
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3053,
+            0.8627,
+            0.3167,
+            0.8912
+          ]
+        },
+        {
+          "text": "0 0",
+          "bbox": [
+            0.3317,
+            0.8627,
+            0.3695,
+            0.8912
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3846,
+            0.8627,
+            0.3959,
+            0.8912
+          ]
+        },
+        {
+          "text": "1 1 0",
+          "bbox": [
+            0.412,
+            0.8627,
+            0.4762,
+            0.8912
+          ]
+        },
+        {
+          "text": "Codeword",
+          "bbox": [
+            0.1901,
+            0.8658,
+            0.2848,
+            0.8944
+          ]
+        },
+        {
+          "text": "Dataword plus remainder",
+          "bbox": [
+            0.2752,
+            0.9036,
+            0.5061,
+            0.9321
+          ]
+        }
+      ],
+      "text_in_image": "Dataword; 1; 0 0; 1; Encoding; Quotient; Discard; 1; 0 1; 0; Dividend; Divisor; 1; 0 1; 1; 1; 0 0; 1; 0 0 0; 1; 0 1; 1; Note:; Multiply: AND; 0; 1 0; 0; Subtract: XOR; Leftmost bit 0:; 0; 0 0; 0; use 0000 divisor; 1; 0 0; 0; 1; 0 1; 1; 0; 1 1; 0; Leftmost bit 0:; 0; 0 0; 0; use 0000 divisor; 1 1; 0; Remainder; 1; 0 0; 1; 1 1 0; Codeword; Dataword plus remainder",
+      "description": "Figure 10.6: Division in CRC encoder. Modulo-2 long division of augmented dataword 1001000 by divisor 1011 yields remainder 110 and codeword 1001110.",
+      "structure": "Modulo-2 long division of augmented dataword 1001000 by divisor 1011 yields remainder 110 and codeword 1001110.",
+      "use_when": "Teach ch10-3-1, interpret Figure 10.6, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_ill_007",
+      "file": "ch10_ill_007.png",
+      "type": "illustration",
+      "kind": "matrix_table",
+      "render": true,
+      "orig_label": "Figure 10.7",
+      "section_id": "ch10-3-1",
+      "alt": "Figure 10.7: Division in the CRC decoder for two cases",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 11,
+          "label": "Figure 10.7"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 731,
+      "sha256": "6eb3d39f499e5708e15fdd393aa0d2997b8154d4c96ce095cd3ab2e73479d0c9",
+      "data_file": null,
+      "source_pdf_page": 11,
+      "source_bbox": [
+        114.32,
+        159.88,
+        466.32,
+        403.1
+      ],
+      "labels": [
+        {
+          "text": "Uncorrupted",
+          "bbox": [
+            0.2004,
+            0.1493,
+            0.3266,
+            0.1822
+          ]
+        },
+        {
+          "text": "Corrupted",
+          "bbox": [
+            0.6773,
+            0.1493,
+            0.7809,
+            0.1822
+          ]
+        },
+        {
+          "text": "Codeword",
+          "bbox": [
+            0.0781,
+            0.1801,
+            0.1728,
+            0.213
+          ]
+        },
+        {
+          "text": "Codeword",
+          "bbox": [
+            0.5564,
+            0.182,
+            0.651,
+            0.2149
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1885,
+            0.1832,
+            0.1999,
+            0.2161
+          ]
+        },
+        {
+          "text": "0 0",
+          "bbox": [
+            0.2112,
+            0.1832,
+            0.2452,
+            0.2161
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2565,
+            0.1832,
+            0.2678,
+            0.2161
+          ]
+        },
+        {
+          "text": "1 1 0",
+          "bbox": [
+            0.2808,
+            0.1832,
+            0.3375,
+            0.2161
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6662,
+            0.1832,
+            0.6776,
+            0.2161
+          ]
+        },
+        {
+          "text": "0 0",
+          "bbox": [
+            0.6889,
+            0.1832,
+            0.7229,
+            0.2161
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7342,
+            0.1832,
+            0.7456,
+            0.2161
+          ]
+        },
+        {
+          "text": "1 1 0",
+          "bbox": [
+            0.7596,
+            0.1832,
+            0.8163,
+            0.2161
+          ]
+        },
+        {
+          "text": "Decoder",
+          "bbox": [
+            0.0463,
+            0.2501,
+            0.1233,
+            0.283
+          ]
+        },
+        {
+          "text": "Decoder",
+          "bbox": [
+            0.5246,
+            0.2501,
+            0.6016,
+            0.283
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1703,
+            0.2995,
+            0.1817,
+            0.3324
+          ]
+        },
+        {
+          "text": "0 1",
+          "bbox": [
+            0.193,
+            0.2995,
+            0.227,
+            0.3324
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2383,
+            0.2995,
+            0.2497,
+            0.3324
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6486,
+            0.2995,
+            0.66,
+            0.3324
+          ]
+        },
+        {
+          "text": "0 1",
+          "bbox": [
+            0.6713,
+            0.2995,
+            0.7053,
+            0.3324
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7166,
+            0.2995,
+            0.728,
+            0.3324
+          ]
+        },
+        {
+          "text": "Codeword",
+          "bbox": [
+            0.3644,
+            0.3472,
+            0.4591,
+            0.3801
+          ]
+        },
+        {
+          "text": "Codeword",
+          "bbox": [
+            0.8398,
+            0.3473,
+            0.9345,
+            0.3802
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.0673,
+            0.3502,
+            0.0787,
+            0.3831
+          ]
+        },
+        {
+          "text": "0 1",
+          "bbox": [
+            0.09,
+            0.3502,
+            0.124,
+            0.3831
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1353,
+            0.3502,
+            0.1466,
+            0.3831
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1712,
+            0.3502,
+            0.1826,
+            0.3831
+          ]
+        },
+        {
+          "text": "0 0",
+          "bbox": [
+            0.1939,
+            0.3502,
+            0.2279,
+            0.3831
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2373,
+            0.3502,
+            0.2487,
+            0.3831
+          ]
+        },
+        {
+          "text": "1 1 0",
+          "bbox": [
+            0.2608,
+            0.3502,
+            0.3168,
+            0.3831
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5456,
+            0.3503,
+            0.5569,
+            0.3831
+          ]
+        },
+        {
+          "text": "0 1",
+          "bbox": [
+            0.5682,
+            0.3503,
+            0.6023,
+            0.3831
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6135,
+            0.3503,
+            0.6249,
+            0.3831
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6495,
+            0.3503,
+            0.6608,
+            0.3831
+          ]
+        },
+        {
+          "text": "0 0",
+          "bbox": [
+            0.6721,
+            0.3503,
+            0.7061,
+            0.3831
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7174,
+            0.3503,
+            0.7288,
+            0.3831
+          ]
+        },
+        {
+          "text": "1 1 0",
+          "bbox": [
+            0.7391,
+            0.3503,
+            0.7958,
+            0.3831
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1712,
+            0.3916,
+            0.1826,
+            0.4245
+          ]
+        },
+        {
+          "text": "0 1",
+          "bbox": [
+            0.1939,
+            0.3916,
+            0.2279,
+            0.4245
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2373,
+            0.3916,
+            0.2487,
+            0.4245
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6495,
+            0.3916,
+            0.6608,
+            0.4245
+          ]
+        },
+        {
+          "text": "0 1",
+          "bbox": [
+            0.6721,
+            0.3916,
+            0.7062,
+            0.4245
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7174,
+            0.3916,
+            0.7288,
+            0.4245
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1939,
+            0.4467,
+            0.2052,
+            0.4796
+          ]
+        },
+        {
+          "text": "1 0",
+          "bbox": [
+            0.2165,
+            0.4467,
+            0.2487,
+            0.4796
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2608,
+            0.4467,
+            0.2722,
+            0.4796
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6711,
+            0.4468,
+            0.6825,
+            0.4797
+          ]
+        },
+        {
+          "text": "1 1",
+          "bbox": [
+            0.6938,
+            0.4468,
+            0.7278,
+            0.4797
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7391,
+            0.4468,
+            0.7505,
+            0.4797
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1939,
+            0.4868,
+            0.2052,
+            0.5197
+          ]
+        },
+        {
+          "text": "0 0",
+          "bbox": [
+            0.2165,
+            0.4868,
+            0.2487,
+            0.5197
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2608,
+            0.4868,
+            0.2722,
+            0.5197
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6711,
+            0.4869,
+            0.6825,
+            0.5198
+          ]
+        },
+        {
+          "text": "0 0",
+          "bbox": [
+            0.6938,
+            0.4869,
+            0.7278,
+            0.5198
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7391,
+            0.4869,
+            0.7505,
+            0.5198
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2136,
+            0.5457,
+            0.225,
+            0.5786
+          ]
+        },
+        {
+          "text": "0 1",
+          "bbox": [
+            0.2373,
+            0.5457,
+            0.2722,
+            0.5786
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2843,
+            0.5457,
+            0.2957,
+            0.5786
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6919,
+            0.5458,
+            0.7033,
+            0.5787
+          ]
+        },
+        {
+          "text": "1 1",
+          "bbox": [
+            0.7146,
+            0.5458,
+            0.7505,
+            0.5787
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7618,
+            0.5458,
+            0.7731,
+            0.5787
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2136,
+            0.582,
+            0.225,
+            0.6149
+          ]
+        },
+        {
+          "text": "0 1",
+          "bbox": [
+            0.2373,
+            0.582,
+            0.2722,
+            0.6149
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2843,
+            0.582,
+            0.2957,
+            0.6149
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6919,
+            0.5821,
+            0.7033,
+            0.615
+          ]
+        },
+        {
+          "text": "0 1",
+          "bbox": [
+            0.7146,
+            0.5821,
+            0.7505,
+            0.615
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7617,
+            0.5821,
+            0.7731,
+            0.615
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2373,
+            0.6397,
+            0.2487,
+            0.6726
+          ]
+        },
+        {
+          "text": "0 0",
+          "bbox": [
+            0.2608,
+            0.6397,
+            0.2957,
+            0.6726
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3054,
+            0.6397,
+            0.3168,
+            0.6726
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7153,
+            0.6397,
+            0.7267,
+            0.6726
+          ]
+        },
+        {
+          "text": "0 0",
+          "bbox": [
+            0.738,
+            0.6397,
+            0.7731,
+            0.6726
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7844,
+            0.6397,
+            0.7958,
+            0.6726
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2373,
+            0.681,
+            0.2487,
+            0.7139
+          ]
+        },
+        {
+          "text": "0 0",
+          "bbox": [
+            0.2608,
+            0.681,
+            0.2957,
+            0.7139
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3054,
+            0.681,
+            0.3168,
+            0.7139
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7153,
+            0.6811,
+            0.7267,
+            0.714
+          ]
+        },
+        {
+          "text": "0 1",
+          "bbox": [
+            0.738,
+            0.6811,
+            0.7731,
+            0.714
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7844,
+            0.6811,
+            0.7958,
+            0.714
+          ]
+        },
+        {
+          "text": "Zero",
+          "bbox": [
+            0.2075,
+            0.7387,
+            0.2504,
+            0.7716
+          ]
+        },
+        {
+          "text": "Non-Zero",
+          "bbox": [
+            0.6399,
+            0.7387,
+            0.7295,
+            0.7716
+          ]
+        },
+        {
+          "text": "Syndrome",
+          "bbox": [
+            0.3327,
+            0.7419,
+            0.4262,
+            0.7748
+          ]
+        },
+        {
+          "text": "Syndrome",
+          "bbox": [
+            0.8093,
+            0.742,
+            0.9027,
+            0.7749
+          ]
+        },
+        {
+          "text": "0 0",
+          "bbox": [
+            0.2631,
+            0.7452,
+            0.2971,
+            0.7781
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3054,
+            0.7452,
+            0.3168,
+            0.7781
+          ]
+        },
+        {
+          "text": "0 1",
+          "bbox": [
+            0.7413,
+            0.7453,
+            0.7754,
+            0.7782
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7867,
+            0.7453,
+            0.798,
+            0.7782
+          ]
+        },
+        {
+          "text": "Dataword",
+          "bbox": [
+            0.1179,
+            0.8495,
+            0.2075,
+            0.8824
+          ]
+        },
+        {
+          "text": "Dataword",
+          "bbox": [
+            0.5953,
+            0.8496,
+            0.6849,
+            0.8825
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2237,
+            0.8687,
+            0.2351,
+            0.9016
+          ]
+        },
+        {
+          "text": "0 0",
+          "bbox": [
+            0.2464,
+            0.8687,
+            0.2804,
+            0.9016
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2917,
+            0.8687,
+            0.3031,
+            0.9016
+          ]
+        },
+        {
+          "text": "accepted",
+          "bbox": [
+            0.128,
+            0.889,
+            0.2075,
+            0.9219
+          ]
+        },
+        {
+          "text": "discarded",
+          "bbox": [
+            0.5978,
+            0.8891,
+            0.6849,
+            0.922
+          ]
+        }
+      ],
+      "text_in_image": "Uncorrupted; Corrupted; Codeword; Codeword; 1; 0 0; 1; 1 1 0; 1; 0 0; 0; 1 1 0; Decoder; Decoder; 1; 0 1; 0; 1; 0 1; 1; Codeword; Codeword; 1; 0 1; 1; 1; 0 0; 1; 1 1 0; 1; 0 1; 1; 1; 0 0; 0; 1 1 0; 1; 0 1; 1; 1; 0 1; 1; 0; 1 0; 1; 0; 1 1; 1; 0; 0 0; 0; 0; 0 0; 0; 1; 0 1; 1; 1; 1 1; 1; 1; 0 1; 1; 1; 0 1; 1; 0; 0 0; 0; 1; 0 0; 0; 0; 0 0; 0; 1; 0 1; 1; Zero; Non-Zero; Syndrome; Syndrome; 0 0; 0; 0 1; 1; Dataword; Dataword; 1; 0 0; 1; accepted; discarded",
+      "description": "Figure 10.7: Division in the CRC decoder for two cases. Parallel modulo-2 divisions show an uncorrupted codeword producing syndrome 000 and acceptance, while a corrupted codeword produces syndrome 011 and rejection.",
+      "structure": "Parallel modulo-2 divisions show an uncorrupted codeword producing syndrome 000 and acceptance, while a corrupted codeword produces syndrome 011 and rejection.",
+      "use_when": "Teach ch10-3-1, interpret Figure 10.7, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_ill_008",
+      "file": "ch10_ill_008.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 10.8",
+      "section_id": "ch10-3-2",
+      "alt": "Figure 10.8: A polynomial to represent a binary word",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 12,
+          "label": "Figure 10.8"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1053,
+      "height": 378,
+      "sha256": "325c17a2c9181c0f0b530a57ea17853792fe1d5fefae6e6a954c07e02dcd611e",
+      "data_file": null,
+      "source_pdf_page": 12,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        173.54
+      ],
+      "labels": [
+        {
+          "text": "a6",
+          "bbox": [
+            0.0373,
+            0.277,
+            0.0569,
+            0.3394
+          ]
+        },
+        {
+          "text": "a5",
+          "bbox": [
+            0.1182,
+            0.277,
+            0.1378,
+            0.3394
+          ]
+        },
+        {
+          "text": "a4",
+          "bbox": [
+            0.1991,
+            0.277,
+            0.2187,
+            0.3394
+          ]
+        },
+        {
+          "text": "a3",
+          "bbox": [
+            0.28,
+            0.277,
+            0.2996,
+            0.3394
+          ]
+        },
+        {
+          "text": "a2",
+          "bbox": [
+            0.3609,
+            0.277,
+            0.3805,
+            0.3394
+          ]
+        },
+        {
+          "text": "a1",
+          "bbox": [
+            0.4418,
+            0.277,
+            0.4614,
+            0.3394
+          ]
+        },
+        {
+          "text": "a0",
+          "bbox": [
+            0.5227,
+            0.277,
+            0.5423,
+            0.3394
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.0387,
+            0.3891,
+            0.0555,
+            0.4501
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1196,
+            0.3891,
+            0.1364,
+            0.4501
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2005,
+            0.3891,
+            0.2173,
+            0.4501
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2814,
+            0.3891,
+            0.2982,
+            0.4501
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3623,
+            0.3891,
+            0.3791,
+            0.4501
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4432,
+            0.3891,
+            0.46,
+            0.4501
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5241,
+            0.3891,
+            0.5409,
+            0.4501
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6789,
+            0.3892,
+            0.6957,
+            0.4501
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7264,
+            0.3892,
+            0.7432,
+            0.4501
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7738,
+            0.3892,
+            0.7906,
+            0.4501
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.8213,
+            0.3892,
+            0.8381,
+            0.4501
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.8688,
+            0.3892,
+            0.8856,
+            0.4501
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.9163,
+            0.3892,
+            0.9331,
+            0.4501
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.9638,
+            0.3892,
+            0.9806,
+            0.4501
+          ]
+        },
+        {
+          "text": "+ x",
+          "bbox": [
+            0.7858,
+            0.7264,
+            0.8426,
+            0.7992
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.8627,
+            0.7264,
+            0.8809,
+            0.7873
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8988,
+            0.7264,
+            0.9156,
+            0.7873
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.079,
+            0.7268,
+            0.0972,
+            0.7878
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.1606,
+            0.7268,
+            0.1788,
+            0.7878
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.2422,
+            0.7268,
+            0.2604,
+            0.7878
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.4065,
+            0.7268,
+            0.4247,
+            0.7878
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.486,
+            0.7268,
+            0.5042,
+            0.7878
+          ]
+        },
+        {
+          "text": "x6",
+          "bbox": [
+            0.7453,
+            0.7292,
+            0.7748,
+            0.802
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.3238,
+            0.7325,
+            0.342,
+            0.7934
+          ]
+        },
+        {
+          "text": "1x6",
+          "bbox": [
+            0.0329,
+            0.7381,
+            0.068,
+            0.8109
+          ]
+        },
+        {
+          "text": "0x5",
+          "bbox": [
+            0.1065,
+            0.7381,
+            0.1473,
+            0.8109
+          ]
+        },
+        {
+          "text": "0x4",
+          "bbox": [
+            0.1901,
+            0.7381,
+            0.2309,
+            0.8109
+          ]
+        },
+        {
+          "text": "0x3",
+          "bbox": [
+            0.2754,
+            0.7381,
+            0.3217,
+            0.8109
+          ]
+        },
+        {
+          "text": "0x2",
+          "bbox": [
+            0.3569,
+            0.7381,
+            0.4033,
+            0.8109
+          ]
+        },
+        {
+          "text": "1x1",
+          "bbox": [
+            0.4322,
+            0.7381,
+            0.4785,
+            0.8109
+          ]
+        },
+        {
+          "text": "1x0",
+          "bbox": [
+            0.5138,
+            0.7381,
+            0.5602,
+            0.8109
+          ]
+        },
+        {
+          "text": "a. Binary pattern and polynomial",
+          "bbox": [
+            0.1403,
+            0.8635,
+            0.4359,
+            0.9244
+          ]
+        },
+        {
+          "text": "b. Short form",
+          "bbox": [
+            0.7682,
+            0.8635,
+            0.8883,
+            0.9244
+          ]
+        }
+      ],
+      "text_in_image": "a6; a5; a4; a3; a2; a1; a0; 1; 0; 0; 0; 0; 1; 1; 1; 0; 0; 0; 0; 1; 1; + x; +; 1; +; +; +; +; +; x6; +; 1x6; 0x5; 0x4; 0x3; 0x2; 1x1; 1x0; a. Binary pattern and polynomial; b. Short form",
+      "description": "Figure 10.8: A polynomial to represent a binary word. A seven-bit pattern 1000011 is expanded into coefficient-weighted powers and shortened to the polynomial x^6 + x + 1.",
+      "structure": "A seven-bit pattern 1000011 is expanded into coefficient-weighted powers and shortened to the polynomial x^6 + x + 1.",
+      "use_when": "Teach ch10-3-2, interpret Figure 10.8, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_ill_009",
+      "file": "ch10_ill_009.png",
+      "type": "illustration",
+      "kind": "matrix_table",
+      "render": true,
+      "orig_label": "Figure 10.9",
+      "section_id": "ch10-3-3",
+      "alt": "Figure 10.9: CRC division using polynomials",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 13,
+          "label": "Figure 10.9"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 604,
+      "sha256": "a3ca699e22033cb6a7eaa1be247a76970a003e2e4458cce04eb20771bc9ee3a7",
+      "data_file": null,
+      "source_pdf_page": 13,
+      "source_bbox": [
+        114.32,
+        407.38,
+        466.32,
+        608.54
+      ],
+      "labels": [
+        {
+          "text": "Dataword",
+          "bbox": [
+            0.358,
+            0.1777,
+            0.4433,
+            0.2151
+          ]
+        },
+        {
+          "text": "x3 + 1",
+          "bbox": [
+            0.4694,
+            0.1804,
+            0.5353,
+            0.2252
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.3836,
+            0.3457,
+            0.4012,
+            0.3832
+          ]
+        },
+        {
+          "text": "x",
+          "bbox": [
+            0.4066,
+            0.3457,
+            0.4216,
+            0.3906
+          ]
+        },
+        {
+          "text": "x3",
+          "bbox": [
+            0.3551,
+            0.3491,
+            0.3782,
+            0.394
+          ]
+        },
+        {
+          "text": "Divisor",
+          "bbox": [
+            0.1791,
+            0.3537,
+            0.244,
+            0.3911
+          ]
+        },
+        {
+          "text": "Dividend:",
+          "bbox": [
+            0.7241,
+            0.3658,
+            0.8209,
+            0.4127
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.3898,
+            0.4039,
+            0.4074,
+            0.4414
+          ]
+        },
+        {
+          "text": "x6",
+          "bbox": [
+            0.3551,
+            0.4074,
+            0.3782,
+            0.4522
+          ]
+        },
+        {
+          "text": "x3",
+          "bbox": [
+            0.4819,
+            0.4074,
+            0.505,
+            0.4522
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.2221,
+            0.4082,
+            0.2397,
+            0.4456
+          ]
+        },
+        {
+          "text": "x +",
+          "bbox": [
+            0.2494,
+            0.4082,
+            0.2944,
+            0.453
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3008,
+            0.4082,
+            0.3171,
+            0.4456
+          ]
+        },
+        {
+          "text": "augmented",
+          "bbox": [
+            0.7241,
+            0.4081,
+            0.8191,
+            0.4456
+          ]
+        },
+        {
+          "text": "x3",
+          "bbox": [
+            0.1902,
+            0.4099,
+            0.2133,
+            0.4548
+          ]
+        },
+        {
+          "text": "dataword",
+          "bbox": [
+            0.7241,
+            0.4505,
+            0.8046,
+            0.4879
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.3888,
+            0.4621,
+            0.4064,
+            0.4996
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.4506,
+            0.4621,
+            0.4682,
+            0.4996
+          ]
+        },
+        {
+          "text": "x6",
+          "bbox": [
+            0.3541,
+            0.4656,
+            0.3772,
+            0.5105
+          ]
+        },
+        {
+          "text": "x3",
+          "bbox": [
+            0.4819,
+            0.4656,
+            0.505,
+            0.5105
+          ]
+        },
+        {
+          "text": "x4",
+          "bbox": [
+            0.4186,
+            0.4657,
+            0.4363,
+            0.5105
+          ]
+        },
+        {
+          "text": "x4",
+          "bbox": [
+            0.4135,
+            0.538,
+            0.4312,
+            0.5828
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.4444,
+            0.5927,
+            0.462,
+            0.6302
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.5063,
+            0.5927,
+            0.5239,
+            0.6302
+          ]
+        },
+        {
+          "text": "x4",
+          "bbox": [
+            0.4124,
+            0.5963,
+            0.4301,
+            0.641
+          ]
+        },
+        {
+          "text": "x2",
+          "bbox": [
+            0.4715,
+            0.5962,
+            0.4947,
+            0.641
+          ]
+        },
+        {
+          "text": "x",
+          "bbox": [
+            0.5342,
+            0.604,
+            0.5438,
+            0.641
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.5054,
+            0.6818,
+            0.523,
+            0.7193
+          ]
+        },
+        {
+          "text": "x2",
+          "bbox": [
+            0.4706,
+            0.6853,
+            0.4938,
+            0.7301
+          ]
+        },
+        {
+          "text": "x",
+          "bbox": [
+            0.5342,
+            0.6853,
+            0.5492,
+            0.7301
+          ]
+        },
+        {
+          "text": "Remainder",
+          "bbox": [
+            0.5697,
+            0.6921,
+            0.6731,
+            0.7296
+          ]
+        },
+        {
+          "text": "Codeword",
+          "bbox": [
+            0.2976,
+            0.873,
+            0.3878,
+            0.9104
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.5502,
+            0.8732,
+            0.5678,
+            0.9107
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.4433,
+            0.875,
+            0.4609,
+            0.9124
+          ]
+        },
+        {
+          "text": "x",
+          "bbox": [
+            0.5745,
+            0.8767,
+            0.5896,
+            0.9216
+          ]
+        },
+        {
+          "text": "x2",
+          "bbox": [
+            0.5216,
+            0.8768,
+            0.5394,
+            0.9216
+          ]
+        },
+        {
+          "text": "x6",
+          "bbox": [
+            0.4147,
+            0.8784,
+            0.4379,
+            0.9233
+          ]
+        },
+        {
+          "text": "x3",
+          "bbox": [
+            0.4669,
+            0.8784,
+            0.49,
+            0.9233
+          ]
+        },
+        {
+          "text": "Dataword Remainder",
+          "bbox": [
+            0.4049,
+            0.9342,
+            0.6005,
+            0.9717
+          ]
+        }
+      ],
+      "text_in_image": "Dataword; x3 + 1; +; x; x3; Divisor; Dividend:; +; x6; x3; +; x +; 1; augmented; x3; dataword; +; +; x6; x3; x4; x4; +; +; x4; x2; x; +; x2; x; Remainder; Codeword; +; +; x; x2; x6; x3; Dataword Remainder",
+      "description": "Figure 10.9: CRC division using polynomials. Polynomial division of augmented dataword x^6 + x^3 by generator x^3 + x + 1 yields remainder x^2 + x and codeword x^6 + x^3 + x^2 + x.",
+      "structure": "Polynomial division of augmented dataword x^6 + x^3 by generator x^3 + x + 1 yields remainder x^2 + x and codeword x^6 + x^3 + x^2 + x.",
+      "use_when": "Teach ch10-3-3, interpret Figure 10.9, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_ill_010",
+      "file": "ch10_ill_010.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 10.10",
+      "section_id": "ch10-3-4-two-isolated-single-bit-errors",
+      "alt": "Figure 10.10: Representation of two isolated single-bit errors using polynomials",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 15,
+          "label": "Figure 10.10"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 237,
+      "sha256": "afb665c35f85052511076cc177749995d8731b67aaa2a2139897023fdc52e885",
+      "data_file": null,
+      "source_pdf_page": 15,
+      "source_bbox": [
+        114.32,
+        530.92,
+        466.32,
+        609.62
+      ],
+      "labels": [
+        {
+          "text": "Difference: j – i",
+          "bbox": [
+            0.399,
+            0.383,
+            0.543,
+            0.505
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.26,
+            0.6343,
+            0.2713,
+            0.736
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2913,
+            0.6343,
+            0.3027,
+            0.736
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3226,
+            0.6343,
+            0.334,
+            0.736
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.354,
+            0.6343,
+            0.3653,
+            0.736
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3853,
+            0.6343,
+            0.3967,
+            0.736
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4166,
+            0.6343,
+            0.428,
+            0.736
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.448,
+            0.6343,
+            0.4593,
+            0.736
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4793,
+            0.6343,
+            0.4907,
+            0.736
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5106,
+            0.6343,
+            0.522,
+            0.736
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.542,
+            0.6343,
+            0.5533,
+            0.736
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5733,
+            0.6343,
+            0.5847,
+            0.736
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6046,
+            0.6343,
+            0.616,
+            0.736
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.636,
+            0.6343,
+            0.6473,
+            0.736
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6673,
+            0.6343,
+            0.6787,
+            0.736
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6986,
+            0.6343,
+            0.71,
+            0.736
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.73,
+            0.6343,
+            0.7413,
+            0.736
+          ]
+        },
+        {
+          "text": "x0",
+          "bbox": [
+            0.7257,
+            0.7876,
+            0.7461,
+            0.9096
+          ]
+        },
+        {
+          "text": "xn–1",
+          "bbox": [
+            0.2486,
+            0.7894,
+            0.2869,
+            0.9186
+          ]
+        },
+        {
+          "text": "xj",
+          "bbox": [
+            0.3517,
+            0.8083,
+            0.3684,
+            0.915
+          ]
+        },
+        {
+          "text": "xi",
+          "bbox": [
+            0.5684,
+            0.8083,
+            0.5851,
+            0.915
+          ]
+        }
+      ],
+      "text_in_image": "Difference: j – i; 0; 1; 0; 1; 1; 1; 0; 1; 0; 1; 0; 0; 0; 0; 1; 1; x0; xn–1; xj; xi",
+      "description": "Figure 10.10: Representation of two isolated single-bit errors using polynomials. A codeword axis marks two isolated errors at powers x^i and x^j; their separation is j minus i.",
+      "structure": "A codeword axis marks two isolated errors at powers x^i and x^j; their separation is j minus i.",
+      "use_when": "Teach ch10-3-4-two-isolated-single-bit-errors, interpret Figure 10.10, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_ill_011",
+      "file": "ch10_ill_011.png",
+      "type": "illustration",
+      "kind": "switch_fabric",
+      "render": true,
+      "orig_label": "Figure 10.11",
+      "section_id": "ch10-3-7",
+      "alt": "Figure 10.11: Hardwired design of the divisor in CRC",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 19,
+          "label": "Figure 10.11"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 404,
+      "sha256": "94cede53449be05cdacaf55e937d5bb02f79bdfc87eb1ed51df084cd02f97b6b",
+      "data_file": null,
+      "source_pdf_page": 19,
+      "source_bbox": [
+        114.32,
+        165.88,
+        466.32,
+        300.26
+      ],
+      "labels": [
+        {
+          "text": "Leftmost bit of the part",
+          "bbox": [
+            0.1454,
+            0.28,
+            0.3549,
+            0.3382
+          ]
+        },
+        {
+          "text": "of the dividend involved",
+          "bbox": [
+            0.1406,
+            0.3455,
+            0.3597,
+            0.4037
+          ]
+        },
+        {
+          "text": "in XOR operation",
+          "bbox": [
+            0.1693,
+            0.411,
+            0.3311,
+            0.4692
+          ]
+        },
+        {
+          "text": "d2",
+          "bbox": [
+            0.4549,
+            0.629,
+            0.4747,
+            0.6892
+          ]
+        },
+        {
+          "text": "d1",
+          "bbox": [
+            0.6388,
+            0.629,
+            0.6585,
+            0.6892
+          ]
+        },
+        {
+          "text": "d0",
+          "bbox": [
+            0.8227,
+            0.629,
+            0.8424,
+            0.6892
+          ]
+        },
+        {
+          "text": "Broken line:",
+          "bbox": [
+            0.2918,
+            0.7762,
+            0.4038,
+            0.8345
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.4758,
+            0.8178,
+            0.4882,
+            0.8743
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.6602,
+            0.8177,
+            0.6726,
+            0.8743
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.8445,
+            0.8178,
+            0.8569,
+            0.8743
+          ]
+        },
+        {
+          "text": "this bit is always 0",
+          "bbox": [
+            0.2612,
+            0.8417,
+            0.4345,
+            0.9
+          ]
+        },
+        {
+          "text": "XOR",
+          "bbox": [
+            0.4582,
+            0.8938,
+            0.5059,
+            0.9521
+          ]
+        },
+        {
+          "text": "XOR",
+          "bbox": [
+            0.6426,
+            0.8938,
+            0.6902,
+            0.9521
+          ]
+        },
+        {
+          "text": "XOR",
+          "bbox": [
+            0.8268,
+            0.8939,
+            0.8745,
+            0.9521
+          ]
+        }
+      ],
+      "text_in_image": "Leftmost bit of the part; of the dividend involved; in XOR operation; d2; d1; d0; Broken line:; +; +; +; this bit is always 0; XOR; XOR; XOR",
+      "description": "Figure 10.11: Hardwired design of the divisor in CRC. The fixed CRC divisor is represented as hardwired XOR inputs d2, d1, and d0, with the always-zero leading result omitted.",
+      "structure": "The fixed CRC divisor is represented as hardwired XOR inputs d2, d1, and d0, with the always-zero leading result omitted.",
+      "use_when": "Teach ch10-3-7, interpret Figure 10.11, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_ill_012",
+      "file": "ch10_ill_012.png",
+      "type": "illustration",
+      "kind": "matrix_table",
+      "render": true,
+      "orig_label": "Figure 10.12",
+      "section_id": "ch10-3-7",
+      "alt": "Figure 10.12: Simulation of division in CRC encoder",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 20,
+          "label": "Figure 10.12"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 937,
+      "sha256": "0a11f5f9d0fb0c2bc1931516426099b21cfc6f0b82fc83098dc490aa57d6abe7",
+      "data_file": null,
+      "source_pdf_page": 20,
+      "source_bbox": [
+        99.32,
+        88.12,
+        451.32,
+        400.1
+      ],
+      "labels": [
+        {
+          "text": "Augmented dataword",
+          "bbox": [
+            0.713,
+            0.1139,
+            0.9043,
+            0.1387
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.238,
+            0.1228,
+            0.249,
+            0.1477
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4189,
+            0.1228,
+            0.4299,
+            0.1476
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.601,
+            0.1228,
+            0.6121,
+            0.1477
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.2517,
+            0.1536,
+            0.2642,
+            0.1785
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.4326,
+            0.1536,
+            0.4451,
+            0.1785
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.6139,
+            0.1536,
+            0.6264,
+            0.1785
+          ]
+        },
+        {
+          "text": "Time: 1",
+          "bbox": [
+            0.0373,
+            0.1546,
+            0.1069,
+            0.1794
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.343,
+            0.1546,
+            0.354,
+            0.1794
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5239,
+            0.1554,
+            0.5349,
+            0.1802
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6919,
+            0.1556,
+            0.703,
+            0.1804
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7331,
+            0.1556,
+            0.7442,
+            0.1804
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7768,
+            0.1556,
+            0.7879,
+            0.1804
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8205,
+            0.1556,
+            0.8316,
+            0.1804
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.8642,
+            0.1556,
+            0.8753,
+            0.1804
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.9079,
+            0.1556,
+            0.919,
+            0.1804
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.9516,
+            0.1556,
+            0.9627,
+            0.1804
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1616,
+            0.1608,
+            0.1727,
+            0.1856
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2384,
+            0.2277,
+            0.2495,
+            0.2525
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4193,
+            0.2277,
+            0.4304,
+            0.2525
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6014,
+            0.2276,
+            0.6125,
+            0.2525
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.2521,
+            0.2585,
+            0.2646,
+            0.2833
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.433,
+            0.2585,
+            0.4455,
+            0.2833
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.6144,
+            0.2585,
+            0.6269,
+            0.2833
+          ]
+        },
+        {
+          "text": "Time: 2",
+          "bbox": [
+            0.0373,
+            0.2594,
+            0.1069,
+            0.2842
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.343,
+            0.2594,
+            0.354,
+            0.2842
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5239,
+            0.2593,
+            0.5349,
+            0.2842
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6919,
+            0.2609,
+            0.703,
+            0.2858
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7356,
+            0.2609,
+            0.7467,
+            0.2858
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7793,
+            0.2609,
+            0.7904,
+            0.2858
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.823,
+            0.2609,
+            0.8341,
+            0.2858
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.8667,
+            0.2609,
+            0.8778,
+            0.2858
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.9104,
+            0.2609,
+            0.9215,
+            0.2858
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1616,
+            0.2656,
+            0.1727,
+            0.2904
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2384,
+            0.3325,
+            0.2495,
+            0.3574
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4193,
+            0.3325,
+            0.4304,
+            0.3574
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6014,
+            0.3325,
+            0.6125,
+            0.3574
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.2521,
+            0.3633,
+            0.2646,
+            0.3882
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.433,
+            0.3633,
+            0.4455,
+            0.3882
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.6144,
+            0.3633,
+            0.6269,
+            0.3882
+          ]
+        },
+        {
+          "text": "Time: 3",
+          "bbox": [
+            0.0373,
+            0.3642,
+            0.1069,
+            0.3891
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.343,
+            0.3643,
+            0.354,
+            0.3891
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5239,
+            0.3642,
+            0.5349,
+            0.3891
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6919,
+            0.3643,
+            0.703,
+            0.3891
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7356,
+            0.3643,
+            0.7467,
+            0.3891
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7793,
+            0.3643,
+            0.7904,
+            0.3891
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.823,
+            0.3643,
+            0.8341,
+            0.3891
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.8667,
+            0.3643,
+            0.8778,
+            0.3891
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1616,
+            0.3705,
+            0.1727,
+            0.3953
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2384,
+            0.4374,
+            0.2495,
+            0.4622
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4193,
+            0.4374,
+            0.4304,
+            0.4622
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6014,
+            0.4374,
+            0.6125,
+            0.4622
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.2521,
+            0.4682,
+            0.2646,
+            0.493
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.433,
+            0.4682,
+            0.4455,
+            0.493
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.6144,
+            0.4682,
+            0.6269,
+            0.493
+          ]
+        },
+        {
+          "text": "Time: 4",
+          "bbox": [
+            0.0373,
+            0.4691,
+            0.1069,
+            0.4939
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.343,
+            0.4691,
+            0.354,
+            0.494
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5239,
+            0.4691,
+            0.5349,
+            0.4939
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6919,
+            0.4691,
+            0.703,
+            0.494
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7356,
+            0.4691,
+            0.7467,
+            0.494
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7793,
+            0.4691,
+            0.7904,
+            0.494
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.823,
+            0.4691,
+            0.8341,
+            0.494
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1616,
+            0.4753,
+            0.1727,
+            0.5002
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2384,
+            0.5423,
+            0.2495,
+            0.5672
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4193,
+            0.5423,
+            0.4304,
+            0.5672
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6014,
+            0.5423,
+            0.6125,
+            0.5671
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.2521,
+            0.5731,
+            0.2646,
+            0.598
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.433,
+            0.5731,
+            0.4455,
+            0.598
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.6144,
+            0.5731,
+            0.6269,
+            0.598
+          ]
+        },
+        {
+          "text": "Time: 5",
+          "bbox": [
+            0.0373,
+            0.574,
+            0.1069,
+            0.5989
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1616,
+            0.574,
+            0.1727,
+            0.5988
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.343,
+            0.574,
+            0.354,
+            0.5989
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.343,
+            0.5741,
+            0.354,
+            0.5989
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5239,
+            0.574,
+            0.5349,
+            0.5988
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5239,
+            0.574,
+            0.5349,
+            0.5989
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6919,
+            0.5741,
+            0.703,
+            0.5989
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7356,
+            0.5741,
+            0.7467,
+            0.5989
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7793,
+            0.5741,
+            0.7904,
+            0.5989
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1616,
+            0.5803,
+            0.1727,
+            0.6051
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2384,
+            0.6472,
+            0.2495,
+            0.6721
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4193,
+            0.6472,
+            0.4304,
+            0.6721
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6014,
+            0.651,
+            0.6125,
+            0.6759
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.2521,
+            0.6781,
+            0.2646,
+            0.7029
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.433,
+            0.6781,
+            0.4455,
+            0.7029
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.6144,
+            0.6781,
+            0.6269,
+            0.7029
+          ]
+        },
+        {
+          "text": "Time: 6",
+          "bbox": [
+            0.0373,
+            0.679,
+            0.1069,
+            0.7038
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1616,
+            0.6789,
+            0.1727,
+            0.7037
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.343,
+            0.6789,
+            0.354,
+            0.7038
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5239,
+            0.6789,
+            0.5349,
+            0.7037
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5239,
+            0.679,
+            0.5349,
+            0.7038
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.343,
+            0.679,
+            0.354,
+            0.7039
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6919,
+            0.679,
+            0.703,
+            0.7039
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7356,
+            0.679,
+            0.7467,
+            0.7039
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1616,
+            0.6852,
+            0.1727,
+            0.7101
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6014,
+            0.7502,
+            0.6125,
+            0.775
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2384,
+            0.7522,
+            0.2495,
+            0.7771
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4193,
+            0.7522,
+            0.4304,
+            0.7771
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.2521,
+            0.783,
+            0.2646,
+            0.8079
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.433,
+            0.783,
+            0.4455,
+            0.8079
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.6144,
+            0.783,
+            0.6269,
+            0.8079
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1616,
+            0.7838,
+            0.1727,
+            0.8086
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5239,
+            0.7838,
+            0.5349,
+            0.8086
+          ]
+        },
+        {
+          "text": "Time: 7",
+          "bbox": [
+            0.0373,
+            0.7839,
+            0.1069,
+            0.8088
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.343,
+            0.7838,
+            0.354,
+            0.8087
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.343,
+            0.784,
+            0.354,
+            0.8088
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5239,
+            0.7839,
+            0.5349,
+            0.8088
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6919,
+            0.784,
+            0.703,
+            0.8088
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1616,
+            0.7902,
+            0.1727,
+            0.815
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1616,
+            0.8812,
+            0.1727,
+            0.906
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.343,
+            0.8812,
+            0.354,
+            0.906
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5239,
+            0.8812,
+            0.5349,
+            0.906
+          ]
+        },
+        {
+          "text": "Final remainder",
+          "bbox": [
+            0.278,
+            0.9448,
+            0.4189,
+            0.9697
+          ]
+        }
+      ],
+      "text_in_image": "Augmented dataword; 0; 0; 0; +; +; +; Time: 1; 0; 0; 1; 0; 0; 1; 0; 0; 0; 0; 0; 0; 0; +; +; +; Time: 2; 0; 1; 0; 0; 1; 0; 0; 0; 0; 0; 0; 0; +; +; +; Time: 3; 1; 0; 0; 1; 0; 0; 0; 0; 0; 1; 1; +; +; +; Time: 4; 0; 0; 1; 0; 0; 0; 1; 0; 0; 0; +; +; +; Time: 5; 0; 1; 1; 0; 0; 0; 0; 0; 0; 0; 1; 1; +; +; +; Time: 6; 1; 0; 0; 0; 0; 0; 0; 1; 0; 0; 0; +; +; +; 0; 1; Time: 7; 1; 1; 1; 0; 0; 1; 1; 0; Final remainder",
+      "description": "Figure 10.12: Simulation of division in CRC encoder. Seven clock snapshots trace CRC encoder register contents and XOR operations from augmented dataword input to the final three-bit remainder.",
+      "structure": "Seven clock snapshots trace CRC encoder register contents and XOR operations from augmented dataword input to the final three-bit remainder.",
+      "use_when": "Teach ch10-3-7, interpret Figure 10.12, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_ill_013",
+      "file": "ch10_ill_013.png",
+      "type": "illustration",
+      "kind": "switch_fabric",
+      "render": true,
+      "orig_label": "Figure 10.13",
+      "section_id": "ch10-3-7",
+      "alt": "Figure 10.13: The CRC encoder design using shift registers",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 21,
+          "label": "Figure 10.13"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1053,
+      "height": 204,
+      "sha256": "723069af3707671acb9c258149f9d95686b103662994e8919aad6833b8fcf8d9",
+      "data_file": null,
+      "source_pdf_page": 21,
+      "source_bbox": [
+        115.34,
+        47.8,
+        466.32,
+        115.4
+      ],
+      "labels": [
+        {
+          "text": "Augmented dataword",
+          "bbox": [
+            0.6968,
+            0.5189,
+            0.8937,
+            0.6372
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.3949,
+            0.6811,
+            0.4077,
+            0.7994
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.5755,
+            0.6811,
+            0.5884,
+            0.7994
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1206,
+            0.6857,
+            0.132,
+            0.8041
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.305,
+            0.6857,
+            0.3164,
+            0.8041
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4856,
+            0.6857,
+            0.497,
+            0.8041
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.656,
+            0.6905,
+            0.6674,
+            0.8088
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6983,
+            0.6905,
+            0.7097,
+            0.8088
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7433,
+            0.6905,
+            0.7547,
+            0.8088
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7882,
+            0.6905,
+            0.7996,
+            0.8088
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.8332,
+            0.6905,
+            0.8446,
+            0.8088
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.8782,
+            0.6905,
+            0.8896,
+            0.8088
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.9231,
+            0.6905,
+            0.9345,
+            0.8088
+          ]
+        }
+      ],
+      "text_in_image": "Augmented dataword; +; +; 0; 0; 0; 1; 0; 0; 1; 0; 0; 0",
+      "description": "Figure 10.13: The CRC encoder design using shift registers. Three shift registers and two XOR taps implement the example CRC encoder for augmented dataword 1001000.",
+      "structure": "Three shift registers and two XOR taps implement the example CRC encoder for augmented dataword 1001000.",
+      "use_when": "Teach ch10-3-7, interpret Figure 10.13, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_ill_014",
+      "file": "ch10_ill_014.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 10.14",
+      "section_id": "ch10-3-7",
+      "alt": "Figure 10.14: General design of encoder and decoder of a CRC code",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 21,
+          "label": "Figure 10.14"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 430,
+      "sha256": "a98c0701ae1d47537db4ee1e46ed9f0547ed44c0137511d7ba7f7bfe3b0dceee",
+      "data_file": null,
+      "source_pdf_page": 21,
+      "source_bbox": [
+        114.32,
+        239.26,
+        466.32,
+        382.22
+      ],
+      "labels": [
+        {
+          "text": "d0",
+          "bbox": [
+            0.7988,
+            0.2905,
+            0.8182,
+            0.3421
+          ]
+        },
+        {
+          "text": "d1",
+          "bbox": [
+            0.6561,
+            0.2924,
+            0.6754,
+            0.3441
+          ]
+        },
+        {
+          "text": "dn–k–1",
+          "bbox": [
+            0.4453,
+            0.2949,
+            0.5077,
+            0.3569
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.8196,
+            0.3425,
+            0.832,
+            0.3942
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.4286,
+            0.3435,
+            0.4411,
+            0.3953
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.6763,
+            0.3435,
+            0.6888,
+            0.3953
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.5003,
+            0.3491,
+            0.5346,
+            0.4008
+          ]
+        },
+        {
+          "text": "Dataword",
+          "bbox": [
+            0.8842,
+            0.357,
+            0.9786,
+            0.4088
+          ]
+        },
+        {
+          "text": "rn–k–1",
+          "bbox": [
+            0.3427,
+            0.4124,
+            0.4026,
+            0.4744
+          ]
+        },
+        {
+          "text": "r1",
+          "bbox": [
+            0.6031,
+            0.4124,
+            0.62,
+            0.4641
+          ]
+        },
+        {
+          "text": "r0",
+          "bbox": [
+            0.7464,
+            0.4124,
+            0.7633,
+            0.4641
+          ]
+        },
+        {
+          "text": "Note:",
+          "bbox": [
+            0.0218,
+            0.4294,
+            0.0789,
+            0.4812
+          ]
+        },
+        {
+          "text": "a. Encoder",
+          "bbox": [
+            0.3018,
+            0.4939,
+            0.3964,
+            0.5457
+          ]
+        },
+        {
+          "text": "The divisor line and XOR are",
+          "bbox": [
+            0.0332,
+            0.4973,
+            0.2785,
+            0.5458
+          ]
+        },
+        {
+          "text": "missing if the corresponding",
+          "bbox": [
+            0.0332,
+            0.5483,
+            0.2698,
+            0.5968
+          ]
+        },
+        {
+          "text": "bit in the divisor is 0.",
+          "bbox": [
+            0.0332,
+            0.5992,
+            0.2141,
+            0.6478
+          ]
+        },
+        {
+          "text": "d0",
+          "bbox": [
+            0.7994,
+            0.6974,
+            0.8188,
+            0.7491
+          ]
+        },
+        {
+          "text": "dn–k–1",
+          "bbox": [
+            0.4441,
+            0.701,
+            0.5065,
+            0.763
+          ]
+        },
+        {
+          "text": "d1",
+          "bbox": [
+            0.6561,
+            0.701,
+            0.6754,
+            0.7527
+          ]
+        },
+        {
+          "text": "Received",
+          "bbox": [
+            0.885,
+            0.7315,
+            0.9749,
+            0.7833
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.4286,
+            0.7422,
+            0.4411,
+            0.794
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.6763,
+            0.7422,
+            0.6888,
+            0.794
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.8204,
+            0.7422,
+            0.8329,
+            0.794
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.5003,
+            0.7472,
+            0.5346,
+            0.799
+          ]
+        },
+        {
+          "text": "codeword",
+          "bbox": [
+            0.885,
+            0.7825,
+            0.9769,
+            0.8342
+          ]
+        },
+        {
+          "text": "sn–k–1",
+          "bbox": [
+            0.3383,
+            0.8111,
+            0.3982,
+            0.873
+          ]
+        },
+        {
+          "text": "s1",
+          "bbox": [
+            0.6031,
+            0.8111,
+            0.62,
+            0.8628
+          ]
+        },
+        {
+          "text": "s0",
+          "bbox": [
+            0.7464,
+            0.8111,
+            0.7633,
+            0.8628
+          ]
+        },
+        {
+          "text": "b. Decoder",
+          "bbox": [
+            0.3018,
+            0.8927,
+            0.3979,
+            0.9444
+          ]
+        }
+      ],
+      "text_in_image": "d0; d1; dn–k–1; +; +; +; • • •; Dataword; rn–k–1; r1; r0; Note:; a. Encoder; The divisor line and XOR are; missing if the corresponding; bit in the divisor is 0.; d0; dn–k–1; d1; Received; +; +; +; • • •; codeword; sn–k–1; s1; s0; b. Decoder",
+      "description": "Figure 10.14: General design of encoder and decoder of a CRC code. General r-stage shift-register diagrams show CRC encoding and syndrome calculation, with XOR taps present only for nonzero generator coefficients.",
+      "structure": "General r-stage shift-register diagrams show CRC encoding and syndrome calculation, with XOR taps present only for nonzero generator coefficients.",
+      "use_when": "Teach ch10-3-7, interpret Figure 10.14, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_ill_015",
+      "file": "ch10_ill_015.png",
+      "type": "illustration",
+      "kind": "flow",
+      "render": true,
+      "orig_label": "Figure 10.15",
+      "section_id": "ch10-4-1",
+      "alt": "Figure 10.15: Checksum",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 22,
+          "label": "Figure 10.15"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 663,
+      "sha256": "4e5efafbce66150f56e48e689a288b87d34f6606e19245d581c731187249fc9f",
+      "data_file": null,
+      "source_pdf_page": 22,
+      "source_bbox": [
+        99.32,
+        143.86,
+        451.32,
+        364.52
+      ],
+      "labels": [
+        {
+          "text": "Sender",
+          "bbox": [
+            0.1973,
+            0.1517,
+            0.259,
+            0.1863
+          ]
+        },
+        {
+          "text": "Receiver",
+          "bbox": [
+            0.728,
+            0.1518,
+            0.807,
+            0.1864
+          ]
+        },
+        {
+          "text": "Message",
+          "bbox": [
+            0.6967,
+            0.1972,
+            0.7744,
+            0.2318
+          ]
+        },
+        {
+          "text": "Message",
+          "bbox": [
+            0.1555,
+            0.202,
+            0.2333,
+            0.2366
+          ]
+        },
+        {
+          "text": "m bits",
+          "bbox": [
+            0.0379,
+            0.2626,
+            0.0916,
+            0.3039
+          ]
+        },
+        {
+          "text": "m bits",
+          "bbox": [
+            0.1098,
+            0.2626,
+            0.1636,
+            0.3039
+          ]
+        },
+        {
+          "text": "m bits",
+          "bbox": [
+            0.2887,
+            0.2626,
+            0.3425,
+            0.3039
+          ]
+        },
+        {
+          "text": "m bits",
+          "bbox": [
+            0.579,
+            0.2626,
+            0.6327,
+            0.3039
+          ]
+        },
+        {
+          "text": "m bits",
+          "bbox": [
+            0.651,
+            0.2626,
+            0.7047,
+            0.3039
+          ]
+        },
+        {
+          "text": "m bits",
+          "bbox": [
+            0.8299,
+            0.2626,
+            0.8836,
+            0.3039
+          ]
+        },
+        {
+          "text": "All 0’s",
+          "bbox": [
+            0.6394,
+            0.3671,
+            0.7005,
+            0.4017
+          ]
+        },
+        {
+          "text": "[yes]",
+          "bbox": [
+            0.7522,
+            0.374,
+            0.7966,
+            0.4086
+          ]
+        },
+        {
+          "text": "Discard",
+          "bbox": [
+            0.566,
+            0.4255,
+            0.6351,
+            0.4601
+          ]
+        },
+        {
+          "text": "m bits",
+          "bbox": [
+            0.8728,
+            0.4287,
+            0.9265,
+            0.4701
+          ]
+        },
+        {
+          "text": "[no]",
+          "bbox": [
+            0.6819,
+            0.4522,
+            0.719,
+            0.4868
+          ]
+        },
+        {
+          "text": "Generator",
+          "bbox": [
+            0.259,
+            0.4895,
+            0.3478,
+            0.5241
+          ]
+        },
+        {
+          "text": "Checker",
+          "bbox": [
+            0.8661,
+            0.549,
+            0.9402,
+            0.5836
+          ]
+        },
+        {
+          "text": "m bits",
+          "bbox": [
+            0.0379,
+            0.7357,
+            0.0916,
+            0.7771
+          ]
+        },
+        {
+          "text": "m bits",
+          "bbox": [
+            0.1098,
+            0.7357,
+            0.1636,
+            0.7771
+          ]
+        },
+        {
+          "text": "m bits",
+          "bbox": [
+            0.2887,
+            0.7357,
+            0.3425,
+            0.7771
+          ]
+        },
+        {
+          "text": "m bits",
+          "bbox": [
+            0.3607,
+            0.7357,
+            0.4144,
+            0.7771
+          ]
+        },
+        {
+          "text": "m bits",
+          "bbox": [
+            0.579,
+            0.7357,
+            0.6327,
+            0.7771
+          ]
+        },
+        {
+          "text": "m bits",
+          "bbox": [
+            0.651,
+            0.7357,
+            0.7047,
+            0.7771
+          ]
+        },
+        {
+          "text": "m bits",
+          "bbox": [
+            0.8299,
+            0.7357,
+            0.8836,
+            0.7771
+          ]
+        },
+        {
+          "text": "m bits",
+          "bbox": [
+            0.9018,
+            0.7357,
+            0.9556,
+            0.7771
+          ]
+        },
+        {
+          "text": "Message plus checksum",
+          "bbox": [
+            0.1018,
+            0.8009,
+            0.3166,
+            0.8355
+          ]
+        },
+        {
+          "text": "Message plus checksum",
+          "bbox": [
+            0.643,
+            0.8009,
+            0.8578,
+            0.8355
+          ]
+        }
+      ],
+      "text_in_image": "Sender; Receiver; Message; Message; m bits; m bits; m bits; m bits; m bits; m bits; All 0’s; [yes]; Discard; m bits; [no]; Generator; Checker; m bits; m bits; m bits; m bits; m bits; m bits; m bits; m bits; Message plus checksum; Message plus checksum",
+      "description": "Figure 10.15: Checksum. Checksum generation appends an m-bit checksum to a message; the receiver recomputes the checksum and accepts only an all-zero result.",
+      "structure": "Checksum generation appends an m-bit checksum to a message; the receiver recomputes the checksum and accepts only an all-zero result.",
+      "use_when": "Teach ch10-4-1, interpret Figure 10.15, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_ill_016",
+      "file": "ch10_ill_016.png",
+      "type": "illustration",
+      "kind": "flow",
+      "render": true,
+      "orig_label": "Figure 10.16",
+      "section_id": "ch10-4-1",
+      "alt": "Figure 10.16: Example 10.13",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 23,
+          "label": "Figure 10.16"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 489,
+      "sha256": "95708c3033ee40a45f2a83ccbc34b73acbf50d727761d548e094356ea6d76c51",
+      "data_file": null,
+      "source_pdf_page": 23,
+      "source_bbox": [
+        114.32,
+        392.92,
+        466.32,
+        555.5
+      ],
+      "labels": [
+        {
+          "text": "Sender",
+          "bbox": [
+            0.017,
+            0.2278,
+            0.0799,
+            0.2763
+          ]
+        },
+        {
+          "text": "Receiver",
+          "bbox": [
+            0.6296,
+            0.2278,
+            0.7157,
+            0.2763
+          ]
+        },
+        {
+          "text": "7",
+          "bbox": [
+            0.3436,
+            0.2428,
+            0.355,
+            0.2912
+          ]
+        },
+        {
+          "text": "7",
+          "bbox": [
+            0.949,
+            0.2428,
+            0.9603,
+            0.2912
+          ]
+        },
+        {
+          "text": "11",
+          "bbox": [
+            0.338,
+            0.3131,
+            0.3606,
+            0.3615
+          ]
+        },
+        {
+          "text": "11",
+          "bbox": [
+            0.9434,
+            0.3131,
+            0.966,
+            0.3615
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.338,
+            0.3833,
+            0.3606,
+            0.4317
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.9434,
+            0.3833,
+            0.966,
+            0.4317
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3501,
+            0.4535,
+            0.3614,
+            0.502
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.9555,
+            0.4535,
+            0.9668,
+            0.502
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.3501,
+            0.5238,
+            0.3614,
+            0.5722
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.9555,
+            0.5238,
+            0.9668,
+            0.5722
+          ]
+        },
+        {
+          "text": "7, 11, 12, 0, 6, 9",
+          "bbox": [
+            0.4204,
+            0.5456,
+            0.5675,
+            0.594
+          ]
+        },
+        {
+          "text": "Initialized checksum",
+          "bbox": [
+            0.0869,
+            0.5877,
+            0.2748,
+            0.6361
+          ]
+        },
+        {
+          "text": "Received Checksum",
+          "bbox": [
+            0.6976,
+            0.5877,
+            0.883,
+            0.6361
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3501,
+            0.5927,
+            0.3614,
+            0.6406
+          ]
+        },
+        {
+          "text": "9",
+          "bbox": [
+            0.9555,
+            0.5927,
+            0.9668,
+            0.6406
+          ]
+        },
+        {
+          "text": "Packet",
+          "bbox": [
+            0.4689,
+            0.6401,
+            0.5292,
+            0.6885
+          ]
+        },
+        {
+          "text": "Sum (in one’s complement)",
+          "bbox": [
+            0.0228,
+            0.7244,
+            0.2748,
+            0.7728
+          ]
+        },
+        {
+          "text": "Sum (in one’s complement)",
+          "bbox": [
+            0.6309,
+            0.7244,
+            0.883,
+            0.7728
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.3501,
+            0.7258,
+            0.3614,
+            0.7742
+          ]
+        },
+        {
+          "text": "15",
+          "bbox": [
+            0.9498,
+            0.7327,
+            0.9725,
+            0.7811
+          ]
+        },
+        {
+          "text": "Actual checksum",
+          "bbox": [
+            0.1183,
+            0.8081,
+            0.2748,
+            0.8566
+          ]
+        },
+        {
+          "text": "Calculated Checksum",
+          "bbox": [
+            0.685,
+            0.8081,
+            0.883,
+            0.8566
+          ]
+        },
+        {
+          "text": "9",
+          "bbox": [
+            0.3501,
+            0.8153,
+            0.3614,
+            0.8631
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.9587,
+            0.8153,
+            0.97,
+            0.8631
+          ]
+        }
+      ],
+      "text_in_image": "Sender; Receiver; 7; 7; 11; 11; 12; 12; 0; 0; 6; 6; 7, 11, 12, 0, 6, 9; Initialized checksum; Received Checksum; 0; 9; Packet; Sum (in one’s complement); Sum (in one’s complement); 6; 15; Actual checksum; Calculated Checksum; 9; 0",
+      "description": "Figure 10.16: Example 10.13. Example 10.13 traces data values 7, 11, 12, 0, and 6: the sender produces checksum 9 and the receiver obtains calculated checksum 0.",
+      "structure": "Example 10.13 traces data values 7, 11, 12, 0, and 6: the sender produces checksum 9 and the receiver obtains calculated checksum 0.",
+      "use_when": "Teach ch10-4-1, interpret Figure 10.16, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_ill_017",
+      "file": "ch10_ill_017.png",
+      "type": "illustration",
+      "kind": "flow",
+      "render": true,
+      "orig_label": "Figure 10.17",
+      "section_id": "ch10-4-1",
+      "alt": "Figure 10.17: Algorithm to calculate a traditional checksum",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 24,
+          "label": "Figure 10.17"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 792,
+      "sha256": "bf147e36b57b88f0ba4fc4c49a4fde71bbd260965d43b64d2cd3197f985306d2",
+      "data_file": null,
+      "source_pdf_page": 24,
+      "source_bbox": [
+        99.32,
+        340.9,
+        451.32,
+        604.4
+      ],
+      "labels": [
+        {
+          "text": "Start",
+          "bbox": [
+            0.6709,
+            0.1177,
+            0.7138,
+            0.1481
+          ]
+        },
+        {
+          "text": "Sum =  0",
+          "bbox": [
+            0.6982,
+            0.2322,
+            0.7838,
+            0.2625
+          ]
+        },
+        {
+          "text": "More words?",
+          "bbox": [
+            0.7816,
+            0.3158,
+            0.9021,
+            0.3462
+          ]
+        },
+        {
+          "text": "[yes]",
+          "bbox": [
+            0.672,
+            0.3688,
+            0.7174,
+            0.3991
+          ]
+        },
+        {
+          "text": "Sum = Sum + Next Word",
+          "bbox": [
+            0.3715,
+            0.3945,
+            0.6105,
+            0.4249
+          ]
+        },
+        {
+          "text": "[no]",
+          "bbox": [
+            0.7513,
+            0.4378,
+            0.7891,
+            0.4682
+          ]
+        },
+        {
+          "text": "Left(sum)",
+          "bbox": [
+            0.7993,
+            0.4833,
+            0.8901,
+            0.5137
+          ]
+        },
+        {
+          "text": "is nonzero?",
+          "bbox": [
+            0.7926,
+            0.5198,
+            0.8968,
+            0.5501
+          ]
+        },
+        {
+          "text": "[yes]",
+          "bbox": [
+            0.6731,
+            0.5422,
+            0.7185,
+            0.5726
+          ]
+        },
+        {
+          "text": "Sum = Left(Sum) + Right(Sum)",
+          "bbox": [
+            0.3491,
+            0.5651,
+            0.6411,
+            0.5955
+          ]
+        },
+        {
+          "text": "[no]",
+          "bbox": [
+            0.7513,
+            0.6099,
+            0.7891,
+            0.6403
+          ]
+        },
+        {
+          "text": "Notes:",
+          "bbox": [
+            0.0866,
+            0.6243,
+            0.1542,
+            0.6546
+          ]
+        },
+        {
+          "text": "a. Word and Checksum are each",
+          "bbox": [
+            0.0866,
+            0.6627,
+            0.3807,
+            0.6931
+          ]
+        },
+        {
+          "text": "Checksum = Complement (Sum)",
+          "bbox": [
+            0.5902,
+            0.6858,
+            0.8903,
+            0.7162
+          ]
+        },
+        {
+          "text": "",
+          "bbox": [
+            0.0866,
+            0.6991,
+            0.0923,
+            0.7295
+          ]
+        },
+        {
+          "text": "16 bits, but Sum is 32 bits.",
+          "bbox": [
+            0.1114,
+            0.6991,
+            0.3539,
+            0.7295
+          ]
+        },
+        {
+          "text": "b. Left(Sum) can be found by shifting",
+          "bbox": [
+            0.0866,
+            0.7356,
+            0.4307,
+            0.7659
+          ]
+        },
+        {
+          "text": "",
+          "bbox": [
+            0.0866,
+            0.772,
+            0.0923,
+            0.8024
+          ]
+        },
+        {
+          "text": "Sum 16 bits to the right.",
+          "bbox": [
+            0.1114,
+            0.772,
+            0.3312,
+            0.8024
+          ]
+        },
+        {
+          "text": "Checksum = truncate (Checksum)",
+          "bbox": [
+            0.5885,
+            0.7938,
+            0.892,
+            0.8242
+          ]
+        },
+        {
+          "text": "c. Right(Sum) can be found by",
+          "bbox": [
+            0.0866,
+            0.8084,
+            0.3669,
+            0.8388
+          ]
+        },
+        {
+          "text": "",
+          "bbox": [
+            0.0866,
+            0.8449,
+            0.0923,
+            0.8752
+          ]
+        },
+        {
+          "text": "ANDing Sum with (0000FFFF)16 .",
+          "bbox": [
+            0.1114,
+            0.8449,
+            0.4292,
+            0.8883
+          ]
+        },
+        {
+          "text": "d. After Checksum is found, truncate",
+          "bbox": [
+            0.0866,
+            0.8813,
+            0.4231,
+            0.9117
+          ]
+        },
+        {
+          "text": "Stop",
+          "bbox": [
+            0.6692,
+            0.9019,
+            0.7109,
+            0.9323
+          ]
+        },
+        {
+          "text": "",
+          "bbox": [
+            0.0866,
+            0.9178,
+            0.0923,
+            0.9481
+          ]
+        },
+        {
+          "text": "it to 16 bits.",
+          "bbox": [
+            0.1115,
+            0.9178,
+            0.2201,
+            0.9481
+          ]
+        }
+      ],
+      "text_in_image": "Start; Sum =  0; More words?; [yes]; Sum = Sum + Next Word; [no]; Left(sum); is nonzero?; [yes]; Sum = Left(Sum) + Right(Sum); [no]; Notes:; a. Word and Checksum are each; Checksum = Complement (Sum); ; 16 bits, but Sum is 32 bits.; b. Left(Sum) can be found by shifting; ; Sum 16 bits to the right.; Checksum = truncate (Checksum); c. Right(Sum) can be found by; ; ANDing Sum with (0000FFFF)16 .; d. After Checksum is found, truncate; Stop; ; it to 16 bits.",
+      "description": "Figure 10.17: Algorithm to calculate a traditional checksum. A flowchart accumulates 16-bit words, repeatedly folds a nonzero upper half into the lower half, complements the sum, and truncates to 16 bits.",
+      "structure": "A flowchart accumulates 16-bit words, repeatedly folds a nonzero upper half into the lower half, complements the sum, and truncates to 16 bits.",
+      "use_when": "Teach ch10-4-1, interpret Figure 10.17, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_ill_018",
+      "file": "ch10_ill_018.png",
+      "type": "illustration",
+      "kind": "flow",
+      "render": true,
+      "orig_label": "Figure 10.18",
+      "section_id": "ch10-4-2",
+      "alt": "Figure 10.18: Algorithm to calculate an 8-bit Fletcher checksum",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 26,
+          "label": "Figure 10.18"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1053,
+      "height": 610,
+      "sha256": "8b4e259b8a7920d468fd030fe2ba482a92c411f39d6612b21f2a94bc8ef7c424",
+      "data_file": null,
+      "source_pdf_page": 26,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        250.94
+      ],
+      "labels": [
+        {
+          "text": "Notes",
+          "bbox": [
+            0.1267,
+            0.175,
+            0.1811,
+            0.2144
+          ]
+        },
+        {
+          "text": "Start",
+          "bbox": [
+            0.6428,
+            0.1835,
+            0.6859,
+            0.2228
+          ]
+        },
+        {
+          "text": "L : Left 8-bit checksum",
+          "bbox": [
+            0.1308,
+            0.222,
+            0.3483,
+            0.2613
+          ]
+        },
+        {
+          "text": "R : Right 8-bit checksum",
+          "bbox": [
+            0.1308,
+            0.2785,
+            0.36,
+            0.3179
+          ]
+        },
+        {
+          "text": "R = L = 0",
+          "bbox": [
+            0.6653,
+            0.329,
+            0.7571,
+            0.3684
+          ]
+        },
+        {
+          "text": "Di: Next 8-bit data item",
+          "bbox": [
+            0.1308,
+            0.335,
+            0.347,
+            0.3843
+          ]
+        },
+        {
+          "text": "More data?",
+          "bbox": [
+            0.7548,
+            0.4365,
+            0.8579,
+            0.4759
+          ]
+        },
+        {
+          "text": "[yes]",
+          "bbox": [
+            0.6468,
+            0.4867,
+            0.6924,
+            0.5261
+          ]
+        },
+        {
+          "text": "R = (R + Di) mod 256",
+          "bbox": [
+            0.4218,
+            0.5269,
+            0.6248,
+            0.5764
+          ]
+        },
+        {
+          "text": "L = (L + R) mod 256",
+          "bbox": [
+            0.1596,
+            0.5311,
+            0.3524,
+            0.5705
+          ]
+        },
+        {
+          "text": "[no]",
+          "bbox": [
+            0.7151,
+            0.5829,
+            0.7531,
+            0.6223
+          ]
+        },
+        {
+          "text": "16-bit",
+          "bbox": [
+            0.2932,
+            0.6705,
+            0.3477,
+            0.7099
+          ]
+        },
+        {
+          "text": "Checksum = L × 256 + R",
+          "bbox": [
+            0.5899,
+            0.6871,
+            0.8222,
+            0.7265
+          ]
+        },
+        {
+          "text": "R",
+          "bbox": [
+            0.4439,
+            0.6939,
+            0.4591,
+            0.7332
+          ]
+        },
+        {
+          "text": "L",
+          "bbox": [
+            0.3931,
+            0.6945,
+            0.407,
+            0.7339
+          ]
+        },
+        {
+          "text": "checksum",
+          "bbox": [
+            0.2749,
+            0.7178,
+            0.366,
+            0.7572
+          ]
+        },
+        {
+          "text": "Stop",
+          "bbox": [
+            0.6374,
+            0.8457,
+            0.6792,
+            0.8851
+          ]
+        }
+      ],
+      "text_in_image": "Notes; Start; L : Left 8-bit checksum; R : Right 8-bit checksum; R = L = 0; Di: Next 8-bit data item; More data?; [yes]; R = (R + Di) mod 256; L = (L + R) mod 256; [no]; 16-bit; Checksum = L × 256 + R; R; L; checksum; Stop",
+      "description": "Figure 10.18: Algorithm to calculate an 8-bit Fletcher checksum. The Fletcher flowchart initializes L and R to zero, updates R then L modulo 256 for every octet, and concatenates them as a 16-bit checksum.",
+      "structure": "The Fletcher flowchart initializes L and R to zero, updates R then L modulo 256 for every octet, and concatenates them as a 16-bit checksum.",
+      "use_when": "Teach ch10-4-2, interpret Figure 10.18, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_ill_019",
+      "file": "ch10_ill_019.png",
+      "type": "illustration",
+      "kind": "flow",
+      "render": true,
+      "orig_label": "Figure 10.19",
+      "section_id": "ch10-4-2",
+      "alt": "Figure 10.19: Algorithm to calculate an Adler checksum",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 26,
+          "label": "Figure 10.19"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 603,
+      "sha256": "c1bc87800427522a4ba60b3a12e3ec54e9c31ed6feaf094116dee7c9fb9cbe33",
+      "data_file": null,
+      "source_pdf_page": 26,
+      "source_bbox": [
+        99.32,
+        263.8,
+        451.32,
+        464.66
+      ],
+      "labels": [
+        {
+          "text": "Start",
+          "bbox": [
+            0.651,
+            0.1736,
+            0.6939,
+            0.2134
+          ]
+        },
+        {
+          "text": "Notes",
+          "bbox": [
+            0.1325,
+            0.1869,
+            0.1868,
+            0.2267
+          ]
+        },
+        {
+          "text": "L : Left 16-bit checksum",
+          "bbox": [
+            0.1325,
+            0.2428,
+            0.3601,
+            0.2826
+          ]
+        },
+        {
+          "text": "R : Right 16-bit checksum",
+          "bbox": [
+            0.1325,
+            0.2906,
+            0.3724,
+            0.3304
+          ]
+        },
+        {
+          "text": "R = 1    L = 0",
+          "bbox": [
+            0.6564,
+            0.3186,
+            0.7821,
+            0.3584
+          ]
+        },
+        {
+          "text": "Di: Next 16-bit data item",
+          "bbox": [
+            0.1325,
+            0.3384,
+            0.3595,
+            0.3882
+          ]
+        },
+        {
+          "text": "More data?",
+          "bbox": [
+            0.7545,
+            0.428,
+            0.8573,
+            0.4678
+          ]
+        },
+        {
+          "text": "[yes]",
+          "bbox": [
+            0.655,
+            0.4803,
+            0.7004,
+            0.5201
+          ]
+        },
+        {
+          "text": "R = (R + Di) mod 65,521",
+          "bbox": [
+            0.4153,
+            0.5209,
+            0.6446,
+            0.5707
+          ]
+        },
+        {
+          "text": "L = (L + R) mod 65,521",
+          "bbox": [
+            0.1452,
+            0.5234,
+            0.3659,
+            0.5633
+          ]
+        },
+        {
+          "text": "[no]",
+          "bbox": [
+            0.7202,
+            0.5825,
+            0.7581,
+            0.6224
+          ]
+        },
+        {
+          "text": "R",
+          "bbox": [
+            0.3922,
+            0.6563,
+            0.4073,
+            0.6962
+          ]
+        },
+        {
+          "text": "L",
+          "bbox": [
+            0.2897,
+            0.6571,
+            0.3036,
+            0.697
+          ]
+        },
+        {
+          "text": "Checksum = L × 65,536 + R",
+          "bbox": [
+            0.584,
+            0.6829,
+            0.844,
+            0.7228
+          ]
+        },
+        {
+          "text": "32-bit checksum",
+          "bbox": [
+            0.2795,
+            0.8158,
+            0.4304,
+            0.8556
+          ]
+        },
+        {
+          "text": "Stop",
+          "bbox": [
+            0.6399,
+            0.8441,
+            0.6816,
+            0.8839
+          ]
+        }
+      ],
+      "text_in_image": "Start; Notes; L : Left 16-bit checksum; R : Right 16-bit checksum; R = 1    L = 0; Di: Next 16-bit data item; More data?; [yes]; R = (R + Di) mod 65,521; L = (L + R) mod 65,521; [no]; R; L; Checksum = L × 65,536 + R; 32-bit checksum; Stop",
+      "description": "Figure 10.19: Algorithm to calculate an Adler checksum. The Adler flowchart initializes L to zero and R to one, updates R then L modulo 65,521 for every 16-bit item, and forms a 32-bit checksum.",
+      "structure": "The Adler flowchart initializes L to zero and R to one, updates R then L modulo 65,521 for every 16-bit item, and forms a 32-bit checksum.",
+      "use_when": "Teach ch10-4-2, interpret Figure 10.19, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_ill_020",
+      "file": "ch10_ill_020.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 10.20",
+      "section_id": "ch10-5-1",
+      "alt": "Figure 10.20: Hamming distance for error correction",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 27,
+          "label": "Figure 10.20"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 464,
+      "sha256": "a778f9b18935beab5add7ea70c2cce0aad89f53f8a1b1bef28206c2fb65a3719",
+      "data_file": null,
+      "source_pdf_page": 27,
+      "source_bbox": [
+        114.32,
+        242.38,
+        466.32,
+        396.8
+      ],
+      "labels": [
+        {
+          "text": "Territory of y",
+          "bbox": [
+            0.4475,
+            0.2249,
+            0.5547,
+            0.2793
+          ]
+        },
+        {
+          "text": "Territory of x",
+          "bbox": [
+            0.1346,
+            0.2281,
+            0.2418,
+            0.2825
+          ]
+        },
+        {
+          "text": "Legend",
+          "bbox": [
+            0.6872,
+            0.4654,
+            0.7469,
+            0.5108
+          ]
+        },
+        {
+          "text": "y",
+          "bbox": [
+            0.5198,
+            0.506,
+            0.5286,
+            0.5513
+          ]
+        },
+        {
+          "text": "Radius t",
+          "bbox": [
+            0.2126,
+            0.5273,
+            0.2784,
+            0.5817
+          ]
+        },
+        {
+          "text": "Radius t",
+          "bbox": [
+            0.4125,
+            0.5273,
+            0.4782,
+            0.5817
+          ]
+        },
+        {
+          "text": "Any valid codeword",
+          "bbox": [
+            0.7226,
+            0.5381,
+            0.885,
+            0.5834
+          ]
+        },
+        {
+          "text": "x",
+          "bbox": [
+            0.1607,
+            0.5663,
+            0.1696,
+            0.6116
+          ]
+        },
+        {
+          "text": "Any corrupted codeword",
+          "bbox": [
+            0.7226,
+            0.5984,
+            0.9214,
+            0.6437
+          ]
+        },
+        {
+          "text": "with 1 to t errors",
+          "bbox": [
+            0.7226,
+            0.6502,
+            0.8552,
+            0.7046
+          ]
+        },
+        {
+          "text": "dmin > 2t",
+          "bbox": [
+            0.3084,
+            0.8583,
+            0.3801,
+            0.9166
+          ]
+        }
+      ],
+      "text_in_image": "Territory of y; Territory of x; Legend; y; Radius t; Radius t; Any valid codeword; x; Any corrupted codeword; with 1 to t errors; dmin > 2t",
+      "description": "Figure 10.20: Hamming distance for error correction. Disjoint radius-t territories around valid codewords x and y illustrate that their minimum distance must exceed 2t for unambiguous correction.",
+      "structure": "Disjoint radius-t territories around valid codewords x and y illustrate that their minimum distance must exceed 2t for unambiguous correction.",
+      "use_when": "Teach ch10-5-1, interpret Figure 10.20, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_ill_021",
+      "file": "ch10_ill_021.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 10.21",
+      "section_id": "ch10-5-3",
+      "alt": "Figure 10.21: Interleaving",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 28,
+          "label": "Figure 10.21"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1053,
+      "height": 614,
+      "sha256": "b4986eec8517e47f560c5d4c1cd87140eb5eaf36d356667e757e3c19a4d82417",
+      "data_file": null,
+      "source_pdf_page": 28,
+      "source_bbox": [
+        100.34,
+        137.8,
+        451.32,
+        342.14
+      ],
+      "labels": [
+        {
+          "text": "05",
+          "bbox": [
+            0.7923,
+            0.1659,
+            0.8122,
+            0.2002
+          ]
+        },
+        {
+          "text": "04",
+          "bbox": [
+            0.8208,
+            0.1659,
+            0.8407,
+            0.2002
+          ]
+        },
+        {
+          "text": "02",
+          "bbox": [
+            0.8779,
+            0.1659,
+            0.8978,
+            0.2002
+          ]
+        },
+        {
+          "text": "01",
+          "bbox": [
+            0.9064,
+            0.1659,
+            0.9263,
+            0.2002
+          ]
+        },
+        {
+          "text": "05",
+          "bbox": [
+            0.0839,
+            0.1671,
+            0.1038,
+            0.2014
+          ]
+        },
+        {
+          "text": "04",
+          "bbox": [
+            0.1124,
+            0.1671,
+            0.1324,
+            0.2014
+          ]
+        },
+        {
+          "text": "03",
+          "bbox": [
+            0.141,
+            0.1671,
+            0.1609,
+            0.2014
+          ]
+        },
+        {
+          "text": "02",
+          "bbox": [
+            0.1695,
+            0.1671,
+            0.1894,
+            0.2014
+          ]
+        },
+        {
+          "text": "01",
+          "bbox": [
+            0.198,
+            0.1671,
+            0.218,
+            0.2014
+          ]
+        },
+        {
+          "text": "Packet 1",
+          "bbox": [
+            0.7108,
+            0.1687,
+            0.7784,
+            0.2029
+          ]
+        },
+        {
+          "text": "Packet 1",
+          "bbox": [
+            0.0024,
+            0.1699,
+            0.07,
+            0.2041
+          ]
+        },
+        {
+          "text": "column by column",
+          "bbox": [
+            0.9704,
+            0.1753,
+            0.9903,
+            0.4323
+          ]
+        },
+        {
+          "text": "column by column",
+          "bbox": [
+            0.2643,
+            0.1773,
+            0.2843,
+            0.4342
+          ]
+        },
+        {
+          "text": "10",
+          "bbox": [
+            0.7923,
+            0.222,
+            0.8122,
+            0.2562
+          ]
+        },
+        {
+          "text": "09",
+          "bbox": [
+            0.8208,
+            0.222,
+            0.8407,
+            0.2562
+          ]
+        },
+        {
+          "text": "07",
+          "bbox": [
+            0.8779,
+            0.222,
+            0.8978,
+            0.2562
+          ]
+        },
+        {
+          "text": "06",
+          "bbox": [
+            0.9064,
+            0.222,
+            0.9263,
+            0.2562
+          ]
+        },
+        {
+          "text": "10",
+          "bbox": [
+            0.0839,
+            0.2232,
+            0.1038,
+            0.2575
+          ]
+        },
+        {
+          "text": "09",
+          "bbox": [
+            0.1124,
+            0.2232,
+            0.1324,
+            0.2575
+          ]
+        },
+        {
+          "text": "08",
+          "bbox": [
+            0.141,
+            0.2232,
+            0.1609,
+            0.2574
+          ]
+        },
+        {
+          "text": "07",
+          "bbox": [
+            0.1695,
+            0.2232,
+            0.1894,
+            0.2575
+          ]
+        },
+        {
+          "text": "06",
+          "bbox": [
+            0.198,
+            0.2232,
+            0.218,
+            0.2575
+          ]
+        },
+        {
+          "text": "Packet 2",
+          "bbox": [
+            0.7108,
+            0.2243,
+            0.7784,
+            0.2586
+          ]
+        },
+        {
+          "text": "Packet 2",
+          "bbox": [
+            0.0024,
+            0.2255,
+            0.07,
+            0.2598
+          ]
+        },
+        {
+          "text": "Receiving",
+          "bbox": [
+            0.9504,
+            0.2348,
+            0.9704,
+            0.3728
+          ]
+        },
+        {
+          "text": "Sending",
+          "bbox": [
+            0.2444,
+            0.2496,
+            0.2643,
+            0.3619
+          ]
+        },
+        {
+          "text": "15",
+          "bbox": [
+            0.7923,
+            0.278,
+            0.8122,
+            0.3123
+          ]
+        },
+        {
+          "text": "14",
+          "bbox": [
+            0.8208,
+            0.278,
+            0.8407,
+            0.3123
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.8779,
+            0.278,
+            0.8978,
+            0.3123
+          ]
+        },
+        {
+          "text": "11",
+          "bbox": [
+            0.9064,
+            0.278,
+            0.9263,
+            0.3123
+          ]
+        },
+        {
+          "text": "15",
+          "bbox": [
+            0.0839,
+            0.2792,
+            0.1038,
+            0.3135
+          ]
+        },
+        {
+          "text": "14",
+          "bbox": [
+            0.1124,
+            0.2792,
+            0.1324,
+            0.3135
+          ]
+        },
+        {
+          "text": "13",
+          "bbox": [
+            0.141,
+            0.2792,
+            0.1609,
+            0.3135
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.1695,
+            0.2792,
+            0.1894,
+            0.3135
+          ]
+        },
+        {
+          "text": "11",
+          "bbox": [
+            0.198,
+            0.2792,
+            0.218,
+            0.3135
+          ]
+        },
+        {
+          "text": "Packet 3",
+          "bbox": [
+            0.7108,
+            0.2799,
+            0.7784,
+            0.3142
+          ]
+        },
+        {
+          "text": "Packet 3",
+          "bbox": [
+            0.0024,
+            0.2811,
+            0.07,
+            0.3154
+          ]
+        },
+        {
+          "text": "20",
+          "bbox": [
+            0.7923,
+            0.3341,
+            0.8122,
+            0.3683
+          ]
+        },
+        {
+          "text": "19",
+          "bbox": [
+            0.8208,
+            0.3341,
+            0.8407,
+            0.3683
+          ]
+        },
+        {
+          "text": "17",
+          "bbox": [
+            0.8779,
+            0.3341,
+            0.8978,
+            0.3683
+          ]
+        },
+        {
+          "text": "16",
+          "bbox": [
+            0.9064,
+            0.3341,
+            0.9263,
+            0.3683
+          ]
+        },
+        {
+          "text": "20",
+          "bbox": [
+            0.0839,
+            0.3353,
+            0.1038,
+            0.3695
+          ]
+        },
+        {
+          "text": "19",
+          "bbox": [
+            0.1124,
+            0.3353,
+            0.1324,
+            0.3695
+          ]
+        },
+        {
+          "text": "18",
+          "bbox": [
+            0.141,
+            0.3353,
+            0.1609,
+            0.3695
+          ]
+        },
+        {
+          "text": "17",
+          "bbox": [
+            0.1695,
+            0.3353,
+            0.1894,
+            0.3695
+          ]
+        },
+        {
+          "text": "16",
+          "bbox": [
+            0.198,
+            0.3353,
+            0.218,
+            0.3695
+          ]
+        },
+        {
+          "text": "Packet 4",
+          "bbox": [
+            0.7108,
+            0.3355,
+            0.7784,
+            0.3698
+          ]
+        },
+        {
+          "text": "Packet 4",
+          "bbox": [
+            0.0024,
+            0.3367,
+            0.07,
+            0.371
+          ]
+        },
+        {
+          "text": "25",
+          "bbox": [
+            0.7923,
+            0.3901,
+            0.8122,
+            0.4244
+          ]
+        },
+        {
+          "text": "24",
+          "bbox": [
+            0.8208,
+            0.3901,
+            0.8407,
+            0.4244
+          ]
+        },
+        {
+          "text": "22",
+          "bbox": [
+            0.8779,
+            0.3901,
+            0.8978,
+            0.4244
+          ]
+        },
+        {
+          "text": "21",
+          "bbox": [
+            0.9064,
+            0.3901,
+            0.9263,
+            0.4244
+          ]
+        },
+        {
+          "text": "Packet 5",
+          "bbox": [
+            0.7108,
+            0.3911,
+            0.7784,
+            0.4254
+          ]
+        },
+        {
+          "text": "25",
+          "bbox": [
+            0.0839,
+            0.3913,
+            0.1038,
+            0.4256
+          ]
+        },
+        {
+          "text": "24",
+          "bbox": [
+            0.1124,
+            0.3913,
+            0.1324,
+            0.4256
+          ]
+        },
+        {
+          "text": "23",
+          "bbox": [
+            0.141,
+            0.3913,
+            0.1609,
+            0.4256
+          ]
+        },
+        {
+          "text": "22",
+          "bbox": [
+            0.1695,
+            0.3913,
+            0.1894,
+            0.4256
+          ]
+        },
+        {
+          "text": "21",
+          "bbox": [
+            0.198,
+            0.3913,
+            0.218,
+            0.4256
+          ]
+        },
+        {
+          "text": "Packet 5",
+          "bbox": [
+            0.0024,
+            0.3924,
+            0.07,
+            0.4266
+          ]
+        },
+        {
+          "text": "a. Packet creation at sender",
+          "bbox": [
+            0.0203,
+            0.4611,
+            0.2374,
+            0.4953
+          ]
+        },
+        {
+          "text": "d. Packet recreation at receiver",
+          "bbox": [
+            0.7368,
+            0.4611,
+            0.982,
+            0.4953
+          ]
+        },
+        {
+          "text": "Packet 5",
+          "bbox": [
+            0.1789,
+            0.5294,
+            0.2465,
+            0.5636
+          ]
+        },
+        {
+          "text": "Packet 4",
+          "bbox": [
+            0.324,
+            0.5294,
+            0.3917,
+            0.5637
+          ]
+        },
+        {
+          "text": "Packet 3",
+          "bbox": [
+            0.4692,
+            0.5294,
+            0.5369,
+            0.5637
+          ]
+        },
+        {
+          "text": "Packet 2",
+          "bbox": [
+            0.6177,
+            0.5294,
+            0.6853,
+            0.5637
+          ]
+        },
+        {
+          "text": "Packet 1",
+          "bbox": [
+            0.7612,
+            0.5294,
+            0.8288,
+            0.5637
+          ]
+        },
+        {
+          "text": "25",
+          "bbox": [
+            0.1504,
+            0.5765,
+            0.1704,
+            0.6107
+          ]
+        },
+        {
+          "text": "20",
+          "bbox": [
+            0.1774,
+            0.5765,
+            0.1973,
+            0.6107
+          ]
+        },
+        {
+          "text": "15",
+          "bbox": [
+            0.2044,
+            0.5765,
+            0.2243,
+            0.6107
+          ]
+        },
+        {
+          "text": "10",
+          "bbox": [
+            0.2292,
+            0.5765,
+            0.2491,
+            0.6107
+          ]
+        },
+        {
+          "text": "05",
+          "bbox": [
+            0.2583,
+            0.5765,
+            0.2783,
+            0.6107
+          ]
+        },
+        {
+          "text": "24",
+          "bbox": [
+            0.2964,
+            0.5765,
+            0.3163,
+            0.6107
+          ]
+        },
+        {
+          "text": "19",
+          "bbox": [
+            0.3233,
+            0.5765,
+            0.3433,
+            0.6107
+          ]
+        },
+        {
+          "text": "14",
+          "bbox": [
+            0.3503,
+            0.5765,
+            0.3703,
+            0.6107
+          ]
+        },
+        {
+          "text": "09",
+          "bbox": [
+            0.3773,
+            0.5765,
+            0.3972,
+            0.6107
+          ]
+        },
+        {
+          "text": "04",
+          "bbox": [
+            0.4042,
+            0.5765,
+            0.4242,
+            0.6107
+          ]
+        },
+        {
+          "text": "23",
+          "bbox": [
+            0.4423,
+            0.5765,
+            0.4622,
+            0.6107
+          ]
+        },
+        {
+          "text": "18",
+          "bbox": [
+            0.4692,
+            0.5765,
+            0.4892,
+            0.6107
+          ]
+        },
+        {
+          "text": "13",
+          "bbox": [
+            0.4962,
+            0.5765,
+            0.5162,
+            0.6107
+          ]
+        },
+        {
+          "text": "08",
+          "bbox": [
+            0.5232,
+            0.5765,
+            0.5431,
+            0.6107
+          ]
+        },
+        {
+          "text": "03",
+          "bbox": [
+            0.5502,
+            0.5765,
+            0.5701,
+            0.6107
+          ]
+        },
+        {
+          "text": "22",
+          "bbox": [
+            0.5882,
+            0.5765,
+            0.6081,
+            0.6107
+          ]
+        },
+        {
+          "text": "17",
+          "bbox": [
+            0.6152,
+            0.5765,
+            0.6351,
+            0.6107
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.6421,
+            0.5765,
+            0.6621,
+            0.6107
+          ]
+        },
+        {
+          "text": "07",
+          "bbox": [
+            0.6691,
+            0.5765,
+            0.6891,
+            0.6107
+          ]
+        },
+        {
+          "text": "02",
+          "bbox": [
+            0.6961,
+            0.5765,
+            0.716,
+            0.6107
+          ]
+        },
+        {
+          "text": "21",
+          "bbox": [
+            0.7341,
+            0.5765,
+            0.7541,
+            0.6107
+          ]
+        },
+        {
+          "text": "16",
+          "bbox": [
+            0.7611,
+            0.5765,
+            0.781,
+            0.6107
+          ]
+        },
+        {
+          "text": "11",
+          "bbox": [
+            0.7881,
+            0.5765,
+            0.808,
+            0.6107
+          ]
+        },
+        {
+          "text": "06",
+          "bbox": [
+            0.815,
+            0.5765,
+            0.835,
+            0.6107
+          ]
+        },
+        {
+          "text": "01",
+          "bbox": [
+            0.842,
+            0.5765,
+            0.8619,
+            0.6107
+          ]
+        },
+        {
+          "text": "b. Packets sent",
+          "bbox": [
+            0.4439,
+            0.6568,
+            0.5606,
+            0.6911
+          ]
+        },
+        {
+          "text": "25",
+          "bbox": [
+            0.1504,
+            0.7581,
+            0.1704,
+            0.7923
+          ]
+        },
+        {
+          "text": "20",
+          "bbox": [
+            0.1774,
+            0.7581,
+            0.1973,
+            0.7923
+          ]
+        },
+        {
+          "text": "15",
+          "bbox": [
+            0.2044,
+            0.7581,
+            0.2243,
+            0.7923
+          ]
+        },
+        {
+          "text": "10",
+          "bbox": [
+            0.2292,
+            0.7581,
+            0.2491,
+            0.7923
+          ]
+        },
+        {
+          "text": "05",
+          "bbox": [
+            0.2583,
+            0.7581,
+            0.2783,
+            0.7923
+          ]
+        },
+        {
+          "text": "24",
+          "bbox": [
+            0.2964,
+            0.7581,
+            0.3163,
+            0.7923
+          ]
+        },
+        {
+          "text": "19",
+          "bbox": [
+            0.3233,
+            0.7581,
+            0.3433,
+            0.7923
+          ]
+        },
+        {
+          "text": "14",
+          "bbox": [
+            0.3503,
+            0.7581,
+            0.3703,
+            0.7923
+          ]
+        },
+        {
+          "text": "09",
+          "bbox": [
+            0.3773,
+            0.7581,
+            0.3972,
+            0.7923
+          ]
+        },
+        {
+          "text": "04",
+          "bbox": [
+            0.4042,
+            0.7581,
+            0.4242,
+            0.7923
+          ]
+        },
+        {
+          "text": "22",
+          "bbox": [
+            0.5882,
+            0.7581,
+            0.6081,
+            0.7923
+          ]
+        },
+        {
+          "text": "17",
+          "bbox": [
+            0.6152,
+            0.7581,
+            0.6351,
+            0.7923
+          ]
+        },
+        {
+          "text": "12",
+          "bbox": [
+            0.6421,
+            0.7581,
+            0.6621,
+            0.7923
+          ]
+        },
+        {
+          "text": "07",
+          "bbox": [
+            0.6691,
+            0.7581,
+            0.6891,
+            0.7923
+          ]
+        },
+        {
+          "text": "02",
+          "bbox": [
+            0.6961,
+            0.7581,
+            0.716,
+            0.7923
+          ]
+        },
+        {
+          "text": "21",
+          "bbox": [
+            0.7341,
+            0.7581,
+            0.7541,
+            0.7923
+          ]
+        },
+        {
+          "text": "16",
+          "bbox": [
+            0.7611,
+            0.7581,
+            0.781,
+            0.7923
+          ]
+        },
+        {
+          "text": "11",
+          "bbox": [
+            0.7881,
+            0.7581,
+            0.808,
+            0.7923
+          ]
+        },
+        {
+          "text": "06",
+          "bbox": [
+            0.815,
+            0.7581,
+            0.835,
+            0.7923
+          ]
+        },
+        {
+          "text": "01",
+          "bbox": [
+            0.842,
+            0.7581,
+            0.8619,
+            0.7923
+          ]
+        },
+        {
+          "text": "Lost",
+          "bbox": [
+            0.482,
+            0.7651,
+            0.5304,
+            0.8091
+          ]
+        },
+        {
+          "text": "Packet 5",
+          "bbox": [
+            0.1855,
+            0.8418,
+            0.2531,
+            0.876
+          ]
+        },
+        {
+          "text": "Packet 4",
+          "bbox": [
+            0.3273,
+            0.8418,
+            0.395,
+            0.876
+          ]
+        },
+        {
+          "text": "Packet 3",
+          "bbox": [
+            0.4725,
+            0.8418,
+            0.5401,
+            0.876
+          ]
+        },
+        {
+          "text": "Packet 2",
+          "bbox": [
+            0.621,
+            0.8418,
+            0.6886,
+            0.876
+          ]
+        },
+        {
+          "text": "Packet 1",
+          "bbox": [
+            0.7645,
+            0.8418,
+            0.8321,
+            0.876
+          ]
+        },
+        {
+          "text": "c. Packets received",
+          "bbox": [
+            0.4239,
+            0.8836,
+            0.5749,
+            0.9178
+          ]
+        }
+      ],
+      "text_in_image": "05; 04; 02; 01; 05; 04; 03; 02; 01; Packet 1; Packet 1; column by column; column by column; 10; 09; 07; 06; 10; 09; 08; 07; 06; Packet 2; Packet 2; Receiving; Sending; 15; 14; 12; 11; 15; 14; 13; 12; 11; Packet 3; Packet 3; 20; 19; 17; 16; 20; 19; 18; 17; 16; Packet 4; Packet 4; 25; 24; 22; 21; Packet 5; 25; 24; 23; 22; 21; Packet 5; a. Packet creation at sender; d. Packet recreation at receiver; Packet 5; Packet 4; Packet 3; Packet 2; Packet 1; 25; 20; 15; 10; 05; 24; 19; 14; 09; 04; 23; 18; 13; 08; 03; 22; 17; 12; 07; 02; 21; 16; 11; 06; 01; b. Packets sent; 25; 20; 15; 10; 05; 24; 19; 14; 09; 04; 22; 17; 12; 07; 02; 21; 16; 11; 06; 01; Lost; Packet 5; Packet 4; Packet 3; Packet 2; Packet 1; c. Packets received",
+      "description": "Figure 10.21: Interleaving. Five packets are filled row-wise with numbered chunks, transmitted column-wise, lose one packet, and are rebuilt with one missing chunk per reconstructed packet.",
+      "structure": "Five packets are filled row-wise with numbered chunks, transmitted column-wise, lose one packet, and are rebuilt with one missing chunk per reconstructed packet.",
+      "use_when": "Teach ch10-5-3, interpret Figure 10.21, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_ill_022",
+      "file": "ch10_ill_022.png",
+      "type": "illustration",
+      "kind": "flow",
+      "render": true,
+      "orig_label": "Figure 10.22",
+      "section_id": "ch10-5-5",
+      "alt": "Figure 10.22: Compounding high- and low-resolution packets",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 29,
+          "label": "Figure 10.22"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1053,
+      "height": 792,
+      "sha256": "4806a32a9921f61557e328c867b3f30439e305443e93396e92f96586580412ec",
+      "data_file": null,
+      "source_pdf_page": 29,
+      "source_bbox": [
+        115.34,
+        47.8,
+        466.32,
+        311.6
+      ],
+      "labels": [
+        {
+          "text": "Legend",
+          "bbox": [
+            0.166,
+            0.1298,
+            0.2363,
+            0.1594
+          ]
+        },
+        {
+          "text": "High-resolution packet",
+          "bbox": [
+            0.2633,
+            0.1786,
+            0.4726,
+            0.209
+          ]
+        },
+        {
+          "text": "Compound packet",
+          "bbox": [
+            0.6989,
+            0.1786,
+            0.8651,
+            0.209
+          ]
+        },
+        {
+          "text": "Low-resolution packet",
+          "bbox": [
+            0.2409,
+            0.2521,
+            0.4458,
+            0.2825
+          ]
+        },
+        {
+          "text": "Empty packet",
+          "bbox": [
+            0.6076,
+            0.2521,
+            0.7334,
+            0.2825
+          ]
+        },
+        {
+          "text": "Creation of",
+          "bbox": [
+            0.0181,
+            0.3538,
+            0.127,
+            0.3842
+          ]
+        },
+        {
+          "text": "P1-High",
+          "bbox": [
+            0.2202,
+            0.3736,
+            0.2847,
+            0.3989
+          ]
+        },
+        {
+          "text": "P2-High",
+          "bbox": [
+            0.3931,
+            0.3736,
+            0.4577,
+            0.3989
+          ]
+        },
+        {
+          "text": "P3-High",
+          "bbox": [
+            0.5657,
+            0.3736,
+            0.6302,
+            0.3989
+          ]
+        },
+        {
+          "text": "P4-High",
+          "bbox": [
+            0.7359,
+            0.3736,
+            0.8004,
+            0.3989
+          ]
+        },
+        {
+          "text": "P5-High",
+          "bbox": [
+            0.9112,
+            0.3736,
+            0.9757,
+            0.3989
+          ]
+        },
+        {
+          "text": "packets",
+          "bbox": [
+            0.0385,
+            0.388,
+            0.1066,
+            0.4183
+          ]
+        },
+        {
+          "text": "Sending of",
+          "bbox": [
+            0.0219,
+            0.4824,
+            0.127,
+            0.5127
+          ]
+        },
+        {
+          "text": "compound",
+          "bbox": [
+            0.0263,
+            0.5165,
+            0.1226,
+            0.5468
+          ]
+        },
+        {
+          "text": "P1-High",
+          "bbox": [
+            0.221,
+            0.52,
+            0.2855,
+            0.5454
+          ]
+        },
+        {
+          "text": "P1-L P2-High",
+          "bbox": [
+            0.3414,
+            0.52,
+            0.4583,
+            0.5454
+          ]
+        },
+        {
+          "text": "P2-L P3-High",
+          "bbox": [
+            0.5149,
+            0.52,
+            0.6267,
+            0.5454
+          ]
+        },
+        {
+          "text": "P3-L",
+          "bbox": [
+            0.6869,
+            0.52,
+            0.725,
+            0.5454
+          ]
+        },
+        {
+          "text": "P4-High",
+          "bbox": [
+            0.7375,
+            0.52,
+            0.802,
+            0.5454
+          ]
+        },
+        {
+          "text": "P4-L P5-High",
+          "bbox": [
+            0.862,
+            0.52,
+            0.9766,
+            0.5454
+          ]
+        },
+        {
+          "text": "packets",
+          "bbox": [
+            0.0404,
+            0.5506,
+            0.1085,
+            0.5809
+          ]
+        },
+        {
+          "text": "Packet 1",
+          "bbox": [
+            0.1924,
+            0.5646,
+            0.257,
+            0.5899
+          ]
+        },
+        {
+          "text": "Packet 2",
+          "bbox": [
+            0.3744,
+            0.5646,
+            0.4389,
+            0.5899
+          ]
+        },
+        {
+          "text": "Packet 3",
+          "bbox": [
+            0.5412,
+            0.5646,
+            0.6058,
+            0.5899
+          ]
+        },
+        {
+          "text": "Packet 4",
+          "bbox": [
+            0.7113,
+            0.5646,
+            0.7759,
+            0.5899
+          ]
+        },
+        {
+          "text": "Packet 5",
+          "bbox": [
+            0.8972,
+            0.5646,
+            0.9618,
+            0.5899
+          ]
+        },
+        {
+          "text": "Packet 1",
+          "bbox": [
+            0.1924,
+            0.708,
+            0.257,
+            0.7333
+          ]
+        },
+        {
+          "text": "Packet 2",
+          "bbox": [
+            0.3744,
+            0.708,
+            0.4389,
+            0.7333
+          ]
+        },
+        {
+          "text": "Packet 3",
+          "bbox": [
+            0.5412,
+            0.708,
+            0.6058,
+            0.7333
+          ]
+        },
+        {
+          "text": "Packet 4",
+          "bbox": [
+            0.7113,
+            0.7081,
+            0.7759,
+            0.7334
+          ]
+        },
+        {
+          "text": "Packet 5",
+          "bbox": [
+            0.8972,
+            0.7081,
+            0.9618,
+            0.7334
+          ]
+        },
+        {
+          "text": "Receiving of",
+          "bbox": [
+            0.0048,
+            0.7114,
+            0.127,
+            0.7418
+          ]
+        },
+        {
+          "text": "compound",
+          "bbox": [
+            0.0178,
+            0.7456,
+            0.114,
+            0.7759
+          ]
+        },
+        {
+          "text": "P2-L P3-High",
+          "bbox": [
+            0.5157,
+            0.7469,
+            0.6275,
+            0.7722
+          ]
+        },
+        {
+          "text": "P1-High",
+          "bbox": [
+            0.2233,
+            0.749,
+            0.2879,
+            0.7743
+          ]
+        },
+        {
+          "text": "P3-L P4-High",
+          "bbox": [
+            0.6869,
+            0.749,
+            0.8022,
+            0.7743
+          ]
+        },
+        {
+          "text": "P4-L P5-High",
+          "bbox": [
+            0.8604,
+            0.749,
+            0.975,
+            0.7743
+          ]
+        },
+        {
+          "text": "Lost",
+          "bbox": [
+            0.3816,
+            0.7535,
+            0.4236,
+            0.7831
+          ]
+        },
+        {
+          "text": "packets",
+          "bbox": [
+            0.0318,
+            0.7797,
+            0.1,
+            0.81
+          ]
+        },
+        {
+          "text": "Recreation",
+          "bbox": [
+            0.0283,
+            0.8712,
+            0.127,
+            0.9016
+          ]
+        },
+        {
+          "text": "P1-High",
+          "bbox": [
+            0.2202,
+            0.8918,
+            0.2847,
+            0.9172
+          ]
+        },
+        {
+          "text": "P2-L",
+          "bbox": [
+            0.342,
+            0.8918,
+            0.38,
+            0.9172
+          ]
+        },
+        {
+          "text": "P3-High",
+          "bbox": [
+            0.5657,
+            0.8918,
+            0.6302,
+            0.9172
+          ]
+        },
+        {
+          "text": "P4-High",
+          "bbox": [
+            0.7359,
+            0.8918,
+            0.8004,
+            0.9172
+          ]
+        },
+        {
+          "text": "P5-High",
+          "bbox": [
+            0.9112,
+            0.8918,
+            0.9758,
+            0.9172
+          ]
+        },
+        {
+          "text": "of packets",
+          "bbox": [
+            0.0312,
+            0.9054,
+            0.1241,
+            0.9357
+          ]
+        }
+      ],
+      "text_in_image": "Legend; High-resolution packet; Compound packet; Low-resolution packet; Empty packet; Creation of; P1-High; P2-High; P3-High; P4-High; P5-High; packets; Sending of; compound; P1-High; P1-L P2-High; P2-L P3-High; P3-L; P4-High; P4-L P5-High; packets; Packet 1; Packet 2; Packet 3; Packet 4; Packet 5; Packet 1; Packet 2; Packet 3; Packet 4; Packet 5; Receiving of; compound; P2-L P3-High; P1-High; P3-L P4-High; P4-L P5-High; Lost; packets; Recreation; P1-High; P2-L; P3-High; P4-High; P5-High; of packets",
+      "description": "Figure 10.22: Compounding high- and low-resolution packets. High-resolution packets are paired with the preceding packet’s low-resolution copy so one lost compound packet can be replaced at lower quality.",
+      "structure": "High-resolution packets are paired with the preceding packet’s low-resolution copy so one lost compound packet can be replaced at lower quality.",
+      "use_when": "Teach ch10-5-5, interpret Figure 10.22, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    },
+    {
+      "id": "ch10_qf_001",
+      "file": "ch10_qf_001.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 10.23",
+      "section_id": "ch10-q-p10-11",
+      "alt": "Figure 10.23: P10-11",
+      "sources": [
+        {
+          "role": "book",
+          "file": "Slide/ch_10/ch10.pdf",
+          "page": 33,
+          "label": "Figure 10.23"
+        }
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 948,
+      "height": 672,
+      "sha256": "3a94642acdd7e71f746a0fe37d9f91bfd9ff0bf0cf971afa2b1530215208eac5",
+      "data_file": null,
+      "source_pdf_page": 33,
+      "source_bbox": [
+        150.56,
+        301.42,
+        466.32,
+        525.26
+      ],
+      "labels": [
+        {
+          "text": "C1 C2 C3 C4 C5 C6",
+          "bbox": [
+            0.1499,
+            0.1582,
+            0.3574,
+            0.1872
+          ]
+        },
+        {
+          "text": "C7",
+          "bbox": [
+            0.3684,
+            0.1582,
+            0.3936,
+            0.1872
+          ]
+        },
+        {
+          "text": "C1 C2 C3 C4 C5 C6",
+          "bbox": [
+            0.5956,
+            0.1582,
+            0.8032,
+            0.1872
+          ]
+        },
+        {
+          "text": "C7",
+          "bbox": [
+            0.8142,
+            0.1582,
+            0.8393,
+            0.1872
+          ]
+        },
+        {
+          "text": "1  1  0  0  1  1  1  1",
+          "bbox": [
+            0.1573,
+            0.1936,
+            0.4249,
+            0.2222
+          ]
+        },
+        {
+          "text": "1  1  0  0  1  1  1  1",
+          "bbox": [
+            0.6031,
+            0.1936,
+            0.8707,
+            0.2222
+          ]
+        },
+        {
+          "text": "R1",
+          "bbox": [
+            0.5614,
+            0.196,
+            0.5866,
+            0.225
+          ]
+        },
+        {
+          "text": "R1",
+          "bbox": [
+            0.1157,
+            0.1969,
+            0.1408,
+            0.2259
+          ]
+        },
+        {
+          "text": "R2",
+          "bbox": [
+            0.1157,
+            0.244,
+            0.1408,
+            0.273
+          ]
+        },
+        {
+          "text": "1  0  1  1  1  0  1  1",
+          "bbox": [
+            0.1573,
+            0.2441,
+            0.437,
+            0.2727
+          ]
+        },
+        {
+          "text": "1  0  1  1  1  0  1  1",
+          "bbox": [
+            0.6031,
+            0.2441,
+            0.8828,
+            0.2727
+          ]
+        },
+        {
+          "text": "R2",
+          "bbox": [
+            0.5614,
+            0.246,
+            0.5866,
+            0.2751
+          ]
+        },
+        {
+          "text": "R3",
+          "bbox": [
+            0.1157,
+            0.2946,
+            0.1408,
+            0.3236
+          ]
+        },
+        {
+          "text": "0  1  1  1  0  0  1  0",
+          "bbox": [
+            0.1573,
+            0.2946,
+            0.4249,
+            0.3232
+          ]
+        },
+        {
+          "text": "0  1  1  0  0  1  1  0",
+          "bbox": [
+            0.6039,
+            0.2946,
+            0.8714,
+            0.3232
+          ]
+        },
+        {
+          "text": "R3",
+          "bbox": [
+            0.5614,
+            0.2961,
+            0.5866,
+            0.3251
+          ]
+        },
+        {
+          "text": "R4",
+          "bbox": [
+            0.1157,
+            0.3452,
+            0.1408,
+            0.3743
+          ]
+        },
+        {
+          "text": "0  1  0  1  0  0  1  1",
+          "bbox": [
+            0.1573,
+            0.3451,
+            0.437,
+            0.3737
+          ]
+        },
+        {
+          "text": "0  1  0  1  0  0  1  1",
+          "bbox": [
+            0.6031,
+            0.3451,
+            0.8828,
+            0.3737
+          ]
+        },
+        {
+          "text": "R4",
+          "bbox": [
+            0.5614,
+            0.3461,
+            0.5866,
+            0.3751
+          ]
+        },
+        {
+          "text": "0  1  0  1  0  1  0  1",
+          "bbox": [
+            0.1573,
+            0.3956,
+            0.4249,
+            0.4242
+          ]
+        },
+        {
+          "text": "0  1  0  1  0  1  0  1",
+          "bbox": [
+            0.6031,
+            0.3956,
+            0.8707,
+            0.4242
+          ]
+        },
+        {
+          "text": "a. Detected and corrected",
+          "bbox": [
+            0.1559,
+            0.473,
+            0.4133,
+            0.5087
+          ]
+        },
+        {
+          "text": "b. Detected",
+          "bbox": [
+            0.6757,
+            0.473,
+            0.7901,
+            0.5087
+          ]
+        },
+        {
+          "text": "C1 C2 C3 C4 C5 C6",
+          "bbox": [
+            0.1499,
+            0.5759,
+            0.3574,
+            0.6049
+          ]
+        },
+        {
+          "text": "C7",
+          "bbox": [
+            0.3684,
+            0.5759,
+            0.3936,
+            0.6049
+          ]
+        },
+        {
+          "text": "C1 C2 C3 C4 C5 C6",
+          "bbox": [
+            0.5964,
+            0.5759,
+            0.804,
+            0.6049
+          ]
+        },
+        {
+          "text": "C7",
+          "bbox": [
+            0.815,
+            0.5759,
+            0.8401,
+            0.6049
+          ]
+        },
+        {
+          "text": "1  1  0  0  1  1  1  1",
+          "bbox": [
+            0.1573,
+            0.6113,
+            0.4249,
+            0.6399
+          ]
+        },
+        {
+          "text": "1  0  0  0  1  0  1  1",
+          "bbox": [
+            0.6031,
+            0.6135,
+            0.8707,
+            0.6421
+          ]
+        },
+        {
+          "text": "R1",
+          "bbox": [
+            0.1157,
+            0.6146,
+            0.1408,
+            0.6437
+          ]
+        },
+        {
+          "text": "R1",
+          "bbox": [
+            0.5622,
+            0.6146,
+            0.5874,
+            0.6437
+          ]
+        },
+        {
+          "text": "R2",
+          "bbox": [
+            0.1157,
+            0.6617,
+            0.1408,
+            0.6907
+          ]
+        },
+        {
+          "text": "R2",
+          "bbox": [
+            0.5622,
+            0.6617,
+            0.5874,
+            0.6907
+          ]
+        },
+        {
+          "text": "1  0  1  0  0  0  1  1",
+          "bbox": [
+            0.1589,
+            0.6618,
+            0.4386,
+            0.6904
+          ]
+        },
+        {
+          "text": "1  0  1  1  1  0  1  1",
+          "bbox": [
+            0.6039,
+            0.6618,
+            0.8836,
+            0.6904
+          ]
+        },
+        {
+          "text": "R3",
+          "bbox": [
+            0.1157,
+            0.7123,
+            0.1408,
+            0.7413
+          ]
+        },
+        {
+          "text": "R3",
+          "bbox": [
+            0.5622,
+            0.7123,
+            0.5874,
+            0.7413
+          ]
+        },
+        {
+          "text": "0  1  1  0  0  0  1  0",
+          "bbox": [
+            0.1581,
+            0.7134,
+            0.4257,
+            0.742
+          ]
+        },
+        {
+          "text": "0  0  1  1  0  1  1  0",
+          "bbox": [
+            0.6031,
+            0.7134,
+            0.8707,
+            0.742
+          ]
+        },
+        {
+          "text": "R4",
+          "bbox": [
+            0.1157,
+            0.763,
+            0.1408,
+            0.792
+          ]
+        },
+        {
+          "text": "0  1  0  1  0  0  1  1",
+          "bbox": [
+            0.1573,
+            0.7628,
+            0.437,
+            0.7914
+          ]
+        },
+        {
+          "text": "R4",
+          "bbox": [
+            0.5622,
+            0.763,
+            0.5874,
+            0.792
+          ]
+        },
+        {
+          "text": "0  1  0  1  0  0  1  1",
+          "bbox": [
+            0.6039,
+            0.7628,
+            0.8836,
+            0.7914
+          ]
+        },
+        {
+          "text": "0  1  0  1  0  1  0  1",
+          "bbox": [
+            0.1573,
+            0.8133,
+            0.4249,
+            0.8419
+          ]
+        },
+        {
+          "text": "0  1  0  1  0  1  0  1",
+          "bbox": [
+            0.6039,
+            0.8133,
+            0.8714,
+            0.8419
+          ]
+        },
+        {
+          "text": "c. Detected",
+          "bbox": [
+            0.2276,
+            0.8795,
+            0.3416,
+            0.9153
+          ]
+        },
+        {
+          "text": "d. Not detected",
+          "bbox": [
+            0.6563,
+            0.8795,
+            0.8104,
+            0.9153
+          ]
+        }
+      ],
+      "text_in_image": "C1 C2 C3 C4 C5 C6; C7; C1 C2 C3 C4 C5 C6; C7; 1  1  0  0  1  1  1  1; 1  1  0  0  1  1  1  1; R1; R1; R2; 1  0  1  1  1  0  1  1; 1  0  1  1  1  0  1  1; R2; R3; 0  1  1  1  0  0  1  0; 0  1  1  0  0  1  1  0; R3; R4; 0  1  0  1  0  0  1  1; 0  1  0  1  0  0  1  1; R4; 0  1  0  1  0  1  0  1; 0  1  0  1  0  1  0  1; a. Detected and corrected; b. Detected; C1 C2 C3 C4 C5 C6; C7; C1 C2 C3 C4 C5 C6; C7; 1  1  0  0  1  1  1  1; 1  0  0  0  1  0  1  1; R1; R1; R2; R2; 1  0  1  0  0  0  1  1; 1  0  1  1  1  0  1  1; R3; R3; 0  1  1  0  0  0  1  0; 0  0  1  1  0  1  1  0; R4; 0  1  0  1  0  0  1  1; R4; 0  1  0  1  0  0  1  1; 0  1  0  1  0  1  0  1; 0  1  0  1  0  1  0  1; c. Detected; d. Not detected",
+      "description": "Figure 10.23: P10-11. Four row-and-column parity grids demonstrate one corrected error, two detected errors, three detected errors, and a four-corner pattern that remains undetected.",
+      "structure": "Four row-and-column parity grids demonstrate one corrected error, two detected errors, three detected errors, and a four-corner pattern that remains undetected.",
+      "use_when": "Teach ch10-q-p10-11, interpret Figure 10.23, trace its calculation or data path, or solve a linked practice question.",
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:42:44+00:00"
+      }
+    }
+  ]
+}

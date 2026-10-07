@@ -305,6 +305,37 @@
         "nodes"
       ],
       "prerequisites": []
+    },
+    {
+      "chapter": 10,
+      "title": "Error Detection and Correction",
+      "key_terms": [
+        "single-bit error",
+        "burst error",
+        "redundancy",
+        "error detection",
+        "error correction",
+        "block coding",
+        "convolution coding",
+        "datawords",
+        "codewords",
+        "Hamming distance",
+        "minimum Hamming distance",
+        "linear block codes",
+        "parity-check code",
+        "parity bit",
+        "syndrome",
+        "cyclic codes",
+        "cyclic redundancy check",
+        "generator polynomial",
+        "error polynomial",
+        "checksum",
+        "Fletcher checksum",
+        "Adler checksum",
+        "forward error correction",
+        "chunk interleaving"
+      ],
+      "prerequisites": []
     }
   ],
   "sections": [
@@ -8253,6 +8284,1033 @@
       "terms": [
         "3",
         "9",
+        "summary"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-0",
+      "chapter": 10,
+      "title": "Chapter Objectives",
+      "parent": null,
+      "children": [],
+      "source": "book p.257",
+      "kind": "objectives",
+      "asset_ids": [],
+      "terms": [
+        "chapter",
+        "objectives"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-1",
+      "chapter": 10,
+      "title": "10.1 Introduction",
+      "parent": null,
+      "children": [
+        "ch10-1-1",
+        "ch10-1-2",
+        "ch10-1-3",
+        "ch10-1-4"
+      ],
+      "source": "book 10.1; p.258",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "10",
+        "introduction"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-1-1",
+      "chapter": 10,
+      "title": "10.1.1 Types of Errors",
+      "parent": "ch10-1",
+      "children": [],
+      "source": "book 10.1.1; p.258",
+      "kind": "concept",
+      "asset_ids": [
+        "ch10_ill_001"
+      ],
+      "terms": [
+        "1",
+        "10",
+        "errors",
+        "types"
+      ],
+      "question_ids": [
+        "ch10-q-q10-1",
+        "ch10-q-p10-1",
+        "ch10-q-p10-2"
+      ]
+    },
+    {
+      "id": "ch10-1-2",
+      "chapter": 10,
+      "title": "10.1.2 Redundancy",
+      "parent": "ch10-1",
+      "children": [],
+      "source": "book 10.1.2; p.258",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "10",
+        "2",
+        "redundancy"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-1-3",
+      "chapter": 10,
+      "title": "10.1.3 Detection Versus Correction",
+      "parent": "ch10-1",
+      "children": [],
+      "source": "book 10.1.3; pp.258-259",
+      "kind": "comparison",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "10",
+        "3",
+        "correction",
+        "detection",
+        "versus"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-1-4",
+      "chapter": 10,
+      "title": "10.1.4 Coding",
+      "parent": "ch10-1",
+      "children": [],
+      "source": "book 10.1.4; p.259",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "10",
+        "4",
+        "coding"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-2",
+      "chapter": 10,
+      "title": "10.2 Block Coding",
+      "parent": null,
+      "children": [
+        "ch10-2-1"
+      ],
+      "source": "book 10.2; pp.259-264",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "2",
+        "block",
+        "coding"
+      ],
+      "question_ids": [
+        "ch10-q-q10-3",
+        "ch10-q-q10-4",
+        "ch10-q-q10-7"
+      ]
+    },
+    {
+      "id": "ch10-2-1",
+      "chapter": 10,
+      "title": "10.2.1 Error Detection",
+      "parent": "ch10-2",
+      "children": [
+        "ch10-example-10-1",
+        "ch10-2-1-hamming-distance",
+        "ch10-example-10-2",
+        "ch10-2-1-minimum-hamming-distance",
+        "ch10-example-10-3",
+        "ch10-example-10-4",
+        "ch10-2-1-linear-block-codes",
+        "ch10-example-10-5",
+        "ch10-2-1-minimum-distance-linear",
+        "ch10-example-10-6",
+        "ch10-2-1-parity-check-code",
+        "ch10-example-10-7"
+      ],
+      "source": "book 10.2.1; pp.259-264",
+      "kind": "mechanism",
+      "asset_ids": [
+        "ch10_ill_002"
+      ],
+      "terms": [
+        "1",
+        "10",
+        "2",
+        "detection",
+        "error"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-example-10-1",
+      "chapter": 10,
+      "title": "Example 10.1",
+      "parent": "ch10-2-1",
+      "children": [],
+      "source": "book Example 10.1; p.260",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "10",
+        "example"
+      ],
+      "question_ids": [
+        "ch10-q-p10-4",
+        "ch10-q-p10-26"
+      ]
+    },
+    {
+      "id": "ch10-2-1-hamming-distance",
+      "chapter": 10,
+      "title": "Hamming Distance",
+      "parent": "ch10-2-1",
+      "children": [],
+      "source": "book 10.2.1; pp.260-261",
+      "kind": "formula",
+      "asset_ids": [],
+      "terms": [
+        "distance",
+        "hamming"
+      ],
+      "question_ids": [
+        "ch10-q-p10-3",
+        "ch10-q-p10-7"
+      ]
+    },
+    {
+      "id": "ch10-example-10-2",
+      "chapter": 10,
+      "title": "Example 10.2",
+      "parent": "ch10-2-1",
+      "children": [],
+      "source": "book Example 10.2; p.261",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "2",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-2-1-minimum-hamming-distance",
+      "chapter": 10,
+      "title": "Minimum Hamming Distance for Error Detection",
+      "parent": "ch10-2-1",
+      "children": [],
+      "source": "book 10.2.1; pp.261-262",
+      "kind": "formula",
+      "asset_ids": [
+        "ch10_ill_003"
+      ],
+      "terms": [
+        "detection",
+        "distance",
+        "error",
+        "hamming",
+        "minimum"
+      ],
+      "question_ids": [
+        "ch10-q-q10-5",
+        "ch10-q-q10-6"
+      ]
+    },
+    {
+      "id": "ch10-example-10-3",
+      "chapter": 10,
+      "title": "Example 10.3",
+      "parent": "ch10-2-1",
+      "children": [],
+      "source": "book Example 10.3; p.261",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "3",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-example-10-4",
+      "chapter": 10,
+      "title": "Example 10.4",
+      "parent": "ch10-2-1",
+      "children": [],
+      "source": "book Example 10.4; p.261",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "4",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-2-1-linear-block-codes",
+      "chapter": 10,
+      "title": "Linear Block Codes",
+      "parent": "ch10-2-1",
+      "children": [],
+      "source": "book 10.2.1; p.262",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "block",
+        "codes",
+        "linear"
+      ],
+      "question_ids": [
+        "ch10-q-q10-2",
+        "ch10-q-p10-6"
+      ]
+    },
+    {
+      "id": "ch10-example-10-5",
+      "chapter": 10,
+      "title": "Example 10.5",
+      "parent": "ch10-2-1",
+      "children": [],
+      "source": "book Example 10.5; p.262",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "5",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-2-1-minimum-distance-linear",
+      "chapter": 10,
+      "title": "Minimum Distance for Linear Block Codes",
+      "parent": "ch10-2-1",
+      "children": [],
+      "source": "book 10.2.1; p.262",
+      "kind": "formula",
+      "asset_ids": [],
+      "terms": [
+        "block",
+        "codes",
+        "distance",
+        "linear",
+        "minimum"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-example-10-6",
+      "chapter": 10,
+      "title": "Example 10.6",
+      "parent": "ch10-2-1",
+      "children": [],
+      "source": "book Example 10.6; p.262",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "6",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-2-1-parity-check-code",
+      "chapter": 10,
+      "title": "Parity-Check Code",
+      "parent": "ch10-2-1",
+      "children": [],
+      "source": "book 10.2.1; pp.262-264",
+      "kind": "concept",
+      "asset_ids": [
+        "ch10_ill_004"
+      ],
+      "terms": [
+        "check",
+        "code",
+        "parity"
+      ],
+      "question_ids": [
+        "ch10-q-p10-5",
+        "ch10-q-p10-10",
+        "ch10-q-p10-11"
+      ]
+    },
+    {
+      "id": "ch10-example-10-7",
+      "chapter": 10,
+      "title": "Example 10.7",
+      "parent": "ch10-2-1",
+      "children": [],
+      "source": "book Example 10.7; p.264",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "7",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-3",
+      "chapter": 10,
+      "title": "10.3 Cyclic Codes",
+      "parent": null,
+      "children": [
+        "ch10-3-1",
+        "ch10-3-2",
+        "ch10-3-3",
+        "ch10-3-4",
+        "ch10-3-5",
+        "ch10-3-6",
+        "ch10-3-7"
+      ],
+      "source": "book 10.3; pp.264-277",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "3",
+        "codes",
+        "cyclic"
+      ],
+      "question_ids": [
+        "ch10-q-p10-8"
+      ]
+    },
+    {
+      "id": "ch10-3-1",
+      "chapter": 10,
+      "title": "10.3.1 CRC (Cyclic Redundancy Check)",
+      "parent": "ch10-3",
+      "children": [],
+      "source": "book 10.3.1; pp.265-267",
+      "kind": "mechanism",
+      "asset_ids": [
+        "ch10_ill_005",
+        "ch10_ill_006",
+        "ch10_ill_007"
+      ],
+      "terms": [
+        "1",
+        "10",
+        "3",
+        "check",
+        "crc",
+        "cyclic",
+        "redundancy"
+      ],
+      "question_ids": [
+        "ch10-q-q10-8",
+        "ch10-q-p10-8",
+        "ch10-q-p10-12"
+      ]
+    },
+    {
+      "id": "ch10-3-2",
+      "chapter": 10,
+      "title": "10.3.2 Polynomials",
+      "parent": "ch10-3",
+      "children": [],
+      "source": "book 10.3.2; pp.267-269",
+      "kind": "formula",
+      "asset_ids": [
+        "ch10_ill_008"
+      ],
+      "terms": [
+        "10",
+        "2",
+        "3",
+        "polynomials"
+      ],
+      "question_ids": [
+        "ch10-q-p10-13",
+        "ch10-q-p10-14"
+      ]
+    },
+    {
+      "id": "ch10-3-3",
+      "chapter": 10,
+      "title": "10.3.3 Encoder Using Polynomials",
+      "parent": "ch10-3",
+      "children": [],
+      "source": "book 10.3.3; pp.269-270",
+      "kind": "algorithm",
+      "asset_ids": [
+        "ch10_ill_009"
+      ],
+      "terms": [
+        "10",
+        "3",
+        "encoder",
+        "polynomials",
+        "using"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-3-4",
+      "chapter": 10,
+      "title": "10.3.4 Analysis of Cyclic Codes",
+      "parent": "ch10-3",
+      "children": [
+        "ch10-3-4-single-bit-error",
+        "ch10-example-10-8",
+        "ch10-3-4-two-isolated-single-bit-errors",
+        "ch10-example-10-9",
+        "ch10-3-4-odd-numbers-of-errors",
+        "ch10-3-4-burst-errors",
+        "ch10-example-10-10"
+      ],
+      "source": "book 10.3.4; pp.270-274",
+      "kind": "algorithm",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "3",
+        "4",
+        "analysis",
+        "codes",
+        "cyclic"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-3-4-single-bit-error",
+      "chapter": 10,
+      "title": "Single-Bit Error",
+      "parent": "ch10-3-4",
+      "children": [],
+      "source": "book 10.3.4; p.271",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "bit",
+        "error",
+        "single"
+      ],
+      "question_ids": [
+        "ch10-q-q10-9",
+        "ch10-q-p10-15"
+      ]
+    },
+    {
+      "id": "ch10-example-10-8",
+      "chapter": 10,
+      "title": "Example 10.8",
+      "parent": "ch10-3-4",
+      "children": [],
+      "source": "book Example 10.8; p.271",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "8",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-3-4-two-isolated-single-bit-errors",
+      "chapter": 10,
+      "title": "Two Isolated Single-Bit Errors",
+      "parent": "ch10-3-4",
+      "children": [],
+      "source": "book 10.3.4; pp.271-272",
+      "kind": "concept",
+      "asset_ids": [
+        "ch10_ill_010"
+      ],
+      "terms": [
+        "bit",
+        "errors",
+        "isolated",
+        "single",
+        "two"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-example-10-9",
+      "chapter": 10,
+      "title": "Example 10.9",
+      "parent": "ch10-3-4",
+      "children": [],
+      "source": "book Example 10.9; p.272",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "9",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-3-4-odd-numbers-of-errors",
+      "chapter": 10,
+      "title": "Odd Numbers of Errors",
+      "parent": "ch10-3-4",
+      "children": [],
+      "source": "book 10.3.4; p.272",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "errors",
+        "numbers",
+        "odd"
+      ],
+      "question_ids": [
+        "ch10-q-q10-10"
+      ]
+    },
+    {
+      "id": "ch10-3-4-burst-errors",
+      "chapter": 10,
+      "title": "Burst Errors",
+      "parent": "ch10-3-4",
+      "children": [],
+      "source": "book 10.3.4; pp.272-273",
+      "kind": "formula",
+      "asset_ids": [],
+      "terms": [
+        "burst",
+        "errors"
+      ],
+      "question_ids": [
+        "ch10-q-q10-11",
+        "ch10-q-p10-9",
+        "ch10-q-p10-16",
+        "ch10-q-p10-17"
+      ]
+    },
+    {
+      "id": "ch10-example-10-10",
+      "chapter": 10,
+      "title": "Example 10.10",
+      "parent": "ch10-3-4",
+      "children": [],
+      "source": "book Example 10.10; p.273",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-3-5",
+      "chapter": 10,
+      "title": "10.3.5 Advantages of Cyclic Codes",
+      "parent": "ch10-3",
+      "children": [],
+      "source": "book 10.3.5; p.274",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "3",
+        "5",
+        "advantages",
+        "codes",
+        "cyclic"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-3-6",
+      "chapter": 10,
+      "title": "10.3.6 Other Cyclic Codes",
+      "parent": "ch10-3",
+      "children": [],
+      "source": "book 10.3.6; pp.274-275",
+      "kind": "standard",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "3",
+        "6",
+        "codes",
+        "cyclic",
+        "other"
+      ],
+      "question_ids": [
+        "ch10-q-p10-9",
+        "ch10-q-p10-16",
+        "ch10-q-p10-17"
+      ]
+    },
+    {
+      "id": "ch10-3-7",
+      "chapter": 10,
+      "title": "10.3.7 Hardware Implementation",
+      "parent": "ch10-3",
+      "children": [],
+      "source": "book 10.3.7; pp.275-277",
+      "kind": "mechanism",
+      "asset_ids": [
+        "ch10_ill_011",
+        "ch10_ill_012",
+        "ch10_ill_013",
+        "ch10_ill_014"
+      ],
+      "terms": [
+        "10",
+        "3",
+        "7",
+        "hardware",
+        "implementation"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-4",
+      "chapter": 10,
+      "title": "10.4 Checksum",
+      "parent": null,
+      "children": [
+        "ch10-4-1",
+        "ch10-4-2"
+      ],
+      "source": "book 10.4; pp.277-282",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "4",
+        "checksum"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-4-1",
+      "chapter": 10,
+      "title": "10.4.1 Concept",
+      "parent": "ch10-4",
+      "children": [
+        "ch10-example-10-11",
+        "ch10-example-10-12",
+        "ch10-example-10-13",
+        "ch10-4-1-internet-checksum"
+      ],
+      "source": "book 10.4.1; pp.277-280",
+      "kind": "algorithm",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "10",
+        "4",
+        "concept"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-example-10-11",
+      "chapter": 10,
+      "title": "Example 10.11",
+      "parent": "ch10-4-1",
+      "children": [],
+      "source": "book Example 10.11; p.278",
+      "kind": "worked_example",
+      "asset_ids": [
+        "ch10_ill_015"
+      ],
+      "terms": [
+        "10",
+        "11",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-example-10-12",
+      "chapter": 10,
+      "title": "Example 10.12",
+      "parent": "ch10-4-1",
+      "children": [],
+      "source": "book Example 10.12; p.279",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "12",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-example-10-13",
+      "chapter": 10,
+      "title": "Example 10.13",
+      "parent": "ch10-4-1",
+      "children": [],
+      "source": "book Example 10.13; p.279",
+      "kind": "worked_example",
+      "asset_ids": [
+        "ch10_ill_016"
+      ],
+      "terms": [
+        "10",
+        "13",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-4-1-internet-checksum",
+      "chapter": 10,
+      "title": "Internet Checksum",
+      "parent": "ch10-4-1",
+      "children": [],
+      "source": "book 10.4.1; p.280",
+      "kind": "algorithm",
+      "asset_ids": [
+        "ch10_ill_017"
+      ],
+      "terms": [
+        "checksum",
+        "internet"
+      ],
+      "question_ids": [
+        "ch10-q-q10-13",
+        "ch10-q-p10-18",
+        "ch10-q-p10-19",
+        "ch10-q-p10-20"
+      ]
+    },
+    {
+      "id": "ch10-4-2",
+      "chapter": 10,
+      "title": "10.4.2 Other Approaches to the Checksum",
+      "parent": "ch10-4",
+      "children": [
+        "ch10-4-2-fletcher-checksum",
+        "ch10-4-2-adler-checksum"
+      ],
+      "source": "book 10.4.2; pp.280-282",
+      "kind": "algorithm",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "2",
+        "4",
+        "approaches",
+        "checksum",
+        "other"
+      ],
+      "question_ids": [
+        "ch10-q-q10-12",
+        "ch10-q-p10-23",
+        "ch10-q-p10-24"
+      ]
+    },
+    {
+      "id": "ch10-4-2-fletcher-checksum",
+      "chapter": 10,
+      "title": "Fletcher Checksum",
+      "parent": "ch10-4-2",
+      "children": [],
+      "source": "book 10.4.2; pp.281-282",
+      "kind": "algorithm",
+      "asset_ids": [
+        "ch10_ill_018"
+      ],
+      "terms": [
+        "checksum",
+        "fletcher"
+      ],
+      "question_ids": [
+        "ch10-q-q10-14",
+        "ch10-q-p10-21"
+      ]
+    },
+    {
+      "id": "ch10-4-2-adler-checksum",
+      "chapter": 10,
+      "title": "Adler Checksum",
+      "parent": "ch10-4-2",
+      "children": [],
+      "source": "book 10.4.2; p.282",
+      "kind": "algorithm",
+      "asset_ids": [
+        "ch10_ill_019"
+      ],
+      "terms": [
+        "adler",
+        "checksum"
+      ],
+      "question_ids": [
+        "ch10-q-q10-15",
+        "ch10-q-p10-22"
+      ]
+    },
+    {
+      "id": "ch10-5",
+      "chapter": 10,
+      "title": "10.5 Forward Error Correction",
+      "parent": null,
+      "children": [
+        "ch10-5-1",
+        "ch10-5-2",
+        "ch10-5-3",
+        "ch10-5-4",
+        "ch10-5-5"
+      ],
+      "source": "book 10.5; pp.282-285",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "5",
+        "correction",
+        "error",
+        "forward"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-5-1",
+      "chapter": 10,
+      "title": "10.5.1 Using Hamming Distance",
+      "parent": "ch10-5",
+      "children": [],
+      "source": "book 10.5.1; pp.282-283",
+      "kind": "mechanism",
+      "asset_ids": [
+        "ch10_ill_020"
+      ],
+      "terms": [
+        "1",
+        "10",
+        "5",
+        "distance",
+        "hamming",
+        "using"
+      ],
+      "question_ids": [
+        "ch10-q-q10-7",
+        "ch10-q-p10-26",
+        "ch10-q-p10-27",
+        "ch10-q-p10-28",
+        "ch10-q-p10-29"
+      ]
+    },
+    {
+      "id": "ch10-5-2",
+      "chapter": 10,
+      "title": "10.5.2 Using XOR",
+      "parent": "ch10-5",
+      "children": [],
+      "source": "book 10.5.2; pp.283-284",
+      "kind": "mechanism",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "2",
+        "5",
+        "using",
+        "xor"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-5-3",
+      "chapter": 10,
+      "title": "10.5.3 Chunk Interleaving",
+      "parent": "ch10-5",
+      "children": [],
+      "source": "book 10.5.3; p.284",
+      "kind": "mechanism",
+      "asset_ids": [
+        "ch10_ill_021"
+      ],
+      "terms": [
+        "10",
+        "3",
+        "5",
+        "chunk",
+        "interleaving"
+      ],
+      "question_ids": [
+        "ch10-q-p10-25"
+      ]
+    },
+    {
+      "id": "ch10-5-4",
+      "chapter": 10,
+      "title": "10.5.4 Combining Hamming Distance and Interleaving",
+      "parent": "ch10-5",
+      "children": [],
+      "source": "book 10.5.4; pp.284-285",
+      "kind": "mechanism",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "4",
+        "5",
+        "combining",
+        "distance",
+        "hamming",
+        "interleaving"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch10-5-5",
+      "chapter": 10,
+      "title": "10.5.5 Compounding High- and Low-Resolution Packets",
+      "parent": "ch10-5",
+      "children": [],
+      "source": "book 10.5.5; p.285",
+      "kind": "mechanism",
+      "asset_ids": [
+        "ch10_ill_022"
+      ],
+      "terms": [
+        "10",
+        "5",
+        "compounding",
+        "high",
+        "low",
+        "packets",
+        "resolution"
+      ],
+      "question_ids": [
+        "ch10-q-p10-30"
+      ]
+    },
+    {
+      "id": "ch10-summary",
+      "chapter": 10,
+      "title": "Chapter Summary",
+      "parent": null,
+      "children": [],
+      "source": "book 10.6.3; pp.286-287",
+      "kind": "summary",
+      "asset_ids": [],
+      "terms": [
+        "chapter",
         "summary"
       ],
       "question_ids": []
