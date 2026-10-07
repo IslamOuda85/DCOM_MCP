@@ -1,0 +1,7614 @@
+{
+  "chapter": 8,
+  "spec_version": "1.1-controller",
+  "generated_at": "2026-10-07T03:27:03+00:00",
+  "assets": [
+    {
+      "id": "ch08_ill_001",
+      "file": "ch08_ill_001.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.1",
+      "section_id": "ch08-8-1",
+      "alt": "Figure 8.1: Switched network",
+      "sources": [
+        "book Figure 8.1; p.208"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 436,
+      "sha256": "f0f2136e3db57827619fe1d152411703f6c80fa754aadee0c6cba6c08ccb707d",
+      "description": "Figure 8.1: Switched network. A mesh of intermediate switches connects end systems A through J; several alternative paths illustrate why a switched network avoids direct links between every pair.",
+      "structure": "A mesh of intermediate switches connects end systems A through J; several alternative paths illustrate why a switched network avoids direct links between every pair.",
+      "text_in_image": "B; C; D; E; A; F; II; III; I; IV; V; J; I; H; G",
+      "use_when": "Teach ch08-8-1, interpret Figure 8.1, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 2,
+      "source_bbox": [
+        99.32,
+        265.9,
+        451.32,
+        410.78
+      ],
+      "labels": [
+        {
+          "text": "B",
+          "bbox": [
+            0.3359,
+            0.1734,
+            0.351,
+            0.2286
+          ]
+        },
+        {
+          "text": "C",
+          "bbox": [
+            0.4387,
+            0.1734,
+            0.4538,
+            0.2286
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.5446,
+            0.1734,
+            0.561,
+            0.2286
+          ]
+        },
+        {
+          "text": "E",
+          "bbox": [
+            0.6492,
+            0.1734,
+            0.663,
+            0.2286
+          ]
+        },
+        {
+          "text": "A",
+          "bbox": [
+            0.2215,
+            0.4474,
+            0.2379,
+            0.5026
+          ]
+        },
+        {
+          "text": "F",
+          "bbox": [
+            0.7646,
+            0.4474,
+            0.7772,
+            0.5026
+          ]
+        },
+        {
+          "text": "II",
+          "bbox": [
+            0.4355,
+            0.477,
+            0.4506,
+            0.5323
+          ]
+        },
+        {
+          "text": "III",
+          "bbox": [
+            0.548,
+            0.4839,
+            0.5707,
+            0.5392
+          ]
+        },
+        {
+          "text": "I",
+          "bbox": [
+            0.373,
+            0.5148,
+            0.3805,
+            0.57
+          ]
+        },
+        {
+          "text": "IV",
+          "bbox": [
+            0.6065,
+            0.516,
+            0.6305,
+            0.5712
+          ]
+        },
+        {
+          "text": "V",
+          "bbox": [
+            0.493,
+            0.5673,
+            0.5094,
+            0.6226
+          ]
+        },
+        {
+          "text": "J",
+          "bbox": [
+            0.3392,
+            0.8827,
+            0.3481,
+            0.9379
+          ]
+        },
+        {
+          "text": "I",
+          "bbox": [
+            0.4472,
+            0.8827,
+            0.4548,
+            0.9379
+          ]
+        },
+        {
+          "text": "H",
+          "bbox": [
+            0.5484,
+            0.8827,
+            0.5648,
+            0.9379
+          ]
+        },
+        {
+          "text": "G",
+          "bbox": [
+            0.6509,
+            0.8827,
+            0.6673,
+            0.9379
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_002",
+      "file": "ch08_ill_002.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.2",
+      "section_id": "ch08-8-1-1",
+      "alt": "Figure 8.2: Taxonomy of switched networks",
+      "sources": [
+        "book Figure 8.2; p.209"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 406,
+      "sha256": "9d85aa1e5e5133ba280e0b6fcfd7828804b52bab7e05fba345da2f524345dbea",
+      "description": "Figure 8.2: Taxonomy of switched networks. A taxonomy divides switching into circuit, packet, and message switching; packet switching divides into virtual-circuit and datagram approaches.",
+      "structure": "A taxonomy divides switching into circuit, packet, and message switching; packet switching divides into virtual-circuit and datagram approaches.",
+      "text_in_image": "Switching; Circuit switching; Packet switching; Message switching; Virtual-circuit; Datagram; approach; approach",
+      "use_when": "Teach ch08-8-1-1, interpret Figure 8.2, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 3,
+      "source_bbox": [
+        115.34,
+        47.8,
+        466.32,
+        182.9
+      ],
+      "labels": [
+        {
+          "text": "Switching",
+          "bbox": [
+            0.4543,
+            0.2726,
+            0.5468,
+            0.3318
+          ]
+        },
+        {
+          "text": "Circuit switching",
+          "bbox": [
+            0.1328,
+            0.5563,
+            0.2904,
+            0.6155
+          ]
+        },
+        {
+          "text": "Packet switching",
+          "bbox": [
+            0.4169,
+            0.5563,
+            0.5714,
+            0.6155
+          ]
+        },
+        {
+          "text": "Message switching",
+          "bbox": [
+            0.6939,
+            0.5563,
+            0.868,
+            0.6155
+          ]
+        },
+        {
+          "text": "Virtual-circuit",
+          "bbox": [
+            0.327,
+            0.7784,
+            0.4617,
+            0.8376
+          ]
+        },
+        {
+          "text": "Datagram",
+          "bbox": [
+            0.5583,
+            0.7932,
+            0.6481,
+            0.8524
+          ]
+        },
+        {
+          "text": "approach",
+          "bbox": [
+            0.3526,
+            0.8376,
+            0.4361,
+            0.8968
+          ]
+        },
+        {
+          "text": "approach",
+          "bbox": [
+            0.5614,
+            0.8524,
+            0.645,
+            0.9116
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_003",
+      "file": "ch08_ill_003.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.3",
+      "section_id": "ch08-8-2",
+      "alt": "Figure 8.3: A trivial circuit-switched network",
+      "sources": [
+        "book Figure 8.3; p.210"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 543,
+      "sha256": "e1019e10bbd849326a095fa45728f4b9fb6ee9a9da290432d3bafd989e085944",
+      "description": "Figure 8.3: A trivial circuit-switched network. A circuit-switched network establishes one continuous path through four switches from end system A to M, with one of n link channels reserved on each hop.",
+      "structure": "A circuit-switched network establishes one continuous path through four switches from end system A to M, with one of n link channels reserved on each hop.",
+      "text_in_image": "I; II; One link, n channels; A; Path; M; IV; III",
+      "use_when": "Teach ch08-8-2, interpret Figure 8.3, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 4,
+      "source_bbox": [
+        99.32,
+        130.9,
+        451.32,
+        311.36
+      ],
+      "labels": [
+        {
+          "text": "I",
+          "bbox": [
+            0.341,
+            0.2636,
+            0.3485,
+            0.308
+          ]
+        },
+        {
+          "text": "II",
+          "bbox": [
+            0.6259,
+            0.2667,
+            0.641,
+            0.3111
+          ]
+        },
+        {
+          "text": "One link, n channels",
+          "bbox": [
+            0.3957,
+            0.3483,
+            0.5825,
+            0.4015
+          ]
+        },
+        {
+          "text": "A",
+          "bbox": [
+            0.1496,
+            0.3864,
+            0.166,
+            0.4308
+          ]
+        },
+        {
+          "text": "Path",
+          "bbox": [
+            0.4689,
+            0.6771,
+            0.5093,
+            0.7214
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.8302,
+            0.7139,
+            0.8504,
+            0.7582
+          ]
+        },
+        {
+          "text": "IV",
+          "bbox": [
+            0.3328,
+            0.8322,
+            0.3567,
+            0.8766
+          ]
+        },
+        {
+          "text": "III",
+          "bbox": [
+            0.6221,
+            0.8322,
+            0.6448,
+            0.8766
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_004",
+      "file": "ch08_ill_004.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.4",
+      "section_id": "ch08-example-8-1",
+      "alt": "Figure 8.4: Circuit-switched network used in Example 8.1",
+      "sources": [
+        "book Figure 8.4; p.211"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 500,
+      "sha256": "f9ca84fa9d50dc35096968c9d8abb1e598fd0445c34c37b87721b3d6408ced14",
+      "description": "Figure 8.4: Circuit-switched network used in Example 8.1. Eight telephones connect through a circuit switch; paired calls occupy 4 kHz channels and shared links carry two channels over 8 kHz bands.",
+      "structure": "Eight telephones connect through a circuit switch; paired calls occupy 4 kHz channels and shared links carry two channels over 8 kHz bands.",
+      "text_in_image": "Circuit-switched network; 5; 1; 6; 0; 4; kHz; kHz; 2; 3; 0; 8; 7; kHz; kHz; 4; 0; 4; kHz; kHz; 8; 0; 4; kHz; kHz",
+      "use_when": "Teach ch08-example-8-1, interpret Figure 8.4, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 5,
+      "source_bbox": [
+        114.32,
+        224.86,
+        466.32,
+        391.1
+      ],
+      "labels": [
+        {
+          "text": "Circuit-switched network",
+          "bbox": [
+            0.2232,
+            0.1874,
+            0.4546,
+            0.2355
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.9611,
+            0.2847,
+            0.9725,
+            0.3329
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.0275,
+            0.3883,
+            0.0389,
+            0.4365
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.9611,
+            0.3924,
+            0.9725,
+            0.4405
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.8013,
+            0.4266,
+            0.8126,
+            0.4747
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.8604,
+            0.4266,
+            0.8717,
+            0.4747
+          ]
+        },
+        {
+          "text": "kHz",
+          "bbox": [
+            0.788,
+            0.4747,
+            0.8259,
+            0.5228
+          ]
+        },
+        {
+          "text": "kHz",
+          "bbox": [
+            0.8471,
+            0.4747,
+            0.885,
+            0.5228
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.0286,
+            0.496,
+            0.04,
+            0.5441
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.0275,
+            0.6037,
+            0.0389,
+            0.6518
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3979,
+            0.6591,
+            0.4092,
+            0.7072
+          ]
+        },
+        {
+          "text": "8",
+          "bbox": [
+            0.516,
+            0.6591,
+            0.5274,
+            0.7072
+          ]
+        },
+        {
+          "text": "7",
+          "bbox": [
+            0.9611,
+            0.7041,
+            0.9725,
+            0.7522
+          ]
+        },
+        {
+          "text": "kHz",
+          "bbox": [
+            0.3846,
+            0.7072,
+            0.4225,
+            0.7554
+          ]
+        },
+        {
+          "text": "kHz",
+          "bbox": [
+            0.5028,
+            0.7072,
+            0.5407,
+            0.7554
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.0275,
+            0.7113,
+            0.0389,
+            0.7594
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1329,
+            0.7514,
+            0.1443,
+            0.7995
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.1897,
+            0.7514,
+            0.201,
+            0.7995
+          ]
+        },
+        {
+          "text": "kHz",
+          "bbox": [
+            0.1197,
+            0.7995,
+            0.1576,
+            0.8477
+          ]
+        },
+        {
+          "text": "kHz",
+          "bbox": [
+            0.1764,
+            0.7995,
+            0.2143,
+            0.8477
+          ]
+        },
+        {
+          "text": "8",
+          "bbox": [
+            0.9611,
+            0.8118,
+            0.9725,
+            0.8599
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.8013,
+            0.8495,
+            0.8127,
+            0.8977
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.8604,
+            0.8495,
+            0.8717,
+            0.8977
+          ]
+        },
+        {
+          "text": "kHz",
+          "bbox": [
+            0.788,
+            0.8977,
+            0.8259,
+            0.9458
+          ]
+        },
+        {
+          "text": "kHz",
+          "bbox": [
+            0.8471,
+            0.8977,
+            0.885,
+            0.9458
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_005",
+      "file": "ch08_ill_005.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.5",
+      "section_id": "ch08-example-8-2",
+      "alt": "Figure 8.5: Circuit-switched network used in Example 8.2",
+      "sources": [
+        "book Figure 8.5; p.212"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 527,
+      "sha256": "e8ce13bcc8fd5b9a9405dbe47b7b2ed305d4cad9b0cccd47dbc3d4b9360b82bc",
+      "description": "Figure 8.5: Circuit-switched network used in Example 8.2. Two office sites use 4-by-8 circuit switches with folded local paths and a 1.544 Mbps T-1 interoffice link.",
+      "structure": "Two office sites use 4-by-8 circuit switches with folded local paths and a 1.544 Mbps T-1 interoffice link.",
+      "text_in_image": "Circuit-switched network; 4 × 8; 4 × 8; switch; switch; T-1 line with; 1.544 Mbps",
+      "use_when": "Teach ch08-example-8-2, interpret Figure 8.5, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 6,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        223.1
+      ],
+      "labels": [
+        {
+          "text": "Circuit-switched network",
+          "bbox": [
+            0.1147,
+            0.1809,
+            0.3468,
+            0.2266
+          ]
+        },
+        {
+          "text": "4 × 8",
+          "bbox": [
+            0.2461,
+            0.4437,
+            0.2932,
+            0.4894
+          ]
+        },
+        {
+          "text": "4 × 8",
+          "bbox": [
+            0.6998,
+            0.4468,
+            0.7468,
+            0.4924
+          ]
+        },
+        {
+          "text": "switch",
+          "bbox": [
+            0.2399,
+            0.4894,
+            0.2994,
+            0.535
+          ]
+        },
+        {
+          "text": "switch",
+          "bbox": [
+            0.6935,
+            0.4924,
+            0.7531,
+            0.5381
+          ]
+        },
+        {
+          "text": "T-1 line with",
+          "bbox": [
+            0.4381,
+            0.5085,
+            0.5551,
+            0.5542
+          ]
+        },
+        {
+          "text": "1.544 Mbps",
+          "bbox": [
+            0.4422,
+            0.5542,
+            0.5511,
+            0.5998
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_006",
+      "file": "ch08_ill_006.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.6",
+      "section_id": "ch08-8-2-3",
+      "alt": "Figure 8.6: Delay in a circuit-switched network",
+      "sources": [
+        "book Figure 8.6; p.213"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 562,
+      "sha256": "938a329d9d1c7d8e3be2f79f7c656b96a292bac59f4c790135bf3985418bf42b",
+      "description": "Figure 8.6: Delay in a circuit-switched network. A time-sequence diagram separates connection setup, continuous data transfer, and disconnect phases and shows their contributions to total circuit-switched delay.",
+      "structure": "A time-sequence diagram separates connection setup, continuous data transfer, and disconnect phases and shows their contributions to total circuit-switched delay.",
+      "text_in_image": "A; B; Connect; Total delay; Data transfer; Disconnect; Time; Time; Time; Time",
+      "use_when": "Teach ch08-8-2-3, interpret Figure 8.6, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 7,
+      "source_bbox": [
+        114.32,
+        121.9,
+        466.32,
+        308.96
+      ],
+      "labels": [
+        {
+          "text": "A",
+          "bbox": [
+            0.2065,
+            0.177,
+            0.2229,
+            0.2198
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.8358,
+            0.177,
+            0.851,
+            0.2198
+          ]
+        },
+        {
+          "text": "Connect",
+          "bbox": [
+            0.1555,
+            0.3367,
+            0.1782,
+            0.4793
+          ]
+        },
+        {
+          "text": "Total delay",
+          "bbox": [
+            0.1054,
+            0.4947,
+            0.1281,
+            0.6883
+          ]
+        },
+        {
+          "text": "Data transfer",
+          "bbox": [
+            0.439,
+            0.5961,
+            0.557,
+            0.6389
+          ]
+        },
+        {
+          "text": "Disconnect",
+          "bbox": [
+            0.1555,
+            0.7172,
+            0.1782,
+            0.9096
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.1857,
+            0.9092,
+            0.2337,
+            0.952
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.396,
+            0.9092,
+            0.444,
+            0.952
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.6091,
+            0.9092,
+            0.657,
+            0.952
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.8248,
+            0.9092,
+            0.8728,
+            0.952
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_007",
+      "file": "ch08_ill_007.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.7",
+      "section_id": "ch08-8-3-1",
+      "alt": "Figure 8.7: A datagram network with four switches (routers)",
+      "sources": [
+        "book Figure 8.7; p.214"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 464,
+      "sha256": "f28e0d1b048bb179734791dd23dabdcce40dab8632deefb33ad4bb175d5594eb",
+      "description": "Figure 8.7: A datagram network with four switches (routers). Four routers offer multiple paths between A and X; five labeled datagrams take different routes through the datagram network.",
+      "structure": "Four routers offer multiple paths between A and X; five labeled datagrams take different routes through the datagram network.",
+      "text_in_image": "Datagram network; A; 3; 1; 4; 3; 2; 1; 4; 1; 2; 3; 1; 4; X; 2; 3; 4; 1; 2",
+      "use_when": "Teach ch08-8-3-1, interpret Figure 8.7, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 8,
+      "source_bbox": [
+        99.32,
+        289.42,
+        451.32,
+        443.96
+      ],
+      "labels": [
+        {
+          "text": "Datagram network",
+          "bbox": [
+            0.2689,
+            0.1791,
+            0.4396,
+            0.2312
+          ]
+        },
+        {
+          "text": "A",
+          "bbox": [
+            0.0543,
+            0.2686,
+            0.0708,
+            0.3207
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.4134,
+            0.2931,
+            0.4248,
+            0.3451
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5496,
+            0.2931,
+            0.561,
+            0.3451
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.1149,
+            0.2965,
+            0.1264,
+            0.3486
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.1487,
+            0.2965,
+            0.1601,
+            0.3486
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.1825,
+            0.2965,
+            0.1939,
+            0.3486
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2162,
+            0.2965,
+            0.2277,
+            0.3486
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.4309,
+            0.4271,
+            0.4423,
+            0.4791
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5467,
+            0.4271,
+            0.5581,
+            0.4791
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.3379,
+            0.5491,
+            0.3494,
+            0.6011
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.6836,
+            0.5491,
+            0.695,
+            0.6011
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5877,
+            0.6283,
+            0.5991,
+            0.6803
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.5407,
+            0.6963,
+            0.5521,
+            0.7483
+          ]
+        },
+        {
+          "text": "X",
+          "bbox": [
+            0.9023,
+            0.7098,
+            0.9188,
+            0.7618
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.753,
+            0.7497,
+            0.7644,
+            0.8017
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.7867,
+            0.7497,
+            0.7982,
+            0.8017
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.8205,
+            0.7497,
+            0.8319,
+            0.8017
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8543,
+            0.7497,
+            0.8657,
+            0.8017
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.4881,
+            0.8369,
+            0.4995,
+            0.889
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_008",
+      "file": "ch08_ill_008.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.8",
+      "section_id": "ch08-8-3-1-routing-table",
+      "alt": "Figure 8.8: Routing table in a datagram network",
+      "sources": [
+        "book Figure 8.8; p.215"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 518,
+      "sha256": "92f9d39fa91b5c69afea5dcc35ab35a055f4420130e706bd506d48592da8263b",
+      "description": "Figure 8.8: Routing table in a datagram network. A datagram routing table maps destination addresses to output ports beside a four-port router.",
+      "structure": "A datagram routing table maps destination addresses to output ports beside a four-port router.",
+      "text_in_image": "Output; Destination; port; address; 1232; 1; 4150; 2; …; …; 9130; 3; 1; 4; 3; 2",
+      "use_when": "Teach ch08-8-3-1-routing-table, interpret Figure 8.8, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 9,
+      "source_bbox": [
+        114.32,
+        167.86,
+        466.32,
+        340.28
+      ],
+      "labels": [
+        {
+          "text": "Output",
+          "bbox": [
+            0.5366,
+            0.1685,
+            0.5998,
+            0.2149
+          ]
+        },
+        {
+          "text": "Destination",
+          "bbox": [
+            0.3965,
+            0.1729,
+            0.5012,
+            0.2193
+          ]
+        },
+        {
+          "text": "port",
+          "bbox": [
+            0.5499,
+            0.2215,
+            0.5865,
+            0.2679
+          ]
+        },
+        {
+          "text": "address",
+          "bbox": [
+            0.4148,
+            0.2259,
+            0.4829,
+            0.2723
+          ]
+        },
+        {
+          "text": "1232",
+          "bbox": [
+            0.4256,
+            0.2967,
+            0.471,
+            0.3431
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5618,
+            0.2967,
+            0.5732,
+            0.3431
+          ]
+        },
+        {
+          "text": "4150",
+          "bbox": [
+            0.4256,
+            0.3475,
+            0.471,
+            0.3939
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.5628,
+            0.3475,
+            0.5741,
+            0.3939
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.4471,
+            0.4227,
+            0.4699,
+            0.4691
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.5654,
+            0.4227,
+            0.5881,
+            0.4691
+          ]
+        },
+        {
+          "text": "9130",
+          "bbox": [
+            0.4256,
+            0.48,
+            0.471,
+            0.5264
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.5628,
+            0.48,
+            0.5741,
+            0.5264
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3976,
+            0.7574,
+            0.409,
+            0.8038
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.5851,
+            0.7574,
+            0.5964,
+            0.8038
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.5192,
+            0.8965,
+            0.5305,
+            0.9429
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.4428,
+            0.8987,
+            0.4542,
+            0.9451
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_009",
+      "file": "ch08_ill_009.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.9",
+      "section_id": "ch08-8-3-1-delay",
+      "alt": "Figure 8.9: Delay in a datagram network",
+      "sources": [
+        "book Figure 8.9; p.216"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 536,
+      "sha256": "b2ef7bcdca1096e479a0ae9ad86a5c470dfdfc27b446da126de9c40b9948f8a7",
+      "description": "Figure 8.9: Delay in a datagram network. A time-sequence diagram shows one packet crossing two routers with three transmission intervals, three propagation intervals, and two queueing waits.",
+      "structure": "A time-sequence diagram shows one packet crossing two routers with three transmission intervals, three propagation intervals, and two queueing waits.",
+      "text_in_image": "A; B; Transmission; time; Waiting; time; Total delay; Waiting; time; Time; Time; Time; Time",
+      "use_when": "Teach ch08-8-3-1-delay, interpret Figure 8.9, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 10,
+      "source_bbox": [
+        99.32,
+        127.9,
+        451.32,
+        306.14
+      ],
+      "labels": [
+        {
+          "text": "A",
+          "bbox": [
+            0.2071,
+            0.1858,
+            0.2235,
+            0.2307
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.8535,
+            0.1968,
+            0.8687,
+            0.2417
+          ]
+        },
+        {
+          "text": "Transmission",
+          "bbox": [
+            0.071,
+            0.336,
+            0.1935,
+            0.3809
+          ]
+        },
+        {
+          "text": "time",
+          "bbox": [
+            0.1531,
+            0.3809,
+            0.1935,
+            0.4257
+          ]
+        },
+        {
+          "text": "Waiting",
+          "bbox": [
+            0.3295,
+            0.4361,
+            0.4027,
+            0.481
+          ]
+        },
+        {
+          "text": "time",
+          "bbox": [
+            0.3623,
+            0.481,
+            0.4027,
+            0.5258
+          ]
+        },
+        {
+          "text": "Total delay",
+          "bbox": [
+            0.9013,
+            0.4917,
+            0.9241,
+            0.6948
+          ]
+        },
+        {
+          "text": "Waiting",
+          "bbox": [
+            0.5431,
+            0.624,
+            0.6163,
+            0.6689
+          ]
+        },
+        {
+          "text": "time",
+          "bbox": [
+            0.5759,
+            0.6689,
+            0.6163,
+            0.7138
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.196,
+            0.9047,
+            0.244,
+            0.9496
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.4082,
+            0.9047,
+            0.4561,
+            0.9496
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.6222,
+            0.9047,
+            0.6702,
+            0.9496
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.8343,
+            0.9047,
+            0.8823,
+            0.9496
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_010",
+      "file": "ch08_ill_010.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.10",
+      "section_id": "ch08-8-3-2",
+      "alt": "Figure 8.10: Virtual-circuit network",
+      "sources": [
+        "book Figure 8.10; p.217"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 489,
+      "sha256": "607f45a295116ce3c36c50b8502367c25ea74928d37615f6680328e754c8f0dc",
+      "description": "Figure 8.10: Virtual-circuit network. End systems A through D attach to a mesh of switches in a virtual-circuit network; an established path is selected through the mesh.",
+      "structure": "End systems A through D attach to a mesh of switches in a virtual-circuit network; an established path is selected through the mesh.",
+      "text_in_image": "C; End system; A; B; Switches; End system; End system; End system; D",
+      "use_when": "Teach ch08-8-3-2, interpret Figure 8.10, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 11,
+      "source_bbox": [
+        114.32,
+        133.9,
+        466.32,
+        296.54
+      ],
+      "labels": [
+        {
+          "text": "C",
+          "bbox": [
+            0.4187,
+            0.1784,
+            0.4339,
+            0.2276
+          ]
+        },
+        {
+          "text": "End system",
+          "bbox": [
+            0.4655,
+            0.249,
+            0.5709,
+            0.2982
+          ]
+        },
+        {
+          "text": "A",
+          "bbox": [
+            0.1715,
+            0.4593,
+            0.1879,
+            0.5085
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.8016,
+            0.4627,
+            0.8168,
+            0.5118
+          ]
+        },
+        {
+          "text": "Switches",
+          "bbox": [
+            0.4529,
+            0.5276,
+            0.5349,
+            0.5768
+          ]
+        },
+        {
+          "text": "End system",
+          "bbox": [
+            0.765,
+            0.5899,
+            0.8704,
+            0.6391
+          ]
+        },
+        {
+          "text": "End system",
+          "bbox": [
+            0.1296,
+            0.596,
+            0.235,
+            0.6452
+          ]
+        },
+        {
+          "text": "End system",
+          "bbox": [
+            0.5942,
+            0.8392,
+            0.6996,
+            0.8884
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.5511,
+            0.8955,
+            0.5675,
+            0.9447
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_011",
+      "file": "ch08_ill_011.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.11",
+      "section_id": "ch08-8-3-2-virtual-circuit-identifier",
+      "alt": "Figure 8.11: Virtual-circuit identifier",
+      "sources": [
+        "book Figure 8.11; p.217"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 290,
+      "sha256": "7c5a82c4a4281d993db2597b7ac5a8ea3d54c6aae3491004595dc16e7e3b8af8",
+      "description": "Figure 8.11: Virtual-circuit identifier. A frame crosses a switch with VCI 14 and leaves with VCI 77, demonstrating that a virtual-circuit identifier has link-local scope.",
+      "structure": "A frame crosses a switch with VCI 14 and leaves with VCI 77, demonstrating that a virtual-circuit identifier has link-local scope.",
+      "text_in_image": "VCI; VCI; Data; 14; Data; 77",
+      "use_when": "Teach ch08-8-3-2-virtual-circuit-identifier, interpret Figure 8.11, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 11,
+      "source_bbox": [
+        114.32,
+        510.4,
+        466.32,
+        606.74
+      ],
+      "labels": [
+        {
+          "text": "VCI",
+          "bbox": [
+            0.3334,
+            0.4149,
+            0.3725,
+            0.498
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.675,
+            0.4149,
+            0.7142,
+            0.498
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.2703,
+            0.5934,
+            0.3132,
+            0.6764
+          ]
+        },
+        {
+          "text": "14",
+          "bbox": [
+            0.3416,
+            0.5934,
+            0.3643,
+            0.6764
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.612,
+            0.5934,
+            0.6549,
+            0.6764
+          ]
+        },
+        {
+          "text": "77",
+          "bbox": [
+            0.6832,
+            0.5934,
+            0.706,
+            0.6764
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_012",
+      "file": "ch08_ill_012.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.12",
+      "section_id": "ch08-8-3-2-data-transfer-phase",
+      "alt": "Figure 8.12: Switch and tables in a virtual-circuit network",
+      "sources": [
+        "book Figure 8.12; p.218"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 621,
+      "sha256": "15b5826059e86a520fbce52cd42d3198a9505511966b9f35c97865d7792e04fb",
+      "description": "Figure 8.12: Switch and tables in a virtual-circuit network. A four-column switching table maps incoming port and VCI to outgoing port and VCI; example frames show 14 becoming 22 and 77 becoming 41.",
+      "structure": "A four-column switching table maps incoming port and VCI to outgoing port and VCI; example frames show 14 becoming 22 and 77 becoming 41.",
+      "text_in_image": "Incoming; Outgoing; Port; VCI; Port; VCI; 1; 14; 3; 22; 1; 77; 2; 41; Data; 77; Data; 14; Data; 22; 1; 3; 2; Data; 41",
+      "use_when": "Teach ch08-8-3-2-data-transfer-phase, interpret Figure 8.12, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 12,
+      "source_bbox": [
+        99.32,
+        245.92,
+        451.32,
+        452.42
+      ],
+      "labels": [
+        {
+          "text": "Incoming",
+          "bbox": [
+            0.4657,
+            0.154,
+            0.5508,
+            0.1914
+          ]
+        },
+        {
+          "text": "Outgoing",
+          "bbox": [
+            0.6055,
+            0.154,
+            0.6894,
+            0.1914
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.4607,
+            0.2114,
+            0.4977,
+            0.2488
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.5293,
+            0.2114,
+            0.5676,
+            0.2488
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.6007,
+            0.2114,
+            0.6377,
+            0.2488
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.6697,
+            0.2114,
+            0.708,
+            0.2488
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4737,
+            0.2597,
+            0.4848,
+            0.2971
+          ]
+        },
+        {
+          "text": "14",
+          "bbox": [
+            0.5357,
+            0.2597,
+            0.558,
+            0.2971
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.6137,
+            0.2597,
+            0.6248,
+            0.2971
+          ]
+        },
+        {
+          "text": "22",
+          "bbox": [
+            0.6793,
+            0.2597,
+            0.7015,
+            0.2971
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4737,
+            0.2992,
+            0.4848,
+            0.3367
+          ]
+        },
+        {
+          "text": "77",
+          "bbox": [
+            0.5357,
+            0.2992,
+            0.558,
+            0.3367
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.6137,
+            0.2992,
+            0.6248,
+            0.3367
+          ]
+        },
+        {
+          "text": "41",
+          "bbox": [
+            0.6793,
+            0.2992,
+            0.7015,
+            0.3367
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.1665,
+            0.4341,
+            0.2085,
+            0.4715
+          ]
+        },
+        {
+          "text": "77",
+          "bbox": [
+            0.2447,
+            0.4341,
+            0.2669,
+            0.4715
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.3172,
+            0.4341,
+            0.3591,
+            0.4715
+          ]
+        },
+        {
+          "text": "14",
+          "bbox": [
+            0.3953,
+            0.4341,
+            0.4176,
+            0.4715
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.6988,
+            0.4341,
+            0.7407,
+            0.4715
+          ]
+        },
+        {
+          "text": "22",
+          "bbox": [
+            0.7769,
+            0.4341,
+            0.7991,
+            0.4715
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.499,
+            0.505,
+            0.5101,
+            0.5424
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.6361,
+            0.505,
+            0.6472,
+            0.5424
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.5541,
+            0.5876,
+            0.5652,
+            0.6251
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.5919,
+            0.6953,
+            0.6138,
+            0.7653
+          ]
+        },
+        {
+          "text": "41",
+          "bbox": [
+            0.5919,
+            0.8256,
+            0.6138,
+            0.8627
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_013",
+      "file": "ch08_ill_013.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.13",
+      "section_id": "ch08-8-3-2-data-transfer-phase",
+      "alt": "Figure 8.13: Source-to-destination data transfer in a virtual-circuit network",
+      "sources": [
+        "book Figure 8.13; p.219"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 689,
+      "sha256": "f0708686746b349b4124cc03fb3754e3c3a3f468745bc088e5861eaa45ee759d",
+      "description": "Figure 8.13: Source-to-destination data transfer in a virtual-circuit network. Three switch tables trace a frame from A to B as its VCI changes from 14 to 66 to 22 to 77 across a WAN path.",
+      "structure": "Three switch tables trace a frame from A to B as its VCI changes from 14 to 66 to 22 to 77 across a WAN path.",
+      "text_in_image": "Incoming; Outgoing; Incoming; Outgoing; Port; VCI; Port; VCI; Port; VCI; Port; VCI; 1; 14; 3; 66; 2; 22; 3; 77; •••; •••; •••; •••; •••; •••; •••; •••; Data; 14; Data; 77; 2; 1; 1; 3; 3; B; 2; 22; A; 4; 4; Data; Data; 66; 1; 2; WAN; Incoming; Outgoing; Port; VCI; Port; VCI; 1; 66; 2; 22; •••; •••; •••; •••",
+      "use_when": "Teach ch08-8-3-2-data-transfer-phase, interpret Figure 8.13, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 13,
+      "source_bbox": [
+        115.34,
+        47.8,
+        466.32,
+        277.28
+      ],
+      "labels": [
+        {
+          "text": "Incoming",
+          "bbox": [
+            0.2285,
+            0.1356,
+            0.3113,
+            0.1683
+          ]
+        },
+        {
+          "text": "Outgoing",
+          "bbox": [
+            0.3285,
+            0.1356,
+            0.4102,
+            0.1683
+          ]
+        },
+        {
+          "text": "Incoming",
+          "bbox": [
+            0.577,
+            0.1356,
+            0.6599,
+            0.1683
+          ]
+        },
+        {
+          "text": "Outgoing",
+          "bbox": [
+            0.677,
+            0.1356,
+            0.7587,
+            0.1683
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.2278,
+            0.1885,
+            0.2638,
+            0.2212
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.2777,
+            0.1885,
+            0.3149,
+            0.2212
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.3294,
+            0.1885,
+            0.3655,
+            0.2212
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.3793,
+            0.1885,
+            0.4166,
+            0.2212
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.5763,
+            0.1885,
+            0.6124,
+            0.2212
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.6263,
+            0.1885,
+            0.6635,
+            0.2212
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.678,
+            0.1885,
+            0.714,
+            0.2212
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.7279,
+            0.1885,
+            0.7651,
+            0.2212
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2404,
+            0.2338,
+            0.2512,
+            0.2666
+          ]
+        },
+        {
+          "text": "14",
+          "bbox": [
+            0.2855,
+            0.2338,
+            0.3071,
+            0.2666
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.342,
+            0.2338,
+            0.3529,
+            0.2666
+          ]
+        },
+        {
+          "text": "66",
+          "bbox": [
+            0.3872,
+            0.2338,
+            0.4088,
+            0.2666
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.589,
+            0.2338,
+            0.5998,
+            0.2666
+          ]
+        },
+        {
+          "text": "22",
+          "bbox": [
+            0.6341,
+            0.2338,
+            0.6557,
+            0.2666
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.6906,
+            0.2338,
+            0.7014,
+            0.2666
+          ]
+        },
+        {
+          "text": "77",
+          "bbox": [
+            0.7357,
+            0.2338,
+            0.7573,
+            0.2666
+          ]
+        },
+        {
+          "text": "•••",
+          "bbox": [
+            0.2431,
+            0.2663,
+            0.2485,
+            0.3129
+          ]
+        },
+        {
+          "text": "•••",
+          "bbox": [
+            0.2936,
+            0.2663,
+            0.299,
+            0.3129
+          ]
+        },
+        {
+          "text": "•••",
+          "bbox": [
+            0.3448,
+            0.2663,
+            0.3502,
+            0.3129
+          ]
+        },
+        {
+          "text": "•••",
+          "bbox": [
+            0.3953,
+            0.2663,
+            0.4007,
+            0.3129
+          ]
+        },
+        {
+          "text": "•••",
+          "bbox": [
+            0.5917,
+            0.2663,
+            0.5971,
+            0.3129
+          ]
+        },
+        {
+          "text": "•••",
+          "bbox": [
+            0.6422,
+            0.2663,
+            0.6476,
+            0.3129
+          ]
+        },
+        {
+          "text": "•••",
+          "bbox": [
+            0.6933,
+            0.2663,
+            0.6987,
+            0.3129
+          ]
+        },
+        {
+          "text": "•••",
+          "bbox": [
+            0.7438,
+            0.2663,
+            0.7492,
+            0.3129
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.1642,
+            0.354,
+            0.205,
+            0.3868
+          ]
+        },
+        {
+          "text": "14",
+          "bbox": [
+            0.22,
+            0.354,
+            0.2417,
+            0.3868
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.7572,
+            0.354,
+            0.7981,
+            0.3868
+          ]
+        },
+        {
+          "text": "77",
+          "bbox": [
+            0.8131,
+            0.354,
+            0.8347,
+            0.3868
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.3633,
+            0.3667,
+            0.3741,
+            0.3994
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6196,
+            0.3667,
+            0.6304,
+            0.3994
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.272,
+            0.4106,
+            0.2828,
+            0.4433
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.7402,
+            0.4105,
+            0.751,
+            0.4433
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.3755,
+            0.419,
+            0.3863,
+            0.4517
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.8691,
+            0.4483,
+            0.8835,
+            0.4811
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.6223,
+            0.4507,
+            0.6331,
+            0.4835
+          ]
+        },
+        {
+          "text": "22",
+          "bbox": [
+            0.5585,
+            0.451,
+            0.589,
+            0.497
+          ]
+        },
+        {
+          "text": "A",
+          "bbox": [
+            0.1127,
+            0.4518,
+            0.1283,
+            0.4845
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.3038,
+            0.4567,
+            0.3146,
+            0.4895
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.6777,
+            0.4579,
+            0.6885,
+            0.4906
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.4101,
+            0.4659,
+            0.4529,
+            0.5337
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.522,
+            0.4937,
+            0.5649,
+            0.5613
+          ]
+        },
+        {
+          "text": "66",
+          "bbox": [
+            0.4463,
+            0.5297,
+            0.4767,
+            0.5755
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.448,
+            0.6062,
+            0.4588,
+            0.6389
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.534,
+            0.6062,
+            0.5448,
+            0.6389
+          ]
+        },
+        {
+          "text": "WAN",
+          "bbox": [
+            0.2747,
+            0.7051,
+            0.3238,
+            0.7379
+          ]
+        },
+        {
+          "text": "Incoming",
+          "bbox": [
+            0.4015,
+            0.7841,
+            0.4844,
+            0.8169
+          ]
+        },
+        {
+          "text": "Outgoing",
+          "bbox": [
+            0.5015,
+            0.7841,
+            0.5832,
+            0.8169
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.4009,
+            0.837,
+            0.4369,
+            0.8698
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.4508,
+            0.837,
+            0.488,
+            0.8698
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.5025,
+            0.837,
+            0.5386,
+            0.8698
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.5524,
+            0.837,
+            0.5897,
+            0.8698
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4135,
+            0.8824,
+            0.4243,
+            0.9151
+          ]
+        },
+        {
+          "text": "66",
+          "bbox": [
+            0.4586,
+            0.8824,
+            0.4802,
+            0.9151
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.5151,
+            0.8824,
+            0.5259,
+            0.9151
+          ]
+        },
+        {
+          "text": "22",
+          "bbox": [
+            0.5602,
+            0.8824,
+            0.5818,
+            0.9151
+          ]
+        },
+        {
+          "text": "•••",
+          "bbox": [
+            0.4162,
+            0.9149,
+            0.4216,
+            0.9614
+          ]
+        },
+        {
+          "text": "•••",
+          "bbox": [
+            0.4667,
+            0.9149,
+            0.4721,
+            0.9614
+          ]
+        },
+        {
+          "text": "•••",
+          "bbox": [
+            0.5178,
+            0.9149,
+            0.5232,
+            0.9614
+          ]
+        },
+        {
+          "text": "•••",
+          "bbox": [
+            0.5683,
+            0.9149,
+            0.5737,
+            0.9614
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_014",
+      "file": "ch08_ill_014.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.14",
+      "section_id": "ch08-8-3-2-setup-request",
+      "alt": "Figure 8.14: Setup request in a virtual-circuit network",
+      "sources": [
+        "book Figure 8.14; p.219"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 550,
+      "sha256": "953c9e08660821128c6df5270b51900395141d5b98a6d3c0c5619218d80591b7",
+      "description": "Figure 8.14: Setup request in a virtual-circuit network. A setup request travels from A toward B; each switch allocates an outgoing VCI and creates its forward table entry.",
+      "structure": "A setup request travels from A toward B; each switch allocates an outgoing VCI and creates its forward table entry.",
+      "text_in_image": "Incoming; Outgoing; Incoming; Outgoing; Port; VCI; Port; VCI; Port; VCI; Port; VCI; 2; 22; 3; 1; 14; 3; VCI = 77; 3; 1; B; 3; A; 2; e; b; a; d; c; Switch 3; Switch 1; 1; 2; Switch 2; Incoming; Outgoing; Port; VCI; Port; VCI; 1; 66; 2",
+      "use_when": "Teach ch08-8-3-2-setup-request, interpret Figure 8.14, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 13,
+      "source_bbox": [
+        114.32,
+        325.12,
+        466.32,
+        508.04
+      ],
+      "labels": [
+        {
+          "text": "Incoming",
+          "bbox": [
+            0.5976,
+            0.1692,
+            0.6809,
+            0.2099
+          ]
+        },
+        {
+          "text": "Outgoing",
+          "bbox": [
+            0.6981,
+            0.1692,
+            0.7801,
+            0.2099
+          ]
+        },
+        {
+          "text": "Incoming",
+          "bbox": [
+            0.1921,
+            0.1701,
+            0.2754,
+            0.2109
+          ]
+        },
+        {
+          "text": "Outgoing",
+          "bbox": [
+            0.2926,
+            0.1701,
+            0.3746,
+            0.2109
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.597,
+            0.2341,
+            0.6332,
+            0.2749
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.6471,
+            0.2341,
+            0.6845,
+            0.2749
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.699,
+            0.2341,
+            0.7352,
+            0.2749
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.7492,
+            0.2341,
+            0.7866,
+            0.2749
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.1915,
+            0.235,
+            0.2277,
+            0.2758
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.2416,
+            0.235,
+            0.279,
+            0.2758
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.2935,
+            0.235,
+            0.3297,
+            0.2758
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.3437,
+            0.235,
+            0.3811,
+            0.2758
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.6096,
+            0.2876,
+            0.6205,
+            0.3284
+          ]
+        },
+        {
+          "text": "22",
+          "bbox": [
+            0.6549,
+            0.2876,
+            0.6766,
+            0.3284
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.7117,
+            0.2876,
+            0.7226,
+            0.3284
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2041,
+            0.2885,
+            0.215,
+            0.3293
+          ]
+        },
+        {
+          "text": "14",
+          "bbox": [
+            0.2494,
+            0.2885,
+            0.2711,
+            0.3293
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.3062,
+            0.2885,
+            0.3171,
+            0.3293
+          ]
+        },
+        {
+          "text": "VCI = 77",
+          "bbox": [
+            0.8576,
+            0.3215,
+            0.9398,
+            0.3623
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.7295,
+            0.3615,
+            0.7404,
+            0.4023
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2326,
+            0.3632,
+            0.2435,
+            0.404
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.8854,
+            0.3638,
+            0.9053,
+            0.4046
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.3313,
+            0.3911,
+            0.3422,
+            0.4319
+          ]
+        },
+        {
+          "text": "A",
+          "bbox": [
+            0.0644,
+            0.3977,
+            0.0801,
+            0.4385
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.6402,
+            0.4425,
+            0.6511,
+            0.4833
+          ]
+        },
+        {
+          "text": "e",
+          "bbox": [
+            0.8905,
+            0.4577,
+            0.9001,
+            0.4985
+          ]
+        },
+        {
+          "text": "b",
+          "bbox": [
+            0.4217,
+            0.4694,
+            0.4326,
+            0.5102
+          ]
+        },
+        {
+          "text": "a",
+          "bbox": [
+            0.1684,
+            0.473,
+            0.1781,
+            0.5138
+          ]
+        },
+        {
+          "text": "d",
+          "bbox": [
+            0.7731,
+            0.4751,
+            0.7839,
+            0.5159
+          ]
+        },
+        {
+          "text": "c",
+          "bbox": [
+            0.5346,
+            0.4805,
+            0.5443,
+            0.5213
+          ]
+        },
+        {
+          "text": "Switch 3",
+          "bbox": [
+            0.6526,
+            0.5456,
+            0.7293,
+            0.5864
+          ]
+        },
+        {
+          "text": "Switch 1",
+          "bbox": [
+            0.2447,
+            0.5466,
+            0.3214,
+            0.5874
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4311,
+            0.6436,
+            0.442,
+            0.6844
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.5272,
+            0.6442,
+            0.5381,
+            0.685
+          ]
+        },
+        {
+          "text": "Switch 2",
+          "bbox": [
+            0.3694,
+            0.6985,
+            0.4461,
+            0.7393
+          ]
+        },
+        {
+          "text": "Incoming",
+          "bbox": [
+            0.396,
+            0.7889,
+            0.4792,
+            0.8297
+          ]
+        },
+        {
+          "text": "Outgoing",
+          "bbox": [
+            0.4964,
+            0.7889,
+            0.5785,
+            0.8297
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.3953,
+            0.8538,
+            0.4315,
+            0.8946
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.4454,
+            0.8538,
+            0.4828,
+            0.8946
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.4974,
+            0.8538,
+            0.5336,
+            0.8946
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.5475,
+            0.8538,
+            0.5849,
+            0.8946
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.408,
+            0.9073,
+            0.4188,
+            0.9481
+          ]
+        },
+        {
+          "text": "66",
+          "bbox": [
+            0.4533,
+            0.9073,
+            0.475,
+            0.9481
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.5101,
+            0.9073,
+            0.5209,
+            0.9481
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_015",
+      "file": "ch08_ill_015.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.15",
+      "section_id": "ch08-8-3-2-acknowledgment",
+      "alt": "Figure 8.15: Setup acknowledgment in a virtual-circuit network",
+      "sources": [
+        "book Figure 8.15; p.220"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 565,
+      "sha256": "c2b48bc63a44c0dafa3d491eed37430692411b6a957c6b12d157875bf65ca196",
+      "description": "Figure 8.15: Setup acknowledgment in a virtual-circuit network. The setup acknowledgment returns from B to A; reverse information completes the table entries needed for the virtual circuit.",
+      "structure": "The setup acknowledgment returns from B to A; reverse information completes the table entries needed for the virtual circuit.",
+      "text_in_image": "Incoming; Outgoing; Incoming; Outgoing; Port; VCI; Port; VCI; Port; VCI; Port; VCI; 1; 14; 3; 66; 2; 22; 3; 77; VCI = 77; VCI = 14; 1; 3; B; 3; A; 14; 77; 2; e; a; b; d; c; Switch 1; Switch 3; 22; 66; 1; 2; Switch 2; Incoming; Outgoing; Port; VCI; Port; VCI; 1; 66; 2; 22",
+      "use_when": "Teach ch08-8-3-2-acknowledgment, interpret Figure 8.15, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 14,
+      "source_bbox": [
+        99.32,
+        235.9,
+        451.32,
+        423.86
+      ],
+      "labels": [
+        {
+          "text": "Incoming",
+          "bbox": [
+            0.2032,
+            0.1641,
+            0.2872,
+            0.2043
+          ]
+        },
+        {
+          "text": "Outgoing",
+          "bbox": [
+            0.3046,
+            0.1641,
+            0.3874,
+            0.2043
+          ]
+        },
+        {
+          "text": "Incoming",
+          "bbox": [
+            0.6146,
+            0.1641,
+            0.6986,
+            0.2043
+          ]
+        },
+        {
+          "text": "Outgoing",
+          "bbox": [
+            0.716,
+            0.1641,
+            0.7988,
+            0.2043
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.2025,
+            0.2283,
+            0.2391,
+            0.2685
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.2531,
+            0.2283,
+            0.2909,
+            0.2685
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.3056,
+            0.2283,
+            0.3421,
+            0.2685
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.3561,
+            0.2283,
+            0.3939,
+            0.2685
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.614,
+            0.2283,
+            0.6505,
+            0.2685
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.6646,
+            0.2283,
+            0.7023,
+            0.2685
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.717,
+            0.2283,
+            0.7535,
+            0.2685
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.7676,
+            0.2283,
+            0.8053,
+            0.2685
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2153,
+            0.2813,
+            0.2263,
+            0.3215
+          ]
+        },
+        {
+          "text": "14",
+          "bbox": [
+            0.261,
+            0.2813,
+            0.283,
+            0.3215
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.3184,
+            0.2813,
+            0.3293,
+            0.3215
+          ]
+        },
+        {
+          "text": "66",
+          "bbox": [
+            0.3641,
+            0.2813,
+            0.386,
+            0.3215
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.6267,
+            0.2813,
+            0.6377,
+            0.3215
+          ]
+        },
+        {
+          "text": "22",
+          "bbox": [
+            0.6725,
+            0.2813,
+            0.6944,
+            0.3215
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.7298,
+            0.2813,
+            0.7407,
+            0.3215
+          ]
+        },
+        {
+          "text": "77",
+          "bbox": [
+            0.7755,
+            0.2813,
+            0.7974,
+            0.3215
+          ]
+        },
+        {
+          "text": "VCI = 77",
+          "bbox": [
+            0.8775,
+            0.3038,
+            0.9605,
+            0.344
+          ]
+        },
+        {
+          "text": "VCI = 14",
+          "bbox": [
+            0.0434,
+            0.3094,
+            0.1264,
+            0.3496
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2418,
+            0.3444,
+            0.2528,
+            0.3846
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.7499,
+            0.3446,
+            0.7609,
+            0.3848
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.9112,
+            0.347,
+            0.9313,
+            0.3872
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.3375,
+            0.3598,
+            0.3484,
+            0.4
+          ]
+        },
+        {
+          "text": "A",
+          "bbox": [
+            0.0395,
+            0.3727,
+            0.0596,
+            0.4129
+          ]
+        },
+        {
+          "text": "14",
+          "bbox": [
+            0.186,
+            0.4033,
+            0.208,
+            0.4435
+          ]
+        },
+        {
+          "text": "77",
+          "bbox": [
+            0.8165,
+            0.4033,
+            0.8384,
+            0.4435
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.6591,
+            0.4315,
+            0.6701,
+            0.4717
+          ]
+        },
+        {
+          "text": "e",
+          "bbox": [
+            0.0786,
+            0.4499,
+            0.0883,
+            0.4901
+          ]
+        },
+        {
+          "text": "a",
+          "bbox": [
+            0.8226,
+            0.4631,
+            0.8323,
+            0.5033
+          ]
+        },
+        {
+          "text": "b",
+          "bbox": [
+            0.5432,
+            0.4637,
+            0.5547,
+            0.5044
+          ]
+        },
+        {
+          "text": "d",
+          "bbox": [
+            0.1892,
+            0.4672,
+            0.2001,
+            0.5074
+          ]
+        },
+        {
+          "text": "c",
+          "bbox": [
+            0.4601,
+            0.4824,
+            0.4704,
+            0.5231
+          ]
+        },
+        {
+          "text": "Switch 1",
+          "bbox": [
+            0.2536,
+            0.4915,
+            0.3309,
+            0.5317
+          ]
+        },
+        {
+          "text": "Switch 3",
+          "bbox": [
+            0.6723,
+            0.4917,
+            0.7497,
+            0.532
+          ]
+        },
+        {
+          "text": "22",
+          "bbox": [
+            0.5565,
+            0.5016,
+            0.5873,
+            0.5577
+          ]
+        },
+        {
+          "text": "66",
+          "bbox": [
+            0.4259,
+            0.5232,
+            0.4568,
+            0.5793
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4374,
+            0.6248,
+            0.4484,
+            0.665
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.545,
+            0.6346,
+            0.556,
+            0.6748
+          ]
+        },
+        {
+          "text": "Switch 2",
+          "bbox": [
+            0.3847,
+            0.6876,
+            0.462,
+            0.7278
+          ]
+        },
+        {
+          "text": "Incoming",
+          "bbox": [
+            0.411,
+            0.7821,
+            0.495,
+            0.8223
+          ]
+        },
+        {
+          "text": "Outgoing",
+          "bbox": [
+            0.5124,
+            0.7821,
+            0.5952,
+            0.8223
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.4103,
+            0.8463,
+            0.4469,
+            0.8865
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.4609,
+            0.8463,
+            0.4987,
+            0.8865
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.5134,
+            0.8463,
+            0.5499,
+            0.8865
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.564,
+            0.8463,
+            0.6017,
+            0.8865
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4231,
+            0.8993,
+            0.4341,
+            0.9395
+          ]
+        },
+        {
+          "text": "66",
+          "bbox": [
+            0.4688,
+            0.8993,
+            0.4908,
+            0.9395
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.5262,
+            0.8993,
+            0.5371,
+            0.9395
+          ]
+        },
+        {
+          "text": "22",
+          "bbox": [
+            0.5719,
+            0.8993,
+            0.5938,
+            0.9395
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_016",
+      "file": "ch08_ill_016.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.16",
+      "section_id": "ch08-8-3-2-delay-in-virtual-circuit-networks",
+      "alt": "Figure 8.16: Delay in a virtual-circuit network",
+      "sources": [
+        "book Figure 8.16; p.221"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 565,
+      "sha256": "853065cf4528412e4c7c5a2c2a0db223e34e2e88bbde4b6b5b8384172b7d13a1",
+      "description": "Figure 8.16: Delay in a virtual-circuit network. A time-sequence diagram shows setup and teardown surrounding packet transmission through two switches in a virtual-circuit network.",
+      "structure": "A time-sequence diagram shows setup and teardown surrounding packet transmission through two switches in a virtual-circuit network.",
+      "text_in_image": "A; B; Setup; Total delay; Transmission; time; Teardown; Time; Time; Time; Time",
+      "use_when": "Teach ch08-8-3-2-delay-in-virtual-circuit-networks, interpret Figure 8.16, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 15,
+      "source_bbox": [
+        114.32,
+        360.88,
+        466.32,
+        548.9
+      ],
+      "labels": [
+        {
+          "text": "A",
+          "bbox": [
+            0.2078,
+            0.1851,
+            0.2242,
+            0.2276
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.8508,
+            0.1851,
+            0.866,
+            0.2276
+          ]
+        },
+        {
+          "text": "Setup",
+          "bbox": [
+            0.1607,
+            0.3619,
+            0.1834,
+            0.4589
+          ]
+        },
+        {
+          "text": "Total delay",
+          "bbox": [
+            0.109,
+            0.4932,
+            0.1317,
+            0.6858
+          ]
+        },
+        {
+          "text": "Transmission",
+          "bbox": [
+            0.4495,
+            0.5017,
+            0.572,
+            0.5442
+          ]
+        },
+        {
+          "text": "time",
+          "bbox": [
+            0.4495,
+            0.5336,
+            0.4899,
+            0.5762
+          ]
+        },
+        {
+          "text": "Teardown",
+          "bbox": [
+            0.1607,
+            0.7216,
+            0.1834,
+            0.8941
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.1893,
+            0.9026,
+            0.2373,
+            0.9451
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.3996,
+            0.9026,
+            0.4476,
+            0.9451
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.6127,
+            0.9026,
+            0.6606,
+            0.9451
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.8284,
+            0.9026,
+            0.8763,
+            0.9451
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_017",
+      "file": "ch08_ill_017.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.17",
+      "section_id": "ch08-8-4-1-crossbar-switch",
+      "alt": "Figure 8.17: Crossbar switch with three inputs and four outputs",
+      "sources": [
+        "book Figure 8.17; p.222"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 414,
+      "sha256": "3fe33af7b0c95e3739385ad223f4ca75cebd3dd9a0d839ab2992ad96e84045ef",
+      "description": "Figure 8.17: Crossbar switch with three inputs and four outputs. A 3-input by 4-output crossbar grid marks controllable crosspoints and one selected input-to-output connection.",
+      "structure": "A 3-input by 4-output crossbar grid marks controllable crosspoints and one selected input-to-output connection.",
+      "text_in_image": "1; To control station; 2; Crosspoint; 3; I; II; III; IV",
+      "use_when": "Teach ch08-8-4-1-crossbar-switch, interpret Figure 8.17, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 16,
+      "source_bbox": [
+        100.34,
+        454.78,
+        451.32,
+        592.46
+      ],
+      "labels": [
+        {
+          "text": "1",
+          "bbox": [
+            0.1978,
+            0.2267,
+            0.2092,
+            0.2848
+          ]
+        },
+        {
+          "text": "To control station",
+          "bbox": [
+            0.6439,
+            0.3797,
+            0.8059,
+            0.4378
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.1978,
+            0.4461,
+            0.2092,
+            0.5043
+          ]
+        },
+        {
+          "text": "Crosspoint",
+          "bbox": [
+            0.5078,
+            0.6638,
+            0.6066,
+            0.722
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.1978,
+            0.6656,
+            0.2092,
+            0.7237
+          ]
+        },
+        {
+          "text": "I",
+          "bbox": [
+            0.2797,
+            0.8765,
+            0.2873,
+            0.9346
+          ]
+        },
+        {
+          "text": "II",
+          "bbox": [
+            0.327,
+            0.8765,
+            0.3421,
+            0.9346
+          ]
+        },
+        {
+          "text": "III",
+          "bbox": [
+            0.3742,
+            0.8765,
+            0.397,
+            0.9346
+          ]
+        },
+        {
+          "text": "IV",
+          "bbox": [
+            0.4246,
+            0.8765,
+            0.4487,
+            0.9346
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_018",
+      "file": "ch08_ill_018.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.18",
+      "section_id": "ch08-8-4-1-multistage-switch",
+      "alt": "Figure 8.18: Multistage switch",
+      "sources": [
+        "book Figure 8.18; p.223"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 482,
+      "sha256": "d5bb9a4c70a888e34f1449baf1125b4d56f1a88f3fa3d2ee4b2001f6e8d65006",
+      "description": "Figure 8.18: Multistage switch. A general three-stage switch contains N/n first-stage n-by-k crossbars, k middle-stage N/n-by-N/n crossbars, and symmetric third-stage k-by-n crossbars.",
+      "structure": "A general three-stage switch contains N/n first-stage n-by-k crossbars, k middle-stage N/n-by-N/n crossbars, and symmetric third-stage k-by-n crossbars.",
+      "text_in_image": "N/n; N/n; k; Crossbars; Crossbars; Crossbars; n × k; k × n; n; n; …; …; N/n × N/n; …; …; …; k × n; n × k; n; n; …; …; N; N; …; …; …; …; N/n × N/n; …; …; k × n; n × k; n; n; …; …; Stage 1; Stage 2; Stage 3",
+      "use_when": "Teach ch08-8-4-1-multistage-switch, interpret Figure 8.18, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 17,
+      "source_bbox": [
+        114.32,
+        205.9,
+        466.32,
+        366.02
+      ],
+      "labels": [
+        {
+          "text": "N/n",
+          "bbox": [
+            0.2813,
+            0.2122,
+            0.3108,
+            0.2662
+          ]
+        },
+        {
+          "text": "N/n",
+          "bbox": [
+            0.6963,
+            0.2122,
+            0.7258,
+            0.2662
+          ]
+        },
+        {
+          "text": "k",
+          "bbox": [
+            0.4965,
+            0.2212,
+            0.5056,
+            0.2662
+          ]
+        },
+        {
+          "text": "Crossbars",
+          "bbox": [
+            0.2532,
+            0.2622,
+            0.3389,
+            0.3072
+          ]
+        },
+        {
+          "text": "Crossbars",
+          "bbox": [
+            0.4582,
+            0.2622,
+            0.544,
+            0.3072
+          ]
+        },
+        {
+          "text": "Crossbars",
+          "bbox": [
+            0.6682,
+            0.2622,
+            0.7539,
+            0.3072
+          ]
+        },
+        {
+          "text": "n × k",
+          "bbox": [
+            0.273,
+            0.3575,
+            0.3191,
+            0.4114
+          ]
+        },
+        {
+          "text": "k × n",
+          "bbox": [
+            0.682,
+            0.3575,
+            0.7281,
+            0.4114
+          ]
+        },
+        {
+          "text": "n",
+          "bbox": [
+            0.1021,
+            0.3664,
+            0.1123,
+            0.4113
+          ]
+        },
+        {
+          "text": "n",
+          "bbox": [
+            0.8887,
+            0.3664,
+            0.8989,
+            0.4113
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.1431,
+            0.3787,
+            0.1636,
+            0.4237
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.8171,
+            0.3787,
+            0.8375,
+            0.4237
+          ]
+        },
+        {
+          "text": "N/n × N/n",
+          "bbox": [
+            0.4585,
+            0.385,
+            0.544,
+            0.4412
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.4084,
+            0.4121,
+            0.4288,
+            0.457
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.5524,
+            0.4121,
+            0.5729,
+            0.4571
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.4801,
+            0.5295,
+            0.5005,
+            0.5744
+          ]
+        },
+        {
+          "text": "k × n",
+          "bbox": [
+            0.682,
+            0.5303,
+            0.7281,
+            0.5843
+          ]
+        },
+        {
+          "text": "n × k",
+          "bbox": [
+            0.273,
+            0.5324,
+            0.3191,
+            0.5864
+          ]
+        },
+        {
+          "text": "n",
+          "bbox": [
+            0.1021,
+            0.5428,
+            0.1123,
+            0.5877
+          ]
+        },
+        {
+          "text": "n",
+          "bbox": [
+            0.8886,
+            0.5428,
+            0.8989,
+            0.5877
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.8171,
+            0.5561,
+            0.8375,
+            0.6011
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.1431,
+            0.5566,
+            0.1636,
+            0.6015
+          ]
+        },
+        {
+          "text": "N",
+          "bbox": [
+            0.0574,
+            0.5576,
+            0.071,
+            0.6026
+          ]
+        },
+        {
+          "text": "N",
+          "bbox": [
+            0.9282,
+            0.5576,
+            0.9418,
+            0.6026
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.1431,
+            0.646,
+            0.1636,
+            0.6909
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.2766,
+            0.646,
+            0.297,
+            0.6909
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.6856,
+            0.646,
+            0.706,
+            0.6909
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.8171,
+            0.646,
+            0.8375,
+            0.6909
+          ]
+        },
+        {
+          "text": "N/n × N/n",
+          "bbox": [
+            0.4585,
+            0.6557,
+            0.544,
+            0.712
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.4084,
+            0.682,
+            0.4288,
+            0.7269
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.5524,
+            0.682,
+            0.5729,
+            0.7269
+          ]
+        },
+        {
+          "text": "k × n",
+          "bbox": [
+            0.6848,
+            0.7365,
+            0.731,
+            0.7905
+          ]
+        },
+        {
+          "text": "n × k",
+          "bbox": [
+            0.273,
+            0.7449,
+            0.3191,
+            0.7988
+          ]
+        },
+        {
+          "text": "n",
+          "bbox": [
+            0.1021,
+            0.7489,
+            0.1123,
+            0.7938
+          ]
+        },
+        {
+          "text": "n",
+          "bbox": [
+            0.8886,
+            0.7489,
+            0.8989,
+            0.7938
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.1431,
+            0.7603,
+            0.1636,
+            0.8052
+          ]
+        },
+        {
+          "text": "…",
+          "bbox": [
+            0.8171,
+            0.7603,
+            0.8375,
+            0.8052
+          ]
+        },
+        {
+          "text": "Stage 1",
+          "bbox": [
+            0.2657,
+            0.8406,
+            0.3264,
+            0.8856
+          ]
+        },
+        {
+          "text": "Stage 2",
+          "bbox": [
+            0.4707,
+            0.8406,
+            0.5315,
+            0.8856
+          ]
+        },
+        {
+          "text": "Stage 3",
+          "bbox": [
+            0.6747,
+            0.8406,
+            0.7354,
+            0.8856
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_019",
+      "file": "ch08_ill_019.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.19",
+      "section_id": "ch08-8-4-1-time-slot-interchange",
+      "alt": "Figure 8.19: Time-slot interchange",
+      "sources": [
+        "book Figure 8.19; p.225"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 522,
+      "sha256": "012c85d2c4911d8c8e03c8ecfa542f9700867e4a37a7d163cbddf66d1712547b",
+      "description": "Figure 8.19: Time-slot interchange. A time-slot interchange switch writes four input slots to RAM sequentially and reads them in a control-memory-selected order to produce the permuted output slots.",
+      "structure": "A time-slot interchange switch writes four input slots to RAM sequentially and reads them in a control-memory-selected order to produce the permuted output slots.",
+      "text_in_image": "Time-division switch; Control unit; TSI; 3; 1; 2; 4; C; 3; 1; A; 1; 1; 2; 4; B; D; 2; 2; B A; D C; T; T; D C; B; D; D; A; C; A; 3; 3; M; M; Selectively; Sequentially; controlled; B; D; controlled; 4; 4; RAM",
+      "use_when": "Teach ch08-8-4-1-time-slot-interchange, interpret Figure 8.19, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 19,
+      "source_bbox": [
+        114.32,
+        327.88,
+        466.32,
+        501.5
+      ],
+      "labels": [
+        {
+          "text": "Time-division switch",
+          "bbox": [
+            0.1179,
+            0.1646,
+            0.3054,
+            0.2089
+          ]
+        },
+        {
+          "text": "Control unit",
+          "bbox": [
+            0.44,
+            0.2632,
+            0.5469,
+            0.3076
+          ]
+        },
+        {
+          "text": "TSI",
+          "bbox": [
+            0.303,
+            0.2709,
+            0.336,
+            0.3152
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.5169,
+            0.3148,
+            0.5279,
+            0.3592
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4591,
+            0.3149,
+            0.4701,
+            0.3592
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.4591,
+            0.3608,
+            0.4701,
+            0.4051
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.5169,
+            0.3607,
+            0.5279,
+            0.4051
+          ]
+        },
+        {
+          "text": "C",
+          "bbox": [
+            0.878,
+            0.3991,
+            0.8927,
+            0.4435
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.4591,
+            0.4066,
+            0.4701,
+            0.451
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5169,
+            0.4066,
+            0.5279,
+            0.4509
+          ]
+        },
+        {
+          "text": "A",
+          "bbox": [
+            0.0963,
+            0.4103,
+            0.1122,
+            0.4546
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.0265,
+            0.4171,
+            0.0375,
+            0.4614
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.9625,
+            0.4171,
+            0.9735,
+            0.4614
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.5169,
+            0.4525,
+            0.5279,
+            0.4968
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.4591,
+            0.4525,
+            0.4701,
+            0.4969
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.0969,
+            0.5084,
+            0.1116,
+            0.5528
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.8774,
+            0.5196,
+            0.8933,
+            0.5639
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.0265,
+            0.524,
+            0.0375,
+            0.5684
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.9625,
+            0.524,
+            0.9735,
+            0.5684
+          ]
+        },
+        {
+          "text": "B A",
+          "bbox": [
+            0.7022,
+            0.5247,
+            0.7395,
+            0.5801
+          ]
+        },
+        {
+          "text": "D C",
+          "bbox": [
+            0.7456,
+            0.5246,
+            0.7829,
+            0.5801
+          ]
+        },
+        {
+          "text": "T",
+          "bbox": [
+            0.1594,
+            0.5572,
+            0.1741,
+            0.6016
+          ]
+        },
+        {
+          "text": "T",
+          "bbox": [
+            0.8157,
+            0.5572,
+            0.8303,
+            0.6016
+          ]
+        },
+        {
+          "text": "D C",
+          "bbox": [
+            0.2031,
+            0.6004,
+            0.2404,
+            0.6559
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.2478,
+            0.6004,
+            0.2625,
+            0.6447
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.1588,
+            0.6031,
+            0.1747,
+            0.6474
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.8151,
+            0.6031,
+            0.8309,
+            0.6474
+          ]
+        },
+        {
+          "text": "A",
+          "bbox": [
+            0.2692,
+            0.6116,
+            0.2851,
+            0.6559
+          ]
+        },
+        {
+          "text": "C",
+          "bbox": [
+            0.0969,
+            0.616,
+            0.1116,
+            0.6603
+          ]
+        },
+        {
+          "text": "A",
+          "bbox": [
+            0.8774,
+            0.6271,
+            0.8933,
+            0.6715
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.0265,
+            0.631,
+            0.0375,
+            0.6753
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.9625,
+            0.631,
+            0.9735,
+            0.6753
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.1564,
+            0.649,
+            0.1771,
+            0.6933
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.8126,
+            0.6489,
+            0.8334,
+            0.6933
+          ]
+        },
+        {
+          "text": "Selectively",
+          "bbox": [
+            0.5932,
+            0.675,
+            0.691,
+            0.7193
+          ]
+        },
+        {
+          "text": "Sequentially",
+          "bbox": [
+            0.2956,
+            0.69,
+            0.4055,
+            0.7343
+          ]
+        },
+        {
+          "text": "controlled",
+          "bbox": [
+            0.5975,
+            0.7209,
+            0.6867,
+            0.7652
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.878,
+            0.7205,
+            0.8927,
+            0.7649
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.0963,
+            0.7317,
+            0.1122,
+            0.776
+          ]
+        },
+        {
+          "text": "controlled",
+          "bbox": [
+            0.306,
+            0.7359,
+            0.3951,
+            0.7802
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.0265,
+            0.7379,
+            0.0375,
+            0.7822
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.9625,
+            0.7379,
+            0.9735,
+            0.7822
+          ]
+        },
+        {
+          "text": "RAM",
+          "bbox": [
+            0.4684,
+            0.8295,
+            0.5185,
+            0.8738
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_020",
+      "file": "ch08_ill_020.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.20",
+      "section_id": "ch08-8-4-1-time-and-space-division-switch-combinations",
+      "alt": "Figure 8.20: Time-space-time switch",
+      "sources": [
+        "book Figure 8.20; p.226"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 541,
+      "sha256": "784135b97d5e87504bbe7f9b0b53491277ff87ca1b3dcb35a0dc3d6d62480cf3",
+      "description": "Figure 8.20: Time-space-time switch. A time-space-time switch places TSI blocks before and after a middle crossbar, combining time-slot permutation with spatial path selection.",
+      "structure": "A time-space-time switch places TSI blocks before and after a middle crossbar, combining time-slot permutation with spatial path selection.",
+      "text_in_image": "TST; Time; Space; Time",
+      "use_when": "Teach ch08-8-4-1-time-and-space-division-switch-combinations, interpret Figure 8.20, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 20,
+      "source_bbox": [
+        99.32,
+        275.92,
+        451.32,
+        455.78
+      ],
+      "labels": [
+        {
+          "text": "TST",
+          "bbox": [
+            0.4818,
+            0.1725,
+            0.5223,
+            0.217
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.2766,
+            0.8693,
+            0.3246,
+            0.9138
+          ]
+        },
+        {
+          "text": "Space",
+          "bbox": [
+            0.4749,
+            0.8693,
+            0.5292,
+            0.9138
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.6796,
+            0.8693,
+            0.7275,
+            0.9138
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_021",
+      "file": "ch08_ill_021.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.21",
+      "section_id": "ch08-8-4-2",
+      "alt": "Figure 8.21: Packet switch components",
+      "sources": [
+        "book Figure 8.21; p.227"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 445,
+      "sha256": "15076d7aaa4fe8fb7e8c3547181b10a2f5e6705f5b6e2020add81a1bae9c1d25",
+      "description": "Figure 8.21: Packet switch components. A packet switch contains input ports, output ports, a routing processor, and the central switching fabric that connects queued packets to selected outputs.",
+      "structure": "A packet switch contains input ports, output ports, a routing processor, and the central switching fabric that connects queued packets to selected outputs.",
+      "text_in_image": "Routing; processor; Input ports; Output ports; Port 1; Port 1; Port 2; Port 2; Switching fabric; • • •; • • •; Port N; Port N",
+      "use_when": "Teach ch08-8-4-2, interpret Figure 8.21, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 21,
+      "source_bbox": [
+        115.34,
+        47.8,
+        466.32,
+        195.92
+      ],
+      "labels": [
+        {
+          "text": "Routing",
+          "bbox": [
+            0.3892,
+            0.2926,
+            0.4626,
+            0.3466
+          ]
+        },
+        {
+          "text": "processor",
+          "bbox": [
+            0.3822,
+            0.3466,
+            0.4696,
+            0.4006
+          ]
+        },
+        {
+          "text": "Input ports",
+          "bbox": [
+            0.2008,
+            0.4052,
+            0.3002,
+            0.4592
+          ]
+        },
+        {
+          "text": "Output ports",
+          "bbox": [
+            0.691,
+            0.4054,
+            0.8056,
+            0.4594
+          ]
+        },
+        {
+          "text": "Port 1",
+          "bbox": [
+            0.223,
+            0.4917,
+            0.278,
+            0.5458
+          ]
+        },
+        {
+          "text": "Port 1",
+          "bbox": [
+            0.7208,
+            0.4917,
+            0.7759,
+            0.5458
+          ]
+        },
+        {
+          "text": "Port 2",
+          "bbox": [
+            0.223,
+            0.6084,
+            0.278,
+            0.6624
+          ]
+        },
+        {
+          "text": "Port 2",
+          "bbox": [
+            0.7208,
+            0.6084,
+            0.7759,
+            0.6624
+          ]
+        },
+        {
+          "text": "Switching fabric",
+          "bbox": [
+            0.4215,
+            0.6564,
+            0.5728,
+            0.7104
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.2347,
+            0.7045,
+            0.2575,
+            0.7882
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7325,
+            0.7045,
+            0.7553,
+            0.7882
+          ]
+        },
+        {
+          "text": "Port N",
+          "bbox": [
+            0.2205,
+            0.8053,
+            0.2794,
+            0.8701
+          ]
+        },
+        {
+          "text": "Port N",
+          "bbox": [
+            0.7183,
+            0.8053,
+            0.7772,
+            0.8701
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_022",
+      "file": "ch08_ill_022.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.22",
+      "section_id": "ch08-8-4-2-input-ports",
+      "alt": "Figure 8.22: Input port",
+      "sources": [
+        "book Figure 8.22; p.227"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 261,
+      "sha256": "a7e6cf2f97d33abe8bd206a2e312042149e8b97ec02cd1972a1cb82dd0828b26",
+      "description": "Figure 8.22: Input port. An input port pipeline applies physical-layer processing, data-link processing, and queueing before a packet enters the switching fabric.",
+      "structure": "An input port pipeline applies physical-layer processing, data-link processing, and queueing before a packet enters the switching fabric.",
+      "text_in_image": "Input port; Physical-layer; Data-link-layer; processor; processor; Queue",
+      "use_when": "Teach ch08-8-4-2-input-ports, interpret Figure 8.22, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 21,
+      "source_bbox": [
+        114.32,
+        299.8,
+        466.32,
+        386.66
+      ],
+      "labels": [
+        {
+          "text": "Input port",
+          "bbox": [
+            0.2027,
+            0.2962,
+            0.293,
+            0.3883
+          ]
+        },
+        {
+          "text": "Physical-layer",
+          "bbox": [
+            0.2471,
+            0.5634,
+            0.377,
+            0.6555
+          ]
+        },
+        {
+          "text": "Data-link-layer",
+          "bbox": [
+            0.4387,
+            0.5634,
+            0.5775,
+            0.6555
+          ]
+        },
+        {
+          "text": "processor",
+          "bbox": [
+            0.2685,
+            0.6555,
+            0.3556,
+            0.7476
+          ]
+        },
+        {
+          "text": "processor",
+          "bbox": [
+            0.4646,
+            0.6555,
+            0.5517,
+            0.7476
+          ]
+        },
+        {
+          "text": "Queue",
+          "bbox": [
+            0.6664,
+            0.7387,
+            0.7257,
+            0.8308
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_023",
+      "file": "ch08_ill_023.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.23",
+      "section_id": "ch08-8-4-2-output-port",
+      "alt": "Figure 8.23: Output port",
+      "sources": [
+        "book Figure 8.23; p.227"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 267,
+      "sha256": "703b591d7b7079a5cf1b4c1e974df4f1ba0888dbb794a8463059c6295290879a",
+      "description": "Figure 8.23: Output port. An output port pipeline queues packets from the fabric, performs data-link processing, and sends them through the physical layer.",
+      "structure": "An output port pipeline queues packets from the fabric, performs data-link processing, and sends them through the physical layer.",
+      "text_in_image": "Output port; Data-link-layer; Physical-layer; processor; processor; Queue",
+      "use_when": "Teach ch08-8-4-2-output-port, interpret Figure 8.23, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 21,
+      "source_bbox": [
+        114.32,
+        468.52,
+        466.32,
+        557.3
+      ],
+      "labels": [
+        {
+          "text": "Output port",
+          "bbox": [
+            0.1959,
+            0.3013,
+            0.3014,
+            0.3914
+          ]
+        },
+        {
+          "text": "Data-link-layer",
+          "bbox": [
+            0.4224,
+            0.5619,
+            0.5613,
+            0.652
+          ]
+        },
+        {
+          "text": "Physical-layer",
+          "bbox": [
+            0.6297,
+            0.5619,
+            0.7596,
+            0.652
+          ]
+        },
+        {
+          "text": "processor",
+          "bbox": [
+            0.4483,
+            0.652,
+            0.5354,
+            0.7421
+          ]
+        },
+        {
+          "text": "processor",
+          "bbox": [
+            0.6511,
+            0.652,
+            0.7382,
+            0.7421
+          ]
+        },
+        {
+          "text": "Queue",
+          "bbox": [
+            0.2676,
+            0.736,
+            0.3269,
+            0.8261
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_024",
+      "file": "ch08_ill_024.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.24",
+      "section_id": "ch08-8-4-2-banyan-switch",
+      "alt": "Figure 8.24: A banyan switch",
+      "sources": [
+        "book Figure 8.24; p.228"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 497,
+      "sha256": "d754fd18e964baffdf638bc4c42c8b70add8de0b353681fe32c508c9970b122a",
+      "description": "Figure 8.24: A banyan switch. An 8-by-8 banyan switch uses three stages; left, middle, and right destination bits control successive 2-by-2 microswitches.",
+      "structure": "An 8-by-8 banyan switch uses three stages; left, middle, and right destination bits control successive 2-by-2 microswitches.",
+      "text_in_image": "Left bit; Middle bit; Right bit; 0; 0; 0; 0; 0; A-1; B-1; C-1; 1; 1; 1; 1; 1; 0; 0; 0; 2; 2; A-2; B-2; C-2; 3; 3; 1; 1; 1; 0; 0; 0; 4; 4; A-3; B-3; C-3; 5; 5; 1; 1; 1; 0; 0; 0; 6; 6; A-4; B-4; C-4; 7; 7; 1; 1; 1",
+      "use_when": "Teach ch08-8-4-2-banyan-switch, interpret Figure 8.24, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 22,
+      "source_bbox": [
+        99.32,
+        405.88,
+        451.32,
+        571.22
+      ],
+      "labels": [
+        {
+          "text": "Left bit",
+          "bbox": [
+            0.3462,
+            0.1617,
+            0.4137,
+            0.2101
+          ]
+        },
+        {
+          "text": "Middle bit",
+          "bbox": [
+            0.4756,
+            0.1617,
+            0.571,
+            0.2101
+          ]
+        },
+        {
+          "text": "Right bit",
+          "bbox": [
+            0.635,
+            0.1617,
+            0.7152,
+            0.2101
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6737,
+            0.3031,
+            0.685,
+            0.3515
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3735,
+            0.3092,
+            0.3849,
+            0.3576
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5206,
+            0.3092,
+            0.5319,
+            0.3576
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2135,
+            0.3195,
+            0.2249,
+            0.3679
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7751,
+            0.3195,
+            0.7865,
+            0.3679
+          ]
+        },
+        {
+          "text": "A-1",
+          "bbox": [
+            0.3309,
+            0.357,
+            0.3663,
+            0.4054
+          ]
+        },
+        {
+          "text": "B-1",
+          "bbox": [
+            0.4787,
+            0.357,
+            0.5128,
+            0.4054
+          ]
+        },
+        {
+          "text": "C-1",
+          "bbox": [
+            0.6316,
+            0.357,
+            0.6657,
+            0.4054
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2135,
+            0.3936,
+            0.2249,
+            0.442
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7751,
+            0.3936,
+            0.7865,
+            0.442
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3735,
+            0.4033,
+            0.3849,
+            0.4517
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5206,
+            0.4032,
+            0.5319,
+            0.4516
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6737,
+            0.4092,
+            0.685,
+            0.4576
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6737,
+            0.4649,
+            0.685,
+            0.5133
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3735,
+            0.465,
+            0.3849,
+            0.5134
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5206,
+            0.4649,
+            0.5319,
+            0.5133
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.2135,
+            0.476,
+            0.2249,
+            0.5244
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.7751,
+            0.476,
+            0.7865,
+            0.5244
+          ]
+        },
+        {
+          "text": "A-2",
+          "bbox": [
+            0.3309,
+            0.5118,
+            0.3663,
+            0.5602
+          ]
+        },
+        {
+          "text": "B-2",
+          "bbox": [
+            0.4787,
+            0.5118,
+            0.5128,
+            0.5602
+          ]
+        },
+        {
+          "text": "C-2",
+          "bbox": [
+            0.6316,
+            0.5118,
+            0.6657,
+            0.5602
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.2135,
+            0.5502,
+            0.2249,
+            0.5986
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.7751,
+            0.5502,
+            0.7865,
+            0.5986
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3735,
+            0.5611,
+            0.3849,
+            0.6095
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5206,
+            0.561,
+            0.5319,
+            0.6094
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6737,
+            0.567,
+            0.685,
+            0.6154
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3735,
+            0.6199,
+            0.3849,
+            0.6683
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5206,
+            0.6198,
+            0.5319,
+            0.6682
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6737,
+            0.6198,
+            0.685,
+            0.6682
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.2135,
+            0.6308,
+            0.2249,
+            0.6792
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.7751,
+            0.6308,
+            0.7865,
+            0.6792
+          ]
+        },
+        {
+          "text": "A-3",
+          "bbox": [
+            0.3309,
+            0.6667,
+            0.3663,
+            0.7151
+          ]
+        },
+        {
+          "text": "B-3",
+          "bbox": [
+            0.4787,
+            0.6667,
+            0.5128,
+            0.7151
+          ]
+        },
+        {
+          "text": "C-3",
+          "bbox": [
+            0.6316,
+            0.6667,
+            0.6657,
+            0.7151
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.2135,
+            0.7051,
+            0.2249,
+            0.7535
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.7751,
+            0.7051,
+            0.7865,
+            0.7535
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5206,
+            0.7141,
+            0.5319,
+            0.7625
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6737,
+            0.714,
+            0.685,
+            0.7624
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3735,
+            0.7141,
+            0.3849,
+            0.7625
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.3735,
+            0.7746,
+            0.3849,
+            0.8229
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5206,
+            0.7745,
+            0.5319,
+            0.8229
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6737,
+            0.7745,
+            0.685,
+            0.8228
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.7751,
+            0.7857,
+            0.7865,
+            0.8341
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.2135,
+            0.7862,
+            0.2249,
+            0.8346
+          ]
+        },
+        {
+          "text": "A-4",
+          "bbox": [
+            0.3309,
+            0.8215,
+            0.3663,
+            0.8699
+          ]
+        },
+        {
+          "text": "B-4",
+          "bbox": [
+            0.4787,
+            0.8215,
+            0.5128,
+            0.8699
+          ]
+        },
+        {
+          "text": "C-4",
+          "bbox": [
+            0.6316,
+            0.8215,
+            0.6657,
+            0.8699
+          ]
+        },
+        {
+          "text": "7",
+          "bbox": [
+            0.2135,
+            0.8592,
+            0.2249,
+            0.9076
+          ]
+        },
+        {
+          "text": "7",
+          "bbox": [
+            0.7751,
+            0.8599,
+            0.7865,
+            0.9083
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3735,
+            0.8709,
+            0.3849,
+            0.9193
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5206,
+            0.8708,
+            0.5319,
+            0.9192
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6737,
+            0.8708,
+            0.685,
+            0.9192
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_025",
+      "file": "ch08_ill_025.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.25",
+      "section_id": "ch08-8-4-2-banyan-switch",
+      "alt": "Figure 8.25: Examples of routing in a banyan switch",
+      "sources": [
+        "book Figure 8.25; p.229"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 467,
+      "sha256": "70ebc61eb994b5764a8ab3920f5189ea58561daa464be16d70812b172fed16b2",
+      "description": "Figure 8.25: Examples of routing in a banyan switch. Two banyan examples highlight the stage-by-stage routes for input 1 to output 6 (110) and input 5 to output 2 (010).",
+      "structure": "Two banyan examples highlight the stage-by-stage routes for input 1 to output 6 (110) and input 5 to output 2 (010).",
+      "text_in_image": "0; 0; 0; 0; 0; 0; 0; 0; 0; 0; A-1; B-1; C-1; A-1; B-1; C-1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 0; 0; 0; 0; 0; 0; 2; 2; 2; 2; A-2; B-2; C-2; A-2; B-2; C-2; 3; 3; 3; 3; 1; 1; 1; 1; 1; 1; 0; 0; 0; 0; 0; 0; 4; 4; 4; 4; A-3; B-3; C-3; A-3; B-3; C-3; 5; 5; 5; 5; 1; 1; 1; 1; 1; 1; 0; 0; 0; 0; 0; 0; 6; 6; 6; 6; A-4; B-4; C-4; A-4; B-4; C-4; 7; 7; 7; 7; 1; 1; 1; 1; 1; 1; a. Input 1 sending a cell to output 6 (110); b. Input 5 sending a cell to output 2 (010)",
+      "use_when": "Teach ch08-8-4-2-banyan-switch, interpret Figure 8.25, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 23,
+      "source_bbox": [
+        115.34,
+        47.8,
+        466.32,
+        203.06
+      ],
+      "labels": [
+        {
+          "text": "0",
+          "bbox": [
+            0.8736,
+            0.2105,
+            0.885,
+            0.2621
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4168,
+            0.2129,
+            0.4282,
+            0.2645
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6159,
+            0.214,
+            0.6274,
+            0.2656
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7486,
+            0.214,
+            0.7601,
+            0.2656
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1591,
+            0.2164,
+            0.1706,
+            0.268
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2918,
+            0.2164,
+            0.3033,
+            0.268
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.9213,
+            0.2264,
+            0.9327,
+            0.278
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5212,
+            0.2264,
+            0.5326,
+            0.2781
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.0644,
+            0.2288,
+            0.0758,
+            0.2804
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4645,
+            0.2287,
+            0.4759,
+            0.2804
+          ]
+        },
+        {
+          "text": "A-1",
+          "bbox": [
+            0.1181,
+            0.2582,
+            0.1536,
+            0.3098
+          ]
+        },
+        {
+          "text": "B-1",
+          "bbox": [
+            0.2515,
+            0.2582,
+            0.2858,
+            0.3098
+          ]
+        },
+        {
+          "text": "C-1",
+          "bbox": [
+            0.377,
+            0.2582,
+            0.4114,
+            0.3098
+          ]
+        },
+        {
+          "text": "A-1",
+          "bbox": [
+            0.5749,
+            0.2583,
+            0.6104,
+            0.3099
+          ]
+        },
+        {
+          "text": "B-1",
+          "bbox": [
+            0.7083,
+            0.2583,
+            0.7426,
+            0.31
+          ]
+        },
+        {
+          "text": "C-1",
+          "bbox": [
+            0.8338,
+            0.2584,
+            0.8681,
+            0.31
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5212,
+            0.2892,
+            0.5326,
+            0.3409
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.9213,
+            0.2892,
+            0.9327,
+            0.3408
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.0644,
+            0.2916,
+            0.0758,
+            0.3432
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4645,
+            0.2916,
+            0.4759,
+            0.3432
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6159,
+            0.3013,
+            0.6274,
+            0.3529
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7486,
+            0.3013,
+            0.7601,
+            0.3529
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1591,
+            0.3037,
+            0.1706,
+            0.3553
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2918,
+            0.3037,
+            0.3033,
+            0.3553
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8736,
+            0.3049,
+            0.885,
+            0.3565
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4168,
+            0.3073,
+            0.4282,
+            0.3589
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.8736,
+            0.3604,
+            0.885,
+            0.412
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4168,
+            0.3639,
+            0.4282,
+            0.4155
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6159,
+            0.3638,
+            0.6274,
+            0.4154
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7486,
+            0.3674,
+            0.7601,
+            0.419
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1591,
+            0.3698,
+            0.1706,
+            0.4214
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2918,
+            0.3698,
+            0.3033,
+            0.4214
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.5212,
+            0.3804,
+            0.5326,
+            0.432
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.9213,
+            0.3803,
+            0.9327,
+            0.432
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.0644,
+            0.3828,
+            0.0758,
+            0.4344
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.4645,
+            0.3827,
+            0.4759,
+            0.4343
+          ]
+        },
+        {
+          "text": "A-2",
+          "bbox": [
+            0.1181,
+            0.4096,
+            0.1536,
+            0.4612
+          ]
+        },
+        {
+          "text": "B-2",
+          "bbox": [
+            0.2515,
+            0.4096,
+            0.2858,
+            0.4612
+          ]
+        },
+        {
+          "text": "C-2",
+          "bbox": [
+            0.377,
+            0.4096,
+            0.4114,
+            0.4612
+          ]
+        },
+        {
+          "text": "A-2",
+          "bbox": [
+            0.5749,
+            0.4097,
+            0.6104,
+            0.4613
+          ]
+        },
+        {
+          "text": "B-2",
+          "bbox": [
+            0.7083,
+            0.4097,
+            0.7426,
+            0.4614
+          ]
+        },
+        {
+          "text": "C-2",
+          "bbox": [
+            0.8338,
+            0.4098,
+            0.8681,
+            0.4614
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.5212,
+            0.4417,
+            0.5326,
+            0.4933
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.9213,
+            0.4417,
+            0.9327,
+            0.4933
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.0644,
+            0.4441,
+            0.0758,
+            0.4957
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.4645,
+            0.444,
+            0.4759,
+            0.4957
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6159,
+            0.4528,
+            0.6274,
+            0.5045
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2918,
+            0.4553,
+            0.3033,
+            0.5069
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7486,
+            0.4564,
+            0.7601,
+            0.508
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1591,
+            0.4588,
+            0.1706,
+            0.5104
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4168,
+            0.4588,
+            0.4282,
+            0.5104
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8736,
+            0.46,
+            0.885,
+            0.5116
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.8736,
+            0.5142,
+            0.885,
+            0.5658
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4168,
+            0.5153,
+            0.4282,
+            0.567
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6143,
+            0.5177,
+            0.6258,
+            0.5693
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7486,
+            0.5177,
+            0.7601,
+            0.5693
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1575,
+            0.5201,
+            0.169,
+            0.5717
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2918,
+            0.5201,
+            0.3033,
+            0.5717
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.5212,
+            0.5306,
+            0.5326,
+            0.5822
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.9213,
+            0.5305,
+            0.9327,
+            0.5821
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.0644,
+            0.5329,
+            0.0758,
+            0.5845
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.4645,
+            0.5329,
+            0.4759,
+            0.5845
+          ]
+        },
+        {
+          "text": "A-3",
+          "bbox": [
+            0.1181,
+            0.561,
+            0.1536,
+            0.6127
+          ]
+        },
+        {
+          "text": "B-3",
+          "bbox": [
+            0.2515,
+            0.561,
+            0.2858,
+            0.6127
+          ]
+        },
+        {
+          "text": "C-3",
+          "bbox": [
+            0.377,
+            0.561,
+            0.4114,
+            0.6127
+          ]
+        },
+        {
+          "text": "A-3",
+          "bbox": [
+            0.5749,
+            0.5611,
+            0.6104,
+            0.6128
+          ]
+        },
+        {
+          "text": "B-3",
+          "bbox": [
+            0.7083,
+            0.5612,
+            0.7426,
+            0.6128
+          ]
+        },
+        {
+          "text": "C-3",
+          "bbox": [
+            0.8338,
+            0.5612,
+            0.8681,
+            0.6129
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.5212,
+            0.5927,
+            0.5326,
+            0.6443
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.9213,
+            0.5926,
+            0.9327,
+            0.6443
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.0644,
+            0.5951,
+            0.0758,
+            0.6467
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.4645,
+            0.595,
+            0.4759,
+            0.6466
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6159,
+            0.6051,
+            0.6274,
+            0.6567
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7486,
+            0.6051,
+            0.7601,
+            0.6567
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1591,
+            0.6075,
+            0.1706,
+            0.6592
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2918,
+            0.6075,
+            0.3033,
+            0.6592
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8736,
+            0.6099,
+            0.885,
+            0.6615
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4168,
+            0.6111,
+            0.4282,
+            0.6627
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4168,
+            0.6659,
+            0.4282,
+            0.7175
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.8736,
+            0.6667,
+            0.885,
+            0.7183
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.6159,
+            0.6701,
+            0.6274,
+            0.7218
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7486,
+            0.6701,
+            0.7601,
+            0.7218
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1591,
+            0.6726,
+            0.1706,
+            0.7242
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2918,
+            0.6726,
+            0.3033,
+            0.7242
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.5212,
+            0.6816,
+            0.5326,
+            0.7333
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.9213,
+            0.6816,
+            0.9327,
+            0.7332
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.0644,
+            0.684,
+            0.0758,
+            0.7356
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.4645,
+            0.6839,
+            0.4759,
+            0.7356
+          ]
+        },
+        {
+          "text": "A-4",
+          "bbox": [
+            0.1181,
+            0.7124,
+            0.1536,
+            0.7641
+          ]
+        },
+        {
+          "text": "B-4",
+          "bbox": [
+            0.2515,
+            0.7124,
+            0.2858,
+            0.7641
+          ]
+        },
+        {
+          "text": "C-4",
+          "bbox": [
+            0.377,
+            0.7124,
+            0.4114,
+            0.7641
+          ]
+        },
+        {
+          "text": "A-4",
+          "bbox": [
+            0.5749,
+            0.7126,
+            0.6104,
+            0.7642
+          ]
+        },
+        {
+          "text": "B-4",
+          "bbox": [
+            0.7083,
+            0.7126,
+            0.7426,
+            0.7642
+          ]
+        },
+        {
+          "text": "C-4",
+          "bbox": [
+            0.8338,
+            0.7126,
+            0.8681,
+            0.7642
+          ]
+        },
+        {
+          "text": "7",
+          "bbox": [
+            0.5212,
+            0.7447,
+            0.5326,
+            0.7963
+          ]
+        },
+        {
+          "text": "7",
+          "bbox": [
+            0.9213,
+            0.7446,
+            0.9327,
+            0.7962
+          ]
+        },
+        {
+          "text": "7",
+          "bbox": [
+            0.0644,
+            0.747,
+            0.0758,
+            0.7986
+          ]
+        },
+        {
+          "text": "7",
+          "bbox": [
+            0.4645,
+            0.747,
+            0.4759,
+            0.7986
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6159,
+            0.7605,
+            0.6274,
+            0.8121
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7486,
+            0.7605,
+            0.7601,
+            0.8121
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8736,
+            0.7606,
+            0.885,
+            0.8122
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1591,
+            0.7617,
+            0.1706,
+            0.8134
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2918,
+            0.7617,
+            0.3033,
+            0.8134
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4168,
+            0.7618,
+            0.4282,
+            0.8134
+          ]
+        },
+        {
+          "text": "a. Input 1 sending a cell to output 6 (110)",
+          "bbox": [
+            0.0821,
+            0.8905,
+            0.4608,
+            0.9422
+          ]
+        },
+        {
+          "text": "b. Input 5 sending a cell to output 2 (010)",
+          "bbox": [
+            0.5392,
+            0.8905,
+            0.9183,
+            0.9422
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_026",
+      "file": "ch08_ill_026.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.26",
+      "section_id": "ch08-8-4-2-batcher-banyan-switch",
+      "alt": "Figure 8.26: Batcher-banyan switch",
+      "sources": [
+        "book Figure 8.26; p.229"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 450,
+      "sha256": "e3d068a226be22264ecee96dd96732a7943b06832cc9b14cc3bb26f13ce48e1d",
+      "description": "Figure 8.26: Batcher-banyan switch. A Batcher sorter and trap module precede an 8-by-8 banyan switch so packets are ordered by destination and duplicate simultaneous destinations are held back.",
+      "structure": "A Batcher sorter and trap module precede an 8-by-8 banyan switch so packets are ordered by destination and duplicate simultaneous destinations are held back.",
+      "text_in_image": "Banyan switch; 0; 0; 0; 0; 0; A-1; B-1; C-1; 1; 1; 1; 1; 1; 0; 0; 0; 2; 2; A-2; B-2; C-2; 3; 3; 1; 1; 1; Batcher; Trap; switch; module; 0; 0; 0; 4; 4; A-3; B-3; C-3; 5; 5; 1; 1; 1; 0; 0; 0; 6; 6; A-4; B-4; C-4; 7; 7; 1; 1; 1",
+      "use_when": "Teach ch08-8-4-2-batcher-banyan-switch, interpret Figure 8.26, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 23,
+      "source_bbox": [
+        114.32,
+        440.92,
+        466.32,
+        590.66
+      ],
+      "labels": [
+        {
+          "text": "Banyan switch",
+          "bbox": [
+            0.4271,
+            0.1852,
+            0.5612,
+            0.2386
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.8041,
+            0.2825,
+            0.8155,
+            0.3359
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5482,
+            0.2861,
+            0.5595,
+            0.3395
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.68,
+            0.2861,
+            0.6914,
+            0.3396
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.0796,
+            0.2961,
+            0.091,
+            0.3495
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.909,
+            0.2962,
+            0.9204,
+            0.3497
+          ]
+        },
+        {
+          "text": "A-1",
+          "bbox": [
+            0.5074,
+            0.3295,
+            0.5427,
+            0.3829
+          ]
+        },
+        {
+          "text": "B-1",
+          "bbox": [
+            0.6399,
+            0.3295,
+            0.674,
+            0.383
+          ]
+        },
+        {
+          "text": "C-1",
+          "bbox": [
+            0.7646,
+            0.3296,
+            0.7987,
+            0.383
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.0796,
+            0.3612,
+            0.091,
+            0.4146
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.909,
+            0.3614,
+            0.9204,
+            0.4148
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5482,
+            0.3766,
+            0.5595,
+            0.4301
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.68,
+            0.3767,
+            0.6914,
+            0.4301
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8041,
+            0.3767,
+            0.8155,
+            0.4302
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.8041,
+            0.4391,
+            0.8155,
+            0.4925
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5482,
+            0.4451,
+            0.5595,
+            0.4986
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.68,
+            0.4452,
+            0.6914,
+            0.4986
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.0796,
+            0.4553,
+            0.091,
+            0.5088
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.909,
+            0.4555,
+            0.9204,
+            0.5089
+          ]
+        },
+        {
+          "text": "A-2",
+          "bbox": [
+            0.5074,
+            0.4864,
+            0.5427,
+            0.5399
+          ]
+        },
+        {
+          "text": "B-2",
+          "bbox": [
+            0.6399,
+            0.4865,
+            0.674,
+            0.5399
+          ]
+        },
+        {
+          "text": "C-2",
+          "bbox": [
+            0.7646,
+            0.4865,
+            0.7987,
+            0.54
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.0796,
+            0.5189,
+            0.091,
+            0.5723
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.909,
+            0.5191,
+            0.9204,
+            0.5725
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5482,
+            0.5337,
+            0.5595,
+            0.5871
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.68,
+            0.5338,
+            0.6914,
+            0.5872
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8041,
+            0.5338,
+            0.8155,
+            0.5872
+          ]
+        },
+        {
+          "text": "Batcher",
+          "bbox": [
+            0.1653,
+            0.5368,
+            0.2359,
+            0.5902
+          ]
+        },
+        {
+          "text": "Trap",
+          "bbox": [
+            0.3272,
+            0.5367,
+            0.3693,
+            0.5902
+          ]
+        },
+        {
+          "text": "switch",
+          "bbox": [
+            0.1709,
+            0.5902,
+            0.2303,
+            0.6436
+          ]
+        },
+        {
+          "text": "module",
+          "bbox": [
+            0.3142,
+            0.5902,
+            0.3824,
+            0.6436
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.8041,
+            0.5974,
+            0.8155,
+            0.6508
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5466,
+            0.601,
+            0.558,
+            0.6544
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.68,
+            0.601,
+            0.6914,
+            0.6545
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.0796,
+            0.611,
+            0.091,
+            0.6644
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.909,
+            0.6112,
+            0.9204,
+            0.6646
+          ]
+        },
+        {
+          "text": "A-3",
+          "bbox": [
+            0.5074,
+            0.6435,
+            0.5427,
+            0.6969
+          ]
+        },
+        {
+          "text": "B-3",
+          "bbox": [
+            0.6399,
+            0.6435,
+            0.674,
+            0.6969
+          ]
+        },
+        {
+          "text": "C-3",
+          "bbox": [
+            0.7646,
+            0.6436,
+            0.7987,
+            0.697
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.0796,
+            0.6755,
+            0.091,
+            0.7289
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.909,
+            0.6756,
+            0.9204,
+            0.729
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5482,
+            0.6916,
+            0.5595,
+            0.745
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.68,
+            0.6916,
+            0.6914,
+            0.7451
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8041,
+            0.6917,
+            0.8155,
+            0.7451
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.8041,
+            0.7555,
+            0.8155,
+            0.8089
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5482,
+            0.7591,
+            0.5595,
+            0.8125
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.68,
+            0.7591,
+            0.6914,
+            0.8126
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.0796,
+            0.7677,
+            0.091,
+            0.8211
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.909,
+            0.7678,
+            0.9204,
+            0.8213
+          ]
+        },
+        {
+          "text": "A-4",
+          "bbox": [
+            0.5074,
+            0.8005,
+            0.5427,
+            0.8539
+          ]
+        },
+        {
+          "text": "B-4",
+          "bbox": [
+            0.6399,
+            0.8005,
+            0.674,
+            0.854
+          ]
+        },
+        {
+          "text": "C-4",
+          "bbox": [
+            0.7646,
+            0.8005,
+            0.7987,
+            0.854
+          ]
+        },
+        {
+          "text": "7",
+          "bbox": [
+            0.0796,
+            0.833,
+            0.091,
+            0.8864
+          ]
+        },
+        {
+          "text": "7",
+          "bbox": [
+            0.909,
+            0.8332,
+            0.9204,
+            0.8866
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5482,
+            0.8479,
+            0.5595,
+            0.9013
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.68,
+            0.8479,
+            0.6914,
+            0.9013
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8041,
+            0.848,
+            0.8155,
+            0.9014
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_027",
+      "file": "ch08_ill_027.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.27",
+      "section_id": "ch08-q-p8-7",
+      "alt": "Figure 8.27: Problem P8-7",
+      "sources": [
+        "book Figure 8.27; p.233"
+      ],
+      "confidence": "high",
+      "width": 948,
+      "height": 352,
+      "sha256": "c2eba4ec79e2985c7ee32b6bbefdd88407ce68c03104e7f631bd1c5943b2bf63",
+      "description": "Figure 8.27: Problem P8-7. Problem P8-7 pairs a destination-to-port routing table with a four-port router for four lookup exercises.",
+      "structure": "Problem P8-7 pairs a destination-to-port routing table with a four-port router for four lookup exercises.",
+      "text_in_image": "Output; Destination; port; address; 1233; 3; 1456; 2; 1; 4; 3255; 1; 4470; 4; 7176; 2; 3; 2; 8766; 3; 9144; 2",
+      "use_when": "Teach ch08-q-p8-7, interpret Figure 8.27, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 27,
+      "source_bbox": [
+        150.56,
+        143.86,
+        466.32,
+        260.9
+      ],
+      "labels": [
+        {
+          "text": "Output",
+          "bbox": [
+            0.3954,
+            0.2532,
+            0.4645,
+            0.3192
+          ]
+        },
+        {
+          "text": "Destination",
+          "bbox": [
+            0.2247,
+            0.2593,
+            0.3394,
+            0.3254
+          ]
+        },
+        {
+          "text": "port",
+          "bbox": [
+            0.4099,
+            0.3275,
+            0.45,
+            0.3935
+          ]
+        },
+        {
+          "text": "address",
+          "bbox": [
+            0.2448,
+            0.3336,
+            0.3193,
+            0.3997
+          ]
+        },
+        {
+          "text": "1233",
+          "bbox": [
+            0.2566,
+            0.4327,
+            0.3063,
+            0.4987
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.4238,
+            0.4327,
+            0.4362,
+            0.4987
+          ]
+        },
+        {
+          "text": "1456",
+          "bbox": [
+            0.2566,
+            0.5039,
+            0.3063,
+            0.5699
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.4238,
+            0.5039,
+            0.4362,
+            0.5699
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5647,
+            0.5527,
+            0.5772,
+            0.6188
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.7698,
+            0.5527,
+            0.7822,
+            0.6188
+          ]
+        },
+        {
+          "text": "3255",
+          "bbox": [
+            0.2566,
+            0.575,
+            0.3063,
+            0.6411
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4238,
+            0.575,
+            0.4362,
+            0.6411
+          ]
+        },
+        {
+          "text": "4470",
+          "bbox": [
+            0.2566,
+            0.6462,
+            0.3063,
+            0.7122
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.4238,
+            0.6462,
+            0.4362,
+            0.7122
+          ]
+        },
+        {
+          "text": "7176",
+          "bbox": [
+            0.2566,
+            0.7174,
+            0.3063,
+            0.7834
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.4238,
+            0.7174,
+            0.4362,
+            0.7834
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.6977,
+            0.7476,
+            0.7102,
+            0.8136
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.6142,
+            0.7506,
+            0.6266,
+            0.8167
+          ]
+        },
+        {
+          "text": "8766",
+          "bbox": [
+            0.2566,
+            0.7886,
+            0.3063,
+            0.8546
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.4238,
+            0.7886,
+            0.4362,
+            0.8546
+          ]
+        },
+        {
+          "text": "9144",
+          "bbox": [
+            0.2566,
+            0.8597,
+            0.3063,
+            0.9258
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.4238,
+            0.8597,
+            0.4362,
+            0.9258
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    },
+    {
+      "id": "ch08_ill_028",
+      "file": "ch08_ill_028.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 8.28",
+      "section_id": "ch08-q-p8-8",
+      "alt": "Figure 8.28: Problem P8-8",
+      "sources": [
+        "book Figure 8.28; p.233"
+      ],
+      "confidence": "high",
+      "width": 948,
+      "height": 345,
+      "sha256": "d372cba73871f54448bd3faf0e7e38868fa7a725e5084ca7b0843b5732f86a97",
+      "description": "Figure 8.28: Problem P8-8. Problem P8-8 pairs an incoming-port/VCI to outgoing-port/VCI switching table with a four-port virtual-circuit switch.",
+      "structure": "Problem P8-8 pairs an incoming-port/VCI to outgoing-port/VCI switching table with a four-port virtual-circuit switch.",
+      "text_in_image": "Incoming; Outgoing; Port; Port; VCI; VCI; 1; 14; 3; 22; 1; 4; 2; 71; 4; 41; 2; 92; 1; 45; 3; 58; 2; 43; 3; 2; 3; 78; 2; 70; 4; 56; 3; 11",
+      "use_when": "Teach ch08-q-p8-8, interpret Figure 8.28, trace a switching path, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 27,
+      "source_bbox": [
+        150.56,
+        337.72,
+        466.32,
+        452.66
+      ],
+      "labels": [
+        {
+          "text": "Incoming",
+          "bbox": [
+            0.2126,
+            0.2714,
+            0.3086,
+            0.3398
+          ]
+        },
+        {
+          "text": "Outgoing",
+          "bbox": [
+            0.3958,
+            0.2714,
+            0.4905,
+            0.3398
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.1939,
+            0.3865,
+            0.2356,
+            0.455
+          ]
+        },
+        {
+          "text": "Port",
+          "bbox": [
+            0.3776,
+            0.3865,
+            0.4194,
+            0.455
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.2846,
+            0.3866,
+            0.3277,
+            0.455
+          ]
+        },
+        {
+          "text": "VCI",
+          "bbox": [
+            0.4683,
+            0.3866,
+            0.5115,
+            0.455
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2085,
+            0.485,
+            0.221,
+            0.5534
+          ]
+        },
+        {
+          "text": "14",
+          "bbox": [
+            0.2937,
+            0.485,
+            0.3187,
+            0.5534
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.3923,
+            0.485,
+            0.4048,
+            0.5534
+          ]
+        },
+        {
+          "text": "22",
+          "bbox": [
+            0.4774,
+            0.485,
+            0.5024,
+            0.5534
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5958,
+            0.5467,
+            0.6083,
+            0.6152
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.8039,
+            0.5467,
+            0.8165,
+            0.6152
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.2085,
+            0.5576,
+            0.221,
+            0.626
+          ]
+        },
+        {
+          "text": "71",
+          "bbox": [
+            0.2937,
+            0.5576,
+            0.3187,
+            0.626
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.3923,
+            0.5576,
+            0.4048,
+            0.626
+          ]
+        },
+        {
+          "text": "41",
+          "bbox": [
+            0.4774,
+            0.5576,
+            0.5024,
+            0.626
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.2085,
+            0.6304,
+            0.221,
+            0.6988
+          ]
+        },
+        {
+          "text": "92",
+          "bbox": [
+            0.2937,
+            0.6304,
+            0.3187,
+            0.6988
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.3923,
+            0.6304,
+            0.4048,
+            0.6988
+          ]
+        },
+        {
+          "text": "45",
+          "bbox": [
+            0.4774,
+            0.6304,
+            0.5024,
+            0.6988
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.2085,
+            0.7031,
+            0.221,
+            0.7715
+          ]
+        },
+        {
+          "text": "58",
+          "bbox": [
+            0.2937,
+            0.7031,
+            0.3187,
+            0.7715
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.3923,
+            0.7031,
+            0.4048,
+            0.7715
+          ]
+        },
+        {
+          "text": "43",
+          "bbox": [
+            0.4774,
+            0.7031,
+            0.5024,
+            0.7715
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.7298,
+            0.7507,
+            0.7423,
+            0.8192
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.6456,
+            0.7539,
+            0.6581,
+            0.8224
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.2085,
+            0.7759,
+            0.221,
+            0.8443
+          ]
+        },
+        {
+          "text": "78",
+          "bbox": [
+            0.2937,
+            0.7759,
+            0.3187,
+            0.8443
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.3923,
+            0.7759,
+            0.4048,
+            0.8443
+          ]
+        },
+        {
+          "text": "70",
+          "bbox": [
+            0.4774,
+            0.7759,
+            0.5024,
+            0.8443
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.2085,
+            0.8486,
+            0.221,
+            0.917
+          ]
+        },
+        {
+          "text": "56",
+          "bbox": [
+            0.2937,
+            0.8486,
+            0.3187,
+            0.917
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.3923,
+            0.8486,
+            0.4048,
+            0.917
+          ]
+        },
+        {
+          "text": "11",
+          "bbox": [
+            0.4774,
+            0.8486,
+            0.5024,
+            0.917
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:29:34+00:00"
+      }
+    }
+  ]
+}

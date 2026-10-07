@@ -207,8 +207,47 @@
         "assets/ch07_ill_020.png": "81cb277a41d11e950297611b9a0eca58961557ac27c5df3791677aa184f153ef",
         "assets/manifest.json": "815d41947ede239dac4e10d8df1d585de8b346ce88b263e398748d51ba16d16f"
       }
+    },
+    {
+      "chapter": 8,
+      "status": "ready",
+      "reviewed_at": "2026-10-07T03:29:41+00:00",
+      "files": {
+        "content.md": "278ad68aec68836e5253313b8a5a5f3424a5836f6d60b57e4ed6575a7d31af3d",
+        "data_card.md": "cd2e2f78472c24052b5cbff96cc85fd01d74e6aac84c1bccaf11711dab772bdc",
+        "questions.md": "ab4fe772d40785334b92db13d99aa9a5ec5e92da537694017e0d7823722d24a2",
+        "assets/ch08_ill_001.png": "f0f2136e3db57827619fe1d152411703f6c80fa754aadee0c6cba6c08ccb707d",
+        "assets/ch08_ill_002.png": "9d85aa1e5e5133ba280e0b6fcfd7828804b52bab7e05fba345da2f524345dbea",
+        "assets/ch08_ill_003.png": "e1019e10bbd849326a095fa45728f4b9fb6ee9a9da290432d3bafd989e085944",
+        "assets/ch08_ill_004.png": "f9ca84fa9d50dc35096968c9d8abb1e598fd0445c34c37b87721b3d6408ced14",
+        "assets/ch08_ill_005.png": "e8ce13bcc8fd5b9a9405dbe47b7b2ed305d4cad9b0cccd47dbc3d4b9360b82bc",
+        "assets/ch08_ill_006.png": "938a329d9d1c7d8e3be2f79f7c656b96a292bac59f4c790135bf3985418bf42b",
+        "assets/ch08_ill_007.png": "f28e0d1b048bb179734791dd23dabdcce40dab8632deefb33ad4bb175d5594eb",
+        "assets/ch08_ill_008.png": "92f9d39fa91b5c69afea5dcc35ab35a055f4420130e706bd506d48592da8263b",
+        "assets/ch08_ill_009.png": "b2ef7bcdca1096e479a0ae9ad86a5c470dfdfc27b446da126de9c40b9948f8a7",
+        "assets/ch08_ill_010.png": "607f45a295116ce3c36c50b8502367c25ea74928d37615f6680328e754c8f0dc",
+        "assets/ch08_ill_011.png": "7c5a82c4a4281d993db2597b7ac5a8ea3d54c6aae3491004595dc16e7e3b8af8",
+        "assets/ch08_ill_012.png": "15b5826059e86a520fbce52cd42d3198a9505511966b9f35c97865d7792e04fb",
+        "assets/ch08_ill_013.png": "f0708686746b349b4124cc03fb3754e3c3a3f468745bc088e5861eaa45ee759d",
+        "assets/ch08_ill_014.png": "953c9e08660821128c6df5270b51900395141d5b98a6d3c0c5619218d80591b7",
+        "assets/ch08_ill_015.png": "c2b48bc63a44c0dafa3d491eed37430692411b6a957c6b12d157875bf65ca196",
+        "assets/ch08_ill_016.png": "853065cf4528412e4c7c5a2c2a0db223e34e2e88bbde4b6b5b8384172b7d13a1",
+        "assets/ch08_ill_017.png": "3fe33af7b0c95e3739385ad223f4ca75cebd3dd9a0d839ab2992ad96e84045ef",
+        "assets/ch08_ill_018.png": "d5bb9a4c70a888e34f1449baf1125b4d56f1a88f3fa3d2ee4b2001f6e8d65006",
+        "assets/ch08_ill_019.png": "012c85d2c4911d8c8e03c8ecfa542f9700867e4a37a7d163cbddf66d1712547b",
+        "assets/ch08_ill_020.png": "784135b97d5e87504bbe7f9b0b53491277ff87ca1b3dcb35a0dc3d6d62480cf3",
+        "assets/ch08_ill_021.png": "15076d7aaa4fe8fb7e8c3547181b10a2f5e6705f5b6e2020add81a1bae9c1d25",
+        "assets/ch08_ill_022.png": "a7e6cf2f97d33abe8bd206a2e312042149e8b97ec02cd1972a1cb82dd0828b26",
+        "assets/ch08_ill_023.png": "703b591d7b7079a5cf1b4c1e974df4f1ba0888dbb794a8463059c6295290879a",
+        "assets/ch08_ill_024.png": "d754fd18e964baffdf638bc4c42c8b70add8de0b353681fe32c508c9970b122a",
+        "assets/ch08_ill_025.png": "70ebc61eb994b5764a8ab3920f5189ea58561daa464be16d70812b172fed16b2",
+        "assets/ch08_ill_026.png": "e3d068a226be22264ecee96dd96732a7943b06832cc9b14cc3bb26f13ce48e1d",
+        "assets/ch08_ill_027.png": "c2eba4ec79e2985c7ee32b6bbefdd88407ce68c03104e7f631bd1c5943b2bf63",
+        "assets/ch08_ill_028.png": "d372cba73871f54448bd3faf0e7e38868fa7a725e5084ca7b0843b5732f86a97",
+        "assets/manifest.json": "f52f08731f7ae65e715045eb3a232319d7119a0a48547638025ffdc10241c1d9"
+      }
     }
   ],
   "status": "partial_release",
-  "updated_at": "2026-10-07T03:24:01+00:00"
+  "updated_at": "2026-10-07T03:29:41+00:00"
 }

@@ -285,6 +285,12 @@
         "wireless communication"
       ],
       "prerequisites": []
+    },
+    {
+      "chapter": 8,
+      "title": "Switching",
+      "key_terms": [],
+      "prerequisites": []
     }
   ],
   "sections": [
@@ -6452,6 +6458,1132 @@
         "3",
         "4",
         "7",
+        "summary"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-0",
+      "chapter": 8,
+      "title": "Chapter Objectives",
+      "parent": null,
+      "children": [],
+      "source": "book p.207",
+      "kind": "objectives",
+      "asset_ids": [],
+      "terms": [
+        "chapter",
+        "objectives"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-1",
+      "chapter": 8,
+      "title": "8.1 INTRODUCTION",
+      "parent": null,
+      "children": [
+        "ch08-8-1-1",
+        "ch08-8-1-2"
+      ],
+      "source": "book 8.1; p.208",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_001"
+      ],
+      "terms": [
+        "1",
+        "8",
+        "introduction"
+      ],
+      "question_ids": [
+        "ch08-q-q8-1"
+      ]
+    },
+    {
+      "id": "ch08-8-1-1",
+      "chapter": 8,
+      "title": "8.1.1 Three Methods of Switching",
+      "parent": "ch08-8-1",
+      "children": [],
+      "source": "book 8.1.1; p.208",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_002"
+      ],
+      "terms": [
+        "1",
+        "8",
+        "methods",
+        "switching",
+        "three"
+      ],
+      "question_ids": [
+        "ch08-q-q8-2"
+      ]
+    },
+    {
+      "id": "ch08-8-1-2",
+      "chapter": 8,
+      "title": "8.1.2 Switching and TCP/IP Layers",
+      "parent": "ch08-8-1",
+      "children": [
+        "ch08-8-1-2-switching-at-physical-layer",
+        "ch08-8-1-2-switching-at-data-link-layer",
+        "ch08-8-1-2-switching-at-network-layer",
+        "ch08-8-1-2-switching-at-application-layer"
+      ],
+      "source": "book 8.1.2; p.209",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "2",
+        "8",
+        "ip",
+        "layers",
+        "switching",
+        "tcp"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-1-2-switching-at-physical-layer",
+      "chapter": 8,
+      "title": "Switching at Physical Layer",
+      "parent": "ch08-8-1-2",
+      "children": [],
+      "source": "book p.209",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "layer",
+        "physical",
+        "switching"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-1-2-switching-at-data-link-layer",
+      "chapter": 8,
+      "title": "Switching at Data-Link Layer",
+      "parent": "ch08-8-1-2",
+      "children": [],
+      "source": "book p.209",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "data",
+        "layer",
+        "link",
+        "switching"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-1-2-switching-at-network-layer",
+      "chapter": 8,
+      "title": "Switching at Network Layer",
+      "parent": "ch08-8-1-2",
+      "children": [],
+      "source": "book p.209",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "layer",
+        "network",
+        "switching"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-1-2-switching-at-application-layer",
+      "chapter": 8,
+      "title": "Switching at Application Layer",
+      "parent": "ch08-8-1-2",
+      "children": [],
+      "source": "book p.209",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "application",
+        "layer",
+        "switching"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-2",
+      "chapter": 8,
+      "title": "8.2 CIRCUIT-SWITCHED NETWORKS",
+      "parent": null,
+      "children": [
+        "ch08-example-8-1",
+        "ch08-example-8-2",
+        "ch08-8-2-1",
+        "ch08-8-2-2",
+        "ch08-8-2-3"
+      ],
+      "source": "book 8.2; p.209",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_003"
+      ],
+      "terms": [
+        "2",
+        "8",
+        "circuit",
+        "networks",
+        "switched"
+      ],
+      "question_ids": [
+        "ch08-q-q8-4"
+      ]
+    },
+    {
+      "id": "ch08-example-8-1",
+      "chapter": 8,
+      "title": "Example 8.1",
+      "parent": "ch08-8-2",
+      "children": [],
+      "source": "book Example 8.1",
+      "kind": "worked_example",
+      "asset_ids": [
+        "ch08_ill_004"
+      ],
+      "terms": [
+        "1",
+        "8",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-example-8-2",
+      "chapter": 8,
+      "title": "Example 8.2",
+      "parent": "ch08-8-2",
+      "children": [],
+      "source": "book Example 8.2",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "8",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-2-1",
+      "chapter": 8,
+      "title": "8.2.1 Three Phases",
+      "parent": "ch08-8-2",
+      "children": [
+        "ch08-8-2-1-setup-phase",
+        "ch08-8-2-1-data-transfer-phase",
+        "ch08-8-2-1-teardown-phase"
+      ],
+      "source": "book 8.2.1; p.211",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "2",
+        "8",
+        "phases",
+        "three"
+      ],
+      "question_ids": [
+        "ch08-q-p8-1",
+        "ch08-q-p8-3"
+      ]
+    },
+    {
+      "id": "ch08-8-2-1-setup-phase",
+      "chapter": 8,
+      "title": "Setup Phase",
+      "parent": "ch08-8-2-1",
+      "children": [],
+      "source": "book p.211",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_005"
+      ],
+      "terms": [
+        "phase",
+        "setup"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-2-1-data-transfer-phase",
+      "chapter": 8,
+      "title": "Data-Transfer Phase",
+      "parent": "ch08-8-2-1",
+      "children": [],
+      "source": "book p.212",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "data",
+        "phase",
+        "transfer"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-2-1-teardown-phase",
+      "chapter": 8,
+      "title": "Teardown Phase",
+      "parent": "ch08-8-2-1",
+      "children": [],
+      "source": "book p.212",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "phase",
+        "teardown"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-2-2",
+      "chapter": 8,
+      "title": "8.2.2 Efficiency",
+      "parent": "ch08-8-2",
+      "children": [],
+      "source": "book 8.2.2; p.212",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "8",
+        "efficiency"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-2-3",
+      "chapter": 8,
+      "title": "8.2.3 Delay",
+      "parent": "ch08-8-2",
+      "children": [],
+      "source": "book 8.2.3; p.213",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_006"
+      ],
+      "terms": [
+        "2",
+        "3",
+        "8",
+        "delay"
+      ],
+      "question_ids": [
+        "ch08-q-p8-1"
+      ]
+    },
+    {
+      "id": "ch08-8-3",
+      "chapter": 8,
+      "title": "8.3 PACKET SWITCHING",
+      "parent": null,
+      "children": [
+        "ch08-8-3-1",
+        "ch08-8-3-2"
+      ],
+      "source": "book 8.3; p.213",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "8",
+        "packet",
+        "switching"
+      ],
+      "question_ids": [
+        "ch08-q-q8-3",
+        "ch08-q-q8-4"
+      ]
+    },
+    {
+      "id": "ch08-8-3-1",
+      "chapter": 8,
+      "title": "8.3.1 Datagram Networks",
+      "parent": "ch08-8-3",
+      "children": [
+        "ch08-8-3-1-routing-table",
+        "ch08-8-3-1-destination-address",
+        "ch08-8-3-1-efficiency",
+        "ch08-8-3-1-delay"
+      ],
+      "source": "book 8.3.1; p.214",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_007"
+      ],
+      "terms": [
+        "1",
+        "3",
+        "8",
+        "datagram",
+        "networks"
+      ],
+      "question_ids": [
+        "ch08-q-p8-3"
+      ]
+    },
+    {
+      "id": "ch08-8-3-1-routing-table",
+      "chapter": 8,
+      "title": "Routing Table",
+      "parent": "ch08-8-3-1",
+      "children": [],
+      "source": "book p.215",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_008"
+      ],
+      "terms": [
+        "routing",
+        "table"
+      ],
+      "question_ids": [
+        "ch08-q-q8-5",
+        "ch08-q-p8-4",
+        "ch08-q-p8-5",
+        "ch08-q-p8-6",
+        "ch08-q-p8-7",
+        "ch08-q-p8-9",
+        "ch08-q-p8-10"
+      ]
+    },
+    {
+      "id": "ch08-8-3-1-destination-address",
+      "chapter": 8,
+      "title": "Destination Address",
+      "parent": "ch08-8-3-1",
+      "children": [],
+      "source": "book p.215",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "address",
+        "destination"
+      ],
+      "question_ids": [
+        "ch08-q-q8-5"
+      ]
+    },
+    {
+      "id": "ch08-8-3-1-efficiency",
+      "chapter": 8,
+      "title": "Efficiency",
+      "parent": "ch08-8-3-1",
+      "children": [],
+      "source": "book p.215",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "efficiency"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-3-1-delay",
+      "chapter": 8,
+      "title": "Delay",
+      "parent": "ch08-8-3-1",
+      "children": [],
+      "source": "book p.216",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_009"
+      ],
+      "terms": [
+        "delay"
+      ],
+      "question_ids": [
+        "ch08-q-p8-2"
+      ]
+    },
+    {
+      "id": "ch08-8-3-2",
+      "chapter": 8,
+      "title": "8.3.2 Virtual-Circuit Networks",
+      "parent": "ch08-8-3",
+      "children": [
+        "ch08-8-3-2-addressing",
+        "ch08-8-3-2-global-addressing",
+        "ch08-8-3-2-virtual-circuit-identifier",
+        "ch08-8-3-2-three-phases",
+        "ch08-8-3-2-data-transfer-phase",
+        "ch08-8-3-2-setup-phase",
+        "ch08-8-3-2-setup-request",
+        "ch08-8-3-2-acknowledgment",
+        "ch08-8-3-2-teardown-phase",
+        "ch08-8-3-2-efficiency",
+        "ch08-8-3-2-delay-in-virtual-circuit-networks",
+        "ch08-8-3-2-circuit-switched-technology-in-wans"
+      ],
+      "source": "book 8.3.2; p.216",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_010"
+      ],
+      "terms": [
+        "2",
+        "3",
+        "8",
+        "circuit",
+        "networks",
+        "virtual"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-3-2-addressing",
+      "chapter": 8,
+      "title": "Addressing",
+      "parent": "ch08-8-3-2",
+      "children": [],
+      "source": "book p.217",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "addressing"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-3-2-global-addressing",
+      "chapter": 8,
+      "title": "Global Addressing",
+      "parent": "ch08-8-3-2",
+      "children": [],
+      "source": "book p.217",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "addressing",
+        "global"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-3-2-virtual-circuit-identifier",
+      "chapter": 8,
+      "title": "Virtual-Circuit Identifier",
+      "parent": "ch08-8-3-2",
+      "children": [],
+      "source": "book p.217",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_011"
+      ],
+      "terms": [
+        "circuit",
+        "identifier",
+        "virtual"
+      ],
+      "question_ids": [
+        "ch08-q-q8-6"
+      ]
+    },
+    {
+      "id": "ch08-8-3-2-three-phases",
+      "chapter": 8,
+      "title": "Three Phases",
+      "parent": "ch08-8-3-2",
+      "children": [],
+      "source": "book p.218",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "phases",
+        "three"
+      ],
+      "question_ids": [
+        "ch08-q-p8-3",
+        "ch08-q-p8-5"
+      ]
+    },
+    {
+      "id": "ch08-8-3-2-data-transfer-phase",
+      "chapter": 8,
+      "title": "Data-Transfer Phase",
+      "parent": "ch08-8-3-2",
+      "children": [],
+      "source": "book p.218",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_012"
+      ],
+      "terms": [
+        "data",
+        "phase",
+        "transfer"
+      ],
+      "question_ids": [
+        "ch08-q-p8-4",
+        "ch08-q-p8-6",
+        "ch08-q-p8-8",
+        "ch08-q-p8-9",
+        "ch08-q-p8-10"
+      ]
+    },
+    {
+      "id": "ch08-8-3-2-setup-phase",
+      "chapter": 8,
+      "title": "Setup Phase",
+      "parent": "ch08-8-3-2",
+      "children": [],
+      "source": "book p.218",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_013"
+      ],
+      "terms": [
+        "phase",
+        "setup"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-3-2-setup-request",
+      "chapter": 8,
+      "title": "Setup Request",
+      "parent": "ch08-8-3-2",
+      "children": [],
+      "source": "book p.219",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_014"
+      ],
+      "terms": [
+        "request",
+        "setup"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-3-2-acknowledgment",
+      "chapter": 8,
+      "title": "Acknowledgment",
+      "parent": "ch08-8-3-2",
+      "children": [],
+      "source": "book p.220",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_015"
+      ],
+      "terms": [
+        "acknowledgment"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-3-2-teardown-phase",
+      "chapter": 8,
+      "title": "Teardown Phase",
+      "parent": "ch08-8-3-2",
+      "children": [],
+      "source": "book p.221",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "phase",
+        "teardown"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-3-2-efficiency",
+      "chapter": 8,
+      "title": "Efficiency",
+      "parent": "ch08-8-3-2",
+      "children": [],
+      "source": "book p.221",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "efficiency"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-3-2-delay-in-virtual-circuit-networks",
+      "chapter": 8,
+      "title": "Delay in Virtual-Circuit Networks",
+      "parent": "ch08-8-3-2",
+      "children": [],
+      "source": "book p.221",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_016"
+      ],
+      "terms": [
+        "circuit",
+        "delay",
+        "networks",
+        "virtual"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-3-2-circuit-switched-technology-in-wans",
+      "chapter": 8,
+      "title": "Circuit-Switched Technology in WANs",
+      "parent": "ch08-8-3-2",
+      "children": [],
+      "source": "book p.222",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "circuit",
+        "switched",
+        "technology",
+        "wans"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-4",
+      "chapter": 8,
+      "title": "8.4 STRUCTURE OF A SWITCH",
+      "parent": null,
+      "children": [
+        "ch08-8-4-1",
+        "ch08-8-4-2"
+      ],
+      "source": "book 8.4; p.222",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "4",
+        "8",
+        "structure",
+        "switch"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-4-1",
+      "chapter": 8,
+      "title": "8.4.1 Structure of Circuit Switches",
+      "parent": "ch08-8-4",
+      "children": [
+        "ch08-8-4-1-space-division-switch",
+        "ch08-8-4-1-crossbar-switch",
+        "ch08-8-4-1-multistage-switch",
+        "ch08-8-4-1-time-division-switch",
+        "ch08-8-4-1-time-slot-interchange",
+        "ch08-8-4-1-time-and-space-division-switch-combinations"
+      ],
+      "source": "book 8.4.1; p.222",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "4",
+        "8",
+        "circuit",
+        "structure",
+        "switches"
+      ],
+      "question_ids": [
+        "ch08-q-q8-9"
+      ]
+    },
+    {
+      "id": "ch08-8-4-1-space-division-switch",
+      "chapter": 8,
+      "title": "Space-Division Switch",
+      "parent": "ch08-8-4-1",
+      "children": [],
+      "source": "book p.222",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "division",
+        "space",
+        "switch"
+      ],
+      "question_ids": [
+        "ch08-q-q8-7"
+      ]
+    },
+    {
+      "id": "ch08-8-4-1-crossbar-switch",
+      "chapter": 8,
+      "title": "Crossbar Switch",
+      "parent": "ch08-8-4-1",
+      "children": [],
+      "source": "book p.222",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_017"
+      ],
+      "terms": [
+        "crossbar",
+        "switch"
+      ],
+      "question_ids": [
+        "ch08-q-p8-11",
+        "ch08-q-p8-15"
+      ]
+    },
+    {
+      "id": "ch08-8-4-1-multistage-switch",
+      "chapter": 8,
+      "title": "Multistage Switch",
+      "parent": "ch08-8-4-1",
+      "children": [
+        "ch08-example-8-3",
+        "ch08-example-8-4"
+      ],
+      "source": "book p.223",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_018"
+      ],
+      "terms": [
+        "multistage",
+        "switch"
+      ],
+      "question_ids": [
+        "ch08-q-p8-12",
+        "ch08-q-p8-13",
+        "ch08-q-p8-14",
+        "ch08-q-p8-15"
+      ]
+    },
+    {
+      "id": "ch08-example-8-3",
+      "chapter": 8,
+      "title": "Example 8.3",
+      "parent": "ch08-8-4-1-multistage-switch",
+      "children": [],
+      "source": "book Example 8.3",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "8",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-example-8-4",
+      "chapter": 8,
+      "title": "Example 8.4",
+      "parent": "ch08-8-4-1-multistage-switch",
+      "children": [],
+      "source": "book Example 8.4",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "4",
+        "8",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-4-1-time-division-switch",
+      "chapter": 8,
+      "title": "Time-Division Switch",
+      "parent": "ch08-8-4-1",
+      "children": [],
+      "source": "book p.225",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "division",
+        "switch",
+        "time"
+      ],
+      "question_ids": [
+        "ch08-q-q8-7"
+      ]
+    },
+    {
+      "id": "ch08-8-4-1-time-slot-interchange",
+      "chapter": 8,
+      "title": "Time-Slot Interchange",
+      "parent": "ch08-8-4-1",
+      "children": [],
+      "source": "book p.225",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_019"
+      ],
+      "terms": [
+        "interchange",
+        "slot",
+        "time"
+      ],
+      "question_ids": [
+        "ch08-q-q8-8"
+      ]
+    },
+    {
+      "id": "ch08-8-4-1-time-and-space-division-switch-combinations",
+      "chapter": 8,
+      "title": "Time- and Space-Division Switch Combinations",
+      "parent": "ch08-8-4-1",
+      "children": [],
+      "source": "book p.226",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_020"
+      ],
+      "terms": [
+        "combinations",
+        "division",
+        "space",
+        "switch",
+        "time"
+      ],
+      "question_ids": [
+        "ch08-q-p8-16"
+      ]
+    },
+    {
+      "id": "ch08-8-4-2",
+      "chapter": 8,
+      "title": "8.4.2 Structure of Packet Switches",
+      "parent": "ch08-8-4",
+      "children": [
+        "ch08-8-4-2-input-ports",
+        "ch08-8-4-2-output-port",
+        "ch08-8-4-2-routing-processor",
+        "ch08-8-4-2-switching-fabrics",
+        "ch08-8-4-2-crossbar-switch",
+        "ch08-8-4-2-banyan-switch",
+        "ch08-8-4-2-batcher-banyan-switch"
+      ],
+      "source": "book 8.4.2; p.226",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_021"
+      ],
+      "terms": [
+        "2",
+        "4",
+        "8",
+        "packet",
+        "structure",
+        "switches"
+      ],
+      "question_ids": [
+        "ch08-q-q8-10"
+      ]
+    },
+    {
+      "id": "ch08-8-4-2-input-ports",
+      "chapter": 8,
+      "title": "Input Ports",
+      "parent": "ch08-8-4-2",
+      "children": [],
+      "source": "book p.227",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_022"
+      ],
+      "terms": [
+        "input",
+        "ports"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-4-2-output-port",
+      "chapter": 8,
+      "title": "Output Port",
+      "parent": "ch08-8-4-2",
+      "children": [],
+      "source": "book p.227",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_023"
+      ],
+      "terms": [
+        "output",
+        "port"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-4-2-routing-processor",
+      "chapter": 8,
+      "title": "Routing Processor",
+      "parent": "ch08-8-4-2",
+      "children": [],
+      "source": "book p.228",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "processor",
+        "routing"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-4-2-switching-fabrics",
+      "chapter": 8,
+      "title": "Switching Fabrics",
+      "parent": "ch08-8-4-2",
+      "children": [],
+      "source": "book p.228",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "fabrics",
+        "switching"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-4-2-crossbar-switch",
+      "chapter": 8,
+      "title": "Crossbar Switch",
+      "parent": "ch08-8-4-2",
+      "children": [],
+      "source": "book p.228",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "crossbar",
+        "switch"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-4-2-banyan-switch",
+      "chapter": 8,
+      "title": "Banyan Switch",
+      "parent": "ch08-8-4-2",
+      "children": [],
+      "source": "book p.228",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_024",
+        "ch08_ill_025"
+      ],
+      "terms": [
+        "banyan",
+        "switch"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-4-2-batcher-banyan-switch",
+      "chapter": 8,
+      "title": "Batcher-Banyan Switch",
+      "parent": "ch08-8-4-2",
+      "children": [],
+      "source": "book p.229",
+      "kind": "concept",
+      "asset_ids": [
+        "ch08_ill_026"
+      ],
+      "terms": [
+        "banyan",
+        "batcher",
+        "switch"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-5",
+      "chapter": 8,
+      "title": "8.5 END-CHAPTER MATERIALS",
+      "parent": null,
+      "children": [
+        "ch08-8-5-1",
+        "ch08-8-5-2",
+        "ch08-8-5-3"
+      ],
+      "source": "book 8.5; p.230",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "5",
+        "8",
+        "chapter",
+        "end",
+        "materials"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-5-1",
+      "chapter": 8,
+      "title": "8.5.1 Recommended Reading",
+      "parent": "ch08-8-5",
+      "children": [
+        "ch08-8-5-1-books"
+      ],
+      "source": "book 8.5.1; p.230",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "5",
+        "8",
+        "reading",
+        "recommended"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-5-1-books",
+      "chapter": 8,
+      "title": "Books",
+      "parent": "ch08-8-5-1",
+      "children": [],
+      "source": "book p.230",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "books"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-5-2",
+      "chapter": 8,
+      "title": "8.5.2 Key terms",
+      "parent": "ch08-8-5",
+      "children": [],
+      "source": "book 8.5.2; p.230",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "5",
+        "8",
+        "key",
+        "terms"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch08-8-5-3",
+      "chapter": 8,
+      "title": "8.5.3 Summary",
+      "parent": "ch08-8-5",
+      "children": [],
+      "source": "book 8.5.3; p.230",
+      "kind": "summary",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "5",
+        "8",
         "summary"
       ],
       "question_ids": []
