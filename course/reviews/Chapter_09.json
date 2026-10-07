@@ -1,0 +1,32 @@
+{
+  "chapter": 9,
+  "promoted_at": "2026-10-07T03:33:29+00:00",
+  "validation": {
+    "chapter": "Chapter_09",
+    "ready": true,
+    "errors": [],
+    "error_count": 0
+  },
+  "files": {
+    "content.md": "b417827872af5249dcb1971b4d0922145e8bc90c7976892477b92d6d997d89b6",
+    "data_card.md": "02d9993cdad9c59072355ddd12b8d0afa969476e55bf99d581b0086ed089fade",
+    "questions.md": "03e1b29d892d32c6fb83db0259f48fa41754833366e01f6a965614ce0a3c4275",
+    "assets/ch09_ill_001.png": "92ae81c16d869e649d7f0c9efd13a931f41ed49b4c149c3ef1698a3d54ed2bad",
+    "assets/ch09_ill_002.png": "cdd2e23c109e2fd98ad9c7472685c7c583ef5637e4e7b09d9fe4aca6ca374e73",
+    "assets/ch09_ill_003.png": "733ff576620d67e63a9b7834fa80792679848d35aa06c984650413fb33e463aa",
+    "assets/ch09_ill_004.png": "593635c76458b947625cb9e3ace5aabe3cab0bade24f2f086f2c196af89d6b83",
+    "assets/ch09_ill_005.png": "76e1d9d0f86d3a48ec0b19bc075f998c2e3d188be62fd7d1d5408eab742b540b",
+    "assets/ch09_ill_006.png": "601e55bfa5eef59385c5be20fff3ee71d381606899ad63e910c77d6992c04b29",
+    "assets/ch09_ill_007.png": "0e18b4eaeef7df3c518dac2c93129877a5aa7d401a4281c4ec5b12d37539fdb7",
+    "assets/ch09_ill_008.png": "dfa03e4c44bef65e6a653c76860a16a55c9425fb9e4e9fbdf26d4b74662ee137",
+    "assets/ch09_ill_009.png": "8aed10f812d74b93e9c3e4ae590c0d75cad8fa6979b7ee634847b27d389a308d",
+    "assets/ch09_ill_010.png": "1888ee0c475d06476640c7ff22edd67fe7b3ca4e4b3bc34b5f9ed4abc2240d70",
+    "assets/ch09_ill_011.png": "89d6210410fed1070232416a1abfa815ccb06755394b8e948bf01f90b0ba965b",
+    "assets/ch09_ill_012.png": "fe4c9ae63f3028707d2f97093c4c811ac015bd981c684c6ca0b411970e9781c5",
+    "assets/ch09_ill_013.png": "4b5230013859c41a9e47641d625831e68bde17d3f25c4c5cf3d04e3d5d587749",
+    "assets/ch09_ill_014.png": "16f24e90d65caf751a7e9fa0644867e9b748d8ffbb2f8ddd2f38e06ade6434f3",
+    "assets/ch09_ill_015.png": "7b1a762ad674d8838290a2bcc5aa970e1f69c20450ae248064033cd81d55be1e",
+    "assets/ch09_ill_016.png": "a049672dddce3153451ea96c2fb6508928b90edcb9a6aa23282c45a28c5dd60a",
+    "assets/manifest.json": "156c39cf3568158e56f1c1282170c905d453bfc197a6b5827b1ca9ed31e7e2eb"
+  }
+}

@@ -291,6 +291,20 @@
       "title": "Switching",
       "key_terms": [],
       "prerequisites": []
+    },
+    {
+      "chapter": 9,
+      "title": "Introduction to Data-Link Layer",
+      "key_terms": [
+        "Address Resolution Protocol (ARP)",
+        "data link control (DLC)",
+        "frame",
+        "framing",
+        "links",
+        "media access control (MAC)",
+        "nodes"
+      ],
+      "prerequisites": []
     }
   ],
   "sections": [
@@ -7584,6 +7598,661 @@
         "3",
         "5",
         "8",
+        "summary"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch09-0",
+      "chapter": 9,
+      "title": "Chapter Objectives",
+      "parent": null,
+      "children": [],
+      "source": "book p.237",
+      "kind": "objectives",
+      "asset_ids": [],
+      "terms": [
+        "chapter",
+        "objectives"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch09-9-1",
+      "chapter": 9,
+      "title": "9.1 INTRODUCTION",
+      "parent": null,
+      "children": [
+        "ch09-9-1-1",
+        "ch09-9-1-2",
+        "ch09-9-1-3",
+        "ch09-9-1-4"
+      ],
+      "source": "book 9.1; p.238",
+      "kind": "concept",
+      "asset_ids": [
+        "ch09_ill_001"
+      ],
+      "terms": [
+        "1",
+        "9",
+        "introduction"
+      ],
+      "question_ids": [
+        "ch09-q-q9-1",
+        "ch09-q-p9-2"
+      ]
+    },
+    {
+      "id": "ch09-9-1-1",
+      "chapter": 9,
+      "title": "9.1.1 Nodes and Links",
+      "parent": "ch09-9-1",
+      "children": [],
+      "source": "book 9.1.1; p.239",
+      "kind": "concept",
+      "asset_ids": [
+        "ch09_ill_002"
+      ],
+      "terms": [
+        "1",
+        "9",
+        "links",
+        "nodes"
+      ],
+      "question_ids": [
+        "ch09-q-q9-12",
+        "ch09-q-p9-1",
+        "ch09-q-p9-3",
+        "ch09-q-p9-4",
+        "ch09-q-p9-15"
+      ]
+    },
+    {
+      "id": "ch09-9-1-2",
+      "chapter": 9,
+      "title": "9.1.2 Services",
+      "parent": "ch09-9-1",
+      "children": [
+        "ch09-9-1-2-framing",
+        "ch09-9-1-2-flow-control",
+        "ch09-9-1-2-error-control",
+        "ch09-9-1-2-congestion-control"
+      ],
+      "source": "book 9.1.2; p.239",
+      "kind": "concept",
+      "asset_ids": [
+        "ch09_ill_003"
+      ],
+      "terms": [
+        "1",
+        "2",
+        "9",
+        "services"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch09-9-1-2-framing",
+      "chapter": 9,
+      "title": "Framing",
+      "parent": "ch09-9-1-2",
+      "children": [],
+      "source": "book p.241",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "framing"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch09-9-1-2-flow-control",
+      "chapter": 9,
+      "title": "Flow Control",
+      "parent": "ch09-9-1-2",
+      "children": [],
+      "source": "book p.241",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "control",
+        "flow"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch09-9-1-2-error-control",
+      "chapter": 9,
+      "title": "Error Control",
+      "parent": "ch09-9-1-2",
+      "children": [],
+      "source": "book p.241",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "control",
+        "error"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch09-9-1-2-congestion-control",
+      "chapter": 9,
+      "title": "Congestion Control",
+      "parent": "ch09-9-1-2",
+      "children": [],
+      "source": "book p.241",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "congestion",
+        "control"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch09-9-1-3",
+      "chapter": 9,
+      "title": "9.1.3 Two Categories of Links",
+      "parent": "ch09-9-1",
+      "children": [],
+      "source": "book 9.1.3; p.241",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "3",
+        "9",
+        "categories",
+        "links",
+        "two"
+      ],
+      "question_ids": [
+        "ch09-q-q9-2",
+        "ch09-q-p9-5"
+      ]
+    },
+    {
+      "id": "ch09-9-1-4",
+      "chapter": 9,
+      "title": "9.1.4 Two Sublayers",
+      "parent": "ch09-9-1",
+      "children": [],
+      "source": "book 9.1.4; p.242",
+      "kind": "concept",
+      "asset_ids": [
+        "ch09_ill_004"
+      ],
+      "terms": [
+        "1",
+        "4",
+        "9",
+        "sublayers",
+        "two"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch09-9-2",
+      "chapter": 9,
+      "title": "9.2 LINK-LAYER ADDRESSING",
+      "parent": null,
+      "children": [
+        "ch09-9-2-1",
+        "ch09-9-2-2",
+        "ch09-9-2-3"
+      ],
+      "source": "book 9.2; p.242",
+      "kind": "concept",
+      "asset_ids": [
+        "ch09_ill_005"
+      ],
+      "terms": [
+        "2",
+        "9",
+        "addressing",
+        "layer",
+        "link"
+      ],
+      "question_ids": [
+        "ch09-q-q9-3",
+        "ch09-q-q9-6",
+        "ch09-q-q9-14",
+        "ch09-q-p9-6",
+        "ch09-q-p9-7",
+        "ch09-q-p9-8"
+      ]
+    },
+    {
+      "id": "ch09-9-2-1",
+      "chapter": 9,
+      "title": "9.2.1 Three Types of addresses",
+      "parent": "ch09-9-2",
+      "children": [
+        "ch09-9-2-1-unicast-address",
+        "ch09-9-2-1-multicast-address",
+        "ch09-9-2-1-broadcast-address"
+      ],
+      "source": "book 9.2.1; p.244",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "2",
+        "9",
+        "addresses",
+        "three",
+        "types"
+      ],
+      "question_ids": [
+        "ch09-q-q9-10"
+      ]
+    },
+    {
+      "id": "ch09-9-2-1-unicast-address",
+      "chapter": 9,
+      "title": "Unicast Address",
+      "parent": "ch09-9-2-1",
+      "children": [
+        "ch09-example-9-1"
+      ],
+      "source": "book p.244",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "address",
+        "unicast"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch09-example-9-1",
+      "chapter": 9,
+      "title": "Example 9.1",
+      "parent": "ch09-9-2-1-unicast-address",
+      "children": [],
+      "source": "book Example 9.1",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "9",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch09-9-2-1-multicast-address",
+      "chapter": 9,
+      "title": "Multicast Address",
+      "parent": "ch09-9-2-1",
+      "children": [
+        "ch09-example-9-2"
+      ],
+      "source": "book p.244",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "address",
+        "multicast"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch09-example-9-2",
+      "chapter": 9,
+      "title": "Example 9.2",
+      "parent": "ch09-9-2-1-multicast-address",
+      "children": [],
+      "source": "book Example 9.2",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "9",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch09-9-2-1-broadcast-address",
+      "chapter": 9,
+      "title": "Broadcast Address",
+      "parent": "ch09-9-2-1",
+      "children": [
+        "ch09-example-9-3"
+      ],
+      "source": "book p.245",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "address",
+        "broadcast"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch09-example-9-3",
+      "chapter": 9,
+      "title": "Example 9.3",
+      "parent": "ch09-9-2-1-broadcast-address",
+      "children": [],
+      "source": "book Example 9.3",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "9",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch09-9-2-2",
+      "chapter": 9,
+      "title": "9.2.2 Address Resolution Protocol (ARP)",
+      "parent": "ch09-9-2",
+      "children": [
+        "ch09-9-2-2-caching",
+        "ch09-9-2-2-packet-format"
+      ],
+      "source": "book 9.2.2; p.245",
+      "kind": "concept",
+      "asset_ids": [
+        "ch09_ill_006",
+        "ch09_ill_007"
+      ],
+      "terms": [
+        "2",
+        "9",
+        "address",
+        "arp",
+        "protocol",
+        "resolution"
+      ],
+      "question_ids": [
+        "ch09-q-q9-11",
+        "ch09-q-p9-11",
+        "ch09-q-p9-13",
+        "ch09-q-p9-15"
+      ]
+    },
+    {
+      "id": "ch09-9-2-2-caching",
+      "chapter": 9,
+      "title": "Caching",
+      "parent": "ch09-9-2-2",
+      "children": [],
+      "source": "book p.247",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "caching"
+      ],
+      "question_ids": [
+        "ch09-q-q9-11",
+        "ch09-q-p9-12"
+      ]
+    },
+    {
+      "id": "ch09-9-2-2-packet-format",
+      "chapter": 9,
+      "title": "Packet Format",
+      "parent": "ch09-9-2-2",
+      "children": [
+        "ch09-example-9-4"
+      ],
+      "source": "book p.247",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "format",
+        "packet"
+      ],
+      "question_ids": [
+        "ch09-q-q9-4",
+        "ch09-q-q9-5"
+      ]
+    },
+    {
+      "id": "ch09-example-9-4",
+      "chapter": 9,
+      "title": "Example 9.4",
+      "parent": "ch09-9-2-2-packet-format",
+      "children": [],
+      "source": "book Example 9.4",
+      "kind": "worked_example",
+      "asset_ids": [
+        "ch09_ill_008",
+        "ch09_ill_009"
+      ],
+      "terms": [
+        "4",
+        "9",
+        "example"
+      ],
+      "question_ids": [
+        "ch09-q-q9-7",
+        "ch09-q-q9-8",
+        "ch09-q-q9-9"
+      ]
+    },
+    {
+      "id": "ch09-9-2-3",
+      "chapter": 9,
+      "title": "9.2.3 An Example of Communication",
+      "parent": "ch09-9-2",
+      "children": [
+        "ch09-9-2-3-activities-at-alice-s-site",
+        "ch09-9-2-3-activities-at-router-r1",
+        "ch09-9-2-3-activities-at-router-r2",
+        "ch09-9-2-3-activities-at-bob-s-site",
+        "ch09-9-2-3-changes-in-addresses"
+      ],
+      "source": "book 9.2.3; p.248",
+      "kind": "concept",
+      "asset_ids": [
+        "ch09_ill_010"
+      ],
+      "terms": [
+        "2",
+        "3",
+        "9",
+        "communication",
+        "example"
+      ],
+      "question_ids": [
+        "ch09-q-q9-12",
+        "ch09-q-q9-14",
+        "ch09-q-p9-9",
+        "ch09-q-p9-10"
+      ]
+    },
+    {
+      "id": "ch09-9-2-3-activities-at-alice-s-site",
+      "chapter": 9,
+      "title": "Activities at Alice’s Site",
+      "parent": "ch09-9-2-3",
+      "children": [],
+      "source": "book p.249",
+      "kind": "concept",
+      "asset_ids": [
+        "ch09_ill_011"
+      ],
+      "terms": [
+        "activities",
+        "alice",
+        "s",
+        "site"
+      ],
+      "question_ids": [
+        "ch09-q-p9-14"
+      ]
+    },
+    {
+      "id": "ch09-9-2-3-activities-at-router-r1",
+      "chapter": 9,
+      "title": "Activities at Router R1",
+      "parent": "ch09-9-2-3",
+      "children": [],
+      "source": "book p.250",
+      "kind": "concept",
+      "asset_ids": [
+        "ch09_ill_012"
+      ],
+      "terms": [
+        "activities",
+        "r1",
+        "router"
+      ],
+      "question_ids": [
+        "ch09-q-p9-14"
+      ]
+    },
+    {
+      "id": "ch09-9-2-3-activities-at-router-r2",
+      "chapter": 9,
+      "title": "Activities at Router R2",
+      "parent": "ch09-9-2-3",
+      "children": [],
+      "source": "book p.251",
+      "kind": "concept",
+      "asset_ids": [
+        "ch09_ill_013"
+      ],
+      "terms": [
+        "activities",
+        "r2",
+        "router"
+      ],
+      "question_ids": [
+        "ch09-q-p9-14"
+      ]
+    },
+    {
+      "id": "ch09-9-2-3-activities-at-bob-s-site",
+      "chapter": 9,
+      "title": "Activities at Bob’s Site",
+      "parent": "ch09-9-2-3",
+      "children": [],
+      "source": "book p.251",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "activities",
+        "bob",
+        "s",
+        "site"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch09-9-2-3-changes-in-addresses",
+      "chapter": 9,
+      "title": "Changes in Addresses",
+      "parent": "ch09-9-2-3",
+      "children": [],
+      "source": "book p.251",
+      "kind": "concept",
+      "asset_ids": [
+        "ch09_ill_014"
+      ],
+      "terms": [
+        "addresses",
+        "changes"
+      ],
+      "question_ids": [
+        "ch09-q-q9-13",
+        "ch09-q-p9-10"
+      ]
+    },
+    {
+      "id": "ch09-9-3",
+      "chapter": 9,
+      "title": "9.3 END-CHAPTER MATERIALS",
+      "parent": null,
+      "children": [
+        "ch09-9-3-1",
+        "ch09-9-3-2",
+        "ch09-9-3-3"
+      ],
+      "source": "book 9.3; p.252",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "9",
+        "chapter",
+        "end",
+        "materials"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch09-9-3-1",
+      "chapter": 9,
+      "title": "9.3.1 Recommended Reading",
+      "parent": "ch09-9-3",
+      "children": [
+        "ch09-9-3-1-books"
+      ],
+      "source": "book 9.3.1; p.252",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "3",
+        "9",
+        "reading",
+        "recommended"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch09-9-3-1-books",
+      "chapter": 9,
+      "title": "Books",
+      "parent": "ch09-9-3-1",
+      "children": [],
+      "source": "book p.252",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "books"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch09-9-3-2",
+      "chapter": 9,
+      "title": "9.3.2 Key Terms",
+      "parent": "ch09-9-3",
+      "children": [],
+      "source": "book 9.3.2; p.252",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "3",
+        "9",
+        "key",
+        "terms"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch09-9-3-3",
+      "chapter": 9,
+      "title": "9.3.3 Summary",
+      "parent": "ch09-9-3",
+      "children": [],
+      "source": "book 9.3.3; p.252",
+      "kind": "summary",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "9",
         "summary"
       ],
       "question_ids": []

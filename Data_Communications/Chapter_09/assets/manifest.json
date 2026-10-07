@@ -1,0 +1,4853 @@
+{
+  "chapter": 9,
+  "spec_version": "1.1-controller",
+  "generated_at": "2026-10-07T03:32:00+00:00",
+  "assets": [
+    {
+      "id": "ch09_ill_001",
+      "file": "ch09_ill_001.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 9.1",
+      "section_id": "ch09-9-1",
+      "alt": "Figure 9.1: Communication at the data-link layer",
+      "sources": [
+        "book Figure 9.1; p.238"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 1260,
+      "sha256": "92ae81c16d869e649d7f0c9efd13a931f41ed49b4c149c3ef1698a3d54ed2bad",
+      "description": "Figure 9.1: Communication at the data-link layer. A layered Internet path connects an application on the source host to an application on the destination host through routers; network-layer communication is end to end while data-link communication is hop by hop.",
+      "structure": "A layered Internet path connects an application on the source host to an application on the destination host through routers; network-layer communication is end to end while data-link communication is hop by hop.",
+      "text_in_image": "Sky Research; Alice; Application; Alice; Transport; Network; Data-link; Physical; R2; Network; To other; Data-link; ISPs; Physical; R2; R1; R4; Network; To other; R3; R4; Data-link; ISPs; Physical; Switched; R5; WAN; Network; Data-link; National ISP; R5; Physical; ISP; R7; Network; To other; ISPs; Data-link; R6; R7; Physical; Legend; Point-to-point WAN; Bob; LAN switch; Application; Transport; WAN switch; Network; Data-link; Router; Bob; Physical; Scientific Books",
+      "use_when": "Teach ch09-9-1, interpret Figure 9.1, trace address changes, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 4,
+      "source_bbox": [
+        99.32,
+        155.86,
+        451.32,
+        575.66
+      ],
+      "labels": [
+        {
+          "text": "Sky Research",
+          "bbox": [
+            0.118,
+            0.0817,
+            0.242,
+            0.1007
+          ]
+        },
+        {
+          "text": "Alice",
+          "bbox": [
+            0.4312,
+            0.0835,
+            0.4804,
+            0.1026
+          ]
+        },
+        {
+          "text": "Application",
+          "bbox": [
+            0.4939,
+            0.106,
+            0.6012,
+            0.1251
+          ]
+        },
+        {
+          "text": "Alice",
+          "bbox": [
+            0.2512,
+            0.11,
+            0.3004,
+            0.1291
+          ]
+        },
+        {
+          "text": "Transport",
+          "bbox": [
+            0.4939,
+            0.129,
+            0.5815,
+            0.1481
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.4939,
+            0.1529,
+            0.5732,
+            0.172
+          ]
+        },
+        {
+          "text": "Data-link",
+          "bbox": [
+            0.4939,
+            0.1829,
+            0.5861,
+            0.2019
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.4939,
+            0.2023,
+            0.5708,
+            0.2214
+          ]
+        },
+        {
+          "text": "R2",
+          "bbox": [
+            0.5339,
+            0.2262,
+            0.5604,
+            0.2452
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.593,
+            0.2491,
+            0.6723,
+            0.2681
+          ]
+        },
+        {
+          "text": "To other",
+          "bbox": [
+            0.0364,
+            0.2678,
+            0.1123,
+            0.2868
+          ]
+        },
+        {
+          "text": "Data-link",
+          "bbox": [
+            0.593,
+            0.2789,
+            0.6851,
+            0.2979
+          ]
+        },
+        {
+          "text": "ISPs",
+          "bbox": [
+            0.0535,
+            0.2906,
+            0.0952,
+            0.3097
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.593,
+            0.2983,
+            0.6699,
+            0.3174
+          ]
+        },
+        {
+          "text": "R2",
+          "bbox": [
+            0.364,
+            0.3051,
+            0.3905,
+            0.3242
+          ]
+        },
+        {
+          "text": "R1",
+          "bbox": [
+            0.2293,
+            0.306,
+            0.2558,
+            0.3251
+          ]
+        },
+        {
+          "text": "R4",
+          "bbox": [
+            0.608,
+            0.3312,
+            0.6345,
+            0.3502
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.6687,
+            0.3534,
+            0.748,
+            0.3725
+          ]
+        },
+        {
+          "text": "To other",
+          "bbox": [
+            0.0131,
+            0.3667,
+            0.0889,
+            0.3857
+          ]
+        },
+        {
+          "text": "R3",
+          "bbox": [
+            0.2791,
+            0.3821,
+            0.3056,
+            0.4012
+          ]
+        },
+        {
+          "text": "R4",
+          "bbox": [
+            0.3975,
+            0.3821,
+            0.4241,
+            0.4012
+          ]
+        },
+        {
+          "text": "Data-link",
+          "bbox": [
+            0.6687,
+            0.3832,
+            0.7609,
+            0.4023
+          ]
+        },
+        {
+          "text": "ISPs",
+          "bbox": [
+            0.0301,
+            0.3896,
+            0.0718,
+            0.4086
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.6687,
+            0.4027,
+            0.7457,
+            0.4217
+          ]
+        },
+        {
+          "text": "Switched",
+          "bbox": [
+            0.2121,
+            0.5027,
+            0.2967,
+            0.5217
+          ]
+        },
+        {
+          "text": "R5",
+          "bbox": [
+            0.6885,
+            0.5047,
+            0.715,
+            0.5238
+          ]
+        },
+        {
+          "text": "WAN",
+          "bbox": [
+            0.2287,
+            0.5255,
+            0.2802,
+            0.5446
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.7491,
+            0.5274,
+            0.8284,
+            0.5465
+          ]
+        },
+        {
+          "text": "Data-link",
+          "bbox": [
+            0.7491,
+            0.5572,
+            0.8413,
+            0.5763
+          ]
+        },
+        {
+          "text": "National ISP",
+          "bbox": [
+            0.2198,
+            0.5616,
+            0.3366,
+            0.5806
+          ]
+        },
+        {
+          "text": "R5",
+          "bbox": [
+            0.4852,
+            0.5616,
+            0.5117,
+            0.5806
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.7491,
+            0.5767,
+            0.826,
+            0.5957
+          ]
+        },
+        {
+          "text": "ISP",
+          "bbox": [
+            0.6521,
+            0.6302,
+            0.685,
+            0.6493
+          ]
+        },
+        {
+          "text": "R7",
+          "bbox": [
+            0.7599,
+            0.6431,
+            0.7864,
+            0.6622
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.8206,
+            0.6654,
+            0.8999,
+            0.6844
+          ]
+        },
+        {
+          "text": "To other",
+          "bbox": [
+            0.2714,
+            0.6689,
+            0.3473,
+            0.6879
+          ]
+        },
+        {
+          "text": "ISPs",
+          "bbox": [
+            0.2885,
+            0.6917,
+            0.3302,
+            0.7108
+          ]
+        },
+        {
+          "text": "Data-link",
+          "bbox": [
+            0.8206,
+            0.6952,
+            0.9128,
+            0.7142
+          ]
+        },
+        {
+          "text": "R6",
+          "bbox": [
+            0.4744,
+            0.707,
+            0.5009,
+            0.726
+          ]
+        },
+        {
+          "text": "R7",
+          "bbox": [
+            0.614,
+            0.707,
+            0.6405,
+            0.726
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.8206,
+            0.7146,
+            0.8975,
+            0.7337
+          ]
+        },
+        {
+          "text": "Legend",
+          "bbox": [
+            0.0686,
+            0.742,
+            0.1406,
+            0.761
+          ]
+        },
+        {
+          "text": "Point-to-point WAN",
+          "bbox": [
+            0.1681,
+            0.7693,
+            0.3522,
+            0.7884
+          ]
+        },
+        {
+          "text": "Bob",
+          "bbox": [
+            0.8297,
+            0.7937,
+            0.8676,
+            0.8128
+          ]
+        },
+        {
+          "text": "LAN switch",
+          "bbox": [
+            0.1679,
+            0.8067,
+            0.2796,
+            0.8257
+          ]
+        },
+        {
+          "text": "Application",
+          "bbox": [
+            0.8868,
+            0.8166,
+            0.9941,
+            0.8356
+          ]
+        },
+        {
+          "text": "Transport",
+          "bbox": [
+            0.8868,
+            0.8395,
+            0.9743,
+            0.8586
+          ]
+        },
+        {
+          "text": "WAN switch",
+          "bbox": [
+            0.168,
+            0.8549,
+            0.2846,
+            0.874
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.8868,
+            0.8634,
+            0.9661,
+            0.8825
+          ]
+        },
+        {
+          "text": "Data-link",
+          "bbox": [
+            0.8868,
+            0.8934,
+            0.9789,
+            0.9125
+          ]
+        },
+        {
+          "text": "Router",
+          "bbox": [
+            0.1679,
+            0.9033,
+            0.2297,
+            0.9224
+          ]
+        },
+        {
+          "text": "Bob",
+          "bbox": [
+            0.6009,
+            0.908,
+            0.6388,
+            0.9271
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.8868,
+            0.9129,
+            0.9637,
+            0.9319
+          ]
+        },
+        {
+          "text": "Scientific Books",
+          "bbox": [
+            0.5455,
+            0.9358,
+            0.6951,
+            0.9548
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:33:20+00:00"
+      }
+    },
+    {
+      "id": "ch09_ill_002",
+      "file": "ch09_ill_002.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 9.2",
+      "section_id": "ch09-9-1-1",
+      "alt": "Figure 9.2: Nodes and Links",
+      "sources": [
+        "book Figure 9.2; p.239"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 529,
+      "sha256": "cdd2e23c109e2fd98ad9c7472685c7c583ef5637e4e7b09d9fe4aca6ca374e73",
+      "description": "Figure 9.2: Nodes and Links. Two views identify nodes and links: LANs joined by routers form point-to-point Internet links, and an abstract chain alternates node and link symbols.",
+      "structure": "Two views identify nodes and links: LANs joined by routers form point-to-point Internet links, and an abstract chain alternates node and link symbols.",
+      "text_in_image": "Point-to-point; Point-to-point; network; network; LAN; LAN; LAN; a. A small part of the Internet; Link; Link; Link; Link; Link; Node; Node; Node; Node; Node; Node; b. Nodes and links",
+      "use_when": "Teach ch09-9-1-1, interpret Figure 9.2, trace address changes, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 5,
+      "source_bbox": [
+        114.32,
+        242.38,
+        466.32,
+        418.46
+      ],
+      "labels": [
+        {
+          "text": "Point-to-point",
+          "bbox": [
+            0.305,
+            0.1978,
+            0.4307,
+            0.2427
+          ]
+        },
+        {
+          "text": "Point-to-point",
+          "bbox": [
+            0.6436,
+            0.1978,
+            0.7694,
+            0.2427
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.3312,
+            0.2425,
+            0.4045,
+            0.2875
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.6699,
+            0.2425,
+            0.7431,
+            0.2875
+          ]
+        },
+        {
+          "text": "LAN",
+          "bbox": [
+            0.0822,
+            0.3609,
+            0.1283,
+            0.4059
+          ]
+        },
+        {
+          "text": "LAN",
+          "bbox": [
+            0.5072,
+            0.3636,
+            0.5532,
+            0.4086
+          ]
+        },
+        {
+          "text": "LAN",
+          "bbox": [
+            0.8055,
+            0.3636,
+            0.8516,
+            0.4086
+          ]
+        },
+        {
+          "text": "a. A small part of the Internet",
+          "bbox": [
+            0.3763,
+            0.4728,
+            0.6396,
+            0.5178
+          ]
+        },
+        {
+          "text": "Link",
+          "bbox": [
+            0.1316,
+            0.6704,
+            0.1777,
+            0.7153
+          ]
+        },
+        {
+          "text": "Link",
+          "bbox": [
+            0.3382,
+            0.6704,
+            0.3843,
+            0.7153
+          ]
+        },
+        {
+          "text": "Link",
+          "bbox": [
+            0.5329,
+            0.6704,
+            0.579,
+            0.7153
+          ]
+        },
+        {
+          "text": "Link",
+          "bbox": [
+            0.6837,
+            0.6704,
+            0.7298,
+            0.7153
+          ]
+        },
+        {
+          "text": "Link",
+          "bbox": [
+            0.8418,
+            0.6704,
+            0.8879,
+            0.7153
+          ]
+        },
+        {
+          "text": "Node",
+          "bbox": [
+            0.029,
+            0.7528,
+            0.0776,
+            0.7977
+          ]
+        },
+        {
+          "text": "Node",
+          "bbox": [
+            0.2334,
+            0.7528,
+            0.2819,
+            0.7977
+          ]
+        },
+        {
+          "text": "Node",
+          "bbox": [
+            0.4406,
+            0.7528,
+            0.4892,
+            0.7977
+          ]
+        },
+        {
+          "text": "Node",
+          "bbox": [
+            0.6227,
+            0.7528,
+            0.6712,
+            0.7977
+          ]
+        },
+        {
+          "text": "Node",
+          "bbox": [
+            0.7422,
+            0.7528,
+            0.7908,
+            0.7977
+          ]
+        },
+        {
+          "text": "Node",
+          "bbox": [
+            0.9389,
+            0.7528,
+            0.9875,
+            0.7977
+          ]
+        },
+        {
+          "text": "b. Nodes and links",
+          "bbox": [
+            0.4222,
+            0.8403,
+            0.5881,
+            0.8852
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:33:20+00:00"
+      }
+    },
+    {
+      "id": "ch09_ill_003",
+      "file": "ch09_ill_003.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 9.3",
+      "section_id": "ch09-9-1-2",
+      "alt": "Figure 9.3: A communication with only three nodes",
+      "sources": [
+        "book Figure 9.3; p.240"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 601,
+      "sha256": "733ff576620d67e63a9b7834fa80792679848d35aa06c984650413fb33e463aa",
+      "description": "Figure 9.3: A communication with only three nodes. A datagram crosses three nodes using two different link types; each hop places the unchanged network-layer datagram inside a link-specific frame with its own data-link header.",
+      "structure": "A datagram crosses three nodes using two different link types; each hop places the unchanged network-layer datagram inside a link-specific frame with its own data-link header.",
+      "text_in_image": "Actual link; Data-link header; 2; Legend; Logical link; Datagram; Datagram; Datagram; Datagram; Datagram; 2; 2; Data link; Data link; Data link; Data link; Frame: type 1; Frame: type 2; Link: of type 1; Link: of type 2; Source; Destination; To another link",
+      "use_when": "Teach ch09-9-1-2, interpret Figure 9.3, trace address changes, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 6,
+      "source_bbox": [
+        99.32,
+        371.92,
+        451.32,
+        571.82
+      ],
+      "labels": [
+        {
+          "text": "Actual link",
+          "bbox": [
+            0.3873,
+            0.1947,
+            0.4884,
+            0.2345
+          ]
+        },
+        {
+          "text": "Data-link header",
+          "bbox": [
+            0.5761,
+            0.2153,
+            0.7274,
+            0.2551
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.5487,
+            0.2204,
+            0.5586,
+            0.2552
+          ]
+        },
+        {
+          "text": "Legend",
+          "bbox": [
+            0.1743,
+            0.2364,
+            0.2459,
+            0.2762
+          ]
+        },
+        {
+          "text": "Logical link",
+          "bbox": [
+            0.3876,
+            0.2617,
+            0.4975,
+            0.3016
+          ]
+        },
+        {
+          "text": "Datagram",
+          "bbox": [
+            0.0165,
+            0.3987,
+            0.1061,
+            0.4387
+          ]
+        },
+        {
+          "text": "Datagram",
+          "bbox": [
+            0.4551,
+            0.3987,
+            0.5447,
+            0.4387
+          ]
+        },
+        {
+          "text": "Datagram",
+          "bbox": [
+            0.8814,
+            0.3987,
+            0.971,
+            0.4387
+          ]
+        },
+        {
+          "text": "Datagram",
+          "bbox": [
+            0.2335,
+            0.5171,
+            0.3119,
+            0.5521
+          ]
+        },
+        {
+          "text": "Datagram",
+          "bbox": [
+            0.7264,
+            0.5171,
+            0.8048,
+            0.5521
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.2137,
+            0.5186,
+            0.2236,
+            0.5536
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.7065,
+            0.5186,
+            0.7165,
+            0.5536
+          ]
+        },
+        {
+          "text": "Data link",
+          "bbox": [
+            0.0159,
+            0.5218,
+            0.1057,
+            0.5616
+          ]
+        },
+        {
+          "text": "Data link",
+          "bbox": [
+            0.3845,
+            0.5218,
+            0.4744,
+            0.5616
+          ]
+        },
+        {
+          "text": "Data link",
+          "bbox": [
+            0.5162,
+            0.5218,
+            0.606,
+            0.5616
+          ]
+        },
+        {
+          "text": "Data link",
+          "bbox": [
+            0.8835,
+            0.5218,
+            0.9733,
+            0.5616
+          ]
+        },
+        {
+          "text": "Frame: type 1",
+          "bbox": [
+            0.1843,
+            0.5954,
+            0.3099,
+            0.6352
+          ]
+        },
+        {
+          "text": "Frame: type 2",
+          "bbox": [
+            0.6898,
+            0.5954,
+            0.8154,
+            0.6352
+          ]
+        },
+        {
+          "text": "Link: of type 1",
+          "bbox": [
+            0.2142,
+            0.8203,
+            0.3568,
+            0.8601
+          ]
+        },
+        {
+          "text": "Link: of type 2",
+          "bbox": [
+            0.6453,
+            0.8203,
+            0.7878,
+            0.8601
+          ]
+        },
+        {
+          "text": "Source",
+          "bbox": [
+            0.0299,
+            0.8525,
+            0.0927,
+            0.8923
+          ]
+        },
+        {
+          "text": "Destination",
+          "bbox": [
+            0.8903,
+            0.8675,
+            0.9945,
+            0.9073
+          ]
+        },
+        {
+          "text": "To another link",
+          "bbox": [
+            0.4397,
+            0.9103,
+            0.5773,
+            0.9501
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:33:20+00:00"
+      }
+    },
+    {
+      "id": "ch09_ill_004",
+      "file": "ch09_ill_004.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 9.4",
+      "section_id": "ch09-9-1-4",
+      "alt": "Figure 9.4: Dividing the data-link layer into two sublayers",
+      "sources": [
+        "book Figure 9.4; p.242"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 348,
+      "sha256": "593635c76458b947625cb9e3ace5aabe3cab0bade24f2f086f2c196af89d6b83",
+      "description": "Figure 9.4: Dividing the data-link layer into two sublayers. The data-link layer is split into data-link control and media-access control sublayers for a broadcast link, while a point-to-point link uses data-link control without shared-medium access.",
+      "structure": "The data-link layer is split into data-link control and media-access control sublayers for a broadcast link, while a point-to-point link uses data-link control without shared-medium access.",
+      "text_in_image": "Data-link layer; Data-link layer; Data link control sublayer; Data link control sublayer; Media access control sublayer; a. Data-link layer of a broadcast link; b. Data-link layer of a point-to-point link",
+      "use_when": "Teach ch09-9-1-4, interpret Figure 9.4, trace address changes, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 8,
+      "source_bbox": [
+        99.32,
+        242.92,
+        451.32,
+        358.46
+      ],
+      "labels": [
+        {
+          "text": "Data-link layer",
+          "bbox": [
+            0.0792,
+            0.3146,
+            0.1019,
+            0.7318
+          ]
+        },
+        {
+          "text": "Data-link layer",
+          "bbox": [
+            0.5158,
+            0.3146,
+            0.5385,
+            0.7318
+          ]
+        },
+        {
+          "text": "Data link control sublayer",
+          "bbox": [
+            0.1673,
+            0.3819,
+            0.4211,
+            0.4512
+          ]
+        },
+        {
+          "text": "Data link control sublayer",
+          "bbox": [
+            0.6039,
+            0.3819,
+            0.8577,
+            0.4512
+          ]
+        },
+        {
+          "text": "Media access control sublayer",
+          "bbox": [
+            0.1569,
+            0.5578,
+            0.4315,
+            0.6271
+          ]
+        },
+        {
+          "text": "a. Data-link layer of a broadcast link",
+          "bbox": [
+            0.1241,
+            0.8061,
+            0.4567,
+            0.8754
+          ]
+        },
+        {
+          "text": "b. Data-link layer of a point-to-point link",
+          "bbox": [
+            0.5371,
+            0.8061,
+            0.9093,
+            0.8754
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:33:20+00:00"
+      }
+    },
+    {
+      "id": "ch09_ill_005",
+      "file": "ch09_ill_005.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 9.5",
+      "section_id": "ch09-9-2",
+      "alt": "Figure 9.5: IP addresses and link-layer addresses in a small internet",
+      "sources": [
+        "book Figure 9.5; p.243"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 881,
+      "sha256": "76e1d9d0f86d3a48ec0b19bc075f998c2e3d188be62fd7d1d5408eab742b540b",
+      "description": "Figure 9.5: IP addresses and link-layer addresses in a small internet. Alice sends through routers R1 and R2 to Bob. IP source and destination remain N1 and N8, while each frame receives the local source and destination link addresses for its link.",
+      "structure": "Alice sends through routers R1 and R2 to Bob. IP source and destination remain N1 and N8, while each frame receives the local source and destination link addresses for its link.",
+      "text_in_image": "To another; link; N3 L3; Frame; Alice; N8; L2; L1; N1; Data; N2 L2; N4 L4; R1; N1 L1; Link 1; Data; Order of addresses; N: IP address; IP addresses: source-destination; Frame; N8; Legend; L: Link-layer address; Link-layer address: destination-source; N1; L4; Link 3; L5; N8 L8; R2; N7 L7; N5 L5; Link 2; N8; L8; L7; N1; Data; Bob; Frame; N6 L6; To another; network",
+      "use_when": "Teach ch09-9-2, interpret Figure 9.5, trace address changes, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 9,
+      "source_bbox": [
+        114.32,
+        167.86,
+        466.32,
+        461.06
+      ],
+      "labels": [
+        {
+          "text": "To another",
+          "bbox": [
+            0.6689,
+            0.1169,
+            0.7662,
+            0.1442
+          ]
+        },
+        {
+          "text": "link",
+          "bbox": [
+            0.6998,
+            0.1403,
+            0.7352,
+            0.1676
+          ]
+        },
+        {
+          "text": "N3 L3",
+          "bbox": [
+            0.6932,
+            0.1718,
+            0.7454,
+            0.2069
+          ]
+        },
+        {
+          "text": "Frame",
+          "bbox": [
+            0.3236,
+            0.235,
+            0.3817,
+            0.2623
+          ]
+        },
+        {
+          "text": "Alice",
+          "bbox": [
+            0.0164,
+            0.2659,
+            0.0657,
+            0.2932
+          ]
+        },
+        {
+          "text": "N8",
+          "bbox": [
+            0.3593,
+            0.2782,
+            0.3842,
+            0.3124
+          ]
+        },
+        {
+          "text": "L2",
+          "bbox": [
+            0.2306,
+            0.2793,
+            0.253,
+            0.3134
+          ]
+        },
+        {
+          "text": "L1",
+          "bbox": [
+            0.276,
+            0.2793,
+            0.2984,
+            0.3134
+          ]
+        },
+        {
+          "text": "N1",
+          "bbox": [
+            0.3247,
+            0.2793,
+            0.3496,
+            0.3134
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.4086,
+            0.2865,
+            0.4553,
+            0.3138
+          ]
+        },
+        {
+          "text": "N2 L2",
+          "bbox": [
+            0.6345,
+            0.2914,
+            0.6867,
+            0.3265
+          ]
+        },
+        {
+          "text": "N4 L4",
+          "bbox": [
+            0.7562,
+            0.2914,
+            0.8085,
+            0.3265
+          ]
+        },
+        {
+          "text": "R1",
+          "bbox": [
+            0.7067,
+            0.3034,
+            0.7333,
+            0.3307
+          ]
+        },
+        {
+          "text": "N1 L1",
+          "bbox": [
+            0.0319,
+            0.304,
+            0.0842,
+            0.3391
+          ]
+        },
+        {
+          "text": "Link 1",
+          "bbox": [
+            0.0164,
+            0.4001,
+            0.0764,
+            0.4274
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.9468,
+            0.4317,
+            0.9695,
+            0.4877
+          ]
+        },
+        {
+          "text": "Order of addresses",
+          "bbox": [
+            0.3769,
+            0.4736,
+            0.5473,
+            0.5009
+          ]
+        },
+        {
+          "text": "N: IP address",
+          "bbox": [
+            0.1221,
+            0.5039,
+            0.2446,
+            0.5312
+          ]
+        },
+        {
+          "text": "IP addresses: source-destination",
+          "bbox": [
+            0.3769,
+            0.5098,
+            0.6686,
+            0.5371
+          ]
+        },
+        {
+          "text": "Frame",
+          "bbox": [
+            0.9033,
+            0.5126,
+            0.926,
+            0.5824
+          ]
+        },
+        {
+          "text": "N8",
+          "bbox": [
+            0.9402,
+            0.5189,
+            0.9686,
+            0.5488
+          ]
+        },
+        {
+          "text": "Legend",
+          "bbox": [
+            0.0297,
+            0.52,
+            0.0976,
+            0.5473
+          ]
+        },
+        {
+          "text": "L: Link-layer address",
+          "bbox": [
+            0.1221,
+            0.5366,
+            0.3178,
+            0.5639
+          ]
+        },
+        {
+          "text": "Link-layer address: destination-source",
+          "bbox": [
+            0.3769,
+            0.5425,
+            0.7255,
+            0.5698
+          ]
+        },
+        {
+          "text": "N1",
+          "bbox": [
+            0.9411,
+            0.5585,
+            0.9695,
+            0.5884
+          ]
+        },
+        {
+          "text": "L4",
+          "bbox": [
+            0.9411,
+            0.6201,
+            0.9695,
+            0.647
+          ]
+        },
+        {
+          "text": "Link 3",
+          "bbox": [
+            0.0164,
+            0.6526,
+            0.0764,
+            0.6799
+          ]
+        },
+        {
+          "text": "L5",
+          "bbox": [
+            0.9411,
+            0.6745,
+            0.9695,
+            0.7014
+          ]
+        },
+        {
+          "text": "N8 L8",
+          "bbox": [
+            0.0338,
+            0.7253,
+            0.0861,
+            0.7604
+          ]
+        },
+        {
+          "text": "R2",
+          "bbox": [
+            0.7067,
+            0.7325,
+            0.7333,
+            0.7598
+          ]
+        },
+        {
+          "text": "N7 L7",
+          "bbox": [
+            0.6249,
+            0.742,
+            0.6786,
+            0.7771
+          ]
+        },
+        {
+          "text": "N5 L5",
+          "bbox": [
+            0.7565,
+            0.742,
+            0.8087,
+            0.7771
+          ]
+        },
+        {
+          "text": "Link 2",
+          "bbox": [
+            0.9596,
+            0.7682,
+            0.9824,
+            0.8402
+          ]
+        },
+        {
+          "text": "N8",
+          "bbox": [
+            0.3577,
+            0.7741,
+            0.3826,
+            0.8082
+          ]
+        },
+        {
+          "text": "L8",
+          "bbox": [
+            0.2306,
+            0.7748,
+            0.253,
+            0.8089
+          ]
+        },
+        {
+          "text": "L7",
+          "bbox": [
+            0.276,
+            0.7748,
+            0.2984,
+            0.8089
+          ]
+        },
+        {
+          "text": "N1",
+          "bbox": [
+            0.3231,
+            0.7752,
+            0.348,
+            0.8093
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.4086,
+            0.7824,
+            0.4553,
+            0.8097
+          ]
+        },
+        {
+          "text": "Bob",
+          "bbox": [
+            0.0307,
+            0.7914,
+            0.0687,
+            0.8187
+          ]
+        },
+        {
+          "text": "Frame",
+          "bbox": [
+            0.3236,
+            0.8241,
+            0.3817,
+            0.8514
+          ]
+        },
+        {
+          "text": "N6 L6",
+          "bbox": [
+            0.6932,
+            0.8444,
+            0.7454,
+            0.8795
+          ]
+        },
+        {
+          "text": "To another",
+          "bbox": [
+            0.6691,
+            0.8846,
+            0.7664,
+            0.9119
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.6806,
+            0.908,
+            0.7549,
+            0.9353
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:33:20+00:00"
+      }
+    },
+    {
+      "id": "ch09_ill_006",
+      "file": "ch09_ill_006.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 9.6",
+      "section_id": "ch09-9-2-2",
+      "alt": "Figure 9.6: Position of ARP in TCP/IP protocol suite",
+      "sources": [
+        "book Figure 9.6; p.245"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 428,
+      "sha256": "601e55bfa5eef59385c5be20fff3ee71d381606899ad63e910c77d6992c04b29",
+      "description": "Figure 9.6: Position of ARP in TCP/IP protocol suite. ARP is positioned beside IP at the network/link boundary, mapping an IP address to a link-layer address while ICMP and IGMP remain above IP.",
+      "structure": "ARP is positioned beside IP at the network/link boundary, mapping an IP address to a link-layer address while ICMP and IGMP remain above IP.",
+      "text_in_image": "IP; ICMP; IGMP; address; Network; IP; layer; ARP; Link-layer; address",
+      "use_when": "Teach ch09-9-2-2, interpret Figure 9.6, trace address changes, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 11,
+      "source_bbox": [
+        114.32,
+        439.9,
+        466.32,
+        582.14
+      ],
+      "labels": [
+        {
+          "text": "IP",
+          "bbox": [
+            0.7146,
+            0.2875,
+            0.7348,
+            0.3437
+          ]
+        },
+        {
+          "text": "ICMP",
+          "bbox": [
+            0.2434,
+            0.2896,
+            0.299,
+            0.3459
+          ]
+        },
+        {
+          "text": "IGMP",
+          "bbox": [
+            0.3206,
+            0.2898,
+            0.3774,
+            0.346
+          ]
+        },
+        {
+          "text": "address",
+          "bbox": [
+            0.6907,
+            0.3437,
+            0.7588,
+            0.4
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.1357,
+            0.377,
+            0.215,
+            0.4333
+          ]
+        },
+        {
+          "text": "IP",
+          "bbox": [
+            0.5311,
+            0.4119,
+            0.5513,
+            0.4681
+          ]
+        },
+        {
+          "text": "layer",
+          "bbox": [
+            0.1696,
+            0.4333,
+            0.215,
+            0.4895
+          ]
+        },
+        {
+          "text": "ARP",
+          "bbox": [
+            0.7494,
+            0.5401,
+            0.7962,
+            0.5964
+          ]
+        },
+        {
+          "text": "Link-layer",
+          "bbox": [
+            0.7248,
+            0.7498,
+            0.8208,
+            0.806
+          ]
+        },
+        {
+          "text": "address",
+          "bbox": [
+            0.7387,
+            0.8173,
+            0.8069,
+            0.8735
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:33:20+00:00"
+      }
+    },
+    {
+      "id": "ch09_ill_007",
+      "file": "ch09_ill_007.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 9.7",
+      "section_id": "ch09-9-2-2",
+      "alt": "Figure 9.7: ARP operation",
+      "sources": [
+        "book Figure 9.7; p.246"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 877,
+      "sha256": "0e18b4eaeef7df3c518dac2c93129877a5aa7d401a4281c4ec5b12d37539fdb7",
+      "description": "Figure 9.7: ARP operation. An ARP request is broadcast on a LAN asking for the hardware address that matches N2; system B returns a unicast reply containing L2.",
+      "structure": "An ARP request is broadcast on a LAN asking for the hardware address that matches N2; system B returns a unicast reply containing L2.",
+      "text_in_image": "LAN; System A; System B; N1 L1; N2 L2; Request; N3 L3; N4 L4; Request:; Looking for link-layer; address of a node with; IP address N2; a. ARP request is broadcast; LAN; System A; System B; N2 L2; N1 L1; Reply; N4 L4; N3 L3; Reply:; I am the node and my; link-layer address is; L2; b. ARP reply is unicast",
+      "use_when": "Teach ch09-9-2-2, interpret Figure 9.7, trace address changes, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 12,
+      "source_bbox": [
+        99.32,
+        114.88,
+        451.32,
+        406.7
+      ],
+      "labels": [
+        {
+          "text": "LAN",
+          "bbox": [
+            0.0379,
+            0.1566,
+            0.0846,
+            0.184
+          ]
+        },
+        {
+          "text": "System A",
+          "bbox": [
+            0.1241,
+            0.2023,
+            0.2119,
+            0.2297
+          ]
+        },
+        {
+          "text": "System B",
+          "bbox": [
+            0.8026,
+            0.2023,
+            0.8904,
+            0.2297
+          ]
+        },
+        {
+          "text": "N1 L1",
+          "bbox": [
+            0.2585,
+            0.2256,
+            0.3101,
+            0.2651
+          ]
+        },
+        {
+          "text": "N2 L2",
+          "bbox": [
+            0.7098,
+            0.2289,
+            0.7614,
+            0.2683
+          ]
+        },
+        {
+          "text": "Request",
+          "bbox": [
+            0.3052,
+            0.2817,
+            0.3835,
+            0.3091
+          ]
+        },
+        {
+          "text": "N3 L3",
+          "bbox": [
+            0.634,
+            0.3226,
+            0.6856,
+            0.362
+          ]
+        },
+        {
+          "text": "N4 L4",
+          "bbox": [
+            0.3258,
+            0.3363,
+            0.3774,
+            0.3757
+          ]
+        },
+        {
+          "text": "Request:",
+          "bbox": [
+            0.0345,
+            0.3504,
+            0.1204,
+            0.3778
+          ]
+        },
+        {
+          "text": "Looking for link-layer",
+          "bbox": [
+            0.0345,
+            0.3736,
+            0.2435,
+            0.401
+          ]
+        },
+        {
+          "text": "address of a node with",
+          "bbox": [
+            0.0345,
+            0.4018,
+            0.2447,
+            0.4292
+          ]
+        },
+        {
+          "text": "IP address N2",
+          "bbox": [
+            0.0345,
+            0.43,
+            0.162,
+            0.4574
+          ]
+        },
+        {
+          "text": "a. ARP request is broadcast",
+          "bbox": [
+            0.3737,
+            0.4761,
+            0.623,
+            0.5035
+          ]
+        },
+        {
+          "text": "LAN",
+          "bbox": [
+            0.0379,
+            0.5807,
+            0.0846,
+            0.6082
+          ]
+        },
+        {
+          "text": "System A",
+          "bbox": [
+            0.1241,
+            0.6409,
+            0.2119,
+            0.6683
+          ]
+        },
+        {
+          "text": "System B",
+          "bbox": [
+            0.8026,
+            0.6409,
+            0.8904,
+            0.6683
+          ]
+        },
+        {
+          "text": "N2 L2",
+          "bbox": [
+            0.706,
+            0.6516,
+            0.7576,
+            0.691
+          ]
+        },
+        {
+          "text": "N1 L1",
+          "bbox": [
+            0.2547,
+            0.6689,
+            0.3063,
+            0.7083
+          ]
+        },
+        {
+          "text": "Reply",
+          "bbox": [
+            0.6395,
+            0.7225,
+            0.6963,
+            0.7499
+          ]
+        },
+        {
+          "text": "N4 L4",
+          "bbox": [
+            0.3504,
+            0.7795,
+            0.4021,
+            0.8189
+          ]
+        },
+        {
+          "text": "N3 L3",
+          "bbox": [
+            0.6131,
+            0.7818,
+            0.6647,
+            0.8212
+          ]
+        },
+        {
+          "text": "Reply:",
+          "bbox": [
+            0.7531,
+            0.7955,
+            0.8175,
+            0.8229
+          ]
+        },
+        {
+          "text": "I am the node and my",
+          "bbox": [
+            0.7554,
+            0.8134,
+            0.9529,
+            0.8408
+          ]
+        },
+        {
+          "text": "link-layer address is",
+          "bbox": [
+            0.7554,
+            0.8416,
+            0.9384,
+            0.869
+          ]
+        },
+        {
+          "text": "L2",
+          "bbox": [
+            0.7554,
+            0.8698,
+            0.7806,
+            0.8972
+          ]
+        },
+        {
+          "text": "b. ARP reply is unicast",
+          "bbox": [
+            0.4134,
+            0.9144,
+            0.6215,
+            0.9418
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:33:20+00:00"
+      }
+    },
+    {
+      "id": "ch09_ill_008",
+      "file": "ch09_ill_008.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 9.8",
+      "section_id": "ch09-9-2-2-packet-format",
+      "alt": "Figure 9.8: ARP packet",
+      "sources": [
+        "book Figure 9.8; p.248"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 497,
+      "sha256": "dfa03e4c44bef65e6a653c76860a16a55c9425fb9e4e9fbdf26d4b74662ee137",
+      "description": "Figure 9.8: ARP packet. The ARP packet layout shows hardware/protocol types and lengths, request-or-reply operation, and variable-length sender and destination protocol and hardware address fields.",
+      "structure": "The ARP packet layout shows hardware/protocol types and lengths, request-or-reply operation, and variable-length sender and destination protocol and hardware address fields.",
+      "text_in_image": "0; 8; 16; 31; Hardware: LAN or WAN protocol; Hardware Type; Protocol Type; Protocol: Network-layer protocol; Hardware; Protocol; Operation; length; length; Request:1, Reply:2; Source hardware address; Source protocol address; Destination hardware  address; (Empty in request); Destination protocol address",
+      "use_when": "Teach ch09-9-2-2-packet-format, interpret Figure 9.8, trace address changes, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 14,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        213.2
+      ],
+      "labels": [
+        {
+          "text": "0",
+          "bbox": [
+            0.0284,
+            0.1968,
+            0.0397,
+            0.2452
+          ]
+        },
+        {
+          "text": "8",
+          "bbox": [
+            0.1766,
+            0.1968,
+            0.1879,
+            0.2452
+          ]
+        },
+        {
+          "text": "16",
+          "bbox": [
+            0.3234,
+            0.1968,
+            0.3462,
+            0.2452
+          ]
+        },
+        {
+          "text": "31",
+          "bbox": [
+            0.5933,
+            0.1968,
+            0.6161,
+            0.2452
+          ]
+        },
+        {
+          "text": "Hardware: LAN or WAN protocol",
+          "bbox": [
+            0.6463,
+            0.2676,
+            0.9688,
+            0.3282
+          ]
+        },
+        {
+          "text": "Hardware Type",
+          "bbox": [
+            0.1066,
+            0.272,
+            0.2465,
+            0.3204
+          ]
+        },
+        {
+          "text": "Protocol Type",
+          "bbox": [
+            0.4064,
+            0.272,
+            0.5339,
+            0.3204
+          ]
+        },
+        {
+          "text": "Protocol: Network-layer protocol",
+          "bbox": [
+            0.646,
+            0.3281,
+            0.9555,
+            0.3886
+          ]
+        },
+        {
+          "text": "Hardware",
+          "bbox": [
+            0.0583,
+            0.3542,
+            0.1479,
+            0.4026
+          ]
+        },
+        {
+          "text": "Protocol",
+          "bbox": [
+            0.2113,
+            0.3542,
+            0.2886,
+            0.4026
+          ]
+        },
+        {
+          "text": "Operation",
+          "bbox": [
+            0.4305,
+            0.355,
+            0.5216,
+            0.4033
+          ]
+        },
+        {
+          "text": "length",
+          "bbox": [
+            0.0746,
+            0.4026,
+            0.1316,
+            0.451
+          ]
+        },
+        {
+          "text": "length",
+          "bbox": [
+            0.2215,
+            0.4026,
+            0.2784,
+            0.451
+          ]
+        },
+        {
+          "text": "Request:1, Reply:2",
+          "bbox": [
+            0.3836,
+            0.414,
+            0.5685,
+            0.4624
+          ]
+        },
+        {
+          "text": "Source hardware address",
+          "bbox": [
+            0.2217,
+            0.4848,
+            0.4493,
+            0.5332
+          ]
+        },
+        {
+          "text": "Source protocol address",
+          "bbox": [
+            0.2192,
+            0.5912,
+            0.4382,
+            0.6396
+          ]
+        },
+        {
+          "text": "Destination hardware  address",
+          "bbox": [
+            0.1894,
+            0.6734,
+            0.4645,
+            0.7218
+          ]
+        },
+        {
+          "text": "(Empty in request)",
+          "bbox": [
+            0.2415,
+            0.7218,
+            0.4124,
+            0.7702
+          ]
+        },
+        {
+          "text": "Destination protocol address",
+          "bbox": [
+            0.1919,
+            0.8101,
+            0.4527,
+            0.8584
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:33:20+00:00"
+      }
+    },
+    {
+      "id": "ch09_ill_009",
+      "file": "ch09_ill_009.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 9.9",
+      "section_id": "ch09-example-9-4",
+      "alt": "Figure 9.9: Example 9.4",
+      "sources": [
+        "book Figure 9.9; p.248"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 886,
+      "sha256": "8aed10f812d74b93e9c3e4ae590c0d75cad8fa6979b7ee634847b27d389a308d",
+      "description": "Figure 9.9: Example 9.4. Example 9.4 traces a broadcast ARP request from A and a unicast ARP reply from B, showing both ARP fields and enclosing frame addresses.",
+      "structure": "Example 9.4 traces a broadcast ARP request from A and a unicast ARP reply from B, showing both ARP fields and enclosing frame addresses.",
+      "text_in_image": "System A; System B; N2; N1; L1; L2 (Not known by A); 0x0001; 0x0800; 0x06; 0x04; 0x0001; ARP request; L1; N1; All 0s; N2; Multicast frame; From A to B; A; 1; Data; M; Destination; Source.; 0x0001; 0x0800; B: Broadcast address; 0x06; 0x04; 0x0002; L2; ARP reply; N2; L1; N2; Unicast frame; From B to A; A; B; 2; Data; Destination; Source",
+      "use_when": "Teach ch09-example-9-4, interpret Figure 9.9, trace address changes, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 14,
+      "source_bbox": [
+        99.32,
+        215.08,
+        451.32,
+        510.26
+      ],
+      "labels": [
+        {
+          "text": "System A",
+          "bbox": [
+            0.0613,
+            0.1127,
+            0.1489,
+            0.1397
+          ]
+        },
+        {
+          "text": "System B",
+          "bbox": [
+            0.8593,
+            0.1127,
+            0.9468,
+            0.1397
+          ]
+        },
+        {
+          "text": "N2",
+          "bbox": [
+            0.7831,
+            0.181,
+            0.8108,
+            0.208
+          ]
+        },
+        {
+          "text": "N1",
+          "bbox": [
+            0.2004,
+            0.1888,
+            0.2281,
+            0.2158
+          ]
+        },
+        {
+          "text": "L1",
+          "bbox": [
+            0.2011,
+            0.2165,
+            0.2263,
+            0.2435
+          ]
+        },
+        {
+          "text": "L2 (Not known by A)",
+          "bbox": [
+            0.618,
+            0.2173,
+            0.8138,
+            0.2443
+          ]
+        },
+        {
+          "text": "0x0001",
+          "bbox": [
+            0.2374,
+            0.3129,
+            0.3054,
+            0.3399
+          ]
+        },
+        {
+          "text": "0x0800",
+          "bbox": [
+            0.3952,
+            0.3129,
+            0.4631,
+            0.3399
+          ]
+        },
+        {
+          "text": "0x06",
+          "bbox": [
+            0.2043,
+            0.3486,
+            0.2496,
+            0.3756
+          ]
+        },
+        {
+          "text": "0x04",
+          "bbox": [
+            0.283,
+            0.3486,
+            0.3283,
+            0.3756
+          ]
+        },
+        {
+          "text": "0x0001",
+          "bbox": [
+            0.3952,
+            0.3486,
+            0.4632,
+            0.3756
+          ]
+        },
+        {
+          "text": "ARP request",
+          "bbox": [
+            0.0625,
+            0.386,
+            0.1777,
+            0.413
+          ]
+        },
+        {
+          "text": "L1",
+          "bbox": [
+            0.3379,
+            0.3901,
+            0.3631,
+            0.4171
+          ]
+        },
+        {
+          "text": "N1",
+          "bbox": [
+            0.3366,
+            0.4273,
+            0.3643,
+            0.4543
+          ]
+        },
+        {
+          "text": "All 0s",
+          "bbox": [
+            0.3231,
+            0.4508,
+            0.3779,
+            0.4778
+          ]
+        },
+        {
+          "text": "N2",
+          "bbox": [
+            0.3366,
+            0.488,
+            0.3643,
+            0.515
+          ]
+        },
+        {
+          "text": "Multicast frame",
+          "bbox": [
+            0.0285,
+            0.5016,
+            0.1726,
+            0.5287
+          ]
+        },
+        {
+          "text": "From A to B",
+          "bbox": [
+            0.6307,
+            0.518,
+            0.7446,
+            0.545
+          ]
+        },
+        {
+          "text": "A",
+          "bbox": [
+            0.1804,
+            0.5409,
+            0.1968,
+            0.5679
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4897,
+            0.5479,
+            0.5011,
+            0.5749
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.322,
+            0.5489,
+            0.3686,
+            0.5759
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.0615,
+            0.5494,
+            0.0829,
+            0.5764
+          ]
+        },
+        {
+          "text": "Destination",
+          "bbox": [
+            0.0204,
+            0.5877,
+            0.1249,
+            0.6147
+          ]
+        },
+        {
+          "text": "Source.",
+          "bbox": [
+            0.1555,
+            0.5877,
+            0.2241,
+            0.6147
+          ]
+        },
+        {
+          "text": "0x0001",
+          "bbox": [
+            0.6329,
+            0.6451,
+            0.7009,
+            0.6721
+          ]
+        },
+        {
+          "text": "0x0800",
+          "bbox": [
+            0.7882,
+            0.6451,
+            0.8562,
+            0.6721
+          ]
+        },
+        {
+          "text": "B: Broadcast address",
+          "bbox": [
+            0.0359,
+            0.6603,
+            0.2416,
+            0.6873
+          ]
+        },
+        {
+          "text": "0x06",
+          "bbox": [
+            0.601,
+            0.6807,
+            0.6464,
+            0.7078
+          ]
+        },
+        {
+          "text": "0x04",
+          "bbox": [
+            0.6776,
+            0.6807,
+            0.723,
+            0.7078
+          ]
+        },
+        {
+          "text": "0x0002",
+          "bbox": [
+            0.7865,
+            0.6807,
+            0.8545,
+            0.7078
+          ]
+        },
+        {
+          "text": "L2",
+          "bbox": [
+            0.7326,
+            0.723,
+            0.7578,
+            0.75
+          ]
+        },
+        {
+          "text": "ARP reply",
+          "bbox": [
+            0.4823,
+            0.747,
+            0.5786,
+            0.774
+          ]
+        },
+        {
+          "text": "N2",
+          "bbox": [
+            0.7313,
+            0.7602,
+            0.759,
+            0.7872
+          ]
+        },
+        {
+          "text": "L1",
+          "bbox": [
+            0.7326,
+            0.7838,
+            0.7578,
+            0.8108
+          ]
+        },
+        {
+          "text": "N2",
+          "bbox": [
+            0.7313,
+            0.8209,
+            0.759,
+            0.8479
+          ]
+        },
+        {
+          "text": "Unicast frame",
+          "bbox": [
+            0.4205,
+            0.8323,
+            0.5483,
+            0.8593
+          ]
+        },
+        {
+          "text": "From B to A",
+          "bbox": [
+            0.1915,
+            0.8556,
+            0.3055,
+            0.8826
+          ]
+        },
+        {
+          "text": "A",
+          "bbox": [
+            0.4699,
+            0.8749,
+            0.4863,
+            0.9019
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.5725,
+            0.8749,
+            0.5876,
+            0.9019
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.4004,
+            0.8814,
+            0.4117,
+            0.9085
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.7205,
+            0.8829,
+            0.7671,
+            0.9099
+          ]
+        },
+        {
+          "text": "Destination",
+          "bbox": [
+            0.418,
+            0.9155,
+            0.5225,
+            0.9426
+          ]
+        },
+        {
+          "text": "Source",
+          "bbox": [
+            0.5559,
+            0.9155,
+            0.6188,
+            0.9426
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:33:20+00:00"
+      }
+    },
+    {
+      "id": "ch09_ill_010",
+      "file": "ch09_ill_010.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 9.10",
+      "section_id": "ch09-9-2-3",
+      "alt": "Figure 9.10: The internet for our example",
+      "sources": [
+        "book Figure 9.10; p.249"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 341,
+      "sha256": "1888ee0c475d06476640c7ff22edd67fe7b3ca4e4b3bc34b5f9ed4abc2240d70",
+      "description": "Figure 9.10: The internet for our example. The chapter example topology connects Alice through R1, a point-to-point network, and R2 to Bob, with external links at both ends.",
+      "structure": "The chapter example topology connects Alice through R1, a point-to-point network, and R2 to Bob, with external links at both ends.",
+      "text_in_image": "To another; To another; link; link; Alice; Bob; Point-to-point network; R2; R1; Alice’s site; Bob’s site",
+      "use_when": "Teach ch09-9-2-3, interpret Figure 9.10, trace address changes, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 15,
+      "source_bbox": [
+        114.32,
+        79.9,
+        466.32,
+        193.1
+      ],
+      "labels": [
+        {
+          "text": "To another",
+          "bbox": [
+            0.223,
+            0.3025,
+            0.3259,
+            0.3731
+          ]
+        },
+        {
+          "text": "To another",
+          "bbox": [
+            0.6434,
+            0.3058,
+            0.7463,
+            0.3765
+          ]
+        },
+        {
+          "text": "link",
+          "bbox": [
+            0.2568,
+            0.363,
+            0.2921,
+            0.4337
+          ]
+        },
+        {
+          "text": "link",
+          "bbox": [
+            0.6772,
+            0.3664,
+            0.7125,
+            0.437
+          ]
+        },
+        {
+          "text": "Alice",
+          "bbox": [
+            0.0371,
+            0.4043,
+            0.0867,
+            0.4774
+          ]
+        },
+        {
+          "text": "Bob",
+          "bbox": [
+            0.9221,
+            0.4135,
+            0.9603,
+            0.4859
+          ]
+        },
+        {
+          "text": "Point-to-point network",
+          "bbox": [
+            0.3809,
+            0.5002,
+            0.5884,
+            0.5709
+          ]
+        },
+        {
+          "text": "R2",
+          "bbox": [
+            0.6896,
+            0.6507,
+            0.7161,
+            0.7213
+          ]
+        },
+        {
+          "text": "R1",
+          "bbox": [
+            0.2651,
+            0.6574,
+            0.2916,
+            0.728
+          ]
+        },
+        {
+          "text": "Alice’s site",
+          "bbox": [
+            0.0654,
+            0.7617,
+            0.1671,
+            0.8324
+          ]
+        },
+        {
+          "text": "Bob’s site",
+          "bbox": [
+            0.8339,
+            0.7617,
+            0.9242,
+            0.8324
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:33:20+00:00"
+      }
+    },
+    {
+      "id": "ch09_ill_011",
+      "file": "ch09_ill_011.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 9.11",
+      "section_id": "ch09-9-2-3-activities-at-alice-s-site",
+      "alt": "Figure 9.11: Flow of packets at Alice’s computer",
+      "sources": [
+        "book Figure 9.11; p.249"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 916,
+      "sha256": "89d6210410fed1070232416a1abfa815ccb06755394b8e948bf01f90b0ba965b",
+      "description": "Figure 9.11: Flow of packets at Alice’s computer. Alice combines forwarding-table lookup and ARP to choose R1, builds a datagram with N1-to-N8 addresses, wraps it in an L1-to-L2 frame, and transmits it.",
+      "structure": "Alice combines forwarding-table lookup and ARP to choose R1, builds a datagram with N1-to-N8 addresses, wraps it in an L1-to-L2 frame, and transmits it.",
+      "text_in_image": "Legend; Alice’s site; Bob’s site; N: Network-layer address; L: Link-layer address; NB; N1; N2; N3; N4; NA; LA; LB; L1; L2; L3; L4; R2; R1; Forwarding; Data; NA; NB; table; NB; N1; N1; ARP; ARP; Network layer; (Alice); (R1); L1; L1; L1; NA; Data; NB; Datagram; LA; Data-link layer; Note:; Data-link layer gets its own link-layer; NA; address (LA) here from its interface.; L1 LA; NB; Frame; Data; Physical layer; Signal; Flow of packets at Alice’s computer; To R1",
+      "use_when": "Teach ch09-9-2-3-activities-at-alice-s-site, interpret Figure 9.11, trace address changes, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 15,
+      "source_bbox": [
+        114.32,
+        246.94,
+        466.32,
+        551.72
+      ],
+      "labels": [
+        {
+          "text": "Legend",
+          "bbox": [
+            0.4321,
+            0.1153,
+            0.5041,
+            0.1415
+          ]
+        },
+        {
+          "text": "Alice’s site",
+          "bbox": [
+            0.0343,
+            0.1447,
+            0.1359,
+            0.171
+          ]
+        },
+        {
+          "text": "Bob’s site",
+          "bbox": [
+            0.8365,
+            0.1463,
+            0.9268,
+            0.1726
+          ]
+        },
+        {
+          "text": "N: Network-layer address",
+          "bbox": [
+            0.3468,
+            0.16,
+            0.5816,
+            0.1873
+          ]
+        },
+        {
+          "text": "L: Link-layer address",
+          "bbox": [
+            0.3468,
+            0.1935,
+            0.5451,
+            0.2197
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.7842,
+            0.2241,
+            0.812,
+            0.2556
+          ]
+        },
+        {
+          "text": "N1",
+          "bbox": [
+            0.1745,
+            0.2253,
+            0.1994,
+            0.2568
+          ]
+        },
+        {
+          "text": "N2",
+          "bbox": [
+            0.282,
+            0.2253,
+            0.307,
+            0.2568
+          ]
+        },
+        {
+          "text": "N3",
+          "bbox": [
+            0.6103,
+            0.2253,
+            0.6353,
+            0.2568
+          ]
+        },
+        {
+          "text": "N4",
+          "bbox": [
+            0.712,
+            0.2253,
+            0.737,
+            0.2568
+          ]
+        },
+        {
+          "text": "NA",
+          "bbox": [
+            0.0834,
+            0.2263,
+            0.1121,
+            0.2578
+          ]
+        },
+        {
+          "text": "LA",
+          "bbox": [
+            0.0873,
+            0.265,
+            0.1135,
+            0.2963
+          ]
+        },
+        {
+          "text": "LB",
+          "bbox": [
+            0.7854,
+            0.2675,
+            0.8107,
+            0.2988
+          ]
+        },
+        {
+          "text": "L1",
+          "bbox": [
+            0.1746,
+            0.2727,
+            0.197,
+            0.3039
+          ]
+        },
+        {
+          "text": "L2",
+          "bbox": [
+            0.2821,
+            0.2727,
+            0.3045,
+            0.3039
+          ]
+        },
+        {
+          "text": "L3",
+          "bbox": [
+            0.6127,
+            0.2727,
+            0.6351,
+            0.3039
+          ]
+        },
+        {
+          "text": "L4",
+          "bbox": [
+            0.7124,
+            0.2727,
+            0.7348,
+            0.3039
+          ]
+        },
+        {
+          "text": "R2",
+          "bbox": [
+            0.6621,
+            0.2828,
+            0.6886,
+            0.309
+          ]
+        },
+        {
+          "text": "R1",
+          "bbox": [
+            0.2328,
+            0.2853,
+            0.2593,
+            0.3115
+          ]
+        },
+        {
+          "text": "Forwarding",
+          "bbox": [
+            0.5639,
+            0.391,
+            0.67,
+            0.4173
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.3696,
+            0.3999,
+            0.4163,
+            0.4261
+          ]
+        },
+        {
+          "text": "NA",
+          "bbox": [
+            0.1523,
+            0.4089,
+            0.181,
+            0.4404
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.2368,
+            0.4089,
+            0.2646,
+            0.4404
+          ]
+        },
+        {
+          "text": "table",
+          "bbox": [
+            0.5948,
+            0.4135,
+            0.639,
+            0.4398
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.5234,
+            0.4318,
+            0.5512,
+            0.4633
+          ]
+        },
+        {
+          "text": "N1",
+          "bbox": [
+            0.6705,
+            0.4318,
+            0.6955,
+            0.4633
+          ]
+        },
+        {
+          "text": "N1",
+          "bbox": [
+            0.8145,
+            0.433,
+            0.8394,
+            0.4645
+          ]
+        },
+        {
+          "text": "ARP",
+          "bbox": [
+            0.7251,
+            0.4571,
+            0.7693,
+            0.4833
+          ]
+        },
+        {
+          "text": "ARP",
+          "bbox": [
+            0.8839,
+            0.4615,
+            0.9281,
+            0.4877
+          ]
+        },
+        {
+          "text": "Network layer",
+          "bbox": [
+            0.2598,
+            0.4684,
+            0.3905,
+            0.4947
+          ]
+        },
+        {
+          "text": "(Alice)",
+          "bbox": [
+            0.7146,
+            0.4833,
+            0.779,
+            0.5096
+          ]
+        },
+        {
+          "text": "(R1)",
+          "bbox": [
+            0.8848,
+            0.4877,
+            0.9264,
+            0.514
+          ]
+        },
+        {
+          "text": "L1",
+          "bbox": [
+            0.8218,
+            0.4967,
+            0.8442,
+            0.528
+          ]
+        },
+        {
+          "text": "L1",
+          "bbox": [
+            0.5681,
+            0.503,
+            0.5905,
+            0.5342
+          ]
+        },
+        {
+          "text": "L1",
+          "bbox": [
+            0.4867,
+            0.5429,
+            0.5091,
+            0.5742
+          ]
+        },
+        {
+          "text": "NA",
+          "bbox": [
+            0.2109,
+            0.544,
+            0.2396,
+            0.5755
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.3469,
+            0.5442,
+            0.3936,
+            0.5705
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.2501,
+            0.5452,
+            0.2779,
+            0.5767
+          ]
+        },
+        {
+          "text": "Datagram",
+          "bbox": [
+            0.1023,
+            0.5466,
+            0.1919,
+            0.5729
+          ]
+        },
+        {
+          "text": "LA",
+          "bbox": [
+            0.0623,
+            0.6184,
+            0.0885,
+            0.6496
+          ]
+        },
+        {
+          "text": "Data-link layer",
+          "bbox": [
+            0.2567,
+            0.6234,
+            0.3936,
+            0.6496
+          ]
+        },
+        {
+          "text": "Note:",
+          "bbox": [
+            0.7447,
+            0.6419,
+            0.8034,
+            0.6681
+          ]
+        },
+        {
+          "text": "Data-link layer gets its own link-layer",
+          "bbox": [
+            0.5986,
+            0.6766,
+            0.9495,
+            0.7029
+          ]
+        },
+        {
+          "text": "NA",
+          "bbox": [
+            0.246,
+            0.7102,
+            0.2748,
+            0.7417
+          ]
+        },
+        {
+          "text": "address (LA) here from its interface.",
+          "bbox": [
+            0.6052,
+            0.7104,
+            0.9429,
+            0.7465
+          ]
+        },
+        {
+          "text": "L1 LA",
+          "bbox": [
+            0.17,
+            0.7113,
+            0.2333,
+            0.7441
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.2852,
+            0.7114,
+            0.313,
+            0.7429
+          ]
+        },
+        {
+          "text": "Frame",
+          "bbox": [
+            0.0937,
+            0.7122,
+            0.1518,
+            0.7384
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.3829,
+            0.7127,
+            0.4296,
+            0.7389
+          ]
+        },
+        {
+          "text": "Physical layer",
+          "bbox": [
+            0.2611,
+            0.8009,
+            0.3892,
+            0.8271
+          ]
+        },
+        {
+          "text": "Signal",
+          "bbox": [
+            0.2378,
+            0.8663,
+            0.2959,
+            0.8926
+          ]
+        },
+        {
+          "text": "Flow of packets at Alice’s computer",
+          "bbox": [
+            0.6483,
+            0.8988,
+            0.9758,
+            0.9251
+          ]
+        },
+        {
+          "text": "To R1",
+          "bbox": [
+            0.4229,
+            0.907,
+            0.4788,
+            0.9332
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:33:20+00:00"
+      }
+    },
+    {
+      "id": "ch09_ill_012",
+      "file": "ch09_ill_012.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 9.12",
+      "section_id": "ch09-9-2-3-activities-at-router-r1",
+      "alt": "Figure 9.12: Flow of activities at router R1",
+      "sources": [
+        "book Figure 9.12; p.250"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 914,
+      "sha256": "fe4c9ae63f3028707d2f97093c4c811ac015bd981c684c6ca0b411970e9781c5",
+      "description": "Figure 9.12: Flow of activities at router R1. Router R1 removes Alice’s frame, routes the unchanged N1-to-N8 datagram, obtains the next-hop link address, creates a new frame for R2, and transmits it.",
+      "structure": "Router R1 removes Alice’s frame, routes the unchanged N1-to-N8 datagram, obtains the next-hop link address, creates a new frame for R2, and transmits it.",
+      "text_in_image": "Legend; Bob’s site; Alice’s site; N: Network-layer address; L: Link-layer address; NB; NA; N1; N2; N3; N4; LA; L1; L2; L3; L4; LB; R2; R1; Alice; Forwarding; table; N3; NB; N3; ARP; ARP; Network layer; (R2); (R1); L3; L3; L3; Datagram; NA; NB; Data; NA; NB; Data; L2; Data-link layer; Data-link layer; L1 LA; L3 L2; NA; NB; NA; NB; Data; Data; Frame; Frame; Physical layer; Physical layer; Signal; Signal; from Alice; Flow of packets at Router R1; To R2",
+      "use_when": "Teach ch09-9-2-3-activities-at-router-r1, interpret Figure 9.12, trace address changes, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 16,
+      "source_bbox": [
+        99.32,
+        184.9,
+        451.32,
+        489.2
+      ],
+      "labels": [
+        {
+          "text": "Legend",
+          "bbox": [
+            0.337,
+            0.1201,
+            0.409,
+            0.1464
+          ]
+        },
+        {
+          "text": "Bob’s site",
+          "bbox": [
+            0.8198,
+            0.1284,
+            0.9101,
+            0.1547
+          ]
+        },
+        {
+          "text": "Alice’s site",
+          "bbox": [
+            0.0447,
+            0.1328,
+            0.1464,
+            0.1591
+          ]
+        },
+        {
+          "text": "N: Network-layer address",
+          "bbox": [
+            0.3455,
+            0.1586,
+            0.5801,
+            0.1915
+          ]
+        },
+        {
+          "text": "L: Link-layer address",
+          "bbox": [
+            0.3455,
+            0.1862,
+            0.5435,
+            0.2125
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.7773,
+            0.2186,
+            0.8051,
+            0.2515
+          ]
+        },
+        {
+          "text": "NA",
+          "bbox": [
+            0.1023,
+            0.2202,
+            0.131,
+            0.253
+          ]
+        },
+        {
+          "text": "N1",
+          "bbox": [
+            0.1944,
+            0.2202,
+            0.2194,
+            0.253
+          ]
+        },
+        {
+          "text": "N2",
+          "bbox": [
+            0.2913,
+            0.2202,
+            0.3162,
+            0.253
+          ]
+        },
+        {
+          "text": "N3",
+          "bbox": [
+            0.6078,
+            0.2202,
+            0.6328,
+            0.253
+          ]
+        },
+        {
+          "text": "N4",
+          "bbox": [
+            0.7152,
+            0.2202,
+            0.7401,
+            0.253
+          ]
+        },
+        {
+          "text": "LA",
+          "bbox": [
+            0.1048,
+            0.266,
+            0.131,
+            0.2989
+          ]
+        },
+        {
+          "text": "L1",
+          "bbox": [
+            0.1945,
+            0.266,
+            0.2169,
+            0.2989
+          ]
+        },
+        {
+          "text": "L2",
+          "bbox": [
+            0.2914,
+            0.266,
+            0.3138,
+            0.2989
+          ]
+        },
+        {
+          "text": "L3",
+          "bbox": [
+            0.6103,
+            0.266,
+            0.6327,
+            0.2989
+          ]
+        },
+        {
+          "text": "L4",
+          "bbox": [
+            0.7152,
+            0.266,
+            0.7377,
+            0.2989
+          ]
+        },
+        {
+          "text": "LB",
+          "bbox": [
+            0.7786,
+            0.266,
+            0.8038,
+            0.2989
+          ]
+        },
+        {
+          "text": "R2",
+          "bbox": [
+            0.6603,
+            0.278,
+            0.6868,
+            0.3043
+          ]
+        },
+        {
+          "text": "R1",
+          "bbox": [
+            0.241,
+            0.2804,
+            0.2675,
+            0.3067
+          ]
+        },
+        {
+          "text": "Alice",
+          "bbox": [
+            0.035,
+            0.2949,
+            0.0842,
+            0.3212
+          ]
+        },
+        {
+          "text": "Forwarding",
+          "bbox": [
+            0.6468,
+            0.3728,
+            0.7522,
+            0.3991
+          ]
+        },
+        {
+          "text": "table",
+          "bbox": [
+            0.6774,
+            0.3991,
+            0.7216,
+            0.4254
+          ]
+        },
+        {
+          "text": "N3",
+          "bbox": [
+            0.871,
+            0.4197,
+            0.8959,
+            0.451
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.6194,
+            0.4242,
+            0.6472,
+            0.4554
+          ]
+        },
+        {
+          "text": "N3",
+          "bbox": [
+            0.7485,
+            0.4242,
+            0.7734,
+            0.4554
+          ]
+        },
+        {
+          "text": "ARP",
+          "bbox": [
+            0.9157,
+            0.4314,
+            0.9599,
+            0.4577
+          ]
+        },
+        {
+          "text": "ARP",
+          "bbox": [
+            0.7983,
+            0.4336,
+            0.8425,
+            0.4599
+          ]
+        },
+        {
+          "text": "Network layer",
+          "bbox": [
+            0.2721,
+            0.4511,
+            0.4025,
+            0.4774
+          ]
+        },
+        {
+          "text": "(R2)",
+          "bbox": [
+            0.917,
+            0.4629,
+            0.9586,
+            0.4892
+          ]
+        },
+        {
+          "text": "(R1)",
+          "bbox": [
+            0.7995,
+            0.4651,
+            0.8412,
+            0.4914
+          ]
+        },
+        {
+          "text": "L3",
+          "bbox": [
+            0.6908,
+            0.485,
+            0.7132,
+            0.5179
+          ]
+        },
+        {
+          "text": "L3",
+          "bbox": [
+            0.8777,
+            0.4856,
+            0.9002,
+            0.5184
+          ]
+        },
+        {
+          "text": "L3",
+          "bbox": [
+            0.6833,
+            0.5394,
+            0.7057,
+            0.5723
+          ]
+        },
+        {
+          "text": "Datagram",
+          "bbox": [
+            0.299,
+            0.5449,
+            0.3886,
+            0.5712
+          ]
+        },
+        {
+          "text": "NA",
+          "bbox": [
+            0.4118,
+            0.5469,
+            0.4406,
+            0.5782
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.4499,
+            0.5469,
+            0.4777,
+            0.5782
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.5413,
+            0.5494,
+            0.5804,
+            0.5734
+          ]
+        },
+        {
+          "text": "NA",
+          "bbox": [
+            0.0546,
+            0.5505,
+            0.0833,
+            0.5818
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.0927,
+            0.5505,
+            0.1204,
+            0.5818
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.1834,
+            0.5538,
+            0.2224,
+            0.5778
+          ]
+        },
+        {
+          "text": "L2",
+          "bbox": [
+            0.6741,
+            0.6457,
+            0.6966,
+            0.6786
+          ]
+        },
+        {
+          "text": "Data-link layer",
+          "bbox": [
+            0.4475,
+            0.6476,
+            0.5845,
+            0.6739
+          ]
+        },
+        {
+          "text": "Data-link layer",
+          "bbox": [
+            0.1007,
+            0.65,
+            0.2376,
+            0.6762
+          ]
+        },
+        {
+          "text": "L1 LA",
+          "bbox": [
+            0.0228,
+            0.7315,
+            0.0826,
+            0.7643
+          ]
+        },
+        {
+          "text": "L3 L2",
+          "bbox": [
+            0.3717,
+            0.7315,
+            0.4293,
+            0.7643
+          ]
+        },
+        {
+          "text": "NA",
+          "bbox": [
+            0.0936,
+            0.7381,
+            0.1223,
+            0.7693
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.1316,
+            0.7381,
+            0.1594,
+            0.7693
+          ]
+        },
+        {
+          "text": "NA",
+          "bbox": [
+            0.444,
+            0.7381,
+            0.4727,
+            0.7693
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.482,
+            0.7381,
+            0.5098,
+            0.7693
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.225,
+            0.7422,
+            0.2641,
+            0.7662
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.5735,
+            0.7444,
+            0.6126,
+            0.7684
+          ]
+        },
+        {
+          "text": "Frame",
+          "bbox": [
+            0.0209,
+            0.7824,
+            0.079,
+            0.8086
+          ]
+        },
+        {
+          "text": "Frame",
+          "bbox": [
+            0.6113,
+            0.7824,
+            0.6694,
+            0.8086
+          ]
+        },
+        {
+          "text": "Physical layer",
+          "bbox": [
+            0.1051,
+            0.8192,
+            0.2332,
+            0.8455
+          ]
+        },
+        {
+          "text": "Physical layer",
+          "bbox": [
+            0.452,
+            0.8216,
+            0.58,
+            0.8479
+          ]
+        },
+        {
+          "text": "Signal",
+          "bbox": [
+            0.0915,
+            0.8745,
+            0.1496,
+            0.9007
+          ]
+        },
+        {
+          "text": "Signal",
+          "bbox": [
+            0.5325,
+            0.8745,
+            0.5906,
+            0.9007
+          ]
+        },
+        {
+          "text": "from Alice",
+          "bbox": [
+            0.0207,
+            0.9004,
+            0.1185,
+            0.9267
+          ]
+        },
+        {
+          "text": "Flow of packets at Router R1",
+          "bbox": [
+            0.723,
+            0.9031,
+            0.9892,
+            0.9294
+          ]
+        },
+        {
+          "text": "To R2",
+          "bbox": [
+            0.6135,
+            0.9043,
+            0.6691,
+            0.9306
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:33:20+00:00"
+      }
+    },
+    {
+      "id": "ch09_ill_013",
+      "file": "ch09_ill_013.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 9.13",
+      "section_id": "ch09-9-2-3-activities-at-router-r2",
+      "alt": "Figure 9.13: Activities at router R2.",
+      "sources": [
+        "book Figure 9.13; p.251"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 864,
+      "sha256": "4b5230013859c41a9e47641d625831e68bde17d3f25c4c5cf3d04e3d5d587749",
+      "description": "Figure 9.13: Activities at router R2.. Router R2 removes R1’s frame, routes the unchanged datagram toward Bob, resolves Bob’s link address, and creates the final local frame.",
+      "structure": "Router R2 removes R1’s frame, routes the unchanged datagram toward Bob, resolves Bob’s link address, and creates the final local frame.",
+      "text_in_image": "Legend; Bob’s site; Alice’s site; N: Network-layer address; L: Link-layer address; NB; NA; N1; N2; N3; N4; Bob; LA; L1; L2; L3; L4; LB; R2; R1; Alice; Forwarding; table; NB; NB; NB; ARP; ARP; Network layer; (R2); (Bob); LB; LB; Datagram; NA; NB; LB; NA; NB; Data; Data; Data-link layer; Data-link layer; L4; LB; L4; L3 L2; NA; NB; NA; NB; Data; Data; Frame; Frame; Physical layer; Physical layer; Signal; Signal; from R1; Flow of packets at Router R2; To Bob",
+      "use_when": "Teach ch09-9-2-3-activities-at-router-r2, interpret Figure 9.13, trace address changes, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 17,
+      "source_bbox": [
+        114.32,
+        135.88,
+        466.32,
+        423.56
+      ],
+      "labels": [
+        {
+          "text": "Legend",
+          "bbox": [
+            0.337,
+            0.1063,
+            0.409,
+            0.1341
+          ]
+        },
+        {
+          "text": "Bob’s site",
+          "bbox": [
+            0.8199,
+            0.115,
+            0.9102,
+            0.1429
+          ]
+        },
+        {
+          "text": "Alice’s site",
+          "bbox": [
+            0.0447,
+            0.1197,
+            0.1464,
+            0.1475
+          ]
+        },
+        {
+          "text": "N: Network-layer address",
+          "bbox": [
+            0.3455,
+            0.1469,
+            0.5801,
+            0.1817
+          ]
+        },
+        {
+          "text": "L: Link-layer address",
+          "bbox": [
+            0.3455,
+            0.1761,
+            0.5435,
+            0.2039
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.7773,
+            0.2104,
+            0.8051,
+            0.2452
+          ]
+        },
+        {
+          "text": "NA",
+          "bbox": [
+            0.1023,
+            0.2121,
+            0.131,
+            0.2468
+          ]
+        },
+        {
+          "text": "N1",
+          "bbox": [
+            0.1944,
+            0.2121,
+            0.2194,
+            0.2468
+          ]
+        },
+        {
+          "text": "N2",
+          "bbox": [
+            0.2913,
+            0.2121,
+            0.3162,
+            0.2468
+          ]
+        },
+        {
+          "text": "N3",
+          "bbox": [
+            0.6078,
+            0.2121,
+            0.6328,
+            0.2468
+          ]
+        },
+        {
+          "text": "N4",
+          "bbox": [
+            0.7152,
+            0.2121,
+            0.7401,
+            0.2468
+          ]
+        },
+        {
+          "text": "Bob",
+          "bbox": [
+            0.893,
+            0.2471,
+            0.9308,
+            0.2749
+          ]
+        },
+        {
+          "text": "LA",
+          "bbox": [
+            0.1048,
+            0.2606,
+            0.131,
+            0.2954
+          ]
+        },
+        {
+          "text": "L1",
+          "bbox": [
+            0.1945,
+            0.2606,
+            0.2169,
+            0.2954
+          ]
+        },
+        {
+          "text": "L2",
+          "bbox": [
+            0.2914,
+            0.2606,
+            0.3138,
+            0.2954
+          ]
+        },
+        {
+          "text": "L3",
+          "bbox": [
+            0.6103,
+            0.2606,
+            0.6327,
+            0.2954
+          ]
+        },
+        {
+          "text": "L4",
+          "bbox": [
+            0.7152,
+            0.2606,
+            0.7377,
+            0.2954
+          ]
+        },
+        {
+          "text": "LB",
+          "bbox": [
+            0.7786,
+            0.2606,
+            0.8038,
+            0.2954
+          ]
+        },
+        {
+          "text": "R2",
+          "bbox": [
+            0.6603,
+            0.2733,
+            0.6869,
+            0.3011
+          ]
+        },
+        {
+          "text": "R1",
+          "bbox": [
+            0.241,
+            0.2758,
+            0.2675,
+            0.3036
+          ]
+        },
+        {
+          "text": "Alice",
+          "bbox": [
+            0.035,
+            0.2912,
+            0.0842,
+            0.319
+          ]
+        },
+        {
+          "text": "Forwarding",
+          "bbox": [
+            0.6468,
+            0.3735,
+            0.7523,
+            0.4013
+          ]
+        },
+        {
+          "text": "table",
+          "bbox": [
+            0.6774,
+            0.4013,
+            0.7216,
+            0.4292
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.6194,
+            0.428,
+            0.6472,
+            0.461
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.7463,
+            0.4303,
+            0.7741,
+            0.4633
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.8694,
+            0.4303,
+            0.8972,
+            0.4633
+          ]
+        },
+        {
+          "text": "ARP",
+          "bbox": [
+            0.7964,
+            0.4378,
+            0.8406,
+            0.4656
+          ]
+        },
+        {
+          "text": "ARP",
+          "bbox": [
+            0.9176,
+            0.4378,
+            0.9618,
+            0.4656
+          ]
+        },
+        {
+          "text": "Network layer",
+          "bbox": [
+            0.2721,
+            0.4564,
+            0.4025,
+            0.4842
+          ]
+        },
+        {
+          "text": "(R2)",
+          "bbox": [
+            0.7977,
+            0.4712,
+            0.8393,
+            0.499
+          ]
+        },
+        {
+          "text": "(Bob)",
+          "bbox": [
+            0.9132,
+            0.4712,
+            0.9662,
+            0.499
+          ]
+        },
+        {
+          "text": "LB",
+          "bbox": [
+            0.6888,
+            0.4905,
+            0.7141,
+            0.5253
+          ]
+        },
+        {
+          "text": "LB",
+          "bbox": [
+            0.8744,
+            0.4928,
+            0.8997,
+            0.5276
+          ]
+        },
+        {
+          "text": "Datagram",
+          "bbox": [
+            0.299,
+            0.5556,
+            0.3886,
+            0.5834
+          ]
+        },
+        {
+          "text": "NA",
+          "bbox": [
+            0.4119,
+            0.5578,
+            0.4406,
+            0.5908
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.4499,
+            0.5578,
+            0.4777,
+            0.5908
+          ]
+        },
+        {
+          "text": "LB",
+          "bbox": [
+            0.6812,
+            0.5577,
+            0.7065,
+            0.5925
+          ]
+        },
+        {
+          "text": "NA",
+          "bbox": [
+            0.0546,
+            0.5616,
+            0.0833,
+            0.5946
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.0927,
+            0.5616,
+            0.1204,
+            0.5946
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.5395,
+            0.5638,
+            0.5785,
+            0.5892
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.1872,
+            0.5661,
+            0.2262,
+            0.5916
+          ]
+        },
+        {
+          "text": "Data-link layer",
+          "bbox": [
+            0.4475,
+            0.6642,
+            0.5845,
+            0.692
+          ]
+        },
+        {
+          "text": "Data-link layer",
+          "bbox": [
+            0.1007,
+            0.6667,
+            0.2376,
+            0.6945
+          ]
+        },
+        {
+          "text": "L4",
+          "bbox": [
+            0.6741,
+            0.6669,
+            0.6966,
+            0.7016
+          ]
+        },
+        {
+          "text": "LB",
+          "bbox": [
+            0.373,
+            0.7527,
+            0.3983,
+            0.7875
+          ]
+        },
+        {
+          "text": "L4",
+          "bbox": [
+            0.409,
+            0.7527,
+            0.4314,
+            0.7875
+          ]
+        },
+        {
+          "text": "L3 L2",
+          "bbox": [
+            0.0226,
+            0.7562,
+            0.0791,
+            0.791
+          ]
+        },
+        {
+          "text": "NA",
+          "bbox": [
+            0.444,
+            0.7597,
+            0.4727,
+            0.7927
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.482,
+            0.7597,
+            0.5098,
+            0.7927
+          ]
+        },
+        {
+          "text": "NA",
+          "bbox": [
+            0.0936,
+            0.7632,
+            0.1223,
+            0.7963
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.1316,
+            0.7632,
+            0.1594,
+            0.7963
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.2229,
+            0.7655,
+            0.262,
+            0.7909
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.5771,
+            0.7655,
+            0.6161,
+            0.7909
+          ]
+        },
+        {
+          "text": "Frame",
+          "bbox": [
+            0.0209,
+            0.8068,
+            0.079,
+            0.8346
+          ]
+        },
+        {
+          "text": "Frame",
+          "bbox": [
+            0.6113,
+            0.8068,
+            0.6694,
+            0.8346
+          ]
+        },
+        {
+          "text": "Physical layer",
+          "bbox": [
+            0.1051,
+            0.8458,
+            0.2332,
+            0.8736
+          ]
+        },
+        {
+          "text": "Physical layer",
+          "bbox": [
+            0.452,
+            0.8483,
+            0.58,
+            0.8761
+          ]
+        },
+        {
+          "text": "Signal",
+          "bbox": [
+            0.0915,
+            0.9042,
+            0.1496,
+            0.932
+          ]
+        },
+        {
+          "text": "Signal",
+          "bbox": [
+            0.5325,
+            0.9042,
+            0.5906,
+            0.932
+          ]
+        },
+        {
+          "text": "from R1",
+          "bbox": [
+            0.0314,
+            0.9316,
+            0.1078,
+            0.9594
+          ]
+        },
+        {
+          "text": "Flow of packets at Router R2",
+          "bbox": [
+            0.723,
+            0.9345,
+            0.9892,
+            0.9623
+          ]
+        },
+        {
+          "text": "To Bob",
+          "bbox": [
+            0.6078,
+            0.9357,
+            0.6748,
+            0.9636
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:33:20+00:00"
+      }
+    },
+    {
+      "id": "ch09_ill_014",
+      "file": "ch09_ill_014.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 9.14",
+      "section_id": "ch09-9-2-3-activities-at-bob-s-site",
+      "alt": "Figure 9.14: Activities at Bob’s site",
+      "sources": [
+        "book Figure 9.14; p.252"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 871,
+      "sha256": "16f24e90d65caf751a7e9fa0644867e9b748d8ffbb2f8ddd2f38e06ade6434f3",
+      "description": "Figure 9.14: Activities at Bob’s site. Bob removes the final link-layer frame and passes the unchanged N1-to-N8 datagram upward through the network layer.",
+      "structure": "Bob removes the final link-layer frame and passes the unchanged N1-to-N8 datagram upward through the network layer.",
+      "text_in_image": "Legend; Bob’s site; Alice’s site; N: Network-layer address; L: Link-layer address; NB; NA; N1; N2; N3; N4; Bob; LA; L1; L2; L3; L4; LB; R2; R1; Alice; Network layer; Datagram; NA; NB; Data; Data-link layer; LB L4; Frame; NA; NB; Data; Physical layer; Signal; Flow of packets at Bob’s computer",
+      "use_when": "Teach ch09-9-2-3-activities-at-bob-s-site, interpret Figure 9.14, trace address changes, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 18,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        337.76
+      ],
+      "labels": [
+        {
+          "text": "Legend",
+          "bbox": [
+            0.3261,
+            0.1225,
+            0.3983,
+            0.1501
+          ]
+        },
+        {
+          "text": "Bob’s site",
+          "bbox": [
+            0.8104,
+            0.1312,
+            0.9009,
+            0.1588
+          ]
+        },
+        {
+          "text": "Alice’s site",
+          "bbox": [
+            0.033,
+            0.1357,
+            0.1349,
+            0.1633
+          ]
+        },
+        {
+          "text": "N: Network-layer address",
+          "bbox": [
+            0.3347,
+            0.1628,
+            0.5699,
+            0.1973
+          ]
+        },
+        {
+          "text": "L: Link-layer address",
+          "bbox": [
+            0.3347,
+            0.1918,
+            0.5332,
+            0.2194
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.7677,
+            0.2258,
+            0.7956,
+            0.2603
+          ]
+        },
+        {
+          "text": "NA",
+          "bbox": [
+            0.0907,
+            0.2275,
+            0.1195,
+            0.2619
+          ]
+        },
+        {
+          "text": "N1",
+          "bbox": [
+            0.1831,
+            0.2274,
+            0.2082,
+            0.2619
+          ]
+        },
+        {
+          "text": "N2",
+          "bbox": [
+            0.2803,
+            0.2274,
+            0.3053,
+            0.2619
+          ]
+        },
+        {
+          "text": "N3",
+          "bbox": [
+            0.5977,
+            0.2274,
+            0.6227,
+            0.2619
+          ]
+        },
+        {
+          "text": "N4",
+          "bbox": [
+            0.7054,
+            0.2274,
+            0.7304,
+            0.2619
+          ]
+        },
+        {
+          "text": "Bob",
+          "bbox": [
+            0.8837,
+            0.2622,
+            0.9217,
+            0.2898
+          ]
+        },
+        {
+          "text": "LA",
+          "bbox": [
+            0.0933,
+            0.2756,
+            0.1195,
+            0.3101
+          ]
+        },
+        {
+          "text": "L1",
+          "bbox": [
+            0.1832,
+            0.2756,
+            0.2057,
+            0.3101
+          ]
+        },
+        {
+          "text": "L2",
+          "bbox": [
+            0.2804,
+            0.2756,
+            0.3028,
+            0.3101
+          ]
+        },
+        {
+          "text": "L3",
+          "bbox": [
+            0.6002,
+            0.2756,
+            0.6227,
+            0.3101
+          ]
+        },
+        {
+          "text": "L4",
+          "bbox": [
+            0.7055,
+            0.2756,
+            0.7279,
+            0.3101
+          ]
+        },
+        {
+          "text": "LB",
+          "bbox": [
+            0.769,
+            0.2756,
+            0.7943,
+            0.3101
+          ]
+        },
+        {
+          "text": "R2",
+          "bbox": [
+            0.6504,
+            0.2882,
+            0.677,
+            0.3157
+          ]
+        },
+        {
+          "text": "R1",
+          "bbox": [
+            0.2298,
+            0.2907,
+            0.2564,
+            0.3183
+          ]
+        },
+        {
+          "text": "Alice",
+          "bbox": [
+            0.0232,
+            0.3059,
+            0.0726,
+            0.3335
+          ]
+        },
+        {
+          "text": "Network layer",
+          "bbox": [
+            0.6826,
+            0.4046,
+            0.8134,
+            0.4322
+          ]
+        },
+        {
+          "text": "Datagram",
+          "bbox": [
+            0.5457,
+            0.4904,
+            0.6356,
+            0.518
+          ]
+        },
+        {
+          "text": "NA",
+          "bbox": [
+            0.6528,
+            0.4939,
+            0.6816,
+            0.5266
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.691,
+            0.4939,
+            0.7188,
+            0.5266
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.7786,
+            0.496,
+            0.8255,
+            0.5236
+          ]
+        },
+        {
+          "text": "Data-link layer",
+          "bbox": [
+            0.6793,
+            0.5599,
+            0.8166,
+            0.5875
+          ]
+        },
+        {
+          "text": "LB L4",
+          "bbox": [
+            0.6144,
+            0.6529,
+            0.6736,
+            0.6874
+          ]
+        },
+        {
+          "text": "Frame",
+          "bbox": [
+            0.5412,
+            0.6563,
+            0.5995,
+            0.6839
+          ]
+        },
+        {
+          "text": "NA",
+          "bbox": [
+            0.6866,
+            0.6598,
+            0.7154,
+            0.6926
+          ]
+        },
+        {
+          "text": "NB",
+          "bbox": [
+            0.7248,
+            0.6598,
+            0.7526,
+            0.6926
+          ]
+        },
+        {
+          "text": "Data",
+          "bbox": [
+            0.8147,
+            0.6627,
+            0.8616,
+            0.6903
+          ]
+        },
+        {
+          "text": "Physical layer",
+          "bbox": [
+            0.6838,
+            0.7378,
+            0.8122,
+            0.7654
+          ]
+        },
+        {
+          "text": "Signal",
+          "bbox": [
+            0.6817,
+            0.8121,
+            0.7399,
+            0.8397
+          ]
+        },
+        {
+          "text": "Flow of packets at Bob’s computer",
+          "bbox": [
+            0.6198,
+            0.8912,
+            0.9374,
+            0.9188
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:33:20+00:00"
+      }
+    },
+    {
+      "id": "ch09_ill_015",
+      "file": "ch09_ill_015.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 9.15",
+      "section_id": "ch09-q-p9-3",
+      "alt": "Figure 9.15: Problem 9-3",
+      "sources": [
+        "book Figure 9.15; p.254"
+      ],
+      "confidence": "high",
+      "width": 948,
+      "height": 205,
+      "sha256": "7b1a762ad674d8838290a2bcc5aa970e1f69c20450ae248064033cd81d55be1e",
+      "description": "Figure 9.15: Problem 9-3. Problem P9-3 shows two end systems connected through one router on a single continuous link, inviting the student to decide why the router is unnecessary.",
+      "structure": "Problem P9-3 shows two end systems connected through one router on a single continuous link, inviting the student to decide why the router is unnecessary.",
+      "text_in_image": "No text labels appear in the source figure.",
+      "use_when": "Teach ch09-q-p9-3, interpret Figure 9.15, trace address changes, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 20,
+      "source_bbox": [
+        135.56,
+        228.88,
+        451.32,
+        296.96
+      ],
+      "labels": [],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:33:20+00:00"
+      }
+    },
+    {
+      "id": "ch09_ill_016",
+      "file": "ch09_ill_016.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 9.16",
+      "section_id": "ch09-q-p9-4",
+      "alt": "Figure 9.16: Problem 9-4",
+      "sources": [
+        "book Figure 9.16; p.254"
+      ],
+      "confidence": "high",
+      "width": 948,
+      "height": 261,
+      "sha256": "a049672dddce3153451ea96c2fb6508928b90edcb9a6aa23282c45a28c5dd60a",
+      "description": "Figure 9.16: Problem 9-4. Problem P9-4 shows Alice and Bob on two separate site links joined by router R, inviting the student to explain why routing may be required.",
+      "structure": "Problem P9-4 shows Alice and Bob on two separate site links joined by router R, inviting the student to explain why routing may be required.",
+      "text_in_image": "Alice; Bob; R; Alice’s site; Bob’s site",
+      "use_when": "Teach ch09-q-p9-4, interpret Figure 9.16, trace address changes, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 20,
+      "source_bbox": [
+        135.56,
+        320.8,
+        451.32,
+        407.48
+      ],
+      "labels": [
+        {
+          "text": "Alice",
+          "bbox": [
+            0.1087,
+            0.3145,
+            0.164,
+            0.4099
+          ]
+        },
+        {
+          "text": "Bob",
+          "bbox": [
+            0.845,
+            0.3264,
+            0.8877,
+            0.4211
+          ]
+        },
+        {
+          "text": "R",
+          "bbox": [
+            0.507,
+            0.645,
+            0.5239,
+            0.7373
+          ]
+        },
+        {
+          "text": "Alice’s site",
+          "bbox": [
+            0.1403,
+            0.8044,
+            0.2536,
+            0.8966
+          ]
+        },
+        {
+          "text": "Bob’s site",
+          "bbox": [
+            0.7468,
+            0.8044,
+            0.8474,
+            0.8967
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:33:20+00:00"
+      }
+    }
+  ]
+}
