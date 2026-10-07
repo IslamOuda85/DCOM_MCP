@@ -200,6 +200,46 @@
         "quadrature amplitude modulation (QAM)"
       ],
       "prerequisites": []
+    },
+    {
+      "chapter": 6,
+      "title": "Bandwidth Utilization: Multiplexing and Spectrum Spreading",
+      "key_terms": [
+        "analog hierarchy",
+        "Barker sequence",
+        "channel",
+        "chip",
+        "demultiplexer (DEMUX)",
+        "dense WDM (DWDM)",
+        "digital signal (DS) service",
+        "direct sequence spread spectrum (DSSS)",
+        "E line",
+        "framing bit",
+        "frequency hopping spread spectrum (FHSS)",
+        "frequency-division multiplexing (FDM)",
+        "group",
+        "guard band",
+        "hopping period",
+        "interleaving",
+        "jumbo group",
+        "link",
+        "master group",
+        "multilevel multiplexing",
+        "multiple-slot allocation",
+        "multiplexer (MUX)",
+        "multiplexing",
+        "pseudorandom code generator",
+        "pseudorandom noise (PN)",
+        "pulse stuffing",
+        "spread spectrum (SS)",
+        "statistical TDM",
+        "supergroup",
+        "synchronous TDM",
+        "T line",
+        "time-division multiplexing (TDM)",
+        "wavelength-division multiplexing (WDM)"
+      ],
+      "prerequisites": []
     }
   ],
   "sections": [
@@ -4620,6 +4660,1006 @@
       "terms": [
         "3",
         "5",
+        "summary"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-0",
+      "chapter": 6,
+      "title": "Chapter Objectives",
+      "parent": null,
+      "children": [],
+      "source": "book p.155",
+      "kind": "objectives",
+      "asset_ids": [],
+      "terms": [
+        "chapter",
+        "objectives"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-6-1",
+      "chapter": 6,
+      "title": "6.1 MULTIPLEXING",
+      "parent": null,
+      "children": [
+        "ch06-6-1-1",
+        "ch06-6-1-2",
+        "ch06-6-1-3"
+      ],
+      "source": "book 6.1; p.156",
+      "kind": "concept",
+      "asset_ids": [
+        "ch06_ill_001",
+        "ch06_ill_002"
+      ],
+      "terms": [
+        "1",
+        "6",
+        "multiplexing"
+      ],
+      "question_ids": [
+        "ch06-q-q6-1",
+        "ch06-q-q6-2",
+        "ch06-q-q6-3"
+      ]
+    },
+    {
+      "id": "ch06-6-1-1",
+      "chapter": 6,
+      "title": "6.1.1 Frequency-Division Multiplexing",
+      "parent": "ch06-6-1",
+      "children": [
+        "ch06-6-1-1-multiplexing-process",
+        "ch06-6-1-1-demultiplexing-process",
+        "ch06-6-1-1-the-analog-carrier-system",
+        "ch06-6-1-1-other-applications-of-fdm",
+        "ch06-6-1-1-implementation"
+      ],
+      "source": "book 6.1.1; p.157",
+      "kind": "concept",
+      "asset_ids": [
+        "ch06_ill_003"
+      ],
+      "terms": [
+        "1",
+        "6",
+        "division",
+        "frequency",
+        "multiplexing"
+      ],
+      "question_ids": [
+        "ch06-q-q6-4",
+        "ch06-q-p6-1",
+        "ch06-q-p6-2"
+      ]
+    },
+    {
+      "id": "ch06-6-1-1-multiplexing-process",
+      "chapter": 6,
+      "title": "Multiplexing Process",
+      "parent": "ch06-6-1-1",
+      "children": [],
+      "source": "book p.157",
+      "kind": "concept",
+      "asset_ids": [
+        "ch06_ill_004"
+      ],
+      "terms": [
+        "multiplexing",
+        "process"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-6-1-1-demultiplexing-process",
+      "chapter": 6,
+      "title": "Demultiplexing Process",
+      "parent": "ch06-6-1-1",
+      "children": [
+        "ch06-example-6-1",
+        "ch06-example-6-2",
+        "ch06-example-6-3"
+      ],
+      "source": "book p.158",
+      "kind": "concept",
+      "asset_ids": [
+        "ch06_ill_005"
+      ],
+      "terms": [
+        "demultiplexing",
+        "process"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-example-6-1",
+      "chapter": 6,
+      "title": "Example 6.1",
+      "parent": "ch06-6-1-1-demultiplexing-process",
+      "children": [],
+      "source": "book Example 6.1",
+      "kind": "worked_example",
+      "asset_ids": [
+        "ch06_ill_006"
+      ],
+      "terms": [
+        "1",
+        "6",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-example-6-2",
+      "chapter": 6,
+      "title": "Example 6.2",
+      "parent": "ch06-6-1-1-demultiplexing-process",
+      "children": [],
+      "source": "book Example 6.2",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "6",
+        "example"
+      ],
+      "question_ids": [
+        "ch06-q-p6-1"
+      ]
+    },
+    {
+      "id": "ch06-example-6-3",
+      "chapter": 6,
+      "title": "Example 6.3",
+      "parent": "ch06-6-1-1-demultiplexing-process",
+      "children": [],
+      "source": "book Example 6.3",
+      "kind": "worked_example",
+      "asset_ids": [
+        "ch06_ill_007",
+        "ch06_ill_008"
+      ],
+      "terms": [
+        "3",
+        "6",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-6-1-1-the-analog-carrier-system",
+      "chapter": 6,
+      "title": "The Analog Carrier System",
+      "parent": "ch06-6-1-1",
+      "children": [],
+      "source": "book p.160",
+      "kind": "concept",
+      "asset_ids": [
+        "ch06_ill_009"
+      ],
+      "terms": [
+        "analog",
+        "carrier",
+        "system"
+      ],
+      "question_ids": [
+        "ch06-q-q6-5",
+        "ch06-q-p6-3"
+      ]
+    },
+    {
+      "id": "ch06-6-1-1-other-applications-of-fdm",
+      "chapter": 6,
+      "title": "Other Applications of FDM",
+      "parent": "ch06-6-1-1",
+      "children": [
+        "ch06-example-6-4"
+      ],
+      "source": "book p.161",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "applications",
+        "fdm",
+        "other"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-example-6-4",
+      "chapter": 6,
+      "title": "Example 6.4",
+      "parent": "ch06-6-1-1-other-applications-of-fdm",
+      "children": [],
+      "source": "book Example 6.4",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "4",
+        "6",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-6-1-1-implementation",
+      "chapter": 6,
+      "title": "Implementation",
+      "parent": "ch06-6-1-1",
+      "children": [],
+      "source": "book p.162",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "implementation"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-6-1-2",
+      "chapter": 6,
+      "title": "6.1.2 Wavelength-Division Multiplexing",
+      "parent": "ch06-6-1",
+      "children": [],
+      "source": "book 6.1.2; p.162",
+      "kind": "concept",
+      "asset_ids": [
+        "ch06_ill_010",
+        "ch06_ill_011"
+      ],
+      "terms": [
+        "1",
+        "2",
+        "6",
+        "division",
+        "multiplexing",
+        "wavelength"
+      ],
+      "question_ids": [
+        "ch06-q-q6-4",
+        "ch06-q-q6-7"
+      ]
+    },
+    {
+      "id": "ch06-6-1-3",
+      "chapter": 6,
+      "title": "6.1.3 Time-Division Multiplexing",
+      "parent": "ch06-6-1",
+      "children": [
+        "ch06-6-1-3-synchronous-tdm",
+        "ch06-6-1-3-time-slots-and-frames",
+        "ch06-6-1-3-interleaving",
+        "ch06-6-1-3-empty-slots",
+        "ch06-6-1-3-data-rate-management",
+        "ch06-6-1-3-multilevel-multiplexing",
+        "ch06-6-1-3-multiple-slot-allocation",
+        "ch06-6-1-3-pulse-stuffing",
+        "ch06-6-1-3-frame-synchronizing",
+        "ch06-6-1-3-digital-signal-service",
+        "ch06-6-1-3-t-lines",
+        "ch06-6-1-3-t-lines-for-analog-transmission",
+        "ch06-6-1-3-the-t-1-frame",
+        "ch06-6-1-3-e-lines",
+        "ch06-6-1-3-more-synchronous-tdm-applications",
+        "ch06-6-1-3-statistical-time-division-multiplexing",
+        "ch06-6-1-3-addressing",
+        "ch06-6-1-3-slot-size",
+        "ch06-6-1-3-no-synchronization-bit",
+        "ch06-6-1-3-bandwidth"
+      ],
+      "source": "book 6.1.3; p.163",
+      "kind": "concept",
+      "asset_ids": [
+        "ch06_ill_012"
+      ],
+      "terms": [
+        "1",
+        "3",
+        "6",
+        "division",
+        "multiplexing",
+        "time"
+      ],
+      "question_ids": [
+        "ch06-q-q6-4"
+      ]
+    },
+    {
+      "id": "ch06-6-1-3-synchronous-tdm",
+      "chapter": 6,
+      "title": "Synchronous TDM",
+      "parent": "ch06-6-1-3",
+      "children": [],
+      "source": "book p.164",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "synchronous",
+        "tdm"
+      ],
+      "question_ids": [
+        "ch06-q-q6-9",
+        "ch06-q-p6-11"
+      ]
+    },
+    {
+      "id": "ch06-6-1-3-time-slots-and-frames",
+      "chapter": 6,
+      "title": "Time Slots and Frames",
+      "parent": "ch06-6-1-3",
+      "children": [
+        "ch06-example-6-5",
+        "ch06-example-6-6",
+        "ch06-example-6-7"
+      ],
+      "source": "book p.164",
+      "kind": "concept",
+      "asset_ids": [
+        "ch06_ill_013"
+      ],
+      "terms": [
+        "frames",
+        "slots",
+        "time"
+      ],
+      "question_ids": [
+        "ch06-q-p6-4",
+        "ch06-q-p6-5",
+        "ch06-q-p6-12",
+        "ch06-q-p6-13"
+      ]
+    },
+    {
+      "id": "ch06-example-6-5",
+      "chapter": 6,
+      "title": "Example 6.5",
+      "parent": "ch06-6-1-3-time-slots-and-frames",
+      "children": [],
+      "source": "book Example 6.5",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "5",
+        "6",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-example-6-6",
+      "chapter": 6,
+      "title": "Example 6.6",
+      "parent": "ch06-6-1-3-time-slots-and-frames",
+      "children": [],
+      "source": "book Example 6.6",
+      "kind": "worked_example",
+      "asset_ids": [
+        "ch06_ill_014"
+      ],
+      "terms": [
+        "6",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-example-6-7",
+      "chapter": 6,
+      "title": "Example 6.7",
+      "parent": "ch06-6-1-3-time-slots-and-frames",
+      "children": [],
+      "source": "book Example 6.7",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "6",
+        "7",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-6-1-3-interleaving",
+      "chapter": 6,
+      "title": "Interleaving",
+      "parent": "ch06-6-1-3",
+      "children": [
+        "ch06-example-6-8",
+        "ch06-example-6-9"
+      ],
+      "source": "book p.166",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "interleaving"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-example-6-8",
+      "chapter": 6,
+      "title": "Example 6.8",
+      "parent": "ch06-6-1-3-interleaving",
+      "children": [],
+      "source": "book Example 6.8",
+      "kind": "worked_example",
+      "asset_ids": [
+        "ch06_ill_015",
+        "ch06_ill_016"
+      ],
+      "terms": [
+        "6",
+        "8",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-example-6-9",
+      "chapter": 6,
+      "title": "Example 6.9",
+      "parent": "ch06-6-1-3-interleaving",
+      "children": [],
+      "source": "book Example 6.9",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "6",
+        "9",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-6-1-3-empty-slots",
+      "chapter": 6,
+      "title": "Empty Slots",
+      "parent": "ch06-6-1-3",
+      "children": [],
+      "source": "book p.167",
+      "kind": "concept",
+      "asset_ids": [
+        "ch06_ill_017",
+        "ch06_ill_018"
+      ],
+      "terms": [
+        "empty",
+        "slots"
+      ],
+      "question_ids": [
+        "ch06-q-p6-11"
+      ]
+    },
+    {
+      "id": "ch06-6-1-3-data-rate-management",
+      "chapter": 6,
+      "title": "Data Rate Management",
+      "parent": "ch06-6-1-3",
+      "children": [],
+      "source": "book p.168",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "data",
+        "management",
+        "rate"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-6-1-3-multilevel-multiplexing",
+      "chapter": 6,
+      "title": "Multilevel Multiplexing",
+      "parent": "ch06-6-1-3",
+      "children": [],
+      "source": "book p.168",
+      "kind": "concept",
+      "asset_ids": [
+        "ch06_ill_019"
+      ],
+      "terms": [
+        "multilevel",
+        "multiplexing"
+      ],
+      "question_ids": [
+        "ch06-q-q6-8",
+        "ch06-q-p6-7"
+      ]
+    },
+    {
+      "id": "ch06-6-1-3-multiple-slot-allocation",
+      "chapter": 6,
+      "title": "Multiple-Slot Allocation",
+      "parent": "ch06-6-1-3",
+      "children": [],
+      "source": "book p.169",
+      "kind": "concept",
+      "asset_ids": [
+        "ch06_ill_020"
+      ],
+      "terms": [
+        "allocation",
+        "multiple",
+        "slot"
+      ],
+      "question_ids": [
+        "ch06-q-q6-8",
+        "ch06-q-p6-8"
+      ]
+    },
+    {
+      "id": "ch06-6-1-3-pulse-stuffing",
+      "chapter": 6,
+      "title": "Pulse Stuffing",
+      "parent": "ch06-6-1-3",
+      "children": [],
+      "source": "book p.169",
+      "kind": "concept",
+      "asset_ids": [
+        "ch06_ill_021"
+      ],
+      "terms": [
+        "pulse",
+        "stuffing"
+      ],
+      "question_ids": [
+        "ch06-q-q6-8",
+        "ch06-q-p6-9"
+      ]
+    },
+    {
+      "id": "ch06-6-1-3-frame-synchronizing",
+      "chapter": 6,
+      "title": "Frame Synchronizing",
+      "parent": "ch06-6-1-3",
+      "children": [
+        "ch06-example-6-10",
+        "ch06-example-6-11"
+      ],
+      "source": "book p.169",
+      "kind": "concept",
+      "asset_ids": [
+        "ch06_ill_022"
+      ],
+      "terms": [
+        "frame",
+        "synchronizing"
+      ],
+      "question_ids": [
+        "ch06-q-p6-4",
+        "ch06-q-p6-5",
+        "ch06-q-p6-12"
+      ]
+    },
+    {
+      "id": "ch06-example-6-10",
+      "chapter": 6,
+      "title": "Example 6.10",
+      "parent": "ch06-6-1-3-frame-synchronizing",
+      "children": [],
+      "source": "book Example 6.10",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "10",
+        "6",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-example-6-11",
+      "chapter": 6,
+      "title": "Example 6.11",
+      "parent": "ch06-6-1-3-frame-synchronizing",
+      "children": [],
+      "source": "book Example 6.11",
+      "kind": "worked_example",
+      "asset_ids": [],
+      "terms": [
+        "11",
+        "6",
+        "example"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-6-1-3-digital-signal-service",
+      "chapter": 6,
+      "title": "Digital Signal Service",
+      "parent": "ch06-6-1-3",
+      "children": [],
+      "source": "book p.171",
+      "kind": "concept",
+      "asset_ids": [
+        "ch06_ill_023"
+      ],
+      "terms": [
+        "digital",
+        "service",
+        "signal"
+      ],
+      "question_ids": [
+        "ch06-q-q6-6",
+        "ch06-q-p6-14"
+      ]
+    },
+    {
+      "id": "ch06-6-1-3-t-lines",
+      "chapter": 6,
+      "title": "T Lines",
+      "parent": "ch06-6-1-3",
+      "children": [],
+      "source": "book p.171",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "lines",
+        "t"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-6-1-3-t-lines-for-analog-transmission",
+      "chapter": 6,
+      "title": "T Lines for Analog Transmission",
+      "parent": "ch06-6-1-3",
+      "children": [],
+      "source": "book p.172",
+      "kind": "concept",
+      "asset_ids": [
+        "ch06_ill_024"
+      ],
+      "terms": [
+        "analog",
+        "lines",
+        "t",
+        "transmission"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-6-1-3-the-t-1-frame",
+      "chapter": 6,
+      "title": "The T-1 Frame",
+      "parent": "ch06-6-1-3",
+      "children": [],
+      "source": "book p.172",
+      "kind": "concept",
+      "asset_ids": [
+        "ch06_ill_025"
+      ],
+      "terms": [
+        "1",
+        "frame",
+        "t"
+      ],
+      "question_ids": [
+        "ch06-q-p6-10"
+      ]
+    },
+    {
+      "id": "ch06-6-1-3-e-lines",
+      "chapter": 6,
+      "title": "E Lines",
+      "parent": "ch06-6-1-3",
+      "children": [],
+      "source": "book p.173",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "e",
+        "lines"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-6-1-3-more-synchronous-tdm-applications",
+      "chapter": 6,
+      "title": "More Synchronous TDM Applications",
+      "parent": "ch06-6-1-3",
+      "children": [],
+      "source": "book p.173",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "applications",
+        "more",
+        "synchronous",
+        "tdm"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-6-1-3-statistical-time-division-multiplexing",
+      "chapter": 6,
+      "title": "Statistical Time-Division Multiplexing",
+      "parent": "ch06-6-1-3",
+      "children": [],
+      "source": "book p.174",
+      "kind": "concept",
+      "asset_ids": [
+        "ch06_ill_026"
+      ],
+      "terms": [
+        "division",
+        "multiplexing",
+        "statistical",
+        "time"
+      ],
+      "question_ids": [
+        "ch06-q-q6-9",
+        "ch06-q-p6-6"
+      ]
+    },
+    {
+      "id": "ch06-6-1-3-addressing",
+      "chapter": 6,
+      "title": "Addressing",
+      "parent": "ch06-6-1-3",
+      "children": [],
+      "source": "book p.174",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "addressing"
+      ],
+      "question_ids": [
+        "ch06-q-p6-6"
+      ]
+    },
+    {
+      "id": "ch06-6-1-3-slot-size",
+      "chapter": 6,
+      "title": "Slot Size",
+      "parent": "ch06-6-1-3",
+      "children": [],
+      "source": "book p.175",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "size",
+        "slot"
+      ],
+      "question_ids": [
+        "ch06-q-p6-6"
+      ]
+    },
+    {
+      "id": "ch06-6-1-3-no-synchronization-bit",
+      "chapter": 6,
+      "title": "No Synchronization Bit",
+      "parent": "ch06-6-1-3",
+      "children": [],
+      "source": "book p.175",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "bit",
+        "no",
+        "synchronization"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-6-1-3-bandwidth",
+      "chapter": 6,
+      "title": "Bandwidth",
+      "parent": "ch06-6-1-3",
+      "children": [],
+      "source": "book p.175",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "bandwidth"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-6-2",
+      "chapter": 6,
+      "title": "6.2 SPREAD SPECTRUM",
+      "parent": null,
+      "children": [
+        "ch06-6-2-1",
+        "ch06-6-2-2"
+      ],
+      "source": "book 6.2; p.175",
+      "kind": "concept",
+      "asset_ids": [
+        "ch06_ill_027"
+      ],
+      "terms": [
+        "2",
+        "6",
+        "spectrum",
+        "spread"
+      ],
+      "question_ids": [
+        "ch06-q-q6-10"
+      ]
+    },
+    {
+      "id": "ch06-6-2-1",
+      "chapter": 6,
+      "title": "6.2.1 Frequency Hopping Spread Spectrum",
+      "parent": "ch06-6-2",
+      "children": [
+        "ch06-6-2-1-bandwidth-sharing"
+      ],
+      "source": "book 6.2.1; p.176",
+      "kind": "concept",
+      "asset_ids": [
+        "ch06_ill_028",
+        "ch06_ill_029"
+      ],
+      "terms": [
+        "1",
+        "2",
+        "6",
+        "frequency",
+        "hopping",
+        "spectrum",
+        "spread"
+      ],
+      "question_ids": [
+        "ch06-q-q6-10",
+        "ch06-q-q6-11",
+        "ch06-q-p6-15",
+        "ch06-q-p6-16",
+        "ch06-q-p6-17"
+      ]
+    },
+    {
+      "id": "ch06-6-2-1-bandwidth-sharing",
+      "chapter": 6,
+      "title": "Bandwidth Sharing",
+      "parent": "ch06-6-2-1",
+      "children": [],
+      "source": "book p.177",
+      "kind": "concept",
+      "asset_ids": [
+        "ch06_ill_030",
+        "ch06_ill_031"
+      ],
+      "terms": [
+        "bandwidth",
+        "sharing"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-6-2-2",
+      "chapter": 6,
+      "title": "6.2.2 Direct Sequence Spread Spectrum",
+      "parent": "ch06-6-2",
+      "children": [
+        "ch06-6-2-2-bandwidth-sharing"
+      ],
+      "source": "book 6.2.2; p.178",
+      "kind": "concept",
+      "asset_ids": [
+        "ch06_ill_032",
+        "ch06_ill_033"
+      ],
+      "terms": [
+        "2",
+        "6",
+        "direct",
+        "sequence",
+        "spectrum",
+        "spread"
+      ],
+      "question_ids": [
+        "ch06-q-q6-10",
+        "ch06-q-q6-12",
+        "ch06-q-p6-18"
+      ]
+    },
+    {
+      "id": "ch06-6-2-2-bandwidth-sharing",
+      "chapter": 6,
+      "title": "Bandwidth Sharing",
+      "parent": "ch06-6-2-2",
+      "children": [],
+      "source": "book p.179",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "bandwidth",
+        "sharing"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-6-3",
+      "chapter": 6,
+      "title": "6.3 END-CHAPTER MATERIALS",
+      "parent": null,
+      "children": [
+        "ch06-6-3-1",
+        "ch06-6-3-2",
+        "ch06-6-3-3"
+      ],
+      "source": "book 6.3; p.180",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "6",
+        "chapter",
+        "end",
+        "materials"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-6-3-1",
+      "chapter": 6,
+      "title": "6.3.1 Recommended Reading",
+      "parent": "ch06-6-3",
+      "children": [
+        "ch06-6-3-1-books"
+      ],
+      "source": "book 6.3.1; p.180",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "3",
+        "6",
+        "reading",
+        "recommended"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-6-3-1-books",
+      "chapter": 6,
+      "title": "Books",
+      "parent": "ch06-6-3-1",
+      "children": [],
+      "source": "book p.180",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "books"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-6-3-2",
+      "chapter": 6,
+      "title": "6.3.2 Key Terms",
+      "parent": "ch06-6-3",
+      "children": [],
+      "source": "book 6.3.2; p.180",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "3",
+        "6",
+        "key",
+        "terms"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch06-6-3-3",
+      "chapter": 6,
+      "title": "6.3.3 Summary",
+      "parent": "ch06-6-3",
+      "children": [],
+      "source": "book 6.3.3; p.180",
+      "kind": "summary",
+      "asset_ids": [],
+      "terms": [
+        "3",
+        "6",
         "summary"
       ],
       "question_ids": []

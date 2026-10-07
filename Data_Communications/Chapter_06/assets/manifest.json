@@ -1,0 +1,6962 @@
+{
+  "chapter": 6,
+  "spec_version": "1.1-controller",
+  "generated_at": "2026-10-07T03:15:22+00:00",
+  "assets": [
+    {
+      "id": "ch06_ill_001",
+      "file": "ch06_ill_001.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.1",
+      "section_id": "ch06-6-1",
+      "alt": "Figure 6.1: Dividing a link into channels",
+      "sources": [
+        "book Figure 6.1; p.156"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 352,
+      "sha256": "5e9e28c163980a92508ee5f808fe0a26aa6be23e720071d27d2c79df86dc8f6a",
+      "description": "Figure 6.1: Dividing a link into channels. Multiple input lines enter a multiplexer, one shared link carries n logical channels, and a demultiplexer separates them into the corresponding output lines.",
+      "structure": "Multiple input lines enter a multiplexer, one shared link carries n logical channels, and a demultiplexer separates them into the corresponding output lines.",
+      "text_in_image": "MUX: Multiplexer; DEMUX: Demultiplexer; D; n; n; E; M; Input; Output; M; U; • • •; • • •; lines; lines; U; X; 1 link, n channels; X",
+      "use_when": "Teach ch06-6-1, interpret Figure 6.1, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 2,
+      "source_bbox": [
+        99.32,
+        323.92,
+        451.32,
+        440.78
+      ],
+      "labels": [
+        {
+          "text": "MUX: Multiplexer",
+          "bbox": [
+            0.4045,
+            0.3315,
+            0.5774,
+            0.4172
+          ]
+        },
+        {
+          "text": "DEMUX: Demultiplexer",
+          "bbox": [
+            0.4045,
+            0.4136,
+            0.6329,
+            0.4993
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.7493,
+            0.4352,
+            0.7657,
+            0.5036
+          ]
+        },
+        {
+          "text": "n",
+          "bbox": [
+            0.0948,
+            0.4845,
+            0.1119,
+            0.5667
+          ]
+        },
+        {
+          "text": "n",
+          "bbox": [
+            0.8846,
+            0.4845,
+            0.9017,
+            0.5667
+          ]
+        },
+        {
+          "text": "E",
+          "bbox": [
+            0.7499,
+            0.5173,
+            0.7651,
+            0.5858
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.2212,
+            0.5208,
+            0.2427,
+            0.5892
+          ]
+        },
+        {
+          "text": "Input",
+          "bbox": [
+            0.0794,
+            0.5667,
+            0.1274,
+            0.6351
+          ]
+        },
+        {
+          "text": "Output",
+          "bbox": [
+            0.8616,
+            0.5667,
+            0.9247,
+            0.6351
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.7468,
+            0.5995,
+            0.7682,
+            0.668
+          ]
+        },
+        {
+          "text": "U",
+          "bbox": [
+            0.2237,
+            0.6029,
+            0.2401,
+            0.6714
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.7911,
+            0.6413,
+            0.8138,
+            0.7474
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.14,
+            0.6442,
+            0.1628,
+            0.7503
+          ]
+        },
+        {
+          "text": "lines",
+          "bbox": [
+            0.0819,
+            0.6488,
+            0.1248,
+            0.7173
+          ]
+        },
+        {
+          "text": "lines",
+          "bbox": [
+            0.8717,
+            0.6488,
+            0.9146,
+            0.7173
+          ]
+        },
+        {
+          "text": "U",
+          "bbox": [
+            0.7493,
+            0.6816,
+            0.7657,
+            0.7501
+          ]
+        },
+        {
+          "text": "X",
+          "bbox": [
+            0.2237,
+            0.6851,
+            0.2401,
+            0.7535
+          ]
+        },
+        {
+          "text": "1 link, n channels",
+          "bbox": [
+            0.4145,
+            0.7296,
+            0.5749,
+            0.8118
+          ]
+        },
+        {
+          "text": "X",
+          "bbox": [
+            0.7493,
+            0.7638,
+            0.7657,
+            0.8323
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_002",
+      "file": "ch06_ill_002.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.2",
+      "section_id": "ch06-6-1",
+      "alt": "Figure 6.2: Categories of multiplexing",
+      "sources": [
+        "book Figure 6.2; p.156"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 350,
+      "sha256": "a9fae9c4b1f94202d976898746f2dad29acca0245d1477bebcf8f27a62a5ca3c",
+      "description": "Figure 6.2: Categories of multiplexing. A classification tree divides multiplexing into frequency-division and wavelength-division techniques for analog signals and time-division multiplexing for digital signals.",
+      "structure": "A classification tree divides multiplexing into frequency-division and wavelength-division techniques for analog signals and time-division multiplexing for digital signals.",
+      "text_in_image": "Multiplexing; Frequency-division; Wavelength-division; Time-division; multiplexing; multiplexing; multiplexing; Analog; Analog; Digital",
+      "use_when": "Teach ch06-6-1, interpret Figure 6.2, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 2,
+      "source_bbox": [
+        99.32,
+        488.68,
+        451.32,
+        605.06
+      ],
+      "labels": [
+        {
+          "text": "Multiplexing",
+          "bbox": [
+            0.439,
+            0.353,
+            0.5573,
+            0.4217
+          ]
+        },
+        {
+          "text": "Frequency-division",
+          "bbox": [
+            0.1515,
+            0.6607,
+            0.3274,
+            0.7295
+          ]
+        },
+        {
+          "text": "Wavelength-division",
+          "bbox": [
+            0.4016,
+            0.6607,
+            0.5947,
+            0.7295
+          ]
+        },
+        {
+          "text": "Time-division",
+          "bbox": [
+            0.6903,
+            0.6607,
+            0.8234,
+            0.7295
+          ]
+        },
+        {
+          "text": "multiplexing",
+          "bbox": [
+            0.1815,
+            0.7432,
+            0.2974,
+            0.8119
+          ]
+        },
+        {
+          "text": "multiplexing",
+          "bbox": [
+            0.4402,
+            0.7432,
+            0.5561,
+            0.8119
+          ]
+        },
+        {
+          "text": "multiplexing",
+          "bbox": [
+            0.6989,
+            0.7432,
+            0.8148,
+            0.8119
+          ]
+        },
+        {
+          "text": "Analog",
+          "bbox": [
+            0.206,
+            0.8704,
+            0.2729,
+            0.9392
+          ]
+        },
+        {
+          "text": "Analog",
+          "bbox": [
+            0.4647,
+            0.8716,
+            0.5316,
+            0.9404
+          ]
+        },
+        {
+          "text": "Digital",
+          "bbox": [
+            0.7253,
+            0.8716,
+            0.7884,
+            0.9404
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_003",
+      "file": "ch06_ill_003.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.3",
+      "section_id": "ch06-6-1-1",
+      "alt": "Figure 6.3: Frequency-division multiplexing",
+      "sources": [
+        "book Figure 6.3; p.157"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 365,
+      "sha256": "4651ed7421cbb3e4954568b4c09013ee48ca0576b1201dccf32e2728a52b4572",
+      "description": "Figure 6.3: Frequency-division multiplexing. A frequency-domain view places three input signals in nonoverlapping channel bands inside one wider link spectrum, then separates them at the receiver.",
+      "structure": "A frequency-domain view places three input signals in nonoverlapping channel bands inside one wider link spectrum, then separates them at the receiver.",
+      "text_in_image": "D; Channel 1; E; M; Input; Output; M; U; Channel 2; lines; lines; U; X; Channel 3; X",
+      "use_when": "Teach ch06-6-1-1, interpret Figure 6.3, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 3,
+      "source_bbox": [
+        114.32,
+        266.38,
+        466.32,
+        387.74
+      ],
+      "labels": [
+        {
+          "text": "D",
+          "bbox": [
+            0.75,
+            0.4053,
+            0.7664,
+            0.4712
+          ]
+        },
+        {
+          "text": "Channel 1",
+          "bbox": [
+            0.4505,
+            0.4572,
+            0.5497,
+            0.5231
+          ]
+        },
+        {
+          "text": "E",
+          "bbox": [
+            0.7506,
+            0.4712,
+            0.7657,
+            0.5371
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.2313,
+            0.4794,
+            0.2528,
+            0.5453
+          ]
+        },
+        {
+          "text": "Input",
+          "bbox": [
+            0.117,
+            0.4861,
+            0.165,
+            0.5521
+          ]
+        },
+        {
+          "text": "Output",
+          "bbox": [
+            0.8337,
+            0.4861,
+            0.8968,
+            0.5521
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.7474,
+            0.5371,
+            0.7689,
+            0.603
+          ]
+        },
+        {
+          "text": "U",
+          "bbox": [
+            0.2338,
+            0.5453,
+            0.2503,
+            0.6113
+          ]
+        },
+        {
+          "text": "Channel 2",
+          "bbox": [
+            0.4505,
+            0.5463,
+            0.5497,
+            0.6122
+          ]
+        },
+        {
+          "text": "lines",
+          "bbox": [
+            0.1221,
+            0.5521,
+            0.165,
+            0.618
+          ]
+        },
+        {
+          "text": "lines",
+          "bbox": [
+            0.8337,
+            0.5521,
+            0.8766,
+            0.618
+          ]
+        },
+        {
+          "text": "U",
+          "bbox": [
+            0.75,
+            0.603,
+            0.7664,
+            0.6689
+          ]
+        },
+        {
+          "text": "X",
+          "bbox": [
+            0.2338,
+            0.6113,
+            0.2503,
+            0.6772
+          ]
+        },
+        {
+          "text": "Channel 3",
+          "bbox": [
+            0.4505,
+            0.6354,
+            0.5497,
+            0.7013
+          ]
+        },
+        {
+          "text": "X",
+          "bbox": [
+            0.75,
+            0.6689,
+            0.7664,
+            0.7349
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_004",
+      "file": "ch06_ill_004.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.4",
+      "section_id": "ch06-6-1-1-multiplexing-process",
+      "alt": "Figure 6.4: FDM process",
+      "sources": [
+        "book Figure 6.4; p.158"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 559,
+      "sha256": "fa1eab05fd7445fbc6473ad61b36c9a824a328b5635f7a0865f51c282715f8a2",
+      "description": "Figure 6.4: FDM process. Three baseband analog signals modulate carriers f1, f2, and f3; an adder combines their shifted spectra into one composite FDM signal.",
+      "structure": "Three baseband analog signals modulate carriers f1, f2, and f3; an adder combines their shifted spectra into one composite FDM signal.",
+      "text_in_image": "Modulator; Carrier f1; Modulator; +; Carrier f2; Modulator; Baseband; Carrier f3; analog signals",
+      "use_when": "Teach ch06-6-1-1-multiplexing-process, interpret Figure 6.4, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 4,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        233.84
+      ],
+      "labels": [
+        {
+          "text": "Modulator",
+          "bbox": [
+            0.2723,
+            0.2223,
+            0.3685,
+            0.2653
+          ]
+        },
+        {
+          "text": "Carrier f1",
+          "bbox": [
+            0.2779,
+            0.3354,
+            0.363,
+            0.3892
+          ]
+        },
+        {
+          "text": "Modulator",
+          "bbox": [
+            0.2723,
+            0.4591,
+            0.3685,
+            0.5021
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.6728,
+            0.5254,
+            0.6858,
+            0.5684
+          ]
+        },
+        {
+          "text": "Carrier f2",
+          "bbox": [
+            0.2779,
+            0.5722,
+            0.363,
+            0.6259
+          ]
+        },
+        {
+          "text": "Modulator",
+          "bbox": [
+            0.2723,
+            0.6927,
+            0.3685,
+            0.7357
+          ]
+        },
+        {
+          "text": "Baseband",
+          "bbox": [
+            0.0976,
+            0.7717,
+            0.1862,
+            0.8147
+          ]
+        },
+        {
+          "text": "Carrier f3",
+          "bbox": [
+            0.2779,
+            0.8055,
+            0.363,
+            0.8592
+          ]
+        },
+        {
+          "text": "analog signals",
+          "bbox": [
+            0.077,
+            0.8147,
+            0.2068,
+            0.8577
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_005",
+      "file": "ch06_ill_005.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.5",
+      "section_id": "ch06-6-1-1-demultiplexing-process",
+      "alt": "Figure 6.5: FDM demultiplexing example",
+      "sources": [
+        "book Figure 6.5; p.158"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 554,
+      "sha256": "4e5953f1c9ed319cef4ab65663318ed48cbafa9817736b206456dae919f001e1",
+      "description": "Figure 6.5: FDM demultiplexing example. A composite FDM signal fans out through three bandpass filters and demodulators tuned to f1, f2, and f3, recovering the three original baseband signals.",
+      "structure": "A composite FDM signal fans out through three bandpass filters and demodulators tuned to f1, f2, and f3, recovering the three original baseband signals.",
+      "text_in_image": "Demodulator; Filter; Carrier f1; Demodulator; Filter; Carrier f2; Demodulator; Baseband; Filter; Carrier  f3; analog signals",
+      "use_when": "Teach ch06-6-1-1-demultiplexing-process, interpret Figure 6.5, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 4,
+      "source_bbox": [
+        99.32,
+        314.74,
+        451.32,
+        499.1
+      ],
+      "labels": [
+        {
+          "text": "Demodulator",
+          "bbox": [
+            0.6124,
+            0.2372,
+            0.7323,
+            0.2806
+          ]
+        },
+        {
+          "text": "Filter",
+          "bbox": [
+            0.3672,
+            0.3457,
+            0.4165,
+            0.3891
+          ]
+        },
+        {
+          "text": "Carrier f1",
+          "bbox": [
+            0.63,
+            0.3606,
+            0.7148,
+            0.4148
+          ]
+        },
+        {
+          "text": "Demodulator",
+          "bbox": [
+            0.6124,
+            0.4665,
+            0.7323,
+            0.5099
+          ]
+        },
+        {
+          "text": "Filter",
+          "bbox": [
+            0.3672,
+            0.585,
+            0.4165,
+            0.6284
+          ]
+        },
+        {
+          "text": "Carrier f2",
+          "bbox": [
+            0.63,
+            0.5896,
+            0.7148,
+            0.6438
+          ]
+        },
+        {
+          "text": "Demodulator",
+          "bbox": [
+            0.6124,
+            0.6925,
+            0.7323,
+            0.7359
+          ]
+        },
+        {
+          "text": "Baseband",
+          "bbox": [
+            0.8007,
+            0.7846,
+            0.8891,
+            0.828
+          ]
+        },
+        {
+          "text": "Filter",
+          "bbox": [
+            0.3672,
+            0.8036,
+            0.4165,
+            0.847
+          ]
+        },
+        {
+          "text": "Carrier  f3",
+          "bbox": [
+            0.6271,
+            0.8145,
+            0.7177,
+            0.8688
+          ]
+        },
+        {
+          "text": "analog signals",
+          "bbox": [
+            0.7802,
+            0.8264,
+            0.9096,
+            0.8698
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_006",
+      "file": "ch06_ill_006.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.6",
+      "section_id": "ch06-example-6-1",
+      "alt": "Figure 6.6: Example 6.1",
+      "sources": [
+        "book Figure 6.6; p.159"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 786,
+      "sha256": "952e73aa3708f78a25f6d10cd6c2cf349b4d5b756445ef5818cd2713d6ddbf76",
+      "description": "Figure 6.6: Example 6.1. Three 4 kHz voice spectra are shifted into contiguous 20-24, 24-28, and 28-32 kHz bands, combined on the link, then filtered and shifted back at the receiver.",
+      "structure": "Three 4 kHz voice spectra are shifted into contiguous 20-24, 24-28, and 28-32 kHz bands, combined on the link, then filtered and shifted back at the receiver.",
+      "text_in_image": "Shift and combine; Modulator; 0; 4; 20; 24; +; Modulator; 24; 28; 0; 4; 20; 32; Modulator; 28; 32; 0; 4; Higher-bandwidth link; Bandpass; filter; 0; 4; 20; 24; Bandpass; 20; 32; 24; 28; 0; 4; filter; Bandpass; filter; 28; 32; 0; 4; Filter and shift",
+      "use_when": "Teach ch06-example-6-1, interpret Figure 6.6, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 5,
+      "source_bbox": [
+        115.34,
+        47.8,
+        466.32,
+        309.5
+      ],
+      "labels": [
+        {
+          "text": "Shift and combine",
+          "bbox": [
+            0.5588,
+            0.1227,
+            0.7259,
+            0.1533
+          ]
+        },
+        {
+          "text": "Modulator",
+          "bbox": [
+            0.2994,
+            0.1909,
+            0.3956,
+            0.2215
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1975,
+            0.2105,
+            0.2089,
+            0.2411
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.2482,
+            0.2105,
+            0.2596,
+            0.2411
+          ]
+        },
+        {
+          "text": "20",
+          "bbox": [
+            0.4072,
+            0.2116,
+            0.43,
+            0.2422
+          ]
+        },
+        {
+          "text": "24",
+          "bbox": [
+            0.4579,
+            0.2116,
+            0.4807,
+            0.2422
+          ]
+        },
+        {
+          "text": "+",
+          "bbox": [
+            0.6731,
+            0.2777,
+            0.6892,
+            0.3159
+          ]
+        },
+        {
+          "text": "Modulator",
+          "bbox": [
+            0.2994,
+            0.2823,
+            0.3956,
+            0.3128
+          ]
+        },
+        {
+          "text": "24",
+          "bbox": [
+            0.4579,
+            0.3065,
+            0.4807,
+            0.3371
+          ]
+        },
+        {
+          "text": "28",
+          "bbox": [
+            0.5097,
+            0.3065,
+            0.5325,
+            0.3371
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1975,
+            0.3069,
+            0.2089,
+            0.3375
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.2482,
+            0.3069,
+            0.2596,
+            0.3375
+          ]
+        },
+        {
+          "text": "20",
+          "bbox": [
+            0.7527,
+            0.3074,
+            0.7755,
+            0.3379
+          ]
+        },
+        {
+          "text": "32",
+          "bbox": [
+            0.9049,
+            0.3074,
+            0.9277,
+            0.3379
+          ]
+        },
+        {
+          "text": "Modulator",
+          "bbox": [
+            0.2994,
+            0.3797,
+            0.3956,
+            0.4103
+          ]
+        },
+        {
+          "text": "28",
+          "bbox": [
+            0.5098,
+            0.4055,
+            0.5326,
+            0.4361
+          ]
+        },
+        {
+          "text": "32",
+          "bbox": [
+            0.5593,
+            0.4055,
+            0.5821,
+            0.4361
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1975,
+            0.4072,
+            0.2089,
+            0.4378
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.2482,
+            0.4072,
+            0.2596,
+            0.4378
+          ]
+        },
+        {
+          "text": "Higher-bandwidth link",
+          "bbox": [
+            0.3956,
+            0.4761,
+            0.6034,
+            0.5067
+          ]
+        },
+        {
+          "text": "Bandpass",
+          "bbox": [
+            0.3672,
+            0.6113,
+            0.4546,
+            0.6419
+          ]
+        },
+        {
+          "text": "filter",
+          "bbox": [
+            0.3894,
+            0.648,
+            0.4324,
+            0.6785
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7263,
+            0.6497,
+            0.7377,
+            0.6803
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.777,
+            0.6497,
+            0.7884,
+            0.6803
+          ]
+        },
+        {
+          "text": "20",
+          "bbox": [
+            0.4936,
+            0.6498,
+            0.5164,
+            0.6804
+          ]
+        },
+        {
+          "text": "24",
+          "bbox": [
+            0.5381,
+            0.6498,
+            0.5609,
+            0.6804
+          ]
+        },
+        {
+          "text": "Bandpass",
+          "bbox": [
+            0.3672,
+            0.7097,
+            0.4546,
+            0.7402
+          ]
+        },
+        {
+          "text": "20",
+          "bbox": [
+            0.0604,
+            0.7427,
+            0.0888,
+            0.7733
+          ]
+        },
+        {
+          "text": "32",
+          "bbox": [
+            0.2153,
+            0.7427,
+            0.2381,
+            0.7733
+          ]
+        },
+        {
+          "text": "24",
+          "bbox": [
+            0.5428,
+            0.7433,
+            0.5656,
+            0.7739
+          ]
+        },
+        {
+          "text": "28",
+          "bbox": [
+            0.5947,
+            0.7433,
+            0.6175,
+            0.7739
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7263,
+            0.7435,
+            0.7377,
+            0.7741
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.777,
+            0.7435,
+            0.7884,
+            0.7741
+          ]
+        },
+        {
+          "text": "filter",
+          "bbox": [
+            0.3894,
+            0.7463,
+            0.4324,
+            0.7769
+          ]
+        },
+        {
+          "text": "Bandpass",
+          "bbox": [
+            0.3672,
+            0.8008,
+            0.4546,
+            0.8314
+          ]
+        },
+        {
+          "text": "filter",
+          "bbox": [
+            0.3894,
+            0.8375,
+            0.4324,
+            0.8681
+          ]
+        },
+        {
+          "text": "28",
+          "bbox": [
+            0.5925,
+            0.8392,
+            0.6153,
+            0.8697
+          ]
+        },
+        {
+          "text": "32",
+          "bbox": [
+            0.6429,
+            0.8392,
+            0.6657,
+            0.8697
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7263,
+            0.8393,
+            0.7377,
+            0.8698
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.777,
+            0.8393,
+            0.7884,
+            0.8698
+          ]
+        },
+        {
+          "text": "Filter and shift",
+          "bbox": [
+            0.3475,
+            0.8969,
+            0.4818,
+            0.9274
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_007",
+      "file": "ch06_ill_007.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.7",
+      "section_id": "ch06-example-6-2",
+      "alt": "Figure 6.7: Example 6.2",
+      "sources": [
+        "book Figure 6.7; p.160"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 374,
+      "sha256": "bea4bb45c591d4a812dc77be3dbb9020779658c5fb2582d465352ca943fc92e8",
+      "description": "Figure 6.7: Example 6.2. Five 100 kHz channels are separated by four 10 kHz guard bands, producing a total FDM bandwidth of 540 kHz.",
+      "structure": "Five 100 kHz channels are separated by four 10 kHz guard bands, producing a total FDM bandwidth of 540 kHz.",
+      "text_in_image": "Guard band; of 10 kHz; 100 kHz; 100 kHz; 100 kHz; 100 kHz; 100 kHz; 540 kHz",
+      "use_when": "Teach ch06-example-6-2, interpret Figure 6.7, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 6,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        172.1
+      ],
+      "labels": [
+        {
+          "text": "Guard band",
+          "bbox": [
+            0.2444,
+            0.2904,
+            0.3541,
+            0.3468
+          ]
+        },
+        {
+          "text": "of 10 kHz",
+          "bbox": [
+            0.2582,
+            0.3468,
+            0.3402,
+            0.4031
+          ]
+        },
+        {
+          "text": "100 kHz",
+          "bbox": [
+            0.198,
+            0.4536,
+            0.2662,
+            0.5099
+          ]
+        },
+        {
+          "text": "100 kHz",
+          "bbox": [
+            0.3309,
+            0.4536,
+            0.3991,
+            0.5099
+          ]
+        },
+        {
+          "text": "100 kHz",
+          "bbox": [
+            0.4638,
+            0.4536,
+            0.5319,
+            0.5099
+          ]
+        },
+        {
+          "text": "100 kHz",
+          "bbox": [
+            0.5967,
+            0.4536,
+            0.6648,
+            0.5099
+          ]
+        },
+        {
+          "text": "100 kHz",
+          "bbox": [
+            0.7296,
+            0.4536,
+            0.7978,
+            0.5099
+          ]
+        },
+        {
+          "text": "540 kHz",
+          "bbox": [
+            0.464,
+            0.7926,
+            0.5321,
+            0.8489
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_008",
+      "file": "ch06_ill_008.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.8",
+      "section_id": "ch06-example-6-3",
+      "alt": "Figure 6.8: Example 6.3",
+      "sources": [
+        "book Figure 6.8; p.160"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 446,
+      "sha256": "4ac99893ba8c80e200258162db0ed80408856fe7a8837910b8122a875acbaf79",
+      "description": "Figure 6.8: Example 6.3. Four 1 Mbps digital inputs use 16-QAM to become four 250 kHz analog channels; FDM combines them into a 1 MHz satellite channel.",
+      "structure": "Four 1 Mbps digital inputs use 16-QAM to become four 250 kHz analog channels; FDM combines them into a 1 MHz satellite channel.",
+      "text_in_image": "1 Mbps; 250 kHz; 16-QAM; Digital; Analog; 1 Mbps; 250 kHz; 16-QAM; Digital; Analog; 1 MHz; FDM; 1 Mbps; 250 kHz; 16-QAM; Digital; Analog; 1 Mbps; 250 kHz; 16-QAM; Digital; Analog",
+      "use_when": "Teach ch06-example-6-3, interpret Figure 6.8, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 6,
+      "source_bbox": [
+        99.32,
+        181.96,
+        451.32,
+        330.32
+      ],
+      "labels": [
+        {
+          "text": "1 Mbps",
+          "bbox": [
+            0.2239,
+            0.2225,
+            0.2928,
+            0.2764
+          ]
+        },
+        {
+          "text": "250 kHz",
+          "bbox": [
+            0.4662,
+            0.2225,
+            0.5438,
+            0.2764
+          ]
+        },
+        {
+          "text": "16-QAM",
+          "bbox": [
+            0.3286,
+            0.2582,
+            0.4119,
+            0.3121
+          ]
+        },
+        {
+          "text": "Digital",
+          "bbox": [
+            0.2268,
+            0.2969,
+            0.2899,
+            0.3509
+          ]
+        },
+        {
+          "text": "Analog",
+          "bbox": [
+            0.4716,
+            0.2969,
+            0.5385,
+            0.3509
+          ]
+        },
+        {
+          "text": "1 Mbps",
+          "bbox": [
+            0.2239,
+            0.392,
+            0.2928,
+            0.4459
+          ]
+        },
+        {
+          "text": "250 kHz",
+          "bbox": [
+            0.4662,
+            0.392,
+            0.5438,
+            0.4459
+          ]
+        },
+        {
+          "text": "16-QAM",
+          "bbox": [
+            0.3286,
+            0.4299,
+            0.4119,
+            0.4839
+          ]
+        },
+        {
+          "text": "Digital",
+          "bbox": [
+            0.2268,
+            0.4687,
+            0.2899,
+            0.5226
+          ]
+        },
+        {
+          "text": "Analog",
+          "bbox": [
+            0.4716,
+            0.4687,
+            0.5385,
+            0.5226
+          ]
+        },
+        {
+          "text": "1 MHz",
+          "bbox": [
+            0.7199,
+            0.4885,
+            0.7836,
+            0.5425
+          ]
+        },
+        {
+          "text": "FDM",
+          "bbox": [
+            0.609,
+            0.5383,
+            0.6608,
+            0.5923
+          ]
+        },
+        {
+          "text": "1 Mbps",
+          "bbox": [
+            0.2239,
+            0.5637,
+            0.2928,
+            0.6176
+          ]
+        },
+        {
+          "text": "250 kHz",
+          "bbox": [
+            0.4662,
+            0.5637,
+            0.5438,
+            0.6176
+          ]
+        },
+        {
+          "text": "16-QAM",
+          "bbox": [
+            0.3286,
+            0.6017,
+            0.4119,
+            0.6556
+          ]
+        },
+        {
+          "text": "Digital",
+          "bbox": [
+            0.2268,
+            0.6404,
+            0.2899,
+            0.6944
+          ]
+        },
+        {
+          "text": "Analog",
+          "bbox": [
+            0.4716,
+            0.6404,
+            0.5385,
+            0.6943
+          ]
+        },
+        {
+          "text": "1 Mbps",
+          "bbox": [
+            0.2239,
+            0.7377,
+            0.2928,
+            0.7916
+          ]
+        },
+        {
+          "text": "250 kHz",
+          "bbox": [
+            0.4662,
+            0.7377,
+            0.5438,
+            0.7916
+          ]
+        },
+        {
+          "text": "16-QAM",
+          "bbox": [
+            0.3286,
+            0.7734,
+            0.4119,
+            0.8273
+          ]
+        },
+        {
+          "text": "Digital",
+          "bbox": [
+            0.2268,
+            0.8099,
+            0.2899,
+            0.8638
+          ]
+        },
+        {
+          "text": "Analog",
+          "bbox": [
+            0.4716,
+            0.8099,
+            0.5385,
+            0.8638
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_009",
+      "file": "ch06_ill_009.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.9",
+      "section_id": "ch06-6-1-1-the-analog-carrier-system",
+      "alt": "Figure 6.9: Analog hierarchy",
+      "sources": [
+        "book Figure 6.9; p.161"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 589,
+      "sha256": "24268d1456c0dc1ec5161bddd9c114b30b6ede40b51945c92f0707f6197fc130",
+      "description": "Figure 6.9: Analog hierarchy. The analog carrier hierarchy combines 12 voice channels into a 48 kHz group, five groups into a 240 kHz supergroup, ten supergroups into a 2.52 MHz master group, and six master groups into a 16.984 MHz jumbo group.",
+      "structure": "The analog carrier hierarchy combines 12 voice channels into a 48 kHz group, five groups into a 240 kHz supergroup, ten supergroups into a 2.52 MHz master group, and six master groups into a 16.984 MHz jumbo group.",
+      "text_in_image": "48 kHz; 12 voice channels; 4 kHz; 12 voice channels; 240 kHz; 4 kHz; 60 voice channels; 5 Group; F; D; • • •; 2.52 MHz; M; 600 voice channels; 10 Supergroup; 4 kHz; F; 16.984 MHz; D; 3600 voice channels; M; 6 Master group; F; • • •; D; Jumbo; M; F; group; D; M",
+      "use_when": "Teach ch06-6-1-1-the-analog-carrier-system, interpret Figure 6.9, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 7,
+      "source_bbox": [
+        115.34,
+        47.8,
+        466.32,
+        243.98
+      ],
+      "labels": [
+        {
+          "text": "48 kHz",
+          "bbox": [
+            0.3206,
+            0.1606,
+            0.3842,
+            0.198
+          ]
+        },
+        {
+          "text": "12 voice channels",
+          "bbox": [
+            0.275,
+            0.1967,
+            0.4298,
+            0.2342
+          ]
+        },
+        {
+          "text": "4 kHz",
+          "bbox": [
+            0.1649,
+            0.2136,
+            0.2156,
+            0.251
+          ]
+        },
+        {
+          "text": "12 voice channels",
+          "bbox": [
+            0.0462,
+            0.2425,
+            0.0671,
+            0.5094
+          ]
+        },
+        {
+          "text": "240 kHz",
+          "bbox": [
+            0.4903,
+            0.2637,
+            0.5643,
+            0.3012
+          ]
+        },
+        {
+          "text": "4 kHz",
+          "bbox": [
+            0.1649,
+            0.2756,
+            0.2156,
+            0.313
+          ]
+        },
+        {
+          "text": "60 voice channels",
+          "bbox": [
+            0.4499,
+            0.2999,
+            0.6048,
+            0.3373
+          ]
+        },
+        {
+          "text": "5 Group",
+          "bbox": [
+            0.3099,
+            0.3148,
+            0.3845,
+            0.3522
+          ]
+        },
+        {
+          "text": "F",
+          "bbox": [
+            0.2578,
+            0.3244,
+            0.2706,
+            0.3619
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.2566,
+            0.3658,
+            0.2718,
+            0.4032
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.1761,
+            0.3721,
+            0.197,
+            0.43
+          ]
+        },
+        {
+          "text": "2.52 MHz",
+          "bbox": [
+            0.6637,
+            0.3787,
+            0.7512,
+            0.4161
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.2543,
+            0.4071,
+            0.2741,
+            0.4445
+          ]
+        },
+        {
+          "text": "600 voice channels",
+          "bbox": [
+            0.6248,
+            0.4148,
+            0.7901,
+            0.4523
+          ]
+        },
+        {
+          "text": "10 Supergroup",
+          "bbox": [
+            0.4674,
+            0.441,
+            0.5912,
+            0.4785
+          ]
+        },
+        {
+          "text": "4 kHz",
+          "bbox": [
+            0.1649,
+            0.4424,
+            0.2156,
+            0.4799
+          ]
+        },
+        {
+          "text": "F",
+          "bbox": [
+            0.4384,
+            0.4488,
+            0.4513,
+            0.4862
+          ]
+        },
+        {
+          "text": "16.984 MHz",
+          "bbox": [
+            0.8053,
+            0.456,
+            0.9137,
+            0.4934
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.4373,
+            0.4901,
+            0.4524,
+            0.5276
+          ]
+        },
+        {
+          "text": "3600 voice channels",
+          "bbox": [
+            0.7716,
+            0.4921,
+            0.9474,
+            0.5296
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.4349,
+            0.5314,
+            0.4548,
+            0.5689
+          ]
+        },
+        {
+          "text": "6 Master group",
+          "bbox": [
+            0.6463,
+            0.5552,
+            0.7745,
+            0.5927
+          ]
+        },
+        {
+          "text": "F",
+          "bbox": [
+            0.6126,
+            0.5736,
+            0.6255,
+            0.611
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.5434,
+            0.609,
+            0.5643,
+            0.6669
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.6115,
+            0.6149,
+            0.6266,
+            0.6523
+          ]
+        },
+        {
+          "text": "Jumbo",
+          "bbox": [
+            0.8383,
+            0.6386,
+            0.8943,
+            0.676
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.6091,
+            0.6562,
+            0.6289,
+            0.6937
+          ]
+        },
+        {
+          "text": "F",
+          "bbox": [
+            0.7901,
+            0.6775,
+            0.8029,
+            0.715
+          ]
+        },
+        {
+          "text": "group",
+          "bbox": [
+            0.8418,
+            0.6799,
+            0.8908,
+            0.7173
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.7889,
+            0.7188,
+            0.8041,
+            0.7563
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.7866,
+            0.7602,
+            0.8064,
+            0.7976
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_010",
+      "file": "ch06_ill_010.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.10",
+      "section_id": "ch06-6-1-2",
+      "alt": "Figure 6.10: Wavelength-division multiplexing",
+      "sources": [
+        "book Figure 6.10; p.162"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 368,
+      "sha256": "8f553382316271a209ae0fd21be44db3baaa75914e14bf973f794ade2992192b",
+      "description": "Figure 6.10: Wavelength-division multiplexing. Three optical wavelengths enter a wavelength multiplexer, travel together through one fiber, and are separated by a wavelength demultiplexer at the far end.",
+      "structure": "Three optical wavelengths enter a wavelength multiplexer, travel together through one fiber, and are separated by a wavelength demultiplexer at the far end.",
+      "text_in_image": "λ1; λ1; D; M; E; λ2; λ2; U; M; λ1  +  λ2  +  λ3; X; U; X; λ3; λ3",
+      "use_when": "Teach ch06-6-1-2, interpret Figure 6.10, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 8,
+      "source_bbox": [
+        99.32,
+        378.88,
+        451.32,
+        501.14
+      ],
+      "labels": [
+        {
+          "text": "λ1",
+          "bbox": [
+            0.1474,
+            0.3758,
+            0.1684,
+            0.4445
+          ]
+        },
+        {
+          "text": "λ1",
+          "bbox": [
+            0.8361,
+            0.3831,
+            0.8572,
+            0.4518
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.6731,
+            0.4229,
+            0.6896,
+            0.4884
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.3108,
+            0.4884,
+            0.3322,
+            0.5538
+          ]
+        },
+        {
+          "text": "E",
+          "bbox": [
+            0.6738,
+            0.4884,
+            0.6889,
+            0.5538
+          ]
+        },
+        {
+          "text": "λ2",
+          "bbox": [
+            0.1474,
+            0.5414,
+            0.1684,
+            0.6101
+          ]
+        },
+        {
+          "text": "λ2",
+          "bbox": [
+            0.8362,
+            0.5478,
+            0.8572,
+            0.6165
+          ]
+        },
+        {
+          "text": "U",
+          "bbox": [
+            0.3133,
+            0.5538,
+            0.3297,
+            0.6192
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.6706,
+            0.5538,
+            0.6921,
+            0.6192
+          ]
+        },
+        {
+          "text": "λ1  +  λ2  +  λ3",
+          "bbox": [
+            0.4355,
+            0.5842,
+            0.5657,
+            0.666
+          ]
+        },
+        {
+          "text": "X",
+          "bbox": [
+            0.3133,
+            0.6192,
+            0.3297,
+            0.6847
+          ]
+        },
+        {
+          "text": "U",
+          "bbox": [
+            0.6731,
+            0.6192,
+            0.6896,
+            0.6847
+          ]
+        },
+        {
+          "text": "X",
+          "bbox": [
+            0.6731,
+            0.6847,
+            0.6896,
+            0.7501
+          ]
+        },
+        {
+          "text": "λ3",
+          "bbox": [
+            0.1474,
+            0.7071,
+            0.1684,
+            0.7758
+          ]
+        },
+        {
+          "text": "λ3",
+          "bbox": [
+            0.8362,
+            0.7134,
+            0.8572,
+            0.7821
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_011",
+      "file": "ch06_ill_011.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.11",
+      "section_id": "ch06-6-1-2",
+      "alt": "Figure 6.11: Prisms in wavelength-division multiplexing and demultiplexing",
+      "sources": [
+        "book Figure 6.11; p.163"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 337,
+      "sha256": "3eac0d943e2df99487645ce229523b7cd61d3f75e5be521bacedcce72b733ee3",
+      "description": "Figure 6.11: Prisms in wavelength-division multiplexing and demultiplexing. A prism combines three incident wavelengths into one fiber beam; a second prism separates the composite beam back into the original wavelengths.",
+      "structure": "A prism combines three incident wavelengths into one fiber beam; a second prism separates the composite beam back into the original wavelengths.",
+      "text_in_image": "λ1; λ1; λ1 + λ2 + λ3; λ2; λ2; Fiber-optic cable; λ3; λ3; Multiplexer; Demultiplexer",
+      "use_when": "Teach ch06-6-1-2, interpret Figure 6.11, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 9,
+      "source_bbox": [
+        114.32,
+        92.86,
+        466.32,
+        204.98
+      ],
+      "labels": [
+        {
+          "text": "λ1",
+          "bbox": [
+            0.1319,
+            0.2926,
+            0.1529,
+            0.3676
+          ]
+        },
+        {
+          "text": "λ1",
+          "bbox": [
+            0.8512,
+            0.3033,
+            0.8722,
+            0.3782
+          ]
+        },
+        {
+          "text": "λ1 + λ2 + λ3",
+          "bbox": [
+            0.4478,
+            0.4408,
+            0.5585,
+            0.5157
+          ]
+        },
+        {
+          "text": "λ2",
+          "bbox": [
+            0.1319,
+            0.5134,
+            0.1529,
+            0.5883
+          ]
+        },
+        {
+          "text": "λ2",
+          "bbox": [
+            0.8512,
+            0.5328,
+            0.8722,
+            0.6077
+          ]
+        },
+        {
+          "text": "Fiber-optic cable",
+          "bbox": [
+            0.426,
+            0.5446,
+            0.5802,
+            0.616
+          ]
+        },
+        {
+          "text": "λ3",
+          "bbox": [
+            0.1305,
+            0.7005,
+            0.1529,
+            0.7754
+          ]
+        },
+        {
+          "text": "λ3",
+          "bbox": [
+            0.8512,
+            0.7184,
+            0.8722,
+            0.7933
+          ]
+        },
+        {
+          "text": "Multiplexer",
+          "bbox": [
+            0.2364,
+            0.7592,
+            0.343,
+            0.8306
+          ]
+        },
+        {
+          "text": "Demultiplexer",
+          "bbox": [
+            0.6513,
+            0.7592,
+            0.7819,
+            0.8306
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_012",
+      "file": "ch06_ill_012.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.12",
+      "section_id": "ch06-6-1-3",
+      "alt": "Figure 6.12: TDM",
+      "sources": [
+        "book Figure 6.12; p.163"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 438,
+      "sha256": "4e27210276e2a6752fbf1bb73261757555bbe68e8392c1b6ac17c0ab3b3c83a3",
+      "description": "Figure 6.12: TDM. Four digital input streams feed a TDM multiplexer. Successive source units occupy repeating time slots in the shared output stream and a demultiplexer restores the four outputs.",
+      "structure": "Four digital input streams feed a TDM multiplexer. Successive source units occupy repeating time slots in the shared output stream and a demultiplexer restores the four outputs.",
+      "text_in_image": "1; 1; Data flow; 2; 2; D; E; M; 4; 3; 2; 1; 4; 3; 2; 1; 4; 3; 2; 1; M; U; 3; 3; U; X; X; 4; 4",
+      "use_when": "Teach ch06-6-1-3, interpret Figure 6.12, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 9,
+      "source_bbox": [
+        114.32,
+        370.84,
+        466.32,
+        516.44
+      ],
+      "labels": [
+        {
+          "text": "1",
+          "bbox": [
+            0.2455,
+            0.2612,
+            0.2569,
+            0.3162
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.7374,
+            0.2613,
+            0.7487,
+            0.3162
+          ]
+        },
+        {
+          "text": "Data flow",
+          "bbox": [
+            0.4597,
+            0.3175,
+            0.5482,
+            0.3725
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.7374,
+            0.4332,
+            0.7488,
+            0.4882
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.2456,
+            0.4335,
+            0.2569,
+            0.4884
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.6953,
+            0.4493,
+            0.7117,
+            0.5043
+          ]
+        },
+        {
+          "text": "E",
+          "bbox": [
+            0.6959,
+            0.5043,
+            0.7111,
+            0.5592
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.2806,
+            0.5057,
+            0.3021,
+            0.5606
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.323,
+            0.5425,
+            0.3344,
+            0.5975
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.3537,
+            0.5425,
+            0.365,
+            0.5975
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.3844,
+            0.5425,
+            0.3957,
+            0.5975
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.415,
+            0.5425,
+            0.4264,
+            0.5975
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.4457,
+            0.5425,
+            0.4571,
+            0.5975
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.4764,
+            0.5425,
+            0.4878,
+            0.5975
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.5071,
+            0.5425,
+            0.5185,
+            0.5975
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.5378,
+            0.5425,
+            0.5491,
+            0.5975
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.5685,
+            0.5425,
+            0.5799,
+            0.5975
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.5992,
+            0.5425,
+            0.6106,
+            0.5975
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.6298,
+            0.5425,
+            0.6412,
+            0.5975
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6605,
+            0.5425,
+            0.6719,
+            0.5975
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.6928,
+            0.5592,
+            0.7142,
+            0.6142
+          ]
+        },
+        {
+          "text": "U",
+          "bbox": [
+            0.2832,
+            0.5606,
+            0.2996,
+            0.6156
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.2456,
+            0.6049,
+            0.2569,
+            0.6598
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.7374,
+            0.6051,
+            0.7488,
+            0.6601
+          ]
+        },
+        {
+          "text": "U",
+          "bbox": [
+            0.6953,
+            0.6142,
+            0.7117,
+            0.6691
+          ]
+        },
+        {
+          "text": "X",
+          "bbox": [
+            0.2832,
+            0.6156,
+            0.2996,
+            0.6705
+          ]
+        },
+        {
+          "text": "X",
+          "bbox": [
+            0.6953,
+            0.6691,
+            0.7117,
+            0.7241
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.2456,
+            0.7774,
+            0.2569,
+            0.8324
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.7374,
+            0.7778,
+            0.7488,
+            0.8328
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_013",
+      "file": "ch06_ill_013.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.13",
+      "section_id": "ch06-6-1-3-time-slots-and-frames",
+      "alt": "Figure 6.13: Synchronous time-division multiplexing",
+      "sources": [
+        "book Figure 6.13; p.164"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 516,
+      "sha256": "1dd2e12379bfeba7825d37ce3c0a4230c7a1eaf1b715b74544e38993c15003c4",
+      "description": "Figure 6.13: Synchronous time-division multiplexing. Three input lines contribute one unit every T seconds. Each output frame contains three slots of duration T/3, preserving source order across successive frames.",
+      "structure": "Three input lines contribute one unit every T seconds. Each output frame contains three slots of duration T/3, preserving source order across successive frames.",
+      "text_in_image": "T; T; T; T; T/3; A3; A2; A1; C3 B3; A3; C2 B2; A2; C1 B1; A1; B3; B2; B1; Frame 3; Frame 2; Frame 1; MUX; TDM; Each frame is 3 time slots.; Each time slot duration is T/3 s.; C3; C2; C1; Data are taken from each; line every T s.",
+      "use_when": "Teach ch06-6-1-3-time-slots-and-frames, interpret Figure 6.13, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 10,
+      "source_bbox": [
+        99.32,
+        316.9,
+        451.32,
+        488.54
+      ],
+      "labels": [
+        {
+          "text": "T",
+          "bbox": [
+            0.081,
+            0.182,
+            0.0937,
+            0.2297
+          ]
+        },
+        {
+          "text": "T",
+          "bbox": [
+            0.2022,
+            0.182,
+            0.2149,
+            0.2297
+          ]
+        },
+        {
+          "text": "T",
+          "bbox": [
+            0.3235,
+            0.182,
+            0.3361,
+            0.2297
+          ]
+        },
+        {
+          "text": "T",
+          "bbox": [
+            0.8662,
+            0.1851,
+            0.8788,
+            0.2328
+          ]
+        },
+        {
+          "text": "T/3",
+          "bbox": [
+            0.8984,
+            0.2632,
+            0.9287,
+            0.3199
+          ]
+        },
+        {
+          "text": "A3",
+          "bbox": [
+            0.0728,
+            0.2742,
+            0.1005,
+            0.3213
+          ]
+        },
+        {
+          "text": "A2",
+          "bbox": [
+            0.194,
+            0.2742,
+            0.2218,
+            0.3213
+          ]
+        },
+        {
+          "text": "A1",
+          "bbox": [
+            0.3152,
+            0.2741,
+            0.343,
+            0.3213
+          ]
+        },
+        {
+          "text": "C3 B3",
+          "bbox": [
+            0.556,
+            0.3634,
+            0.6231,
+            0.4105
+          ]
+        },
+        {
+          "text": "A3",
+          "bbox": [
+            0.6365,
+            0.3634,
+            0.6643,
+            0.4105
+          ]
+        },
+        {
+          "text": "C2 B2",
+          "bbox": [
+            0.6869,
+            0.3634,
+            0.754,
+            0.4105
+          ]
+        },
+        {
+          "text": "A2",
+          "bbox": [
+            0.7674,
+            0.3634,
+            0.7952,
+            0.4105
+          ]
+        },
+        {
+          "text": "C1 B1",
+          "bbox": [
+            0.8178,
+            0.3634,
+            0.885,
+            0.4105
+          ]
+        },
+        {
+          "text": "A1",
+          "bbox": [
+            0.8984,
+            0.3634,
+            0.9261,
+            0.4105
+          ]
+        },
+        {
+          "text": "B3",
+          "bbox": [
+            0.0734,
+            0.4812,
+            0.0999,
+            0.5283
+          ]
+        },
+        {
+          "text": "B2",
+          "bbox": [
+            0.1946,
+            0.4812,
+            0.2211,
+            0.5283
+          ]
+        },
+        {
+          "text": "B1",
+          "bbox": [
+            0.3158,
+            0.4812,
+            0.3423,
+            0.5283
+          ]
+        },
+        {
+          "text": "Frame 3",
+          "bbox": [
+            0.5723,
+            0.4958,
+            0.6474,
+            0.5429
+          ]
+        },
+        {
+          "text": "Frame 2",
+          "bbox": [
+            0.7032,
+            0.4958,
+            0.7783,
+            0.5429
+          ]
+        },
+        {
+          "text": "Frame 1",
+          "bbox": [
+            0.8341,
+            0.4958,
+            0.9092,
+            0.5429
+          ]
+        },
+        {
+          "text": "MUX",
+          "bbox": [
+            0.4186,
+            0.5544,
+            0.4729,
+            0.6016
+          ]
+        },
+        {
+          "text": "TDM",
+          "bbox": [
+            0.4043,
+            0.5597,
+            0.4535,
+            0.6068
+          ]
+        },
+        {
+          "text": "Each frame is 3 time slots.",
+          "bbox": [
+            0.6306,
+            0.5852,
+            0.8718,
+            0.6324
+          ]
+        },
+        {
+          "text": "Each time slot duration is T/3 s.",
+          "bbox": [
+            0.6061,
+            0.6397,
+            0.8964,
+            0.6964
+          ]
+        },
+        {
+          "text": "C3",
+          "bbox": [
+            0.0734,
+            0.6898,
+            0.0999,
+            0.737
+          ]
+        },
+        {
+          "text": "C2",
+          "bbox": [
+            0.1946,
+            0.6898,
+            0.2211,
+            0.737
+          ]
+        },
+        {
+          "text": "C1",
+          "bbox": [
+            0.3158,
+            0.6898,
+            0.3423,
+            0.737
+          ]
+        },
+        {
+          "text": "Data are taken from each",
+          "bbox": [
+            0.0945,
+            0.8077,
+            0.3227,
+            0.8548
+          ]
+        },
+        {
+          "text": "line every T s.",
+          "bbox": [
+            0.1446,
+            0.8622,
+            0.2725,
+            0.9189
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_014",
+      "file": "ch06_ill_014.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.14",
+      "section_id": "ch06-example-6-6",
+      "alt": "Figure 6.14: Example 6.6",
+      "sources": [
+        "book Figure 6.14; p.165"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 371,
+      "sha256": "81b2abfe00fb3b312c3d06f4ca002b63b05f8b68dcae29d258a504d476e2bb1c",
+      "description": "Figure 6.14: Example 6.6. Four 1 Mbps bit streams are interleaved one bit at a time into a sequence of four-bit frames, illustrating the input and output patterns used in Example 6.6.",
+      "structure": "Four 1 Mbps bit streams are interleaved one bit at a time into a sequence of four-bit frames, illustrating the input and output patterns used in Example 6.6.",
+      "text_in_image": "• • •; 1       1       1       1       1; 1 Mbps; Frames; • • •; 0       0       0       0       0; 1 Mbps; • • • 0 1 0 1 0 0 0 1 1 1 0 1 0 0 0 1 0 1 0 1; MUX; • • •; 1       0       1       0       1; 1 Mbps; • • •; 0       0       1       0       0; 1 Mbps",
+      "use_when": "Teach ch06-example-6-6, interpret Figure 6.14, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 11,
+      "source_bbox": [
+        114.32,
+        427.9,
+        466.32,
+        551.06
+      ],
+      "labels": [
+        {
+          "text": "• • •",
+          "bbox": [
+            0.1422,
+            0.2884,
+            0.1774,
+            0.3534
+          ]
+        },
+        {
+          "text": "1       1       1       1       1",
+          "bbox": [
+            0.1947,
+            0.3019,
+            0.4106,
+            0.3669
+          ]
+        },
+        {
+          "text": "1 Mbps",
+          "bbox": [
+            0.0529,
+            0.3285,
+            0.1218,
+            0.3935
+          ]
+        },
+        {
+          "text": "Frames",
+          "bbox": [
+            0.7018,
+            0.3937,
+            0.7687,
+            0.4587
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.1422,
+            0.435,
+            0.1774,
+            0.4999
+          ]
+        },
+        {
+          "text": "0       0       0       0       0",
+          "bbox": [
+            0.1947,
+            0.4484,
+            0.4106,
+            0.5134
+          ]
+        },
+        {
+          "text": "1 Mbps",
+          "bbox": [
+            0.0529,
+            0.4751,
+            0.1218,
+            0.5401
+          ]
+        },
+        {
+          "text": "• • • 0 1 0 1 0 0 0 1 1 1 0 1 0 0 0 1 0 1 0 1",
+          "bbox": [
+            0.5168,
+            0.4809,
+            0.9065,
+            0.5651
+          ]
+        },
+        {
+          "text": "MUX",
+          "bbox": [
+            0.4305,
+            0.5701,
+            0.4848,
+            0.6351
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.1422,
+            0.5828,
+            0.1774,
+            0.6478
+          ]
+        },
+        {
+          "text": "1       0       1       0       1",
+          "bbox": [
+            0.1947,
+            0.5963,
+            0.4106,
+            0.6612
+          ]
+        },
+        {
+          "text": "1 Mbps",
+          "bbox": [
+            0.0529,
+            0.6217,
+            0.1218,
+            0.6867
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.1422,
+            0.7282,
+            0.1774,
+            0.7932
+          ]
+        },
+        {
+          "text": "0       0       1       0       0",
+          "bbox": [
+            0.1947,
+            0.7417,
+            0.4106,
+            0.8067
+          ]
+        },
+        {
+          "text": "1 Mbps",
+          "bbox": [
+            0.0529,
+            0.7683,
+            0.1218,
+            0.8333
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_015",
+      "file": "ch06_ill_015.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.15",
+      "section_id": "ch06-6-1-3-interleaving",
+      "alt": "Figure 6.15: Interleaving",
+      "sources": [
+        "book Figure 6.15; p.167"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 447,
+      "sha256": "eeec6bc7e7c3c8f4810dd4faeeb10e9bbc8212fe6db52d2ae87a9acba04a020c",
+      "description": "Figure 6.15: Interleaving. Synchronized rotating switches visit inputs and outputs in opposite directions, interleaving A, B, and C units into matching frame slots and delivering them to the corresponding lines.",
+      "structure": "Synchronized rotating switches visit inputs and outputs in opposite directions, interleaving A, B, and C units into matching frame slots and delivering them to the corresponding lines.",
+      "text_in_image": "Synchronization; A3; A2; A1; A3; A2; A1; Frame 3; Frame 2; Frame 1; C2; C3; B3; A3; B2; A2; C1; B1; A1; B2; B1; B3; B2; B1; B3; C3; C2; C1; C3; C2; C1",
+      "use_when": "Teach ch06-6-1-3-interleaving, interpret Figure 6.15, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 13,
+      "source_bbox": [
+        115.34,
+        47.8,
+        466.32,
+        196.46
+      ],
+      "labels": [
+        {
+          "text": "Synchronization",
+          "bbox": [
+            0.4258,
+            0.2811,
+            0.574,
+            0.3345
+          ]
+        },
+        {
+          "text": "A3",
+          "bbox": [
+            0.0309,
+            0.3865,
+            0.0586,
+            0.4399
+          ]
+        },
+        {
+          "text": "A2",
+          "bbox": [
+            0.0998,
+            0.3865,
+            0.1274,
+            0.4399
+          ]
+        },
+        {
+          "text": "A1",
+          "bbox": [
+            0.1705,
+            0.3865,
+            0.1982,
+            0.4399
+          ]
+        },
+        {
+          "text": "A3",
+          "bbox": [
+            0.8016,
+            0.3931,
+            0.8292,
+            0.4465
+          ]
+        },
+        {
+          "text": "A2",
+          "bbox": [
+            0.8712,
+            0.3931,
+            0.8988,
+            0.4465
+          ]
+        },
+        {
+          "text": "A1",
+          "bbox": [
+            0.9412,
+            0.3931,
+            0.9688,
+            0.4465
+          ]
+        },
+        {
+          "text": "Frame 3",
+          "bbox": [
+            0.3385,
+            0.4639,
+            0.4133,
+            0.5173
+          ]
+        },
+        {
+          "text": "Frame 2",
+          "bbox": [
+            0.4586,
+            0.4639,
+            0.5333,
+            0.5173
+          ]
+        },
+        {
+          "text": "Frame 1",
+          "bbox": [
+            0.5792,
+            0.4639,
+            0.654,
+            0.5173
+          ]
+        },
+        {
+          "text": "C2",
+          "bbox": [
+            0.4457,
+            0.5279,
+            0.4721,
+            0.5814
+          ]
+        },
+        {
+          "text": "C3",
+          "bbox": [
+            0.3271,
+            0.5289,
+            0.3534,
+            0.5823
+          ]
+        },
+        {
+          "text": "B3",
+          "bbox": [
+            0.3627,
+            0.5289,
+            0.3891,
+            0.5823
+          ]
+        },
+        {
+          "text": "A3",
+          "bbox": [
+            0.3977,
+            0.5289,
+            0.4254,
+            0.5823
+          ]
+        },
+        {
+          "text": "B2",
+          "bbox": [
+            0.4828,
+            0.5289,
+            0.5091,
+            0.5823
+          ]
+        },
+        {
+          "text": "A2",
+          "bbox": [
+            0.5178,
+            0.5289,
+            0.5454,
+            0.5823
+          ]
+        },
+        {
+          "text": "C1",
+          "bbox": [
+            0.5678,
+            0.5289,
+            0.5941,
+            0.5823
+          ]
+        },
+        {
+          "text": "B1",
+          "bbox": [
+            0.6036,
+            0.5289,
+            0.63,
+            0.5823
+          ]
+        },
+        {
+          "text": "A1",
+          "bbox": [
+            0.6384,
+            0.5289,
+            0.6661,
+            0.5823
+          ]
+        },
+        {
+          "text": "B2",
+          "bbox": [
+            0.1004,
+            0.5646,
+            0.1268,
+            0.618
+          ]
+        },
+        {
+          "text": "B1",
+          "bbox": [
+            0.1712,
+            0.5646,
+            0.1976,
+            0.618
+          ]
+        },
+        {
+          "text": "B3",
+          "bbox": [
+            0.8022,
+            0.5646,
+            0.8286,
+            0.618
+          ]
+        },
+        {
+          "text": "B2",
+          "bbox": [
+            0.8718,
+            0.5646,
+            0.8982,
+            0.618
+          ]
+        },
+        {
+          "text": "B1",
+          "bbox": [
+            0.9418,
+            0.5646,
+            0.9682,
+            0.618
+          ]
+        },
+        {
+          "text": "B3",
+          "bbox": [
+            0.0315,
+            0.5712,
+            0.0579,
+            0.6246
+          ]
+        },
+        {
+          "text": "C3",
+          "bbox": [
+            0.0315,
+            0.7486,
+            0.0579,
+            0.802
+          ]
+        },
+        {
+          "text": "C2",
+          "bbox": [
+            0.1004,
+            0.7486,
+            0.1268,
+            0.802
+          ]
+        },
+        {
+          "text": "C1",
+          "bbox": [
+            0.1712,
+            0.7486,
+            0.1976,
+            0.802
+          ]
+        },
+        {
+          "text": "C3",
+          "bbox": [
+            0.8022,
+            0.7505,
+            0.8286,
+            0.804
+          ]
+        },
+        {
+          "text": "C2",
+          "bbox": [
+            0.8718,
+            0.7505,
+            0.8982,
+            0.804
+          ]
+        },
+        {
+          "text": "C1",
+          "bbox": [
+            0.9418,
+            0.7505,
+            0.9682,
+            0.804
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_016",
+      "file": "ch06_ill_016.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.16",
+      "section_id": "ch06-example-6-8",
+      "alt": "Figure 6.16: Example 6.8",
+      "sources": [
+        "book Figure 6.16; p.167"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 385,
+      "sha256": "e8146d863f2ca6e156c299aadf4b9644284812424dead85bdb7c53e9116da817",
+      "description": "Figure 6.16: Example 6.8. Four 100-byte-per-second sources contribute one byte per frame. Each frame is four bytes or 32 bits, the frame rate is 100 frames/s, and the link rate is 3200 bps.",
+      "structure": "Four 100-byte-per-second sources contribute one byte per frame. Each frame is four bytes or 32 bits, the frame rate is 100 frames/s, and the link rate is 3200 bps.",
+      "text_in_image": "Frame 4 bytes; Frame 4 bytes; 32 bits; 32 bits; • • •; MUX; 100 frames/s; 1; Frame duration =        s; 3200 bps; 100; 100 bytes/s",
+      "use_when": "Teach ch06-example-6-8, interpret Figure 6.16, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 13,
+      "source_bbox": [
+        114.32,
+        246.34,
+        466.32,
+        374.6
+      ],
+      "labels": [
+        {
+          "text": "Frame 4 bytes",
+          "bbox": [
+            0.4349,
+            0.2373,
+            0.5637,
+            0.2997
+          ]
+        },
+        {
+          "text": "Frame 4 bytes",
+          "bbox": [
+            0.6991,
+            0.2373,
+            0.8279,
+            0.2997
+          ]
+        },
+        {
+          "text": "32 bits",
+          "bbox": [
+            0.4686,
+            0.3121,
+            0.5299,
+            0.3745
+          ]
+        },
+        {
+          "text": "32 bits",
+          "bbox": [
+            0.7329,
+            0.3121,
+            0.7941,
+            0.3745
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.6145,
+            0.423,
+            0.6497,
+            0.4854
+          ]
+        },
+        {
+          "text": "MUX",
+          "bbox": [
+            0.3122,
+            0.5185,
+            0.3665,
+            0.5809
+          ]
+        },
+        {
+          "text": "100 frames/s",
+          "bbox": [
+            0.4375,
+            0.6384,
+            0.5543,
+            0.7008
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8292,
+            0.6491,
+            0.8377,
+            0.6959
+          ]
+        },
+        {
+          "text": "Frame duration =        s",
+          "bbox": [
+            0.6415,
+            0.6665,
+            0.8692,
+            0.7445
+          ]
+        },
+        {
+          "text": "3200 bps",
+          "bbox": [
+            0.4545,
+            0.7133,
+            0.5372,
+            0.7756
+          ]
+        },
+        {
+          "text": "100",
+          "bbox": [
+            0.8207,
+            0.7141,
+            0.8463,
+            0.7609
+          ]
+        },
+        {
+          "text": "100 bytes/s",
+          "bbox": [
+            0.1607,
+            0.7898,
+            0.2646,
+            0.8522
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_017",
+      "file": "ch06_ill_017.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.17",
+      "section_id": "ch06-example-6-9",
+      "alt": "Figure 6.17: Example 6.9",
+      "sources": [
+        "book Figure 6.17; p.168"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 394,
+      "sha256": "b3a3088e8ed0104761bf562e84b64c672ad4b872a478b13834d4acfd809ea4b7",
+      "description": "Figure 6.17: Example 6.9. Four 100 kbps sources contribute two bits per frame. Eight-bit frames repeat at 50,000 frames/s, giving a 20 microsecond frame duration and a 400 kbps link rate.",
+      "structure": "Four 100 kbps sources contribute two bits per frame. Eight-bit frames repeat at 50,000 frames/s, giving a 20 microsecond frame duration and a 400 kbps link rate.",
+      "text_in_image": "Frame duration = 1/50,000 s = 20 μs; 1 1 0 0 1 0; • • •; 100 kbps; Frame: 8 bits; Frame: 8 bits; Frame: 8 bits; 0 0 1 0 1 0; • • •; • • •; 00; 10; 00; 11; 01; 11; 10; 00; 11; 01; 10; 10; 100 kbps; MUX; 1 0 1 1 0 1; • • •; 50,000 frames/s; 100 kbps; 400 kbps; 0 0 0 1 1 1; • • •; 100 kbps",
+      "use_when": "Teach ch06-example-6-9, interpret Figure 6.17, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 14,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        178.94
+      ],
+      "labels": [
+        {
+          "text": "Frame duration = 1/50,000 s = 20 μs",
+          "bbox": [
+            0.566,
+            0.2359,
+            0.9153,
+            0.3031
+          ]
+        },
+        {
+          "text": "1 1 0 0 1 0",
+          "bbox": [
+            0.2017,
+            0.2686,
+            0.294,
+            0.3312
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.1466,
+            0.2713,
+            0.182,
+            0.334
+          ]
+        },
+        {
+          "text": "100 kbps",
+          "bbox": [
+            0.0307,
+            0.312,
+            0.1136,
+            0.3746
+          ]
+        },
+        {
+          "text": "Frame: 8 bits",
+          "bbox": [
+            0.6794,
+            0.3206,
+            0.7997,
+            0.3833
+          ]
+        },
+        {
+          "text": "Frame: 8 bits",
+          "bbox": [
+            0.8333,
+            0.3206,
+            0.9536,
+            0.3833
+          ]
+        },
+        {
+          "text": "Frame: 8 bits",
+          "bbox": [
+            0.5256,
+            0.3253,
+            0.6459,
+            0.388
+          ]
+        },
+        {
+          "text": "0 0 1 0 1 0",
+          "bbox": [
+            0.2017,
+            0.4215,
+            0.294,
+            0.4841
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.1466,
+            0.4242,
+            0.182,
+            0.4869
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.4405,
+            0.4374,
+            0.4758,
+            0.5001
+          ]
+        },
+        {
+          "text": "00",
+          "bbox": [
+            0.5222,
+            0.438,
+            0.545,
+            0.5006
+          ]
+        },
+        {
+          "text": "10",
+          "bbox": [
+            0.5569,
+            0.438,
+            0.5797,
+            0.5006
+          ]
+        },
+        {
+          "text": "00",
+          "bbox": [
+            0.5917,
+            0.438,
+            0.6145,
+            0.5006
+          ]
+        },
+        {
+          "text": "11",
+          "bbox": [
+            0.6264,
+            0.438,
+            0.6492,
+            0.5006
+          ]
+        },
+        {
+          "text": "01",
+          "bbox": [
+            0.6761,
+            0.438,
+            0.6989,
+            0.5006
+          ]
+        },
+        {
+          "text": "11",
+          "bbox": [
+            0.7108,
+            0.438,
+            0.7336,
+            0.5006
+          ]
+        },
+        {
+          "text": "10",
+          "bbox": [
+            0.7455,
+            0.438,
+            0.7683,
+            0.5006
+          ]
+        },
+        {
+          "text": "00",
+          "bbox": [
+            0.7803,
+            0.438,
+            0.8031,
+            0.5006
+          ]
+        },
+        {
+          "text": "11",
+          "bbox": [
+            0.8299,
+            0.438,
+            0.8527,
+            0.5006
+          ]
+        },
+        {
+          "text": "01",
+          "bbox": [
+            0.8647,
+            0.438,
+            0.8875,
+            0.5006
+          ]
+        },
+        {
+          "text": "10",
+          "bbox": [
+            0.8994,
+            0.438,
+            0.9222,
+            0.5006
+          ]
+        },
+        {
+          "text": "10",
+          "bbox": [
+            0.9341,
+            0.438,
+            0.9569,
+            0.5006
+          ]
+        },
+        {
+          "text": "100 kbps",
+          "bbox": [
+            0.0307,
+            0.462,
+            0.1136,
+            0.5247
+          ]
+        },
+        {
+          "text": "MUX",
+          "bbox": [
+            0.3187,
+            0.5528,
+            0.3731,
+            0.6155
+          ]
+        },
+        {
+          "text": "1 0 1 1 0 1",
+          "bbox": [
+            0.2017,
+            0.5685,
+            0.294,
+            0.6312
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.1466,
+            0.5713,
+            0.182,
+            0.634
+          ]
+        },
+        {
+          "text": "50,000 frames/s",
+          "bbox": [
+            0.6642,
+            0.6157,
+            0.8149,
+            0.6784
+          ]
+        },
+        {
+          "text": "100 kbps",
+          "bbox": [
+            0.0307,
+            0.6173,
+            0.1136,
+            0.68
+          ]
+        },
+        {
+          "text": "400 kbps",
+          "bbox": [
+            0.6962,
+            0.6893,
+            0.783,
+            0.752
+          ]
+        },
+        {
+          "text": "0 0 0 1 1 1",
+          "bbox": [
+            0.2017,
+            0.7208,
+            0.294,
+            0.7835
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.1466,
+            0.7236,
+            0.182,
+            0.7863
+          ]
+        },
+        {
+          "text": "100 kbps",
+          "bbox": [
+            0.0307,
+            0.7622,
+            0.1136,
+            0.8248
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_018",
+      "file": "ch06_ill_018.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.18",
+      "section_id": "ch06-6-1-3-empty-slots",
+      "alt": "Figure 6.18: Empty slots",
+      "sources": [
+        "book Figure 6.18; p.168"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 350,
+      "sha256": "ed6df426c8f2125ff0595bd2172ca988ed70e619c89a82c98b632fa75255caef",
+      "description": "Figure 6.18: Empty slots. Synchronous TDM reserves a position for every source in each frame; inactive sources therefore create visibly empty output slots.",
+      "structure": "Synchronous TDM reserves a position for every source in each frame; inactive sources therefore create visibly empty output slots.",
+      "text_in_image": "MUX",
+      "use_when": "Teach ch06-6-1-3-empty-slots, interpret Figure 6.18, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 14,
+      "source_bbox": [
+        99.32,
+        188.8,
+        451.32,
+        305.06
+      ],
+      "labels": [
+        {
+          "text": "MUX",
+          "bbox": [
+            0.4869,
+            0.586,
+            0.5412,
+            0.6548
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_019",
+      "file": "ch06_ill_019.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.19",
+      "section_id": "ch06-6-1-3-multilevel-multiplexing",
+      "alt": "Figure 6.19: Multilevel multiplexing",
+      "sources": [
+        "book Figure 6.19; p.168"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 350,
+      "sha256": "3f1e5a7b7c791c08c3b48669b540acdc108489ed19fb15e0ce9b29f87f7eb12c",
+      "description": "Figure 6.19: Multilevel multiplexing. Two 20 kbps inputs are first combined to match three 40 kbps inputs; a final multiplexer interleaves four equal-rate streams into a 160 kbps link.",
+      "structure": "Two 20 kbps inputs are first combined to match three 40 kbps inputs; a final multiplexer interleaves four equal-rate streams into a 160 kbps link.",
+      "text_in_image": "20 kbps; 40 kbps; 20 kbps; 40 kbps; 160 kbps; MUX; 40 kbps; 40 kbps",
+      "use_when": "Teach ch06-6-1-3-multilevel-multiplexing, interpret Figure 6.19, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 14,
+      "source_bbox": [
+        99.32,
+        489.94,
+        451.32,
+        606.14
+      ],
+      "labels": [
+        {
+          "text": "20 kbps",
+          "bbox": [
+            0.2304,
+            0.3253,
+            0.3018,
+            0.3941
+          ]
+        },
+        {
+          "text": "40 kbps",
+          "bbox": [
+            0.4538,
+            0.3284,
+            0.5251,
+            0.3973
+          ]
+        },
+        {
+          "text": "20 kbps",
+          "bbox": [
+            0.2304,
+            0.4186,
+            0.3018,
+            0.4875
+          ]
+        },
+        {
+          "text": "40 kbps",
+          "bbox": [
+            0.2304,
+            0.5151,
+            0.3018,
+            0.5839
+          ]
+        },
+        {
+          "text": "160 kbps",
+          "bbox": [
+            0.6553,
+            0.5166,
+            0.738,
+            0.5855
+          ]
+        },
+        {
+          "text": "MUX",
+          "bbox": [
+            0.5456,
+            0.5885,
+            0.5999,
+            0.6573
+          ]
+        },
+        {
+          "text": "40 kbps",
+          "bbox": [
+            0.2304,
+            0.6426,
+            0.3018,
+            0.7114
+          ]
+        },
+        {
+          "text": "40 kbps",
+          "bbox": [
+            0.2304,
+            0.7701,
+            0.3018,
+            0.839
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_020",
+      "file": "ch06_ill_020.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.20",
+      "section_id": "ch06-6-1-3-multiple-slot-allocation",
+      "alt": "Figure 6.20: Multiple-slot multiplexing",
+      "sources": [
+        "book Figure 6.20; p.169"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 364,
+      "sha256": "6ec8b483ebd1f8a687bc78bf6a754a23b89cca3bf8cce675a557a7edf2aa765d",
+      "description": "Figure 6.20: Multiple-slot multiplexing. One 50 kbps input receives two slots per frame while three 25 kbps inputs receive one each, yielding five-slot frames on a 125 kbps link.",
+      "structure": "One 50 kbps input receives two slots per frame while three 25 kbps inputs receive one each, yielding five-slot frames on a 125 kbps link.",
+      "text_in_image": "25 kbps; 50 kbps; 25 kbps; • • •; M; 25 kbps; 125 kbps; U; The input with a; X; 25 kbps; 50-kHz data rate has two; slots in each frame.; 25 kbps",
+      "use_when": "Teach ch06-6-1-3-multiple-slot-allocation, interpret Figure 6.20, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 15,
+      "source_bbox": [
+        114.32,
+        116.86,
+        466.32,
+        237.8
+      ],
+      "labels": [
+        {
+          "text": "25 kbps",
+          "bbox": [
+            0.3178,
+            0.2873,
+            0.3891,
+            0.3534
+          ]
+        },
+        {
+          "text": "50 kbps",
+          "bbox": [
+            0.151,
+            0.3986,
+            0.2223,
+            0.4647
+          ]
+        },
+        {
+          "text": "25 kbps",
+          "bbox": [
+            0.3171,
+            0.4091,
+            0.3885,
+            0.4753
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.5082,
+            0.5149,
+            0.5434,
+            0.581
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.4212,
+            0.5385,
+            0.4426,
+            0.6046
+          ]
+        },
+        {
+          "text": "25 kbps",
+          "bbox": [
+            0.151,
+            0.5806,
+            0.2223,
+            0.6468
+          ]
+        },
+        {
+          "text": "125 kbps",
+          "bbox": [
+            0.7663,
+            0.5855,
+            0.849,
+            0.6516
+          ]
+        },
+        {
+          "text": "U",
+          "bbox": [
+            0.4237,
+            0.6046,
+            0.4401,
+            0.6708
+          ]
+        },
+        {
+          "text": "The input with a",
+          "bbox": [
+            0.5552,
+            0.6601,
+            0.7162,
+            0.7262
+          ]
+        },
+        {
+          "text": "X",
+          "bbox": [
+            0.4237,
+            0.6708,
+            0.4401,
+            0.7369
+          ]
+        },
+        {
+          "text": "25 kbps",
+          "bbox": [
+            0.151,
+            0.702,
+            0.2223,
+            0.7681
+          ]
+        },
+        {
+          "text": "50-kHz data rate has two",
+          "bbox": [
+            0.514,
+            0.7262,
+            0.7574,
+            0.7924
+          ]
+        },
+        {
+          "text": "slots in each frame.",
+          "bbox": [
+            0.5423,
+            0.7924,
+            0.7291,
+            0.8585
+          ]
+        },
+        {
+          "text": "25 kbps",
+          "bbox": [
+            0.151,
+            0.8354,
+            0.2223,
+            0.9015
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_021",
+      "file": "ch06_ill_021.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.21",
+      "section_id": "ch06-6-1-3-pulse-stuffing",
+      "alt": "Figure 6.21: Pulse stuffing",
+      "sources": [
+        "book Figure 6.21; p.169"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 350,
+      "sha256": "1fd59a4b8aeb9fef787dfac48d7e5e24eadeb091eb240a841d65a10cc437a805",
+      "description": "Figure 6.21: Pulse stuffing. A pulse-stuffing block raises a 46 kbps input to 50 kbps so it can be multiplexed with two native 50 kbps inputs into a 150 kbps output.",
+      "structure": "A pulse-stuffing block raises a 46 kbps input to 50 kbps so it can be multiplexed with two native 50 kbps inputs into a 150 kbps output.",
+      "text_in_image": "50 kbps; 150 kbps; M; 50 kbps; U; 50 kbps; X; Pulse; 46 kbps; stuffing",
+      "use_when": "Teach ch06-6-1-3-pulse-stuffing, interpret Figure 6.21, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 15,
+      "source_bbox": [
+        114.32,
+        340.66,
+        466.32,
+        456.92
+      ],
+      "labels": [
+        {
+          "text": "50 kbps",
+          "bbox": [
+            0.2161,
+            0.4347,
+            0.2874,
+            0.5035
+          ]
+        },
+        {
+          "text": "150 kbps",
+          "bbox": [
+            0.6718,
+            0.5197,
+            0.7545,
+            0.5885
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.5702,
+            0.5239,
+            0.5916,
+            0.5927
+          ]
+        },
+        {
+          "text": "50 kbps",
+          "bbox": [
+            0.2161,
+            0.5742,
+            0.2874,
+            0.643
+          ]
+        },
+        {
+          "text": "U",
+          "bbox": [
+            0.5727,
+            0.5927,
+            0.5891,
+            0.6616
+          ]
+        },
+        {
+          "text": "50 kbps",
+          "bbox": [
+            0.4815,
+            0.6556,
+            0.5528,
+            0.7244
+          ]
+        },
+        {
+          "text": "X",
+          "bbox": [
+            0.5727,
+            0.6616,
+            0.5891,
+            0.7304
+          ]
+        },
+        {
+          "text": "Pulse",
+          "bbox": [
+            0.3981,
+            0.6896,
+            0.4499,
+            0.7584
+          ]
+        },
+        {
+          "text": "46 kbps",
+          "bbox": [
+            0.2161,
+            0.7056,
+            0.2874,
+            0.7744
+          ]
+        },
+        {
+          "text": "stuffing",
+          "bbox": [
+            0.3874,
+            0.7584,
+            0.4606,
+            0.8272
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_022",
+      "file": "ch06_ill_022.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.22",
+      "section_id": "ch06-6-1-3-frame-synchronizing",
+      "alt": "Figure 6.22: Framing bits",
+      "sources": [
+        "book Figure 6.22; p.170"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 325,
+      "sha256": "d96ee4c9390598f71a7be115ef7af16d3b5cef285cfdaa847cb3611f130bfeee",
+      "description": "Figure 6.22: Framing bits. Successive three-slot frames carry a leading synchronization bit that follows the repeating 1-0-1 pattern, allowing the receiver to locate frame boundaries.",
+      "structure": "Successive three-slot frames carry a leading synchronization bit that follows the repeating 1-0-1 pattern, allowing the receiver to locate frame boundaries.",
+      "text_in_image": "Synchronization; 1      0      1; pattern; Frame 3; Frame 2; Frame 1; C3; B3; A3; B2; A2; C1; A1; 1; 0; 1",
+      "use_when": "Teach ch06-6-1-3-frame-synchronizing, interpret Figure 6.22, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 16,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        155.96
+      ],
+      "labels": [
+        {
+          "text": "Synchronization",
+          "bbox": [
+            0.5746,
+            0.3034,
+            0.7338,
+            0.3773
+          ]
+        },
+        {
+          "text": "1      0      1",
+          "bbox": [
+            0.4404,
+            0.3219,
+            0.543,
+            0.3958
+          ]
+        },
+        {
+          "text": "pattern",
+          "bbox": [
+            0.6183,
+            0.3921,
+            0.6901,
+            0.4661
+          ]
+        },
+        {
+          "text": "Frame 3",
+          "bbox": [
+            0.2623,
+            0.4926,
+            0.3377,
+            0.5666
+          ]
+        },
+        {
+          "text": "Frame 2",
+          "bbox": [
+            0.4666,
+            0.4926,
+            0.5419,
+            0.5666
+          ]
+        },
+        {
+          "text": "Frame 1",
+          "bbox": [
+            0.6708,
+            0.4926,
+            0.7462,
+            0.5666
+          ]
+        },
+        {
+          "text": "C3",
+          "bbox": [
+            0.25,
+            0.6136,
+            0.2766,
+            0.6876
+          ]
+        },
+        {
+          "text": "B3",
+          "bbox": [
+            0.297,
+            0.6136,
+            0.3236,
+            0.6876
+          ]
+        },
+        {
+          "text": "A3",
+          "bbox": [
+            0.3433,
+            0.6136,
+            0.3712,
+            0.6876
+          ]
+        },
+        {
+          "text": "B2",
+          "bbox": [
+            0.5012,
+            0.6136,
+            0.5278,
+            0.6876
+          ]
+        },
+        {
+          "text": "A2",
+          "bbox": [
+            0.5476,
+            0.6136,
+            0.5754,
+            0.6876
+          ]
+        },
+        {
+          "text": "C1",
+          "bbox": [
+            0.6585,
+            0.6136,
+            0.6851,
+            0.6876
+          ]
+        },
+        {
+          "text": "A1",
+          "bbox": [
+            0.7518,
+            0.6136,
+            0.7797,
+            0.6876
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2185,
+            0.6635,
+            0.2299,
+            0.7375
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4227,
+            0.6635,
+            0.4341,
+            0.7375
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.627,
+            0.6635,
+            0.6384,
+            0.7375
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_023",
+      "file": "ch06_ill_023.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.23",
+      "section_id": "ch06-6-1-3-digital-signal-service",
+      "alt": "Figure 6.23: Digital hierarchy (source DS-3 label corrected in teaching text by Table 6.1)",
+      "sources": [
+        "book Figure 6.23; p.171"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 562,
+      "sha256": "80174742c54c57faa3b8314abc49f3c0613ae3125f45f5c95f8b6f671b5c4210",
+      "description": "Figure 6.23: Digital hierarchy (source DS-3 label corrected in teaching text by Table 6.1). The digital hierarchy multiplexes 24 DS-0 channels into DS-1, four DS-1 streams into DS-2, seven DS-2 streams into DS-3, and six DS-3 streams into DS-4. The source figure prints 44.376 Mbps for DS-3; Table 6.1 gives 44.736 Mbps.",
+      "structure": "The digital hierarchy multiplexes 24 DS-0 channels into DS-1, four DS-1 streams into DS-2, seven DS-2 streams into DS-3, and six DS-3 streams into DS-4. The source figure prints 44.376 Mbps for DS-3; Table 6.1 gives 44.736 Mbps.",
+      "text_in_image": "6.312 Mbps; DS-0; 4 DS-1; 44.376 Mbps; T; DS-1; 7 DS-2; 24; D; • • •; T; DS-2; M; 274.176 Mbps; D; 6 DS-3; M; T; DS-3; D; M; 64 kbps; T; DS-4; D; 1.544 Mbps; 24 DS-0; M",
+      "use_when": "Teach ch06-6-1-3-digital-signal-service, interpret Figure 6.23, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 17,
+      "source_bbox": [
+        114.32,
+        104.86,
+        466.32,
+        291.98
+      ],
+      "labels": [
+        {
+          "text": "6.312 Mbps",
+          "bbox": [
+            0.4617,
+            0.1898,
+            0.56,
+            0.2272
+          ]
+        },
+        {
+          "text": "DS-0",
+          "bbox": [
+            0.1562,
+            0.2076,
+            0.1982,
+            0.245
+          ]
+        },
+        {
+          "text": "4 DS-1",
+          "bbox": [
+            0.4824,
+            0.2325,
+            0.5393,
+            0.27
+          ]
+        },
+        {
+          "text": "44.376 Mbps",
+          "bbox": [
+            0.6439,
+            0.304,
+            0.7522,
+            0.3414
+          ]
+        },
+        {
+          "text": "T",
+          "bbox": [
+            0.2361,
+            0.3144,
+            0.2494,
+            0.3519
+          ]
+        },
+        {
+          "text": "DS-1",
+          "bbox": [
+            0.3102,
+            0.3214,
+            0.3522,
+            0.3588
+          ]
+        },
+        {
+          "text": "7 DS-2",
+          "bbox": [
+            0.6696,
+            0.3468,
+            0.7265,
+            0.3842
+          ]
+        },
+        {
+          "text": "24",
+          "bbox": [
+            0.0898,
+            0.3491,
+            0.1097,
+            0.3865
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.2356,
+            0.3626,
+            0.2499,
+            0.4
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.1575,
+            0.3693,
+            0.1802,
+            0.4355
+          ]
+        },
+        {
+          "text": "T",
+          "bbox": [
+            0.413,
+            0.3987,
+            0.4262,
+            0.4361
+          ]
+        },
+        {
+          "text": "DS-2",
+          "bbox": [
+            0.4864,
+            0.4038,
+            0.5284,
+            0.4412
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.2334,
+            0.4107,
+            0.2522,
+            0.4481
+          ]
+        },
+        {
+          "text": "274.176 Mbps",
+          "bbox": [
+            0.792,
+            0.4314,
+            0.9102,
+            0.4688
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.4124,
+            0.4468,
+            0.4268,
+            0.4842
+          ]
+        },
+        {
+          "text": "6 DS-3",
+          "bbox": [
+            0.8227,
+            0.4742,
+            0.8796,
+            0.5116
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.4102,
+            0.4949,
+            0.429,
+            0.5323
+          ]
+        },
+        {
+          "text": "T",
+          "bbox": [
+            0.5898,
+            0.5554,
+            0.6031,
+            0.5928
+          ]
+        },
+        {
+          "text": "DS-3",
+          "bbox": [
+            0.6626,
+            0.5599,
+            0.7046,
+            0.5973
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.5892,
+            0.6035,
+            0.6036,
+            0.6409
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.587,
+            0.6516,
+            0.6058,
+            0.689
+          ]
+        },
+        {
+          "text": "64 kbps",
+          "bbox": [
+            0.1339,
+            0.6828,
+            0.1996,
+            0.7202
+          ]
+        },
+        {
+          "text": "T",
+          "bbox": [
+            0.7666,
+            0.6864,
+            0.7799,
+            0.7238
+          ]
+        },
+        {
+          "text": "DS-4",
+          "bbox": [
+            0.8196,
+            0.6901,
+            0.8615,
+            0.7275
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.7661,
+            0.7345,
+            0.7804,
+            0.7719
+          ]
+        },
+        {
+          "text": "1.544 Mbps",
+          "bbox": [
+            0.2825,
+            0.7374,
+            0.3808,
+            0.7748
+          ]
+        },
+        {
+          "text": "24 DS-0",
+          "bbox": [
+            0.2982,
+            0.7801,
+            0.3651,
+            0.8175
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.7639,
+            0.7826,
+            0.7826,
+            0.82
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_024",
+      "file": "ch06_ill_024.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.24",
+      "section_id": "ch06-6-1-3-t-lines-for-analog-transmission",
+      "alt": "Figure 6.24: T-1 line for multiplexing telephone lines",
+      "sources": [
+        "book Figure 6.24; p.172"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 535,
+      "sha256": "17edc2346a24cce46934a0cb7853e6ad2e6bf32cd5e71e12d51baede0558d873",
+      "description": "Figure 6.24: T-1 line for multiplexing telephone lines. Twenty-four 4 kHz voice channels are sampled at 8000 samples/s and encoded with 8-bit PCM, producing 64 kbps channels that TDM combines with 8 kbps overhead into a 1.544 Mbps T-1 line.",
+      "structure": "Twenty-four 4 kHz voice channels are sampled at 8000 samples/s and encoded with 8-bit PCM, producing 64 kbps channels that TDM combines with 8 kbps overhead into a 1.544 Mbps T-1 line.",
+      "text_in_image": "Sampling at 8000 samples/s; using 8 bits per sample; PCM; 24 Voice channels; T-1 line 1.544 Mbps; T; 24 × 64 kbps + 8 kbps overhead; D; PCM; M; • • •; • • •; 4 kHz; 64,000 bps; PCM",
+      "use_when": "Teach ch06-6-1-3-t-lines-for-analog-transmission, interpret Figure 6.24, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 18,
+      "source_bbox": [
+        99.32,
+        361.9,
+        451.32,
+        539.9
+      ],
+      "labels": [
+        {
+          "text": "Sampling at 8000 samples/s",
+          "bbox": [
+            0.2177,
+            0.1974,
+            0.4835,
+            0.2423
+          ]
+        },
+        {
+          "text": "using 8 bits per sample",
+          "bbox": [
+            0.2394,
+            0.2423,
+            0.4617,
+            0.2873
+          ]
+        },
+        {
+          "text": "PCM",
+          "bbox": [
+            0.3304,
+            0.4151,
+            0.3784,
+            0.46
+          ]
+        },
+        {
+          "text": "24 Voice channels",
+          "bbox": [
+            0.0149,
+            0.4334,
+            0.0376,
+            0.7574
+          ]
+        },
+        {
+          "text": "T-1 line 1.544 Mbps",
+          "bbox": [
+            0.7166,
+            0.4881,
+            0.9078,
+            0.5331
+          ]
+        },
+        {
+          "text": "T",
+          "bbox": [
+            0.6058,
+            0.5251,
+            0.621,
+            0.5701
+          ]
+        },
+        {
+          "text": "24 × 64 kbps + 8 kbps overhead",
+          "bbox": [
+            0.6596,
+            0.5331,
+            0.9648,
+            0.578
+          ]
+        },
+        {
+          "text": "D",
+          "bbox": [
+            0.6052,
+            0.5757,
+            0.6216,
+            0.6207
+          ]
+        },
+        {
+          "text": "PCM",
+          "bbox": [
+            0.3304,
+            0.578,
+            0.3784,
+            0.6229
+          ]
+        },
+        {
+          "text": "M",
+          "bbox": [
+            0.6026,
+            0.6263,
+            0.6241,
+            0.6712
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.0887,
+            0.6406,
+            0.1114,
+            0.7102
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.3377,
+            0.6631,
+            0.3604,
+            0.7327
+          ]
+        },
+        {
+          "text": "4 kHz",
+          "bbox": [
+            0.2032,
+            0.8135,
+            0.2581,
+            0.8585
+          ]
+        },
+        {
+          "text": "64,000 bps",
+          "bbox": [
+            0.4213,
+            0.8135,
+            0.521,
+            0.8585
+          ]
+        },
+        {
+          "text": "PCM",
+          "bbox": [
+            0.3304,
+            0.842,
+            0.3784,
+            0.887
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_025",
+      "file": "ch06_ill_025.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.25",
+      "section_id": "ch06-6-1-3-the-t-1-frame",
+      "alt": "Figure 6.25: T-1 frame structure",
+      "sources": [
+        "book Figure 6.25; p.173"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 781,
+      "sha256": "555893414a445b70b7bb3a9377099a13abdb09ba318bdd80acbaf31133555e07",
+      "description": "Figure 6.25: T-1 frame structure. A T-1 frame contains one synchronization bit followed by twenty-four 8-bit channel samples, totaling 193 bits. Sending 8000 frames/s produces 1.544 Mbps.",
+      "structure": "A T-1 frame contains one synchronization bit followed by twenty-four 8-bit channel samples, totaling 193 bits. Sending 8000 frames/s produces 1.544 Mbps.",
+      "text_in_image": "Sample n; Channel; Channel; Channel; • • •; 24; 2; 1; 1 bit 8 bits; 8 bits; 8 bits; 1 frame = 193 bits; Frame; Frame; Frame; Frame; • • •; • • •; 8000; 2; 1; n; T-1: 8000 frames/s = 8000 × 193 bps = 1.544 Mbps",
+      "use_when": "Teach ch06-6-1-3-the-t-1-frame, interpret Figure 6.25, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 19,
+      "source_bbox": [
+        114.32,
+        80.86,
+        466.32,
+        340.7
+      ],
+      "labels": [
+        {
+          "text": "Sample n",
+          "bbox": [
+            0.2099,
+            0.1276,
+            0.2951,
+            0.1645
+          ]
+        },
+        {
+          "text": "Channel",
+          "bbox": [
+            0.5628,
+            0.5683,
+            0.6385,
+            0.5991
+          ]
+        },
+        {
+          "text": "Channel",
+          "bbox": [
+            0.7142,
+            0.5683,
+            0.79,
+            0.5991
+          ]
+        },
+        {
+          "text": "Channel",
+          "bbox": [
+            0.8127,
+            0.5683,
+            0.8885,
+            0.5991
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.6587,
+            0.5849,
+            0.694,
+            0.6157
+          ]
+        },
+        {
+          "text": "24",
+          "bbox": [
+            0.5893,
+            0.5991,
+            0.612,
+            0.6299
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.7464,
+            0.5991,
+            0.7578,
+            0.6299
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8449,
+            0.5991,
+            0.8563,
+            0.6299
+          ]
+        },
+        {
+          "text": "1 bit 8 bits",
+          "bbox": [
+            0.521,
+            0.6419,
+            0.6275,
+            0.6727
+          ]
+        },
+        {
+          "text": "8 bits",
+          "bbox": [
+            0.7254,
+            0.6419,
+            0.7753,
+            0.6727
+          ]
+        },
+        {
+          "text": "8 bits",
+          "bbox": [
+            0.8248,
+            0.6419,
+            0.8747,
+            0.6727
+          ]
+        },
+        {
+          "text": "1 frame = 193 bits",
+          "bbox": [
+            0.5636,
+            0.7037,
+            0.7308,
+            0.7345
+          ]
+        },
+        {
+          "text": "Frame",
+          "bbox": [
+            0.4153,
+            0.8018,
+            0.4734,
+            0.8326
+          ]
+        },
+        {
+          "text": "Frame",
+          "bbox": [
+            0.5692,
+            0.8018,
+            0.6273,
+            0.8326
+          ]
+        },
+        {
+          "text": "Frame",
+          "bbox": [
+            0.7231,
+            0.8018,
+            0.7812,
+            0.8326
+          ]
+        },
+        {
+          "text": "Frame",
+          "bbox": [
+            0.8216,
+            0.8018,
+            0.8796,
+            0.8326
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.5037,
+            0.8186,
+            0.5389,
+            0.8494
+          ]
+        },
+        {
+          "text": "• • •",
+          "bbox": [
+            0.6576,
+            0.8186,
+            0.6928,
+            0.8494
+          ]
+        },
+        {
+          "text": "8000",
+          "bbox": [
+            0.4216,
+            0.8326,
+            0.4671,
+            0.8634
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.7465,
+            0.8326,
+            0.7578,
+            0.8634
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8449,
+            0.8326,
+            0.8563,
+            0.8634
+          ]
+        },
+        {
+          "text": "n",
+          "bbox": [
+            0.5926,
+            0.8388,
+            0.6039,
+            0.8696
+          ]
+        },
+        {
+          "text": "T-1: 8000 frames/s = 8000 × 193 bps = 1.544 Mbps",
+          "bbox": [
+            0.4075,
+            0.9039,
+            0.8906,
+            0.9347
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_026",
+      "file": "ch06_ill_026.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.26",
+      "section_id": "ch06-6-1-3-statistical-time-division-multiplexing",
+      "alt": "Figure 6.26: TDM slot comparison",
+      "sources": [
+        "book Figure 6.26; p.174"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 571,
+      "sha256": "2bd236e284ef768ac2a9085a5b57da1e66c5354ea3e54bce4c080e1a37965ffc",
+      "description": "Figure 6.26: TDM slot comparison. Parallel panels compare synchronous TDM, which emits reserved and sometimes empty slots, with statistical TDM, which emits only active data slots plus source addresses.",
+      "structure": "Parallel panels compare synchronous TDM, which emits reserved and sometimes empty slots, with statistical TDM, which emits only active data slots plus source addresses.",
+      "text_in_image": "Line A; A1; B2; B1; Line B; 0; E2; D2; B2; 1; D1; B1; A1; Line C; MUX; Line D; D2; D1; a. Synchronous TDM; E2; Line E; Line A; A1; B2; B1; Line B; e; E2; d; D2; b; B2; d; D1; b; B1; a; A1; Line C; MUX; Line D; D2; D1; b. Statistical TDM; E2; Line E",
+      "use_when": "Teach ch06-6-1-3-statistical-time-division-multiplexing, interpret Figure 6.26, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 20,
+      "source_bbox": [
+        99.32,
+        259.9,
+        451.32,
+        449.72
+      ],
+      "labels": [
+        {
+          "text": "Line A",
+          "bbox": [
+            0.1204,
+            0.209,
+            0.1761,
+            0.2465
+          ]
+        },
+        {
+          "text": "A1",
+          "bbox": [
+            0.3233,
+            0.2092,
+            0.348,
+            0.2467
+          ]
+        },
+        {
+          "text": "B2",
+          "bbox": [
+            0.24,
+            0.2751,
+            0.2636,
+            0.3126
+          ]
+        },
+        {
+          "text": "B1",
+          "bbox": [
+            0.3238,
+            0.2751,
+            0.3474,
+            0.3126
+          ]
+        },
+        {
+          "text": "Line B",
+          "bbox": [
+            0.119,
+            0.2769,
+            0.1747,
+            0.3144
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4895,
+            0.2915,
+            0.4996,
+            0.329
+          ]
+        },
+        {
+          "text": "E2",
+          "bbox": [
+            0.5124,
+            0.2914,
+            0.5348,
+            0.3289
+          ]
+        },
+        {
+          "text": "D2",
+          "bbox": [
+            0.5405,
+            0.2914,
+            0.5648,
+            0.3289
+          ]
+        },
+        {
+          "text": "B2",
+          "bbox": [
+            0.6001,
+            0.2914,
+            0.6233,
+            0.3289
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.6839,
+            0.2915,
+            0.6941,
+            0.329
+          ]
+        },
+        {
+          "text": "D1",
+          "bbox": [
+            0.7326,
+            0.2914,
+            0.7569,
+            0.3289
+          ]
+        },
+        {
+          "text": "B1",
+          "bbox": [
+            0.7921,
+            0.2914,
+            0.8145,
+            0.3289
+          ]
+        },
+        {
+          "text": "A1",
+          "bbox": [
+            0.8222,
+            0.2914,
+            0.8461,
+            0.3289
+          ]
+        },
+        {
+          "text": "Line C",
+          "bbox": [
+            0.1198,
+            0.3466,
+            0.1754,
+            0.3841
+          ]
+        },
+        {
+          "text": "MUX",
+          "bbox": [
+            0.3955,
+            0.3514,
+            0.4438,
+            0.3889
+          ]
+        },
+        {
+          "text": "Line D",
+          "bbox": [
+            0.1204,
+            0.415,
+            0.1772,
+            0.4525
+          ]
+        },
+        {
+          "text": "D2",
+          "bbox": [
+            0.2395,
+            0.4149,
+            0.2642,
+            0.4524
+          ]
+        },
+        {
+          "text": "D1",
+          "bbox": [
+            0.3233,
+            0.4149,
+            0.348,
+            0.4524
+          ]
+        },
+        {
+          "text": "a. Synchronous TDM",
+          "bbox": [
+            0.589,
+            0.415,
+            0.7634,
+            0.4525
+          ]
+        },
+        {
+          "text": "E2",
+          "bbox": [
+            0.2406,
+            0.4795,
+            0.2631,
+            0.517
+          ]
+        },
+        {
+          "text": "Line E",
+          "bbox": [
+            0.1191,
+            0.4823,
+            0.1736,
+            0.5198
+          ]
+        },
+        {
+          "text": "Line A",
+          "bbox": [
+            0.1204,
+            0.6033,
+            0.1761,
+            0.6408
+          ]
+        },
+        {
+          "text": "A1",
+          "bbox": [
+            0.3233,
+            0.6034,
+            0.348,
+            0.641
+          ]
+        },
+        {
+          "text": "B2",
+          "bbox": [
+            0.24,
+            0.6694,
+            0.2636,
+            0.7069
+          ]
+        },
+        {
+          "text": "B1",
+          "bbox": [
+            0.3238,
+            0.6694,
+            0.3474,
+            0.7069
+          ]
+        },
+        {
+          "text": "Line B",
+          "bbox": [
+            0.119,
+            0.6712,
+            0.1747,
+            0.7087
+          ]
+        },
+        {
+          "text": "e",
+          "bbox": [
+            0.5048,
+            0.6854,
+            0.5138,
+            0.7229
+          ]
+        },
+        {
+          "text": "E2",
+          "bbox": [
+            0.5247,
+            0.6852,
+            0.5472,
+            0.7227
+          ]
+        },
+        {
+          "text": "d",
+          "bbox": [
+            0.5576,
+            0.6854,
+            0.5677,
+            0.7229
+          ]
+        },
+        {
+          "text": "D2",
+          "bbox": [
+            0.574,
+            0.6852,
+            0.5988,
+            0.7227
+          ]
+        },
+        {
+          "text": "b",
+          "bbox": [
+            0.608,
+            0.6854,
+            0.6181,
+            0.7229
+          ]
+        },
+        {
+          "text": "B2",
+          "bbox": [
+            0.6279,
+            0.6852,
+            0.6515,
+            0.7227
+          ]
+        },
+        {
+          "text": "d",
+          "bbox": [
+            0.6845,
+            0.6854,
+            0.6946,
+            0.7229
+          ]
+        },
+        {
+          "text": "D1",
+          "bbox": [
+            0.704,
+            0.6852,
+            0.7283,
+            0.7227
+          ]
+        },
+        {
+          "text": "b",
+          "bbox": [
+            0.7378,
+            0.6854,
+            0.7479,
+            0.7229
+          ]
+        },
+        {
+          "text": "B1",
+          "bbox": [
+            0.7552,
+            0.6852,
+            0.778,
+            0.7227
+          ]
+        },
+        {
+          "text": "a",
+          "bbox": [
+            0.7888,
+            0.6854,
+            0.7978,
+            0.7229
+          ]
+        },
+        {
+          "text": "A1",
+          "bbox": [
+            0.8082,
+            0.6852,
+            0.8317,
+            0.7227
+          ]
+        },
+        {
+          "text": "Line C",
+          "bbox": [
+            0.1198,
+            0.7408,
+            0.1754,
+            0.7784
+          ]
+        },
+        {
+          "text": "MUX",
+          "bbox": [
+            0.3955,
+            0.7457,
+            0.4438,
+            0.7832
+          ]
+        },
+        {
+          "text": "Line D",
+          "bbox": [
+            0.1204,
+            0.8092,
+            0.1772,
+            0.8467
+          ]
+        },
+        {
+          "text": "D2",
+          "bbox": [
+            0.2395,
+            0.8092,
+            0.2642,
+            0.8467
+          ]
+        },
+        {
+          "text": "D1",
+          "bbox": [
+            0.3233,
+            0.8092,
+            0.348,
+            0.8467
+          ]
+        },
+        {
+          "text": "b. Statistical TDM",
+          "bbox": [
+            0.6014,
+            0.8105,
+            0.7502,
+            0.848
+          ]
+        },
+        {
+          "text": "E2",
+          "bbox": [
+            0.2406,
+            0.8738,
+            0.2631,
+            0.9113
+          ]
+        },
+        {
+          "text": "Line E",
+          "bbox": [
+            0.1191,
+            0.8766,
+            0.1736,
+            0.9141
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_027",
+      "file": "ch06_ill_027.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.27",
+      "section_id": "ch06-6-2",
+      "alt": "Figure 6.27: Spread spectrum",
+      "sources": [
+        "book Figure 6.27; p.176"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 419,
+      "sha256": "c0dde54c224ab56649a0cd7f270df91b38217bcb21c5843d31178509f79dfa10",
+      "description": "Figure 6.27: Spread spectrum. A spreading process combines an original signal of bandwidth B with a spreading code to produce a signal occupying the wider bandwidth B_SS.",
+      "structure": "A spreading process combines an original signal of bandwidth B with a spreading code to produce a signal occupying the wider bandwidth B_SS.",
+      "text_in_image": "BSS; B; Spreading; process; Spreading; code",
+      "use_when": "Teach ch06-6-2, interpret Figure 6.27, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 22,
+      "source_bbox": [
+        99.32,
+        92.86,
+        451.32,
+        232.22
+      ],
+      "labels": [
+        {
+          "text": "BSS",
+          "bbox": [
+            0.6903,
+            0.2451,
+            0.7212,
+            0.3139
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.2488,
+            0.2607,
+            0.2627,
+            0.3181
+          ]
+        },
+        {
+          "text": "Spreading",
+          "bbox": [
+            0.4124,
+            0.4301,
+            0.5102,
+            0.4875
+          ]
+        },
+        {
+          "text": "process",
+          "bbox": [
+            0.4272,
+            0.499,
+            0.4954,
+            0.5564
+          ]
+        },
+        {
+          "text": "Spreading",
+          "bbox": [
+            0.4124,
+            0.7951,
+            0.5102,
+            0.8525
+          ]
+        },
+        {
+          "text": "code",
+          "bbox": [
+            0.4398,
+            0.864,
+            0.4827,
+            0.9214
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_028",
+      "file": "ch06_ill_028.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.28",
+      "section_id": "ch06-6-2-1",
+      "alt": "Figure 6.28: Frequency hopping spread spectrum (FHSS)",
+      "sources": [
+        "book Figure 6.28; p.177"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 613,
+      "sha256": "960ba7014c94f719fef2b98301fe257b0fcfbdbf6e79e05c2483cc62374885e0",
+      "description": "Figure 6.28: Frequency hopping spread spectrum (FHSS). An FHSS transmitter maps pseudorandom code words through a frequency table and synthesizer to select the carrier used by the modulator during each hop.",
+      "structure": "An FHSS transmitter maps pseudorandom code words through a frequency table and synthesizer to select the carrier used by the modulator during each hop.",
+      "text_in_image": "Modulator; Original; Spread; signal; signal; Frequency; synthesizer; code generator; Pseudorandom; Frequency table",
+      "use_when": "Teach ch06-6-2-1, interpret Figure 6.28, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 23,
+      "source_bbox": [
+        115.34,
+        47.8,
+        466.32,
+        251.72
+      ],
+      "labels": [
+        {
+          "text": "Modulator",
+          "bbox": [
+            0.4781,
+            0.1948,
+            0.5743,
+            0.2341
+          ]
+        },
+        {
+          "text": "Original",
+          "bbox": [
+            0.1253,
+            0.2659,
+            0.2013,
+            0.3052
+          ]
+        },
+        {
+          "text": "Spread",
+          "bbox": [
+            0.8258,
+            0.2659,
+            0.8891,
+            0.3052
+          ]
+        },
+        {
+          "text": "signal",
+          "bbox": [
+            0.1469,
+            0.313,
+            0.2013,
+            0.3522
+          ]
+        },
+        {
+          "text": "signal",
+          "bbox": [
+            0.8258,
+            0.313,
+            0.8803,
+            0.3522
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.4722,
+            0.468,
+            0.5681,
+            0.5073
+          ]
+        },
+        {
+          "text": "synthesizer",
+          "bbox": [
+            0.4689,
+            0.5151,
+            0.5714,
+            0.5544
+          ]
+        },
+        {
+          "text": "code generator",
+          "bbox": [
+            0.3302,
+            0.6424,
+            0.353,
+            0.8842
+          ]
+        },
+        {
+          "text": "Pseudorandom",
+          "bbox": [
+            0.3028,
+            0.6467,
+            0.3256,
+            0.8799
+          ]
+        },
+        {
+          "text": "Frequency table",
+          "bbox": [
+            0.4472,
+            0.8629,
+            0.5931,
+            0.9021
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_029",
+      "file": "ch06_ill_029.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.29",
+      "section_id": "ch06-6-2-1",
+      "alt": "Figure 6.29: Frequency selection in FHSS",
+      "sources": [
+        "book Figure 6.29; p.177"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 514,
+      "sha256": "367f2acebc399eb33a5927e4f56eba4b43dd7012f6e9c63967fe6b912485066a",
+      "description": "Figure 6.29: Frequency selection in FHSS. A 3-bit hopping sequence indexes a table that maps 000 through 111 to carriers from 200 through 900 kHz; the first code 101 selects 700 kHz.",
+      "structure": "A 3-bit hopping sequence indexes a table that maps 000 through 111 to carriers from 200 through 900 kHz; the first code 101 selects 700 kHz.",
+      "text_in_image": "First-hop frequency; k-bit; Frequency; 000; 200 kHz; k-bit patterns; 001; 300 kHz; 010; 400 kHz; 101; 111; 001; 000; 010; 110; 011 100; 011; 500 kHz; 100; 600 kHz; First selection; 101; 700 kHz; 110; 800 kHz; 111; 900 kHz; Frequency table",
+      "use_when": "Teach ch06-6-2-1, interpret Figure 6.29, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 23,
+      "source_bbox": [
+        114.32,
+        261.58,
+        466.32,
+        432.62
+      ],
+      "labels": [
+        {
+          "text": "First-hop frequency",
+          "bbox": [
+            0.6061,
+            0.1816,
+            0.7856,
+            0.2283
+          ]
+        },
+        {
+          "text": "k-bit",
+          "bbox": [
+            0.5987,
+            0.4273,
+            0.6404,
+            0.4834
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.6739,
+            0.4273,
+            0.7695,
+            0.4741
+          ]
+        },
+        {
+          "text": "000",
+          "bbox": [
+            0.6025,
+            0.4962,
+            0.6366,
+            0.5429
+          ]
+        },
+        {
+          "text": "200 kHz",
+          "bbox": [
+            0.683,
+            0.4963,
+            0.7607,
+            0.543
+          ]
+        },
+        {
+          "text": "k-bit patterns",
+          "bbox": [
+            0.1829,
+            0.5199,
+            0.3022,
+            0.5761
+          ]
+        },
+        {
+          "text": "001",
+          "bbox": [
+            0.6025,
+            0.5465,
+            0.6366,
+            0.5933
+          ]
+        },
+        {
+          "text": "300 kHz",
+          "bbox": [
+            0.683,
+            0.5466,
+            0.7607,
+            0.5934
+          ]
+        },
+        {
+          "text": "010",
+          "bbox": [
+            0.6025,
+            0.5969,
+            0.6366,
+            0.6436
+          ]
+        },
+        {
+          "text": "400 kHz",
+          "bbox": [
+            0.683,
+            0.597,
+            0.7607,
+            0.6437
+          ]
+        },
+        {
+          "text": "101",
+          "bbox": [
+            0.1884,
+            0.6161,
+            0.2225,
+            0.6628
+          ]
+        },
+        {
+          "text": "111",
+          "bbox": [
+            0.2357,
+            0.6161,
+            0.2698,
+            0.6628
+          ]
+        },
+        {
+          "text": "001",
+          "bbox": [
+            0.2813,
+            0.6161,
+            0.3154,
+            0.6628
+          ]
+        },
+        {
+          "text": "000",
+          "bbox": [
+            0.3277,
+            0.6161,
+            0.3618,
+            0.6628
+          ]
+        },
+        {
+          "text": "010",
+          "bbox": [
+            0.3741,
+            0.6161,
+            0.4082,
+            0.6628
+          ]
+        },
+        {
+          "text": "110",
+          "bbox": [
+            0.4209,
+            0.6161,
+            0.455,
+            0.6628
+          ]
+        },
+        {
+          "text": "011 100",
+          "bbox": [
+            0.4673,
+            0.6161,
+            0.5474,
+            0.6628
+          ]
+        },
+        {
+          "text": "011",
+          "bbox": [
+            0.6025,
+            0.6472,
+            0.6366,
+            0.694
+          ]
+        },
+        {
+          "text": "500 kHz",
+          "bbox": [
+            0.683,
+            0.6473,
+            0.7607,
+            0.6941
+          ]
+        },
+        {
+          "text": "100",
+          "bbox": [
+            0.6025,
+            0.6975,
+            0.6366,
+            0.7443
+          ]
+        },
+        {
+          "text": "600 kHz",
+          "bbox": [
+            0.683,
+            0.6976,
+            0.7607,
+            0.7444
+          ]
+        },
+        {
+          "text": "First selection",
+          "bbox": [
+            0.3324,
+            0.7209,
+            0.4606,
+            0.7677
+          ]
+        },
+        {
+          "text": "101",
+          "bbox": [
+            0.6025,
+            0.7479,
+            0.6366,
+            0.7946
+          ]
+        },
+        {
+          "text": "700 kHz",
+          "bbox": [
+            0.683,
+            0.748,
+            0.7607,
+            0.7947
+          ]
+        },
+        {
+          "text": "110",
+          "bbox": [
+            0.6025,
+            0.7982,
+            0.6366,
+            0.845
+          ]
+        },
+        {
+          "text": "800 kHz",
+          "bbox": [
+            0.683,
+            0.7983,
+            0.7607,
+            0.8451
+          ]
+        },
+        {
+          "text": "111",
+          "bbox": [
+            0.6025,
+            0.8486,
+            0.6366,
+            0.8953
+          ]
+        },
+        {
+          "text": "900 kHz",
+          "bbox": [
+            0.683,
+            0.8487,
+            0.7607,
+            0.8954
+          ]
+        },
+        {
+          "text": "Frequency table",
+          "bbox": [
+            0.6183,
+            0.9126,
+            0.7637,
+            0.9593
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_030",
+      "file": "ch06_ill_030.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.30",
+      "section_id": "ch06-6-2-1-bandwidth-sharing",
+      "alt": "Figure 6.30: FHSS cycles",
+      "sources": [
+        "book Figure 6.30; p.178"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 611,
+      "sha256": "49fe4e597fb3f1c5347be097a19585703e4b15eca0bbda5861b69db4f66eb55b",
+      "description": "Figure 6.30: FHSS cycles. A time-frequency grid plots two repeated FHSS cycles across eight hop periods each, with the carrier moving among 200-to-900 kHz channels according to the pseudorandom sequence.",
+      "structure": "A time-frequency grid plots two repeated FHSS cycles across eight hop periods each, with the carrier moving among 200-to-900 kHz channels according to the pseudorandom sequence.",
+      "text_in_image": "Carrier; frequencies; (kHz); Cycle 1; Cycle 2; 900; 800; 700; 600; 500; 400; 300; 200; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10 11 12 13 14 15 16; Hop; periods",
+      "use_when": "Teach ch06-6-2-1-bandwidth-sharing, interpret Figure 6.30, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 24,
+      "source_bbox": [
+        100.34,
+        47.8,
+        451.32,
+        251.3
+      ],
+      "labels": [
+        {
+          "text": "Carrier",
+          "bbox": [
+            0.162,
+            0.1467,
+            0.2265,
+            0.186
+          ]
+        },
+        {
+          "text": "frequencies",
+          "bbox": [
+            0.1417,
+            0.1939,
+            0.2468,
+            0.2332
+          ]
+        },
+        {
+          "text": "(kHz)",
+          "bbox": [
+            0.1677,
+            0.2411,
+            0.2208,
+            0.2804
+          ]
+        },
+        {
+          "text": "Cycle 1",
+          "bbox": [
+            0.3069,
+            0.3313,
+            0.3772,
+            0.3706
+          ]
+        },
+        {
+          "text": "Cycle 2",
+          "bbox": [
+            0.6003,
+            0.3313,
+            0.6706,
+            0.3706
+          ]
+        },
+        {
+          "text": "900",
+          "bbox": [
+            0.1517,
+            0.3944,
+            0.1859,
+            0.4337
+          ]
+        },
+        {
+          "text": "800",
+          "bbox": [
+            0.1517,
+            0.4445,
+            0.1859,
+            0.4838
+          ]
+        },
+        {
+          "text": "700",
+          "bbox": [
+            0.1517,
+            0.4945,
+            0.1859,
+            0.5338
+          ]
+        },
+        {
+          "text": "600",
+          "bbox": [
+            0.1517,
+            0.5445,
+            0.1859,
+            0.5839
+          ]
+        },
+        {
+          "text": "500",
+          "bbox": [
+            0.1517,
+            0.5946,
+            0.1859,
+            0.6339
+          ]
+        },
+        {
+          "text": "400",
+          "bbox": [
+            0.1517,
+            0.6446,
+            0.1859,
+            0.684
+          ]
+        },
+        {
+          "text": "300",
+          "bbox": [
+            0.1517,
+            0.6947,
+            0.1859,
+            0.734
+          ]
+        },
+        {
+          "text": "200",
+          "bbox": [
+            0.1517,
+            0.7448,
+            0.1859,
+            0.7841
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.2067,
+            0.8478,
+            0.2181,
+            0.8871
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.243,
+            0.8478,
+            0.2544,
+            0.8871
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.2794,
+            0.8478,
+            0.2908,
+            0.8871
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.3157,
+            0.8478,
+            0.3271,
+            0.8871
+          ]
+        },
+        {
+          "text": "5",
+          "bbox": [
+            0.3526,
+            0.8478,
+            0.364,
+            0.8871
+          ]
+        },
+        {
+          "text": "6",
+          "bbox": [
+            0.3905,
+            0.8478,
+            0.4019,
+            0.8871
+          ]
+        },
+        {
+          "text": "7",
+          "bbox": [
+            0.4277,
+            0.8478,
+            0.4391,
+            0.8871
+          ]
+        },
+        {
+          "text": "8",
+          "bbox": [
+            0.4641,
+            0.8478,
+            0.4755,
+            0.8871
+          ]
+        },
+        {
+          "text": "9",
+          "bbox": [
+            0.5003,
+            0.8478,
+            0.5117,
+            0.8871
+          ]
+        },
+        {
+          "text": "10 11 12 13 14 15 16",
+          "bbox": [
+            0.5308,
+            0.8478,
+            0.7746,
+            0.8871
+          ]
+        },
+        {
+          "text": "Hop",
+          "bbox": [
+            0.8101,
+            0.8596,
+            0.8551,
+            0.8989
+          ]
+        },
+        {
+          "text": "periods",
+          "bbox": [
+            0.799,
+            0.9068,
+            0.8661,
+            0.9461
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_031",
+      "file": "ch06_ill_031.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.31",
+      "section_id": "ch06-6-2-1-bandwidth-sharing",
+      "alt": "Figure 6.31: Bandwidth sharing",
+      "sources": [
+        "book Figure 6.31; p.178"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 469,
+      "sha256": "68e726f4d855212dde792db06c5cff7fabe3a867e54598b8a87cd15ea8b5437a",
+      "description": "Figure 6.31: Bandwidth sharing. An FDM panel assigns each station a fixed frequency band, while an FHSS panel shows stations changing bands from one time interval to the next without colliding.",
+      "structure": "An FDM panel assigns each station a fixed frequency band, while an FHSS panel shows stations changing bands from one time interval to the next without colliding.",
+      "text_in_image": "Frequency; Frequency; f4; f4; f3; f3; f2; f2; f1; f1; Time; Time; a. FDM; b. FHSS",
+      "use_when": "Teach ch06-6-2-1-bandwidth-sharing, interpret Figure 6.31, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 24,
+      "source_bbox": [
+        99.32,
+        304.18,
+        451.32,
+        460.22
+      ],
+      "labels": [
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.1391,
+            0.2334,
+            0.2347,
+            0.2847
+          ]
+        },
+        {
+          "text": "Frequency",
+          "bbox": [
+            0.5206,
+            0.2334,
+            0.6162,
+            0.2847
+          ]
+        },
+        {
+          "text": "f4",
+          "bbox": [
+            0.1541,
+            0.3987,
+            0.169,
+            0.4526
+          ]
+        },
+        {
+          "text": "f4",
+          "bbox": [
+            0.5363,
+            0.3987,
+            0.5512,
+            0.4526
+          ]
+        },
+        {
+          "text": "f3",
+          "bbox": [
+            0.1541,
+            0.5004,
+            0.169,
+            0.5542
+          ]
+        },
+        {
+          "text": "f3",
+          "bbox": [
+            0.5363,
+            0.5004,
+            0.5512,
+            0.5542
+          ]
+        },
+        {
+          "text": "f2",
+          "bbox": [
+            0.1541,
+            0.602,
+            0.169,
+            0.6559
+          ]
+        },
+        {
+          "text": "f2",
+          "bbox": [
+            0.5363,
+            0.602,
+            0.5512,
+            0.6559
+          ]
+        },
+        {
+          "text": "f1",
+          "bbox": [
+            0.1541,
+            0.7037,
+            0.169,
+            0.7575
+          ]
+        },
+        {
+          "text": "f1",
+          "bbox": [
+            0.5363,
+            0.7037,
+            0.5512,
+            0.7575
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.4314,
+            0.8419,
+            0.4786,
+            0.8931
+          ]
+        },
+        {
+          "text": "Time",
+          "bbox": [
+            0.8138,
+            0.8419,
+            0.8609,
+            0.8931
+          ]
+        },
+        {
+          "text": "a. FDM",
+          "bbox": [
+            0.267,
+            0.8783,
+            0.3378,
+            0.9296
+          ]
+        },
+        {
+          "text": "b. FHSS",
+          "bbox": [
+            0.6473,
+            0.8783,
+            0.7234,
+            0.9296
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_032",
+      "file": "ch06_ill_032.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.32",
+      "section_id": "ch06-6-2-2",
+      "alt": "Figure 6.32: DSSS",
+      "sources": [
+        "book Figure 6.32; p.179"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 394,
+      "sha256": "75e6aecc012bd938cf10cd9ebc5b55e3ac1e0a3a52f245efa65498f919c25659",
+      "description": "Figure 6.32: DSSS. A DSSS transmitter multiplies the original signal by a chip sequence from a chip generator, producing the spread signal.",
+      "structure": "A DSSS transmitter multiplies the original signal by a chip sequence from a chip generator, producing the spread signal.",
+      "text_in_image": "Modulator; Original; Spread; signal; signal; Chips generator",
+      "use_when": "Teach ch06-6-2-2, interpret Figure 6.32, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 25,
+      "source_bbox": [
+        115.34,
+        47.8,
+        466.32,
+        178.94
+      ],
+      "labels": [
+        {
+          "text": "Modulator",
+          "bbox": [
+            0.4592,
+            0.3182,
+            0.5554,
+            0.3792
+          ]
+        },
+        {
+          "text": "Original",
+          "bbox": [
+            0.1375,
+            0.4288,
+            0.2135,
+            0.4898
+          ]
+        },
+        {
+          "text": "Spread",
+          "bbox": [
+            0.7963,
+            0.4288,
+            0.8596,
+            0.4898
+          ]
+        },
+        {
+          "text": "signal",
+          "bbox": [
+            0.159,
+            0.4898,
+            0.2135,
+            0.5508
+          ]
+        },
+        {
+          "text": "signal",
+          "bbox": [
+            0.7963,
+            0.4898,
+            0.8508,
+            0.5508
+          ]
+        },
+        {
+          "text": "Chips generator",
+          "bbox": [
+            0.4348,
+            0.7478,
+            0.5798,
+            0.8088
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_033",
+      "file": "ch06_ill_033.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.33",
+      "section_id": "ch06-6-2-2",
+      "alt": "Figure 6.33: DSSS example",
+      "sources": [
+        "book Figure 6.33; p.179"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 518,
+      "sha256": "1432b66886f55fded42b8ab34c116efcf6938ab0fbeb3c84c14ffd4c7dc2f528",
+      "description": "Figure 6.33: DSSS example. Each original bit in 1-0-1 is multiplied by the 11-chip Barker sequence, producing the displayed higher-rate bipolar spread waveform.",
+      "structure": "Each original bit in 1-0-1 is multiplied by the 11-chip Barker sequence, producing the displayed higher-rate bipolar spread waveform.",
+      "text_in_image": "1; 0; 1; Original; signal; 1; 0; 1 1; 0; 1 1 1; 0 0 0; 1; 0; 1 1; 0; 1 1 1; 0 0 0 1; 0; 1 1; 0; 1 1 1; 0 0 0; Spreading; code; Spread; signal",
+      "use_when": "Teach ch06-6-2-2, interpret Figure 6.33, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 25,
+      "source_bbox": [
+        114.32,
+        243.76,
+        466.32,
+        416.0
+      ],
+      "labels": [
+        {
+          "text": "1",
+          "bbox": [
+            0.244,
+            0.2355,
+            0.2554,
+            0.282
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5294,
+            0.2355,
+            0.5407,
+            0.282
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.8131,
+            0.2355,
+            0.8244,
+            0.282
+          ]
+        },
+        {
+          "text": "Original",
+          "bbox": [
+            0.0214,
+            0.3213,
+            0.0972,
+            0.3678
+          ]
+        },
+        {
+          "text": "signal",
+          "bbox": [
+            0.0429,
+            0.3716,
+            0.0972,
+            0.4181
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.1171,
+            0.4599,
+            0.1284,
+            0.5063
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.1426,
+            0.4599,
+            0.1539,
+            0.5063
+          ]
+        },
+        {
+          "text": "1 1",
+          "bbox": [
+            0.1681,
+            0.4599,
+            0.205,
+            0.5063
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.2191,
+            0.4599,
+            0.2305,
+            0.5063
+          ]
+        },
+        {
+          "text": "1 1 1",
+          "bbox": [
+            0.2446,
+            0.4599,
+            0.307,
+            0.5063
+          ]
+        },
+        {
+          "text": "0 0 0",
+          "bbox": [
+            0.3212,
+            0.4599,
+            0.3836,
+            0.5063
+          ]
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.4031,
+            0.4599,
+            0.4145,
+            0.5063
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.4287,
+            0.4599,
+            0.44,
+            0.5063
+          ]
+        },
+        {
+          "text": "1 1",
+          "bbox": [
+            0.4542,
+            0.4599,
+            0.491,
+            0.5063
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.5052,
+            0.4599,
+            0.5166,
+            0.5063
+          ]
+        },
+        {
+          "text": "1 1 1",
+          "bbox": [
+            0.5307,
+            0.4599,
+            0.5931,
+            0.5063
+          ]
+        },
+        {
+          "text": "0 0 0 1",
+          "bbox": [
+            0.6073,
+            0.4599,
+            0.6976,
+            0.5063
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7117,
+            0.4599,
+            0.7231,
+            0.5063
+          ]
+        },
+        {
+          "text": "1 1",
+          "bbox": [
+            0.7372,
+            0.4599,
+            0.7741,
+            0.5063
+          ]
+        },
+        {
+          "text": "0",
+          "bbox": [
+            0.7883,
+            0.4599,
+            0.7996,
+            0.5063
+          ]
+        },
+        {
+          "text": "1 1 1",
+          "bbox": [
+            0.8138,
+            0.4599,
+            0.8761,
+            0.5063
+          ]
+        },
+        {
+          "text": "0 0 0",
+          "bbox": [
+            0.8904,
+            0.4599,
+            0.9527,
+            0.5063
+          ]
+        },
+        {
+          "text": "Spreading",
+          "bbox": [
+            0.005,
+            0.523,
+            0.0972,
+            0.5694
+          ]
+        },
+        {
+          "text": "code",
+          "bbox": [
+            0.0543,
+            0.5733,
+            0.0972,
+            0.6197
+          ]
+        },
+        {
+          "text": "Spread",
+          "bbox": [
+            0.034,
+            0.7389,
+            0.0972,
+            0.7854
+          ]
+        },
+        {
+          "text": "signal",
+          "bbox": [
+            0.0429,
+            0.7892,
+            0.0972,
+            0.8357
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_034",
+      "file": "ch06_ill_034.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.34",
+      "section_id": "ch06-q-p6-12",
+      "alt": "Figure 6.34: Problem P6-12",
+      "sources": [
+        "book Figure 6.34; p.183"
+      ],
+      "confidence": "high",
+      "width": 948,
+      "height": 373,
+      "sha256": "ad34d11d7d336ae6f8731a1fe6dfa616b6bf1b6ee92fe2bfcf7241b47182d359",
+      "description": "Figure 6.34: Problem P6-12. Problem P6-12 supplies three input bit streams entering a synchronous TDM multiplexer; arrows mark the next bits and the output frame has ten bits including one framing bit.",
+      "structure": "Problem P6-12 supplies three input bit streams entering a synchronous TDM multiplexer; arrows mark the next bits and the output frame has ten bits including one framing bit.",
+      "text_in_image": "1 0 1 1 1 0 1 1 1 1 0 1; Frame of 10 bits; 1 1 1 1 1 1 1 0 0 0 0; TDM; 1 0 1 0 0 0 0 0 0 1 1 1 1",
+      "use_when": "Teach ch06-q-p6-12, interpret Figure 6.34, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 29,
+      "source_bbox": [
+        150.56,
+        426.82,
+        466.32,
+        550.82
+      ],
+      "labels": [
+        {
+          "text": "1 0 1 1 1 0 1 1 1 1 0 1",
+          "bbox": [
+            0.138,
+            0.3361,
+            0.3639,
+            0.3987
+          ]
+        },
+        {
+          "text": "Frame of 10 bits",
+          "bbox": [
+            0.6787,
+            0.4375,
+            0.8405,
+            0.5001
+          ]
+        },
+        {
+          "text": "1 1 1 1 1 1 1 0 0 0 0",
+          "bbox": [
+            0.1574,
+            0.5306,
+            0.3639,
+            0.5932
+          ]
+        },
+        {
+          "text": "TDM",
+          "bbox": [
+            0.5461,
+            0.5361,
+            0.6034,
+            0.5987
+          ]
+        },
+        {
+          "text": "1 0 1 0 0 0 0 0 0 1 1 1 1",
+          "bbox": [
+            0.1186,
+            0.725,
+            0.3639,
+            0.7876
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    },
+    {
+      "id": "ch06_ill_035",
+      "file": "ch06_ill_035.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 6.35",
+      "section_id": "ch06-q-p6-13",
+      "alt": "Figure 6.35: Problem P6-13",
+      "sources": [
+        "book Figure 6.35; p.184"
+      ],
+      "confidence": "high",
+      "width": 948,
+      "height": 383,
+      "sha256": "d1704c0fc0a52c69d77553e2d2c3482f2072c15d309474f0a2d2844f38c10f3d",
+      "description": "Figure 6.35: Problem P6-13. Problem P6-13 supplies three consecutive 16-bit slots entering a synchronous TDM demultiplexer; the task is to route each slot to its output stream in arrival order.",
+      "structure": "Problem P6-13 supplies three consecutive 16-bit slots entering a synchronous TDM demultiplexer; the task is to route each slot to its output stream in arrival order.",
+      "text_in_image": "1 0 1 0 0 0 0 0; 1 0 1 0 1 0 1 0 1 0 1 0 0 0 0 1; 0 1 1 1 0 0 0 0 0 1 1 1 1 0 0 0; TDM",
+      "use_when": "Teach ch06-q-p6-13, interpret Figure 6.35, compare multiplexing or spreading methods, or solve its linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "source_pdf_page": 30,
+      "source_bbox": [
+        135.56,
+        47.8,
+        451.32,
+        175.22
+      ],
+      "labels": [
+        {
+          "text": "1 0 1 0 0 0 0 0",
+          "bbox": [
+            0.1598,
+            0.4471,
+            0.279,
+            0.5053
+          ]
+        },
+        {
+          "text": "1 0 1 0 1 0 1 0 1 0 1 0 0 0 0 1",
+          "bbox": [
+            0.2999,
+            0.4471,
+            0.543,
+            0.5053
+          ]
+        },
+        {
+          "text": "0 1 1 1 0 0 0 0 0 1 1 1 1 0 0 0",
+          "bbox": [
+            0.5641,
+            0.4471,
+            0.8072,
+            0.5053
+          ]
+        },
+        {
+          "text": "TDM",
+          "bbox": [
+            0.8436,
+            0.537,
+            0.9027,
+            0.5998
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed_without_pdf_annotations",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:18:09+00:00"
+      }
+    }
+  ]
+}
