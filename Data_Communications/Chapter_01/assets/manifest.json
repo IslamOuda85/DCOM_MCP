@@ -1,0 +1,2407 @@
+{
+  "chapter": 1,
+  "spec_version": "1.1-controller",
+  "generated_at": "2026-10-06T21:41:30+00:00",
+  "assets": [
+    {
+      "id": "ch01_ill_001",
+      "file": "ch01_ill_001.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 1.1",
+      "section_id": "ch01-1-1-1",
+      "alt": "Figure 1.1: Five components of data communication",
+      "sources": [
+        "book Figure 1.1; p.4"
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 329,
+      "sha256": "6e56aaba3d5f15f86ad67748053636ed3e66ed356a01f768cc1331fe2785f4d0",
+      "data_file": null,
+      "description": "Figure 1.1: Five components of data communication. Sender at left and receiver at right share a transmission medium. A message arrow points left to right. Each endpoint has a protocol rule list (Rule 1, Rule 2, through Rule n); the five components are message, sender, receiver, medium, and protocol.",
+      "text_in_image": "Rule 1:; Rule 1:; Rule 2:; Rule 2:; Protocol; Protocol; ...; ...; Rule n:; Rule n:; Message; Sender; Receiver; Transmission medium",
+      "use_when": "Teach ch01-1-1-1, explain Figure 1.1, or solve its linked practice questions.",
+      "structure": "Sender at left and receiver at right share a transmission medium. A message arrow points left to right. Each endpoint has a protocol rule list (Rule 1, Rule 2, through Rule n); the five components are message, sender, receiver, medium, and protocol.",
+      "source_pdf_page": 4,
+      "source_bbox": [
+        100.64,
+        420.4,
+        452.64,
+        529.82
+      ],
+      "labels": [
+        {
+          "text": "Rule 1:",
+          "bbox": [
+            0.1616,
+            0.2858,
+            0.2226,
+            0.3521
+          ]
+        },
+        {
+          "text": "Rule 1:",
+          "bbox": [
+            0.7999,
+            0.2858,
+            0.8609,
+            0.3521
+          ]
+        },
+        {
+          "text": "Rule 2:",
+          "bbox": [
+            0.1616,
+            0.3667,
+            0.2226,
+            0.433
+          ]
+        },
+        {
+          "text": "Rule 2:",
+          "bbox": [
+            0.7999,
+            0.3667,
+            0.8609,
+            0.433
+          ]
+        },
+        {
+          "text": "Protocol",
+          "bbox": [
+            0.2409,
+            0.4099,
+            0.3117,
+            0.4762
+          ]
+        },
+        {
+          "text": "Protocol",
+          "bbox": [
+            0.7081,
+            0.4099,
+            0.7789,
+            0.4762
+          ]
+        },
+        {
+          "text": "...",
+          "bbox": [
+            0.1616,
+            0.4475,
+            0.1772,
+            0.5138
+          ]
+        },
+        {
+          "text": "...",
+          "bbox": [
+            0.7999,
+            0.4475,
+            0.8156,
+            0.5138
+          ]
+        },
+        {
+          "text": "Rule n:",
+          "bbox": [
+            0.1616,
+            0.5284,
+            0.223,
+            0.5947
+          ]
+        },
+        {
+          "text": "Rule n:",
+          "bbox": [
+            0.7999,
+            0.5284,
+            0.8613,
+            0.5947
+          ]
+        },
+        {
+          "text": "Message",
+          "bbox": [
+            0.4717,
+            0.5698,
+            0.5448,
+            0.6361
+          ]
+        },
+        {
+          "text": "Sender",
+          "bbox": [
+            0.1501,
+            0.7401,
+            0.2082,
+            0.8064
+          ]
+        },
+        {
+          "text": "Receiver",
+          "bbox": [
+            0.782,
+            0.7429,
+            0.8555,
+            0.8092
+          ]
+        },
+        {
+          "text": "Transmission medium",
+          "bbox": [
+            0.4154,
+            0.7767,
+            0.6011,
+            0.843
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-06T21:51:11+00:00"
+      }
+    },
+    {
+      "id": "ch01_ill_002",
+      "file": "ch01_ill_002.png",
+      "type": "illustration",
+      "kind": "flow",
+      "render": true,
+      "orig_label": "Figure 1.2",
+      "section_id": "ch01-1-1-3",
+      "alt": "Figure 1.2: Data flow (simplex, half-duplex, and full-duplex)",
+      "sources": [
+        "book Figure 1.2; p.6"
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 569,
+      "sha256": "1c10e60ddc4e0ce964f6730775895e9c211083cd9ae823e4a57131083d887873",
+      "data_file": null,
+      "description": "Figure 1.2: Data flow (simplex, half-duplex, and full-duplex). Three panels: (a) simplex has one rightward data arrow from mainframe to monitor; (b) half-duplex has a rightward arrow at time 1 and a leftward arrow at time 2; (c) full-duplex has opposing data arrows available all the time.",
+      "text_in_image": "Direction of data; a. Simplex; Mainframe; Monitor; Direction of data at time 1; Direction of data at time 2; b. Half-duplex; Direction of data all the time; c. Full-duplex",
+      "use_when": "Teach ch01-1-1-3, explain Figure 1.2, or solve its linked practice questions.",
+      "structure": "Three panels: (a) simplex has one rightward data arrow from mainframe to monitor; (b) half-duplex has a rightward arrow at time 1 and a leftward arrow at time 2; (c) full-duplex has opposing data arrows available all the time.",
+      "source_pdf_page": 6,
+      "source_bbox": [
+        100.64,
+        283.9,
+        452.64,
+        473.06
+      ],
+      "labels": [
+        {
+          "text": "Direction of data",
+          "bbox": [
+            0.4274,
+            0.1738,
+            0.5814,
+            0.2161
+          ]
+        },
+        {
+          "text": "a. Simplex",
+          "bbox": [
+            0.4538,
+            0.2898,
+            0.5628,
+            0.3374
+          ]
+        },
+        {
+          "text": "Mainframe",
+          "bbox": [
+            0.1653,
+            0.3099,
+            0.2663,
+            0.3522
+          ]
+        },
+        {
+          "text": "Monitor",
+          "bbox": [
+            0.7586,
+            0.3099,
+            0.8331,
+            0.3522
+          ]
+        },
+        {
+          "text": "Direction of data at time 1",
+          "bbox": [
+            0.257,
+            0.4456,
+            0.4962,
+            0.4879
+          ]
+        },
+        {
+          "text": "Direction of data at time 2",
+          "bbox": [
+            0.5183,
+            0.5733,
+            0.7576,
+            0.6156
+          ]
+        },
+        {
+          "text": "b. Half-duplex",
+          "bbox": [
+            0.4344,
+            0.6238,
+            0.5822,
+            0.6714
+          ]
+        },
+        {
+          "text": "Direction of data all the time",
+          "bbox": [
+            0.3734,
+            0.7755,
+            0.6354,
+            0.8178
+          ]
+        },
+        {
+          "text": "c. Full-duplex",
+          "bbox": [
+            0.4367,
+            0.9095,
+            0.5798,
+            0.9571
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-06T21:51:11+00:00"
+      }
+    },
+    {
+      "id": "ch01_ill_003",
+      "file": "ch01_ill_003.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 1.3",
+      "section_id": "ch01-1-2-2-multipoint",
+      "alt": "Figure 1.3: Types of connections: point-to-point and multipoint",
+      "sources": [
+        "book Figure 1.3; p.9"
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1053,
+      "height": 456,
+      "sha256": "9b5190f69edc4ad67c7a9be7de82bb455afb8191acdfce66894dc71fa875a879",
+      "data_file": null,
+      "description": "Figure 1.3: Types of connections: point-to-point and multipoint. Panel (a) connects exactly two laptops with one dedicated link. Panel (b) connects a mainframe and multiple computers to the same horizontal shared link.",
+      "text_in_image": "Link; a. Point-to-point; Link; Mainframe; b. Multipoint",
+      "use_when": "Teach ch01-1-2-2-multipoint, explain Figure 1.3, or solve its linked practice questions.",
+      "structure": "Panel (a) connects exactly two laptops with one dedicated link. Panel (b) connects a mainframe and multiple computers to the same horizontal shared link.",
+      "source_pdf_page": 9,
+      "source_bbox": [
+        115.34,
+        48.52,
+        466.32,
+        200.18
+      ],
+      "labels": [
+        {
+          "text": "Link",
+          "bbox": [
+            0.4866,
+            0.2252,
+            0.5296,
+            0.2779
+          ]
+        },
+        {
+          "text": "a. Point-to-point",
+          "bbox": [
+            0.4212,
+            0.3493,
+            0.5893,
+            0.4087
+          ]
+        },
+        {
+          "text": "Link",
+          "bbox": [
+            0.3739,
+            0.677,
+            0.417,
+            0.7298
+          ]
+        },
+        {
+          "text": "Mainframe",
+          "bbox": [
+            0.1655,
+            0.8097,
+            0.2668,
+            0.8624
+          ]
+        },
+        {
+          "text": "b. Multipoint",
+          "bbox": [
+            0.4153,
+            0.8653,
+            0.5496,
+            0.9246
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-06T21:51:11+00:00"
+      }
+    },
+    {
+      "id": "ch01_ill_004",
+      "file": "ch01_ill_004.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 1.4",
+      "section_id": "ch01-1-2-2-mesh-topology",
+      "alt": "Figure 1.4: A fully connected mesh topology (five devices)",
+      "sources": [
+        "book Figure 1.4; p.10"
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1054,
+      "height": 481,
+      "sha256": "e7aa2ff3be8ac2fbda0da7b2e6bc1b6ba695802aa601f22e0e2273fc3c3817ec",
+      "data_file": null,
+      "description": "Figure 1.4: A fully connected mesh topology (five devices). Five computers form a complete mesh. Every computer has a direct link to the other four; the diagram explicitly labels n = 5 and 10 links.",
+      "text_in_image": "n = 5; 10 links.",
+      "use_when": "Teach ch01-1-2-2-mesh-topology, explain Figure 1.4, or solve its linked practice questions.",
+      "structure": "Five computers form a complete mesh. Every computer has a direct link to the other four; the diagram explicitly labels n = 5 and 10 links.",
+      "source_pdf_page": 10,
+      "source_bbox": [
+        101.66,
+        48.52,
+        452.64,
+        208.46
+      ],
+      "labels": [
+        {
+          "text": "n = 5",
+          "bbox": [
+            0.2352,
+            0.2308,
+            0.2823,
+            0.2908
+          ]
+        },
+        {
+          "text": "10 links.",
+          "bbox": [
+            0.2352,
+            0.2808,
+            0.3137,
+            0.3308
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-06T21:51:11+00:00"
+      }
+    },
+    {
+      "id": "ch01_ill_005",
+      "file": "ch01_ill_005.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 1.5",
+      "section_id": "ch01-1-2-2-star-topology",
+      "alt": "Figure 1.5: A star topology connecting four stations",
+      "sources": [
+        "book Figure 1.5; p.10"
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 323,
+      "sha256": "8966e689daebc80b357fae797b2a95a94c15a65b43c58c221e0970cb2d7327e5",
+      "data_file": null,
+      "description": "Figure 1.5: A star topology connecting four stations. A central hub has four separate spokes, each ending at one station. There are no direct station-to-station links.",
+      "text_in_image": "Hub",
+      "use_when": "Teach ch01-1-2-2-star-topology, explain Figure 1.5, or solve its linked practice questions.",
+      "structure": "A central hub has four separate spokes, each ending at one station. There are no direct station-to-station links.",
+      "source_pdf_page": 10,
+      "source_bbox": [
+        100.64,
+        449.32,
+        452.64,
+        556.4
+      ],
+      "labels": [
+        {
+          "text": "Hub",
+          "bbox": [
+            0.4655,
+            0.2871,
+            0.5046,
+            0.3618
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-06T21:51:11+00:00"
+      }
+    },
+    {
+      "id": "ch01_ill_006",
+      "file": "ch01_ill_006.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 1.6",
+      "section_id": "ch01-1-2-2-bus-topology",
+      "alt": "Figure 1.6: A bus topology connecting three stations",
+      "sources": [
+        "book Figure 1.6; p.11"
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 272,
+      "sha256": "aecc3af8eaab55ea8e0b8d3033c5474a4383da0ae1457ed1d2b1bedfa75976de",
+      "data_file": null,
+      "description": "Figure 1.6: A bus topology connecting three stations. One horizontal bus cable terminates at a cable end on each side. Three stations connect to the bus through separate drop lines and taps.",
+      "text_in_image": "Drop line; Drop line; Drop line; Cable end; Cable end; Tap; Tap; Tap",
+      "use_when": "Teach ch01-1-2-2-bus-topology, explain Figure 1.6, or solve its linked practice questions.",
+      "structure": "One horizontal bus cable terminates at a cable end on each side. Three stations connect to the bus through separate drop lines and taps.",
+      "source_pdf_page": 11,
+      "source_bbox": [
+        114.32,
+        273.88,
+        466.32,
+        364.28
+      ],
+      "labels": [
+        {
+          "text": "Drop line",
+          "bbox": [
+            0.3282,
+            0.6,
+            0.4147,
+            0.6885
+          ]
+        },
+        {
+          "text": "Drop line",
+          "bbox": [
+            0.5098,
+            0.6,
+            0.5963,
+            0.6885
+          ]
+        },
+        {
+          "text": "Drop line",
+          "bbox": [
+            0.6914,
+            0.6,
+            0.7778,
+            0.6885
+          ]
+        },
+        {
+          "text": "Cable end",
+          "bbox": [
+            0.0901,
+            0.6992,
+            0.1816,
+            0.7877
+          ]
+        },
+        {
+          "text": "Cable end",
+          "bbox": [
+            0.8242,
+            0.6992,
+            0.9158,
+            0.7877
+          ]
+        },
+        {
+          "text": "Tap",
+          "bbox": [
+            0.3016,
+            0.7901,
+            0.3351,
+            0.8786
+          ]
+        },
+        {
+          "text": "Tap",
+          "bbox": [
+            0.4835,
+            0.7901,
+            0.517,
+            0.8786
+          ]
+        },
+        {
+          "text": "Tap",
+          "bbox": [
+            0.6654,
+            0.7901,
+            0.6989,
+            0.8786
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-06T21:51:11+00:00"
+      }
+    },
+    {
+      "id": "ch01_ill_007",
+      "file": "ch01_ill_007.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 1.7",
+      "section_id": "ch01-1-2-2-ring-topology",
+      "alt": "Figure 1.7: A ring topology connecting six stations",
+      "sources": [
+        "book Figure 1.7; p.12"
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 434,
+      "sha256": "5fe7f596fcefc68eea865bf7fe332f5561023505b947fa52f2ca3732d009a263",
+      "data_file": null,
+      "description": "Figure 1.7: A ring topology connecting six stations. Six stations attach through six repeaters placed around one closed ring. Each repeater connects to its two neighboring repeaters.",
+      "text_in_image": "Repeater; Repeater; Repeater; Repeater; Repeater; Repeater",
+      "use_when": "Teach ch01-1-2-2-ring-topology, explain Figure 1.7, or solve its linked practice questions.",
+      "structure": "Six stations attach through six repeaters placed around one closed ring. Each repeater connects to its two neighboring repeaters.",
+      "source_pdf_page": 12,
+      "source_bbox": [
+        100.64,
+        237.88,
+        452.64,
+        382.22
+      ],
+      "labels": [
+        {
+          "text": "Repeater",
+          "bbox": [
+            0.3304,
+            0.4852,
+            0.4112,
+            0.5406
+          ]
+        },
+        {
+          "text": "Repeater",
+          "bbox": [
+            0.5853,
+            0.4852,
+            0.6661,
+            0.5406
+          ]
+        },
+        {
+          "text": "Repeater",
+          "bbox": [
+            0.7217,
+            0.5547,
+            0.8024,
+            0.6101
+          ]
+        },
+        {
+          "text": "Repeater",
+          "bbox": [
+            0.2004,
+            0.5651,
+            0.2812,
+            0.6205
+          ]
+        },
+        {
+          "text": "Repeater",
+          "bbox": [
+            0.3309,
+            0.6152,
+            0.4117,
+            0.6706
+          ]
+        },
+        {
+          "text": "Repeater",
+          "bbox": [
+            0.5852,
+            0.6152,
+            0.666,
+            0.6706
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-06T21:51:11+00:00"
+      }
+    },
+    {
+      "id": "ch01_ill_008",
+      "file": "ch01_ill_008.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 1.8",
+      "section_id": "ch01-1-3-1",
+      "alt": "Figure 1.8: An isolated LAN in the past and today",
+      "sources": [
+        "book Figure 1.8; p.13"
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 729,
+      "sha256": "2a61d3495ccc167948aa43965ec7639d8977825940935b880f01b8304cdc3a14",
+      "data_file": null,
+      "description": "Figure 1.8: An isolated LAN in the past and today. Panel (a) places eight hosts, Host 1 through Host 8, along one common cable with taps and cable ends. Panel (b) connects the same eight host labels separately to one switch. The legend identifies hosts, a switch, a cable tap, a cable end, the common cable, and an individual connection.",
+      "text_in_image": "Host 1; Host 2; Host 3; Host 4; Host 5; Host 6; Host 7; Host 8; a. LAN with a common cable (past); Legend; Host 1; Host 2; Host 3; Host 4; A host (of any type); A switch; A cable tap; A cable end; Switch; The common cable; A connection; Host 5; Host 6; Host 7; Host 8; b. LAN with a switch (today)",
+      "use_when": "Teach ch01-1-3-1, explain Figure 1.8, or solve its linked practice questions.",
+      "structure": "Panel (a) places eight hosts, Host 1 through Host 8, along one common cable with taps and cable ends. Panel (b) connects the same eight host labels separately to one switch. The legend identifies hosts, a switch, a cable tap, a cable end, the common cable, and an individual connection.",
+      "source_pdf_page": 13,
+      "source_bbox": [
+        114.32,
+        365.38,
+        466.32,
+        608.06
+      ],
+      "labels": [
+        {
+          "text": "Host 1",
+          "bbox": [
+            0.1344,
+            0.1461,
+            0.1919,
+            0.1774
+          ]
+        },
+        {
+          "text": "Host 2",
+          "bbox": [
+            0.2103,
+            0.1461,
+            0.2678,
+            0.1774
+          ]
+        },
+        {
+          "text": "Host 3",
+          "bbox": [
+            0.2862,
+            0.1461,
+            0.3437,
+            0.1774
+          ]
+        },
+        {
+          "text": "Host 4",
+          "bbox": [
+            0.3621,
+            0.1461,
+            0.4196,
+            0.1774
+          ]
+        },
+        {
+          "text": "Host 5",
+          "bbox": [
+            0.438,
+            0.1461,
+            0.4955,
+            0.1774
+          ]
+        },
+        {
+          "text": "Host 6",
+          "bbox": [
+            0.514,
+            0.1461,
+            0.5715,
+            0.1774
+          ]
+        },
+        {
+          "text": "Host 7",
+          "bbox": [
+            0.5899,
+            0.1461,
+            0.6474,
+            0.1774
+          ]
+        },
+        {
+          "text": "Host 8",
+          "bbox": [
+            0.6658,
+            0.1461,
+            0.7233,
+            0.1774
+          ]
+        },
+        {
+          "text": "a. LAN with a common cable (past)",
+          "bbox": [
+            0.2733,
+            0.3625,
+            0.5862,
+            0.3938
+          ]
+        },
+        {
+          "text": "Legend",
+          "bbox": [
+            0.6388,
+            0.4224,
+            0.7078,
+            0.4536
+          ]
+        },
+        {
+          "text": "Host 1",
+          "bbox": [
+            0.2492,
+            0.4713,
+            0.3068,
+            0.5025
+          ]
+        },
+        {
+          "text": "Host 2",
+          "bbox": [
+            0.3443,
+            0.4712,
+            0.4018,
+            0.5025
+          ]
+        },
+        {
+          "text": "Host 3",
+          "bbox": [
+            0.4393,
+            0.4712,
+            0.4968,
+            0.5025
+          ]
+        },
+        {
+          "text": "Host 4",
+          "bbox": [
+            0.5343,
+            0.4712,
+            0.5918,
+            0.5025
+          ]
+        },
+        {
+          "text": "A host (of any type)",
+          "bbox": [
+            0.7131,
+            0.4891,
+            0.8883,
+            0.5204
+          ]
+        },
+        {
+          "text": "A switch",
+          "bbox": [
+            0.7131,
+            0.5685,
+            0.7912,
+            0.5998
+          ]
+        },
+        {
+          "text": "A cable tap",
+          "bbox": [
+            0.7131,
+            0.629,
+            0.8124,
+            0.6603
+          ]
+        },
+        {
+          "text": "A cable end",
+          "bbox": [
+            0.7131,
+            0.6821,
+            0.8172,
+            0.7134
+          ]
+        },
+        {
+          "text": "Switch",
+          "bbox": [
+            0.1221,
+            0.718,
+            0.1826,
+            0.7493
+          ]
+        },
+        {
+          "text": "The common cable",
+          "bbox": [
+            0.7131,
+            0.7259,
+            0.8802,
+            0.7571
+          ]
+        },
+        {
+          "text": "A connection",
+          "bbox": [
+            0.7131,
+            0.7553,
+            0.8299,
+            0.7866
+          ]
+        },
+        {
+          "text": "Host 5",
+          "bbox": [
+            0.2492,
+            0.8011,
+            0.3068,
+            0.8324
+          ]
+        },
+        {
+          "text": "Host 6",
+          "bbox": [
+            0.3443,
+            0.8011,
+            0.4018,
+            0.8324
+          ]
+        },
+        {
+          "text": "Host 7",
+          "bbox": [
+            0.4393,
+            0.8011,
+            0.4968,
+            0.8324
+          ]
+        },
+        {
+          "text": "Host 8",
+          "bbox": [
+            0.5343,
+            0.8011,
+            0.5918,
+            0.8324
+          ]
+        },
+        {
+          "text": "b. LAN with a switch (today)",
+          "bbox": [
+            0.2276,
+            0.8663,
+            0.4833,
+            0.8976
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-06T21:51:11+00:00"
+      }
+    },
+    {
+      "id": "ch01_ill_009",
+      "file": "ch01_ill_009.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 1.9",
+      "section_id": "ch01-1-3-2-point-to-point-wan",
+      "alt": "Figure 1.9: A point-to-point WAN",
+      "sources": [
+        "book Figure 1.9; p.14"
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 276,
+      "sha256": "4606a73e2b82b878593e54b2e6f3b1e15a0af77db90d53e14f9d6da584fcf47a",
+      "data_file": null,
+      "description": "Figure 1.9: A point-to-point WAN. Two connecting devices are joined by a single connecting medium, with each device leading outward to another network. The legend distinguishes the connecting device from the medium.",
+      "text_in_image": "A connecting device; Legend; Connecting medium; To another; To another; network; network",
+      "use_when": "Teach ch01-1-3-2-point-to-point-wan, explain Figure 1.9, or solve its linked practice questions.",
+      "structure": "Two connecting devices are joined by a single connecting medium, with each device leading outward to another network. The legend distinguishes the connecting device from the medium.",
+      "source_pdf_page": 14,
+      "source_bbox": [
+        100.64,
+        299.92,
+        452.64,
+        391.4
+      ],
+      "labels": [
+        {
+          "text": "A connecting device",
+          "bbox": [
+            0.4701,
+            0.3378,
+            0.6485,
+            0.4184
+          ]
+        },
+        {
+          "text": "Legend",
+          "bbox": [
+            0.3227,
+            0.4061,
+            0.3917,
+            0.4868
+          ]
+        },
+        {
+          "text": "Connecting medium",
+          "bbox": [
+            0.4701,
+            0.4325,
+            0.6473,
+            0.5131
+          ]
+        },
+        {
+          "text": "To another",
+          "bbox": [
+            0.0991,
+            0.6442,
+            0.1922,
+            0.7249
+          ]
+        },
+        {
+          "text": "To another",
+          "bbox": [
+            0.7737,
+            0.6442,
+            0.8668,
+            0.7249
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.1101,
+            0.7316,
+            0.1812,
+            0.8123
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.7847,
+            0.7316,
+            0.8558,
+            0.8123
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-06T21:51:11+00:00"
+      }
+    },
+    {
+      "id": "ch01_ill_010",
+      "file": "ch01_ill_010.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 1.10",
+      "section_id": "ch01-1-3-2-switched-wan",
+      "alt": "Figure 1.10: A switched WAN",
+      "sources": [
+        "book Figure 1.10; p.14"
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 436,
+      "sha256": "1ac6fc99bc8943a9c20d0916ac16ff931c4589c5e3306300284b8d8ea1c6537d",
+      "data_file": null,
+      "description": "Figure 1.10: A switched WAN. Four switches form a rectangular switched WAN with horizontal and vertical connecting media. Each switch also has an outward link labeled To another network. The legend identifies a switch and a connecting medium.",
+      "text_in_image": "To another; To another; network; network; To another; To another; Legend; network; network; A switch; Connecting medium; To another; To another; network; network; To another; To another; network; network",
+      "use_when": "Teach ch01-1-3-2-switched-wan, explain Figure 1.10, or solve its linked practice questions.",
+      "structure": "Four switches form a rectangular switched WAN with horizontal and vertical connecting media. Each switch also has an outward link labeled To another network. The legend identifies a switch and a connecting medium.",
+      "source_pdf_page": 14,
+      "source_bbox": [
+        100.64,
+        469.24,
+        452.64,
+        614.0
+      ],
+      "labels": [
+        {
+          "text": "To another",
+          "bbox": [
+            0.4676,
+            0.1989,
+            0.5649,
+            0.2531
+          ]
+        },
+        {
+          "text": "To another",
+          "bbox": [
+            0.74,
+            0.1989,
+            0.8373,
+            0.2531
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.4791,
+            0.2586,
+            0.5534,
+            0.3128
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.7515,
+            0.2586,
+            0.8258,
+            0.3128
+          ]
+        },
+        {
+          "text": "To another",
+          "bbox": [
+            0.3468,
+            0.3382,
+            0.4441,
+            0.3924
+          ]
+        },
+        {
+          "text": "To another",
+          "bbox": [
+            0.8557,
+            0.3382,
+            0.953,
+            0.3924
+          ]
+        },
+        {
+          "text": "Legend",
+          "bbox": [
+            0.0591,
+            0.3929,
+            0.1311,
+            0.4471
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.3583,
+            0.3979,
+            0.4325,
+            0.4521
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.8672,
+            0.3979,
+            0.9415,
+            0.4521
+          ]
+        },
+        {
+          "text": "A switch",
+          "bbox": [
+            0.1219,
+            0.4702,
+            0.2033,
+            0.5244
+          ]
+        },
+        {
+          "text": "Connecting medium",
+          "bbox": [
+            0.1205,
+            0.5432,
+            0.3054,
+            0.5973
+          ]
+        },
+        {
+          "text": "To another",
+          "bbox": [
+            0.3468,
+            0.621,
+            0.4441,
+            0.6752
+          ]
+        },
+        {
+          "text": "To another",
+          "bbox": [
+            0.8557,
+            0.621,
+            0.953,
+            0.6752
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.3583,
+            0.6807,
+            0.4325,
+            0.7349
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.8672,
+            0.6807,
+            0.9415,
+            0.7349
+          ]
+        },
+        {
+          "text": "To another",
+          "bbox": [
+            0.4676,
+            0.7888,
+            0.5649,
+            0.8429
+          ]
+        },
+        {
+          "text": "To another",
+          "bbox": [
+            0.74,
+            0.7888,
+            0.8373,
+            0.8429
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.4791,
+            0.8485,
+            0.5534,
+            0.9027
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.7515,
+            0.8485,
+            0.8257,
+            0.9027
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-06T21:51:11+00:00"
+      }
+    },
+    {
+      "id": "ch01_ill_011",
+      "file": "ch01_ill_011.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 1.11",
+      "section_id": "ch01-1-3-2-internetwork",
+      "alt": "Figure 1.11: An internetwork made of two LANs and one point-to-point WAN",
+      "sources": [
+        "book Figure 1.11; p.15"
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 351,
+      "sha256": "1a5036045c1d944a60b1549ed5b5da3981ae8c82ba6200f144bbaaa74dda8063",
+      "data_file": null,
+      "description": "Figure 1.11: An internetwork made of two LANs and one point-to-point WAN. A west-coast office LAN connects to router R1. A point-to-point WAN connects R1 to R2. Router R2 connects to an east-coast office LAN; the two LANs and the WAN form one internetwork.",
+      "text_in_image": "Point-to-point; R1; R2; WAN; Router; Router; LAN; LAN; West coast office; East coast office",
+      "use_when": "Teach ch01-1-3-2-internetwork, explain Figure 1.11, or solve its linked practice questions.",
+      "structure": "A west-coast office LAN connects to router R1. A point-to-point WAN connects R1 to R2. Router R2 connects to an east-coast office LAN; the two LANs and the WAN form one internetwork.",
+      "source_pdf_page": 15,
+      "source_bbox": [
+        114.32,
+        212.86,
+        466.32,
+        329.48
+      ],
+      "labels": [
+        {
+          "text": "Point-to-point",
+          "bbox": [
+            0.4323,
+            0.4055,
+            0.5655,
+            0.4741
+          ]
+        },
+        {
+          "text": "R1",
+          "bbox": [
+            0.3754,
+            0.4493,
+            0.402,
+            0.5179
+          ]
+        },
+        {
+          "text": "R2",
+          "bbox": [
+            0.5958,
+            0.4493,
+            0.6223,
+            0.5179
+          ]
+        },
+        {
+          "text": "WAN",
+          "bbox": [
+            0.4731,
+            0.4827,
+            0.5247,
+            0.5513
+          ]
+        },
+        {
+          "text": "Router",
+          "bbox": [
+            0.3577,
+            0.6187,
+            0.4196,
+            0.6873
+          ]
+        },
+        {
+          "text": "Router",
+          "bbox": [
+            0.5781,
+            0.6187,
+            0.6399,
+            0.6873
+          ]
+        },
+        {
+          "text": "LAN",
+          "bbox": [
+            0.9406,
+            0.6272,
+            0.9873,
+            0.6958
+          ]
+        },
+        {
+          "text": "LAN",
+          "bbox": [
+            0.0195,
+            0.6491,
+            0.0662,
+            0.7177
+          ]
+        },
+        {
+          "text": "West coast office",
+          "bbox": [
+            0.0969,
+            0.7683,
+            0.251,
+            0.837
+          ]
+        },
+        {
+          "text": "East coast office",
+          "bbox": [
+            0.7518,
+            0.7683,
+            0.9002,
+            0.837
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-06T21:51:11+00:00"
+      }
+    },
+    {
+      "id": "ch01_ill_012",
+      "file": "ch01_ill_012.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 1.12",
+      "section_id": "ch01-1-3-3-circuit-switched-network",
+      "alt": "Figure 1.12: A heterogeneous network made of four WANs and three LANs",
+      "sources": [
+        "book Figure 1.12; p.16"
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1054,
+      "height": 759,
+      "sha256": "7a6873f19c0734361102f0d45ba4efbb18a7ca2e1f038b3925a78f5b3027f63a",
+      "data_file": null,
+      "description": "Figure 1.12: A heterogeneous network made of four WANs and three LANs. A heterogeneous internetwork combines four WANs and three LANs. A resident reaches a switched WAN through two modems and a point-to-point WAN. Routers connect the switched WAN to two further point-to-point WANs leading to LANs. LANs contain a switch and hosts.",
+      "text_in_image": "Point-to-point; Modem; Modem; WAN; Resident; Switched WAN; Router; Point-to-point; WAN; Router; Router; Point-to-point; WAN; LAN; Router; LAN",
+      "use_when": "Teach ch01-1-3-3-circuit-switched-network, explain Figure 1.12, or solve its linked practice questions.",
+      "structure": "A heterogeneous internetwork combines four WANs and three LANs. A resident reaches a switched WAN through two modems and a point-to-point WAN. Routers connect the switched WAN to two further point-to-point WANs leading to LANs. LANs contain a switch and hosts.",
+      "source_pdf_page": 16,
+      "source_bbox": [
+        101.66,
+        48.52,
+        452.64,
+        301.16
+      ],
+      "labels": [
+        {
+          "text": "Point-to-point",
+          "bbox": [
+            0.4862,
+            0.1382,
+            0.6198,
+            0.1698
+          ]
+        },
+        {
+          "text": "Modem",
+          "bbox": [
+            0.3652,
+            0.1617,
+            0.4362,
+            0.1934
+          ]
+        },
+        {
+          "text": "Modem",
+          "bbox": [
+            0.6594,
+            0.1617,
+            0.7303,
+            0.1934
+          ]
+        },
+        {
+          "text": "WAN",
+          "bbox": [
+            0.5272,
+            0.1758,
+            0.5789,
+            0.2074
+          ]
+        },
+        {
+          "text": "Resident",
+          "bbox": [
+            0.7512,
+            0.2548,
+            0.8309,
+            0.2865
+          ]
+        },
+        {
+          "text": "Switched WAN",
+          "bbox": [
+            0.1571,
+            0.2851,
+            0.2986,
+            0.3168
+          ]
+        },
+        {
+          "text": "Router",
+          "bbox": [
+            0.7916,
+            0.3573,
+            0.8537,
+            0.389
+          ]
+        },
+        {
+          "text": "Point-to-point",
+          "bbox": [
+            0.776,
+            0.4165,
+            0.9096,
+            0.4482
+          ]
+        },
+        {
+          "text": "WAN",
+          "bbox": [
+            0.817,
+            0.4541,
+            0.8687,
+            0.4858
+          ]
+        },
+        {
+          "text": "Router",
+          "bbox": [
+            0.0904,
+            0.4882,
+            0.1525,
+            0.5199
+          ]
+        },
+        {
+          "text": "Router",
+          "bbox": [
+            0.8166,
+            0.5134,
+            0.8787,
+            0.545
+          ]
+        },
+        {
+          "text": "Point-to-point",
+          "bbox": [
+            0.2203,
+            0.5529,
+            0.354,
+            0.5845
+          ]
+        },
+        {
+          "text": "WAN",
+          "bbox": [
+            0.2613,
+            0.5905,
+            0.313,
+            0.6221
+          ]
+        },
+        {
+          "text": "LAN",
+          "bbox": [
+            0.8392,
+            0.5932,
+            0.886,
+            0.6249
+          ]
+        },
+        {
+          "text": "Router",
+          "bbox": [
+            0.1159,
+            0.6474,
+            0.1779,
+            0.6791
+          ]
+        },
+        {
+          "text": "LAN",
+          "bbox": [
+            0.4833,
+            0.8844,
+            0.5301,
+            0.916
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-06T21:51:11+00:00"
+      }
+    },
+    {
+      "id": "ch01_ill_013",
+      "file": "ch01_ill_013.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 1.13",
+      "section_id": "ch01-1-3-3-circuit-switched-network",
+      "alt": "Figure 1.13: A circuit-switched network",
+      "sources": [
+        "book Figure 1.13; p.16"
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 383,
+      "sha256": "a1de4fb3363f32a9f55272c162d45e8b47b110acbccc55eb7ca5997bcf575b50",
+      "data_file": null,
+      "description": "Figure 1.13: A circuit-switched network. Four telephone endpoints on each side connect to a local switch over low-capacity lines. The two switches are joined by one high-capacity line. The legend distinguishes thin low-capacity from thick high-capacity lines.",
+      "text_in_image": "Low-capacity line; High-capacity line; Switch; Switch",
+      "use_when": "Teach ch01-1-3-3-circuit-switched-network, explain Figure 1.13, or solve its linked practice questions.",
+      "structure": "Four telephone endpoints on each side connect to a local switch over low-capacity lines. The two switches are joined by one high-capacity line. The legend distinguishes thin low-capacity from thick high-capacity lines.",
+      "source_pdf_page": 16,
+      "source_bbox": [
+        100.64,
+        311.02,
+        452.64,
+        438.44
+      ],
+      "labels": [
+        {
+          "text": "Low-capacity line",
+          "bbox": [
+            0.4456,
+            0.3037,
+            0.6097,
+            0.3665
+          ]
+        },
+        {
+          "text": "High-capacity line",
+          "bbox": [
+            0.4456,
+            0.3708,
+            0.6141,
+            0.4336
+          ]
+        },
+        {
+          "text": "Switch",
+          "bbox": [
+            0.2868,
+            0.6173,
+            0.3499,
+            0.6801
+          ]
+        },
+        {
+          "text": "Switch",
+          "bbox": [
+            0.6476,
+            0.6173,
+            0.7107,
+            0.6801
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-06T21:51:11+00:00"
+      }
+    },
+    {
+      "id": "ch01_ill_014",
+      "file": "ch01_ill_014.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 1.14",
+      "section_id": "ch01-1-3-3-packet-switched-network",
+      "alt": "Figure 1.14: A packet-switched network",
+      "sources": [
+        "book Figure 1.14; p.17"
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 425,
+      "sha256": "750b8e81732b6cef89d02b7c1f38f8c4e571165fe518bdab6ce472e7a944e615",
+      "data_file": null,
+      "description": "Figure 1.14: A packet-switched network. Four computer endpoints on each side connect to a router through low-capacity links. A high-capacity link joins the routers. Queues and opposing packet arrows illustrate traffic buffered and forwarded through the routers.",
+      "text_in_image": "Low-capacity line; High-capacity line; Queue; Queue; Router; Router",
+      "use_when": "Teach ch01-1-3-3-packet-switched-network, explain Figure 1.14, or solve its linked practice questions.",
+      "structure": "Four computer endpoints on each side connect to a router through low-capacity links. A high-capacity link joins the routers. Queues and opposing packet arrows illustrate traffic buffered and forwarded through the routers.",
+      "source_pdf_page": 17,
+      "source_bbox": [
+        114.32,
+        156.88,
+        466.32,
+        298.28
+      ],
+      "labels": [
+        {
+          "text": "Low-capacity line",
+          "bbox": [
+            0.4517,
+            0.2633,
+            0.6159,
+            0.3199
+          ]
+        },
+        {
+          "text": "High-capacity line",
+          "bbox": [
+            0.4517,
+            0.3238,
+            0.6202,
+            0.3804
+          ]
+        },
+        {
+          "text": "Queue",
+          "bbox": [
+            0.2978,
+            0.3792,
+            0.3572,
+            0.4358
+          ]
+        },
+        {
+          "text": "Queue",
+          "bbox": [
+            0.6601,
+            0.3824,
+            0.7194,
+            0.4389
+          ]
+        },
+        {
+          "text": "Router",
+          "bbox": [
+            0.2869,
+            0.6127,
+            0.3487,
+            0.6693
+          ]
+        },
+        {
+          "text": "Router",
+          "bbox": [
+            0.6543,
+            0.6127,
+            0.7162,
+            0.6693
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-06T21:51:11+00:00"
+      }
+    },
+    {
+      "id": "ch01_ill_015",
+      "file": "ch01_ill_015.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 1.15",
+      "section_id": "ch01-1-3-4",
+      "alt": "Figure 1.15: The Internet today",
+      "sources": [
+        "book Figure 1.15; p.18"
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1054,
+      "height": 782,
+      "sha256": "dea3b76261c5e266e0057fd15dafc4d2910b9efcb31dcac9b9f785bcad19a308",
+      "data_file": null,
+      "description": "Figure 1.15: The Internet today. Customer networks connect to provider networks. Multiple provider networks connect to overlapping backbone networks in the center. Peering points appear to the left and right of the backbone group; repeated customer and provider groups illustrate the larger Internet hierarchy.",
+      "text_in_image": "Customer; Customer; Customer; Customer; network; network; network; network; Provider; Provider; network; network; Peering; point; Peering; point; Backbones; Provider; Provider; Provider; network; network; network; Customer; Customer; Customer; Customer; Customer; Customer; network; network; network; network; network; network",
+      "use_when": "Teach ch01-1-3-4, explain Figure 1.15, or solve its linked practice questions.",
+      "structure": "Customer networks connect to provider networks. Multiple provider networks connect to overlapping backbone networks in the center. Peering points appear to the left and right of the backbone group; repeated customer and provider groups illustrate the larger Internet hierarchy.",
+      "source_pdf_page": 18,
+      "source_bbox": [
+        101.66,
+        48.52,
+        452.64,
+        308.84
+      ],
+      "labels": [
+        {
+          "text": "Customer",
+          "bbox": [
+            0.2534,
+            0.1525,
+            0.3477,
+            0.1832
+          ]
+        },
+        {
+          "text": "Customer",
+          "bbox": [
+            0.457,
+            0.1525,
+            0.5514,
+            0.1832
+          ]
+        },
+        {
+          "text": "Customer",
+          "bbox": [
+            0.6405,
+            0.1525,
+            0.7349,
+            0.1832
+          ]
+        },
+        {
+          "text": "Customer",
+          "bbox": [
+            0.8442,
+            0.1525,
+            0.9385,
+            0.1832
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.2633,
+            0.1871,
+            0.3378,
+            0.2178
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.4669,
+            0.1871,
+            0.5414,
+            0.2178
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.6504,
+            0.1871,
+            0.7249,
+            0.2178
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.8541,
+            0.1871,
+            0.9286,
+            0.2178
+          ]
+        },
+        {
+          "text": "Provider",
+          "bbox": [
+            0.3611,
+            0.2837,
+            0.4393,
+            0.3144
+          ]
+        },
+        {
+          "text": "Provider",
+          "bbox": [
+            0.7499,
+            0.2837,
+            0.8281,
+            0.3144
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.363,
+            0.3182,
+            0.4375,
+            0.349
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.7518,
+            0.3182,
+            0.8262,
+            0.349
+          ]
+        },
+        {
+          "text": "Peering",
+          "bbox": [
+            0.0741,
+            0.4552,
+            0.1438,
+            0.4859
+          ]
+        },
+        {
+          "text": "point",
+          "bbox": [
+            0.0855,
+            0.4898,
+            0.1324,
+            0.5205
+          ]
+        },
+        {
+          "text": "Peering",
+          "bbox": [
+            0.895,
+            0.5009,
+            0.9647,
+            0.5317
+          ]
+        },
+        {
+          "text": "point",
+          "bbox": [
+            0.9064,
+            0.5355,
+            0.9533,
+            0.5662
+          ]
+        },
+        {
+          "text": "Backbones",
+          "bbox": [
+            0.4497,
+            0.5688,
+            0.5497,
+            0.5996
+          ]
+        },
+        {
+          "text": "Provider",
+          "bbox": [
+            0.1337,
+            0.707,
+            0.2118,
+            0.7378
+          ]
+        },
+        {
+          "text": "Provider",
+          "bbox": [
+            0.4594,
+            0.707,
+            0.5376,
+            0.7378
+          ]
+        },
+        {
+          "text": "Provider",
+          "bbox": [
+            0.7855,
+            0.707,
+            0.8637,
+            0.7378
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.1355,
+            0.7416,
+            0.21,
+            0.7723
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.4613,
+            0.7416,
+            0.5358,
+            0.7723
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.7874,
+            0.7416,
+            0.8618,
+            0.7723
+          ]
+        },
+        {
+          "text": "Customer",
+          "bbox": [
+            0.0204,
+            0.8453,
+            0.1148,
+            0.876
+          ]
+        },
+        {
+          "text": "Customer",
+          "bbox": [
+            0.2087,
+            0.8453,
+            0.3031,
+            0.876
+          ]
+        },
+        {
+          "text": "Customer",
+          "bbox": [
+            0.3603,
+            0.8453,
+            0.4547,
+            0.876
+          ]
+        },
+        {
+          "text": "Customer",
+          "bbox": [
+            0.5486,
+            0.8453,
+            0.643,
+            0.876
+          ]
+        },
+        {
+          "text": "Customer",
+          "bbox": [
+            0.6898,
+            0.8453,
+            0.7842,
+            0.876
+          ]
+        },
+        {
+          "text": "Customer",
+          "bbox": [
+            0.8781,
+            0.8453,
+            0.9725,
+            0.876
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.0304,
+            0.8799,
+            0.1048,
+            0.9106
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.2187,
+            0.8799,
+            0.2932,
+            0.9106
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.3703,
+            0.8799,
+            0.4447,
+            0.9106
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.5586,
+            0.8799,
+            0.6331,
+            0.9106
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.6998,
+            0.8799,
+            0.7742,
+            0.9106
+          ]
+        },
+        {
+          "text": "network",
+          "bbox": [
+            0.8881,
+            0.8799,
+            0.9626,
+            0.9106
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-06T21:51:11+00:00"
+      }
+    },
+    {
+      "id": "ch01_ill_016",
+      "file": "ch01_ill_016.png",
+      "type": "illustration",
+      "kind": "flow",
+      "render": true,
+      "orig_label": "Figure 1.16",
+      "section_id": "ch01-1-5-1-maturity-levels",
+      "alt": "Figure 1.16: Maturity levels of an RFC",
+      "sources": [
+        "book Figure 1.16; p.23"
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1053,
+      "height": 606,
+      "sha256": "72ab3971993e91a6c292c8ce9717bae18563db649a6fb6fa0d86426b9abaeb3b",
+      "data_file": null,
+      "description": "Figure 1.16: Maturity levels of an RFC. Internet draft is at the top. A central downward progression passes through proposed standard, draft standard, and Internet standard, with labels Six months and two tries and Four months and two tries. Experimental and informational branches appear on the sides, and historic is at the bottom. This is the maturity model shown in the 2013 textbook.",
+      "text_in_image": "Internet draft; Proposed standard; Experimental; Informational; Six months and two tries; Draft standard; Four months and two tries; Internet standard; Historic",
+      "use_when": "Teach ch01-1-5-1-maturity-levels, explain Figure 1.16, or solve its linked practice questions.",
+      "structure": "Internet draft is at the top. A central downward progression passes through proposed standard, draft standard, and Internet standard, with labels Six months and two tries and Four months and two tries. Experimental and informational branches appear on the sides, and historic is at the bottom. This is the maturity model shown in the 2013 textbook.",
+      "source_pdf_page": 23,
+      "source_bbox": [
+        115.34,
+        48.52,
+        466.32,
+        250.28
+      ],
+      "labels": [
+        {
+          "text": "Internet draft",
+          "bbox": [
+            0.4302,
+            0.2018,
+            0.5647,
+            0.2415
+          ]
+        },
+        {
+          "text": "Proposed standard",
+          "bbox": [
+            0.4113,
+            0.3594,
+            0.5791,
+            0.399
+          ]
+        },
+        {
+          "text": "Experimental",
+          "bbox": [
+            0.1233,
+            0.3687,
+            0.2562,
+            0.4084
+          ]
+        },
+        {
+          "text": "Informational",
+          "bbox": [
+            0.7364,
+            0.3687,
+            0.8726,
+            0.4084
+          ]
+        },
+        {
+          "text": "Six months and two tries",
+          "bbox": [
+            0.505,
+            0.4431,
+            0.7371,
+            0.4828
+          ]
+        },
+        {
+          "text": "Draft standard",
+          "bbox": [
+            0.4297,
+            0.5269,
+            0.5607,
+            0.5666
+          ]
+        },
+        {
+          "text": "Four months and two tries",
+          "bbox": [
+            0.505,
+            0.6123,
+            0.7495,
+            0.652
+          ]
+        },
+        {
+          "text": "Internet standard",
+          "bbox": [
+            0.409,
+            0.7045,
+            0.5815,
+            0.7441
+          ]
+        },
+        {
+          "text": "Historic",
+          "bbox": [
+            0.4585,
+            0.8621,
+            0.5319,
+            0.9017
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-06T21:51:11+00:00"
+      }
+    },
+    {
+      "id": "ch01_ill_017",
+      "file": "ch01_ill_017.png",
+      "type": "illustration",
+      "kind": "architecture_block",
+      "render": true,
+      "orig_label": "Figure 1.17",
+      "section_id": "ch01-1-5-2",
+      "alt": "Figure 1.17: Internet administration",
+      "sources": [
+        "book Figure 1.17; p.24"
+      ],
+      "tier": "T5",
+      "confidence": "high",
+      "needs_review": false,
+      "width": 1057,
+      "height": 532,
+      "sha256": "5739ca140dae127d97ad2566de4a6e7dd622caaac98a4aa811f80b532cac479a",
+      "data_file": null,
+      "description": "Figure 1.17: Internet administration. ISOC is above IAB. IAB branches to IRTF on the left and IETF on the right. IRTF contains IRSG above research groups (RG). IETF contains IESG above areas, which in turn contain working groups (WG). Ellipses indicate additional groups and areas.",
+      "text_in_image": "ISOC; IAB; IRTF; IETF; IRSG; IESG; Area; Area; RG; RG; WG; WG; WG; WG; RG; RG",
+      "use_when": "Teach ch01-1-5-2, explain Figure 1.17, or solve its linked practice questions.",
+      "structure": "ISOC is above IAB. IAB branches to IRTF on the left and IETF on the right. IRTF contains IRSG above research groups (RG). IETF contains IESG above areas, which in turn contain working groups (WG). Ellipses indicate additional groups and areas.",
+      "source_pdf_page": 24,
+      "source_bbox": [
+        100.64,
+        234.88,
+        452.64,
+        411.74
+      ],
+      "labels": [
+        {
+          "text": "ISOC",
+          "bbox": [
+            0.4645,
+            0.2153,
+            0.534,
+            0.2718
+          ]
+        },
+        {
+          "text": "IAB",
+          "bbox": [
+            0.4728,
+            0.3599,
+            0.5234,
+            0.4165
+          ]
+        },
+        {
+          "text": "IRTF",
+          "bbox": [
+            0.1011,
+            0.5132,
+            0.149,
+            0.5584
+          ]
+        },
+        {
+          "text": "IETF",
+          "bbox": [
+            0.5317,
+            0.5132,
+            0.5796,
+            0.5584
+          ]
+        },
+        {
+          "text": "IRSG",
+          "bbox": [
+            0.2589,
+            0.5538,
+            0.3106,
+            0.599
+          ]
+        },
+        {
+          "text": "IESG",
+          "bbox": [
+            0.69,
+            0.5538,
+            0.7405,
+            0.599
+          ]
+        },
+        {
+          "text": "Area",
+          "bbox": [
+            0.5949,
+            0.6801,
+            0.639,
+            0.7253
+          ]
+        },
+        {
+          "text": "Area",
+          "bbox": [
+            0.7885,
+            0.6801,
+            0.8326,
+            0.7253
+          ]
+        },
+        {
+          "text": "RG",
+          "bbox": [
+            0.1821,
+            0.7924,
+            0.2137,
+            0.8377
+          ]
+        },
+        {
+          "text": "RG",
+          "bbox": [
+            0.3558,
+            0.7924,
+            0.3874,
+            0.8377
+          ]
+        },
+        {
+          "text": "WG",
+          "bbox": [
+            0.5521,
+            0.7924,
+            0.5899,
+            0.8376
+          ]
+        },
+        {
+          "text": "WG",
+          "bbox": [
+            0.6521,
+            0.7924,
+            0.6899,
+            0.8376
+          ]
+        },
+        {
+          "text": "WG",
+          "bbox": [
+            0.7379,
+            0.7924,
+            0.7757,
+            0.8376
+          ]
+        },
+        {
+          "text": "WG",
+          "bbox": [
+            0.8435,
+            0.7924,
+            0.8814,
+            0.8376
+          ]
+        },
+        {
+          "text": "RG",
+          "bbox": [
+            0.1864,
+            0.8008,
+            0.218,
+            0.846
+          ]
+        },
+        {
+          "text": "RG",
+          "bbox": [
+            0.3601,
+            0.8008,
+            0.3916,
+            0.846
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-06T21:51:11+00:00"
+      }
+    }
+  ]
+}

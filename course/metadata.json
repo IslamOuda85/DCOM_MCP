@@ -1,0 +1,26 @@
+{
+  "course_id": "data_communications",
+  "title": "Data Communications and Networking",
+  "textbook": "Behrouz A. Forouzan, Data Communications and Networking, 5th edition, 2013",
+  "repository": "https://github.com/IslamOuda85/DCOM_MCP",
+  "configured_chapters": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13],
+  "repair_order": [1, 2, 4, 5, 6, 7, 8, 9, 10, 12, 13, 3],
+  "source_authority": {"primary": "textbook PDF", "supporting": "slides"},
+  "release_policy": "Only chapters with completed source review, zero validation errors, and pinned file hashes are served.",
+  "retrieval": {"method": "BM25 with acronym aliases and source section hierarchy", "vector_embeddings": false},
+  "aliases": {
+    "crc": ["cyclic redundancy check"],
+    "mac": ["media access control"],
+    "tdm": ["time division multiplexing"],
+    "fdm": ["frequency division multiplexing"],
+    "wdm": ["wavelength division multiplexing"],
+    "pcm": ["pulse code modulation"],
+    "snr": ["signal noise ratio"],
+    "lan": ["local area network"],
+    "wan": ["wide area network"],
+    "osi": ["open systems interconnection"],
+    "csma": ["carrier sense multiple access"],
+    "cdma": ["code division multiple access"]
+  }
+}
+

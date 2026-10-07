@@ -1,0 +1,33 @@
+{
+  "chapter": 1,
+  "promoted_at": "2026-10-06T21:59:02+00:00",
+  "validation": {
+    "chapter": "Chapter_01",
+    "ready": true,
+    "errors": [],
+    "error_count": 0
+  },
+  "files": {
+    "content.md": "ca405c68d3dd15668e1350df17b2b1a1c27affffad55d767d53f743acb158dc6",
+    "data_card.md": "a34131240721cb847bc73b87d953bfcc3198d3cbb0da96d34d8953fc9ee34fb0",
+    "questions.md": "7bc58f611f2752d0c67818496d950d8ca2e82ba484f1f0ad0e12405252291e3d",
+    "assets/ch01_ill_001.png": "6e56aaba3d5f15f86ad67748053636ed3e66ed356a01f768cc1331fe2785f4d0",
+    "assets/ch01_ill_002.png": "1c10e60ddc4e0ce964f6730775895e9c211083cd9ae823e4a57131083d887873",
+    "assets/ch01_ill_003.png": "9b5190f69edc4ad67c7a9be7de82bb455afb8191acdfce66894dc71fa875a879",
+    "assets/ch01_ill_004.png": "e7aa2ff3be8ac2fbda0da7b2e6bc1b6ba695802aa601f22e0e2273fc3c3817ec",
+    "assets/ch01_ill_005.png": "8966e689daebc80b357fae797b2a95a94c15a65b43c58c221e0970cb2d7327e5",
+    "assets/ch01_ill_006.png": "aecc3af8eaab55ea8e0b8d3033c5474a4383da0ae1457ed1d2b1bedfa75976de",
+    "assets/ch01_ill_007.png": "5fe7f596fcefc68eea865bf7fe332f5561023505b947fa52f2ca3732d009a263",
+    "assets/ch01_ill_008.png": "2a61d3495ccc167948aa43965ec7639d8977825940935b880f01b8304cdc3a14",
+    "assets/ch01_ill_009.png": "4606a73e2b82b878593e54b2e6f3b1e15a0af77db90d53e14f9d6da584fcf47a",
+    "assets/ch01_ill_010.png": "1ac6fc99bc8943a9c20d0916ac16ff931c4589c5e3306300284b8d8ea1c6537d",
+    "assets/ch01_ill_011.png": "1a5036045c1d944a60b1549ed5b5da3981ae8c82ba6200f144bbaaa74dda8063",
+    "assets/ch01_ill_012.png": "7a6873f19c0734361102f0d45ba4efbb18a7ca2e1f038b3925a78f5b3027f63a",
+    "assets/ch01_ill_013.png": "a1de4fb3363f32a9f55272c162d45e8b47b110acbccc55eb7ca5997bcf575b50",
+    "assets/ch01_ill_014.png": "750b8e81732b6cef89d02b7c1f38f8c4e571165fe518bdab6ce472e7a944e615",
+    "assets/ch01_ill_015.png": "dea3b76261c5e266e0057fd15dafc4d2910b9efcb31dcac9b9f785bcad19a308",
+    "assets/ch01_ill_016.png": "72ab3971993e91a6c292c8ce9717bae18563db649a6fb6fa0d86426b9abaeb3b",
+    "assets/ch01_ill_017.png": "5739ca140dae127d97ad2566de4a6e7dd622caaac98a4aa811f80b532cac479a",
+    "assets/manifest.json": "6bd3223ceaa37b53054cc3521e8452942ce0b7c72e3d5f54bc7e2122360fcd86"
+  }
+}

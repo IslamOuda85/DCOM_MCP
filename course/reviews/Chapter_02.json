@@ -1,0 +1,28 @@
+{
+  "chapter": 2,
+  "promoted_at": "2026-10-07T03:00:49+00:00",
+  "validation": {
+    "chapter": "Chapter_02",
+    "ready": true,
+    "errors": [],
+    "error_count": 0
+  },
+  "files": {
+    "content.md": "94382a95d384fa2ed9346fb4610e6c73f7e5a1852cd0c1a81a6ff0534a0af053",
+    "data_card.md": "175a80e0230903e496954a3bc51c51bc14b47a80673242168ceb73ddd964ad5a",
+    "questions.md": "7fd952d8c4d1ed470b7b93c6e66ec611951f3c2445f6fdd448c1a5f756075157",
+    "assets/ch02_ill_001.png": "94c51ce100ce230e79732de6b259758dd17f3f1e9cf2f0feb6cc39410bf42a27",
+    "assets/ch02_ill_002.png": "909c470006f9dfd1801acf60166e235538a27007f1cebfbd8499c60cf004a1dc",
+    "assets/ch02_ill_003.png": "356e3ec0d6acaa29e5da1fb049bd47a3aa4b898506db1213b1d957a8e70ab5a1",
+    "assets/ch02_ill_004.png": "cad23d638542f207562aa0bd6cd1e641f5245e62abf74ed5244bc10827c0dd2e",
+    "assets/ch02_ill_005.png": "0ee90b9766d4e0695d21013e30162790cdeb58f3f82fdfb6c58dc501d0543f55",
+    "assets/ch02_ill_006.png": "66836ecb6993f7335ae11fe59acfe1820ce39019e784b7f1a0d82ec7543d0936",
+    "assets/ch02_ill_007.png": "66b9214b44b7fd6de46e8a839a1d63c1cb88342109b77126fdea6c0a56b7f16c",
+    "assets/ch02_ill_008.png": "cfd97645098ece6dfe190730dd74de59eb309259ecf2a6c6414a1d0a947dc250",
+    "assets/ch02_ill_009.png": "fe5aa5e34000ec2be688847829f5e36ddb2551929c3585f4af03121e25724f98",
+    "assets/ch02_ill_010.png": "1123d7ec70e7b127223c14e719100b516a4b6137a8f8e0fc661cae87b0c0f399",
+    "assets/ch02_ill_011.png": "e94c2b76e774e831479e80a113de6cf79fc4ee830ea8976e53d739ac12e14027",
+    "assets/ch02_ill_012.png": "f8ff07f1ebcd50fa75e25fde6003c0f527068485862e9f7e307a65e7a5472d0e",
+    "assets/manifest.json": "c860b720b2e6e5958ee18b0c20733f197a39c9e264e734349805aa93372a0fc1"
+  }
+}

@@ -1,0 +1,2136 @@
+{
+  "schema_version": 1,
+  "method": {
+    "method": "BM25 with acronym aliases and source section hierarchy",
+    "vector_embeddings": false
+  },
+  "aliases": {
+    "crc": [
+      "cyclic redundancy check"
+    ],
+    "mac": [
+      "media access control"
+    ],
+    "tdm": [
+      "time division multiplexing"
+    ],
+    "fdm": [
+      "frequency division multiplexing"
+    ],
+    "wdm": [
+      "wavelength division multiplexing"
+    ],
+    "pcm": [
+      "pulse code modulation"
+    ],
+    "snr": [
+      "signal noise ratio"
+    ],
+    "lan": [
+      "local area network"
+    ],
+    "wan": [
+      "wide area network"
+    ],
+    "osi": [
+      "open systems interconnection"
+    ],
+    "csma": [
+      "carrier sense multiple access"
+    ],
+    "cdma": [
+      "code division multiple access"
+    ]
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Introduction",
+      "key_terms": [
+        "Advanced Network Services Network (ANSNET)",
+        "Advanced Research Projects Agency (ARPA)",
+        "Advanced Research Projects Agency Network (ARPANET)",
+        "American Standard Code for Information Interchange (ASCII)",
+        "audio",
+        "backbone",
+        "Basic Latin",
+        "bus topology",
+        "circuit-switched network",
+        "code",
+        "Computer Science Network (CSNET)",
+        "data",
+        "data communications",
+        "delay",
+        "full-duplex mode",
+        "half-duplex mode",
+        "hub",
+        "image",
+        "internet",
+        "Internet",
+        "Internet Architecture Board (IAB)",
+        "Internet draft",
+        "Internet Engineering Task Force (IETF)",
+        "Internet Research Task Force (IRTF)",
+        "Internet Service Provider (ISP)",
+        "Internet Society (ISOC)",
+        "Internet standard",
+        "internetwork",
+        "local area network (LAN)",
+        "mesh topology",
+        "message",
+        "Military Network (MILNET)",
+        "multipoint or multidrop connection",
+        "National Science Foundation Network (NSFNET)",
+        "network",
+        "node",
+        "packet",
+        "packet-switched network",
+        "performance",
+        "physical topology",
+        "point-to-point connection",
+        "protocol",
+        "Request for Comment (RFC)",
+        "RGB",
+        "ring topology",
+        "simplex mode",
+        "star topology",
+        "switched network",
+        "TCP/IP protocol suite",
+        "telecommunication",
+        "throughput",
+        "Transmission Control Protocol/ Internet Protocol (TCP/IP)",
+        "transmission medium",
+        "Unicode",
+        "video",
+        "wide area network (WAN)",
+        "YCM"
+      ],
+      "prerequisites": []
+    },
+    {
+      "chapter": 2,
+      "title": "Network Models",
+      "key_terms": [
+        "International Organization for Standardization (ISO)",
+        "Open Systems Interconnection (OSI) model",
+        "protocol layering"
+      ],
+      "prerequisites": []
+    }
+  ],
+  "sections": [
+    {
+      "id": "ch01-0",
+      "chapter": 1,
+      "title": "Chapter Objectives",
+      "parent": null,
+      "children": [],
+      "source": "book p.3",
+      "kind": "objectives",
+      "asset_ids": [],
+      "terms": [
+        "chapter",
+        "objectives"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-1",
+      "chapter": 1,
+      "title": "1.1 DATA COMMUNICATIONS",
+      "parent": null,
+      "children": [
+        "ch01-1-1-1",
+        "ch01-1-1-2",
+        "ch01-1-1-3"
+      ],
+      "source": "book 1.1; p.4",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "communications",
+        "data"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-1-1",
+      "chapter": 1,
+      "title": "1.1.1 Components",
+      "parent": "ch01-1-1",
+      "children": [],
+      "source": "book 1.1.1; p.4",
+      "kind": "concept",
+      "asset_ids": [
+        "ch01_ill_001"
+      ],
+      "terms": [
+        "1",
+        "components"
+      ],
+      "question_ids": [
+        "ch01-q-q1-1",
+        "ch01-q-q1-11"
+      ]
+    },
+    {
+      "id": "ch01-1-1-2",
+      "chapter": 1,
+      "title": "1.1.2 Data Representation",
+      "parent": "ch01-1-1",
+      "children": [
+        "ch01-1-1-2-text",
+        "ch01-1-1-2-numbers",
+        "ch01-1-1-2-images",
+        "ch01-1-1-2-audio",
+        "ch01-1-1-2-video"
+      ],
+      "source": "book 1.1.2; p.5",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "2",
+        "data",
+        "representation"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-1-2-text",
+      "chapter": 1,
+      "title": "Text",
+      "parent": "ch01-1-1-2",
+      "children": [],
+      "source": "book 1.1.2; p.5",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "text"
+      ],
+      "question_ids": [
+        "ch01-q-p1-1"
+      ]
+    },
+    {
+      "id": "ch01-1-1-2-numbers",
+      "chapter": 1,
+      "title": "Numbers",
+      "parent": "ch01-1-1-2",
+      "children": [],
+      "source": "book 1.1.2; p.5",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "numbers"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-1-2-images",
+      "chapter": 1,
+      "title": "Images",
+      "parent": "ch01-1-1-2",
+      "children": [],
+      "source": "book 1.1.2; p.5",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "images"
+      ],
+      "question_ids": [
+        "ch01-q-p1-2"
+      ]
+    },
+    {
+      "id": "ch01-1-1-2-audio",
+      "chapter": 1,
+      "title": "Audio",
+      "parent": "ch01-1-1-2",
+      "children": [],
+      "source": "book 1.1.2; p.5",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "audio"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-1-2-video",
+      "chapter": 1,
+      "title": "Video",
+      "parent": "ch01-1-1-2",
+      "children": [],
+      "source": "book 1.1.2; p.5",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "video"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-1-3",
+      "chapter": 1,
+      "title": "1.1.3 Data Flow",
+      "parent": "ch01-1-1",
+      "children": [
+        "ch01-1-1-3-simplex",
+        "ch01-1-1-3-half-duplex",
+        "ch01-1-1-3-full-duplex"
+      ],
+      "source": "book 1.1.3; p.6",
+      "kind": "concept",
+      "asset_ids": [
+        "ch01_ill_002"
+      ],
+      "terms": [
+        "1",
+        "3",
+        "data",
+        "flow"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-1-3-simplex",
+      "chapter": 1,
+      "title": "Simplex",
+      "parent": "ch01-1-1-3",
+      "children": [],
+      "source": "book 1.1.3; p.6",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "simplex"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-1-3-half-duplex",
+      "chapter": 1,
+      "title": "Half-Duplex",
+      "parent": "ch01-1-1-3",
+      "children": [],
+      "source": "book 1.1.3; p.6",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "duplex",
+        "half"
+      ],
+      "question_ids": [
+        "ch01-q-q1-6"
+      ]
+    },
+    {
+      "id": "ch01-1-1-3-full-duplex",
+      "chapter": 1,
+      "title": "Full-Duplex",
+      "parent": "ch01-1-1-3",
+      "children": [],
+      "source": "book 1.1.3; p.6",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "duplex",
+        "full"
+      ],
+      "question_ids": [
+        "ch01-q-q1-6"
+      ]
+    },
+    {
+      "id": "ch01-1-2",
+      "chapter": 1,
+      "title": "1.2 NETWORKS",
+      "parent": null,
+      "children": [
+        "ch01-1-2-1",
+        "ch01-1-2-2"
+      ],
+      "source": "book 1.2; p.7",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "2",
+        "networks"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-2-1",
+      "chapter": 1,
+      "title": "1.2.1 Network Criteria",
+      "parent": "ch01-1-2",
+      "children": [
+        "ch01-1-2-1-performance",
+        "ch01-1-2-1-reliability",
+        "ch01-1-2-1-security"
+      ],
+      "source": "book 1.2.1; p.7",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "2",
+        "criteria",
+        "network"
+      ],
+      "question_ids": [
+        "ch01-q-q1-2"
+      ]
+    },
+    {
+      "id": "ch01-1-2-1-performance",
+      "chapter": 1,
+      "title": "Performance",
+      "parent": "ch01-1-2-1",
+      "children": [],
+      "source": "book 1.2.1; p.7",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "performance"
+      ],
+      "question_ids": [
+        "ch01-q-p1-8"
+      ]
+    },
+    {
+      "id": "ch01-1-2-1-reliability",
+      "chapter": 1,
+      "title": "Reliability",
+      "parent": "ch01-1-2-1",
+      "children": [],
+      "source": "book 1.2.1; p.7",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "reliability"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-2-1-security",
+      "chapter": 1,
+      "title": "Security",
+      "parent": "ch01-1-2-1",
+      "children": [],
+      "source": "book 1.2.1; p.7",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "security"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-2-2",
+      "chapter": 1,
+      "title": "1.2.2 Physical Structures",
+      "parent": "ch01-1-2",
+      "children": [
+        "ch01-1-2-2-type-of-connection",
+        "ch01-1-2-2-point-to-point",
+        "ch01-1-2-2-multipoint",
+        "ch01-1-2-2-physical-topology",
+        "ch01-1-2-2-mesh-topology",
+        "ch01-1-2-2-star-topology",
+        "ch01-1-2-2-bus-topology",
+        "ch01-1-2-2-ring-topology"
+      ],
+      "source": "book 1.2.2; p.8",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "2",
+        "physical",
+        "structures"
+      ],
+      "question_ids": [
+        "ch01-q-q1-5",
+        "ch01-q-q1-7",
+        "ch01-q-q1-8",
+        "ch01-q-p1-4"
+      ]
+    },
+    {
+      "id": "ch01-1-2-2-type-of-connection",
+      "chapter": 1,
+      "title": "Type of Connection",
+      "parent": "ch01-1-2-2",
+      "children": [],
+      "source": "book 1.2.2; p.8",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "connection",
+        "type"
+      ],
+      "question_ids": [
+        "ch01-q-q1-4"
+      ]
+    },
+    {
+      "id": "ch01-1-2-2-point-to-point",
+      "chapter": 1,
+      "title": "Point-to-Point",
+      "parent": "ch01-1-2-2",
+      "children": [],
+      "source": "book 1.2.2; p.8",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "point"
+      ],
+      "question_ids": [
+        "ch01-q-q1-3",
+        "ch01-q-p1-9"
+      ]
+    },
+    {
+      "id": "ch01-1-2-2-multipoint",
+      "chapter": 1,
+      "title": "Multipoint",
+      "parent": "ch01-1-2-2",
+      "children": [],
+      "source": "book 1.2.2; p.8",
+      "kind": "concept",
+      "asset_ids": [
+        "ch01_ill_003"
+      ],
+      "terms": [
+        "multipoint"
+      ],
+      "question_ids": [
+        "ch01-q-q1-3",
+        "ch01-q-p1-9"
+      ]
+    },
+    {
+      "id": "ch01-1-2-2-physical-topology",
+      "chapter": 1,
+      "title": "Physical Topology",
+      "parent": "ch01-1-2-2",
+      "children": [],
+      "source": "book 1.2.2; p.8",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "physical",
+        "topology"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-2-2-mesh-topology",
+      "chapter": 1,
+      "title": "Mesh Topology",
+      "parent": "ch01-1-2-2",
+      "children": [],
+      "source": "book 1.2.2; p.8",
+      "kind": "concept",
+      "asset_ids": [
+        "ch01_ill_004"
+      ],
+      "terms": [
+        "mesh",
+        "topology"
+      ],
+      "question_ids": [
+        "ch01-q-p1-3"
+      ]
+    },
+    {
+      "id": "ch01-1-2-2-star-topology",
+      "chapter": 1,
+      "title": "Star Topology",
+      "parent": "ch01-1-2-2",
+      "children": [],
+      "source": "book 1.2.2; p.8",
+      "kind": "concept",
+      "asset_ids": [
+        "ch01_ill_005"
+      ],
+      "terms": [
+        "star",
+        "topology"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-2-2-bus-topology",
+      "chapter": 1,
+      "title": "Bus Topology",
+      "parent": "ch01-1-2-2",
+      "children": [],
+      "source": "book 1.2.2; p.8",
+      "kind": "concept",
+      "asset_ids": [
+        "ch01_ill_006"
+      ],
+      "terms": [
+        "bus",
+        "topology"
+      ],
+      "question_ids": [
+        "ch01-q-p1-7"
+      ]
+    },
+    {
+      "id": "ch01-1-2-2-ring-topology",
+      "chapter": 1,
+      "title": "Ring Topology",
+      "parent": "ch01-1-2-2",
+      "children": [],
+      "source": "book 1.2.2; p.8",
+      "kind": "concept",
+      "asset_ids": [
+        "ch01_ill_007"
+      ],
+      "terms": [
+        "ring",
+        "topology"
+      ],
+      "question_ids": [
+        "ch01-q-p1-6"
+      ]
+    },
+    {
+      "id": "ch01-1-3",
+      "chapter": 1,
+      "title": "1.3 NETWORK TYPES",
+      "parent": null,
+      "children": [
+        "ch01-1-3-1",
+        "ch01-1-3-2",
+        "ch01-1-3-3",
+        "ch01-1-3-4",
+        "ch01-1-3-5"
+      ],
+      "source": "book 1.3; p.13",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "3",
+        "network",
+        "types"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-3-1",
+      "chapter": 1,
+      "title": "1.3.1 Local Area Network",
+      "parent": "ch01-1-3",
+      "children": [],
+      "source": "book 1.3.1; p.13",
+      "kind": "concept",
+      "asset_ids": [
+        "ch01_ill_008"
+      ],
+      "terms": [
+        "1",
+        "3",
+        "area",
+        "local",
+        "network"
+      ],
+      "question_ids": [
+        "ch01-q-q1-9",
+        "ch01-q-q1-12",
+        "ch01-q-p1-5"
+      ]
+    },
+    {
+      "id": "ch01-1-3-2",
+      "chapter": 1,
+      "title": "1.3.2 Wide Area Network",
+      "parent": "ch01-1-3",
+      "children": [
+        "ch01-1-3-2-point-to-point-wan",
+        "ch01-1-3-2-switched-wan",
+        "ch01-1-3-2-internetwork"
+      ],
+      "source": "book 1.3.2; p.14",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "2",
+        "3",
+        "area",
+        "network",
+        "wide"
+      ],
+      "question_ids": [
+        "ch01-q-q1-9"
+      ]
+    },
+    {
+      "id": "ch01-1-3-2-point-to-point-wan",
+      "chapter": 1,
+      "title": "Point-to-Point WAN",
+      "parent": "ch01-1-3-2",
+      "children": [],
+      "source": "book 1.3.2; p.14",
+      "kind": "concept",
+      "asset_ids": [
+        "ch01_ill_009"
+      ],
+      "terms": [
+        "point",
+        "wan"
+      ],
+      "question_ids": [
+        "ch01-q-q1-13"
+      ]
+    },
+    {
+      "id": "ch01-1-3-2-switched-wan",
+      "chapter": 1,
+      "title": "Switched WAN",
+      "parent": "ch01-1-3-2",
+      "children": [],
+      "source": "book 1.3.2; p.14",
+      "kind": "concept",
+      "asset_ids": [
+        "ch01_ill_010"
+      ],
+      "terms": [
+        "switched",
+        "wan"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-3-2-internetwork",
+      "chapter": 1,
+      "title": "Internetwork",
+      "parent": "ch01-1-3-2",
+      "children": [],
+      "source": "book 1.3.2; p.14",
+      "kind": "concept",
+      "asset_ids": [
+        "ch01_ill_011"
+      ],
+      "terms": [
+        "internetwork"
+      ],
+      "question_ids": [
+        "ch01-q-q1-10"
+      ]
+    },
+    {
+      "id": "ch01-1-3-3",
+      "chapter": 1,
+      "title": "1.3.3 Switching",
+      "parent": "ch01-1-3",
+      "children": [
+        "ch01-1-3-3-circuit-switched-network",
+        "ch01-1-3-3-packet-switched-network"
+      ],
+      "source": "book 1.3.3; p.15",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "3",
+        "switching"
+      ],
+      "question_ids": [
+        "ch01-q-p1-10"
+      ]
+    },
+    {
+      "id": "ch01-1-3-3-circuit-switched-network",
+      "chapter": 1,
+      "title": "Circuit-Switched Network",
+      "parent": "ch01-1-3-3",
+      "children": [],
+      "source": "book 1.3.3; p.15",
+      "kind": "concept",
+      "asset_ids": [
+        "ch01_ill_012",
+        "ch01_ill_013"
+      ],
+      "terms": [
+        "circuit",
+        "network",
+        "switched"
+      ],
+      "question_ids": [
+        "ch01-q-q1-14"
+      ]
+    },
+    {
+      "id": "ch01-1-3-3-packet-switched-network",
+      "chapter": 1,
+      "title": "Packet-Switched Network",
+      "parent": "ch01-1-3-3",
+      "children": [],
+      "source": "book 1.3.3; p.15",
+      "kind": "concept",
+      "asset_ids": [
+        "ch01_ill_014"
+      ],
+      "terms": [
+        "network",
+        "packet",
+        "switched"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-3-4",
+      "chapter": 1,
+      "title": "1.3.4 The Internet",
+      "parent": "ch01-1-3",
+      "children": [],
+      "source": "book 1.3.4; p.17",
+      "kind": "concept",
+      "asset_ids": [
+        "ch01_ill_015"
+      ],
+      "terms": [
+        "1",
+        "3",
+        "4",
+        "internet"
+      ],
+      "question_ids": [
+        "ch01-q-q1-10",
+        "ch01-q-p1-10"
+      ]
+    },
+    {
+      "id": "ch01-1-3-5",
+      "chapter": 1,
+      "title": "1.3.5 Accessing the Internet",
+      "parent": "ch01-1-3",
+      "children": [
+        "ch01-1-3-5-using-telephone-networks",
+        "ch01-1-3-5-using-cable-networks",
+        "ch01-1-3-5-using-wireless-networks",
+        "ch01-1-3-5-direct-connection-to-the-internet"
+      ],
+      "source": "book 1.3.5; p.18",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "3",
+        "5",
+        "accessing",
+        "internet"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-3-5-using-telephone-networks",
+      "chapter": 1,
+      "title": "Using Telephone Networks",
+      "parent": "ch01-1-3-5",
+      "children": [],
+      "source": "book 1.3.5; p.18",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "networks",
+        "telephone",
+        "using"
+      ],
+      "question_ids": [
+        "ch01-q-q1-15"
+      ]
+    },
+    {
+      "id": "ch01-1-3-5-using-cable-networks",
+      "chapter": 1,
+      "title": "Using Cable Networks",
+      "parent": "ch01-1-3-5",
+      "children": [],
+      "source": "book 1.3.5; p.18",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "cable",
+        "networks",
+        "using"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-3-5-using-wireless-networks",
+      "chapter": 1,
+      "title": "Using Wireless Networks",
+      "parent": "ch01-1-3-5",
+      "children": [],
+      "source": "book 1.3.5; p.18",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "networks",
+        "using",
+        "wireless"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-3-5-direct-connection-to-the-internet",
+      "chapter": 1,
+      "title": "Direct Connection to the Internet",
+      "parent": "ch01-1-3-5",
+      "children": [],
+      "source": "book 1.3.5; p.18",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "connection",
+        "direct",
+        "internet"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-4",
+      "chapter": 1,
+      "title": "1.4 INTERNET HISTORY",
+      "parent": null,
+      "children": [
+        "ch01-1-4-1",
+        "ch01-1-4-2",
+        "ch01-1-4-3"
+      ],
+      "source": "book 1.4; p.19",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "4",
+        "history",
+        "internet"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-4-1",
+      "chapter": 1,
+      "title": "1.4.1 Early History",
+      "parent": "ch01-1-4",
+      "children": [
+        "ch01-1-4-1-birth-of-packet-switched-networks",
+        "ch01-1-4-1-arpanet"
+      ],
+      "source": "book 1.4.1; p.19",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "4",
+        "early",
+        "history"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-4-1-birth-of-packet-switched-networks",
+      "chapter": 1,
+      "title": "Birth of Packet-Switched Networks",
+      "parent": "ch01-1-4-1",
+      "children": [],
+      "source": "book 1.4.1; p.19",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "birth",
+        "networks",
+        "packet",
+        "switched"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-4-1-arpanet",
+      "chapter": 1,
+      "title": "ARPANET",
+      "parent": "ch01-1-4-1",
+      "children": [],
+      "source": "book 1.4.1; p.19",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "arpanet"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-4-2",
+      "chapter": 1,
+      "title": "1.4.2 Birth of the Internet",
+      "parent": "ch01-1-4",
+      "children": [
+        "ch01-1-4-2-tcp-ip",
+        "ch01-1-4-2-milnet",
+        "ch01-1-4-2-csnet",
+        "ch01-1-4-2-nsfnet",
+        "ch01-1-4-2-ansnet"
+      ],
+      "source": "book 1.4.2; p.20",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "2",
+        "4",
+        "birth",
+        "internet"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-4-2-tcp-ip",
+      "chapter": 1,
+      "title": "TCP/IP",
+      "parent": "ch01-1-4-2",
+      "children": [],
+      "source": "book 1.4.2; p.20",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "ip",
+        "tcp"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-4-2-milnet",
+      "chapter": 1,
+      "title": "MILNET",
+      "parent": "ch01-1-4-2",
+      "children": [],
+      "source": "book 1.4.2; p.20",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "milnet"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-4-2-csnet",
+      "chapter": 1,
+      "title": "CSNET",
+      "parent": "ch01-1-4-2",
+      "children": [],
+      "source": "book 1.4.2; p.20",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "csnet"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-4-2-nsfnet",
+      "chapter": 1,
+      "title": "NSFNET",
+      "parent": "ch01-1-4-2",
+      "children": [],
+      "source": "book 1.4.2; p.20",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "nsfnet"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-4-2-ansnet",
+      "chapter": 1,
+      "title": "ANSNET",
+      "parent": "ch01-1-4-2",
+      "children": [],
+      "source": "book 1.4.2; p.20",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "ansnet"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-4-3",
+      "chapter": 1,
+      "title": "1.4.3 Internet Today",
+      "parent": "ch01-1-4",
+      "children": [
+        "ch01-1-4-3-world-wide-web",
+        "ch01-1-4-3-multimedia",
+        "ch01-1-4-3-peer-to-peer-applications"
+      ],
+      "source": "book 1.4.3; p.22",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "3",
+        "4",
+        "internet",
+        "today"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-4-3-world-wide-web",
+      "chapter": 1,
+      "title": "World Wide Web",
+      "parent": "ch01-1-4-3",
+      "children": [],
+      "source": "book 1.4.3; p.22",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "web",
+        "wide",
+        "world"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-4-3-multimedia",
+      "chapter": 1,
+      "title": "Multimedia",
+      "parent": "ch01-1-4-3",
+      "children": [],
+      "source": "book 1.4.3; p.22",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "multimedia"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-4-3-peer-to-peer-applications",
+      "chapter": 1,
+      "title": "Peer-to-Peer Applications",
+      "parent": "ch01-1-4-3",
+      "children": [],
+      "source": "book 1.4.3; p.22",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "applications",
+        "peer"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-5",
+      "chapter": 1,
+      "title": "1.5 STANDARDS AND ADMINISTRATION",
+      "parent": null,
+      "children": [
+        "ch01-1-5-1",
+        "ch01-1-5-2"
+      ],
+      "source": "book 1.5; p.22",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "5",
+        "administration",
+        "standards"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-5-1",
+      "chapter": 1,
+      "title": "1.5.1 Internet Standards",
+      "parent": "ch01-1-5",
+      "children": [
+        "ch01-1-5-1-maturity-levels",
+        "ch01-1-5-1-requirement-levels"
+      ],
+      "source": "book 1.5.1; p.22",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "5",
+        "internet",
+        "standards"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-5-1-maturity-levels",
+      "chapter": 1,
+      "title": "Maturity Levels",
+      "parent": "ch01-1-5-1",
+      "children": [],
+      "source": "book 1.5.1; p.22",
+      "kind": "concept",
+      "asset_ids": [
+        "ch01_ill_016"
+      ],
+      "terms": [
+        "levels",
+        "maturity"
+      ],
+      "question_ids": [
+        "ch01-q-q1-17"
+      ]
+    },
+    {
+      "id": "ch01-1-5-1-requirement-levels",
+      "chapter": 1,
+      "title": "Requirement Levels",
+      "parent": "ch01-1-5-1",
+      "children": [],
+      "source": "book 1.5.1; p.22",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "levels",
+        "requirement"
+      ],
+      "question_ids": [
+        "ch01-q-q1-18"
+      ]
+    },
+    {
+      "id": "ch01-1-5-2",
+      "chapter": 1,
+      "title": "1.5.2 Internet Administration",
+      "parent": "ch01-1-5",
+      "children": [
+        "ch01-1-5-2-isoc",
+        "ch01-1-5-2-iab",
+        "ch01-1-5-2-ietf",
+        "ch01-1-5-2-irtf"
+      ],
+      "source": "book 1.5.2; p.24",
+      "kind": "concept",
+      "asset_ids": [
+        "ch01_ill_017"
+      ],
+      "terms": [
+        "1",
+        "2",
+        "5",
+        "administration",
+        "internet"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-5-2-isoc",
+      "chapter": 1,
+      "title": "ISOC",
+      "parent": "ch01-1-5-2",
+      "children": [],
+      "source": "book 1.5.2; p.24",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "isoc"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-5-2-iab",
+      "chapter": 1,
+      "title": "IAB",
+      "parent": "ch01-1-5-2",
+      "children": [],
+      "source": "book 1.5.2; p.24",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "iab"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-5-2-ietf",
+      "chapter": 1,
+      "title": "IETF",
+      "parent": "ch01-1-5-2",
+      "children": [],
+      "source": "book 1.5.2; p.24",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "ietf"
+      ],
+      "question_ids": [
+        "ch01-q-q1-19"
+      ]
+    },
+    {
+      "id": "ch01-1-5-2-irtf",
+      "chapter": 1,
+      "title": "IRTF",
+      "parent": "ch01-1-5-2",
+      "children": [],
+      "source": "book 1.5.2; p.24",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "irtf"
+      ],
+      "question_ids": [
+        "ch01-q-q1-19"
+      ]
+    },
+    {
+      "id": "ch01-1-6",
+      "chapter": 1,
+      "title": "1.6 END-CHAPTER MATERIALS",
+      "parent": null,
+      "children": [
+        "ch01-1-6-1",
+        "ch01-1-6-2",
+        "ch01-1-6-3"
+      ],
+      "source": "book 1.6; p.25",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "6",
+        "chapter",
+        "end",
+        "materials"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-6-1",
+      "chapter": 1,
+      "title": "1.6.1 Recommended Reading",
+      "parent": "ch01-1-6",
+      "children": [
+        "ch01-1-6-1-books"
+      ],
+      "source": "book 1.6.1; p.25",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "6",
+        "reading",
+        "recommended"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-6-1-books",
+      "chapter": 1,
+      "title": "Books",
+      "parent": "ch01-1-6-1",
+      "children": [],
+      "source": "book 1.6.1; p.25",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "books"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-6-2",
+      "chapter": 1,
+      "title": "1.6.2 Key Terms",
+      "parent": "ch01-1-6",
+      "children": [],
+      "source": "book 1.6.2; p.25",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "2",
+        "6",
+        "key",
+        "terms"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-6-3",
+      "chapter": 1,
+      "title": "1.6.3 Summary",
+      "parent": "ch01-1-6",
+      "children": [],
+      "source": "book 1.6.3; p.26",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "3",
+        "6",
+        "summary"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-7",
+      "chapter": 1,
+      "title": "1.7 PRACTICE SET",
+      "parent": null,
+      "children": [
+        "ch01-1-7-1"
+      ],
+      "source": "book 1.7; p.27",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "7",
+        "practice",
+        "set"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-7-1",
+      "chapter": 1,
+      "title": "1.7.1 Quizzes",
+      "parent": "ch01-1-7",
+      "children": [],
+      "source": "book 1.7.1; p.27",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "7",
+        "quizzes"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-8",
+      "chapter": 1,
+      "title": "1.8 SIMULATION EXPERIMENTS",
+      "parent": null,
+      "children": [
+        "ch01-1-8-1",
+        "ch01-1-8-2"
+      ],
+      "source": "book 1.8; p.28",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "8",
+        "experiments",
+        "simulation"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-8-1",
+      "chapter": 1,
+      "title": "1.8.1 Applets",
+      "parent": "ch01-1-8",
+      "children": [],
+      "source": "book 1.8.1; p.28",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "8",
+        "applets"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch01-1-8-2",
+      "chapter": 1,
+      "title": "1.8.2 Lab Assignments",
+      "parent": "ch01-1-8",
+      "children": [],
+      "source": "book 1.8.2; p.28",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "2",
+        "8",
+        "assignments",
+        "lab"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch02-0",
+      "chapter": 2,
+      "title": "Chapter Objectives",
+      "parent": null,
+      "children": [],
+      "source": "book p.31",
+      "kind": "objectives",
+      "asset_ids": [],
+      "terms": [
+        "chapter",
+        "objectives"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch02-2-1",
+      "chapter": 2,
+      "title": "2.1 PROTOCOL LAYERING",
+      "parent": null,
+      "children": [
+        "ch02-2-1-1",
+        "ch02-2-1-2",
+        "ch02-2-1-3"
+      ],
+      "source": "book 2.1; p.32",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "2",
+        "layering",
+        "protocol"
+      ],
+      "question_ids": [
+        "ch02-q-p2-11"
+      ]
+    },
+    {
+      "id": "ch02-2-1-1",
+      "chapter": 2,
+      "title": "2.1.1 Scenarios",
+      "parent": "ch02-2-1",
+      "children": [
+        "ch02-2-1-1-first-scenario",
+        "ch02-2-1-1-second-scenario"
+      ],
+      "source": "book 2.1.1; p.32",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "2",
+        "scenarios"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch02-2-1-1-first-scenario",
+      "chapter": 2,
+      "title": "First Scenario",
+      "parent": "ch02-2-1-1",
+      "children": [],
+      "source": "book p.32",
+      "kind": "concept",
+      "asset_ids": [
+        "ch02_ill_001"
+      ],
+      "terms": [
+        "first",
+        "scenario"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch02-2-1-1-second-scenario",
+      "chapter": 2,
+      "title": "Second Scenario",
+      "parent": "ch02-2-1-1",
+      "children": [],
+      "source": "book p.32",
+      "kind": "concept",
+      "asset_ids": [
+        "ch02_ill_002"
+      ],
+      "terms": [
+        "scenario",
+        "second"
+      ],
+      "question_ids": [
+        "ch02-q-p2-1",
+        "ch02-q-p2-2"
+      ]
+    },
+    {
+      "id": "ch02-2-1-2",
+      "chapter": 2,
+      "title": "2.1.2 Principles of Protocol Layering",
+      "parent": "ch02-2-1",
+      "children": [
+        "ch02-2-1-2-first-principle",
+        "ch02-2-1-2-second-principle"
+      ],
+      "source": "book 2.1.2; p.34",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "2",
+        "layering",
+        "principles",
+        "protocol"
+      ],
+      "question_ids": [
+        "ch01-q-q1-16"
+      ]
+    },
+    {
+      "id": "ch02-2-1-2-first-principle",
+      "chapter": 2,
+      "title": "First Principle",
+      "parent": "ch02-2-1-2",
+      "children": [],
+      "source": "book p.34",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "first",
+        "principle"
+      ],
+      "question_ids": [
+        "ch02-q-q2-1"
+      ]
+    },
+    {
+      "id": "ch02-2-1-2-second-principle",
+      "chapter": 2,
+      "title": "Second Principle",
+      "parent": "ch02-2-1-2",
+      "children": [],
+      "source": "book p.34",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "principle",
+        "second"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch02-2-1-3",
+      "chapter": 2,
+      "title": "2.1.3 Logical Connections",
+      "parent": "ch02-2-1",
+      "children": [],
+      "source": "book 2.1.3; p.35",
+      "kind": "concept",
+      "asset_ids": [
+        "ch02_ill_003"
+      ],
+      "terms": [
+        "1",
+        "2",
+        "3",
+        "connections",
+        "logical"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch02-2-2",
+      "chapter": 2,
+      "title": "2.2 TCP/IP PROTOCOL SUITE",
+      "parent": null,
+      "children": [
+        "ch02-2-2-1",
+        "ch02-2-2-2",
+        "ch02-2-2-3",
+        "ch02-2-2-4",
+        "ch02-2-2-5",
+        "ch02-2-2-6"
+      ],
+      "source": "book 2.2; p.35",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "ip",
+        "protocol",
+        "suite",
+        "tcp"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch02-2-2-1",
+      "chapter": 2,
+      "title": "2.2.1 Layered Architecture",
+      "parent": "ch02-2-2",
+      "children": [],
+      "source": "book 2.2.1; p.35",
+      "kind": "concept",
+      "asset_ids": [
+        "ch02_ill_004",
+        "ch02_ill_005"
+      ],
+      "terms": [
+        "1",
+        "2",
+        "architecture",
+        "layered"
+      ],
+      "question_ids": [
+        "ch02-q-q2-2",
+        "ch02-q-q2-3",
+        "ch02-q-q2-4",
+        "ch02-q-q2-14",
+        "ch02-q-q2-15",
+        "ch02-q-p2-3",
+        "ch02-q-p2-10",
+        "ch02-q-p2-15"
+      ]
+    },
+    {
+      "id": "ch02-2-2-2",
+      "chapter": 2,
+      "title": "2.2.2 Layers in the TCP/IP Protocol Suite",
+      "parent": "ch02-2-2",
+      "children": [],
+      "source": "book 2.2.2; p.37",
+      "kind": "concept",
+      "asset_ids": [
+        "ch02_ill_006",
+        "ch02_ill_007"
+      ],
+      "terms": [
+        "2",
+        "ip",
+        "layers",
+        "protocol",
+        "suite",
+        "tcp"
+      ],
+      "question_ids": [
+        "ch02-q-q2-5",
+        "ch02-q-p2-5"
+      ]
+    },
+    {
+      "id": "ch02-2-2-3",
+      "chapter": 2,
+      "title": "2.2.3 Description of Each Layer",
+      "parent": "ch02-2-2",
+      "children": [
+        "ch02-2-2-3-physical-layer",
+        "ch02-2-2-3-data-link-layer",
+        "ch02-2-2-3-network-layer",
+        "ch02-2-2-3-transport-layer",
+        "ch02-2-2-3-application-layer"
+      ],
+      "source": "book 2.2.3; p.38",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "3",
+        "description",
+        "each",
+        "layer"
+      ],
+      "question_ids": [
+        "ch02-q-q2-3",
+        "ch02-q-q2-5",
+        "ch02-q-p2-6",
+        "ch02-q-p2-7"
+      ]
+    },
+    {
+      "id": "ch02-2-2-3-physical-layer",
+      "chapter": 2,
+      "title": "Physical Layer",
+      "parent": "ch02-2-2-3",
+      "children": [],
+      "source": "book p.38",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "layer",
+        "physical"
+      ],
+      "question_ids": [
+        "ch02-q-p2-13"
+      ]
+    },
+    {
+      "id": "ch02-2-2-3-data-link-layer",
+      "chapter": 2,
+      "title": "Data-link Layer",
+      "parent": "ch02-2-2-3",
+      "children": [],
+      "source": "book p.39",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "data",
+        "layer",
+        "link"
+      ],
+      "question_ids": [
+        "ch02-q-p2-13"
+      ]
+    },
+    {
+      "id": "ch02-2-2-3-network-layer",
+      "chapter": 2,
+      "title": "Network Layer",
+      "parent": "ch02-2-2-3",
+      "children": [],
+      "source": "book p.39",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "layer",
+        "network"
+      ],
+      "question_ids": [
+        "ch02-q-p2-5"
+      ]
+    },
+    {
+      "id": "ch02-2-2-3-transport-layer",
+      "chapter": 2,
+      "title": "Transport Layer",
+      "parent": "ch02-2-2-3",
+      "children": [],
+      "source": "book p.40",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "layer",
+        "transport"
+      ],
+      "question_ids": [
+        "ch02-q-q2-7",
+        "ch02-q-q2-8",
+        "ch02-q-q2-10",
+        "ch02-q-p2-14"
+      ]
+    },
+    {
+      "id": "ch02-2-2-3-application-layer",
+      "chapter": 2,
+      "title": "Application Layer",
+      "parent": "ch02-2-2-3",
+      "children": [],
+      "source": "book p.40",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "application",
+        "layer"
+      ],
+      "question_ids": [
+        "ch02-q-q2-9",
+        "ch02-q-p2-10",
+        "ch02-q-p2-14"
+      ]
+    },
+    {
+      "id": "ch02-2-2-4",
+      "chapter": 2,
+      "title": "2.2.4 Encapsulation and Decapsulation",
+      "parent": "ch02-2-2",
+      "children": [
+        "ch02-2-2-4-encapsulation-at-the-source-host",
+        "ch02-2-2-4-decapsulation-and-encapsulation-at-the-router",
+        "ch02-2-2-4-decapsulation-at-the-destination-host"
+      ],
+      "source": "book 2.2.4; p.41",
+      "kind": "concept",
+      "asset_ids": [
+        "ch02_ill_008"
+      ],
+      "terms": [
+        "2",
+        "4",
+        "decapsulation",
+        "encapsulation"
+      ],
+      "question_ids": [
+        "ch02-q-q2-6",
+        "ch02-q-q2-7",
+        "ch02-q-q2-8",
+        "ch02-q-p2-4"
+      ]
+    },
+    {
+      "id": "ch02-2-2-4-encapsulation-at-the-source-host",
+      "chapter": 2,
+      "title": "Encapsulation at the Source Host",
+      "parent": "ch02-2-2-4",
+      "children": [],
+      "source": "book p.41",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "encapsulation",
+        "host",
+        "source"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch02-2-2-4-decapsulation-and-encapsulation-at-the-router",
+      "chapter": 2,
+      "title": "Decapsulation and Encapsulation at the Router",
+      "parent": "ch02-2-2-4",
+      "children": [],
+      "source": "book p.42",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "decapsulation",
+        "encapsulation",
+        "router"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch02-2-2-4-decapsulation-at-the-destination-host",
+      "chapter": 2,
+      "title": "Decapsulation at the Destination Host",
+      "parent": "ch02-2-2-4",
+      "children": [],
+      "source": "book p.42",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "decapsulation",
+        "destination",
+        "host"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch02-2-2-5",
+      "chapter": 2,
+      "title": "2.2.5 Addressing",
+      "parent": "ch02-2-2",
+      "children": [],
+      "source": "book 2.2.5; p.42",
+      "kind": "concept",
+      "asset_ids": [
+        "ch02_ill_009"
+      ],
+      "terms": [
+        "2",
+        "5",
+        "addressing"
+      ],
+      "question_ids": [
+        "ch02-q-q2-11"
+      ]
+    },
+    {
+      "id": "ch02-2-2-6",
+      "chapter": 2,
+      "title": "2.2.6 Multiplexing and Demultiplexing",
+      "parent": "ch02-2-2",
+      "children": [],
+      "source": "book 2.2.6; p.43",
+      "kind": "concept",
+      "asset_ids": [
+        "ch02_ill_010"
+      ],
+      "terms": [
+        "2",
+        "6",
+        "demultiplexing",
+        "multiplexing"
+      ],
+      "question_ids": [
+        "ch02-q-q2-12",
+        "ch02-q-q2-13",
+        "ch02-q-p2-8",
+        "ch02-q-p2-9"
+      ]
+    },
+    {
+      "id": "ch02-2-3",
+      "chapter": 2,
+      "title": "2.3 THE OSI MODEL",
+      "parent": null,
+      "children": [
+        "ch02-2-3-1",
+        "ch02-2-3-2"
+      ],
+      "source": "book 2.3; p.44",
+      "kind": "concept",
+      "asset_ids": [
+        "ch02_ill_011"
+      ],
+      "terms": [
+        "2",
+        "3",
+        "model",
+        "osi"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch02-2-3-1",
+      "chapter": 2,
+      "title": "2.3.1 OSI versus TCP/IP",
+      "parent": "ch02-2-3",
+      "children": [],
+      "source": "book 2.3.1; p.45",
+      "kind": "concept",
+      "asset_ids": [
+        "ch02_ill_012"
+      ],
+      "terms": [
+        "1",
+        "2",
+        "3",
+        "ip",
+        "osi",
+        "tcp",
+        "versus"
+      ],
+      "question_ids": [
+        "ch02-q-p2-12"
+      ]
+    },
+    {
+      "id": "ch02-2-3-2",
+      "chapter": 2,
+      "title": "2.3.2 Lack of OSI Model’s Success",
+      "parent": "ch02-2-3",
+      "children": [],
+      "source": "book 2.3.2; p.45",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "3",
+        "lack",
+        "model",
+        "osi",
+        "s",
+        "success"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch02-2-4",
+      "chapter": 2,
+      "title": "2.4 END-CHAPTER MATERIALS",
+      "parent": null,
+      "children": [
+        "ch02-2-4-1",
+        "ch02-2-4-2",
+        "ch02-2-4-3"
+      ],
+      "source": "book 2.4; p.46",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "4",
+        "chapter",
+        "end",
+        "materials"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch02-2-4-1",
+      "chapter": 2,
+      "title": "2.4.1 Recommended Reading",
+      "parent": "ch02-2-4",
+      "children": [
+        "ch02-2-4-1-books-and-papers",
+        "ch02-2-4-1-rfcs"
+      ],
+      "source": "book 2.4.1; p.46",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "1",
+        "2",
+        "4",
+        "reading",
+        "recommended"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch02-2-4-1-books-and-papers",
+      "chapter": 2,
+      "title": "Books and Papers",
+      "parent": "ch02-2-4-1",
+      "children": [],
+      "source": "book p.46",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "books",
+        "papers"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch02-2-4-1-rfcs",
+      "chapter": 2,
+      "title": "RFCs",
+      "parent": "ch02-2-4-1",
+      "children": [],
+      "source": "book p.46",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "rfcs"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch02-2-4-2",
+      "chapter": 2,
+      "title": "2.4.2 Key Terms",
+      "parent": "ch02-2-4",
+      "children": [],
+      "source": "book 2.4.2; p.46",
+      "kind": "concept",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "4",
+        "key",
+        "terms"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "ch02-2-4-3",
+      "chapter": 2,
+      "title": "2.4.3 Summary",
+      "parent": "ch02-2-4",
+      "children": [],
+      "source": "book 2.4.3; p.46",
+      "kind": "summary",
+      "asset_ids": [],
+      "terms": [
+        "2",
+        "3",
+        "4",
+        "summary"
+      ],
+      "question_ids": []
+    }
+  ]
+}

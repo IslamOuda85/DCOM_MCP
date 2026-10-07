@@ -1,0 +1,3010 @@
+{
+  "chapter": 2,
+  "spec_version": "1.1-controller",
+  "generated_at": "2026-10-06T21:45:17+00:00",
+  "assets": [
+    {
+      "id": "ch02_ill_001",
+      "file": "ch02_ill_001.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 2.1",
+      "section_id": "ch02-2-1-1-first-scenario",
+      "alt": "Figure 2.1: A single-layer protocol",
+      "sources": [
+        "book Figure 2.1; p.32"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 326,
+      "sha256": "94c51ce100ce230e79732de6b259758dd17f3f1e9cf2f0feb6cc39410bf42a27",
+      "description": "Figure 2.1: A single-layer protocol. Maria and Ann each have one Layer 1 Listen/Talk block. A shared Air path connects the blocks; upward arrows indicate the physical sound path at each endpoint.",
+      "text_in_image": "Maria; Ann; Layer 1; Layer 1; Listen/Talk; Listen/Talk; Air",
+      "use_when": "Teach ch02-2-1-1-first-scenario, explain Figure 2.1, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Maria and Ann each have one Layer 1 Listen/Talk block. A shared Air path connects the blocks; upward arrows indicate the physical sound path at each endpoint.",
+      "source_pdf_page": 2,
+      "source_bbox": [
+        99.32,
+        268.42,
+        451.32,
+        376.94
+      ],
+      "labels": [
+        {
+          "text": "Maria",
+          "bbox": [
+            0.1692,
+            0.3272,
+            0.2291,
+            0.4009
+          ]
+        },
+        {
+          "text": "Ann",
+          "bbox": [
+            0.7689,
+            0.3272,
+            0.8137,
+            0.4009
+          ]
+        },
+        {
+          "text": "Layer 1",
+          "bbox": [
+            0.0748,
+            0.5179,
+            0.1448,
+            0.5916
+          ]
+        },
+        {
+          "text": "Layer 1",
+          "bbox": [
+            0.8552,
+            0.5189,
+            0.9252,
+            0.5927
+          ]
+        },
+        {
+          "text": "Listen/Talk",
+          "bbox": [
+            0.1894,
+            0.5206,
+            0.2924,
+            0.5943
+          ]
+        },
+        {
+          "text": "Listen/Talk",
+          "bbox": [
+            0.7033,
+            0.5206,
+            0.8062,
+            0.5944
+          ]
+        },
+        {
+          "text": "Air",
+          "bbox": [
+            0.4826,
+            0.7217,
+            0.5129,
+            0.7955
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:00:38+00:00"
+      }
+    },
+    {
+      "id": "ch02_ill_002",
+      "file": "ch02_ill_002.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 2.2",
+      "section_id": "ch02-2-1-1-second-scenario",
+      "alt": "Figure 2.2: A three-layer protocol",
+      "sources": [
+        "book Figure 2.2; p.33"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 697,
+      "sha256": "909c470006f9dfd1801acf60166e235538a27007f1cebfbd8499c60cf004a1dc",
+      "description": "Figure 2.2: A three-layer protocol. Maria and Ann each have three stacked peer functions: Layer 3 Listen/Talk handles plaintext, Layer 2 Encrypt/Decrypt transforms plaintext and ciphertext, and Layer 1 Send/receive mail handles mail. Horizontal double arrows label identical peer objects; the bottom physical route passes through two postal endpoints and a postal carrier facility.",
+      "text_in_image": "Maria; Ann; Layer 3; Listen/Talk; Listen/Talk; Layer 3; Identical objects; Plaintext; Plaintext; Layer 2; Layer 2; Encrypt/Decrypt; Encrypt/Decrypt; Identical objects; Ciphertext; Ciphertext; Send mail/; Send mail/; Layer 1; Layer 1; receive mail; receive mail; Identical objects; Mail; Mail; US Post; US Post; Postal carrier facility",
+      "use_when": "Teach ch02-2-1-1-second-scenario, explain Figure 2.2, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Maria and Ann each have three stacked peer functions: Layer 3 Listen/Talk handles plaintext, Layer 2 Encrypt/Decrypt transforms plaintext and ciphertext, and Layer 1 Send/receive mail handles mail. Horizontal double arrows label identical peer objects; the bottom physical route passes through two postal endpoints and a postal carrier facility.",
+      "source_pdf_page": 3,
+      "source_bbox": [
+        114.32,
+        188.86,
+        466.32,
+        420.8
+      ],
+      "labels": [
+        {
+          "text": "Maria",
+          "bbox": [
+            0.1338,
+            0.1577,
+            0.1937,
+            0.1921
+          ]
+        },
+        {
+          "text": "Ann",
+          "bbox": [
+            0.7287,
+            0.1577,
+            0.7679,
+            0.1922
+          ]
+        },
+        {
+          "text": "Layer 3",
+          "bbox": [
+            0.0366,
+            0.2489,
+            0.1067,
+            0.2834
+          ]
+        },
+        {
+          "text": "Listen/Talk",
+          "bbox": [
+            0.1527,
+            0.2489,
+            0.2614,
+            0.2834
+          ]
+        },
+        {
+          "text": "Listen/Talk",
+          "bbox": [
+            0.7337,
+            0.2489,
+            0.8424,
+            0.2834
+          ]
+        },
+        {
+          "text": "Layer 3",
+          "bbox": [
+            0.8933,
+            0.2489,
+            0.9634,
+            0.2834
+          ]
+        },
+        {
+          "text": "Identical objects",
+          "bbox": [
+            0.4244,
+            0.3311,
+            0.574,
+            0.3656
+          ]
+        },
+        {
+          "text": "Plaintext",
+          "bbox": [
+            0.2753,
+            0.3631,
+            0.3624,
+            0.3976
+          ]
+        },
+        {
+          "text": "Plaintext",
+          "bbox": [
+            0.6317,
+            0.3631,
+            0.7188,
+            0.3976
+          ]
+        },
+        {
+          "text": "Layer 2",
+          "bbox": [
+            0.0366,
+            0.4406,
+            0.1067,
+            0.475
+          ]
+        },
+        {
+          "text": "Layer 2",
+          "bbox": [
+            0.8934,
+            0.4406,
+            0.9634,
+            0.475
+          ]
+        },
+        {
+          "text": "Encrypt/Decrypt",
+          "bbox": [
+            0.1222,
+            0.4492,
+            0.292,
+            0.4837
+          ]
+        },
+        {
+          "text": "Encrypt/Decrypt",
+          "bbox": [
+            0.7032,
+            0.4492,
+            0.873,
+            0.4837
+          ]
+        },
+        {
+          "text": "Identical objects",
+          "bbox": [
+            0.4244,
+            0.5219,
+            0.574,
+            0.5564
+          ]
+        },
+        {
+          "text": "Ciphertext",
+          "bbox": [
+            0.2753,
+            0.5554,
+            0.3801,
+            0.5899
+          ]
+        },
+        {
+          "text": "Ciphertext",
+          "bbox": [
+            0.614,
+            0.5554,
+            0.7188,
+            0.5899
+          ]
+        },
+        {
+          "text": "Send mail/",
+          "bbox": [
+            0.1581,
+            0.6156,
+            0.256,
+            0.6501
+          ]
+        },
+        {
+          "text": "Send mail/",
+          "bbox": [
+            0.7391,
+            0.6156,
+            0.837,
+            0.6501
+          ]
+        },
+        {
+          "text": "Layer 1",
+          "bbox": [
+            0.0366,
+            0.635,
+            0.1067,
+            0.6695
+          ]
+        },
+        {
+          "text": "Layer 1",
+          "bbox": [
+            0.8934,
+            0.635,
+            0.9634,
+            0.6695
+          ]
+        },
+        {
+          "text": "receive mail",
+          "bbox": [
+            0.1488,
+            0.6544,
+            0.2653,
+            0.6889
+          ]
+        },
+        {
+          "text": "receive mail",
+          "bbox": [
+            0.7298,
+            0.6544,
+            0.8463,
+            0.6889
+          ]
+        },
+        {
+          "text": "Identical objects",
+          "bbox": [
+            0.4244,
+            0.7051,
+            0.574,
+            0.7396
+          ]
+        },
+        {
+          "text": "Mail",
+          "bbox": [
+            0.3303,
+            0.7399,
+            0.3814,
+            0.7744
+          ]
+        },
+        {
+          "text": "Mail",
+          "bbox": [
+            0.6163,
+            0.7399,
+            0.6675,
+            0.7744
+          ]
+        },
+        {
+          "text": "US Post",
+          "bbox": [
+            0.2656,
+            0.8134,
+            0.3352,
+            0.8436
+          ]
+        },
+        {
+          "text": "US Post",
+          "bbox": [
+            0.6782,
+            0.8134,
+            0.7479,
+            0.8436
+          ]
+        },
+        {
+          "text": "Postal carrier facility",
+          "bbox": [
+            0.4022,
+            0.8806,
+            0.5926,
+            0.9151
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:00:38+00:00"
+      }
+    },
+    {
+      "id": "ch02_ill_003",
+      "file": "ch02_ill_003.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 2.3",
+      "section_id": "ch02-2-1-3",
+      "alt": "Figure 2.3: Logical connection between peer layers",
+      "sources": [
+        "book Figure 2.3; p.35"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 533,
+      "sha256": "356e3ec0d6acaa29e5da1fb049bd47a3aa4b898506db1213b1d957a8e70ab5a1",
+      "description": "Figure 2.3: Logical connection between peer layers. The same three peer layers appear at Maria and Ann. Dotted bidirectional arrows show logical peer connections for plaintext at Layer 3, ciphertext at Layer 2, and mail at Layer 1; the actual transfer still traverses the stack.",
+      "text_in_image": "Maria; Ann; Layer 3; Layer 3; Listen/Talk; Talk/Listen; Logical connection; Plaintext; Plaintext; Layer 2; Layer 2; Encrypt/Decrypt; Encrypt/Decrypt; Logical connection; Ciphertext; Ciphertext; Send mail/; Send mail/; Layer 1; Layer 1; receive mail; receive mail; Logical connection; Mail; Mail",
+      "use_when": "Teach ch02-2-1-3, explain Figure 2.3, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "The same three peer layers appear at Maria and Ann. Dotted bidirectional arrows show logical peer connections for plaintext at Layer 3, ciphertext at Layer 2, and mail at Layer 1; the actual transfer still traverses the stack.",
+      "source_pdf_page": 5,
+      "source_bbox": [
+        114.32,
+        179.86,
+        466.32,
+        357.02
+      ],
+      "labels": [
+        {
+          "text": "Maria",
+          "bbox": [
+            0.1123,
+            0.1951,
+            0.1722,
+            0.2403
+          ]
+        },
+        {
+          "text": "Ann",
+          "bbox": [
+            0.7442,
+            0.1951,
+            0.7833,
+            0.2403
+          ]
+        },
+        {
+          "text": "Layer 3",
+          "bbox": [
+            0.0189,
+            0.3154,
+            0.089,
+            0.3606
+          ]
+        },
+        {
+          "text": "Layer 3",
+          "bbox": [
+            0.911,
+            0.3154,
+            0.9811,
+            0.3605
+          ]
+        },
+        {
+          "text": "Listen/Talk",
+          "bbox": [
+            0.7489,
+            0.3157,
+            0.8576,
+            0.3609
+          ]
+        },
+        {
+          "text": "Talk/Listen",
+          "bbox": [
+            0.135,
+            0.3161,
+            0.2437,
+            0.3612
+          ]
+        },
+        {
+          "text": "Logical connection",
+          "bbox": [
+            0.413,
+            0.3552,
+            0.5879,
+            0.4004
+          ]
+        },
+        {
+          "text": "Plaintext",
+          "bbox": [
+            0.2807,
+            0.4067,
+            0.3678,
+            0.4519
+          ]
+        },
+        {
+          "text": "Plaintext",
+          "bbox": [
+            0.6267,
+            0.4067,
+            0.7138,
+            0.4519
+          ]
+        },
+        {
+          "text": "Layer 2",
+          "bbox": [
+            0.0189,
+            0.5506,
+            0.089,
+            0.5958
+          ]
+        },
+        {
+          "text": "Layer 2",
+          "bbox": [
+            0.911,
+            0.5531,
+            0.9811,
+            0.5983
+          ]
+        },
+        {
+          "text": "Encrypt/Decrypt",
+          "bbox": [
+            0.1045,
+            0.562,
+            0.2743,
+            0.6072
+          ]
+        },
+        {
+          "text": "Encrypt/Decrypt",
+          "bbox": [
+            0.7209,
+            0.5645,
+            0.8907,
+            0.6096
+          ]
+        },
+        {
+          "text": "Logical connection",
+          "bbox": [
+            0.413,
+            0.5873,
+            0.5879,
+            0.6325
+          ]
+        },
+        {
+          "text": "Ciphertext",
+          "bbox": [
+            0.2702,
+            0.6516,
+            0.3749,
+            0.6968
+          ]
+        },
+        {
+          "text": "Ciphertext",
+          "bbox": [
+            0.6179,
+            0.6516,
+            0.7227,
+            0.6968
+          ]
+        },
+        {
+          "text": "Send mail/",
+          "bbox": [
+            0.1397,
+            0.7662,
+            0.2376,
+            0.8113
+          ]
+        },
+        {
+          "text": "Send mail/",
+          "bbox": [
+            0.7533,
+            0.7662,
+            0.8511,
+            0.8113
+          ]
+        },
+        {
+          "text": "Layer 1",
+          "bbox": [
+            0.0189,
+            0.7916,
+            0.089,
+            0.8367
+          ]
+        },
+        {
+          "text": "Layer 1",
+          "bbox": [
+            0.9111,
+            0.7916,
+            0.9811,
+            0.8368
+          ]
+        },
+        {
+          "text": "receive mail",
+          "bbox": [
+            0.1304,
+            0.817,
+            0.2469,
+            0.8621
+          ]
+        },
+        {
+          "text": "receive mail",
+          "bbox": [
+            0.744,
+            0.817,
+            0.8605,
+            0.8621
+          ]
+        },
+        {
+          "text": "Logical connection",
+          "bbox": [
+            0.413,
+            0.8437,
+            0.5879,
+            0.8888
+          ]
+        },
+        {
+          "text": "Mail",
+          "bbox": [
+            0.3161,
+            0.8663,
+            0.3673,
+            0.9115
+          ]
+        },
+        {
+          "text": "Mail",
+          "bbox": [
+            0.6293,
+            0.8663,
+            0.6804,
+            0.9115
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:00:38+00:00"
+      }
+    },
+    {
+      "id": "ch02_ill_004",
+      "file": "ch02_ill_004.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 2.4",
+      "section_id": "ch02-2-2-1",
+      "alt": "Figure 2.4: Layers in the TCP/IP protocol suite",
+      "sources": [
+        "book Figure 2.4; p.36"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 503,
+      "sha256": "cad23d638542f207562aa0bd6cd1e641f5245e62abf74ed5244bc10827c0dd2e",
+      "description": "Figure 2.4: Layers in the TCP/IP protocol suite. Two vertical comparisons show the original four-layer TCP/IP model and the five-layer model used by the book. Original Application maps to Layer 5 Application, Transport to Layer 4 Transport, Internet to Layer 3 Network, and Network Interface plus Hardware Devices to Layer 2 Data link plus Layer 1 Physical.",
+      "text_in_image": "Application; Application; Layer 5; Layer 4; Transport; Transport; Internet; Network; Layer 3; Network Interface; Data link; Layer 2; Layer 1; Physical; Hardware Devices; a. Original layers; b. Layers used in this book",
+      "use_when": "Teach ch02-2-2-1, explain Figure 2.4, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Two vertical comparisons show the original four-layer TCP/IP model and the five-layer model used by the book. Original Application maps to Layer 5 Application, Transport to Layer 4 Transport, Internet to Layer 3 Network, and Network Interface plus Hardware Devices to Layer 2 Data link plus Layer 1 Physical.",
+      "source_pdf_page": 6,
+      "source_bbox": [
+        99.32,
+        49.9,
+        451.32,
+        217.1
+      ],
+      "labels": [
+        {
+          "text": "Application",
+          "bbox": [
+            0.2075,
+            0.2044,
+            0.3149,
+            0.2522
+          ]
+        },
+        {
+          "text": "Application",
+          "bbox": [
+            0.606,
+            0.2044,
+            0.7133,
+            0.2522
+          ]
+        },
+        {
+          "text": "Layer 5",
+          "bbox": [
+            0.7983,
+            0.2043,
+            0.8684,
+            0.2522
+          ]
+        },
+        {
+          "text": "Layer 4",
+          "bbox": [
+            0.7983,
+            0.3441,
+            0.8684,
+            0.392
+          ]
+        },
+        {
+          "text": "Transport",
+          "bbox": [
+            0.2174,
+            0.3453,
+            0.305,
+            0.3932
+          ]
+        },
+        {
+          "text": "Transport",
+          "bbox": [
+            0.6159,
+            0.3454,
+            0.7034,
+            0.3932
+          ]
+        },
+        {
+          "text": "Internet",
+          "bbox": [
+            0.2235,
+            0.4833,
+            0.2942,
+            0.5312
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.6177,
+            0.4833,
+            0.697,
+            0.5312
+          ]
+        },
+        {
+          "text": "Layer 3",
+          "bbox": [
+            0.7983,
+            0.4833,
+            0.8684,
+            0.5311
+          ]
+        },
+        {
+          "text": "Network Interface",
+          "bbox": [
+            0.1786,
+            0.6123,
+            0.3441,
+            0.6602
+          ]
+        },
+        {
+          "text": "Data link",
+          "bbox": [
+            0.6178,
+            0.6123,
+            0.7018,
+            0.6602
+          ]
+        },
+        {
+          "text": "Layer 2",
+          "bbox": [
+            0.7983,
+            0.6172,
+            0.8684,
+            0.6651
+          ]
+        },
+        {
+          "text": "Layer 1",
+          "bbox": [
+            0.7983,
+            0.7395,
+            0.8684,
+            0.7874
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.6194,
+            0.7511,
+            0.6999,
+            0.799
+          ]
+        },
+        {
+          "text": "Hardware Devices",
+          "bbox": [
+            0.1668,
+            0.756,
+            0.3443,
+            0.8039
+          ]
+        },
+        {
+          "text": "a. Original layers",
+          "bbox": [
+            0.1601,
+            0.8464,
+            0.3172,
+            0.8943
+          ]
+        },
+        {
+          "text": "b. Layers used in this book",
+          "bbox": [
+            0.537,
+            0.8464,
+            0.781,
+            0.8943
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:00:38+00:00"
+      }
+    },
+    {
+      "id": "ch02_ill_005",
+      "file": "ch02_ill_005.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 2.5",
+      "section_id": "ch02-2-2-1",
+      "alt": "Figure 2.5: Communication through an internet",
+      "sources": [
+        "book Figure 2.5; p.36"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 768,
+      "sha256": "0ee90b9766d4e0695d21013e30162790cdeb58f3f82fdfb6c58dc501d0543f55",
+      "description": "Figure 2.5: Communication through an internet. Source A and destination B each contain all five TCP/IP layers. Two link-layer switches contain only data-link and physical layers. The router contains network, data-link, and physical functions for each connected link. The lower topology shows A through Link 1, a router, and Link 2 to B, with a third link to C.",
+      "text_in_image": "Source (A); Destination (B); Application; Application; Transport; Transport; Router; Network; Network; Network; Switch; Switch; Data link; Data link; Data link; Data link; Data link; Data link; Physical; Physical; Physical; Physical; Physical; Physical; Communication from A to B; Router; A; B; Link 1; Link 2; Link 3; C",
+      "use_when": "Teach ch02-2-2-1, explain Figure 2.5, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Source A and destination B each contain all five TCP/IP layers. Two link-layer switches contain only data-link and physical layers. The router contains network, data-link, and physical functions for each connected link. The lower topology shows A through Link 1, a router, and Link 2 to B, with a third link to C.",
+      "source_pdf_page": 6,
+      "source_bbox": [
+        99.32,
+        226.96,
+        451.32,
+        482.6
+      ],
+      "labels": [
+        {
+          "text": "Source (A)",
+          "bbox": [
+            0.0774,
+            0.1313,
+            0.1868,
+            0.1626
+          ]
+        },
+        {
+          "text": "Destination (B)",
+          "bbox": [
+            0.7821,
+            0.1313,
+            0.9349,
+            0.1626
+          ]
+        },
+        {
+          "text": "Application",
+          "bbox": [
+            0.0078,
+            0.1707,
+            0.1151,
+            0.202
+          ]
+        },
+        {
+          "text": "Application",
+          "bbox": [
+            0.885,
+            0.1707,
+            0.9923,
+            0.202
+          ]
+        },
+        {
+          "text": "Transport",
+          "bbox": [
+            0.0275,
+            0.2228,
+            0.1151,
+            0.2541
+          ]
+        },
+        {
+          "text": "Transport",
+          "bbox": [
+            0.885,
+            0.2228,
+            0.9725,
+            0.2541
+          ]
+        },
+        {
+          "text": "Router",
+          "bbox": [
+            0.4745,
+            0.2302,
+            0.5363,
+            0.2615
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.5521,
+            0.2674,
+            0.6314,
+            0.2987
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.0357,
+            0.2748,
+            0.115,
+            0.3061
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.8852,
+            0.2748,
+            0.9645,
+            0.3061
+          ]
+        },
+        {
+          "text": "Switch",
+          "bbox": [
+            0.2842,
+            0.2824,
+            0.3474,
+            0.3137
+          ]
+        },
+        {
+          "text": "Switch",
+          "bbox": [
+            0.6688,
+            0.2825,
+            0.7319,
+            0.3138
+          ]
+        },
+        {
+          "text": "Data link",
+          "bbox": [
+            0.1838,
+            0.3228,
+            0.2678,
+            0.3541
+          ]
+        },
+        {
+          "text": "Data link",
+          "bbox": [
+            0.3783,
+            0.3228,
+            0.4623,
+            0.3541
+          ]
+        },
+        {
+          "text": "Data link",
+          "bbox": [
+            0.5518,
+            0.3228,
+            0.6357,
+            0.3541
+          ]
+        },
+        {
+          "text": "Data link",
+          "bbox": [
+            0.7453,
+            0.3228,
+            0.8292,
+            0.3541
+          ]
+        },
+        {
+          "text": "Data link",
+          "bbox": [
+            0.031,
+            0.3269,
+            0.115,
+            0.3582
+          ]
+        },
+        {
+          "text": "Data link",
+          "bbox": [
+            0.8849,
+            0.3269,
+            0.9689,
+            0.3582
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.191,
+            0.3773,
+            0.2679,
+            0.4086
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.3855,
+            0.3779,
+            0.4624,
+            0.4092
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.5517,
+            0.3779,
+            0.6287,
+            0.4092
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.0382,
+            0.3789,
+            0.1151,
+            0.4102
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.8849,
+            0.379,
+            0.9618,
+            0.4103
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.7453,
+            0.3799,
+            0.8222,
+            0.4112
+          ]
+        },
+        {
+          "text": "Communication from A to B",
+          "bbox": [
+            0.3771,
+            0.5158,
+            0.6532,
+            0.5471
+          ]
+        },
+        {
+          "text": "Router",
+          "bbox": [
+            0.518,
+            0.6332,
+            0.5799,
+            0.6645
+          ]
+        },
+        {
+          "text": "A",
+          "bbox": [
+            0.1328,
+            0.6557,
+            0.1536,
+            0.687
+          ]
+        },
+        {
+          "text": "B",
+          "bbox": [
+            0.8604,
+            0.6557,
+            0.8812,
+            0.687
+          ]
+        },
+        {
+          "text": "Link 1",
+          "bbox": [
+            0.2879,
+            0.6577,
+            0.3479,
+            0.689
+          ]
+        },
+        {
+          "text": "Link 2",
+          "bbox": [
+            0.6667,
+            0.6577,
+            0.7267,
+            0.689
+          ]
+        },
+        {
+          "text": "Link 3",
+          "bbox": [
+            0.3828,
+            0.7104,
+            0.4428,
+            0.7417
+          ]
+        },
+        {
+          "text": "C",
+          "bbox": [
+            0.492,
+            0.8996,
+            0.5128,
+            0.9309
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:00:38+00:00"
+      }
+    },
+    {
+      "id": "ch02_ill_006",
+      "file": "ch02_ill_006.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 2.6",
+      "section_id": "ch02-2-2-2",
+      "alt": "Figure 2.6: Logical connections between layers of the TCP/IP protocol suite",
+      "sources": [
+        "book Figure 2.6; p.37"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 607,
+      "sha256": "66836ecb6993f7335ae11fe59acfe1820ce39019e784b7f1a0d82ec7543d0936",
+      "description": "Figure 2.6: Logical connections between layers of the TCP/IP protocol suite. Source and destination hosts contain all five layers, the router has network and lower layers, and switches have data-link and physical layers. Horizontal dashed lines show application, transport, and network logical connections end to end, while data-link and physical logical connections operate hop by hop.",
+      "text_in_image": "Source; Destination; host; host; Logical connections; Application; Application; Transport; Transport; Network; Network; Data link; Data link; Physical; Physical; Switch; Router; Switch; LAN; LAN; Router; Link 1; Link 2; Source; Destination; To link 3; host; host",
+      "use_when": "Teach ch02-2-2-2, explain Figure 2.6, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Source and destination hosts contain all five layers, the router has network and lower layers, and switches have data-link and physical layers. Horizontal dashed lines show application, transport, and network logical connections end to end, while data-link and physical logical connections operate hop by hop.",
+      "source_pdf_page": 7,
+      "source_bbox": [
+        114.32,
+        311.92,
+        466.32,
+        513.68
+      ],
+      "labels": [
+        {
+          "text": "Source",
+          "bbox": [
+            0.1064,
+            0.1662,
+            0.1729,
+            0.2058
+          ]
+        },
+        {
+          "text": "Destination",
+          "bbox": [
+            0.8043,
+            0.1721,
+            0.9154,
+            0.2118
+          ]
+        },
+        {
+          "text": "host",
+          "bbox": [
+            0.1195,
+            0.2108,
+            0.1599,
+            0.2504
+          ]
+        },
+        {
+          "text": "host",
+          "bbox": [
+            0.8397,
+            0.2167,
+            0.8801,
+            0.2564
+          ]
+        },
+        {
+          "text": "Logical connections",
+          "bbox": [
+            0.4228,
+            0.2266,
+            0.6065,
+            0.2663
+          ]
+        },
+        {
+          "text": "Application",
+          "bbox": [
+            0.0054,
+            0.2543,
+            0.1127,
+            0.2939
+          ]
+        },
+        {
+          "text": "Application",
+          "bbox": [
+            0.8873,
+            0.2542,
+            0.9946,
+            0.2939
+          ]
+        },
+        {
+          "text": "Transport",
+          "bbox": [
+            0.0252,
+            0.3202,
+            0.1127,
+            0.3599
+          ]
+        },
+        {
+          "text": "Transport",
+          "bbox": [
+            0.8873,
+            0.3202,
+            0.9749,
+            0.3598
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.0333,
+            0.3861,
+            0.1126,
+            0.4258
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.8876,
+            0.3861,
+            0.9669,
+            0.4258
+          ]
+        },
+        {
+          "text": "Data link",
+          "bbox": [
+            0.0286,
+            0.4521,
+            0.1126,
+            0.4917
+          ]
+        },
+        {
+          "text": "Data link",
+          "bbox": [
+            0.8873,
+            0.452,
+            0.9713,
+            0.4917
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.0358,
+            0.518,
+            0.1127,
+            0.5577
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.8873,
+            0.518,
+            0.9642,
+            0.5576
+          ]
+        },
+        {
+          "text": "Switch",
+          "bbox": [
+            0.2866,
+            0.5736,
+            0.3497,
+            0.6132
+          ]
+        },
+        {
+          "text": "Router",
+          "bbox": [
+            0.4744,
+            0.5735,
+            0.5363,
+            0.6132
+          ]
+        },
+        {
+          "text": "Switch",
+          "bbox": [
+            0.655,
+            0.5737,
+            0.7181,
+            0.6134
+          ]
+        },
+        {
+          "text": "LAN",
+          "bbox": [
+            0.2999,
+            0.6773,
+            0.3466,
+            0.717
+          ]
+        },
+        {
+          "text": "LAN",
+          "bbox": [
+            0.6702,
+            0.6773,
+            0.7169,
+            0.717
+          ]
+        },
+        {
+          "text": "Router",
+          "bbox": [
+            0.4739,
+            0.6983,
+            0.5357,
+            0.738
+          ]
+        },
+        {
+          "text": "Link 1",
+          "bbox": [
+            0.2904,
+            0.8376,
+            0.3504,
+            0.8773
+          ]
+        },
+        {
+          "text": "Link 2",
+          "bbox": [
+            0.6643,
+            0.8376,
+            0.7243,
+            0.8773
+          ]
+        },
+        {
+          "text": "Source",
+          "bbox": [
+            0.1064,
+            0.8379,
+            0.1729,
+            0.8775
+          ]
+        },
+        {
+          "text": "Destination",
+          "bbox": [
+            0.8043,
+            0.8379,
+            0.9154,
+            0.8775
+          ]
+        },
+        {
+          "text": "To link 3",
+          "bbox": [
+            0.4632,
+            0.8681,
+            0.5447,
+            0.9078
+          ]
+        },
+        {
+          "text": "host",
+          "bbox": [
+            0.1195,
+            0.8825,
+            0.1599,
+            0.9221
+          ]
+        },
+        {
+          "text": "host",
+          "bbox": [
+            0.8396,
+            0.8825,
+            0.8801,
+            0.9221
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:00:38+00:00"
+      }
+    },
+    {
+      "id": "ch02_ill_007",
+      "file": "ch02_ill_007.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 2.7",
+      "section_id": "ch02-2-2-2",
+      "alt": "Figure 2.7: Identical objects in the TCP/IP protocol suite",
+      "sources": [
+        "book Figure 2.7; p.38"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 619,
+      "sha256": "66b9214b44b7fd6de46e8a839a1d63c1cb88342109b77126fdea6c0a56b7f16c",
+      "description": "Figure 2.7: Identical objects in the TCP/IP protocol suite. Source host, router, and destination host are aligned by layers. Dashed paths label identical objects: messages and transport packets are end to end, datagrams remain identical across both router sides, while frames and bits are identical only within each link. A note explains that switches are omitted because they do not change objects.",
+      "text_in_image": "Notes: We have not shown switches because they don’t change objects.; Application; Application; Identical objects (messages); Transport; Transport; Identical objects (segments or user datagrams); Network; Network; Identical objects (datagrams); Identical objects (datagrams); Data link; Data link; Identical objects (frames); Identical objects (frames); Physical; Physical; Identical objects (bits); Identical objects (bits)",
+      "use_when": "Teach ch02-2-2-2, explain Figure 2.7, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Source host, router, and destination host are aligned by layers. Dashed paths label identical objects: messages and transport packets are end to end, datagrams remain identical across both router sides, while frames and bits are identical only within each link. A note explains that switches are omitted because they do not change objects.",
+      "source_pdf_page": 8,
+      "source_bbox": [
+        99.32,
+        101.86,
+        451.32,
+        307.7
+      ],
+      "labels": [
+        {
+          "text": "Notes: We have not shown switches because they don’t change objects.",
+          "bbox": [
+            0.1716,
+            0.1684,
+            0.8203,
+            0.217
+          ]
+        },
+        {
+          "text": "Application",
+          "bbox": [
+            0.8812,
+            0.2602,
+            0.9885,
+            0.2991
+          ]
+        },
+        {
+          "text": "Application",
+          "bbox": [
+            0.0115,
+            0.2636,
+            0.1188,
+            0.3024
+          ]
+        },
+        {
+          "text": "Identical objects (messages)",
+          "bbox": [
+            0.3707,
+            0.2974,
+            0.6269,
+            0.3362
+          ]
+        },
+        {
+          "text": "Transport",
+          "bbox": [
+            0.8812,
+            0.3765,
+            0.9688,
+            0.4153
+          ]
+        },
+        {
+          "text": "Transport",
+          "bbox": [
+            0.0312,
+            0.3798,
+            0.1188,
+            0.4187
+          ]
+        },
+        {
+          "text": "Identical objects (segments or user datagrams)",
+          "bbox": [
+            0.2878,
+            0.4026,
+            0.7098,
+            0.4415
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.8815,
+            0.5184,
+            0.9608,
+            0.5573
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.0394,
+            0.5234,
+            0.1187,
+            0.5623
+          ]
+        },
+        {
+          "text": "Identical objects (datagrams)",
+          "bbox": [
+            0.1792,
+            0.5519,
+            0.443,
+            0.5908
+          ]
+        },
+        {
+          "text": "Identical objects (datagrams)",
+          "bbox": [
+            0.5575,
+            0.5519,
+            0.8214,
+            0.5908
+          ]
+        },
+        {
+          "text": "Data link",
+          "bbox": [
+            0.0347,
+            0.6347,
+            0.1187,
+            0.6735
+          ]
+        },
+        {
+          "text": "Data link",
+          "bbox": [
+            0.8812,
+            0.6358,
+            0.9652,
+            0.6747
+          ]
+        },
+        {
+          "text": "Identical objects (frames)",
+          "bbox": [
+            0.1947,
+            0.6999,
+            0.427,
+            0.7387
+          ]
+        },
+        {
+          "text": "Identical objects (frames)",
+          "bbox": [
+            0.5734,
+            0.6999,
+            0.8056,
+            0.7387
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.8812,
+            0.7998,
+            0.9582,
+            0.8387
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.0419,
+            0.8032,
+            0.1188,
+            0.8421
+          ]
+        },
+        {
+          "text": "Identical objects (bits)",
+          "bbox": [
+            0.2092,
+            0.8257,
+            0.4125,
+            0.8646
+          ]
+        },
+        {
+          "text": "Identical objects (bits)",
+          "bbox": [
+            0.5879,
+            0.8257,
+            0.7911,
+            0.8646
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:00:38+00:00"
+      }
+    },
+    {
+      "id": "ch02_ill_008",
+      "file": "ch02_ill_008.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 2.8",
+      "section_id": "ch02-2-2-4",
+      "alt": "Figure 2.8: Encapsulation/Decapsulation",
+      "sources": [
+        "book Figure 2.8; p.41"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 546,
+      "sha256": "cfd97645098ece6dfe190730dd74de59eb309259ecf2a6c6414a1d0a947dc250",
+      "description": "Figure 2.8: Encapsulation/Decapsulation. Source host, router, and destination host show encapsulation and decapsulation. At the source, transport header 4, network header 3, and data-link header 2 are added around the message. The router removes and replaces link-layer framing while forwarding the network packet. The destination removes headers 2, 3, and 4 to recover the message.",
+      "text_in_image": "4; Header at transport layer; Encapsulate; 3; Header at network layer; Legend; 2; Decapsulate; Header at data-link layer; Destination host; Source host; Application; Application; Message; Message; Router; Transport; Transport; 4; Message; 4; Message; Network; Network; 3; 4; Message; 3; 4; Message; 3; 4; Message; 3; 4; Message; Data link; Data link; 2; 3; 4; Message; 2; 3; 4; Message; 2; 3; 4; Message; 2; 3; 4; Message; Physical; Physical",
+      "use_when": "Teach ch02-2-2-4, explain Figure 2.8, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Source host, router, and destination host show encapsulation and decapsulation. At the source, transport header 4, network header 3, and data-link header 2 are added around the message. The router removes and replaces link-layer framing while forwarding the network packet. The destination removes headers 2, 3, and 4 to recover the message.",
+      "source_pdf_page": 11,
+      "source_bbox": [
+        114.32,
+        251.92,
+        466.32,
+        433.64
+      ],
+      "labels": [
+        {
+          "text": "4",
+          "bbox": [
+            0.3586,
+            0.1808,
+            0.3696,
+            0.2223
+          ]
+        },
+        {
+          "text": "Header at transport layer",
+          "bbox": [
+            0.3808,
+            0.184,
+            0.5713,
+            0.2204
+          ]
+        },
+        {
+          "text": "Encapsulate",
+          "bbox": [
+            0.6303,
+            0.205,
+            0.7232,
+            0.2414
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.3586,
+            0.2403,
+            0.3696,
+            0.2819
+          ]
+        },
+        {
+          "text": "Header at network layer",
+          "bbox": [
+            0.3808,
+            0.2436,
+            0.5658,
+            0.2799
+          ]
+        },
+        {
+          "text": "Legend",
+          "bbox": [
+            0.2544,
+            0.2576,
+            0.324,
+            0.2992
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.3586,
+            0.3063,
+            0.3696,
+            0.3478
+          ]
+        },
+        {
+          "text": "Decapsulate",
+          "bbox": [
+            0.6298,
+            0.3088,
+            0.7237,
+            0.3452
+          ]
+        },
+        {
+          "text": "Header at data-link layer",
+          "bbox": [
+            0.3808,
+            0.3095,
+            0.5713,
+            0.3459
+          ]
+        },
+        {
+          "text": "Destination host",
+          "bbox": [
+            0.8268,
+            0.4107,
+            0.9702,
+            0.4522
+          ]
+        },
+        {
+          "text": "Source host",
+          "bbox": [
+            0.0729,
+            0.4421,
+            0.176,
+            0.4836
+          ]
+        },
+        {
+          "text": "Application",
+          "bbox": [
+            0.1652,
+            0.5612,
+            0.2689,
+            0.6027
+          ]
+        },
+        {
+          "text": "Application",
+          "bbox": [
+            0.7281,
+            0.5617,
+            0.8318,
+            0.6032
+          ]
+        },
+        {
+          "text": "Message",
+          "bbox": [
+            0.0787,
+            0.5678,
+            0.1459,
+            0.6042
+          ]
+        },
+        {
+          "text": "Message",
+          "bbox": [
+            0.9145,
+            0.5678,
+            0.9817,
+            0.6042
+          ]
+        },
+        {
+          "text": "Router",
+          "bbox": [
+            0.4708,
+            0.5804,
+            0.5306,
+            0.622
+          ]
+        },
+        {
+          "text": "Transport",
+          "bbox": [
+            0.7376,
+            0.6288,
+            0.8223,
+            0.6703
+          ]
+        },
+        {
+          "text": "Transport",
+          "bbox": [
+            0.1747,
+            0.6314,
+            0.2593,
+            0.6729
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.0568,
+            0.6366,
+            0.0664,
+            0.673
+          ]
+        },
+        {
+          "text": "Message",
+          "bbox": [
+            0.0787,
+            0.6366,
+            0.1459,
+            0.673
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.8926,
+            0.6366,
+            0.9022,
+            0.673
+          ]
+        },
+        {
+          "text": "Message",
+          "bbox": [
+            0.9145,
+            0.6366,
+            0.9817,
+            0.673
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.1787,
+            0.7011,
+            0.2553,
+            0.7427
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.7416,
+            0.7011,
+            0.8182,
+            0.7427
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.0367,
+            0.7059,
+            0.0463,
+            0.7422
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.0568,
+            0.7059,
+            0.0664,
+            0.7422
+          ]
+        },
+        {
+          "text": "Message",
+          "bbox": [
+            0.0787,
+            0.7059,
+            0.1459,
+            0.7422
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.3212,
+            0.7059,
+            0.3308,
+            0.7422
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.3413,
+            0.7059,
+            0.351,
+            0.7422
+          ]
+        },
+        {
+          "text": "Message",
+          "bbox": [
+            0.3604,
+            0.7059,
+            0.4277,
+            0.7422
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.5928,
+            0.7059,
+            0.6024,
+            0.7422
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.6129,
+            0.7059,
+            0.6225,
+            0.7422
+          ]
+        },
+        {
+          "text": "Message",
+          "bbox": [
+            0.632,
+            0.7059,
+            0.6992,
+            0.7422
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.8725,
+            0.7059,
+            0.8821,
+            0.7422
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.8926,
+            0.7059,
+            0.9022,
+            0.7422
+          ]
+        },
+        {
+          "text": "Message",
+          "bbox": [
+            0.9145,
+            0.7059,
+            0.9817,
+            0.7422
+          ]
+        },
+        {
+          "text": "Data link",
+          "bbox": [
+            0.1764,
+            0.7696,
+            0.2575,
+            0.8112
+          ]
+        },
+        {
+          "text": "Data link",
+          "bbox": [
+            0.7393,
+            0.7696,
+            0.8205,
+            0.8112
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.0166,
+            0.7733,
+            0.0262,
+            0.8096
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.0367,
+            0.7733,
+            0.0463,
+            0.8096
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.0568,
+            0.7733,
+            0.0664,
+            0.8096
+          ]
+        },
+        {
+          "text": "Message",
+          "bbox": [
+            0.0787,
+            0.7733,
+            0.1459,
+            0.8096
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.3011,
+            0.7733,
+            0.3107,
+            0.8096
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.3212,
+            0.7733,
+            0.3308,
+            0.8096
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.3413,
+            0.7733,
+            0.351,
+            0.8096
+          ]
+        },
+        {
+          "text": "Message",
+          "bbox": [
+            0.3604,
+            0.7733,
+            0.4277,
+            0.8096
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.5727,
+            0.7733,
+            0.5823,
+            0.8096
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.5928,
+            0.7733,
+            0.6024,
+            0.8096
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.6129,
+            0.7733,
+            0.6225,
+            0.8096
+          ]
+        },
+        {
+          "text": "Message",
+          "bbox": [
+            0.632,
+            0.7733,
+            0.6992,
+            0.8096
+          ]
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.8524,
+            0.7733,
+            0.862,
+            0.8096
+          ]
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.8725,
+            0.7733,
+            0.8821,
+            0.8096
+          ]
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.8926,
+            0.7733,
+            0.9022,
+            0.8096
+          ]
+        },
+        {
+          "text": "Message",
+          "bbox": [
+            0.9145,
+            0.7733,
+            0.9817,
+            0.8096
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.1781,
+            0.848,
+            0.2559,
+            0.8896
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.7411,
+            0.848,
+            0.8188,
+            0.8896
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:00:38+00:00"
+      }
+    },
+    {
+      "id": "ch02_ill_009",
+      "file": "ch02_ill_009.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 2.9",
+      "section_id": "ch02-2-2-5",
+      "alt": "Figure 2.9: Addressing in the TCP/IP protocol suite",
+      "sources": [
+        "book Figure 2.9; p.43"
+      ],
+      "confidence": "high",
+      "width": 1053,
+      "height": 496,
+      "sha256": "fe5aa5e34000ec2be688847829f5e36ddb2551929c3585f4af03121e25724f98",
+      "description": "Figure 2.9: Addressing in the TCP/IP protocol suite. A three-column mapping relates packet names to layers and address types: Message/Application/Names; Segment or User datagram/Transport/Port numbers; Datagram/Network/Logical addresses; Frame/Data-link/Link-layer addresses; Bits/Physical with no address type.",
+      "text_in_image": "Packet names; Layers; Addresses; Message; Application layer; Names; Segment / User datagram; Transport layer; Port numbers; Datagram; Network layer; Logical addresses; Frame; Data-link layer; Link-layer addresses; Bits; Physical layer",
+      "use_when": "Teach ch02-2-2-5, explain Figure 2.9, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "A three-column mapping relates packet names to layers and address types: Message/Application/Names; Segment or User datagram/Transport/Port numbers; Datagram/Network/Logical addresses; Frame/Data-link/Link-layer addresses; Bits/Physical with no address type.",
+      "source_pdf_page": 13,
+      "source_bbox": [
+        115.34,
+        48.52,
+        466.32,
+        213.44
+      ],
+      "labels": [
+        {
+          "text": "Packet names",
+          "bbox": [
+            0.2375,
+            0.2239,
+            0.3707,
+            0.2724
+          ]
+        },
+        {
+          "text": "Layers",
+          "bbox": [
+            0.4843,
+            0.2239,
+            0.5512,
+            0.2724
+          ]
+        },
+        {
+          "text": "Addresses",
+          "bbox": [
+            0.6676,
+            0.2239,
+            0.7659,
+            0.2724
+          ]
+        },
+        {
+          "text": "Message",
+          "bbox": [
+            0.2884,
+            0.3247,
+            0.3682,
+            0.3732
+          ]
+        },
+        {
+          "text": "Application layer",
+          "bbox": [
+            0.4382,
+            0.3247,
+            0.5971,
+            0.3732
+          ]
+        },
+        {
+          "text": "Names",
+          "bbox": [
+            0.6704,
+            0.3253,
+            0.7337,
+            0.3738
+          ]
+        },
+        {
+          "text": "Segment / User datagram",
+          "bbox": [
+            0.1374,
+            0.4456,
+            0.3682,
+            0.4942
+          ]
+        },
+        {
+          "text": "Transport layer",
+          "bbox": [
+            0.4482,
+            0.4472,
+            0.5873,
+            0.4957
+          ]
+        },
+        {
+          "text": "Port numbers",
+          "bbox": [
+            0.6704,
+            0.4478,
+            0.7926,
+            0.4963
+          ]
+        },
+        {
+          "text": "Datagram",
+          "bbox": [
+            0.2783,
+            0.5666,
+            0.3682,
+            0.6151
+          ]
+        },
+        {
+          "text": "Network layer",
+          "bbox": [
+            0.4525,
+            0.5697,
+            0.5833,
+            0.6182
+          ]
+        },
+        {
+          "text": "Logical addresses",
+          "bbox": [
+            0.6704,
+            0.5703,
+            0.8331,
+            0.6188
+          ]
+        },
+        {
+          "text": "Frame",
+          "bbox": [
+            0.3099,
+            0.6876,
+            0.3682,
+            0.7361
+          ]
+        },
+        {
+          "text": "Data-link layer",
+          "bbox": [
+            0.449,
+            0.6922,
+            0.5864,
+            0.7407
+          ]
+        },
+        {
+          "text": "Link-layer addresses",
+          "bbox": [
+            0.6704,
+            0.6928,
+            0.8597,
+            0.7413
+          ]
+        },
+        {
+          "text": "Bits",
+          "bbox": [
+            0.3314,
+            0.8086,
+            0.3682,
+            0.8571
+          ]
+        },
+        {
+          "text": "Physical layer",
+          "bbox": [
+            0.4479,
+            0.8269,
+            0.5834,
+            0.8754
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:00:38+00:00"
+      }
+    },
+    {
+      "id": "ch02_ill_010",
+      "file": "ch02_ill_010.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 2.10",
+      "section_id": "ch02-2-2-6",
+      "alt": "Figure 2.10: Multiplexing and demultiplexing",
+      "sources": [
+        "book Figure 2.10; p.43"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 461,
+      "sha256": "1123d7ec70e7b127223c14e719100b516a4b6137a8f8e0fc661cae87b0c0f399",
+      "description": "Figure 2.10: Multiplexing and demultiplexing. At the source, FTP and HTTP feed TCP while DNS and SNMP feed UDP; TCP and UDP multiplex into IP. At the destination, IP demultiplexes to TCP or UDP and then to the appropriate application protocol. Ellipses indicate additional protocols.",
+      "text_in_image": "FTP; HTTP; DNS; SNMP; FTP; HTTP; DNS; SNMP; TCP; UDP; TCP; UDP; IP; IP; a. Multiplexing at source; b. Demultiplexing at destination",
+      "use_when": "Teach ch02-2-2-6, explain Figure 2.10, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "At the source, FTP and HTTP feed TCP while DNS and SNMP feed UDP; TCP and UDP multiplex into IP. At the destination, IP demultiplexes to TCP or UDP and then to the appropriate application protocol. Ellipses indicate additional protocols.",
+      "source_pdf_page": 13,
+      "source_bbox": [
+        114.32,
+        422.32,
+        466.32,
+        575.42
+      ],
+      "labels": [
+        {
+          "text": "FTP",
+          "bbox": [
+            0.0398,
+            0.2337,
+            0.0789,
+            0.286
+          ]
+        },
+        {
+          "text": "HTTP",
+          "bbox": [
+            0.1634,
+            0.2337,
+            0.2202,
+            0.286
+          ]
+        },
+        {
+          "text": "DNS",
+          "bbox": [
+            0.2746,
+            0.2337,
+            0.32,
+            0.286
+          ]
+        },
+        {
+          "text": "SNMP",
+          "bbox": [
+            0.3988,
+            0.2337,
+            0.4607,
+            0.286
+          ]
+        },
+        {
+          "text": "FTP",
+          "bbox": [
+            0.5464,
+            0.2337,
+            0.5856,
+            0.286
+          ]
+        },
+        {
+          "text": "HTTP",
+          "bbox": [
+            0.67,
+            0.2337,
+            0.7269,
+            0.286
+          ]
+        },
+        {
+          "text": "DNS",
+          "bbox": [
+            0.7812,
+            0.2337,
+            0.8266,
+            0.286
+          ]
+        },
+        {
+          "text": "SNMP",
+          "bbox": [
+            0.9054,
+            0.2337,
+            0.9673,
+            0.286
+          ]
+        },
+        {
+          "text": "TCP",
+          "bbox": [
+            0.1064,
+            0.4678,
+            0.1481,
+            0.5201
+          ]
+        },
+        {
+          "text": "UDP",
+          "bbox": [
+            0.3419,
+            0.4678,
+            0.3873,
+            0.5201
+          ]
+        },
+        {
+          "text": "TCP",
+          "bbox": [
+            0.613,
+            0.4678,
+            0.6547,
+            0.5201
+          ]
+        },
+        {
+          "text": "UDP",
+          "bbox": [
+            0.8485,
+            0.4678,
+            0.8939,
+            0.5201
+          ]
+        },
+        {
+          "text": "IP",
+          "bbox": [
+            0.2311,
+            0.7027,
+            0.2513,
+            0.755
+          ]
+        },
+        {
+          "text": "IP",
+          "bbox": [
+            0.7378,
+            0.7027,
+            0.758,
+            0.755
+          ]
+        },
+        {
+          "text": "a. Multiplexing at source",
+          "bbox": [
+            0.1278,
+            0.8536,
+            0.3547,
+            0.9059
+          ]
+        },
+        {
+          "text": "b. Demultiplexing at destination",
+          "bbox": [
+            0.602,
+            0.8536,
+            0.8937,
+            0.9059
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:00:38+00:00"
+      }
+    },
+    {
+      "id": "ch02_ill_011",
+      "file": "ch02_ill_011.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 2.11",
+      "section_id": "ch02-2-3",
+      "alt": "Figure 2.11: The OSI model",
+      "sources": [
+        "book Figure 2.11; p.44"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 517,
+      "sha256": "e94c2b76e774e831479e80a113de6cf79fc4ee830ea8976e53d739ac12e14027",
+      "description": "Figure 2.11: The OSI model. Seven stacked OSI layers are numbered from Layer 7 Application at the top through Presentation, Session, Transport, Network, Data link, to Layer 1 Physical at the bottom.",
+      "text_in_image": "Layer 7; Application; Layer 6; Presentation; Layer 5; Session; Layer 4; Transport; Layer 3; Network; Layer 2; Data link; Layer 1; Physical",
+      "use_when": "Teach ch02-2-3, explain Figure 2.11, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "Seven stacked OSI layers are numbered from Layer 7 Application at the top through Presentation, Session, Transport, Network, Data link, to Layer 1 Physical at the bottom.",
+      "source_pdf_page": 14,
+      "source_bbox": [
+        99.32,
+        410.92,
+        451.32,
+        582.86
+      ],
+      "labels": [
+        {
+          "text": "Layer 7",
+          "bbox": [
+            0.2492,
+            0.2087,
+            0.3192,
+            0.2552
+          ]
+        },
+        {
+          "text": "Application",
+          "bbox": [
+            0.4853,
+            0.2088,
+            0.5926,
+            0.2553
+          ]
+        },
+        {
+          "text": "Layer 6",
+          "bbox": [
+            0.2492,
+            0.3107,
+            0.3192,
+            0.3572
+          ]
+        },
+        {
+          "text": "Presentation",
+          "bbox": [
+            0.4828,
+            0.3108,
+            0.5951,
+            0.3573
+          ]
+        },
+        {
+          "text": "Layer 5",
+          "bbox": [
+            0.2492,
+            0.4127,
+            0.3192,
+            0.4592
+          ]
+        },
+        {
+          "text": "Session",
+          "bbox": [
+            0.5042,
+            0.4127,
+            0.5737,
+            0.4593
+          ]
+        },
+        {
+          "text": "Layer 4",
+          "bbox": [
+            0.2492,
+            0.5147,
+            0.3192,
+            0.5612
+          ]
+        },
+        {
+          "text": "Transport",
+          "bbox": [
+            0.4951,
+            0.5147,
+            0.5827,
+            0.5612
+          ]
+        },
+        {
+          "text": "Layer 3",
+          "bbox": [
+            0.2492,
+            0.6167,
+            0.3192,
+            0.6632
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.4992,
+            0.6167,
+            0.5785,
+            0.6632
+          ]
+        },
+        {
+          "text": "Layer 2",
+          "bbox": [
+            0.2492,
+            0.7186,
+            0.3192,
+            0.7652
+          ]
+        },
+        {
+          "text": "Data link",
+          "bbox": [
+            0.4969,
+            0.7187,
+            0.5809,
+            0.7652
+          ]
+        },
+        {
+          "text": "Layer 1",
+          "bbox": [
+            0.2492,
+            0.8206,
+            0.3192,
+            0.8672
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.4987,
+            0.8323,
+            0.5792,
+            0.8789
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:00:38+00:00"
+      }
+    },
+    {
+      "id": "ch02_ill_012",
+      "file": "ch02_ill_012.png",
+      "type": "illustration",
+      "kind": "diagram",
+      "render": true,
+      "orig_label": "Figure 2.12",
+      "section_id": "ch02-2-3-1",
+      "alt": "Figure 2.12: TCP/IP and OSI model",
+      "sources": [
+        "book Figure 2.12; p.45"
+      ],
+      "confidence": "high",
+      "width": 1057,
+      "height": 666,
+      "sha256": "f8ff07f1ebcd50fa75e25fde6003c0f527068485862e9f7e307a65e7a5472d0e",
+      "description": "Figure 2.12: TCP/IP and OSI model. The OSI stack is compared with TCP/IP. OSI Application, Presentation, and Session correspond to TCP/IP Application; OSI Transport corresponds to TCP/IP Transport; Network to Network; Data link to Data link; and Physical to Physical. Braces identify several application protocols, several transport protocols, IP plus helper protocols, and underlying LAN/WAN technology.",
+      "text_in_image": "Application; Several application; Presentation; Application; protocols; Session; Several transport; Transport; Transport; protocols; Internet Protocol; Network; Network; and some helping; protocols; Data link; Data link; Underlying; LAN and WAN; technology; Physical; Physical; TCP/IP Protocol Suite; OSI Model",
+      "use_when": "Teach ch02-2-3-1, explain Figure 2.12, or solve a linked practice question.",
+      "tier": "primary",
+      "needs_review": false,
+      "structure": "The OSI stack is compared with TCP/IP. OSI Application, Presentation, and Session correspond to TCP/IP Application; OSI Transport corresponds to TCP/IP Transport; Network to Network; Data link to Data link; and Physical to Physical. Braces identify several application protocols, several transport protocols, IP plus helper protocols, and underlying LAN/WAN technology.",
+      "source_pdf_page": 15,
+      "source_bbox": [
+        114.32,
+        140.86,
+        466.32,
+        362.36
+      ],
+      "labels": [
+        {
+          "text": "Application",
+          "bbox": [
+            0.1464,
+            0.1741,
+            0.2537,
+            0.2102
+          ]
+        },
+        {
+          "text": "Several application",
+          "bbox": [
+            0.714,
+            0.2611,
+            0.8879,
+            0.2972
+          ]
+        },
+        {
+          "text": "Presentation",
+          "bbox": [
+            0.1439,
+            0.2783,
+            0.2563,
+            0.3145
+          ]
+        },
+        {
+          "text": "Application",
+          "bbox": [
+            0.4563,
+            0.279,
+            0.5636,
+            0.3151
+          ]
+        },
+        {
+          "text": "protocols",
+          "bbox": [
+            0.714,
+            0.2994,
+            0.8043,
+            0.3356
+          ]
+        },
+        {
+          "text": "Session",
+          "bbox": [
+            0.1653,
+            0.3826,
+            0.2348,
+            0.4187
+          ]
+        },
+        {
+          "text": "Several transport",
+          "bbox": [
+            0.714,
+            0.4715,
+            0.8734,
+            0.5076
+          ]
+        },
+        {
+          "text": "Transport",
+          "bbox": [
+            0.1563,
+            0.4868,
+            0.2439,
+            0.5229
+          ]
+        },
+        {
+          "text": "Transport",
+          "bbox": [
+            0.4661,
+            0.4868,
+            0.5537,
+            0.5229
+          ]
+        },
+        {
+          "text": "protocols",
+          "bbox": [
+            0.714,
+            0.5098,
+            0.8043,
+            0.5459
+          ]
+        },
+        {
+          "text": "Internet Protocol",
+          "bbox": [
+            0.714,
+            0.5578,
+            0.8674,
+            0.5939
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.1603,
+            0.5923,
+            0.2396,
+            0.6284
+          ]
+        },
+        {
+          "text": "Network",
+          "bbox": [
+            0.4702,
+            0.5923,
+            0.5495,
+            0.6284
+          ]
+        },
+        {
+          "text": "and some helping",
+          "bbox": [
+            0.714,
+            0.5962,
+            0.8744,
+            0.6323
+          ]
+        },
+        {
+          "text": "protocols",
+          "bbox": [
+            0.714,
+            0.6345,
+            0.7986,
+            0.6707
+          ]
+        },
+        {
+          "text": "Data link",
+          "bbox": [
+            0.158,
+            0.6957,
+            0.242,
+            0.7319
+          ]
+        },
+        {
+          "text": "Data link",
+          "bbox": [
+            0.4679,
+            0.6957,
+            0.5518,
+            0.7319
+          ]
+        },
+        {
+          "text": "Underlying",
+          "bbox": [
+            0.714,
+            0.7116,
+            0.8175,
+            0.7477
+          ]
+        },
+        {
+          "text": "LAN and WAN",
+          "bbox": [
+            0.714,
+            0.75,
+            0.8558,
+            0.7861
+          ]
+        },
+        {
+          "text": "technology",
+          "bbox": [
+            0.714,
+            0.7883,
+            0.815,
+            0.8245
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.1598,
+            0.8026,
+            0.2403,
+            0.8387
+          ]
+        },
+        {
+          "text": "Physical",
+          "bbox": [
+            0.4697,
+            0.8061,
+            0.5502,
+            0.8422
+          ]
+        },
+        {
+          "text": "TCP/IP Protocol Suite",
+          "bbox": [
+            0.4083,
+            0.8711,
+            0.6116,
+            0.9072
+          ]
+        },
+        {
+          "text": "OSI Model",
+          "bbox": [
+            0.1403,
+            0.875,
+            0.2419,
+            0.9111
+          ]
+        }
+      ],
+      "review": {
+        "crop": "reviewed",
+        "labels": "native_pdf_text_checked",
+        "visual_semantics": "reviewed",
+        "reviewed_at": "2026-10-07T03:00:38+00:00"
+      }
+    }
+  ]
+}
