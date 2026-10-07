@@ -79,7 +79,7 @@ def get_question(question_id: str) -> dict:
 
 @mcp.tool(annotations=READ)
 def get_asset_metadata(asset_id: str) -> dict:
-    """Inspect an asset's caption, labels, structure, source, and when it should be used."""
+    """Inspect an asset's caption, labels, structure, source, and repository image URL."""
     return store.asset(asset_id)[0]
 
 @mcp.tool(annotations=READ)

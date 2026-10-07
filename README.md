@@ -85,6 +85,12 @@ The resulting Worker URL is the MCP server URL with `/mcp` appended. `/healthz` 
 
 `search` and `fetch` aliases support clients expecting those tool names. `course://metadata`, `course://teaching`, and the `teach_section` prompt are also provided. Clients must support MCP; an arbitrary chatbot without tool integration cannot use this server directly.
 
+### Images and teaching artifacts in a chat client
+
+The server returns the original figure through `get_asset` as an MCP image block, alongside descriptive metadata. `get_asset_metadata` includes a `repository_url` for opening the source file. The chat client controls whether that image appears inline or can be returned as a downloadable attachment. If the learner asks to see or download a figure, the tutor should deliver the original image inline or as an actual attachment when supported. If neither works, it should give the returned repository URL and describe the figure. A successful tool call alone does not confirm that the learner saw an image or received a file.
+
+The full [tutor instructions](teaching/system_prompt.md) specify when to create a visual artifact: when requested or when an editable or interactive aid helps a retrieved concept, such as tracing encapsulation, stepping through a protocol, or varying formula inputs. The artifact is a cited, labeled teaching aid after the source explanation; it does not replace the original figure or reveal a practice answer early. The MCP provides source material, while Claude, ChatGPT, or another host creates and displays its own artifacts. For consistent behavior, add these tutor instructions to the client's project or custom instructions as well as using the `get_teaching_methodology` tool.
+
 ## Index and release integrity
 
 The [semantic routing index](course/semantic_index.json) records source hierarchy, stable IDs, terms, linked assets, and practice questions. Ranking uses BM25 plus curated acronym expansion. It does not use embeddings or require a model API key.

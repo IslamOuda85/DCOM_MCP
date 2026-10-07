@@ -177,5 +177,6 @@ class Store:
         if aid not in self.assets:raise ValueError('Unknown or unreleased asset')
         a=self.assets[aid];self.assert_fresh(a['chapter'])
         path=safe_path(self.fingerprints[a['chapter']][0],'assets/'+a['file'])
-        return a,path
+        metadata=dict(a,repository_url=self.source_url(a['chapter'],'assets/'+a['file']))
+        return metadata,path
 
